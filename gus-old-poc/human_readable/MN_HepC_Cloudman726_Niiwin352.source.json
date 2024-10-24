@@ -1,0 +1,1011 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "American Indian or Alaska Native",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "58",
+        "Date of Birth": "1965-09-23",
+        "Location": "Mahnomen, Minnesota",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "White Earth Band of Ojibwe"
+    },
+    "Patient Name": "Cloudman726, Niiwin352",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Unemployed",
+        "Gender Identity": "Male",
+        "Disability Status": "Disabled",
+        "Education Level": "High school graduate",
+        "Marital Status": "Divorced",
+        "Smoking Status": "Current every day smoker",
+        "BMI": "32.5",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Medicaid",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "Not currently detained",
+        "Lose Housing Worry": "Somewhat worried",
+        "People Living at Address": "2",
+        "Housing Status": "Renting",
+        "Stress Level": "High stress level"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1742 Ojibwe Trail, Mahnomen, MN 56557",
+        "Patient Email": "cloudman726@whiteearthmail.net",
+        "Patient Phone": "218-555-3492"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Unemployed",
+        "Current Industry": "N/A",
+        "Usual Occupation": "Casino Security Guard",
+        "Usual Industry": "Gaming and Hospitality",
+        "Usual Employment Date Range": "Start: 2005-03-15 to 2023-11-30",
+        "Current Job Title": "N/A",
+        "Current Employer": "N/A",
+        "Current Employment Start Date": "N/A",
+        "Annual Income": "$0 (currently unemployed); Previously $32,000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "White Earth Reservation, Minnesota",
+                "Purpose": "Family",
+                "Start Date": "2024-05-20",
+                "End Date": "2024-05-23",
+                "Accommodations": "Family member's home",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Attended a family gathering, visited tribal health clinic for routine check-up"
+            },
+            {
+                "Location": "Bemidji, Minnesota",
+                "Purpose": "Medical",
+                "Start Date": "2024-03-12",
+                "End Date": "2024-03-13",
+                "Accommodations": "Hospital",
+                "Mode of Travel": "Medical transport",
+                "Activities": "Underwent advanced imaging and specialist consultation at Sanford Bemidji Medical Center"
+            },
+            {
+                "Location": "Fargo, North Dakota",
+                "Purpose": "Medical",
+                "Start Date": "2023-12-05",
+                "End Date": "2023-12-07",
+                "Accommodations": "Budget hotel",
+                "Mode of Travel": "Friend's car",
+                "Activities": "Visited Sanford Roger Maris Cancer Center for second opinion and treatment options"
+            },
+            {
+                "Location": "Minneapolis, Minnesota",
+                "Purpose": "Medical",
+                "Start Date": "2023-09-18",
+                "End Date": "2023-09-22",
+                "Accommodations": "Patient housing at medical center",
+                "Mode of Travel": "Medical transport",
+                "Activities": "Underwent liver biopsy and initial cancer staging at University of Minnesota Medical Center"
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient's recent travel history is primarily for medical purposes related to his hepatitis C and hepatocellular carcinoma (HCC). He has made multiple trips to larger medical centers for diagnosis, staging, and treatment consultations. In September 2023, he traveled to Minneapolis for a liver biopsy and initial cancer staging at the University of Minnesota Medical Center. In December 2023, he visited Fargo, North Dakota for a second opinion at the Sanford Roger Maris Cancer Center. More recently, in March 2024, he went to Bemidji for advanced imaging and specialist consultation at Sanford Bemidji Medical Center. His most recent travel in May 2024 was to the White Earth Reservation, where he combined a family visit with a routine check-up at the tribal health clinic. These travels indicate the patient's engagement with both specialized urban medical centers and local tribal healthcare facilities for his HCC management, reflecting the complex care needs associated with his condition and the limited specialized healthcare resources in his immediate rural area."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Severe abdominal pain and weakness",
+        "Patient ID": "7392614",
+        "Encounter Class": "inpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "20240710153",
+        "Start DateTime": "2024-07-08 09:30",
+        "End DateTime": "2024-07-10 16:45",
+        "Discharge Disposition": "Discharged to home or self care with palliative care",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Hospital admission",
+                "SNOMED-CT Code": "32485007",
+                "Description": "Hospital admission (procedure)",
+                "Start Date": "2024-07-08",
+                "End Date": "2024-07-08"
+            },
+            {
+                "Encounter Type": "Inpatient stay",
+                "SNOMED-CT Code": "183452005",
+                "Description": "Inpatient stay (finding)",
+                "Start Date": "2024-07-08",
+                "End Date": "2024-07-10"
+            },
+            {
+                "Encounter Type": "Palliative care",
+                "SNOMED-CT Code": "103735009",
+                "Description": "Palliative care (regime/therapy)",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-10"
+            },
+            {
+                "Encounter Type": "Pain management",
+                "SNOMED-CT Code": "182964004",
+                "Description": "Pain management (regime/therapy)",
+                "Start Date": "2024-07-08",
+                "End Date": "2024-07-10"
+            },
+            {
+                "Encounter Type": "Oncology consultation",
+                "SNOMED-CT Code": "84251009",
+                "Description": "Consultation for neoplasm (procedure)",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Discharge planning",
+                "SNOMED-CT Code": "305351004",
+                "Description": "Discharge planning (procedure)",
+                "Start Date": "2024-07-10",
+                "End Date": "2024-07-10"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Roberts182, Anna597, MD",
+        "Practitioner Phone": "218-555-7392",
+        "Practitioner Fax": "218-555-7393",
+        "Practitioner Email": "a.roberts@mahnomenhealthcenter.org",
+        "Practitioner Office Name": "Mahnomen Health Center",
+        "Practitioner ID": "6739281045",
+        "Practitioner Address": "414 Wellness Drive, Mahnomen, MN 56557"
+    },
+    "Facility_Information": {
+        "Facility Name": "Mahnomen Health Center",
+        "Facility Type": "Hospital: General acute care hospital",
+        "Facility Phone": "218-555-7300",
+        "Facility Fax": "218-555-7301",
+        "Facility Address": "414 Wellness Drive, Mahnomen, MN 56557"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-06-15",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Weakness",
+                "SNOMED-CT": "13791008",
+                "Onset Date": "2024-06-20",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Unintentional weight loss",
+                "SNOMED-CT": "89362005",
+                "Onset Date": "2024-05-01",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-07-01",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Jaundice",
+                "SNOMED-CT": "18165001",
+                "Onset Date": "2024-06-25",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-05-15",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Ascites",
+                "SNOMED-CT": "389026000",
+                "Onset Date": "2024-06-10",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Loss of appetite",
+                "SNOMED-CT": "79890006",
+                "Onset Date": "2024-05-10",
+                "Severity": "Severe",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "38.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-07-08 09:45:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "92",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-07-08 09:45:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "20",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-07-08 09:45:00"
+            },
+            {
+                "Vital Sign": "Systolic blood pressure",
+                "Value": "135",
+                "SNOMED-CT": "271649006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-08 09:45:00"
+            },
+            {
+                "Vital Sign": "Diastolic blood pressure",
+                "Value": "85",
+                "SNOMED-CT": "271650006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-08 09:45:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "96",
+                "SNOMED-CT": "103228002",
+                "Unit": "%",
+                "Measurement Time": "2024-07-08 09:45:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "78.5",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-07-08 09:50:00"
+            },
+            {
+                "Vital Sign": "Pain score",
+                "Value": "8",
+                "SNOMED-CT": "225908003",
+                "Unit": "{score}",
+                "Measurement Time": "2024-07-08 09:50:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Severe abdominal pain and weakness",
+        "Past Medical History": "Patient has a long-standing history of hepatitis C, diagnosed in 1995 following routine screening. He underwent interferon-based therapy in 2000 but failed to achieve sustained virologic response. In 2023, he was diagnosed with hepatocellular carcinoma (HCC) as a complication of his chronic hepatitis C infection. Other relevant medical history includes type 2 diabetes mellitus (diagnosed 2015), alcohol use disorder (in remission since 2020), and chronic pain syndrome. He has a history of depression, exacerbated by his cancer diagnosis. The patient also has a history of hypertension and obesity.",
+        "Review of Systems": "General: Reports significant fatigue, unintentional weight loss of 15 kg over the past 3 months, and night sweats. Denies fever or chills. HEENT: Denies headaches, vision changes, or hearing problems. Notes yellowing of eyes. Cardiovascular: Denies chest pain or palpitations. Reports mild shortness of breath with exertion. Respiratory: Denies cough or wheezing. Gastrointestinal: Complains of severe right upper quadrant abdominal pain, nausea, and early satiety. Reports dark urine and clay-colored stools. Genitourinary: Denies dysuria or hematuria. Notes decreased urine output. Musculoskeletal: Reports general weakness and muscle wasting. Skin: Notes yellowing of skin and easy bruising. Neurological: Denies seizures or loss of consciousness. Reports occasional confusion and difficulty concentrating. Psychiatric: Acknowledges feelings of sadness and hopelessness related to his diagnosis.",
+        "History of Present Illness": "Mr. Cloudman726 is a 58-year-old American Indian male with a history of hepatitis C and hepatocellular carcinoma who presents with worsening abdominal pain and weakness. The patient was diagnosed with HCC in September 2023 following surveillance imaging for his chronic hepatitis C. At the time of diagnosis, he was found to have a 7 cm mass in the right lobe of the liver with evidence of portal vein invasion. He underwent transarterial chemoembolization (TACE) in October 2023 with initial response, but follow-up imaging in March 2024 showed disease progression with new lesions. He was started on sorafenib in April 2024 but experienced significant side effects including hand-foot syndrome and diarrhea, leading to dose reduction. Despite this, his most recent imaging from June 2024 shows continued disease progression with development of ascites. Over the past month, he has experienced increasing right upper quadrant pain, which he describes as a constant, dull ache with intermittent sharp exacerbations. The pain is rated 8/10 and is only partially relieved by his current pain medication regimen. He also reports worsening fatigue, anorexia, and unintentional weight loss of about 5 kg in the last month. He has developed worsening jaundice and abdominal distension over the past two weeks. The patient expresses understanding of his poor prognosis and wishes to focus on comfort and quality of life.",
+        "Plan of Treatment": "1. Palliative Care Consultation: Initiate palliative care services to address symptom management and provide psychosocial support. 2. Pain Management: Increase dose of long-acting opioid (morphine ER) and provide breakthrough medication (morphine IR) as needed. Consider adding gabapentin for neuropathic pain component. 3. Ascites Management: Perform therapeutic paracentesis for symptomatic relief. Start spironolactone and furosemide for ongoing management. 4. Nutrition: Consult dietitian for nutritional support recommendations. Consider appetite stimulants if appropriate. 5. Psychosocial Support: Arrange for social work and spiritual care visits. Offer referral to support groups for patients with advanced cancer. 6. Advance Care Planning: Discuss and document patient's wishes regarding code status, artificial nutrition, and preferred setting for end-of-life care. 7. Home Health Services: Arrange for home health nursing and personal care assistance. 8. Follow-up: Schedule outpatient follow-up with oncology in 2 weeks to reassess disease status and symptom control. 9. Patient Education: Provide education on disease progression, management of symptoms, and when to seek urgent medical attention. 10. Discontinue sorafenib given disease progression and focus on comfort care.",
+        "Vaccine Credential Patient Assertion": "Patient reports receiving hepatitis B vaccination series in 2000 after hepatitis C diagnosis. Confirms annual influenza vaccinations, with the most recent in October 2023. States he received COVID-19 primary series and one booster in 2022. Unsure about pneumococcal vaccination status. Declines to provide information about other vaccinations."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "1742-6",
+                "LOINC Order Code Description": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "245",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708001"
+            },
+            {
+                "LOINC Laboratory Order Code": "1920-8",
+                "LOINC Order Code Description": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "312",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708002"
+            },
+            {
+                "LOINC Laboratory Order Code": "1975-2",
+                "LOINC Order Code Description": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "8.2",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708003"
+            },
+            {
+                "LOINC Laboratory Order Code": "6301-6",
+                "LOINC Order Code Description": "INR in Platelet poor plasma by Coagulation assay",
+                "Laboratory Result": "1.8",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Plasma",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708004"
+            },
+            {
+                "LOINC Laboratory Order Code": "2885-2",
+                "LOINC Order Code Description": "Protein [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "5.8",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654325",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708005"
+            },
+            {
+                "LOINC Laboratory Order Code": "1751-7",
+                "LOINC Order Code Description": "Albumin [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "2.8",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654326",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708006"
+            },
+            {
+                "LOINC Laboratory Order Code": "2324-2",
+                "LOINC Order Code Description": "Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "420",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654327",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708007"
+            },
+            {
+                "LOINC Laboratory Order Code": "6768-6",
+                "LOINC Order Code Description": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "385",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654328",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708008"
+            },
+            {
+                "LOINC Laboratory Order Code": "2951-2",
+                "LOINC Order Code Description": "Sodium [Moles/volume] in Serum or Plasma",
+                "Laboratory Result": "133",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654329",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708009"
+            },
+            {
+                "LOINC Laboratory Order Code": "2823-3",
+                "LOINC Order Code Description": "Potassium [Moles/volume] in Serum or Plasma",
+                "Laboratory Result": "4.8",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654330",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708010"
+            },
+            {
+                "LOINC Laboratory Order Code": "2075-0",
+                "LOINC Order Code Description": "Chloride [Moles/volume] in Serum or Plasma",
+                "Laboratory Result": "98",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654331",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708011"
+            },
+            {
+                "LOINC Laboratory Order Code": "2160-0",
+                "LOINC Order Code Description": "Creatinine [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "1.8",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654332",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708012"
+            },
+            {
+                "LOINC Laboratory Order Code": "3094-0",
+                "LOINC Order Code Description": "Urea nitrogen [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "35",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654333",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708013"
+            },
+            {
+                "LOINC Laboratory Order Code": "2093-3",
+                "LOINC Order Code Description": "Cholesterol [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "185",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654334",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708014"
+            },
+            {
+                "LOINC Laboratory Order Code": "2571-8",
+                "LOINC Order Code Description": "Triglyceride [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "210",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654335",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708015"
+            },
+            {
+                "LOINC Laboratory Order Code": "6690-2",
+                "LOINC Order Code Description": "Leukocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "12.5",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654336",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708016"
+            },
+            {
+                "LOINC Laboratory Order Code": "789-8",
+                "LOINC Order Code Description": "Erythrocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "3.2",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654337",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708017"
+            },
+            {
+                "LOINC Laboratory Order Code": "718-7",
+                "LOINC Order Code Description": "Hemoglobin [Mass/volume] in Blood",
+                "Laboratory Result": "9.8",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654338",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708018"
+            },
+            {
+                "LOINC Laboratory Order Code": "4544-3",
+                "LOINC Order Code Description": "Hematocrit [Volume Fraction] of Blood by Automated count",
+                "Laboratory Result": "30.2",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654339",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708019"
+            },
+            {
+                "LOINC Laboratory Order Code": "777-3",
+                "LOINC Order Code Description": "Platelets [#/volume] in Blood by Automated count",
+                "Laboratory Result": "85",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654340",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708020"
+            },
+            {
+                "LOINC Laboratory Order Code": "2349-9",
+                "LOINC Order Code Description": "Glucose [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "185",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654341",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708021"
+            },
+            {
+                "LOINC Laboratory Order Code": "48345-3",
+                "LOINC Order Code Description": "Hepatitis C virus RNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection",
+                "Laboratory Result": "6.2",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654342",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708022"
+            },
+            {
+                "LOINC Laboratory Order Code": "2857-1",
+                "LOINC Order Code Description": "Prostate specific antigen [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "3.8",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654343",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708023"
+            },
+            {
+                "LOINC Laboratory Order Code": "2276-4",
+                "LOINC Order Code Description": "Ferritin [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "850",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654344",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708024"
+            },
+            {
+                "LOINC Laboratory Order Code": "2498-4",
+                "LOINC Order Code Description": "Iron [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "45",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654345",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240708025"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Hepatocellular carcinoma",
+                "ICD-10 Code": "C22.0",
+                "SNOMED-CT Code": "109841003",
+                "Diagnosis Date": "2023-09-18",
+                "Onset Date": "2023-08-15",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Chronic hepatitis C",
+                "ICD-10 Code": "B18.2",
+                "SNOMED-CT Code": "50711007",
+                "Diagnosis Date": "1995-03-10",
+                "Onset Date": "1995-03-10",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Cirrhosis of liver due to hepatitis C",
+                "ICD-10 Code": "K74.60",
+                "SNOMED-CT Code": "197441003",
+                "Diagnosis Date": "2020-05-22",
+                "Onset Date": "2020-05-22",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Type 2 diabetes mellitus",
+                "ICD-10 Code": "E11.9",
+                "SNOMED-CT Code": "44054006",
+                "Diagnosis Date": "2015-11-30",
+                "Onset Date": "2015-11-30",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Alcohol use disorder, in remission",
+                "ICD-10 Code": "F10.21",
+                "SNOMED-CT Code": "5471000119103",
+                "Diagnosis Date": "2020-02-15",
+                "Onset Date": "2010-01-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Chronic pain syndrome",
+                "ICD-10 Code": "G89.4",
+                "SNOMED-CT Code": "82423001",
+                "Diagnosis Date": "2022-07-10",
+                "Onset Date": "2022-07-10",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Major depressive disorder",
+                "ICD-10 Code": "F32.9",
+                "SNOMED-CT Code": "370143000",
+                "Diagnosis Date": "2023-10-05",
+                "Onset Date": "2023-09-20",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Essential (primary) hypertension",
+                "ICD-10 Code": "I10",
+                "SNOMED-CT Code": "59621000",
+                "Diagnosis Date": "2018-03-20",
+                "Onset Date": "2018-03-20",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Obesity",
+                "ICD-10 Code": "E66.9",
+                "SNOMED-CT Code": "414916001",
+                "Diagnosis Date": "2016-09-12",
+                "Onset Date": "2016-09-12",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Ascites",
+                "ICD-10 Code": "R18.8",
+                "SNOMED-CT Code": "389026000",
+                "Diagnosis Date": "2024-06-10",
+                "Onset Date": "2024-06-10",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Hepatic encephalopathy",
+                "ICD-10 Code": "K72.91",
+                "SNOMED-CT Code": "72836002",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-07-08",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Thrombocytopenia",
+                "ICD-10 Code": "D69.6",
+                "SNOMED-CT Code": "302215000",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-07-08",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic Imaging",
+                "Procedure Description": "CT scan, abdomen and pelvis, with contrast",
+                "CPT Code": "74177",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "To assess progression of hepatocellular carcinoma and evaluate ascites",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Paracentesis of abdominal cavity",
+                "CPT Code": "49082",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "Therapeutic paracentesis to relieve abdominal distension and discomfort due to ascites",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Esophagogastroduodenoscopy with biopsy",
+                "CPT Code": "43239",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "To evaluate for esophageal varices and assess for any upper GI bleeding",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Insertion of tunneled central venous catheter",
+                "CPT Code": "36558",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-10",
+                "Details": "Placement of central line for long-term IV access for palliative care",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Liver elastography",
+                "CPT Code": "91200",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "To assess the degree of liver fibrosis and cirrhosis",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Transarterial chemoembolization (TACE)",
+                "CPT Code": "37243",
+                "Status": "Completed",
+                "Procedure Date": "2023-10-15",
+                "Details": "Previous palliative treatment for hepatocellular carcinoma",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Liver biopsy",
+                "CPT Code": "47000",
+                "Status": "Completed",
+                "Procedure Date": "2023-09-18",
+                "Details": "Initial diagnostic biopsy for hepatocellular carcinoma",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Insertion of implantable pump and intrathecal or epidural catheter",
+                "CPT Code": "62362",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-15",
+                "Details": "Planned for intrathecal pain management as part of palliative care",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Destruction of liver lesion(s), radiofrequency ablation",
+                "CPT Code": "47382",
+                "Status": "Completed",
+                "Procedure Date": "2024-01-20",
+                "Details": "Previous palliative treatment for smaller hepatocellular carcinoma lesions",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "MRI, abdomen, without and with contrast",
+                "CPT Code": "74183",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-25",
+                "Details": "Follow-up imaging to assess disease progression and treatment response",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Sorafenib",
+                "Medication Type": "Tyrosine kinase inhibitor",
+                "Purpose": "Treatment of advanced hepatocellular carcinoma",
+                "Administration Mode": "Oral",
+                "Dose": "400 mg twice daily",
+                "Duration": "April 2024 - July 2024",
+                "Start Date": "2024-04-15",
+                "Response": "Poor",
+                "Response Details": "Disease progression despite treatment, significant side effects",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Morphine ER",
+                "Medication Type": "Opioid analgesic",
+                "Purpose": "Pain management",
+                "Administration Mode": "Oral",
+                "Dose": "30 mg every 12 hours",
+                "Duration": "Ongoing",
+                "Start Date": "2024-06-01",
+                "Response": "Moderate",
+                "Response Details": "Partial pain relief, dose increase required",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Morphine IR",
+                "Medication Type": "Opioid analgesic",
+                "Purpose": "Breakthrough pain management",
+                "Administration Mode": "Oral",
+                "Dose": "15 mg every 4 hours as needed",
+                "Duration": "Ongoing",
+                "Start Date": "2024-06-15",
+                "Response": "Good",
+                "Response Details": "Effective for breakthrough pain",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Spironolactone",
+                "Medication Type": "Potassium-sparing diuretic",
+                "Purpose": "Management of ascites",
+                "Administration Mode": "Oral",
+                "Dose": "100 mg daily",
+                "Duration": "Ongoing",
+                "Start Date": "2024-06-10",
+                "Response": "Moderate",
+                "Response Details": "Some reduction in ascites, but not complete resolution",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Furosemide",
+                "Medication Type": "Loop diuretic",
+                "Purpose": "Management of ascites and edema",
+                "Administration Mode": "Oral",
+                "Dose": "40 mg twice daily",
+                "Duration": "Ongoing",
+                "Start Date": "2024-06-10",
+                "Response": "Moderate",
+                "Response Details": "Improved urine output, some reduction in edema",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Lactulose",
+                "Medication Type": "Laxative",
+                "Purpose": "Management of hepatic encephalopathy",
+                "Administration Mode": "Oral",
+                "Dose": "30 mL three times daily",
+                "Duration": "Ongoing",
+                "Start Date": "2024-07-08",
+                "Response": "Good",
+                "Response Details": "Improvement in mental status",
+                "Observation Date": "2024-07-10"
+            },
+            {
+                "Medication Name": "Metformin",
+                "Medication Type": "Biguanide",
+                "Purpose": "Management of type 2 diabetes",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg twice daily",
+                "Duration": "Long-term",
+                "Start Date": "2015-12-01",
+                "Response": "Good",
+                "Response Details": "Adequate glycemic control",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Lisinopril",
+                "Medication Type": "ACE inhibitor",
+                "Purpose": "Management of hypertension",
+                "Administration Mode": "Oral",
+                "Dose": "10 mg daily",
+                "Duration": "Long-term",
+                "Start Date": "2018-03-25",
+                "Response": "Good",
+                "Response Details": "Blood pressure well-controlled",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Escitalopram",
+                "Medication Type": "SSRI antidepressant",
+                "Purpose": "Treatment of depression",
+                "Administration Mode": "Oral",
+                "Dose": "10 mg daily",
+                "Duration": "Ongoing",
+                "Start Date": "2023-10-10",
+                "Response": "Moderate",
+                "Response Details": "Some improvement in mood, but ongoing situational depression",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Management of nausea",
+                "Administration Mode": "Oral",
+                "Dose": "4 mg every 8 hours as needed",
+                "Duration": "Ongoing",
+                "Start Date": "2024-07-01",
+                "Response": "Good",
+                "Response Details": "Effective control of nausea",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Vitamin K",
+                "Medication Type": "Vitamin supplement",
+                "Purpose": "Correction of coagulopathy",
+                "Administration Mode": "Subcutaneous",
+                "Dose": "10 mg weekly",
+                "Duration": "Ongoing",
+                "Start Date": "2024-06-20",
+                "Response": "Moderate",
+                "Response Details": "Slight improvement in INR",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Thiamine",
+                "Medication Type": "Vitamin supplement",
+                "Purpose": "Prevention of Wernicke's encephalopathy",
+                "Administration Mode": "Intramuscular",
+                "Dose": "100 mg daily",
+                "Duration": "5 days",
+                "Start Date": "2024-07-08",
+                "Response": "Good",
+                "Response Details": "No signs of thiamine deficiency",
+                "Observation Date": "2024-07-10"
+            },
+            {
+                "Medication Name": "Albumin",
+                "Medication Type": "Plasma protein fraction",
+                "Purpose": "Management of ascites and hypoalbuminemia",
+                "Administration Mode": "Intravenous",
+                "Dose": "25 g in 100 mL",
+                "Duration": "Single dose",
+                "Start Date": "2024-07-09",
+                "Response": "Good",
+                "Response Details": "Temporary improvement in serum albumin levels",
+                "Observation Date": "2024-07-10"
+            },
+            {
+                "Medication Name": "Gabapentin",
+                "Medication Type": "Anticonvulsant",
+                "Purpose": "Management of neuropathic pain",
+                "Administration Mode": "Oral",
+                "Dose": "300 mg three times daily",
+                "Duration": "Ongoing",
+                "Start Date": "2024-07-09",
+                "Response": "Pending",
+                "Response Details": "Recently started, efficacy not yet determined",
+                "Observation Date": "2024-07-10"
+            },
+            {
+                "Medication Name": "Pantoprazole",
+                "Medication Type": "Proton pump inhibitor",
+                "Purpose": "Prevention of gastric ulcers",
+                "Administration Mode": "Oral",
+                "Dose": "40 mg daily",
+                "Duration": "Ongoing",
+                "Start Date": "2024-07-08",
+                "Response": "Good",
+                "Response Details": "No signs of gastrointestinal bleeding",
+                "Observation Date": "2024-07-10"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 58-year-old American Indian male with chronic hepatitis C since 1995 developed hepatocellular carcinoma in September 2023. Despite treatments including TACE and sorafenib, his disease progressed. By July 2024, he presented with severe abdominal pain, weakness, and ascites. Lab results showed elevated liver enzymes, bilirubin, and decreased albumin. The patient is now receiving palliative care, focusing on pain management and symptom control, with a poor prognosis due to advanced liver disease and cancer progression."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Cloudman726 Niiwin352",
+        "Report_Header_Age": "58",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-07-11"
+    }
+}

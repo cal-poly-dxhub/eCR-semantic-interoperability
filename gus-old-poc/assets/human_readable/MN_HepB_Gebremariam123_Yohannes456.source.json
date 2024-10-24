@@ -1,0 +1,494 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "Black or African American",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "36",
+        "Date of Birth": "1988-06-12",
+        "Location": "Minneapolis",
+        "Country of Residence": "United States of America",
+        "Country of Nationality": "Ethiopia",
+        "Preferred Language": "Amharic",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Gebremariam123, Yohannes456",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed",
+        "Gender Identity": "Male",
+        "Disability Status": "No disability",
+        "Education Level": "Bachelor's Degree",
+        "Marital Status": "Married",
+        "Smoking Status": "Former smoker",
+        "BMI": "26.5",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Private Health Insurance",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Not worried about losing housing",
+        "People Living at Address": "4",
+        "Housing Status": "Rented house or apartment",
+        "Stress Level": "Moderately stressed"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "4327 Willow Grove Lane, Minneapolis, MN 55417",
+        "Patient Email": "yohannes.gebremariam@email.com",
+        "Patient Phone": "612-555-0198"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Software Engineer",
+        "Current Industry": "Information Technology",
+        "Usual Occupation": "Software Engineer",
+        "Usual Industry": "Information Technology",
+        "Usual Employment Date Range": "Start: 2014-08-01 to current",
+        "Current Job Title": "Senior Software Engineer",
+        "Current Employer": "Acme Software Solutions, 1234 Technology Drive, Minneapolis, MN 55401, 612-555-9876",
+        "Current Employment Start Date": "2018-03-15",
+        "Annual Income": "115000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Addis Ababa, Ethiopia",
+                "Purpose": "Family",
+                "Start Date": "2023-05-15",
+                "End Date": "2023-06-22",
+                "Accommodations": "Relatives' home",
+                "Mode of Travel": "Airplane",
+                "Activities": "Visited family members, attended a wedding, explored local markets and cultural sites."
+            },
+            {
+                "Location": "Minneapolis, MN, USA",
+                "Purpose": "Routine",
+                "Start Date": "2023-06-23",
+                "End Date": "2023-06-23",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Returned home from international travel."
+            }
+        ]
+    },
+    "Travel_History_Narrative": "History of Travel Narrative: The patient recently returned from a trip to Addis Ababa, Ethiopia where he stayed from May 15, 2023 to June 22, 2023. The purpose of the trip was to visit family members, attend a wedding, and explore local markets and cultural sites. He stayed at relatives' homes and traveled by airplane. Upon returning to Minneapolis on June 23, 2023, the patient reported no significant illnesses, exposures, or risk factors during his travel.",
+    "Encounter_Details": {
+        "Chief Complaint": "Fatigue and abdominal discomfort",
+        "Patient ID": "6789012",
+        "Encounter Class": "Outpatient",
+        "Encounter Status": "Finished",
+        "Encounter ID": "87654321001",
+        "Start DateTime": "2023-06-26 09:30",
+        "End DateTime": "2023-06-26 11:45",
+        "Discharge Disposition": "Home",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient Consultation",
+                "SNOMED-CT Code": "185463005",
+                "Description": "An encounter for outpatient consultation",
+                "Start Date": "2023-06-26",
+                "End Date": "2023-06-26"
+            },
+            {
+                "Encounter Type": "Diagnostic Procedure",
+                "SNOMED-CT Code": "308335008",
+                "Description": "An encounter for a diagnostic procedure",
+                "Start Date": "2023-06-26",
+                "End Date": "2023-06-26"
+            },
+            {
+                "Encounter Type": "Outpatient Follow-up",
+                "SNOMED-CT Code": "390766001",
+                "Description": "An outpatient encounter for follow-up",
+                "Start Date": "2023-07-03",
+                "End Date": "2023-07-03"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "White018, Henry927, MD",
+        "Practitioner Phone": "612-555-7892",
+        "Practitioner Fax": "612-555-2109",
+        "Practitioner Email": "henry.white@metroclinic.com",
+        "Practitioner Office Name": "Metro Clinic",
+        "Practitioner ID": "8765432109",
+        "Practitioner Address": "2718 Chicago Ave, Minneapolis, MN 55407"
+    },
+    "Facility_Information": {
+        "Facility Name": "Metro Clinic",
+        "Facility Type": "Outpatient Clinic",
+        "Facility Phone": "612-555-7890",
+        "Facility Fax": "612-555-7891",
+        "Facility Address": "2718 Chicago Ave, Minneapolis, MN 55407"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2023-06-15",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2023-06-20",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "16930004",
+                "Onset Date": "2023-06-22",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Loss of appetite",
+                "SNOMED-CT": "79890006",
+                "Onset Date": "2023-06-20",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Dark urine",
+                "SNOMED-CT": "83099006",
+                "Onset Date": "2023-06-24",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Jaundice",
+                "SNOMED-CT": "51768003",
+                "Onset Date": "2023-06-25",
+                "Severity": "Mild",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "37.8",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2023-06-26 09:35:00"
+            },
+            {
+                "Vital Sign": "Blood pressure",
+                "Value": "135/88",
+                "SNOMED-CT": "75367002",
+                "Unit": "mmHg",
+                "Measurement Time": "2023-06-26 09:40:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "92",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2023-06-26 09:42:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "18",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2023-06-26 09:45:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "97",
+                "SNOMED-CT": "59408-5",
+                "Unit": "percentage",
+                "Measurement Time": "2023-06-26 09:50:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Fatigue, abdominal discomfort, and jaundice",
+        "Past Medical History": "The patient has no significant past medical history. He reports being generally healthy with no chronic conditions or major surgeries. He denies any history of liver disease, hepatitis, or other chronic illnesses.",
+        "Review of Systems": "Constitutional: Fatigue, loss of appetite. HEENT: Scleral icterus present. Respiratory: Clear to auscultation bilaterally. Cardiovascular: Regular rate and rhythm, normal heart sounds. Gastrointestinal: Mild epigastric tenderness, no rebound or guarding. Genitourinary: No complaints. Musculoskeletal: No complaints. Skin: Jaundiced appearance. Neurological: Alert and oriented x3. Psychiatric: Mood and affect appropriate.",
+        "History of Present Illness": "The patient is a 36-year-old Ethiopian male who presented with a 2-week history of fatigue, abdominal discomfort, nausea, loss of appetite, and dark urine. He recently returned from a trip to Addis Ababa, Ethiopia, where he visited family and attended a wedding from May 15th to June 22nd, 2023. Upon returning to Minneapolis on June 23rd, he began experiencing the aforementioned symptoms. Over the past few days, he has also noticed yellowing of his skin and eyes. He denies any fever, chills, vomiting, or changes in bowel habits. He has no known sick contacts or recent illnesses. His last hepatitis B vaccination was over 10 years ago.",
+        "Plan of Treatment": "Based on the patient's clinical presentation, travel history, and laboratory findings, the diagnosis is chronic hepatitis B virus (HBV) infection with HBeAg positivity. This indicates active viral replication and a high risk of progression to advanced liver disease. The plan is to initiate antiviral therapy with tenofovir disoproxil fumarate (TDF) 300 mg once daily. Baseline labs will be ordered, including complete blood count, comprehensive metabolic panel, hepatitis B viral load, and hepatitis B e-antigen. The patient will be counseled on the importance of medication adherence, lifestyle modifications, and regular follow-up. He will be referred to a hepatologist for further management and monitoring. Vaccination against hepatitis A virus will also be recommended.",
+        "Vaccine Credential Patient Assertion": "The patient reports receiving the hepatitis B vaccine series over 10 years ago but is unsure of the exact dates or number of doses."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Order Code Description": "Hepatitis B virus surface Ag [Presence] in Serum or Plasma",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2023-06-26 10:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "87654321"
+            },
+            {
+                "LOINC Order Code Description": "Hepatitis B virus e Ag [Presence] in Serum or Plasma",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2023-06-26 10:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "12345678"
+            },
+            {
+                "LOINC Order Code Description": "Hepatitis B virus DNA [#/volume] in Serum or Plasma",
+                "Laboratory Result": "5,000,000 IU/mL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Plasma",
+                "Specimen ID": "456789123",
+                "Specimen Collection Date": "2023-06-26 10:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "98765432"
+            },
+            {
+                "LOINC Order Code Description": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "3.5 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "789123456",
+                "Specimen Collection Date": "2023-06-26 10:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "65432109"
+            },
+            {
+                "LOINC Order Code Description": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "120 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "321654987",
+                "Specimen Collection Date": "2023-06-26 10:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "24681357"
+            },
+            {
+                "LOINC Order Code Description": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "85 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "753159486",
+                "Specimen Collection Date": "2023-06-26 10:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "96385274"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Chronic viral hepatitis B with delta-agent",
+                "ICD-10 Code": "B18.0",
+                "SNOMED-CT Code": "66071000119101",
+                "Diagnosis Date": "2023-06-26",
+                "Onset Date": "2023-06-15",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Chronic viral hepatitis B with hepatitis e-antigen",
+                "ICD-10 Code": "B18.1",
+                "SNOMED-CT Code": "27624003",
+                "Diagnosis Date": "2023-06-26",
+                "Onset Date": "2023-06-15",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Fatigue",
+                "ICD-10 Code": "R53.83",
+                "SNOMED-CT Code": "84229001",
+                "Diagnosis Date": "2023-06-26",
+                "Onset Date": "2023-06-15",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Abdominal pain",
+                "ICD-10 Code": "R10.9",
+                "SNOMED-CT Code": "21522001",
+                "Diagnosis Date": "2023-06-26",
+                "Onset Date": "2023-06-20",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Nausea",
+                "ICD-10 Code": "R11.0",
+                "SNOMED-CT Code": "16930004",
+                "Diagnosis Date": "2023-06-26",
+                "Onset Date": "2023-06-22",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Loss of appetite",
+                "ICD-10 Code": "R63.0",
+                "SNOMED-CT Code": "79890006",
+                "Diagnosis Date": "2023-06-26",
+                "Onset Date": "2023-06-20",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Dark urine",
+                "ICD-10 Code": "R82.3",
+                "SNOMED-CT Code": "83099006",
+                "Diagnosis Date": "2023-06-26",
+                "Onset Date": "2023-06-24",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Jaundice",
+                "ICD-10 Code": "R17",
+                "SNOMED-CT Code": "51768003",
+                "Diagnosis Date": "2023-06-26",
+                "Onset Date": "2023-06-25",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Ultrasound of abdomen",
+                "CPT Code": "76700",
+                "Status": "Completed",
+                "Procedure Date": "2023-06-26",
+                "Details": "Abdominal ultrasound to evaluate the liver and biliary system.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Antiviral therapy initiation",
+                "CPT Code": "n/a",
+                "Status": "Planned",
+                "Procedure Date": "2023-06-28",
+                "Details": "Initiation of tenofovir disoproxil fumarate (TDF) 300 mg once daily for treatment of chronic hepatitis B virus infection.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis B viral load",
+                "CPT Code": "87517",
+                "Status": "Completed",
+                "Procedure Date": "2023-06-26",
+                "Details": "Quantitative measurement of hepatitis B virus DNA in serum or plasma.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis B e-antigen test",
+                "CPT Code": "87340",
+                "Status": "Completed",
+                "Procedure Date": "2023-06-26",
+                "Details": "Detection of hepatitis B e-antigen in serum or plasma.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Liver function tests",
+                "CPT Code": "80076",
+                "Status": "Completed",
+                "Procedure Date": "2023-06-26",
+                "Details": "Panel of tests to evaluate liver function, including bilirubin, ALT, and AST.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis B surface antigen test",
+                "CPT Code": "87340",
+                "Status": "Completed",
+                "Procedure Date": "2023-06-26",
+                "Details": "Detection of hepatitis B surface antigen in serum or plasma.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Preventive",
+                "Procedure Description": "Hepatitis A vaccine administration",
+                "CPT Code": "90632",
+                "Status": "Planned",
+                "Procedure Date": "2023-07-03",
+                "Details": "Administration of hepatitis A vaccine to provide protection against hepatitis A virus infection.",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Tenofovir disoproxil fumarate",
+                "Medication Type": "Antiviral",
+                "Purpose": "Treatment of chronic hepatitis B virus infection",
+                "Administration Mode": "Oral",
+                "Dose": "300 mg once daily",
+                "Duration": "Ongoing",
+                "Start Date": "2023-06-28",
+                "Response": "Pending",
+                "Response Details": "Patient has not yet started medication. Response to be evaluated at follow-up visit.",
+                "Observation Date": "2023-06-26"
+            },
+            {
+                "Medication Name": "Hepatitis A vaccine",
+                "Medication Type": "Vaccine",
+                "Purpose": "Prevention of hepatitis A virus infection",
+                "Administration Mode": "Intramuscular injection",
+                "Dose": "Single dose",
+                "Duration": "One-time administration",
+                "Start Date": "2023-07-03",
+                "Response": "Pending",
+                "Response Details": "Patient has not yet received the vaccine. Response to be evaluated after administration.",
+                "Observation Date": "2023-06-26"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic",
+                "Purpose": "Symptomatic relief of pain and fever",
+                "Administration Mode": "Oral",
+                "Dose": "650 mg every 6 hours as needed",
+                "Duration": "As needed",
+                "Start Date": "2023-06-26",
+                "Response": "Good",
+                "Response Details": "Patient reported mild improvement in abdominal discomfort and fatigue after taking acetaminophen.",
+                "Observation Date": "2023-06-26"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 36-year-old Ethiopian male presented with fatigue, abdominal pain, and jaundice after returning from Ethiopia. He was diagnosed with chronic hepatitis B virus infection with HBeAg positivity, indicating active viral replication and high risk of progression. Antiviral therapy with tenofovir was initiated, and the patient was referred for further management."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Yohannes456 Gebremariam123",
+        "Report_Header_Age": "36",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-07-02"
+    }
+}

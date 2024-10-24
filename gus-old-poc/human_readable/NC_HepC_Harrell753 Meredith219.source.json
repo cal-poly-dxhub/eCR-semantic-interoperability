@@ -1,0 +1,555 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "White",
+        "Ethnicity": "Non-Hispanic or Latino",
+        "Patient Age": "52",
+        "Date of Birth": "1971-09-23",
+        "Location": "Wilmington",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Harrell753, Meredith219",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed",
+        "Gender Identity": "Female",
+        "Disability Status": "No disability",
+        "Education Level": "Bachelor's degree",
+        "Marital Status": "Married",
+        "Smoking Status": "Former smoker",
+        "BMI": "27.4",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Private insurance",
+        "Refugee Status": "Not a refugee",
+        "Correctional Facility Status": "Not in correctional facility",
+        "Lose Housing Worry": "Not worried at all",
+        "People Living at Address": "3",
+        "Housing Status": "Owns home",
+        "Stress Level": "Moderate stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "2714 Magnolia Terrace, Wilmington, NC 28403",
+        "Patient Email": "meredith.harrell753@email.com",
+        "Patient Phone": "910-555-3287"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Marketing Manager",
+        "Current Industry": "Retail",
+        "Usual Occupation": "Marketing Manager",
+        "Usual Industry": "Retail",
+        "Usual Employment Date Range": "Start: 2008-03-15 to current",
+        "Current Job Title": "Senior Marketing Manager",
+        "Current Employer": "Coastal Retail Group, 1250 Market Street, Wilmington, NC 28401, 910-555-7890",
+        "Current Employment Start Date": "2008-03-15",
+        "Annual Income": "$85,000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Atlanta, Georgia, USA",
+                "Purpose": "Business",
+                "Start Date": "2024-06-24",
+                "End Date": "2024-06-26",
+                "Accommodations": "Hyatt Regency Atlanta",
+                "Mode of Travel": "Commercial flight",
+                "Activities": "Attended a marketing conference, networked with industry professionals, and participated in workshops. Dined at several local restaurants."
+            },
+            {
+                "Location": "Myrtle Beach, South Carolina, USA",
+                "Purpose": "Vacation",
+                "Start Date": "2024-05-15",
+                "End Date": "2024-05-20",
+                "Accommodations": "Oceanfront vacation rental",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Beach activities, visited local attractions, dined at seafood restaurants, and attended a local festival."
+            },
+            {
+                "Location": "Charlotte, North Carolina, USA",
+                "Purpose": "Business",
+                "Start Date": "2024-03-07",
+                "End Date": "2024-03-08",
+                "Accommodations": "Westin Charlotte",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Attended a regional marketing strategy meeting, had dinner with colleagues at a steakhouse."
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient reports recent travel within the southeastern United States. Three months prior to diagnosis, she traveled to Charlotte, NC for a brief business trip. Two months ago, she spent five days in Myrtle Beach, SC for vacation, engaging in beach activities and dining out. Most recently, about two weeks before initial diagnosis, she attended a marketing conference in Atlanta, GA, staying for three days. While none of these locations are considered high-risk areas for Hepatitis C transmission, it's worth noting that the patient engaged in activities such as dining out and attending public events, which could potentially increase exposure risk if proper precautions were not taken. However, the likelihood of HCV transmission through these activities remains low. The patient's travel history does not indicate any visits to areas with known high prevalence of Hepatitis C or engagement in high-risk activities typically associated with HCV transmission."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Fatigue and abdominal discomfort",
+        "Patient ID": "7539514",
+        "Encounter Class": "outpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "20240709-001",
+        "Start DateTime": "2024-07-09 09:30",
+        "End DateTime": "2024-07-09 11:15",
+        "Discharge Disposition": "Discharged to home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient visit",
+                "SNOMED-CT Code": "308335008",
+                "Description": "Patient encounter procedure",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Initial evaluation",
+                "SNOMED-CT Code": "185349003",
+                "Description": "Encounter for 'check-up'",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Diagnostic procedure",
+                "SNOMED-CT Code": "386053000",
+                "Description": "Evaluation procedure",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Khurana637, Amita892, MD",
+        "Practitioner Phone": "910-555-3614",
+        "Practitioner Fax": "910-555-3615",
+        "Practitioner Email": "a.khurana@coastalhepatology.org",
+        "Practitioner Office Name": "Coastal Hepatology Associates",
+        "Practitioner ID": "1847293065",
+        "Practitioner Address": "1523 Medical Center Drive, Suite 305, Wilmington, NC 28401",
+        "End Date": "n/a"
+    },
+    "Facility_Information": {
+        "Facility Name": "Coastal Hepatology Associates",
+        "Facility Type": "Outpatient clinic",
+        "Facility Phone": "910-555-3600",
+        "Facility Fax": "910-555-3601",
+        "Facility Address": "1523 Medical Center Drive, Suite 305, Wilmington, NC 28401"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-06-15",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal discomfort",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-06-20",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Loss of appetite",
+                "SNOMED-CT": "79890006",
+                "Onset Date": "2024-06-25",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-07-01",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Joint pain",
+                "SNOMED-CT": "57676002",
+                "Onset Date": "2024-07-05",
+                "Severity": "Mild",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "37.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-07-09 09:35:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "82",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-07-09 09:36:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "16",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-07-09 09:37:00"
+            },
+            {
+                "Vital Sign": "Blood pressure",
+                "Value": "128/82",
+                "SNOMED-CT": "75367002",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-09 09:38:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "98",
+                "SNOMED-CT": "431314004",
+                "Unit": "%",
+                "Measurement Time": "2024-07-09 09:39:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "76.2",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-07-09 09:40:00"
+            },
+            {
+                "Vital Sign": "Body mass index",
+                "Value": "27.4",
+                "SNOMED-CT": "60621009",
+                "Unit": "kg/m2",
+                "Measurement Time": "2024-07-09 09:41:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Fatigue and abdominal discomfort",
+        "Past Medical History": "Patient reports no significant past medical history related to liver disease. She has a history of well-controlled hypertension, diagnosed 5 years ago, managed with lisinopril 10 mg daily. The patient is a former smoker, having quit 10 years ago after a 15-pack-year history. She denies any history of intravenous drug use, blood transfusions, or high-risk sexual behavior. No known history of hepatitis or other liver diseases in her family.",
+        "Review of Systems": "General: Reports fatigue and mild weight loss of about 5 pounds over the past month. Denies fever or chills.\nSkin: No jaundice, rashes, or itching.\nHEENT: No visual changes, hearing loss, or oral lesions.\nCardiovascular: No chest pain, palpitations, or edema.\nRespiratory: No shortness of breath or cough.\nGastrointestinal: Complains of mild abdominal discomfort, mainly in the right upper quadrant. Reports decreased appetite and occasional nausea. Denies vomiting, diarrhea, or changes in bowel habits.\nGenitourinary: No changes in urination or urinary symptoms.\nMusculoskeletal: Reports mild joint pain, particularly in the mornings.\nNeurological: No headaches, dizziness, or changes in memory.\nPsychiatric: Denies depression or anxiety, but mentions feeling more irritable lately.\nEndocrine: No excessive thirst or changes in temperature tolerance.\nHematologic: No easy bruising or bleeding.\nAllergic/Immunologic: No known allergies or recent infections.",
+        "History of Present Illness": "Ms. Harrell is a 52-year-old female presenting with complaints of fatigue and abdominal discomfort. The fatigue began approximately 3-4 weeks ago and has been gradually worsening. She describes it as a persistent tiredness that is not alleviated by rest. The abdominal discomfort started about 2-3 weeks ago, localized mainly in the right upper quadrant. It is described as a dull ache, intermittent, and mild in intensity.\n\nThe patient also reports a decrease in appetite over the past few weeks, accompanied by occasional nausea, particularly in the mornings. She has noticed a weight loss of about 5 pounds over the past month without intentional dieting. More recently, she has experienced mild joint pain, especially in the mornings.\n\nMs. Harrell denies any fever, jaundice, or changes in urine or stool color. She has not experienced any vomiting or diarrhea. The patient reports no recent changes in medications or diet. She mentions attending a marketing conference in Atlanta about two weeks ago but denies any known exposure to individuals with liver disease or engaging in high-risk behaviors.\n\nThe patient has no history of liver disease, hepatitis, or risk factors such as intravenous drug use or high-risk sexual behavior. She is a former smoker but quit 10 years ago. She drinks alcohol socially, typically 1-2 glasses of wine per week, but has not consumed any alcohol in the past two weeks due to not feeling well.\n\nGiven the constellation of symptoms and their gradual onset, further investigation is warranted to determine the underlying cause, with a suspicion of possible liver involvement.",
+        "Plan of Treatment": "1. Laboratory Tests:\n   - Complete Blood Count (CBC)\n   - Comprehensive Metabolic Panel (CMP)\n   - Hepatitis C Antibody test\n   - Hepatitis C RNA PCR test\n   - Hepatitis B surface antigen and core antibody\n   - HIV screening test\n   - Prothrombin Time (PT) and INR\n\n2. Imaging:\n   - Abdominal ultrasound to evaluate liver structure and rule out other abdominal pathologies\n\n3. Referrals:\n   - Refer to gastroenterology for further evaluation and management if Hepatitis C is confirmed\n\n4. Patient Education:\n   - Educate patient about Hepatitis C, its transmission, and potential implications\n   - Discuss the importance of avoiding alcohol and hepatotoxic medications\n\n5. Follow-up:\n   - Schedule a follow-up appointment in one week to review test results\n   - If Hepatitis C is confirmed, initiate discussion about treatment options and further management\n\n6. Supportive Care:\n   - Recommend adequate rest and a balanced diet\n   - Suggest over-the-counter acetaminophen for joint pain, not exceeding 2000mg per day\n\n7. Preventive Measures:\n   - Advise on preventive measures to avoid transmission if Hepatitis C is confirmed\n\n8. Mental Health:\n   - Assess need for mental health support if diagnosis is confirmed\n\n9. Additional Testing:\n   - Consider liver fibrosis assessment (FibroScan or FibroTest) if Hepatitis C is confirmed\n\n10. Vaccination:\n    - Recommend Hepatitis A and B vaccines if not previously immunized",
+        "Vaccine Credential Patient Assertion": "Patient reports being up to date on all recommended adult vaccinations, including influenza and tetanus. She believes she received Hepatitis B vaccination series in her 20s but is unsure about Hepatitis A. Patient agrees to review her vaccination records and bring them to the next appointment for verification and to discuss any needed updates."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "1742-6",
+                "LOINC Order Code Description": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "89",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "987654321"
+            },
+            {
+                "LOINC Laboratory Order Code": "1920-8",
+                "LOINC Order Code Description": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "95",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "234567890",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "876543210"
+            },
+            {
+                "LOINC Laboratory Order Code": "48159-8",
+                "LOINC Order Code Description": "Hepatitis C virus Ab [Presence] in Serum or Plasma by Immunoassay",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "345678901",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "765432109"
+            },
+            {
+                "LOINC Laboratory Order Code": "11011-4",
+                "LOINC Order Code Description": "Hepatitis C virus RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection",
+                "Laboratory Result": "850000",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Plasma",
+                "Specimen Type": "Blood",
+                "Specimen ID": "456789012",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "654321098"
+            },
+            {
+                "LOINC Laboratory Order Code": "10900-9",
+                "LOINC Order Code Description": "Hepatitis C virus genotype",
+                "Laboratory Result": "1a",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "567890123",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "543210987"
+            },
+            {
+                "LOINC Laboratory Order Code": "1975-2",
+                "LOINC Order Code Description": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "1.8",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "678901234",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "432109876"
+            },
+            {
+                "LOINC Laboratory Order Code": "4548-4",
+                "LOINC Order Code Description": "Hemoglobin A1c/Hemoglobin.total in Blood",
+                "Laboratory Result": "5.7",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Whole blood",
+                "Specimen Type": "Blood",
+                "Specimen ID": "789012345",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "321098765"
+            },
+            {
+                "LOINC Laboratory Order Code": "6690-2",
+                "LOINC Order Code Description": "Leukocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "6.8",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Whole blood",
+                "Specimen Type": "Blood",
+                "Specimen ID": "890123456",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "210987654"
+            },
+            {
+                "LOINC Laboratory Order Code": "2085-9",
+                "LOINC Order Code Description": "Cholesterol [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "210",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "901234567",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "109876543"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Chronic hepatitis C",
+                "ICD-10 Code": "B18.2",
+                "SNOMED-CT Code": "50711007",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-06-15",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Fatigue",
+                "ICD-10 Code": "R53.83",
+                "SNOMED-CT Code": "84229001",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-06-15",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Abdominal pain, right upper quadrant",
+                "ICD-10 Code": "R10.11",
+                "SNOMED-CT Code": "21522001",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-06-20",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Nausea",
+                "ICD-10 Code": "R11.0",
+                "SNOMED-CT Code": "422587007",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-07-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Elevated liver enzymes",
+                "ICD-10 Code": "R74.8",
+                "SNOMED-CT Code": "166603001",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-07-09",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Essential (primary) hypertension",
+                "ICD-10 Code": "I10",
+                "SNOMED-CT Code": "59621000",
+                "Diagnosis Date": "2019-07-15",
+                "Onset Date": "2019-07-15",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Abdominal ultrasound",
+                "CPT Code": "76700",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "Abdominal ultrasound performed to evaluate liver structure and rule out other abdominal pathologies in the context of newly diagnosed Hepatitis C.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Liver elastography",
+                "CPT Code": "91200",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-16",
+                "Details": "FibroScan scheduled to assess the degree of liver fibrosis in newly diagnosed Hepatitis C patient.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Hepatitis C antiviral therapy initiation",
+                "CPT Code": "99214",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-23",
+                "Details": "Appointment scheduled with hepatologist to discuss and potentially initiate direct-acting antiviral therapy for Hepatitis C.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis C viral genotype determination",
+                "CPT Code": "87902",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "Hepatitis C genotype testing performed to guide treatment selection.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Preventive",
+                "Procedure Description": "Hepatitis A and B vaccination",
+                "CPT Code": "90636",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-23",
+                "Details": "Scheduled administration of combined Hepatitis A and B vaccine to prevent coinfection in newly diagnosed Hepatitis C patient.",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Sofosbuvir/Velpatasvir",
+                "Medication Type": "Direct-acting antiviral",
+                "Purpose": "Treatment of Hepatitis C",
+                "Administration Mode": "Oral",
+                "Dose": "400mg/100mg",
+                "Duration": "12 weeks",
+                "Start Date": "2024-07-23",
+                "Response": "Pending",
+                "Response Details": "Treatment initiated, viral load monitoring planned",
+                "Observation Date": "2024-07-23"
+            },
+            {
+                "Medication Name": "Lisinopril",
+                "Medication Type": "ACE inhibitor",
+                "Purpose": "Management of hypertension",
+                "Administration Mode": "Oral",
+                "Dose": "10 mg daily",
+                "Duration": "Ongoing",
+                "Start Date": "2019-07-15",
+                "Response": "Effective",
+                "Response Details": "Blood pressure well-controlled",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic",
+                "Purpose": "Management of joint pain",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg as needed, not to exceed 2000 mg/day",
+                "Duration": "As needed",
+                "Start Date": "2024-07-09",
+                "Response": "Partially effective",
+                "Response Details": "Provides mild relief of joint pain",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Management of nausea",
+                "Administration Mode": "Oral",
+                "Dose": "4 mg as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-07-09",
+                "Response": "Effective",
+                "Response Details": "Reduces episodes of nausea",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Vitamin D3",
+                "Medication Type": "Supplement",
+                "Purpose": "Vitamin D supplementation",
+                "Administration Mode": "Oral",
+                "Dose": "2000 IU daily",
+                "Duration": "Ongoing",
+                "Start Date": "2023-01-01",
+                "Response": "Effective",
+                "Response Details": "Maintains adequate vitamin D levels",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Hepatitis A and B Vaccine",
+                "Medication Type": "Vaccine",
+                "Purpose": "Prevention of Hepatitis A and B coinfection",
+                "Administration Mode": "Intramuscular injection",
+                "Dose": "1 mL",
+                "Duration": "Series of 3 doses over 6 months",
+                "Start Date": "2024-07-23",
+                "Response": "Pending",
+                "Response Details": "First dose administered, antibody levels to be checked after series completion",
+                "Observation Date": "2024-07-23"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 52-year-old female presented with fatigue and abdominal discomfort. Initial evaluation revealed elevated liver enzymes and positive Hepatitis C antibody test. Further testing confirmed chronic Hepatitis C infection with genotype 1a and high viral load. The patient has no significant risk factors for HCV. Abdominal ultrasound was performed, and liver elastography is scheduled. Treatment with direct-acting antivirals is planned. The patient also has a history of well-controlled hypertension and is scheduled for Hepatitis A and B vaccination."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Meredith219 Harrell753",
+        "Report_Header_Age": "52",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-07-10"
+    }
+}

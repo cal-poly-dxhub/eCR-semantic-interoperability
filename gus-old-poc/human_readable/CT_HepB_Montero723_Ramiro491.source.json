@@ -1,0 +1,479 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "Other Race",
+        "Ethnicity": "Hispanic or Latino",
+        "Patient Age": "50",
+        "Date of Birth": "1974-06-19",
+        "Location": "New London",
+        "Country of Residence": "United States of America",
+        "Country of Nationality": "Mexico",
+        "Preferred Language": "Spanish",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Montero723, Ramiro491",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed",
+        "Gender Identity": "Male",
+        "Disability Status": "No disability",
+        "Education Level": "High school graduate",
+        "Marital Status": "Married",
+        "Smoking Status": "Former smoker",
+        "BMI": "27.5",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Private health insurance through employer",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Not at all",
+        "People Living at Address": "4",
+        "Housing Status": "Rented house or apartment",
+        "Stress Level": "Somewhat stressful"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "237 Oak Terrace, New London, CT 06320",
+        "Patient Email": "ramiro.montero@email.com",
+        "Patient Phone": "860-555-7823"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Construction worker",
+        "Current Industry": "Construction",
+        "Usual Occupation": "Construction worker",
+        "Usual Industry": "Construction",
+        "Usual Employment Date Range": "Start: 1998-07-01 to current",
+        "Current Job Title": "Construction laborer",
+        "Current Employer": "ABC Construction Co., 123 Main St, New London, CT 06320, (860) 555-0199",
+        "Current Employment Start Date": "2016-04-15",
+        "Annual Income": 45000
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Tijuana, Mexico",
+                "Purpose": "Family",
+                "Start Date": "2023-12-15",
+                "End Date": "2023-12-28",
+                "Accommodations": "Family home",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Visited extended family in Tijuana for the Christmas holidays. Attended family gatherings and celebrations."
+            },
+            {
+                "Location": "New London, CT, USA",
+                "Purpose": "Routine",
+                "Start Date": "2023-11-01",
+                "End Date": "2023-11-30",
+                "Accommodations": "n/a",
+                "Mode of Travel": "n/a",
+                "Activities": "Normal daily activities in home city of New London - work, errands, social events."
+            },
+            {
+                "Location": "Boston, MA, USA",
+                "Purpose": "Business",
+                "Start Date": "2023-08-22",
+                "End Date": "2023-08-26",
+                "Accommodations": "Hilton Boston Downtown",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Attended a construction industry conference and trade show in Boston for professional development."
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient recently traveled to Tijuana, Mexico from 2023-12-15 to 2023-12-28 to visit extended family for the Christmas holidays. He attended family gatherings and celebrations during this trip. Prior to this, the patient's travel was limited to routine activities in his home city of New London, CT and a business trip to Boston, MA in August 2023 to attend a construction industry conference. His travel history raises the possibility of exposure to hepatitis B virus during his recent travel to Mexico, which has intermediate endemicity for hepatitis B."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Fatigue and abdominal discomfort",
+        "Patient ID": "8375291",
+        "Encounter Class": "Outpatient",
+        "Encounter Status": "Finished",
+        "Encounter ID": "98765432109",
+        "Start DateTime": "2024-04-22 09:30",
+        "End DateTime": "2024-04-22 11:15",
+        "Discharge Disposition": "Home",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient consultation",
+                "SNOMED-CT Code": "185347001",
+                "Description": "Outpatient consultation (procedure)",
+                "Start Date": "2024-04-22",
+                "End Date": "2024-04-22"
+            },
+            {
+                "Encounter Type": "Diagnostic procedure",
+                "SNOMED-CT Code": "169553008",
+                "Description": "Diagnostic procedure (procedure)",
+                "Start Date": "2024-04-22",
+                "End Date": "2024-04-22"
+            },
+            {
+                "Encounter Type": "Outpatient procedure",
+                "SNOMED-CT Code": "185349007",
+                "Description": "Outpatient procedure (procedure)",
+                "Start Date": "2024-04-29",
+                "End Date": "2024-04-29"
+            },
+            {
+                "Encounter Type": "Follow-up encounter",
+                "SNOMED-CT Code": "390906007",
+                "Description": "Follow-up encounter (procedure)",
+                "Start Date": "2024-05-20",
+                "End Date": "2024-05-20"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "O'Brien621, Liam654, MD",
+        "Practitioner Phone": "860-555-8472",
+        "Practitioner Fax": "860-555-2019",
+        "Practitioner Email": "liam.obrien@healthclinic.org",
+        "Practitioner Office Name": "New London Health Clinic",
+        "Practitioner ID": "3847291056",
+        "Practitioner Address": "456 Colman St, New London, CT 06320"
+    },
+    "Facility_Information": {
+        "Facility Name": "New London Health Clinic",
+        "Facility Type": "Ambulatory clinic",
+        "Facility Phone": "860-555-0123",
+        "Facility Fax": "860-555-0456",
+        "Facility Address": "123 Clinic Drive, New London, CT 06320"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-03-15",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-04-01",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "16930004",
+                "Onset Date": "2024-04-10",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Loss of appetite",
+                "SNOMED-CT": "79890006",
+                "Onset Date": "2024-04-05",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Dark urine",
+                "SNOMED-CT": "83099005",
+                "Onset Date": "2024-04-12",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Jaundice",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2024-04-18",
+                "Severity": "Mild",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "37.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "Cel",
+                "Measurement Time": "2024-04-22 09:35:00"
+            },
+            {
+                "Vital Sign": "Blood pressure",
+                "Value": "138/88",
+                "SNOMED-CT": "271649006",
+                "Unit": "mm[Hg]",
+                "Measurement Time": "2024-04-22 09:40:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "72",
+                "SNOMED-CT": "364075005",
+                "Unit": "/min",
+                "Measurement Time": "2024-04-22 09:42:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "16",
+                "SNOMED-CT": "86290005",
+                "Unit": "/min",
+                "Measurement Time": "2024-04-22 09:45:00"
+            },
+            {
+                "Vital Sign": "Body mass index",
+                "Value": "27.5",
+                "SNOMED-CT": "60621009",
+                "Unit": "kg/m2",
+                "Measurement Time": "2024-04-22 10:00:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Fatigue, abdominal discomfort, and other symptoms concerning for hepatitis.",
+        "Past Medical History": "The patient has no significant past medical history. He reports being generally healthy prior to the onset of his current symptoms. There is no history of chronic medical conditions, surgeries, or hospitalizations. His immunization status is uncertain, as he does not recall receiving the hepatitis B vaccine series.",
+        "Review of Systems": "Constitutional: Fatigue, decreased appetite. HEENT: Scleral icterus noted, no other abnormalities. Respiratory: Clear to auscultation bilaterally. Cardiovascular: Regular rate and rhythm, normal heart sounds. Gastrointestinal: Mild epigastric tenderness, no rebound or guarding. Genitourinary: No complaints. Musculoskeletal: No joint pains or swelling. Skin: Jaundiced appearance. Neurological: No focal deficits. Psychiatric: Mood and affect are appropriate.",
+        "History of Present Illness": "The patient is a 50-year-old Hispanic male who presents with a 1-month history of progressive fatigue, abdominal discomfort, nausea, loss of appetite, and dark urine. He first noticed feeling unusually tired in mid-March but attributed it to his physically demanding job as a construction worker. However, the fatigue worsened over time, and he developed intermittent abdominal pain and nausea in early April. He also noticed his urine becoming darker in color around April 12th. Over the past week, he has developed jaundice. The patient denies fever, chills, vomiting, diarrhea, or changes in bowel habits. He has no known sick contacts or recent travel apart from a trip to Tijuana, Mexico in late December to visit family. His symptoms have been gradually worsening, prompting him to seek medical evaluation today.",
+        "Plan of Treatment": "Based on the history and physical exam findings, the patient likely has acute hepatitis B infection with mild fibrosis. The diagnostic workup will include serologic testing for hepatitis B surface antigen, IgM anti-HBc, and viral load. If hepatitis B is confirmed, a fibroscan will be ordered to assess the degree of liver fibrosis. Treatment will involve initiating antiviral therapy with a nucleos(t)ide analogue such as tenofovir or entecavir. The patient will require regular monitoring of liver function tests, viral load, and fibroscan to assess treatment response and disease progression. Counseling on lifestyle modifications, such as avoiding alcohol and hepatotoxic agents, will be provided. With appropriate treatment and monitoring, the prognosis is favorable for achieving sustained viral suppression and preventing further liver damage. Follow-up visits will be scheduled at regular intervals to monitor his clinical status and adjust treatment as needed.",
+        "Vaccine Credential Patient Assertion": "The patient does not recall receiving the hepatitis B vaccine series in the past."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "16128-5",
+                "LOINC Order Code Description": "Hepatitis B virus surface Ag [Presence] in Serum",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-04-22 10:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "12345"
+            },
+            {
+                "LOINC Laboratory Order Code": "16925-2",
+                "LOINC Order Code Description": "Hepatitis B virus core Ab [Presence] in Serum",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2024-04-22 10:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "67890"
+            },
+            {
+                "LOINC Laboratory Order Code": "19108-0",
+                "LOINC Order Code Description": "Hepatitis B virus DNA [#/volume] (viral load) in Serum",
+                "Laboratory Result": "1,500,000 IU/mL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "456789123",
+                "Specimen Collection Date": "2024-04-22 10:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "24680"
+            },
+            {
+                "LOINC Laboratory Order Code": "1742-6",
+                "LOINC Order Code Description": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "125 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "789123456",
+                "Specimen Collection Date": "2024-04-22 10:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "13579"
+            },
+            {
+                "LOINC Laboratory Order Code": "1920-8",
+                "LOINC Order Code Description": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "95 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "246813579",
+                "Specimen Collection Date": "2024-04-22 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "97531"
+            },
+            {
+                "LOINC Laboratory Order Code": "1975-2",
+                "LOINC Order Code Description": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "3.2 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "135792468",
+                "Specimen Collection Date": "2024-04-22 10:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "86420"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Chronic viral hepatitis B with mild fibrosis",
+                "ICD-10 Code": "B18.1",
+                "SNOMED-CT Code": "197027000",
+                "Diagnosis Date": "2024-04-22",
+                "Onset Date": "2024-03-15",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Elevated liver enzymes",
+                "ICD-10 Code": "R94.5",
+                "SNOMED-CT Code": "166643003",
+                "Diagnosis Date": "2024-04-22",
+                "Onset Date": "2024-04-22",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Jaundice",
+                "ICD-10 Code": "R17",
+                "SNOMED-CT Code": "25064002",
+                "Diagnosis Date": "2024-04-22",
+                "Onset Date": "2024-04-18",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic Procedure",
+                "Procedure Description": "Ultrasound elastography (fibroscan) of liver",
+                "CPT Code": "76936",
+                "Status": "Planned",
+                "Procedure Date": "2024-05-01",
+                "Details": "Non-invasive assessment of liver fibrosis using ultrasound elastography to guide treatment decisions.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic Procedure",
+                "Procedure Description": "Antiviral therapy initiation, oral",
+                "CPT Code": "96372",
+                "Status": "Planned",
+                "Procedure Date": "2024-05-08",
+                "Details": "Initiation of oral antiviral therapy with tenofovir 300mg once daily for treatment of chronic hepatitis B.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic Laboratory",
+                "Procedure Description": "Hepatitis B viral load measurement",
+                "CPT Code": "87517",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-03",
+                "Details": "Quantitative measurement of hepatitis B viral load to assess treatment response.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic Laboratory",
+                "Procedure Description": "Liver function tests",
+                "CPT Code": "80076",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-03",
+                "Details": "Monitoring of liver enzymes (ALT, AST, bilirubin) to evaluate hepatic inflammation.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Follow-up Visit",
+                "Procedure Description": "Office visit for hepatitis B",
+                "CPT Code": "99214",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-10",
+                "Details": "Follow-up visit to review lab results, assess treatment response and side effects, provide counseling.",
+                "Trigger": "Yes"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Tenofovir",
+                "Medication Type": "Antiviral",
+                "Purpose": "Treatment of chronic hepatitis B",
+                "Administration Mode": "Oral",
+                "Dose": "300mg once daily",
+                "Duration": "Planned long-term therapy",
+                "Start Date": "2024-05-08",
+                "Response": "Pending",
+                "Response Details": "Initial treatment, response to be evaluated at follow-up visits",
+                "Observation Date": "2024-05-08"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic",
+                "Purpose": "Symptomatic relief of abdominal pain",
+                "Administration Mode": "Oral",
+                "Dose": "650mg every 6 hours as needed",
+                "Duration": "Short-term, as needed",
+                "Start Date": "2024-04-22",
+                "Response": "Moderate improvement",
+                "Response Details": "Patient reports partial relief of abdominal discomfort with acetaminophen use",
+                "Observation Date": "2024-04-29"
+            },
+            {
+                "Medication Name": "Omeprazole",
+                "Medication Type": "Proton pump inhibitor",
+                "Purpose": "Treatment of gastritis and acid reflux symptoms",
+                "Administration Mode": "Oral",
+                "Dose": "20mg once daily",
+                "Duration": "Planned 4-week course",
+                "Start Date": "2024-04-22",
+                "Response": "Good response",
+                "Response Details": "Patient reports resolution of nausea and epigastric discomfort after starting omeprazole",
+                "Observation Date": "2024-05-06"
+            },
+            {
+                "Medication Name": "Ursodeoxycholic acid",
+                "Medication Type": "Bile acid",
+                "Purpose": "Hepatoprotective agent for chronic liver disease",
+                "Administration Mode": "Oral",
+                "Dose": "300mg twice daily",
+                "Duration": "Planned long-term therapy",
+                "Start Date": "2024-05-08",
+                "Response": "Pending",
+                "Response Details": "Initiated as adjunctive therapy with tenofovir, response to be evaluated",
+                "Observation Date": "2024-05-08"
+            },
+            {
+                "Medication Name": "Vitamin D3",
+                "Medication Type": "Vitamin supplement",
+                "Purpose": "Nutritional support for chronic liver disease",
+                "Administration Mode": "Oral",
+                "Dose": "2000 IU once daily",
+                "Duration": "Planned long-term therapy",
+                "Start Date": "2024-05-08",
+                "Response": "Pending",
+                "Response Details": "Initiated as supportive therapy, response to be evaluated",
+                "Observation Date": "2024-05-08"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 50-year-old Hispanic male presents with fatigue, abdominal pain, and jaundice. Diagnostic workup reveals chronic hepatitis B with mild fibrosis. He is initiated on antiviral therapy with tenofovir and supportive medications. Regular monitoring is planned to assess treatment response and disease progression."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Ramiro491 Montero723",
+        "Report_Header_Age": "50",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-06-19"
+    }
+}

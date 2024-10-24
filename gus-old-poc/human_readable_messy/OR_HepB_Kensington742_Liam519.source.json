@@ -1,0 +1,503 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "White",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "19",
+        "Date of Birth": "2005-03-15",
+        "Location": "Newport, Oregon",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Kensington742, Liam519",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Student",
+        "Gender Identity": "Male",
+        "Disability Status": "No disability",
+        "Education Level": "High school graduate",
+        "Marital Status": "Never married",
+        "Smoking Status": "Never smoker",
+        "BMI": "22.1",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Parent's employer-sponsored insurance",
+        "Refugee Status": "Not a refugee",
+        "Correctional Facility Status": "Not in correctional facility",
+        "Lose Housing Worry": "Not worried at all",
+        "People Living at Address": "4",
+        "Housing Status": "Lives with parents",
+        "Stress Level": "Somewhat stressed"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1742 Seabreeze Ln., Newport, OR 97365",
+        "Patient Email": "liam.k2005@coastmail.com",
+        "Patient Phone": "541-555-3892"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Student",
+        "Current Industry": "Higher Education",
+        "Usual Occupation": "Student",
+        "Usual Industry": "Higher Education",
+        "Usual Employment Date Range": "Start: 2023-09-05 to current",
+        "Current Job Title": "Undergraduate Student",
+        "Current Employer": "Oregon Coast Community College, 400 SE College Way, Newport, OR 97366, (541) 867-8501",
+        "Current Employment Start Date": "2023-09-05",
+        "Annual Income": "$3,500"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Portland, Oregon",
+                "Purpose": "School",
+                "Start Date": "2024-06-15",
+                "End Date": "2024-06-16",
+                "Accommodations": "University dorm",
+                "Mode of Travel": "Car",
+                "Activities": "Attended a college orientation weekend at Portland State University. Participated in campus tours, information sessions, and social events with other incoming students."
+            },
+            {
+                "Location": "Lincoln City, Oregon",
+                "Purpose": "Social events",
+                "Start Date": "2024-05-25",
+                "End Date": "2024-05-27",
+                "Accommodations": "Beach house rental",
+                "Mode of Travel": "Car",
+                "Activities": "Spent Memorial Day weekend with friends at a beach house. Activities included barbecuing, beach volleyball, and attending a local music festival."
+            },
+            {
+                "Location": "Newport, Oregon",
+                "Purpose": "Routine",
+                "Start Date": "2024-04-20",
+                "End Date": "2024-04-20",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Walking",
+                "Activities": "Attended a community health fair at the local community center. Participated in various health screenings, including a blood test that later revealed the hepatitis B infection."
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient attended a community health fair in Newport, Oregon on 2024-04-20, where he participated in various health screenings including a blood test that later revealed the hepatitis B infection. This event is significant as it marks the likely point of diagnosis. No other travel history appears directly relevant to the patient's hepatitis B acute, asymptomatic condition. Recent trips to Portland (2024-06-15 to 2024-06-16) for a college orientation and Lincoln City (2024-05-25 to 2024-05-27) for a beach weekend with friends occurred after the diagnosis and show no apparent risk factors for hepatitis B transmission. Patient has remained local to the Coastal Oregon area."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "No complaint, routine blood test results follow-up",
+        "Patient ID": "7492038",
+        "Encounter Class": "outpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "20240701-001",
+        "Start DateTime": "2024-07-01 14:30",
+        "End DateTime": "2024-07-01 15:15",
+        "Discharge Disposition": "Discharged to home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient visit",
+                "SNOMED-CT Code": "308335008",
+                "Description": "Patient encounter procedure",
+                "Start Date": "2024-07-01",
+                "End Date": "2024-07-01"
+            },
+
+            {
+                "Encounter Type": "Hepatitis B screening",
+                "SNOMED-CT Code": "171121004",
+                "Description": "Screening for hepatitis B",
+                "Start Date": "2024-07-01",
+                "End Date": "2024-07-01"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Hill493, Amelia088, MD",
+        "Practitioner Phone": "541-555-7823",
+        "Practitioner Fax": "541-555-7824",
+        "Practitioner Email": "a.hill@coastalhealth.org",
+        "Practitioner Office Name": "Coastal Health Associates",
+        "Practitioner ID": "6729384015",
+        "Practitioner Address": "1835 Ocean View Dr., Suite 201, Newport, OR 97365"
+    },
+    "Facility_Information": {
+        "Facility Name": "Coastal Community Health Center",
+        "Facility Type": "Community Health Center",
+        "Facility Phone": "541-555-9200",
+        "Facility Fax": "541-555-9201",
+        "Facility Address": "2356 Harbor View Drive, Newport, OR 97365"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "No symptoms",
+                "SNOMED-CT": "162415008",
+                "Onset Date": "2024-07-01",
+                "Severity": "N/A",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "36.8",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-07-01 14:35:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "72",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-07-01 14:36:00"
+            },
+
+            {
+                "Vital Sign": "Body weight",
+                "Value": "70.3",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-07-01 14:40:00"
+            },
+            {
+                "Vital Sign": "Body height",
+                "Value": "178",
+                "SNOMED-CT": "248334005",
+                "Unit": "cm",
+                "Measurement Time": "2024-07-01 14:41:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Follow-up for abnormal blood test results",
+        "Past Medical History": "Patient has no significant past medical history. He reports being generally healthy with no chronic conditions, no prior hospitalizations, and no previous surgeries. He has no known allergies and is not on any regular medications. Family history is negative for liver diseases or hepatitis.",
+        "Review of Systems": "General: Denies fever, chills, fatigue, or weight changes. Skin: No rashes, jaundice, or itching. HEENT: No headaches, vision changes, or oral lesions. Respiratory: No cough, shortness of breath, or chest pain. Cardiovascular: No palpitations or edema. Gastrointestinal: No abdominal pain, nausea, vomiting, or changes in bowel habits. No dark urine or clay-colored stools. Genitourinary: No dysuria or hematuria. Musculoskeletal: No joint pain or muscle aches. Neurological: No dizziness, weakness, or numbness. Psychiatric: No depression or anxiety. Endocrine: No excessive thirst or frequent urination. Hematologic: No easy bruising or bleeding. All other systems reviewed and negative.",
+        "History of Present Illness": "Liam Kensington, a 19-year-old white male, presents for follow-up of abnormal blood test results from a recent community health fair screening on April 20, 2024. The patient reports he attended the fair out of general interest in his health and had no specific concerns at the time. He was surprised to learn about the positive hepatitis B test results, as he has been feeling completely well with no symptoms. He denies any known exposure to hepatitis B, including no history of intravenous drug use, no recent tattoos or piercings, and no known sexual contact with infected individuals. He is sexually active with one partner and reports consistent condom use. The patient has no history of blood transfusions or medical procedures involving potential blood exposure. He has lived in Newport, Oregon, his entire life and has not traveled to areas with high hepatitis B prevalence. The patient expresses concern about the implications of this diagnosis but states he feels physically fine.",
+        "Plan of Treatment": "1. Educate patient on hepatitis B, its transmission, and prognosis for acute, asymptomatic cases. Emphasize the likelihood of spontaneous clearance given his age and health status. 2. Order additional blood tests to confirm diagnosis and assess liver function: HBsAg, anti-HBc IgM, HBeAg, HBV DNA, ALT, AST, bilirubin, and prothrombin time. 3. Screen for co-infections: HIV, hepatitis C, and hepatitis D. 4. Advise abstinence from alcohol to support liver health. 5. Counsel on preventing transmission to others, including safe sex practices and avoiding sharing personal items that may come into contact with blood. 6. Recommend hepatitis A vaccination if not already immune. 7. Notify public health department as per reporting requirements for acute hepatitis B. 8. Schedule follow-up in 4-6 weeks to review test results and assess for any symptom development or spontaneous clearance. 9. Provide resources for patient education and support. 10. Discuss potential need for family and close contact screening and vaccination.",
+        "Vaccine Credential Patient Assertion": "Patient reports receiving all recommended childhood vaccinations, including the hepatitis B vaccine series. However, he is unsure of the exact dates or number of doses received. He agrees to check with his parents and primary care physician for his complete vaccination records."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "5196-1",
+                "LOINC Order Code Description": "Hepatitis B surface antigen (HBsAg)",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-07-01 14:45:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "ORD123456"
+            },
+            {
+                "LOINC Laboratory Order Code": "11322-4",
+                "LOINC Order Code Description": "Hepatitis B core antibody IgM (anti-HBc IgM)",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-07-01 14:45:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "ORD123457"
+            },
+            {
+                "LOINC Laboratory Order Code": "5193-8",
+                "LOINC Order Code Description": "Hepatitis B e antigen (HBeAg)",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-07-01 14:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123458"
+            },
+            {
+                "LOINC Laboratory Order Code": "10900-7",
+                "LOINC Order Code Description": "Hepatitis B virus DNA",
+                "Laboratory Result": "1,500,000 IU/mL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-07-01 14:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123459"
+            },
+            {
+                "LOINC Laboratory Order Code": "1742-6",
+                "LOINC Order Code Description": "Alanine aminotransferase (ALT)",
+                "Laboratory Result": "45 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654325",
+                "Specimen Collection Date": "2024-07-01 14:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123460"
+            },
+            {
+                "LOINC Laboratory Order Code": "1920-8",
+                "LOINC Order Code Description": "Aspartate aminotransferase (AST)",
+                "Laboratory Result": "40 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654326",
+                "Specimen Collection Date": "2024-07-01 14:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123461"
+            },
+            {
+                "LOINC Laboratory Order Code": "1975-2",
+                "LOINC Order Code Description": "Total bilirubin",
+                "Laboratory Result": "0.8 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654327",
+                "Specimen Collection Date": "2024-07-01 14:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123462"
+            },
+            {
+                "LOINC Laboratory Order Code": "5902-2",
+                "LOINC Order Code Description": "Prothrombin time (PT)",
+                "Laboratory Result": "12 seconds",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Plasma",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654328",
+                "Specimen Collection Date": "2024-07-01 14:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123463"
+            },
+            {
+                "LOINC Laboratory Order Code": "5195-3",
+                "LOINC Order Code Description": "Hepatitis B surface antibody (anti-HBs)",
+                "Laboratory Result": "Negative",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654329",
+                "Specimen Collection Date": "2024-07-01 14:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123464"
+            },
+            {
+                "LOINC Laboratory Order Code": "13955-0",
+                "LOINC Order Code Description": "Hepatitis C antibody",
+                "Laboratory Result": "Negative",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654330",
+                "Specimen Collection Date": "2024-07-01 14:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123465"
+            },
+            {
+                "LOINC Laboratory Order Code": "48345-3",
+                "LOINC Order Code Description": "HIV 1+2 Ag+Ab",
+                "Laboratory Result": "Negative",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654331",
+                "Specimen Collection Date": "2024-07-01 14:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123466"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Acute hepatitis B without delta-agent and without hepatic coma",
+                "ICD-10 Code": "B16.9",
+                "SNOMED-CT Code": "66071002",
+                "Diagnosis Date": "2024-07-01",
+                "Onset Date": "2024-04-20",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Asymptomatic human immunodeficiency virus infection status",
+                "ICD-10 Code": "Z21",
+                "SNOMED-CT Code": "699433000",
+                "Diagnosis Date": "2024-07-01",
+                "Onset Date": "2024-07-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Encounter for screening for viral hepatitis",
+                "ICD-10 Code": "Z11.59",
+                "SNOMED-CT Code": "171121004",
+                "Diagnosis Date": "2024-07-01",
+                "Onset Date": "2024-07-01",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Laboratory",
+                "Procedure Description": "Hepatitis B surface antigen (HBsAg)",
+                "CPT Code": "87340",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-01",
+                "Details": "Confirmatory test for hepatitis B infection",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Laboratory",
+                "Procedure Description": "Hepatitis B core antibody (HBcAb), IgM",
+                "CPT Code": "86705",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-01",
+                "Details": "To determine if infection is acute",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Laboratory",
+                "Procedure Description": "Hepatitis B virus DNA, quantitative",
+                "CPT Code": "87517",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-01",
+                "Details": "To assess viral load and infectivity",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Laboratory",
+                "Procedure Description": "Liver function panel",
+                "CPT Code": "80076",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-01",
+                "Details": "To assess liver health and function",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Immunization",
+                "Procedure Description": "Hepatitis A vaccine, adult dosage",
+                "CPT Code": "90632",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-15",
+                "Details": "Recommended to prevent hepatitis A co-infection",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Education",
+                "Procedure Description": "Hepatitis B counseling",
+                "CPT Code": "99401",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-01",
+                "Details": "Patient education on hepatitis B transmission, prognosis, and lifestyle modifications",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Liver ultrasound",
+                "CPT Code": "76700",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-22",
+                "Details": "Baseline imaging to assess liver condition",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Tenofovir disoproxil fumarate",
+                "Medication Type": "Antiviral",
+                "Purpose": "Hepatitis B treatment",
+                "Administration Mode": "Oral",
+                "Dose": "300 mg",
+                "Duration": "Once daily",
+                "Start Date": "2024-07-01",
+                "Response": "Pending",
+                "Response Details": "Treatment initiated, awaiting follow-up to assess viral load reduction",
+                "Observation Date": "2024-07-01"
+            },
+            {
+                "Medication Name": "Vitamin B Complex",
+                "Medication Type": "Supplement",
+                "Purpose": "Support liver health",
+                "Administration Mode": "Oral",
+                "Dose": "1 tablet",
+                "Duration": "Once daily",
+                "Start Date": "2024-07-01",
+                "Response": "Well-tolerated",
+                "Response Details": "Patient reports no side effects",
+                "Observation Date": "2024-07-01"
+            },
+            {
+                "Medication Name": "Milk Thistle",
+                "Medication Type": "Herbal supplement",
+                "Purpose": "Liver support",
+                "Administration Mode": "Oral",
+                "Dose": "150 mg",
+                "Duration": "Twice daily",
+                "Start Date": "2024-07-01",
+                "Response": "Well-tolerated",
+                "Response Details": "Patient reports no side effects",
+                "Observation Date": "2024-07-01"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic",
+                "Purpose": "Pain relief if needed",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg",
+                "Duration": "As needed, not to exceed 2000 mg per day",
+                "Start Date": "2024-07-01",
+                "Response": "Not used",
+                "Response Details": "Patient has not needed pain relief",
+                "Observation Date": "2024-07-01"
+            },
+            {
+                "Medication Name": "Hepatitis A Vaccine",
+                "Medication Type": "Vaccine",
+                "Purpose": "Prevent hepatitis A co-infection",
+                "Administration Mode": "Intramuscular injection",
+                "Dose": "1 mL",
+                "Duration": "Single dose, with booster in 6-12 months",
+                "Start Date": "2024-07-15",
+                "Response": "Planned",
+                "Response Details": "Scheduled for next visit",
+                "Observation Date": "2024-07-01"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 19-year-old white male was diagnosed with acute, asymptomatic hepatitis B following routine screening at a community health fair on April 20, 2024. A follow-up encounter on July 1, 2024, confirmed the diagnosis with positive HBsAg, anti-HBc IgM, and HBeAg. During this follow-up, his vital signs were stable, including a respiratory rate of 14 breaths per minute, blood pressure of 118/76 mmHg, and oxygen saturation of 99%. The patient remains asymptomatic with normal liver function tests. Treatment with tenofovir was initiated, and hepatitis A vaccination was recommended. The prognosis is excellent, with a high likelihood of spontaneous clearance given the patient's age and health status. Close monitoring and patient education were emphasized. It is noted that these were not the only encounters or symptoms observed during the course of his care."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Liam519 Kensington742",
+        "Report_Header_Age": "19",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-07-02"
+    }
+}

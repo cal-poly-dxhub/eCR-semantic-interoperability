@@ -1,0 +1,668 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "Black or African American",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "42",
+        "Date of Birth": "1981-11-23",
+        "Location": "Manhattan, New York City",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Johnson824, Tasha651",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Part-time employment",
+        "Gender Identity": "Female",
+        "Disability Status": "No disability",
+        "Education Level": "Some college",
+        "Marital Status": "Divorced",
+        "Smoking Status": "Current every day smoker",
+        "BMI": "28.5",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Medicaid",
+        "Refugee Status": "Not a refugee",
+        "Correctional Facility Status": "Not in correctional facility",
+        "Lose Housing Worry": "Somewhat worried",
+        "People Living at Address": "3",
+        "Housing Status": "Renting",
+        "Stress Level": "High stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1237 Harlem River Dr., Apt 4B, Manhattan, NY 10037",
+        "Patient Email": "tasha.johnson824@emailprovider.com",
+        "Patient Phone": "646-555-8291"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Retail Sales Associate",
+        "Current Industry": "Retail",
+        "Usual Occupation": "Retail Sales Associate",
+        "Usual Industry": "Retail",
+        "Usual Employment Date Range": "Start: 2018-03-15 to current",
+        "Current Job Title": "Part-time Sales Associate",
+        "Current Employer": "Fashion Outlet, 2234 Broadway, Manhattan, NY 10024, 212-555-7890",
+        "Current Employment Start Date": "2018-03-15",
+        "Annual Income": "$24,000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Bronx, New York City, NY",
+                "Purpose": "Social events",
+                "Start Date": "2024-06-15",
+                "End Date": "2024-06-15",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Public transportation",
+                "Activities": "Attended a friend's birthday party at a local bar. Shared drinks and food with other attendees."
+            },
+            {
+                "Location": "Manhattan, New York City, NY",
+                "Purpose": "Routine",
+                "Start Date": "2024-05-20",
+                "End Date": "2024-05-20",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Walking",
+                "Activities": "Visited a local health clinic for routine check-up. Waited in a crowded waiting room for an extended period."
+            },
+            {
+                "Location": "Brooklyn, New York City, NY",
+                "Purpose": "Family",
+                "Start Date": "2024-04-02",
+                "End Date": "2024-04-02",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Subway",
+                "Activities": "Visited a family member who was recently diagnosed with hepatitis C. Shared a meal and spent time in close proximity."
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient reports recent travel within New York City boroughs, potentially relevant to hepatitis C exposure. On June 15, 2024, patient attended a social gathering in the Bronx, sharing food and drinks with others, which could present a low risk of viral transmission if proper hygiene wasn't maintained. On May 20, 2024, patient visited a crowded health clinic in Manhattan for a routine check-up, where extended time in a waiting room could theoretically pose a risk of exposure to blood-borne pathogens. Most notably, on April 2, 2024, patient visited a family member in Brooklyn who was recently diagnosed with hepatitis C. Close contact and shared meal during this visit represent a potential risk factor for transmission, especially if there were any unnoticed blood exposures. Patient's frequent use of public transportation, including subway, may also present opportunities for accidental exposure to contaminated surfaces or needlestick injuries, though this risk is generally low."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Severe abdominal pain and yellowing skin",
+        "Patient ID": "8472639",
+        "Encounter Class": "emergency",
+        "Encounter Status": "finished",
+        "Encounter ID": "20240709001",
+        "Start DateTime": "2024-07-09 14:30",
+        "End DateTime": "2024-07-09 23:45",
+        "Discharge Disposition": "Admitted to hospital",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Emergency department visit",
+                "SNOMED-CT Code": "4525004",
+                "Description": "Emergency department patient encounter",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Hospital admission",
+                "SNOMED-CT Code": "32485007",
+                "Description": "Hospital admission procedure",
+                "Start Date": "2024-07-09",
+                "End Date": "n/a"
+            },
+            {
+                "Encounter Type": "Inpatient care",
+                "SNOMED-CT Code": "183452005",
+                "Description": "Inpatient care encounter",
+                "Start Date": "2024-07-09",
+                "End Date": "n/a"
+            },
+            {
+                "Encounter Type": "Gastroenterology consultation",
+                "SNOMED-CT Code": "84251009",
+                "Description": "Consultation by gastroenterologist",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Hepatology consultation",
+                "SNOMED-CT Code": "310282009",
+                "Description": "Hepatology service",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Patel732, Anita654, MD",
+        "Practitioner Phone": "212-555-3876",
+        "Practitioner Fax": "212-555-3877",
+        "Practitioner Email": "a.patel@manhattanhepatology.org",
+        "Practitioner Office Name": "Manhattan Hepatology Specialists",
+        "Practitioner ID": "1234567890",
+        "Practitioner Address": "425 E 61st St, New York, NY 10065",
+        "End Date": "n/a"
+    },
+    "Facility_Information": {
+        "Facility Name": "Manhattan General Hospital",
+        "Facility Type": "Hospital",
+        "Facility Phone": "212-555-9876",
+        "Facility Fax": "212-555-9877",
+        "Facility Address": "1234 Park Avenue, New York, NY 10029"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-07-07",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Jaundice",
+                "SNOMED-CT": "18165001",
+                "Onset Date": "2024-07-08",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-06-25",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-07-06",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Loss of appetite",
+                "SNOMED-CT": "79890006",
+                "Onset Date": "2024-07-01",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Dark urine",
+                "SNOMED-CT": "34436003",
+                "Onset Date": "2024-07-08",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Joint pain",
+                "SNOMED-CT": "57676002",
+                "Onset Date": "2024-07-03",
+                "Severity": "Mild",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "38.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-07-09 14:35:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "92",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-07-09 14:35:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "18",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-07-09 14:35:00"
+            },
+            {
+                "Vital Sign": "Systolic blood pressure",
+                "Value": "135",
+                "SNOMED-CT": "271649006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-09 14:35:00"
+            },
+            {
+                "Vital Sign": "Diastolic blood pressure",
+                "Value": "85",
+                "SNOMED-CT": "271650006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-09 14:35:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "97",
+                "SNOMED-CT": "103228002",
+                "Unit": "%",
+                "Measurement Time": "2024-07-09 14:35:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "78.5",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-07-09 14:40:00"
+            },
+            {
+                "Vital Sign": "Body mass index",
+                "Value": "28.5",
+                "SNOMED-CT": "60621009",
+                "Unit": "kg/m2",
+                "Measurement Time": "2024-07-09 14:40:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Severe abdominal pain and yellowing skin",
+        "Past Medical History": "Patient has a history of intravenous drug use, last reported use 6 months ago. History of alcohol abuse, currently in recovery for 3 months. Previous diagnosis of depression, managed with SSRIs. No known history of liver disease or hepatitis prior to this encounter. Received blood transfusion in 2020 following a car accident. Reports multiple sexual partners in the past year, inconsistent condom use.",
+        "Review of Systems": "General: Reports fatigue, weakness, and unintentional weight loss of 10 pounds over the past month. Skin: Notes yellowing of skin and eyes. HEENT: Denies vision changes, hearing loss, or throat pain. Cardiovascular: Denies chest pain or palpitations. Respiratory: No shortness of breath or cough. Gastrointestinal: Complains of severe right upper quadrant abdominal pain, nausea, and loss of appetite. Dark urine noted for the past two days. Musculoskeletal: Reports joint pain, particularly in knees and ankles. Neurological: Denies headaches or dizziness. Psychiatric: Mentions feeling more anxious lately due to symptoms.",
+        "History of Present Illness": "Tasha Johnson, a 42-year-old African American female, presents to the emergency department with a 3-day history of progressively worsening right upper quadrant abdominal pain and jaundice. The pain is described as constant, sharp, and rated 8/10 in severity. She reports associated symptoms of fatigue, nausea, loss of appetite, and dark urine starting about two weeks ago. Ms. Johnson notes yellowing of her skin and eyes beginning 2 days prior to presentation. She denies fever, chills, or recent travel outside of New York City. Patient admits to a history of intravenous drug use, with last use 6 months ago, and reports having shared needles in the past. She also mentions having a family member recently diagnosed with hepatitis C, whom she visited about 3 months ago. Ms. Johnson has been in a stressful work environment and has recently increased her alcohol consumption before attempting to quit 3 months ago. She denies any known liver disease or previous diagnosis of hepatitis.",
+        "Plan of Treatment": "1. Admit patient to the Hepatology service for further evaluation and management of suspected acute hepatitis C with signs of liver damage. 2. Order comprehensive metabolic panel, complete blood count, coagulation studies, and liver function tests. 3. Perform hepatitis panel including HCV antibody and HCV RNA quantitative test. 4. Schedule abdominal ultrasound to assess liver morphology and rule out biliary obstruction. 5. Initiate supportive care including IV fluids and antiemetics as needed. 6. Consult Gastroenterology for potential liver biopsy to assess the extent of liver damage. 7. Screen for HIV and other sexually transmitted infections given risk factors. 8. Initiate hepatitis A and B vaccination series if not previously immunized. 9. Provide education on hepatitis C transmission and lifestyle modifications to prevent further liver damage. 10. Arrange for substance abuse counseling and consider referral to addiction specialist. 11. Discuss potential antiviral therapy options pending confirmation of diagnosis and assessment of liver function. 12. Schedule follow-up appointments with Hepatology for ongoing management and monitoring.",
+        "Vaccine Credential Patient Assertion": "Patient reports receiving hepatitis B vaccination series in childhood but is unsure of completion status. Denies ever receiving hepatitis A vaccine. COVID-19 vaccination status: received two doses of Pfizer-BioNTech vaccine in 2021, no boosters. Influenza vaccine received annually, last dose in October 2023. Patient unsure about other vaccination history."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "1742-6",
+                "LOINC Order Code Description": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "450",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-07-09 15:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "20240709-ALT001"
+            },
+            {
+                "LOINC Laboratory Order Code": "1920-8",
+                "LOINC Order Code Description": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "380",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-07-09 15:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "20240709-AST001"
+            },
+            {
+                "LOINC Laboratory Order Code": "1975-2",
+                "LOINC Order Code Description": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "4.2",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-07-09 15:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "20240709-TBIL001"
+            },
+            {
+                "LOINC Laboratory Order Code": "6768-6",
+                "LOINC Order Code Description": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "210",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-07-09 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240709-ALP001"
+            },
+            {
+                "LOINC Laboratory Order Code": "2324-2",
+                "LOINC Order Code Description": "Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "180",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654325",
+                "Specimen Collection Date": "2024-07-09 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240709-GGT001"
+            },
+            {
+                "LOINC Laboratory Order Code": "4542-7",
+                "LOINC Order Code Description": "Hepatitis C virus Ab [Presence] in Serum or Plasma by Immunoassay",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654326",
+                "Specimen Collection Date": "2024-07-09 15:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "20240709-HCVAB001"
+            },
+            {
+                "LOINC Laboratory Order Code": "11011-4",
+                "LOINC Order Code Description": "Hepatitis C virus RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection",
+                "Laboratory Result": "5,200,000",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Plasma",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654327",
+                "Specimen Collection Date": "2024-07-09 15:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "20240709-HCVRNA001"
+            },
+            {
+                "LOINC Laboratory Order Code": "1751-7",
+                "LOINC Order Code Description": "Albumin [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "3.2",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654328",
+                "Specimen Collection Date": "2024-07-09 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240709-ALB001"
+            },
+            {
+                "LOINC Laboratory Order Code": "6301-6",
+                "LOINC Order Code Description": "INR in Platelet poor plasma by Coagulation assay",
+                "Laboratory Result": "1.4",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Plasma",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654329",
+                "Specimen Collection Date": "2024-07-09 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240709-INR001"
+            },
+            {
+                "LOINC Laboratory Order Code": "2160-0",
+                "LOINC Order Code Description": "Creatinine [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "0.9",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654330",
+                "Specimen Collection Date": "2024-07-09 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240709-CREA001"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Acute hepatitis C",
+                "ICD-10 Code": "B17.10",
+                "SNOMED-CT Code": "50711007",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-06-25",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Toxic liver disease with hepatitis, not elsewhere classified",
+                "ICD-10 Code": "K71.6",
+                "SNOMED-CT Code": "235884003",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-07-07",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Jaundice, unspecified",
+                "ICD-10 Code": "R17",
+                "SNOMED-CT Code": "18165001",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-07-08",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Alcohol abuse, in remission",
+                "ICD-10 Code": "F10.11",
+                "SNOMED-CT Code": "722652004",
+                "Diagnosis Date": "2024-04-10",
+                "Onset Date": "2014-01-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Major depressive disorder, recurrent, in partial remission",
+                "ICD-10 Code": "F33.41",
+                "SNOMED-CT Code": "310495003",
+                "Diagnosis Date": "2022-03-15",
+                "Onset Date": "2022-03-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Personal history of intravenous drug use",
+                "ICD-10 Code": "Z86.59",
+                "SNOMED-CT Code": "228366006",
+                "Diagnosis Date": "2024-01-10",
+                "Onset Date": "2010-01-01",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Abdominal ultrasound, real time with image documentation; complete",
+                "CPT Code": "76700",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "Performed to assess liver morphology and rule out biliary obstruction. Findings showed hepatomegaly with increased echogenicity consistent with fatty infiltration and early cirrhotic changes.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Liver elastography, mechanically induced shear wave (eg, vibration) elastography",
+                "CPT Code": "91200",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-11",
+                "Details": "Scheduled to assess liver stiffness and fibrosis stage non-invasively.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Biopsy of liver, needle; percutaneous",
+                "CPT Code": "47000",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-12",
+                "Details": "Scheduled to assess the extent of liver damage and stage of fibrosis. Will be performed under ultrasound guidance.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Therapeutic, prophylactic, or diagnostic injection; intravenous push, single or initial substance/drug",
+                "CPT Code": "96374",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "Administration of IV fluids for hydration and antiemetics for nausea management.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Hepatitis B vaccine (HepB), adult dosage, 3 dose schedule, for intramuscular use",
+                "CPT Code": "90746",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-10",
+                "Details": "First dose of Hepatitis B vaccination series to be administered, as patient's previous vaccination status is unclear.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Hepatitis A vaccine (HepA), adult dosage, for intramuscular use",
+                "CPT Code": "90632",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-10",
+                "Details": "First dose of Hepatitis A vaccination to be administered, as patient has not previously received this vaccine.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Alcohol and/or substance (other than tobacco) abuse structured assessment (eg, AUDIT, DAST), and brief intervention 15 to 30 minutes",
+                "CPT Code": "99408",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-11",
+                "Details": "Scheduled substance abuse counseling session with addiction specialist to address history of drug use and recent alcohol consumption.",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Sofosbuvir/Velpatasvir",
+                "Medication Type": "Antiviral",
+                "Purpose": "Treatment of Hepatitis C",
+                "Administration Mode": "Oral",
+                "Dose": "400mg/100mg",
+                "Duration": "Once daily for 12 weeks",
+                "Start Date": "2024-07-10",
+                "Response": "Pending",
+                "Response Details": "Treatment initiated, viral load monitoring planned",
+                "Observation Date": "2024-07-10"
+            },
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Management of nausea",
+                "Administration Mode": "Intravenous",
+                "Dose": "4mg",
+                "Duration": "Every 8 hours as needed",
+                "Start Date": "2024-07-09",
+                "Response": "Positive",
+                "Response Details": "Significant reduction in nausea reported",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic",
+                "Purpose": "Pain management",
+                "Administration Mode": "Oral",
+                "Dose": "500mg",
+                "Duration": "Every 6 hours as needed",
+                "Start Date": "2024-07-09",
+                "Response": "Moderate",
+                "Response Details": "Partial relief of abdominal pain",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Lactulose",
+                "Medication Type": "Laxative",
+                "Purpose": "Prevention of hepatic encephalopathy",
+                "Administration Mode": "Oral",
+                "Dose": "20g",
+                "Duration": "Three times daily",
+                "Start Date": "2024-07-09",
+                "Response": "Positive",
+                "Response Details": "Regular bowel movements achieved",
+                "Observation Date": "2024-07-10"
+            },
+            {
+                "Medication Name": "Vitamin K",
+                "Medication Type": "Vitamin supplement",
+                "Purpose": "Correction of coagulopathy",
+                "Administration Mode": "Subcutaneous",
+                "Dose": "10mg",
+                "Duration": "Once daily for 3 days",
+                "Start Date": "2024-07-09",
+                "Response": "Positive",
+                "Response Details": "Improvement in INR observed",
+                "Observation Date": "2024-07-10"
+            },
+            {
+                "Medication Name": "Sertraline",
+                "Medication Type": "Antidepressant",
+                "Purpose": "Management of depression",
+                "Administration Mode": "Oral",
+                "Dose": "50mg",
+                "Duration": "Once daily",
+                "Start Date": "2022-03-15",
+                "Response": "Positive",
+                "Response Details": "Mood stabilized, continued from previous prescription",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Thiamine",
+                "Medication Type": "Vitamin supplement",
+                "Purpose": "Prevention of Wernicke's encephalopathy",
+                "Administration Mode": "Intramuscular",
+                "Dose": "100mg",
+                "Duration": "Once daily for 5 days",
+                "Start Date": "2024-07-09",
+                "Response": "Neutral",
+                "Response Details": "Preventive measure, no adverse effects noted",
+                "Observation Date": "2024-07-10"
+            },
+            {
+                "Medication Name": "Ursodeoxycholic acid",
+                "Medication Type": "Bile acid",
+                "Purpose": "Liver protection",
+                "Administration Mode": "Oral",
+                "Dose": "300mg",
+                "Duration": "Twice daily",
+                "Start Date": "2024-07-10",
+                "Response": "Pending",
+                "Response Details": "Recently initiated, monitoring for effects on liver enzymes",
+                "Observation Date": "2024-07-10"
+            },
+            {
+                "Medication Name": "Pantoprazole",
+                "Medication Type": "Proton pump inhibitor",
+                "Purpose": "Prevention of stress ulcers",
+                "Administration Mode": "Intravenous",
+                "Dose": "40mg",
+                "Duration": "Once daily",
+                "Start Date": "2024-07-09",
+                "Response": "Positive",
+                "Response Details": "No signs of gastrointestinal bleeding",
+                "Observation Date": "2024-07-10"
+            },
+            {
+                "Medication Name": "Multivitamin",
+                "Medication Type": "Vitamin supplement",
+                "Purpose": "Nutritional support",
+                "Administration Mode": "Oral",
+                "Dose": "1 tablet",
+                "Duration": "Once daily",
+                "Start Date": "2024-07-10",
+                "Response": "Neutral",
+                "Response Details": "Supportive care, no specific response expected",
+                "Observation Date": "2024-07-10"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. Tasha Johnson, a 42-year-old female with a history of IV drug use and alcohol abuse, presented to the ER with severe abdominal pain and jaundice. Lab tests revealed elevated liver enzymes and positive HCV antibody and RNA. Ultrasound showed hepatomegaly and early cirrhotic changes. Diagnosed with acute hepatitis C and liver damage, she was admitted for further evaluation and treatment. Antiviral therapy with Sofosbuvir/Velpatasvir was initiated, along with supportive care. Patient's history suggests recent HCV exposure, possibly from a family member or past drug use."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Tasha651 Johnson824",
+        "Report_Header_Age": "42",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-07-10"
+    }
+}

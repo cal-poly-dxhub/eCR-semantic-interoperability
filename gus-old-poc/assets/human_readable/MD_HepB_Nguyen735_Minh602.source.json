@@ -1,0 +1,698 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "Asian",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "32",
+        "Date of Birth": "1992-03-15",
+        "Location": "Silver Spring",
+        "Country of Residence": "United States",
+        "Country of Nationality": "Vietnam",
+        "Preferred Language": "Vietnamese",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Nguyen735, Minh602",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed part-time",
+        "Gender Identity": "Male",
+        "Disability Status": "No disability",
+        "Education Level": "Some college",
+        "Marital Status": "Single",
+        "Smoking Status": "Current every day smoker",
+        "BMI": "27.5",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Medicaid",
+        "Refugee Status": "Yes",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Somewhat worried",
+        "People Living at Address": "4",
+        "Housing Status": "Renting",
+        "Stress Level": "High stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1247 Lotus Blossom Ave., Apt 3C, Silver Spring, MD 20910",
+        "Patient Email": "minh.nguyen735@emailprovider.com",
+        "Patient Phone": "301-555-8624"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Food Service Worker",
+        "Current Industry": "Restaurant",
+        "Usual Occupation": "Food Service Worker",
+        "Usual Industry": "Restaurant",
+        "Usual Employment Date Range": "Start: 2018-09-01 to current",
+        "Current Job Title": "Server",
+        "Current Employer": "Pho Delights, 8701 Georgia Ave, Silver Spring, MD 20910, (301) 555-2468",
+        "Current Employment Start Date": "2018-09-01",
+        "Annual Income": "$24,000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Ho Chi Minh City, Vietnam",
+                "Purpose": "Family",
+                "Start Date": "2024-05-01",
+                "End Date": "2024-05-15",
+                "Accommodations": "Family home",
+                "Mode of Travel": "Commercial airline",
+                "Activities": "Visited extended family, attended a cousin's wedding, ate at local street food markets, received a traditional massage"
+            },
+            {
+                "Location": "Baltimore, Maryland, USA",
+                "Purpose": "Social events",
+                "Start Date": "2024-03-22",
+                "End Date": "2024-03-24",
+                "Accommodations": "Friend's apartment",
+                "Mode of Travel": "Personal car",
+                "Activities": "Attended a friend's birthday party at a crowded bar, shared drinks and food with multiple people"
+            },
+            {
+                "Location": "Silver Spring, Maryland, USA",
+                "Purpose": "Routine",
+                "Start Date": "2024-02-15",
+                "End Date": "2024-02-15",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Public bus",
+                "Activities": "Visited a local community health clinic for a general check-up, used shared waiting room facilities"
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient reports recent travel to Vietnam (Ho Chi Minh City) from May 1-15, 2024, staying with family. Activities included attending a wedding, eating at local street food markets, and receiving a traditional massage. Patient also traveled to Baltimore, MD from March 22-24, 2024, where he attended a crowded social gathering with shared food and drinks. On February 15, 2024, patient visited a local community health clinic in Silver Spring, MD, using public transportation and shared waiting room facilities. These travel activities, particularly the recent international travel to Vietnam and social gatherings with shared food and drinks, may be relevant to the patient's hepatitis B infection risk and recent diagnosis."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Fatigue, loss of appetite, and yellowing of skin",
+        "Patient ID": "7352914",
+        "Encounter Class": "outpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "20240709001",
+        "Start DateTime": "2024-07-09 09:30",
+        "End DateTime": "2024-07-09 11:45",
+        "Discharge Disposition": "Discharged to home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient visit",
+                "SNOMED-CT Code": "308335008",
+                "Description": "Patient encounter procedure",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Initial evaluation",
+                "SNOMED-CT Code": "185349003",
+                "Description": "Encounter for initial evaluation",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Diagnostic procedure",
+                "SNOMED-CT Code": "386053000",
+                "Description": "Evaluation procedure",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Patient education",
+                "SNOMED-CT Code": "311401005",
+                "Description": "Patient education procedure",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Patel852, Anita417, MD",
+        "Practitioner Phone": "301-555-7392",
+        "Practitioner Fax": "301-555-7393",
+        "Practitioner Email": "a.patel@silverspringhealthcare.org",
+        "Practitioner Office Name": "Silver Spring Community Health Center",
+        "Practitioner ID": "1234567890",
+        "Practitioner Address": "1500 Maple Grove Rd, Suite 200, Silver Spring, MD 20910",
+        "End Date": "2024-07-09"
+    },
+    "Facility_Information": {
+        "Facility Name": "Silver Spring Community Health Center",
+        "Facility Type": "Outpatient clinic",
+        "Facility Phone": "301-555-7390",
+        "Facility Fax": "301-555-7391",
+        "Facility Address": "1500 Maple Grove Rd, Suite 200, Silver Spring, MD 20910"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-06-20",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Loss of appetite",
+                "SNOMED-CT": "79890006",
+                "Onset Date": "2024-06-25",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Jaundice",
+                "SNOMED-CT": "18165001",
+                "Onset Date": "2024-07-05",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-06-28",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-07-02",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Dark urine",
+                "SNOMED-CT": "34436003",
+                "Onset Date": "2024-07-03",
+                "Severity": "Moderate",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "38.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-07-09 09:35:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "88",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-07-09 09:36:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "18",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-07-09 09:37:00"
+            },
+            {
+                "Vital Sign": "Blood pressure",
+                "Value": "128/82",
+                "SNOMED-CT": "75367002",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-09 09:38:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "98",
+                "SNOMED-CT": "431314004",
+                "Unit": "%",
+                "Measurement Time": "2024-07-09 09:39:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "75.5",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-07-09 09:40:00"
+            },
+            {
+                "Vital Sign": "Body height",
+                "Value": "166",
+                "SNOMED-CT": "50373000",
+                "Unit": "cm",
+                "Measurement Time": "2024-07-09 09:41:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Fatigue, loss of appetite, and yellowing of skin",
+        "Past Medical History": "Patient reports no significant past medical history. He immigrated from Vietnam 5 years ago and has had limited access to healthcare. He denies any known chronic conditions or previous hospitalizations. Patient reports receiving some childhood vaccinations in Vietnam but is unsure of specifics. No known allergies. Patient is a current smoker, 1/2 pack per day for 10 years.",
+        "Review of Systems": "General: Reports fatigue, weakness, and recent unintentional weight loss of about 5 kg over the past month. Denies fever or chills.\nSkin: Notes yellowing of skin and eyes over the past week.\nHEENT: Denies vision changes, hearing loss, sore throat, or oral lesions.\nCardiovascular: Denies chest pain, palpitations, or edema.\nRespiratory: Denies cough, shortness of breath, or wheezing.\nGastrointestinal: Reports loss of appetite, nausea, and mild right upper quadrant abdominal pain. Denies vomiting, diarrhea, or constipation. Notes darker urine over the past few days.\nGenitourinary: Denies dysuria, frequency, or urgency.\nMusculoskeletal: Reports general body aches. Denies joint swelling or specific joint pain.\nNeurological: Denies headaches, dizziness, or changes in consciousness.\nPsychiatric: Denies depression or anxiety, but expresses concern about his symptoms.\nEndocrine: Denies excessive thirst or frequent urination.\nHematologic/Lymphatic: Denies easy bruising or bleeding. No known enlarged lymph nodes.\nAllergic/Immunologic: Denies recent allergic reactions or frequent infections.",
+        "History of Present Illness": "Mr. Nguyen is a 32-year-old Vietnamese male who presents with a 3-week history of progressive fatigue, loss of appetite, and recent onset of jaundice. The patient reports that his symptoms began insidiously about 3 weeks ago with general fatigue and weakness. Over the past 2 weeks, he noticed a significant decrease in appetite and has lost approximately 5 kg. One week ago, he observed yellowing of his skin and eyes, which prompted him to seek medical attention.\n\nThe patient also reports mild right upper quadrant abdominal discomfort and nausea, but denies vomiting or fever. He has noticed his urine becoming darker over the past few days. He denies any recent alcohol consumption or use of new medications or supplements.\n\nOf note, the patient recently traveled to Vietnam from May 1-15, 2024, where he stayed with family, attended a wedding, and received a traditional massage. He also reports attending a crowded social gathering in Baltimore in March where he shared food and drinks with others.\n\nThe patient works as a part-time server in a restaurant and is a current smoker. He has no known chronic medical conditions and is not on any regular medications. He is unsure about his vaccination history, particularly regarding hepatitis B.",
+        "Plan of Treatment": "1. Diagnosis: Based on the patient's presentation and risk factors, we suspect acute hepatitis B infection. We will proceed with the following diagnostic tests:\n   - Complete blood count (CBC)\n   - Comprehensive metabolic panel (CMP)\n   - Prothrombin time (PT) and INR\n   - Hepatitis B surface antigen (HBsAg)\n   - Hepatitis B core antibody (anti-HBc) IgM\n   - Hepatitis B e antigen (HBeAg)\n   - Hepatitis B viral load (HBV DNA)\n   - Liver ultrasound\n\n2. Management:\n   - Patient education on hepatitis B transmission, prognosis, and self-care measures\n   - Advise rest and adequate hydration\n   - Recommend abstinence from alcohol and potentially hepatotoxic medications\n   - Provide dietary advice to manage nausea and maintain nutrition\n\n3. Follow-up:\n   - Schedule follow-up appointment in 1 week to review test results\n   - Arrange for testing of close contacts and sexual partners\n   - Consider referral to hepatologist for further management if acute hepatitis B is confirmed\n\n4. Supportive care:\n   - Prescribe antiemetic (ondansetron 4mg PO q8h PRN) for nausea\n   - Recommend acetaminophen 500mg PO q6h PRN for pain, not to exceed 2g/day\n\n5. Public health measures:\n   - Report suspected case to local health department\n   - Counsel on preventing transmission to others\n\n6. Long-term considerations:\n   - Discuss hepatitis A and B vaccination if not previously immunized\n   - Address smoking cessation strategies\n\n7. Monitor for signs of acute liver failure and be prepared for potential hospitalization if condition worsens.",
+        "Vaccine Credential Patient Assertion": "Patient is unsure about his hepatitis B vaccination status. He recalls receiving some childhood vaccinations in Vietnam but cannot provide specific details. No documentation of hepatitis B vaccination is available. Given the uncertainty, we will proceed with serological testing to determine his hepatitis B status and immunity."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "10716-3",
+                "LOINC Order Code Description": "Hepatitis B virus surface Ag [Presence] in Serum or Plasma by Immunoassay",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "ORD123456"
+            },
+            {
+                "LOINC Laboratory Order Code": "11322-9",
+                "LOINC Order Code Description": "Hepatitis B virus core Ab IgM [Presence] in Serum or Plasma by Immunoassay",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "ORD123457"
+            },
+            {
+                "LOINC Laboratory Order Code": "10905-2",
+                "LOINC Order Code Description": "Hepatitis B virus e Ag [Presence] in Serum or Plasma by Immunoassay",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123458"
+            },
+            {
+                "LOINC Laboratory Order Code": "10676-9",
+                "LOINC Order Code Description": "Hepatitis B virus DNA [#/volume] (viral load) in Serum or Plasma by Probe and signal amplification method",
+                "Laboratory Result": "1,200,000 IU/mL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Plasma",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123459"
+            },
+            {
+                "LOINC Laboratory Order Code": "1742-6",
+                "LOINC Order Code Description": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "450 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654325",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123460"
+            },
+            {
+                "LOINC Laboratory Order Code": "1920-8",
+                "LOINC Order Code Description": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "380 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654326",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123461"
+            },
+            {
+                "LOINC Laboratory Order Code": "1975-2",
+                "LOINC Order Code Description": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "3.5 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654327",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123462"
+            },
+            {
+                "LOINC Laboratory Order Code": "6690-2",
+                "LOINC Order Code Description": "Leukocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "6.8 x 10^9/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654328",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123463"
+            },
+            {
+                "LOINC Laboratory Order Code": "789-8",
+                "LOINC Order Code Description": "Erythrocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "4.8 x 10^12/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654329",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123464"
+            },
+            {
+                "LOINC Laboratory Order Code": "777-3",
+                "LOINC Order Code Description": "Platelets [#/volume] in Blood by Automated count",
+                "Laboratory Result": "180 x 10^9/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654330",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123465"
+            },
+            {
+                "LOINC Laboratory Order Code": "5902-2",
+                "LOINC Order Code Description": "Prothrombin time (PT)",
+                "Laboratory Result": "13.5 seconds",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Plasma",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654331",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123466"
+            },
+            {
+                "LOINC Laboratory Order Code": "6301-6",
+                "LOINC Order Code Description": "INR in Platelet poor plasma by Coagulation assay",
+                "Laboratory Result": "1.2",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Plasma",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654332",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123467"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Acute viral hepatitis B without delta-agent",
+                "ICD-10 Code": "B16.9",
+                "SNOMED-CT Code": "66071002",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-06-20",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Fatigue",
+                "ICD-10 Code": "R53.83",
+                "SNOMED-CT Code": "84229001",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-06-20",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Jaundice",
+                "ICD-10 Code": "R17",
+                "SNOMED-CT Code": "18165001",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-07-05",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Nausea",
+                "ICD-10 Code": "R11.0",
+                "SNOMED-CT Code": "422587007",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-06-28",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Abdominal pain, right upper quadrant",
+                "ICD-10 Code": "R10.11",
+                "SNOMED-CT Code": "21522001",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-07-02",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Nicotine dependence, cigarettes",
+                "ICD-10 Code": "F17.210",
+                "SNOMED-CT Code": "56294008",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2014-07-09",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Abdominal ultrasound",
+                "CPT Code": "76700",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "Performed to evaluate liver size, texture, and rule out any focal lesions or biliary obstruction.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis B surface antigen (HBsAg)",
+                "CPT Code": "87340",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "Serological test to detect the presence of hepatitis B surface antigen, indicating active infection.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis B core antibody (anti-HBc) IgM",
+                "CPT Code": "86705",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "Serological test to detect IgM antibodies to hepatitis B core antigen, indicating recent infection.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis B e antigen (HBeAg)",
+                "CPT Code": "87350",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "Serological test to detect hepatitis B e antigen, indicating active viral replication.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis B viral load (HBV DNA)",
+                "CPT Code": "87517",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "Quantitative PCR test to measure the amount of hepatitis B virus in the blood.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Intravenous hydration",
+                "CPT Code": "96360",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "Administration of IV fluids to prevent dehydration due to nausea and poor oral intake.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Injection, ondansetron hydrochloride",
+                "CPT Code": "96374",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "Administration of antiemetic medication to manage nausea.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Liver biopsy",
+                "CPT Code": "47000",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-16",
+                "Details": "Scheduled liver biopsy to assess the degree of liver inflammation and fibrosis.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Hepatitis B immune globulin (HBIG) administration",
+                "CPT Code": "90371",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-11",
+                "Details": "Planned administration of HBIG to provide passive immunity and potentially reduce the risk of chronic infection.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Hepatitis A and B vaccine administration",
+                "CPT Code": "90636",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-23",
+                "Details": "Scheduled administration of combined Hepatitis A and B vaccine to provide long-term protection against both viruses.",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "To manage nausea associated with acute hepatitis B",
+                "Administration Mode": "Oral",
+                "Dose": "4 mg tablet",
+                "Duration": "Every 8 hours as needed",
+                "Start Date": "2024-07-09",
+                "Response": "Moderate improvement",
+                "Response Details": "Patient reports reduced frequency and severity of nausea episodes",
+                "Observation Date": "2024-07-10"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic, Antipyretic",
+                "Purpose": "To manage mild pain and fever associated with acute hepatitis B",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg tablet",
+                "Duration": "Every 6 hours as needed, not to exceed 2g/day",
+                "Start Date": "2024-07-09",
+                "Response": "Mild improvement",
+                "Response Details": "Patient reports slight reduction in body aches and low-grade fever",
+                "Observation Date": "2024-07-10"
+            },
+            {
+                "Medication Name": "Hepatitis B Immune Globulin (HBIG)",
+                "Medication Type": "Immunoglobulin",
+                "Purpose": "To provide passive immunity against hepatitis B virus",
+                "Administration Mode": "Intramuscular injection",
+                "Dose": "0.06 mL/kg",
+                "Duration": "Single dose",
+                "Start Date": "2024-07-11",
+                "Response": "Not yet observed",
+                "Response Details": "Effectiveness to be assessed in follow-up appointments",
+                "Observation Date": "2024-07-11"
+            },
+            {
+                "Medication Name": "Entecavir",
+                "Medication Type": "Antiviral",
+                "Purpose": "To suppress hepatitis B virus replication",
+                "Administration Mode": "Oral",
+                "Dose": "0.5 mg tablet",
+                "Duration": "Once daily",
+                "Start Date": "2024-07-12",
+                "Response": "Pending",
+                "Response Details": "Viral load reduction to be assessed in follow-up appointments",
+                "Observation Date": "2024-07-12"
+            },
+            {
+                "Medication Name": "Ursodeoxycholic acid",
+                "Medication Type": "Bile acid",
+                "Purpose": "To improve liver function and reduce cholestasis",
+                "Administration Mode": "Oral",
+                "Dose": "300 mg capsule",
+                "Duration": "Twice daily",
+                "Start Date": "2024-07-13",
+                "Response": "Mild improvement",
+                "Response Details": "Slight reduction in jaundice and pruritus noted",
+                "Observation Date": "2024-07-15"
+            },
+            {
+                "Medication Name": "Vitamin K",
+                "Medication Type": "Vitamin supplement",
+                "Purpose": "To support blood clotting factors synthesis",
+                "Administration Mode": "Oral",
+                "Dose": "10 mg tablet",
+                "Duration": "Once daily",
+                "Start Date": "2024-07-14",
+                "Response": "Stable",
+                "Response Details": "No adverse effects noted, coagulation parameters stable",
+                "Observation Date": "2024-07-16"
+            },
+            {
+                "Medication Name": "Multivitamin",
+                "Medication Type": "Dietary supplement",
+                "Purpose": "To support overall nutritional status during illness",
+                "Administration Mode": "Oral",
+                "Dose": "1 tablet",
+                "Duration": "Once daily",
+                "Start Date": "2024-07-09",
+                "Response": "Well-tolerated",
+                "Response Details": "No adverse effects reported, may contribute to overall well-being",
+                "Observation Date": "2024-07-15"
+            },
+            {
+                "Medication Name": "Nicotine patch",
+                "Medication Type": "Smoking cessation aid",
+                "Purpose": "To support smoking cessation efforts",
+                "Administration Mode": "Transdermal",
+                "Dose": "21 mg/24 hours",
+                "Duration": "Apply one patch daily",
+                "Start Date": "2024-07-15",
+                "Response": "Moderate effectiveness",
+                "Response Details": "Patient reports reduced cigarette cravings, but still experiencing some withdrawal symptoms",
+                "Observation Date": "2024-07-18"
+            },
+            {
+                "Medication Name": "Lactulose",
+                "Medication Type": "Laxative",
+                "Purpose": "To prevent hepatic encephalopathy and manage constipation",
+                "Administration Mode": "Oral",
+                "Dose": "15 mL",
+                "Duration": "Twice daily",
+                "Start Date": "2024-07-16",
+                "Response": "Effective",
+                "Response Details": "Patient reports regular bowel movements and no signs of confusion",
+                "Observation Date": "2024-07-18"
+            },
+            {
+                "Medication Name": "Probiotic supplement",
+                "Medication Type": "Dietary supplement",
+                "Purpose": "To support gut health and immune function",
+                "Administration Mode": "Oral",
+                "Dose": "1 capsule",
+                "Duration": "Once daily",
+                "Start Date": "2024-07-17",
+                "Response": "Well-tolerated",
+                "Response Details": "No adverse effects reported, potential benefits to be assessed in long-term follow-up",
+                "Observation Date": "2024-07-20"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 32-year-old Vietnamese male presents with fatigue, loss of appetite, and jaundice. Recent travel to Vietnam and social gatherings noted. Lab tests confirm acute hepatitis B infection. Patient experiences nausea, abdominal pain, and dark urine. Diagnostic procedures include blood tests and abdominal ultrasound. Treatment involves supportive care with ondansetron and acetaminophen. Hepatitis B Immune Globulin and antiviral medication (entecavir) initiated. Patient advised on transmission prevention and scheduled for follow-up to monitor disease progression and treatment response."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Minh602 Nguyen735",
+        "Report_Header_Age": "32",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-07-10"
+    }
+}

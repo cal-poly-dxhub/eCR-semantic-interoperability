@@ -1,0 +1,802 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "American Indian or Alaska Native",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "50",
+        "Date of Birth": "1974-06-24",
+        "Location": "New Town, North Dakota",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "Three Affiliated Tribes (Mandan, Hidatsa and Arikara Nation)"
+    },
+    "Patient Name": "Lone Bear725, Waneta189",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed part-time",
+        "Gender Identity": "Female",
+        "Disability Status": "Not disabled",
+        "Education Level": "High school graduate",
+        "Marital Status": "Married",
+        "Smoking Status": "Former smoker",
+        "BMI": "28.5",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Medicaid",
+        "Refugee Status": "Not a refugee",
+        "Correctional Facility Status": "Not in correctional facility",
+        "Lose Housing Worry": "Somewhat worried",
+        "People Living at Address": "4",
+        "Housing Status": "Renting",
+        "Stress Level": "Moderate stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1437 Thunderbird Ln., New Town, ND 58763",
+        "Patient Email": "waneta.lonebear725@nativenet.com",
+        "Patient Phone": "701-555-8294"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Cashier",
+        "Current Industry": "Retail",
+        "Usual Occupation": "Cashier",
+        "Usual Industry": "Retail",
+        "Usual Employment Date Range": "Start: 2010-03-15 to current",
+        "Current Job Title": "Part-time Cashier",
+        "Current Employer": "Prairie Sky Convenience Store, 301 Main St, New Town, ND 58763, 701-627-3456",
+        "Current Employment Start Date": "2010-03-15",
+        "Annual Income": "$18,500"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Bismarck, North Dakota",
+                "Purpose": "Medical",
+                "Start Date": "2024-06-10",
+                "End Date": "2024-06-12",
+                "Accommodations": "Sanford Medical Center",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Attended hepatology appointment, underwent liver function tests and ultrasound"
+            },
+            {
+                "Location": "Minot, North Dakota",
+                "Purpose": "Family",
+                "Start Date": "2024-03-22",
+                "End Date": "2024-03-24",
+                "Accommodations": "Sister's home",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Visited sister and her family, attended local powwow"
+            },
+            {
+                "Location": "Fargo, North Dakota",
+                "Purpose": "Medical",
+                "Start Date": "2023-11-15",
+                "End Date": "2023-11-17",
+                "Accommodations": "Sanford Medical Center",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Consulted with hepatologist, underwent liver biopsy"
+            },
+            {
+                "Location": "New Town, North Dakota",
+                "Purpose": "Routine",
+                "Start Date": "2023-09-05",
+                "End Date": "2023-09-05",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Walking",
+                "Activities": "Attended local health fair, received hepatitis B education and screening"
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient has made several medically-relevant trips in the past year. Most recently, she traveled to Bismarck, ND from 2024-06-10 to 2024-06-12 for a hepatology appointment, including liver function tests and ultrasound. This follows a previous trip to Fargo, ND from 2023-11-15 to 2023-11-17 for a hepatologist consultation and liver biopsy. These out-of-town medical visits suggest ongoing specialist care for her chronic hepatitis B with compensated cirrhosis. Locally, the patient attended a health fair in New Town, ND on 2023-09-05, where she received hepatitis B education and screening, indicating engagement with community health resources. No international travel or exposure risks noted. All travel was by personal vehicle or walking, minimizing potential transmission risks associated with public transportation."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Fatigue and mild abdominal discomfort",
+        "Patient ID": "7392841",
+        "Encounter Class": "outpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "20240623-001",
+        "Start DateTime": "2024-06-23 09:30",
+        "End DateTime": "2024-06-23 11:15",
+        "Discharge Disposition": "Discharged to home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient visit",
+                "SNOMED-CT Code": "308335008",
+                "Description": "Patient encounter procedure",
+                "Start Date": "2024-06-23",
+                "End Date": "2024-06-23"
+            },
+            {
+                "Encounter Type": "Hepatology consultation",
+                "SNOMED-CT Code": "84251009",
+                "Description": "Consultation for hepatology",
+                "Start Date": "2024-06-23",
+                "End Date": "2024-06-23"
+            },
+            {
+                "Encounter Type": "Chronic disease management",
+                "SNOMED-CT Code": "385783007",
+                "Description": "Chronic disease management",
+                "Start Date": "2024-06-23",
+                "End Date": "2024-06-23"
+            },
+            {
+                "Encounter Type": "Patient education",
+                "SNOMED-CT Code": "311401005",
+                "Description": "Patient education procedure",
+                "Start Date": "2024-06-23",
+                "End Date": "2024-06-23"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Bell213, Jacob789, MD",
+        "Practitioner Phone": "701-555-3827",
+        "Practitioner Fax": "701-555-3828",
+        "Practitioner Email": "j.bell213@prairiehealthclinic.org",
+        "Practitioner Office Name": "Prairie Health Clinic",
+        "Practitioner ID": "7023948561",
+        "Practitioner Address": "1842 Meadowlark Drive, New Town, ND 58763"
+    },
+    "Facility_Information": {
+        "Facility Name": "Prairie Health Clinic",
+        "Facility Type": "Outpatient clinic",
+        "Facility Phone": "701-555-3820",
+        "Facility Fax": "701-555-3821",
+        "Facility Address": "1842 Meadowlark Drive, New Town, ND 58763"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-05-15",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal discomfort",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-06-01",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Loss of appetite",
+                "SNOMED-CT": "79890006",
+                "Onset Date": "2024-05-20",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-06-10",
+                "Severity": "Mild",
+                "Status": "Intermittent"
+            },
+            {
+                "Symptom": "Joint pain",
+                "SNOMED-CT": "57676002",
+                "Onset Date": "2024-06-05",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Itching",
+                "SNOMED-CT": "418290006",
+                "Onset Date": "2024-06-15",
+                "Severity": "Mild",
+                "Status": "Intermittent"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "37.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "C",
+                "Measurement Time": "2024-06-23 09:35:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "82",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/min",
+                "Measurement Time": "2024-06-23 09:36:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "16",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/min",
+                "Measurement Time": "2024-06-23 09:37:00"
+            },
+            {
+                "Vital Sign": "Blood pressure",
+                "Value": "128/82",
+                "SNOMED-CT": "75367002",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-23 09:38:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "98",
+                "SNOMED-CT": "103228002",
+                "Unit": "%",
+                "Measurement Time": "2024-06-23 09:39:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "78.5",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-06-23 09:40:00"
+            },
+            {
+                "Vital Sign": "Body mass index",
+                "Value": "28.5",
+                "SNOMED-CT": "60621009",
+                "Unit": "kg/m2",
+                "Measurement Time": "2024-06-23 09:41:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Follow-up for chronic hepatitis B with compensated cirrhosis",
+        "Past Medical History": "Patient has a history of chronic hepatitis B diagnosed in 2010 following routine screening. Compensated cirrhosis was diagnosed in 2020 via liver biopsy. Other medical history includes type 2 diabetes mellitus (diagnosed 2018), hypertension (diagnosed 2015), and depression (diagnosed 2012). Patient reports alcohol use disorder in remission since 2015. No history of hepatocellular carcinoma. Family history significant for maternal aunt with hepatitis B-related liver cancer.",
+        "Review of Systems": "General: Reports fatigue and mild weight loss. Denies fever, chills, or night sweats. HEENT: No jaundice, no visual changes. Cardiovascular: Denies chest pain or palpitations. Respiratory: No shortness of breath or cough. Gastrointestinal: Reports mild intermittent abdominal discomfort in right upper quadrant. Denies nausea, vomiting, or changes in bowel habits. No hematemesis or melena. Genitourinary: No changes in urination. Musculoskeletal: Reports mild joint pain, particularly in knees and hands. Skin: Occasional itching, no rashes or bruising. Neurological: No confusion or changes in mental status. Psychiatric: Mood stable on current antidepressant regimen.",
+        "History of Present Illness": "Ms. Lone Bear is a 50-year-old Native American woman with a 14-year history of chronic hepatitis B, complicated by compensated cirrhosis diagnosed 4 years ago. She presents today for routine follow-up and management of her condition. Patient reports increasing fatigue over the past month, along with mild, intermittent right upper quadrant discomfort. She denies any fever, jaundice, or significant changes in appetite or weight. Patient has been compliant with her antiviral medication (entecavir) and abstinent from alcohol since 2015. She attends regular hepatology appointments in Bismarck, with her most recent visit two weeks ago including liver function tests and an ultrasound. Results are pending. Patient expresses concern about her recent symptoms and their potential impact on her liver health.",
+        "Plan of Treatment": "1. Continue current antiviral therapy with entecavir 0.5 mg daily. 2. Await results of recent liver function tests and ultrasound from hepatology visit. Will review and adjust treatment plan as necessary. 3. Schedule follow-up appointment in 3 months, or sooner if symptoms worsen. 4. Recommend hepatocellular carcinoma screening with alpha-fetoprotein test and liver ultrasound every 6 months. 5. Encourage continued alcohol abstinence and maintain a low-sodium diet. 6. Refer to nutritionist for dietary counseling to manage weight and optimize liver health. 7. Consider referral to rheumatology for evaluation of joint pain if symptoms persist or worsen. 8. Continue current management of comorbidities (diabetes, hypertension, depression) with respective specialists. 9. Provide patient education on signs of hepatic decompensation and when to seek immediate medical attention. 10. Discuss importance of vaccination against hepatitis A if not previously immunized.",
+        "Vaccine Credential Patient Assertion": "Patient reports receiving hepatitis B vaccine series in childhood but is unsure of exact dates. States she received influenza vaccine in October 2023. Unsure about hepatitis A vaccination status. Declines to provide information about COVID-19 vaccination. Will request vaccine records from Indian Health Service for next visit."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "48748-7",
+                "LOINC Order Code Description": "Hepatitis B virus surface Ag [Presence] in Serum",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-06-23 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024062301"
+            },
+            {
+                "LOINC Laboratory Order Code": "10331-7",
+                "LOINC Order Code Description": "Hepatitis B virus core Ab [Presence] in Serum",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-06-23 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024062302"
+            },
+            {
+                "LOINC Laboratory Order Code": "5196-1",
+                "LOINC Order Code Description": "Hepatitis B virus surface Ab [Units/volume] in Serum",
+                "Laboratory Result": "<10 mIU/mL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-06-23 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024062303"
+            },
+            {
+                "LOINC Laboratory Order Code": "38180-6",
+                "LOINC Order Code Description": "Hepatitis B virus DNA [Log units/volume] (viral load) in Serum by NAA with probe detection",
+                "Laboratory Result": "3.2 log IU/mL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-06-23 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024062304"
+            },
+            {
+                "LOINC Laboratory Order Code": "1742-6",
+                "LOINC Order Code Description": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "65 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654325",
+                "Specimen Collection Date": "2024-06-23 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024062305"
+            },
+            {
+                "LOINC Laboratory Order Code": "1920-8",
+                "LOINC Order Code Description": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "72 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654326",
+                "Specimen Collection Date": "2024-06-23 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024062306"
+            },
+            {
+                "LOINC Laboratory Order Code": "1975-2",
+                "LOINC Order Code Description": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "1.8 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654327",
+                "Specimen Collection Date": "2024-06-23 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024062307"
+            },
+            {
+                "LOINC Laboratory Order Code": "4542-7",
+                "LOINC Order Code Description": "Erythrocyte sedimentation rate",
+                "Laboratory Result": "28 mm/hr",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654328",
+                "Specimen Collection Date": "2024-06-23 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024062308"
+            },
+            {
+                "LOINC Laboratory Order Code": "2085-9",
+                "LOINC Order Code Description": "Cholesterol in HDL [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "42 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654329",
+                "Specimen Collection Date": "2024-06-23 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024062309"
+            },
+            {
+                "LOINC Laboratory Order Code": "2571-8",
+                "LOINC Order Code Description": "Triglyceride [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "180 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654330",
+                "Specimen Collection Date": "2024-06-23 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024062310"
+            },
+            {
+                "LOINC Laboratory Order Code": "4548-4",
+                "LOINC Order Code Description": "Hemoglobin A1c/Hemoglobin.total in Blood",
+                "Laboratory Result": "7.2 %",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654331",
+                "Specimen Collection Date": "2024-06-23 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024062311"
+            },
+            {
+                "LOINC Laboratory Order Code": "2160-0",
+                "LOINC Order Code Description": "Creatinine [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "0.9 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654332",
+                "Specimen Collection Date": "2024-06-23 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024062312"
+            },
+            {
+                "LOINC Laboratory Order Code": "2951-2",
+                "LOINC Order Code Description": "Sodium [Moles/volume] in Serum or Plasma",
+                "Laboratory Result": "138 mmol/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654333",
+                "Specimen Collection Date": "2024-06-23 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024062313"
+            },
+            {
+                "LOINC Laboratory Order Code": "2823-3",
+                "LOINC Order Code Description": "Potassium [Moles/volume] in Serum or Plasma",
+                "Laboratory Result": "4.2 mmol/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654334",
+                "Specimen Collection Date": "2024-06-23 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024062314"
+            },
+            {
+                "LOINC Laboratory Order Code": "6768-6",
+                "LOINC Order Code Description": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "110 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654335",
+                "Specimen Collection Date": "2024-06-23 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024062315"
+            },
+            {
+                "LOINC Laboratory Order Code": "2324-2",
+                "LOINC Order Code Description": "Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "85 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654336",
+                "Specimen Collection Date": "2024-06-23 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024062316"
+            },
+            {
+                "LOINC Laboratory Order Code": "2514-8",
+                "LOINC Order Code Description": "Ketones [Presence] in Urine by Test strip",
+                "Laboratory Result": "Negative",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Urine",
+                "Specimen Type": "Urine",
+                "Specimen ID": "987654337",
+                "Specimen Collection Date": "2024-06-23 10:20:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024062317"
+            },
+            {
+                "LOINC Laboratory Order Code": "5811-5",
+                "LOINC Order Code Description": "Specific gravity of Urine by Test strip",
+                "Laboratory Result": "1.015",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Urine",
+                "Specimen Type": "Urine",
+                "Specimen ID": "987654338",
+                "Specimen Collection Date": "2024-06-23 10:20:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024062318"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Chronic viral hepatitis B with compensated cirrhosis",
+                "ICD-10 Code": "B18.1",
+                "SNOMED-CT Code": "235866006",
+                "Diagnosis Date": "2020-09-15",
+                "Onset Date": "2010-03-22",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Type 2 diabetes mellitus",
+                "ICD-10 Code": "E11.9",
+                "SNOMED-CT Code": "44054006",
+                "Diagnosis Date": "2018-07-10",
+                "Onset Date": "2018-06-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Essential hypertension",
+                "ICD-10 Code": "I10",
+                "SNOMED-CT Code": "59621000",
+                "Diagnosis Date": "2015-04-03",
+                "Onset Date": "2015-03-15",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Major depressive disorder, recurrent, in partial remission",
+                "ICD-10 Code": "F33.41",
+                "SNOMED-CT Code": "310495003",
+                "Diagnosis Date": "2012-11-20",
+                "Onset Date": "2012-09-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Alcohol use disorder, in remission",
+                "ICD-10 Code": "F10.21",
+                "SNOMED-CT Code": "5840001",
+                "Diagnosis Date": "2015-02-18",
+                "Onset Date": "2010-01-01",
+                "Status": "In remission",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Fatigue",
+                "ICD-10 Code": "R53.83",
+                "SNOMED-CT Code": "84229001",
+                "Diagnosis Date": "2024-06-23",
+                "Onset Date": "2024-05-15",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Mild abdominal pain",
+                "ICD-10 Code": "R10.9",
+                "SNOMED-CT Code": "21522001",
+                "Diagnosis Date": "2024-06-23",
+                "Onset Date": "2024-06-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Overweight",
+                "ICD-10 Code": "E66.3",
+                "SNOMED-CT Code": "238131007",
+                "Diagnosis Date": "2024-06-23",
+                "Onset Date": "2020-01-01",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Liver elastography",
+                "CPT Code": "91200",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-10",
+                "Details": "Non-invasive assessment of liver fibrosis and cirrhosis progression",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Abdominal ultrasound",
+                "CPT Code": "76700",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-11",
+                "Details": "Evaluation of liver parenchyma, screening for hepatocellular carcinoma",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Liver biopsy",
+                "CPT Code": "47000",
+                "Status": "Completed",
+                "Procedure Date": "2023-11-16",
+                "Details": "Assessment of liver inflammation and fibrosis stage",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Therapeutic phlebotomy",
+                "CPT Code": "36410",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-05-15",
+                "Details": "Management of elevated ferritin levels, performed every 2 months",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Esophagogastroduodenoscopy with biopsy",
+                "CPT Code": "43239",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-15",
+                "Details": "Screening for esophageal varices due to cirrhosis",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "CT scan of abdomen and pelvis with contrast",
+                "CPT Code": "74177",
+                "Status": "Planned",
+                "Procedure Date": "2024-08-05",
+                "Details": "Comprehensive imaging of liver and surrounding structures",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Paracentesis",
+                "CPT Code": "49082",
+                "Status": "Planned",
+                "Procedure Date": "2024-09-01",
+                "Details": "Contingency plan for management of ascites if developed",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatic vein pressure gradient measurement",
+                "CPT Code": "37200",
+                "Status": "Planned",
+                "Procedure Date": "2024-10-10",
+                "Details": "Assessment of portal hypertension severity",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Entecavir",
+                "Medication Type": "Antiviral",
+                "Purpose": "Treatment of chronic hepatitis B",
+                "Administration Mode": "Oral",
+                "Dose": "0.5 mg",
+                "Duration": "Once daily",
+                "Start Date": "2020-09-20",
+                "Response": "Partial response",
+                "Response Details": "Reduction in viral load, but not to undetectable levels",
+                "Observation Date": "2024-06-23"
+            },
+            {
+                "Medication Name": "Metformin",
+                "Medication Type": "Antidiabetic",
+                "Purpose": "Management of type 2 diabetes",
+                "Administration Mode": "Oral",
+                "Dose": "1000 mg",
+                "Duration": "Twice daily",
+                "Start Date": "2018-07-15",
+                "Response": "Good",
+                "Response Details": "Improved glycemic control, HbA1c reduced from 8.1% to 7.2%",
+                "Observation Date": "2024-06-23"
+            },
+            {
+                "Medication Name": "Lisinopril",
+                "Medication Type": "ACE inhibitor",
+                "Purpose": "Management of hypertension",
+                "Administration Mode": "Oral",
+                "Dose": "10 mg",
+                "Duration": "Once daily",
+                "Start Date": "2015-04-10",
+                "Response": "Good",
+                "Response Details": "Blood pressure well-controlled, averaging 128/82 mmHg",
+                "Observation Date": "2024-06-23"
+            },
+            {
+                "Medication Name": "Sertraline",
+                "Medication Type": "SSRI antidepressant",
+                "Purpose": "Treatment of major depressive disorder",
+                "Administration Mode": "Oral",
+                "Dose": "100 mg",
+                "Duration": "Once daily",
+                "Start Date": "2012-12-01",
+                "Response": "Good",
+                "Response Details": "Mood stable, no major depressive episodes in past 2 years",
+                "Observation Date": "2024-06-23"
+            },
+            {
+                "Medication Name": "Ursodeoxycholic acid",
+                "Medication Type": "Bile acid",
+                "Purpose": "Management of cirrhosis-related cholestasis",
+                "Administration Mode": "Oral",
+                "Dose": "300 mg",
+                "Duration": "Twice daily",
+                "Start Date": "2022-03-15",
+                "Response": "Fair",
+                "Response Details": "Mild improvement in liver function tests, reduced itching",
+                "Observation Date": "2024-06-23"
+            },
+            {
+                "Medication Name": "Spironolactone",
+                "Medication Type": "Potassium-sparing diuretic",
+                "Purpose": "Management of mild fluid retention",
+                "Administration Mode": "Oral",
+                "Dose": "25 mg",
+                "Duration": "Once daily",
+                "Start Date": "2023-11-01",
+                "Response": "Good",
+                "Response Details": "Reduced peripheral edema, stable electrolytes",
+                "Observation Date": "2024-06-23"
+            },
+            {
+                "Medication Name": "Vitamin D3",
+                "Medication Type": "Vitamin supplement",
+                "Purpose": "Management of vitamin D deficiency",
+                "Administration Mode": "Oral",
+                "Dose": "2000 IU",
+                "Duration": "Once daily",
+                "Start Date": "2023-01-10",
+                "Response": "Good",
+                "Response Details": "Vitamin D levels improved from 18 ng/mL to 32 ng/mL",
+                "Observation Date": "2024-06-23"
+            },
+            {
+                "Medication Name": "Calcium carbonate",
+                "Medication Type": "Mineral supplement",
+                "Purpose": "Prevention of osteoporosis",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg",
+                "Duration": "Twice daily",
+                "Start Date": "2023-01-10",
+                "Response": "Good",
+                "Response Details": "Stable bone density on recent DEXA scan",
+                "Observation Date": "2024-06-23"
+            },
+            {
+                "Medication Name": "Lactulose",
+                "Medication Type": "Laxative",
+                "Purpose": "Prevention of hepatic encephalopathy",
+                "Administration Mode": "Oral",
+                "Dose": "20 mL",
+                "Duration": "Twice daily",
+                "Start Date": "2024-02-15",
+                "Response": "Good",
+                "Response Details": "No episodes of confusion, regular bowel movements",
+                "Observation Date": "2024-06-23"
+            },
+            {
+                "Medication Name": "Propranolol",
+                "Medication Type": "Beta-blocker",
+                "Purpose": "Prevention of variceal bleeding",
+                "Administration Mode": "Oral",
+                "Dose": "20 mg",
+                "Duration": "Twice daily",
+                "Start Date": "2024-04-01",
+                "Response": "Good",
+                "Response Details": "Heart rate well-controlled, no episodes of gastrointestinal bleeding",
+                "Observation Date": "2024-06-23"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic",
+                "Purpose": "As needed for pain relief",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg",
+                "Duration": "As needed, not to exceed 2000 mg daily",
+                "Start Date": "2024-06-01",
+                "Response": "Fair",
+                "Response Details": "Provides mild relief for joint pain, used sparingly",
+                "Observation Date": "2024-06-23"
+            },
+            {
+                "Medication Name": "Omeprazole",
+                "Medication Type": "Proton pump inhibitor",
+                "Purpose": "Management of gastroesophageal reflux",
+                "Administration Mode": "Oral",
+                "Dose": "20 mg",
+                "Duration": "Once daily",
+                "Start Date": "2024-05-01",
+                "Response": "Good",
+                "Response Details": "Reduced frequency of heartburn and reflux symptoms",
+                "Observation Date": "2024-06-23"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. This report details a 50-year-old Native American woman with chronic hepatitis B diagnosed in 2010, progressing to compensated cirrhosis in 2020. She has been on antiviral therapy since 2020 with partial response. Recent symptoms include fatigue and mild abdominal discomfort. Comorbidities include type 2 diabetes, hypertension, and depression. The patient maintains alcohol abstinence since 2015. Recent lab tests show elevated liver enzymes and viral load. Ongoing management includes regular hepatology follow-ups, liver function monitoring, and screening for complications."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Waneta189 Lone Bear725",
+        "Report_Header_Age": "50",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-06-24"
+    }
+}

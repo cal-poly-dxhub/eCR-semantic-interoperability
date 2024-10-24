@@ -1,0 +1,462 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "Black or African American",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "21",
+        "Date of Birth": "2002-11-22",
+        "Location": "Charlotte",
+        "Country of Residence": "United States of America",
+        "Country of Nationality": "United States of America",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Holloway718, Jamal293",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Unemployed",
+        "Gender Identity": "Male",
+        "Disability Status": "No disability",
+        "Education Level": "High school graduate",
+        "Marital Status": "Never married",
+        "Smoking Status": "Former smoker",
+        "BMI": "24.5",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Medicaid",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Not at all",
+        "People Living at Address": "4",
+        "Housing Status": "Renting",
+        "Stress Level": "Somewhat stressed"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "3827 Oak Meadow Lane, Charlotte, NC 28215",
+        "Patient Email": "jamal293@emailprovider.com",
+        "Patient Phone": "704-555-8293"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Unemployed",
+        "Current Industry": "N/A",
+        "Usual Occupation": "Retail Sales Associate",
+        "Usual Industry": "Retail Trade",
+        "Usual Employment Date Range": "Start: 2018-06-01 to 2022-03-15",
+        "Current Job Title": "N/A",
+        "Current Employer": "N/A",
+        "Current Employment Start Date": "N/A",
+        "Annual Income": "12,000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Myrtle Beach, SC",
+                "Purpose": "Vacation",
+                "Start Date": "2024-06-15",
+                "End Date": "2024-06-20",
+                "Accommodations": "Beach resort hotel",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Beach activities, dining out, amusement parks"
+            },
+            {
+                "Location": "Charlotte, NC",
+                "Purpose": "Routine",
+                "Start Date": "2024-06-21",
+                "End Date": "2024-07-08",
+                "Accommodations": "n/a",
+                "Mode of Travel": "n/a",
+                "Activities": "Usual daily activities around Charlotte area"
+            }
+        ]
+    },
+    "Travel_History_Narrative": "History of Travel Narrative: The patient is a 21-year-old male who recently traveled to Myrtle Beach, SC from June 15th to June 20th, 2024 for a vacation. He stayed at a beach resort hotel and engaged in beach activities, dining out, and visited amusement parks during his stay. Upon returning to his residence in Charlotte, NC on June 21st, the patient reports experiencing symptoms consistent with salmonella poisoning, including diarrhea, abdominal cramps, and fever, which prompted him to seek medical attention.",
+    "Encounter_Details": {
+        "Chief Complaint": "Diarrhea, abdominal cramps, and fever",
+        "Patient ID": "5687392",
+        "Encounter Class": "emergency",
+        "Encounter Status": "finished",
+        "Encounter ID": "87654321098",
+        "Start DateTime": "2024-06-22 14:30",
+        "End DateTime": "2024-06-22 18:45",
+        "Discharge Disposition": "Home",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Emergency hospital admission",
+                "SNOMED-CT Code": "183452005",
+                "Description": "Emergency hospital admission is the act of admitting a patient to a hospital unexpectedly for emergency care.",
+                "Start Date": "2024-06-22",
+                "End Date": "2024-06-25"
+            },
+            {
+                "Encounter Type": "Inpatient hospital encounter",
+                "SNOMED-CT Code": "183452005",
+                "Description": "An encounter for an inpatient admission to a hospital facility.",
+                "Start Date": "2024-06-22",
+                "End Date": "2024-06-25"
+            },
+            {
+                "Encounter Type": "Discharge to home",
+                "SNOMED-CT Code": "306694003",
+                "Description": "The discharge of a patient to their home.",
+                "Start Date": "2024-06-25",
+                "End Date": "2024-06-25"
+            },
+            {
+                "Encounter Type": "Outpatient follow-up",
+                "SNOMED-CT Code": "390766001",
+                "Description": "An encounter for follow-up of the patient's condition after discharge from an inpatient encounter.",
+                "Start Date": "2024-06-29",
+                "End Date": "2024-06-29"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Lee517, Christopher792, MD",
+        "Practitioner Phone": "704-555-8217",
+        "Practitioner Fax": "704-555-7412",
+        "Practitioner Email": "christopher.lee517@carolinahealthclinic.com",
+        "Practitioner Office Name": "Carolina Health Clinic",
+        "Practitioner ID": "1928374651",
+        "Practitioner Address": "1492 Providence Rd, Charlotte, NC 28207"
+    },
+    "Facility_Information": {
+        "Facility Name": "Carolinas Medical Center",
+        "Facility Type": "General acute care hospital",
+        "Facility Phone": "704-355-2000",
+        "Facility Fax": "704-355-7685",
+        "Facility Address": "1000 Blythe Blvd, Charlotte, NC 28203"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Diarrhea",
+                "SNOMED-CT": "62315008",
+                "Onset Date": "2024-06-21",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-06-21",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fever",
+                "SNOMED-CT": "386661006",
+                "Onset Date": "2024-06-22",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-06-22",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Vomiting",
+                "SNOMED-CT": "422400008",
+                "Onset Date": "2024-06-22",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Headache",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2024-06-22",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Muscle cramps",
+                "SNOMED-CT": "21265002",
+                "Onset Date": "2024-06-22",
+                "Severity": "Moderate",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "39.1",
+                "SNOMED-CT": "386737004",
+                "Unit": "C",
+                "Measurement Time": "2024-06-22 14:45:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "110",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-06-22 14:50:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "22",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-06-22 14:55:00"
+            },
+            {
+                "Vital Sign": "Blood pressure",
+                "Value": "130/85",
+                "SNOMED-CT": "85354007",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-22 15:00:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "96",
+                "SNOMED-CT": "59408-5",
+                "Unit": "%",
+                "Measurement Time": "2024-06-22 15:05:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Severe diarrhea, abdominal cramps, fever, and nausea after recent travel.",
+        "Past Medical History": "The patient is a 21-year-old African American male with no significant past medical history. He has no known drug allergies or chronic medical conditions. His immunizations are up-to-date.",
+        "Review of Systems": "Constitutional: Fever, fatigue. HEENT: Denies headache, vision changes, sore throat. Respiratory: Denies cough, shortness of breath. Cardiovascular: Denies chest pain, palpitations. Gastrointestinal: Severe diarrhea, abdominal cramps, nausea, vomiting. Genitourinary: Denies dysuria, hematuria. Musculoskeletal: Muscle cramps. Neurological: Denies dizziness, weakness. Psychiatric: Denies anxiety, depression. Endocrine: Denies polydipsia, polyuria. Hematologic: Denies easy bruising or bleeding.",
+        "History of Present Illness": "The patient is a 21-year-old African American male who presented to the emergency department with a 2-day history of severe diarrhea, abdominal cramps, fever, nausea, and vomiting. He recently returned from a vacation in Myrtle Beach, SC, where he stayed at a beach resort hotel and engaged in beach activities, dining out, and visited amusement parks. His symptoms began the day after returning home to Charlotte, NC. He denies any recent antibiotic use, sick contacts, or travel outside of the Myrtle Beach area. He has had no known exposure to contaminated food or water. His last bowel movement was watery diarrhea with mucus but no blood. He has had 10-12 episodes of diarrhea in the past 24 hours. His abdominal cramps are intermittent and generalized. He reports subjective fevers, chills, headache, and muscle cramps. He has been unable to tolerate any oral intake due to nausea and vomiting.",
+        "Plan of Treatment": "1. Admission for inpatient management of severe gastroenteritis, likely infectious etiology given recent travel history. 2. Initiate IV fluid resuscitation with normal saline. 3. Obtain stool cultures, CBC, CMP, and lactate. 4. Initiate antiemetic therapy with ondansetron. 5. NPO until symptoms improve. 6. Initiate empiric antibiotic therapy with ciprofloxacin pending culture results. 7. Symptomatic management with antipyretics and analgesics as needed. 8. Obtain infectious disease consult if no improvement in 48 hours. 9. Anticipate discharge home with oral antibiotics and hydration once symptoms have improved and patient is able to tolerate PO.",
+        "Vaccine Credential Patient Assertion": "The patient states he has received the following vaccinations: Influenza (2023), COVID-19 primary series (Pfizer, 2021), Tdap (2018). He declines providing additional details regarding other routine childhood vaccinations."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Order Code Description": "Stool culture",
+                "Laboratory Result": "Salmonella enterica serovar Enteritidis isolated",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Stool",
+                "Specimen Type": "Random",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2024-06-22 15:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "87654321"
+            },
+            {
+                "LOINC Order Code Description": "Complete blood count (CBC) panel",
+                "Laboratory Result": "WBC 14.5 x10^3/uL (H), Neutrophils 80% (H), Lymphocytes 12%, Monocytes 6%, Eosinophils 2%, Basophils 0%, Hgb 14.2 g/dL, Hct 42.1%, Platelets 220 x10^3/uL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-06-22 15:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "12345678"
+            },
+            {
+                "LOINC Order Code Description": "Comprehensive metabolic panel (CMP)",
+                "Laboratory Result": "Na 138 mmol/L, K 4.1 mmol/L, Cl 102 mmol/L, CO2 24 mmol/L, BUN 18 mg/dL, Creatinine 1.0 mg/dL, Glucose 98 mg/dL, Calcium 9.2 mg/dL, Protein 7.1 g/dL, Albumin 4.2 g/dL, AST 25 U/L, ALT 32 U/L, Alk Phos 72 U/L, Bilirubin 0.6 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "135792468",
+                "Specimen Collection Date": "2024-06-22 15:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "98765432"
+            },
+            {
+                "LOINC Order Code Description": "Lactic acid",
+                "Laboratory Result": "1.2 mmol/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "246813579",
+                "Specimen Collection Date": "2024-06-22 15:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "65432109"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Salmonella enteritis",
+                "ICD-10 Code": "A02.0",
+                "SNOMED-CT Code": "10370003",
+                "Diagnosis Date": "2024-06-22",
+                "Onset Date": "2024-06-21",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Dehydration",
+                "ICD-10 Code": "E86.0",
+                "SNOMED-CT Code": "28619000",
+                "Diagnosis Date": "2024-06-22",
+                "Onset Date": "2024-06-21",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Abdominal pain",
+                "ICD-10 Code": "R10.84",
+                "SNOMED-CT Code": "21522001",
+                "Diagnosis Date": "2024-06-22",
+                "Onset Date": "2024-06-21",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Nausea",
+                "ICD-10 Code": "R11.0",
+                "SNOMED-CT Code": "422587007",
+                "Diagnosis Date": "2024-06-22",
+                "Onset Date": "2024-06-22",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Vomiting",
+                "ICD-10 Code": "R11.2",
+                "SNOMED-CT Code": "422400008",
+                "Diagnosis Date": "2024-06-22",
+                "Onset Date": "2024-06-22",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Stool culture",
+                "CPT Code": "87046",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-22",
+                "Details": "Stool culture was ordered to identify the causative organism for the patient's gastroenteritis symptoms.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Intravenous fluid administration",
+                "CPT Code": "96360",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-22",
+                "Details": "IV fluids (normal saline) were administered for rehydration due to severe diarrhea and vomiting.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Antibiotic therapy, intravenous",
+                "CPT Code": "96365",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-22",
+                "Details": "Intravenous ciprofloxacin was initiated empirically for treatment of suspected bacterial gastroenteritis.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Antiemetic therapy, intravenous",
+                "CPT Code": "96374",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-22",
+                "Details": "Intravenous ondansetron was administered for nausea and vomiting control.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Antibiotic therapy, oral",
+                "CPT Code": "N/A",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-25",
+                "Details": "Oral ciprofloxacin is planned for continued treatment of salmonella enteritis upon discharge.",
+                "Trigger": "Yes"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Ciprofloxacin",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Treatment of Salmonella enteritis",
+                "Administration Mode": "Intravenous",
+                "Dose": "400 mg",
+                "Duration": "Every 12 hours",
+                "Start Date": "2024-06-22",
+                "Response": "Improving",
+                "Response Details": "Patient's diarrhea and abdominal cramps have improved after 48 hours of IV ciprofloxacin therapy.",
+                "Observation Date": "2024-06-24"
+            },
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Nausea and vomiting control",
+                "Administration Mode": "Intravenous",
+                "Dose": "4 mg",
+                "Duration": "Every 8 hours as needed",
+                "Start Date": "2024-06-22",
+                "Response": "Good",
+                "Response Details": "Patient's nausea and vomiting have resolved after administration of IV ondansetron.",
+                "Observation Date": "2024-06-23"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic/Antipyretic",
+                "Purpose": "Fever and muscle cramp relief",
+                "Administration Mode": "Oral",
+                "Dose": "650 mg",
+                "Duration": "Every 6 hours as needed",
+                "Start Date": "2024-06-22",
+                "Response": "Moderate",
+                "Response Details": "Patient's fever and muscle cramps have partially improved with acetaminophen.",
+                "Observation Date": "2024-06-23"
+            },
+            {
+                "Medication Name": "Ciprofloxacin",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Treatment of Salmonella enteritis",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg",
+                "Duration": "Twice daily for 7 days",
+                "Start Date": "2024-06-25",
+                "Response": "Planned",
+                "Response Details": "Patient to continue oral ciprofloxacin upon discharge for treatment of salmonella enteritis.",
+                "Observation Date": "2024-06-25"
+            },
+            {
+                "Medication Name": "Loperamide",
+                "Medication Type": "Antidiarrheal",
+                "Purpose": "Symptomatic relief of diarrhea",
+                "Administration Mode": "Oral",
+                "Dose": "4 mg",
+                "Duration": "Initially, then 2 mg after each loose stool (maximum 16 mg/day)",
+                "Start Date": "2024-06-25",
+                "Response": "Planned",
+                "Response Details": "Loperamide prescribed as needed for symptomatic relief of diarrhea upon discharge.",
+                "Observation Date": "2024-06-25"
+            }
+        ]
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Holloway718, Jamal293",
+        "Report_Header_Age": "21",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-07-10"
+    }
+}

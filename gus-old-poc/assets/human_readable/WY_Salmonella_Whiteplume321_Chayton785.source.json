@@ -1,0 +1,564 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "American Indian or Alaska Native",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "5",
+        "Date of Birth": "2019-01-15",
+        "Location": "Evanston",
+        "Country of Residence": "United States of America",
+        "Country of Nationality": "United States of America",
+        "Preferred Language": "Arapaho",
+        "Tribal Affiliation": "Arapaho"
+    },
+    "Patient Name": "Whiteplume321, Chayton785",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Unemployed",
+        "Gender Identity": "Male",
+        "Disability Status": "No disability",
+        "Education Level": "Preschool",
+        "Marital Status": "Single",
+        "Smoking Status": "Never smoker",
+        "BMI": "16.2",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Medicaid",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Not worried about losing housing",
+        "People Living at Address": "5",
+        "Housing Status": "Owner occupied dwelling",
+        "Stress Level": "Moderate stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1234 Windmill Circle, Evanston, WY 82930",
+        "Patient Email": "whiteplume321@residentialemail.com",
+        "Patient Phone": "307-555-4321"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Student",
+        "Current Industry": "Education",
+        "Usual Occupation": "Student",
+        "Usual Industry": "Education",
+        "Usual Employment Date Range": "Start: 2023-08-01 to current",
+        "Current Job Title": "Preschool Student",
+        "Current Employer": "Evanston Preschool, 456 Main St, Evanston, WY 82930, 307-555-0987",
+        "Current Employment Start Date": "2023-08-01",
+        "Annual Income": "0"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Evanston, WY",
+                "Purpose": "Routine",
+                "Start Date": "2024-05-15",
+                "End Date": "2024-05-31",
+                "Accommodations": "n/a",
+                "Mode of Travel": "n/a",
+                "Activities": "Attending preschool, playing at local parks and recreation areas."
+            },
+            {
+                "Location": "Riverton, WY",
+                "Purpose": "Family",
+                "Start Date": "2024-04-20",
+                "End Date": "2024-04-22",
+                "Accommodations": "Relative's home",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Visited extended family on the Wind River Indian Reservation for a cultural event."
+            }
+        ]
+    },
+    "Travel_History_Narrative": "History of Travel Narrative: The patient is a 5-year-old male from Evanston, WY who routinely attends preschool locally and plays at parks and recreation areas. In late April 2024, he visited extended family on the Wind River Indian Reservation in Riverton, WY for a cultural event, staying at a relative's home. This travel to Riverton preceded the onset of his gastrointestinal illness by approximately one month. No other recent travel outside the local area is reported.",
+    "Encounter_Details": {
+        "Chief Complaint": "Abdominal pain, vomiting, and diarrhea",
+        "Patient ID": "4589012",
+        "Encounter Class": "Ambulatory",
+        "Encounter Status": "Finished",
+        "Encounter ID": "87654321098",
+        "Start DateTime": "2024-05-29 09:15",
+        "End DateTime": "2024-05-29 11:30",
+        "Discharge Disposition": "Home",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Ambulatory",
+                "SNOMED-CT Code": "185347001",
+                "Description": "Outpatient encounter",
+                "Start Date": "2024-05-29",
+                "End Date": "2024-05-29"
+            },
+            {
+                "Encounter Type": "Emergency department admission",
+                "SNOMED-CT Code": "4525004",
+                "Description": "The patient has been admitted to the emergency department of a hospital or emergency care facility",
+                "Start Date": "2024-05-29",
+                "End Date": "2024-05-29"
+            },
+            {
+                "Encounter Type": "Outpatient procedure",
+                "SNOMED-CT Code": "185463005",
+                "Description": "Procedure performed on an outpatient basis",
+                "Start Date": "2024-05-29",
+                "End Date": "2024-05-29"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Dominguez439, Carmen026, MD",
+        "Practitioner Phone": "307-555-6789",
+        "Practitioner Fax": "307-555-2468",
+        "Practitioner Email": "cdominguez439@evanstonmedical.com",
+        "Practitioner Office Name": "Evanston Family Medicine",
+        "Practitioner ID": "1234567890",
+        "Practitioner Address": "789 Sagebrush Lane, Evanston, WY 82930"
+    },
+    "Facility_Information": {
+        "Facility Name": "Evanston Regional Medical Center",
+        "Facility Type": "General acute care hospital",
+        "Facility Phone": "307-555-0123",
+        "Facility Fax": "307-555-9876",
+        "Facility Address": "321 Aspen Way, Evanston, WY 82930"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-05-28",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "16932000",
+                "Onset Date": "2024-05-28",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Vomiting",
+                "SNOMED-CT": "16932000",
+                "Onset Date": "2024-05-28",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Diarrhea",
+                "SNOMED-CT": "62315008",
+                "Onset Date": "2024-05-28",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fever",
+                "SNOMED-CT": "386661006",
+                "Onset Date": "2024-05-28",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Headache",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2024-05-28",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Malaise",
+                "SNOMED-CT": "367391008",
+                "Onset Date": "2024-05-28",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Dehydration",
+                "SNOMED-CT": "28551000119105",
+                "Onset Date": "2024-05-29",
+                "Severity": "Moderate",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "102.3",
+                "SNOMED-CT": "386737004",
+                "Unit": "F",
+                "Measurement Time": "2024-05-29 09:20:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "110",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/min",
+                "Measurement Time": "2024-05-29 09:22:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "22",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/min",
+                "Measurement Time": "2024-05-29 09:24:00"
+            },
+            {
+                "Vital Sign": "Blood pressure systolic",
+                "Value": "95",
+                "SNOMED-CT": "271649006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-05-29 09:26:00"
+            },
+            {
+                "Vital Sign": "Blood pressure diastolic",
+                "Value": "60",
+                "SNOMED-CT": "271650006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-05-29 09:26:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "98",
+                "SNOMED-CT": "59408-5",
+                "Unit": "%",
+                "Measurement Time": "2024-05-29 09:28:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Severe abdominal pain, vomiting, and diarrhea",
+        "Past Medical History": "The patient is a previously healthy 5-year-old male with no significant past medical history. He has met developmental milestones appropriately and has been fully immunized according to the recommended schedule. There is no family history of gastrointestinal disorders or immunodeficiencies.",
+        "Review of Systems": "Constitutional: Positive for fever, malaise, and dehydration. Negative for weight loss. Gastrointestinal: Positive for severe abdominal pain, nausea, vomiting, and diarrhea. Negative for constipation, melena, or hematochezia. Genitourinary: Negative for dysuria or hematuria. Respiratory: Negative for cough or shortness of breath. Musculoskeletal: Negative for joint pain or swelling. Neurological: Positive for headache. Negative for dizziness, seizures, or focal deficits. Skin: Negative for rashes or lesions. Psychiatric: Negative for anxiety or depression.",
+        "History of Present Illness": "Chayton is a 5-year-old Arapaho male who presented to the emergency department with a one-day history of severe abdominal pain, vomiting, and diarrhea. The abdominal pain is described as cramping and diffuse. He has had approximately 10 episodes of non-bloody, watery diarrhea since yesterday morning. He has also experienced 4-5 episodes of non-bilious, non-bloody vomiting. Associated symptoms include fever up to 102.3\u00b0F, headache, and malaise. He has had poor oral intake due to the vomiting and has appeared dehydrated. His last normal bowel movement was two days ago. There is no recent travel outside of the local area, except for a family visit to Riverton, WY approximately one month ago. No sick contacts are reported. His immunizations are up to date.",
+        "Plan of Treatment": "1. Intravenous fluid resuscitation with normal saline and electrolyte replacement as needed for dehydration. 2. Antiemetic therapy with ondansetron for vomiting control. 3. Stool studies including culture, ova and parasite examination, and molecular testing for enteric pathogens. 4. Blood cultures and complete blood count. 5. Empiric antibiotic therapy with azithromycin pending culture results. 6. Strict contact precautions and isolation. 7. Symptomatic management with antipyretics and analgesics as needed. 8. Close monitoring for clinical improvement or deterioration. 9. Discharge home on oral antibiotics and hydration once clinically stable. 10. Outpatient follow-up in 2-3 days.",
+        "Vaccine Credential Patient Assertion": "The patient's parents report that Chayton has received all recommended childhood vaccinations according to the CDC schedule, including rotavirus vaccine. They are unsure of the specific vaccine details but state he is fully immunized."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Order Code Description": "Stool culture",
+                "Laboratory Result": "Salmonella enterica serovar Enteritidis isolated",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Stool",
+                "Specimen Type": "Random",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2024-05-29 10:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "87654321"
+            },
+            {
+                "LOINC Order Code Description": "Stool ova and parasite exam",
+                "Laboratory Result": "No ova or parasites seen",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Stool",
+                "Specimen Type": "Random",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-05-29 10:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "12345678"
+            },
+            {
+                "LOINC Order Code Description": "Stool pathogen PCR panel",
+                "Laboratory Result": "Positive for Salmonella species",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Stool",
+                "Specimen Type": "Random",
+                "Specimen ID": "456789123",
+                "Specimen Collection Date": "2024-05-29 10:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "98765432"
+            },
+            {
+                "LOINC Order Code Description": "Blood culture",
+                "Laboratory Result": "No growth",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "789123456",
+                "Specimen Collection Date": "2024-05-29 09:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "65432109"
+            },
+            {
+                "LOINC Order Code Description": "Complete blood count with differential",
+                "Laboratory Result": "WBC 12.5 K/uL (elevated), Neutrophils 75% (elevated), Lymphocytes 15% (low normal), Hemoglobin 12.8 g/dL, Platelets 280 K/uL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "321987654",
+                "Specimen Collection Date": "2024-05-29 09:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "24681357"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Salmonella enteritis",
+                "ICD-10 Code": "A02.0",
+                "SNOMED-CT Code": "16781000119102",
+                "Diagnosis Date": "2024-05-29",
+                "Onset Date": "2024-05-28",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Dehydration",
+                "ICD-10 Code": "E86.0",
+                "SNOMED-CT Code": "28551000119105",
+                "Diagnosis Date": "2024-05-29",
+                "Onset Date": "2024-05-29",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Fever",
+                "ICD-10 Code": "R50.9",
+                "SNOMED-CT Code": "386661006",
+                "Diagnosis Date": "2024-05-29",
+                "Onset Date": "2024-05-28",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Abdominal pain",
+                "ICD-10 Code": "R10.84",
+                "SNOMED-CT Code": "21522001",
+                "Diagnosis Date": "2024-05-29",
+                "Onset Date": "2024-05-28",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Nausea",
+                "ICD-10 Code": "R11.0",
+                "SNOMED-CT Code": "16932000",
+                "Diagnosis Date": "2024-05-29",
+                "Onset Date": "2024-05-28",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Vomiting",
+                "ICD-10 Code": "R11.2",
+                "SNOMED-CT Code": "16932000",
+                "Diagnosis Date": "2024-05-29",
+                "Onset Date": "2024-05-28",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Diarrhea",
+                "ICD-10 Code": "R19.7",
+                "SNOMED-CT Code": "62315008",
+                "Diagnosis Date": "2024-05-29",
+                "Onset Date": "2024-05-28",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Headache",
+                "ICD-10 Code": "R51",
+                "SNOMED-CT Code": "25064002",
+                "Diagnosis Date": "2024-05-29",
+                "Onset Date": "2024-05-28",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Malaise",
+                "ICD-10 Code": "R53.83",
+                "SNOMED-CT Code": "367391008",
+                "Diagnosis Date": "2024-05-29",
+                "Onset Date": "2024-05-28",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Stool culture",
+                "CPT Code": "87046",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-29",
+                "Details": "Stool culture to identify causative enteric pathogen",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Stool ova and parasite exam",
+                "CPT Code": "87177",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-29",
+                "Details": "Microscopic examination of stool for ova and parasites",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Stool pathogen PCR panel",
+                "CPT Code": "87505",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-29",
+                "Details": "Molecular testing for gastrointestinal pathogens",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Blood culture",
+                "CPT Code": "87040",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-29",
+                "Details": "Blood culture to evaluate for bacteremia",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Complete blood count with differential",
+                "CPT Code": "85025",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-29",
+                "Details": "CBC with differential to assess for infection",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Intravenous fluid administration",
+                "CPT Code": "96360",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-29",
+                "Details": "IV fluids for rehydration",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Antiemetic administration",
+                "CPT Code": "96374",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-29",
+                "Details": "Ondansetron given IV for vomiting control",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Antibiotic administration",
+                "CPT Code": "96372",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-29",
+                "Details": "Azithromycin given IV empirically for gastroenteritis",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Antipyretic administration",
+                "CPT Code": "96372",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-29",
+                "Details": "Acetaminophen given for fever control",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Antibiotic prescription",
+                "CPT Code": "N/A",
+                "Status": "Planned",
+                "Procedure Date": "2024-05-29",
+                "Details": "Prescription for oral azithromycin upon discharge",
+                "Trigger": "Yes"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Nausea and vomiting",
+                "Administration Mode": "Intravenous",
+                "Dose": "0.15 mg/kg",
+                "Duration": "Once",
+                "Start Date": "2024-05-29",
+                "Response": "Good",
+                "Response Details": "Vomiting resolved within 30 minutes of administration.",
+                "Observation Date": "2024-05-29"
+            },
+            {
+                "Medication Name": "Azithromycin",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Salmonella gastroenteritis",
+                "Administration Mode": "Intravenous",
+                "Dose": "10 mg/kg",
+                "Duration": "Once",
+                "Start Date": "2024-05-29",
+                "Response": "Unknown",
+                "Response Details": "Empiric antibiotic therapy initiated prior to culture results.",
+                "Observation Date": "2024-05-29"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Antipyretic",
+                "Purpose": "Fever",
+                "Administration Mode": "Oral",
+                "Dose": "15 mg/kg",
+                "Duration": "Every 6 hours as needed",
+                "Start Date": "2024-05-29",
+                "Response": "Fair",
+                "Response Details": "Fever decreased from 102.3\u00b0F to 100.5\u00b0F after 2 hours.",
+                "Observation Date": "2024-05-29"
+            },
+            {
+                "Medication Name": "Azithromycin",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Salmonella gastroenteritis",
+                "Administration Mode": "Oral",
+                "Dose": "10 mg/kg once daily",
+                "Duration": "5 days",
+                "Start Date": "2024-05-29",
+                "Response": "Good",
+                "Response Details": "Symptoms resolved after 3 days of treatment.",
+                "Observation Date": "2024-06-01"
+            },
+            {
+                "Medication Name": "Rotavirus vaccine",
+                "Medication Type": "Vaccine",
+                "Purpose": "Immunization",
+                "Administration Mode": "Oral",
+                "Dose": "2 doses",
+                "Duration": "Per schedule",
+                "Start Date": "2019-04-15",
+                "Response": "Unknown",
+                "Response Details": "No adverse events reported. Vaccine history per parent report.",
+                "Observation Date": "2024-05-29"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 5-year-old Arapaho male presented with severe gastroenteritis caused by Salmonella enterica. He developed dehydration requiring IV fluids. Stool studies confirmed Salmonella. He was treated with antibiotics and antiemetics, with resolution of symptoms after 3 days."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Whiteplume321 Chayton785",
+        "Report_Header_Age": "5",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-06-02"
+    }
+}

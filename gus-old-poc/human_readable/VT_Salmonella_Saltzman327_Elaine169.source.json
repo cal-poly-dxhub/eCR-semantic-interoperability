@@ -1,0 +1,470 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "White",
+        "Ethnicity": "Non Hispanic or Latino",
+        "Patient Age": "82",
+        "Date of Birth": "1942-04-22",
+        "Location": "Newport",
+        "Country of Residence": "United States of America",
+        "Country of Nationality": "United States of America",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Saltzman327, Elaine169",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Retired",
+        "Gender Identity": "Female",
+        "Disability Status": "Disabled",
+        "Education Level": "High school graduate",
+        "Marital Status": "Widowed",
+        "Smoking Status": "Former smoker",
+        "BMI": "26.5",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Medicare",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Not worried at all",
+        "People Living at Address": "1",
+        "Housing Status": "Home ownership",
+        "Stress Level": "Somewhat stressed"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "217 Maple Terrace, Newport, VT 05855",
+        "Patient Email": "esaltzman@email.net",
+        "Patient Phone": "802-555-7493"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Retired",
+        "Current Industry": "N/A",
+        "Usual Occupation": "Retail Salesperson",
+        "Usual Industry": "Retail Trade",
+        "Usual Employment Date Range": "Start: 1965-06-01 to 2007-05-31",
+        "Current Job Title": "N/A",
+        "Current Employer": "N/A",
+        "Current Employment Start Date": "N/A",
+        "Annual Income": "25000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Newport, VT",
+                "Purpose": "routine",
+                "Start Date": "2024-06-01",
+                "End Date": "2024-07-10",
+                "Accommodations": "n/a",
+                "Mode of Travel": "n/a",
+                "Activities": "Elaine spent most of her time at home in Newport, running routine errands and appointments around town."
+            },
+            {
+                "Location": "Derby Line, VT",
+                "Purpose": "family",
+                "Start Date": "2024-06-15",
+                "End Date": "2024-06-16",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Car",
+                "Activities": "Visited her niece who lives near the Canadian border in Derby Line."
+            }
+        ]
+    },
+    "Travel_History_Narrative": "History of Travel Narrative: Patient is an 82-year-old female who resides in Newport, VT. She reports spending most of her time at home in Newport over the past month, running routine errands and appointments around town. Of note, she visited her niece who lives near the Canadian border in Derby Line, VT on June 15-16, 2024. This travel to the border region may have potential implications for her recent gastrointestinal illness and salmonella infection.",
+    "Encounter_Details": {
+        "Chief Complaint": "Severe diarrhea and dehydration",
+        "Patient ID": "8732591",
+        "Encounter Class": "emergency",
+        "Encounter Status": "finished",
+        "Encounter ID": "87659012345",
+        "Start DateTime": "2024-07-08 14:22",
+        "End DateTime": "2024-07-11 11:45",
+        "Discharge Disposition": "Home Health Care",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Emergency hospital admission",
+                "SNOMED-CT Code": "183452005",
+                "Description": "An unplanned admission to an acute inpatient facility for emergency treatment of a medical condition.",
+                "Start Date": "2024-07-08",
+                "End Date": "2024-07-11"
+            },
+            {
+                "Encounter Type": "Inpatient hospital admission",
+                "SNOMED-CT Code": "32485007",
+                "Description": "Admission to a hospital facility for purposes other than emergency treatment.",
+                "Start Date": "2024-07-08",
+                "End Date": "2024-07-11"
+            },
+            {
+                "Encounter Type": "Infectious disease admission",
+                "SNOMED-CT Code": "442629008",
+                "Description": "An admission for the treatment of an infectious disease.",
+                "Start Date": "2024-07-08",
+                "End Date": "2024-07-11"
+            },
+            {
+                "Encounter Type": "Discharge to home for home health care",
+                "SNOMED-CT Code": "306689006",
+                "Description": "The patient was discharged from the hospital to their home with home health care services.",
+                "Start Date": "2024-07-11",
+                "End Date": "n/a"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Nelson282, Ava676, MD",
+        "Practitioner Phone": "802-555-7284",
+        "Practitioner Fax": "802-555-2167",
+        "Practitioner Email": "avanelson@newportmedical.org",
+        "Practitioner Office Name": "Newport Medical Associates",
+        "Practitioner ID": "1234567890",
+        "Practitioner Address": "123 Main St, Newport, VT 05855"
+    },
+    "Facility_Information": {
+        "Facility Name": "Newport Regional Medical Center",
+        "Facility Type": "General Acute Care Hospital",
+        "Facility Phone": "802-555-0123",
+        "Facility Fax": "802-555-0456",
+        "Facility Address": "789 Hospital Drive, Newport, VT 05855"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "Not pregnant",
+        "Pregnancy Status Determination Method": "Patient reported",
+        "Pregnancy Status Recorded Date": "2024-07-08",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Diarrhea",
+                "SNOMED-CT": "62315008",
+                "Onset Date": "2024-07-06",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "16932000",
+                "Onset Date": "2024-07-07",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Vomiting",
+                "SNOMED-CT": "56876005",
+                "Onset Date": "2024-07-07",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-07-06",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-07-07",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fever",
+                "SNOMED-CT": "386661006",
+                "Onset Date": "2024-07-08",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Dehydration",
+                "SNOMED-CT": "28514008",
+                "Onset Date": "2024-07-08",
+                "Severity": "Severe",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "38.5",
+                "SNOMED-CT": "386737004",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-07-08 14:30:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "110",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-07-08 14:35:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "22",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-07-08 14:40:00"
+            },
+            {
+                "Vital Sign": "Blood pressure",
+                "Value": "90/60",
+                "SNOMED-CT": "85354007",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-08 14:45:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "94",
+                "SNOMED-CT": "59408-5",
+                "Unit": "%",
+                "Measurement Time": "2024-07-08 14:50:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "58",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-07-08 15:00:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Severe diarrhea, nausea, vomiting, abdominal pain, and dehydration.",
+        "Past Medical History": "The patient is an 82-year-old female with a history of hypertension, osteoarthritis, and gastroesophageal reflux disease (GERD). She has no known drug allergies. Her surgical history includes a cholecystectomy in 1998 and a total knee replacement in 2016. She is a former smoker, having quit in 2005 after smoking for 40 years. She denies any recent travel outside of Vermont, except for a brief visit to her niece in Derby Line near the Canadian border on June 15-16, 2024.",
+        "Review of Systems": "General: Fatigue, fever, and chills. HEENT: Normocephalic, atraumatic. Eyes: No icterus. Neck: Supple, no lymphadenopathy. Cardiovascular: Regular rate and rhythm, no murmurs. Respiratory: Clear to auscultation bilaterally. Gastrointestinal: Diffuse abdominal tenderness, hyperactive bowel sounds, severe diarrhea. Genitourinary: No dysuria or hematuria. Musculoskeletal: No joint swelling or tenderness. Skin: No rashes or lesions. Neurological: Alert and oriented x3, no focal deficits. Psychiatric: Appropriate mood and affect.",
+        "History of Present Illness": "The patient is an 82-year-old female who presented to the emergency department with a 2-day history of severe diarrhea, nausea, vomiting, and abdominal pain. She reports having 10-12 episodes of watery, non-bloody diarrhea per day, accompanied by cramping abdominal pain. She has been unable to tolerate any oral intake due to persistent nausea and vomiting. She denies any recent travel outside of Vermont, except for a brief visit to her niece in Derby Line near the Canadian border on June 15-16, 2024. She denies any sick contacts or recent antibiotic use. Her last bowel movement was earlier today, and she describes feeling weak and dizzy. On examination, she appeared ill and dehydrated, with dry mucous membranes and poor skin turgor.",
+        "Plan of Treatment": "The patient was admitted to the hospital for management of severe dehydration secondary to acute gastroenteritis, likely due to a foodborne illness such as salmonella. She was started on intravenous fluids and antiemetics for symptomatic relief. Stool cultures were obtained to identify the causative organism. She was also started on empiric antibiotic therapy with ciprofloxacin pending culture results. Strict enteric precautions were implemented. Her electrolytes and renal function were closely monitored. Once her symptoms improved and she was able to tolerate oral intake, she was transitioned to oral antibiotics and discharged home with close follow-up. Emphasis was placed on hydration and a bland diet during her recovery.",
+        "Vaccine Credential Patient Assertion": "The patient reports being up-to-date on her routine vaccinations, including the influenza vaccine last fall and the pneumococcal vaccines. However, she has not received any of the COVID-19 vaccines due to concerns about potential side effects given her age."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Order Code Description": "Stool culture",
+                "Laboratory Result": "Positive for Salmonella enterica",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Stool",
+                "Specimen Type": "Random",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2024-07-08 16:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "87654321"
+            },
+            {
+                "LOINC Order Code Description": "Comprehensive metabolic panel",
+                "Laboratory Result": "Sodium 132 mmol/L (Low), Potassium 3.1 mmol/L (Low), Chloride 95 mmol/L (Low), BUN 28 mg/dL (High), Creatinine 1.5 mg/dL (High), Glucose 110 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-07-08 15:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "12345678"
+            },
+            {
+                "LOINC Order Code Description": "Complete blood count with differential",
+                "Laboratory Result": "WBC 12.5 x10^3/uL (High), Hemoglobin 12.0 g/dL, Hematocrit 36.0%, Platelets 250 x10^3/uL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "456789123",
+                "Specimen Collection Date": "2024-07-08 15:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "98765432"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Salmonella enteritis",
+                "ICD-10 Code": "A02.0",
+                "SNOMED-CT Code": "10725009",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-07-06",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Dehydration",
+                "ICD-10 Code": "E86.0",
+                "SNOMED-CT Code": "28514008",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-07-08",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Nausea",
+                "ICD-10 Code": "R11.0",
+                "SNOMED-CT Code": "16932000",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-07-07",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Vomiting",
+                "ICD-10 Code": "R11.2",
+                "SNOMED-CT Code": "56876005",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-07-07",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Abdominal pain",
+                "ICD-10 Code": "R10.84",
+                "SNOMED-CT Code": "21522001",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-07-06",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Intravenous hydration",
+                "CPT Code": "96360",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "Intravenous hydration with normal saline and electrolyte replacement to treat severe dehydration.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Stool culture",
+                "CPT Code": "87045",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "Stool culture to identify the causative organism for the patient's acute gastroenteritis.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Antibiotic therapy",
+                "CPT Code": "N/A",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "Empiric antibiotic therapy with ciprofloxacin to treat suspected bacterial gastroenteritis.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Antiemetic therapy",
+                "CPT Code": "N/A",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "Administration of antiemetic medications to control nausea and vomiting.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Comprehensive metabolic panel",
+                "CPT Code": "80053",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "Comprehensive metabolic panel to assess electrolyte levels and renal function in the setting of dehydration.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Complete blood count with differential",
+                "CPT Code": "85025",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "Complete blood count with differential to evaluate for any signs of infection or hematologic abnormalities.",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Ciprofloxacin",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Treatment of salmonella infection",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg twice daily",
+                "Duration": "7 days",
+                "Start Date": "2024-07-08",
+                "Response": "Good",
+                "Response Details": "The patient's diarrheal symptoms began to improve after 2 days of antibiotic therapy.",
+                "Observation Date": "2024-07-10"
+            },
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Treatment of nausea and vomiting",
+                "Administration Mode": "Intravenous",
+                "Dose": "4 mg every 8 hours as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-07-08",
+                "Response": "Fair",
+                "Response Details": "The patient's nausea and vomiting were partially controlled with ondansetron.",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Normal Saline",
+                "Medication Type": "Intravenous fluid",
+                "Purpose": "Treatment of dehydration",
+                "Administration Mode": "Intravenous",
+                "Dose": "1 liter bolus, then 150 mL/hour",
+                "Duration": "2 days",
+                "Start Date": "2024-07-08",
+                "Response": "Good",
+                "Response Details": "The patient's hydration status improved with intravenous fluid resuscitation.",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Lisinopril",
+                "Medication Type": "Antihypertensive",
+                "Purpose": "Treatment of hypertension",
+                "Administration Mode": "Oral",
+                "Dose": "10 mg daily",
+                "Duration": "Ongoing",
+                "Start Date": "2020-01-01",
+                "Response": "Good",
+                "Response Details": "The patient's blood pressure has been well-controlled on this medication.",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Omeprazole",
+                "Medication Type": "Proton pump inhibitor",
+                "Purpose": "Treatment of gastroesophageal reflux disease (GERD)",
+                "Administration Mode": "Oral",
+                "Dose": "20 mg daily",
+                "Duration": "Ongoing",
+                "Start Date": "2018-06-15",
+                "Response": "Good",
+                "Response Details": "The patient's GERD symptoms have been well-controlled on this medication.",
+                "Observation Date": "2024-07-08"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. An 82-year-old female presented with severe diarrhea, vomiting, and dehydration after a recent trip near the Canadian border. She was hospitalized for salmonella gastroenteritis, treated with antibiotics and IV fluids, and discharged with home health care after improvement."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Saltzman327, Elaine169",
+        "Report_Header_Age": "82",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-07-11"
+    }
+}

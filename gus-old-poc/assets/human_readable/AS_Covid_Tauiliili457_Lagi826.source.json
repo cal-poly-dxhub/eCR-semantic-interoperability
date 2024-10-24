@@ -1,0 +1,409 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "Native Hawaiian or Other Pacific Islander",
+        "Ethnicity": "Samoan",
+        "Patient Age": "38",
+        "Date of Birth": "1986-01-15",
+        "Location": "Pago Pago",
+        "Country of Residence": "American Samoa",
+        "Country of Nationality": "American Samoa",
+        "Preferred Language": "Samoan",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Tauiliili457, Lagi826",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed",
+        "Gender Identity": "Female",
+        "Disability Status": "None",
+        "Education Level": "High School Graduate",
+        "Marital Status": "Married",
+        "Smoking Status": "Never Smoker",
+        "BMI": "28.5",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Medicaid",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Not at all",
+        "People Living at Address": "4",
+        "Housing Status": "Rented Home",
+        "Stress Level": "Moderately Stressed"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "3847 Laulii St, Pago Pago, American Samoa 96799",
+        "Patient Email": "lagi.tauiliili@mailsamoa.as",
+        "Patient Phone": "684-555-2391"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Food Service Worker",
+        "Current Industry": "Accommodation and Food Services",
+        "Usual Occupation": "Food Service Worker",
+        "Usual Industry": "Accommodation and Food Services",
+        "Usual Employment Date Range": "Start: 2005-06-01 to current",
+        "Current Job Title": "Server",
+        "Current Employer": "Tisa's Barefoot Bar, 8141 Pago Pago St, Pago Pago, American Samoa 96799, (684) 622-7292",
+        "Current Employment Start Date": "2018-03-15",
+        "Annual Income": 28000
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Pago Pago, American Samoa",
+                "Purpose": "Routine",
+                "Start Date": "2024-05-29",
+                "End Date": "2024-06-06",
+                "Accommodations": "n/a",
+                "Mode of Travel": "n/a",
+                "Activities": "Lagi did not travel outside of Pago Pago during this time period. She continued her normal routine of working at the restaurant and spending time at home."
+            }
+        ]
+    },
+    "Travel_History_Narrative": "History of Travel Narrative: Lagi Tauiliili457 is a 38-year-old female residing in Pago Pago, American Samoa. According to her travel history, she did not travel outside of Pago Pago from May 29, 2024, to June 6, 2024. During this period, she continued her normal routine of working at a local restaurant and spending time at home. There is no recent travel history that would suggest an increased risk of exposure to COVID-19 or other infectious diseases.",
+    "Encounter_Details": {
+        "Chief Complaint": "Sore throat, fatigue, and loss of taste/smell",
+        "Patient ID": "4857392",
+        "Encounter Class": "Outpatient",
+        "Encounter Status": "Finished",
+        "Encounter ID": "98765432101",
+        "Start DateTime": "2024-05-29 09:30",
+        "End DateTime": "2024-05-29 10:45",
+        "Discharge Disposition": "Home",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient Encounter",
+                "SNOMED-CT Code": "185347001",
+                "Description": "An encounter where the patient attends for a planned non-admitted patient care interaction.",
+                "Start Date": "2024-05-29",
+                "End Date": "2024-05-29"
+            },
+            {
+                "Encounter Type": "COVID-19 Testing",
+                "SNOMED-CT Code": "1240751000000100",
+                "Description": "Testing for condition caused by severe acute respiratory syndrome coronavirus 2",
+                "Start Date": "2024-05-29",
+                "End Date": "2024-05-29"
+            },
+            {
+                "Encounter Type": "Symptom Triage",
+                "SNOMED-CT Code": "1086061000000104",
+                "Description": "Triage of symptoms",
+                "Start Date": "2024-05-29",
+                "End Date": "2024-05-29"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Aumeoualogo756, Leilani392, MD",
+        "Practitioner Phone": "684-555-7823",
+        "Practitioner Fax": "684-555-1649",
+        "Practitioner Email": "leilani.aumeoualogo@islandclinic.as",
+        "Practitioner Office Name": "Island Community Clinic",
+        "Practitioner ID": "7593018264",
+        "Practitioner Address": "8265 Pala Lagoon Loop, Pago Pago, American Samoa 96799"
+    },
+    "Facility_Information": {
+        "Facility Name": "Island Community Clinic",
+        "Facility Type": "Ambulatory Health Care Facility",
+        "Facility Phone": "684-555-0987",
+        "Facility Fax": "684-555-8765",
+        "Facility Address": "8265 Pala Lagoon Loop, Pago Pago, American Samoa 96799"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "Not pregnant",
+        "Pregnancy Status Determination Method": "Based on patient demographics and socioeconomic factors",
+        "Pregnancy Status Recorded Date": "2024-05-29",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Sore throat",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2024-05-27",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-05-28",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Loss of sense of smell",
+                "SNOMED-CT": "36955009",
+                "Onset Date": "2024-05-29",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Loss of sense of taste",
+                "SNOMED-CT": "36955009",
+                "Onset Date": "2024-05-29",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nasal congestion",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2024-05-28",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Headache",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2024-05-29",
+                "Severity": "Mild",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "37.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "Cel",
+                "Measurement Time": "2024-05-29 09:35:00"
+            },
+            {
+                "Vital Sign": "Pulse rate",
+                "Value": "78",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-05-29 09:35:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "16",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-05-29 09:35:00"
+            },
+            {
+                "Vital Sign": "Blood pressure systolic",
+                "Value": "120",
+                "SNOMED-CT": "8480-6",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-05-29 09:35:00"
+            },
+            {
+                "Vital Sign": "Blood pressure diastolic",
+                "Value": "78",
+                "SNOMED-CT": "8462-4",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-05-29 09:35:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "98",
+                "SNOMED-CT": "59408-5",
+                "Unit": "%",
+                "Measurement Time": "2024-05-29 09:35:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Sore throat, fatigue, loss of taste and smell",
+        "Past Medical History": "Lagi Tauiliili457 is a 38-year-old Samoan female with no significant past medical history. She is a non-smoker, does not consume alcohol, and has no known drug allergies. Her family history is unremarkable for chronic illnesses.",
+        "Review of Systems": "Constitutional: Fatigue present. HEENT: Sore throat, loss of taste and smell. Respiratory: Denies cough, shortness of breath. Cardiovascular: Denies chest pain, palpitations. Gastrointestinal: Appetite is decreased. Genitourinary: No issues reported. Musculoskeletal: No muscle aches or joint pains. Neurological: No headaches, dizziness, or focal weakness. Psychiatric: Mood is anxious due to symptoms.",
+        "History of Present Illness": "Lagi Tauiliili457 is a 38-year-old Samoan female who presents with a 3-day history of sore throat, fatigue, loss of taste and smell, and mild nasal congestion. Symptoms started with a sore throat on 05/27/2024, followed by fatigue the next day. She noticed loss of taste and smell this morning. She denies fever, cough, shortness of breath, or body aches. She has no known exposures to COVID-19. She has been compliant with COVID-19 vaccination and received her latest booster in January 2024.",
+        "Plan of Treatment": "1. COVID-19 rapid antigen test ordered. 2. If positive, prescribe supportive care with rest, hydration, and over-the-counter analgesics/antipyretics as needed. 3. Advise isolation per CDC guidelines. 4. Follow up in 5-7 days if symptoms persist or worsen. 5. If negative, consider other viral etiologies and treat symptomatically.",
+        "Vaccine Credential Patient Assertion": "The patient reports being up-to-date with COVID-19 vaccination, having received the latest booster in January 2024."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Order Code Description": "SARS-CoV-2 (COVID-19) Ag [Presence] in Respiratory specimen by Rapid immunoassay",
+                "Laboratory Result": "Detected",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Nasopharyngeal swab",
+                "Specimen Type": "Swab",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2024-05-29 09:40:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "87654321"
+            },
+            {
+                "LOINC Order Code Description": "SARS-CoV-2 (COVID-19) RdRp gene [Presence] in Respiratory specimen by NAA with probe detection",
+                "Laboratory Result": "Detected",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Nasopharyngeal swab",
+                "Specimen Type": "Swab",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-05-29 09:40:00",
+                "Trigger": "No",
+                "Placer Order Number": "12345678"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "COVID-19 virus identified",
+                "ICD-10 Code": "U07.1",
+                "SNOMED-CT Code": "840539006",
+                "Diagnosis Date": "2024-05-29",
+                "Onset Date": "2024-05-27",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Mild COVID-19",
+                "ICD-10 Code": "U07.1",
+                "SNOMED-CT Code": "840544004",
+                "Diagnosis Date": "2024-05-29",
+                "Onset Date": "2024-05-27",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Ageusia",
+                "ICD-10 Code": "R43.8",
+                "SNOMED-CT Code": "36955009",
+                "Diagnosis Date": "2024-05-29",
+                "Onset Date": "2024-05-29",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Anosmia",
+                "ICD-10 Code": "R43.0",
+                "SNOMED-CT Code": "36955009",
+                "Diagnosis Date": "2024-05-29",
+                "Onset Date": "2024-05-29",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "SARS-CoV-2 (COVID-19) antigen test",
+                "CPT Code": "87635",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-29",
+                "Details": "Rapid antigen test performed to detect presence of SARS-CoV-2 virus",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "SARS-CoV-2 (COVID-19) molecular diagnostic test",
+                "CPT Code": "87636",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-29",
+                "Details": "Molecular diagnostic test performed to detect presence of SARS-CoV-2 viral RNA",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Rest and hydration",
+                "CPT Code": "n/a",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-05-29",
+                "Details": "Recommended rest and increased fluid intake for symptomatic treatment of mild COVID-19",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Over-the-counter analgesics/antipyretics as needed",
+                "CPT Code": "n/a",
+                "Status": "Planned",
+                "Procedure Date": "n/a",
+                "Details": "Recommended use of over-the-counter medications like acetaminophen or ibuprofen for fever and body aches if they develop",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic/Antipyretic",
+                "Purpose": "Symptomatic relief of fever, headache, and body aches",
+                "Administration Mode": "Oral",
+                "Dose": "325-650 mg every 4-6 hours as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-05-29",
+                "Response": "Fair",
+                "Response Details": "Provided mild relief of headache and body aches, but did not alleviate sore throat or fatigue.",
+                "Observation Date": "2024-05-30"
+            },
+            {
+                "Medication Name": "Ibuprofen",
+                "Medication Type": "Anti-inflammatory/Analgesic",
+                "Purpose": "Symptomatic relief of fever, headache, and body aches",
+                "Administration Mode": "Oral",
+                "Dose": "400 mg every 6-8 hours as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-05-30",
+                "Response": "Good",
+                "Response Details": "Provided relief of headache, body aches, and mild fever that developed on 2024-05-30.",
+                "Observation Date": "2024-05-31"
+            },
+            {
+                "Medication Name": "Throat lozenges",
+                "Medication Type": "Demulcent",
+                "Purpose": "Symptomatic relief of sore throat",
+                "Administration Mode": "Oral",
+                "Dose": "1 lozenge every 2-3 hours as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-05-29",
+                "Response": "Fair",
+                "Response Details": "Provided temporary relief of sore throat, but symptoms would return within a few hours.",
+                "Observation Date": "2024-05-30"
+            },
+            {
+                "Medication Name": "Vitamin C",
+                "Medication Type": "Supplement",
+                "Purpose": "Immune support",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg once daily",
+                "Duration": "As needed",
+                "Start Date": "2024-05-30",
+                "Response": "Unknown",
+                "Response Details": "No significant change in symptoms noted.",
+                "Observation Date": "2024-06-01"
+            },
+            {
+                "Medication Name": "Zinc lozenges",
+                "Medication Type": "Supplement",
+                "Purpose": "Immune support",
+                "Administration Mode": "Oral",
+                "Dose": "24 mg once daily",
+                "Duration": "As needed",
+                "Start Date": "2024-05-31",
+                "Response": "Unknown",
+                "Response Details": "No significant change in symptoms noted.",
+                "Observation Date": "2024-06-02"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 38-year-old Samoan female presented with mild COVID-19 symptoms including sore throat, fatigue, and loss of taste/smell. She tested positive for SARS-CoV-2 and was treated with supportive care. Her symptoms gradually improved over the following week with rest, hydration, and over-the-counter medications."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Lagi826 Tauiliili457",
+        "Report_Header_Age": "38",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-06-07"
+    }
+}

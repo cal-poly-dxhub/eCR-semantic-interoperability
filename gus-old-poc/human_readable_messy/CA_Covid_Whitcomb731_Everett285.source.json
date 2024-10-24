@@ -1,0 +1,731 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "White",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "75",
+        "Date of Birth": "1949-03-15",
+        "Location": "Carlsbad",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Whitcomb731, Everett285",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Retired",
+        "Gender Identity": "Male",
+        "Disability Status": "Disabled",
+        "Education Level": "Bachelor's degree",
+        "Marital Status": "Widowed",
+        "Smoking Status": "Former smoker",
+        "BMI": "28.5",
+        "Active Military": "No",
+        "Discharged from Military": "Yes",
+        "Primary Insurance": "Medicare",
+        "Refugee Status": "Not a refugee",
+        "Correctional Facility Status": "Not in correctional facility",
+        "Lose Housing Worry": "Not worried at all",
+        "People Living at Address": "1",
+        "Housing Status": "Owns home",
+        "Stress Level": "Somewhat stressed"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1842 Seaside Vista Dr., Carlsbad, CA 92008",
+        "Patient Email": "everett.whitcomb731@emailprovider.com",
+        "Patient Phone": "760-555-3287"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Retired",
+        "Current Industry": "N/A",
+        "Usual Occupation": "Civil Engineer",
+        "Usual Industry": "Construction",
+        "Usual Employment Date Range": "Start: 1975-09-01 to 2014-06-30",
+        "Current Job Title": "Retired",
+        "Current Employer": "N/A",
+        "Current Employment Start Date": "2014-07-01",
+        "Annual Income": "$48,000 (Pension and Social Security)"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Carlsbad, CA",
+                "Purpose": "Routine",
+                "Start Date": "2024-06-15",
+                "End Date": "2024-07-08",
+                "Accommodations": "Home",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Attended local senior center for weekly bridge game. Visited grocery store and pharmacy for essentials. Attended church service at local parish."
+            },
+            {
+                "Location": "San Diego, CA",
+                "Purpose": "Medical",
+                "Start Date": "2024-06-10",
+                "End Date": "2024-06-14",
+                "Accommodations": "Hospital",
+                "Mode of Travel": "Ambulance",
+                "Activities": "Admitted to Scripps Memorial Hospital La Jolla for acute respiratory distress. Transferred to ICU for COVID-19 complications."
+            },
+            {
+                "Location": "Carlsbad, CA",
+                "Purpose": "Routine",
+                "Start Date": "2024-05-20",
+                "End Date": "2024-06-09",
+                "Accommodations": "Home",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Attended local senior center for weekly bridge game. Visited grocery store and pharmacy for essentials. Attended church service at local parish. Started experiencing mild COVID-19 symptoms on June 7th."
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient is a 75-year-old male resident of Carlsbad, CA. His recent travel history is limited to local movements within North San Diego County. On June 7th, 2024, patient began experiencing mild COVID-19 symptoms while at home. On June 10th, 2024, patient was transported via ambulance to Scripps Memorial Hospital La Jolla due to acute respiratory distress, where he was admitted to the ICU for COVID-19 complications. Patient remained hospitalized until June 14th, 2024. Following discharge, patient returned to his home in Carlsbad, where he has remained since, engaging in limited local activities including visits to the senior center, grocery store, pharmacy, and church. These local movements may have contributed to initial viral exposure or subsequent community spread."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Severe shortness of breath and fever",
+        "Patient ID": "7315928",
+        "Encounter Class": "inpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "20240610E5437",
+        "Start DateTime": "2024-06-10 14:30",
+        "End DateTime": "2024-07-08 11:45",
+        "Discharge Disposition": "Discharged to home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Emergency department visit",
+                "SNOMED-CT Code": "4525004",
+                "Description": "Emergency department patient visit",
+                "Start Date": "2024-06-10",
+                "End Date": "2024-06-10"
+            },
+            {
+                "Encounter Type": "Hospital admission",
+                "SNOMED-CT Code": "32485007",
+                "Description": "Hospital admission procedure",
+                "Start Date": "2024-06-10",
+                "End Date": "2024-06-10"
+            },
+            {
+                "Encounter Type": "Intensive care unit stay",
+                "SNOMED-CT Code": "305351004",
+                "Description": "Admission to intensive care unit",
+                "Start Date": "2024-06-10",
+                "End Date": "2024-06-20"
+            },
+            {
+                "Encounter Type": "Palliative care",
+                "SNOMED-CT Code": "103735009",
+                "Description": "Palliative care",
+                "Start Date": "2024-06-28",
+                "End Date": "2024-07-08"
+            },
+            {
+                "Encounter Type": "Hospital discharge",
+                "SNOMED-CT Code": "58000006",
+                "Description": "Patient discharge",
+                "Start Date": "2024-07-08",
+                "End Date": "2024-07-08"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Ximenez907, Catalina632, MD",
+        "Practitioner Phone": "760-555-8124",
+        "Practitioner Fax": "760-555-8125",
+        "Practitioner Email": "c.ximenez@scrippshealth.org",
+        "Practitioner Office Name": "Scripps Memorial Hospital La Jolla",
+        "Practitioner ID": "1847295306",
+        "Practitioner Address": "9888 Genesee Ave, La Jolla, CA 92037",
+        "End Date": "2024-07-08"
+    },
+    "Facility_Information": {
+        "Facility Name": "Scripps Memorial Hospital La Jolla",
+        "Facility Type": "Hospital",
+        "Facility Phone": "858-555-7000",
+        "Facility Fax": "858-555-7001",
+        "Facility Address": "9888 Genesee Ave, La Jolla, CA 92037"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Dyspnea",
+                "SNOMED-CT": "267036007",
+                "Onset Date": "2024-06-07",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fever",
+                "SNOMED-CT": "386661006",
+                "Onset Date": "2024-06-07",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Cough",
+                "SNOMED-CT": "49727002",
+                "Onset Date": "2024-06-07",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-06-08",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Hypoxia",
+                "SNOMED-CT": "389086001",
+                "Onset Date": "2024-06-10",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Tachypnea",
+                "SNOMED-CT": "271823003",
+                "Onset Date": "2024-06-10",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Confusion",
+                "SNOMED-CT": "40917007",
+                "Onset Date": "2024-06-10",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Chest pain",
+                "SNOMED-CT": "29857009",
+                "Onset Date": "2024-06-09",
+                "Severity": "Moderate",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "39.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-06-10 14:35:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "112",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-06-10 14:35:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "28",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-06-10 14:35:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "88",
+                "SNOMED-CT": "103228002",
+                "Unit": "%",
+                "Measurement Time": "2024-06-10 14:35:00"
+            },
+            {
+                "Vital Sign": "Systolic blood pressure",
+                "Value": "145",
+                "SNOMED-CT": "271649006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-10 14:35:00"
+            },
+            {
+                "Vital Sign": "Diastolic blood pressure",
+                "Value": "90",
+                "SNOMED-CT": "271650006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-10 14:35:00"
+            },
+            {
+                "Vital Sign": "Glasgow coma scale score",
+                "Value": "14",
+                "SNOMED-CT": "248241002",
+                "Unit": "{score}",
+                "Measurement Time": "2024-06-10 14:35:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Severe shortness of breath and fever",
+        "Past Medical History": "Patient has a history of hypertension, type 2 diabetes mellitus, and coronary artery disease. He underwent coronary artery bypass grafting in 2015. He also has a history of chronic obstructive pulmonary disease (COPD) diagnosed in 2010, for which he uses a daily inhaler. The patient suffered from pneumonia in 2022, requiring a brief hospitalization. He is a former smoker with a 40 pack-year history, having quit in 2010 upon his COPD diagnosis. Additionally, he has been treated for depression since his wife's passing in 2018.",
+        "Review of Systems": "General: Patient reports severe fatigue and weakness. He has experienced a significant decrease in appetite over the past week.\n\nRespiratory: Severe dyspnea, particularly with minimal exertion. Persistent, dry cough that has worsened over the past three days. Denies hemoptysis.\n\nCardiovascular: Reports chest tightness and occasional palpitations. Denies syncope.\n\nGastrointestinal: Complains of nausea but denies vomiting or diarrhea. Reports decreased appetite.\n\nNeurological: Mentions feeling confused at times, especially in the morning. Denies headaches or vision changes.\n\nMusculoskeletal: General body aches, particularly in the back and legs.\n\nSkin: No rashes or unusual skin changes noted.\n\nPsychiatric: Expresses anxiety about his condition and prognosis.\n\nEndocrine: No recent changes in weight or temperature intolerance noted.\n\nHematologic: Denies easy bruising or bleeding.\n\nAllergic/Immunologic: No known allergies or recent immunological issues reported.",
+        "History of Present Illness": "Mr. Whitcomb is a 75-year-old male with a history of COPD, hypertension, and coronary artery disease who presented to the emergency department with severe shortness of breath and fever. The patient reports that his symptoms began approximately 3 days ago with a dry cough and mild fever. Over the past 24 hours, his condition rapidly deteriorated with the onset of severe dyspnea, even at rest.\n\nHe denies any recent travel or known exposure to COVID-19 positive individuals, but mentions attending a weekly bridge game at his local senior center 5 days prior to symptom onset. He lives alone and has been managing his daily activities independently until this acute illness.\n\nUpon arrival at the ED, the patient was in severe respiratory distress with an oxygen saturation of 88% on room air. He was immediately placed on supplemental oxygen and underwent rapid COVID-19 testing, which returned positive. Chest X-ray revealed bilateral infiltrates consistent with COVID-19 pneumonia.\n\nGiven his age, comorbidities, and the severity of his presentation, Mr. Whitcomb was admitted directly to the ICU for close monitoring and management of his COVID-19 infection and potential complications.",
+        "Plan of Treatment": "1. Admit to ICU for close monitoring and management of severe COVID-19 infection.\n\n2. Initiate high-flow nasal cannula oxygen therapy with close monitoring of oxygen saturation. Prepare for possible intubation and mechanical ventilation if respiratory status deteriorates.\n\n3. Start antiviral therapy with remdesivir as per current COVID-19 treatment guidelines.\n\n4. Initiate dexamethasone for its anti-inflammatory effects in severe COVID-19.\n\n5. Administer empiric broad-spectrum antibiotics (ceftriaxone and azithromycin) to cover for possible secondary bacterial pneumonia, pending culture results.\n\n6. Initiate prophylactic anticoagulation with enoxaparin to prevent thromboembolic complications associated with COVID-19.\n\n7. Provide supportive care including IV fluids, electrolyte management, and nutritional support.\n\n8. Monitor for signs of cytokine storm and multi-organ failure. Be prepared to initiate tocilizumab if indicated.\n\n9. Implement prone positioning protocol to improve oxygenation if needed.\n\n10. Consult Pulmonology and Infectious Disease specialists for ongoing management.\n\n11. Given the patient's age and comorbidities, discuss goals of care and potential need for mechanical ventilation with the patient and/or his healthcare proxy.\n\n12. Monitor mental status closely and provide appropriate support for delirium prevention.\n\n13. Initiate early mobilization and physical therapy as patient's condition allows to prevent ICU-acquired weakness.\n\n14. Arrange for daily updates to the patient's next of kin given visitor restrictions due to COVID-19 protocols.\n\n15. Consider palliative care consultation for symptom management and support in navigating complex medical decisions.",
+        "Vaccine Credential Patient Assertion": "Patient reports receiving two doses of the Pfizer-BioNTech COVID-19 vaccine in early 2021. He received a booster dose in late 2021 but has not received any additional boosters since then. Patient was unable to provide exact dates of vaccinations and did not have his vaccination card with him at the time of admission."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "94534-5",
+                "LOINC Order Code Description": "SARS-CoV-2 (COVID-19) RdRp gene [Presence] in Respiratory specimen by NAA with probe detection",
+                "Laboratory Result": "Detected",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Nasopharynx",
+                "Specimen Type": "Swab",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-06-10 15:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "20240610L001"
+            },
+            {
+                "LOINC Laboratory Order Code": "94640-0",
+                "LOINC Order Code Description": "SARS-CoV-2 (COVID-19) S gene [Presence] in Respiratory specimen by NAA with probe detection",
+                "Laboratory Result": "Detected",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Nasopharynx",
+                "Specimen Type": "Swab",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-06-10 15:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "20240610L002"
+            },
+            {
+                "LOINC Laboratory Order Code": "751-8",
+                "LOINC Order Code Description": "Neutrophils [#/volume] in Blood by Automated count",
+                "Laboratory Result": "12.5 x 10^9/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-06-10 16:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240610L003"
+            },
+            {
+                "LOINC Laboratory Order Code": "731-0",
+                "LOINC Order Code Description": "Lymphocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "0.8 x 10^9/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous blood",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-06-10 16:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240610L004"
+            },
+            {
+                "LOINC Laboratory Order Code": "2160-0",
+                "LOINC Order Code Description": "Creatinine [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "1.8 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Venous blood",
+                "Specimen ID": "987654325",
+                "Specimen Collection Date": "2024-06-10 16:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240610L005"
+            },
+            {
+                "LOINC Laboratory Order Code": "2339-0",
+                "LOINC Order Code Description": "Glucose [Mass/volume] in Blood",
+                "Laboratory Result": "180 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous blood",
+                "Specimen ID": "987654326",
+                "Specimen Collection Date": "2024-06-10 16:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240610L006"
+            },
+            {
+                "LOINC Laboratory Order Code": "2703-7",
+                "LOINC Order Code Description": "Oxygen [Partial pressure] in Arterial blood",
+                "Laboratory Result": "55 mmHg",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Arterial blood",
+                "Specimen Type": "Arterial blood",
+                "Specimen ID": "987654327",
+                "Specimen Collection Date": "2024-06-10 16:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240610L007"
+            },
+            {
+                "LOINC Laboratory Order Code": "2019-8",
+                "LOINC Order Code Description": "Carbon dioxide, total [Moles/volume] in Serum or Plasma",
+                "Laboratory Result": "20 mmol/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Venous blood",
+                "Specimen ID": "987654328",
+                "Specimen Collection Date": "2024-06-10 16:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240610L008"
+            },
+            {
+                "LOINC Laboratory Order Code": "33959-8",
+                "LOINC Order Code Description": "Procalcitonin [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "1.2 ng/mL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Venous blood",
+                "Specimen ID": "987654329",
+                "Specimen Collection Date": "2024-06-10 16:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240610L009"
+            },
+            {
+                "LOINC Laboratory Order Code": "48065-7",
+                "LOINC Order Code Description": "Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma",
+                "Laboratory Result": "1500 ng/mL FEU",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Plasma",
+                "Specimen Type": "Platelet poor plasma",
+                "Specimen ID": "987654330",
+                "Specimen Collection Date": "2024-06-10 16:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240610L010"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "COVID-19",
+                "ICD-10 Code": "U07.1",
+                "SNOMED-CT Code": "840539006",
+                "Diagnosis Date": "2024-06-10",
+                "Onset Date": "2024-06-07",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Acute respiratory distress syndrome due to COVID-19",
+                "ICD-10 Code": "J80",
+                "SNOMED-CT Code": "674814021000119106",
+                "Diagnosis Date": "2024-06-11",
+                "Onset Date": "2024-06-10",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Sepsis due to COVID-19",
+                "ICD-10 Code": "A41.89",
+                "SNOMED-CT Code": "870588003",
+                "Diagnosis Date": "2024-06-12",
+                "Onset Date": "2024-06-11",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Acute kidney injury due to COVID-19",
+                "ICD-10 Code": "N17.9",
+                "SNOMED-CT Code": "870587008",
+                "Diagnosis Date": "2024-06-13",
+                "Onset Date": "2024-06-12",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Acute hepatic failure due to COVID-19",
+                "ICD-10 Code": "K72.00",
+                "SNOMED-CT Code": "870590002",
+                "Diagnosis Date": "2024-06-14",
+                "Onset Date": "2024-06-13",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Multiple organ dysfunction syndrome",
+                "ICD-10 Code": "R65.20",
+                "SNOMED-CT Code": "238150007",
+                "Diagnosis Date": "2024-06-15",
+                "Onset Date": "2024-06-14",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Chronic obstructive pulmonary disease",
+                "ICD-10 Code": "J44.9",
+                "SNOMED-CT Code": "13645005",
+                "Diagnosis Date": "2010-03-15",
+                "Onset Date": "2010-01-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Hypertension",
+                "ICD-10 Code": "I10",
+                "SNOMED-CT Code": "38341003",
+                "Diagnosis Date": "2005-09-20",
+                "Onset Date": "2005-07-15",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Type 2 diabetes mellitus",
+                "ICD-10 Code": "E11.9",
+                "SNOMED-CT Code": "44054006",
+                "Diagnosis Date": "2008-11-30",
+                "Onset Date": "2008-10-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Coronary artery disease",
+                "ICD-10 Code": "I25.10",
+                "SNOMED-CT Code": "53741008",
+                "Diagnosis Date": "2015-02-10",
+                "Onset Date": "2014-12-15",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Intubation",
+                "Procedure Description": "Endotracheal intubation, emergency procedure",
+                "CPT Code": "31500",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-11",
+                "Details": "Emergency intubation performed due to severe respiratory distress and hypoxemia",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Mechanical Ventilation",
+                "Procedure Description": "Ventilation assist and management, initiation of pressure or volume preset ventilators for assisted or controlled breathing; hospital inpatient/observation, initial day",
+                "CPT Code": "94002",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-11",
+                "Details": "Initiated mechanical ventilation following intubation for respiratory failure due to COVID-19",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Central Venous Catheterization",
+                "Procedure Description": "Insertion of central venous catheter, age 5 years or older",
+                "CPT Code": "36556",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-11",
+                "Details": "Central line placed for administration of medications and fluids, and for hemodynamic monitoring",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Arterial Catheterization",
+                "Procedure Description": "Insertion of arterial line",
+                "CPT Code": "36620",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-11",
+                "Details": "Arterial line placed for continuous blood pressure monitoring and frequent blood gas sampling",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Chest X-ray",
+                "Procedure Description": "Radiologic examination, chest; single view",
+                "CPT Code": "71045",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-12",
+                "Details": "Daily chest X-rays to monitor progression of COVID-19 pneumonia and to check placement of lines and tubes",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Continuous Renal Replacement Therapy",
+                "Procedure Description": "Continuous venovenous hemofiltration, initiation, monitoring, and care per day",
+                "CPT Code": "90945",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-14",
+                "Details": "Initiated CRRT for acute kidney injury and fluid overload unresponsive to diuretic therapy",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Bronchoscopy",
+                "Procedure Description": "Bronchoscopy, rigid or flexible, including fluoroscopic guidance, when performed; with bronchoalveolar lavage",
+                "CPT Code": "31624",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-16",
+                "Details": "Performed to clear secretions and obtain samples for microbiological analysis",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Prone Positioning",
+                "Procedure Description": "Prone positioning",
+                "CPT Code": "N/A",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-18",
+                "Details": "Implemented prone positioning protocol to improve oxygenation in severe ARDS",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Tracheostomy",
+                "Procedure Description": "Tracheostomy, planned (separate procedure)",
+                "CPT Code": "31600",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-25",
+                "Details": "Performed due to prolonged mechanical ventilation and to facilitate weaning",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Palliative Care Consultation",
+                "Procedure Description": "Inpatient palliative care consultation",
+                "CPT Code": "99374",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-28",
+                "Details": "Palliative care team consulted for goals of care discussion and symptom management",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Remdesivir",
+                "Medication Type": "Antiviral",
+                "Purpose": "Treatment of COVID-19",
+                "Administration Mode": "Intravenous",
+                "Dose": "200 mg on day 1, followed by 100 mg daily",
+                "Duration": "5 days",
+                "Start Date": "2024-06-10",
+                "Response": "Moderate improvement",
+                "Response Details": "Slight reduction in viral load, marginal improvement in clinical symptoms",
+                "Observation Date": "2024-06-15"
+            },
+            {
+                "Medication Name": "Dexamethasone",
+                "Medication Type": "Corticosteroid",
+                "Purpose": "Reduce inflammation in severe COVID-19",
+                "Administration Mode": "Intravenous",
+                "Dose": "6 mg daily",
+                "Duration": "10 days",
+                "Start Date": "2024-06-10",
+                "Response": "Positive",
+                "Response Details": "Reduction in inflammatory markers, improved oxygenation",
+                "Observation Date": "2024-06-20"
+            },
+            {
+                "Medication Name": "Ceftriaxone",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Empiric treatment of possible bacterial co-infection",
+                "Administration Mode": "Intravenous",
+                "Dose": "2 g every 24 hours",
+                "Duration": "7 days",
+                "Start Date": "2024-06-10",
+                "Response": "Neutral",
+                "Response Details": "No clear evidence of bacterial infection, discontinued after 7 days",
+                "Observation Date": "2024-06-17"
+            },
+            {
+                "Medication Name": "Azithromycin",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Empiric treatment of possible atypical pneumonia",
+                "Administration Mode": "Intravenous",
+                "Dose": "500 mg daily",
+                "Duration": "5 days",
+                "Start Date": "2024-06-10",
+                "Response": "Neutral",
+                "Response Details": "No clear evidence of atypical pneumonia, completed 5-day course",
+                "Observation Date": "2024-06-15"
+            },
+            {
+                "Medication Name": "Enoxaparin",
+                "Medication Type": "Anticoagulant",
+                "Purpose": "Prophylaxis against venous thromboembolism",
+                "Administration Mode": "Subcutaneous injection",
+                "Dose": "40 mg daily",
+                "Duration": "Ongoing",
+                "Start Date": "2024-06-10",
+                "Response": "Positive",
+                "Response Details": "No evidence of thromboembolism",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Norepinephrine",
+                "Medication Type": "Vasopressor",
+                "Purpose": "Treatment of septic shock",
+                "Administration Mode": "Intravenous infusion",
+                "Dose": "Variable, titrated to effect",
+                "Duration": "5 days",
+                "Start Date": "2024-06-12",
+                "Response": "Positive",
+                "Response Details": "Improved blood pressure and tissue perfusion",
+                "Observation Date": "2024-06-17"
+            },
+            {
+                "Medication Name": "Furosemide",
+                "Medication Type": "Loop diuretic",
+                "Purpose": "Management of fluid overload",
+                "Administration Mode": "Intravenous",
+                "Dose": "40 mg every 12 hours",
+                "Duration": "4 days",
+                "Start Date": "2024-06-13",
+                "Response": "Limited",
+                "Response Details": "Minimal urine output increase, switched to CRRT",
+                "Observation Date": "2024-06-17"
+            },
+            {
+                "Medication Name": "Insulin Glargine",
+                "Medication Type": "Long-acting insulin",
+                "Purpose": "Management of diabetes",
+                "Administration Mode": "Subcutaneous injection",
+                "Dose": "20 units at bedtime",
+                "Duration": "Ongoing",
+                "Start Date": "2024-06-10",
+                "Response": "Moderate",
+                "Response Details": "Improved glycemic control, but requiring adjustment due to stress hyperglycemia",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Morphine",
+                "Medication Type": "Opioid analgesic",
+                "Purpose": "Pain management and comfort care",
+                "Administration Mode": "Intravenous",
+                "Dose": "2-4 mg every 4 hours as needed",
+                "Duration": "Ongoing",
+                "Start Date": "2024-06-28",
+                "Response": "Positive",
+                "Response Details": "Improved comfort and reduced distress",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Metoprolol",
+                "Medication Type": "Beta-blocker",
+                "Purpose": "Management of hypertension and coronary artery disease",
+                "Administration Mode": "Oral",
+                "Dose": "25 mg twice daily",
+                "Duration": "Ongoing (home medication)",
+                "Start Date": "2020-03-15",
+                "Response": "Positive",
+                "Response Details": "Continued for cardiac protection, dose adjusted based on hemodynamics",
+                "Observation Date": "2024-07-08"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 75-year-old male with COPD and other comorbidities developed severe COVID-19 symptoms on June 7, 2024. He was admitted to the ICU on June 10 with respiratory failure, requiring intubation and mechanical ventilation. Ventilator management was continued from June 11 to June 28, 2024, during which his condition deteriorated, leading to multiple organ dysfunction syndrome. Despite aggressive treatment including antivirals, steroids, and supportive care, his prognosis remained poor. On June 28, palliative care was initiated. The patient remained hospitalized, receiving comfort-focused care until July 8, 2024."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Everett285 Whitcomb731",
+        "Report_Header_Age": "75",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-07-09"
+    }
+}

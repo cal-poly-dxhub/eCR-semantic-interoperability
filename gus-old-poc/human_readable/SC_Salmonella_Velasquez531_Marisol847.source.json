@@ -1,0 +1,704 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "White",
+        "Ethnicity": "Hispanic or Latino",
+        "Patient Age": "27",
+        "Date of Birth": "1997-03-15",
+        "Location": "Saluda, South Carolina",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "Spanish",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Velasquez531, Marisol847",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed part-time",
+        "Gender Identity": "Female",
+        "Disability Status": "No disability",
+        "Education Level": "Some college",
+        "Marital Status": "Single",
+        "Smoking Status": "Never smoker",
+        "BMI": "24.8",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Medicaid",
+        "Refugee Status": "Not a refugee",
+        "Correctional Facility Status": "Not currently or recently incarcerated",
+        "Lose Housing Worry": "Somewhat worried",
+        "People Living at Address": "4",
+        "Housing Status": "Renting",
+        "Stress Level": "Moderate stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1237 Palmetto Grove Ln., Apt 3B, Saluda, SC 29138",
+        "Patient Email": "marisol.velasquez97@correolibre.com",
+        "Patient Phone": "803-555-7219"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Waitress",
+        "Current Industry": "Food Service",
+        "Usual Occupation": "Waitress",
+        "Usual Industry": "Food Service",
+        "Usual Employment Date Range": "Start: 2018-09-15 to current",
+        "Current Job Title": "Server",
+        "Current Employer": "El Jalape\u00f1o Mexican Restaurant, 123 Main St, Saluda, SC 29138, (803) 555-1234",
+        "Current Employment Start Date": "2022-03-01",
+        "Annual Income": "$18,500"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Greenwood, South Carolina",
+                "Purpose": "Social event",
+                "Start Date": "2024-07-04",
+                "End Date": "2024-07-04",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Personal car",
+                "Activities": "Attended a Fourth of July barbecue at a friend's farm. Consumed homemade potato salad and grilled chicken."
+            },
+            {
+                "Location": "Columbia, South Carolina",
+                "Purpose": "Family",
+                "Start Date": "2024-06-28",
+                "End Date": "2024-06-30",
+                "Accommodations": "Family member's home",
+                "Mode of Travel": "Personal car",
+                "Activities": "Visited cousin's new baby. Ate at several local restaurants, including a food truck festival in a park."
+            },
+            {
+                "Location": "Saluda, South Carolina",
+                "Purpose": "Routine",
+                "Start Date": "2024-06-22",
+                "End Date": "2024-06-22",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Walking",
+                "Activities": "Attended a community potluck at the local church. Brought homemade salsa and consumed various dishes prepared by others."
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient reported attending a Fourth of July barbecue in Greenwood, SC on 2024-07-04, where she consumed homemade potato salad and grilled chicken. Prior to that, she visited Columbia, SC from 2024-06-28 to 2024-06-30, eating at several local restaurants and attending a food truck festival. On 2024-06-22, she participated in a community potluck in Saluda, SC, where she brought homemade salsa and consumed various dishes prepared by others. These recent food consumption patterns at social gatherings and from various sources are noteworthy in the context of the patient's salmonella poisoning."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Severe diarrhea and abdominal pain",
+        "Patient ID": "9384756",
+        "Encounter Class": "emergency",
+        "Encounter Status": "finished",
+        "Encounter ID": "20240709E001",
+        "Start DateTime": "2024-07-09 14:23",
+        "End DateTime": "2024-07-09 18:45",
+        "Discharge Disposition": "Discharged to home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Emergency department visit",
+                "SNOMED-CT Code": "4525004",
+                "Description": "Emergency department visit (procedure)",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Patient evaluation",
+                "SNOMED-CT Code": "308335008",
+                "Description": "Patient encounter procedure (procedure)",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Triage",
+                "SNOMED-CT Code": "225390008",
+                "Description": "Triage in emergency department (procedure)",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "History taking",
+                "SNOMED-CT Code": "84100007",
+                "Description": "History taking (procedure)",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Physical examination",
+                "SNOMED-CT Code": "5880005",
+                "Description": "Physical examination procedure (procedure)",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Diagnostic evaluation",
+                "SNOMED-CT Code": "386053000",
+                "Description": "Evaluation procedure (procedure)",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Treatment",
+                "SNOMED-CT Code": "277132007",
+                "Description": "Therapeutic procedure (procedure)",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Discharge",
+                "SNOMED-CT Code": "3457005",
+                "Description": "Patient referral (procedure)",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Smith937, James672, MD",
+        "Practitioner Phone": "803-555-3287",
+        "Practitioner Fax": "803-555-3288",
+        "Practitioner Email": "dr.smith@saludamedical.com",
+        "Practitioner Office Name": "Saluda Medical Center",
+        "Practitioner ID": "7614982305",
+        "Practitioner Address": "456 Palmetto Ave, Suite 200, Saluda, SC 29138"
+    },
+    "Facility_Information": {
+        "Facility Name": "Saluda County Emergency Medical Center",
+        "Facility Type": "Emergency Department",
+        "Facility Phone": "803-555-9100",
+        "Facility Fax": "803-555-9101",
+        "Facility Address": "789 Magnolia Drive, Saluda, SC 29138"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "Not pregnant",
+        "Pregnancy Status Determination Method": "Patient self-report",
+        "Pregnancy Status Recorded Date": "2024-07-09",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "2024-06-18",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Diarrhea",
+                "SNOMED-CT": "62315008",
+                "Onset Date": "2024-07-07",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-07-07",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fever",
+                "SNOMED-CT": "386661006",
+                "Onset Date": "2024-07-08",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-07-07",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Vomiting",
+                "SNOMED-CT": "422400008",
+                "Onset Date": "2024-07-08",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-07-08",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Dehydration",
+                "SNOMED-CT": "34095006",
+                "Onset Date": "2024-07-09",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Headache",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2024-07-08",
+                "Severity": "Mild",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "38.8",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-07-09 14:30:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "105",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-07-09 14:30:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "22",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-07-09 14:30:00"
+            },
+            {
+                "Vital Sign": "Systolic blood pressure",
+                "Value": "112",
+                "SNOMED-CT": "271649006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-09 14:30:00"
+            },
+            {
+                "Vital Sign": "Diastolic blood pressure",
+                "Value": "68",
+                "SNOMED-CT": "271650006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-09 14:30:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "98",
+                "SNOMED-CT": "103228002",
+                "Unit": "%",
+                "Measurement Time": "2024-07-09 14:30:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "62.5",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-07-09 14:35:00"
+            },
+            {
+                "Vital Sign": "Capillary refill time",
+                "Value": "3",
+                "SNOMED-CT": "366211005",
+                "Unit": "seconds",
+                "Measurement Time": "2024-07-09 14:35:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Severe diarrhea and abdominal pain for 2 days",
+        "Past Medical History": "Patient reports no significant past medical history. She had a tonsillectomy at age 8 and has been generally healthy. No history of chronic gastrointestinal issues or food allergies. Up-to-date on routine vaccinations. No known drug allergies.",
+        "Review of Systems": "General: Reports fatigue and weakness. Denies recent weight loss or night sweats.\nGastrointestinal: Complains of severe diarrhea (>6 episodes per day) for the past 2 days, moderate abdominal pain, nausea, and occasional vomiting. Denies blood in stool or black tarry stools.\nCardiovascular: Denies chest pain or palpitations. Reports feeling lightheaded when standing up quickly.\nRespiratory: Denies shortness of breath or cough.\nGenitourinary: Reports darker urine than usual, possibly due to dehydration. Denies dysuria or frequency.\nMusculoskeletal: Reports general body aches. Denies joint swelling or specific joint pain.\nSkin: Skin appears dry. Denies rashes or lesions.\nNeurological: Complains of mild headache. Denies dizziness or loss of consciousness.\nPsychiatric: Appropriate affect. Expresses anxiety about her condition.",
+        "History of Present Illness": "Ms. Velasquez is a 27-year-old Hispanic female presenting to the ED with a 2-day history of severe diarrhea and abdominal pain. Symptoms began abruptly on the evening of July 7th, approximately 3 days after attending a Fourth of July barbecue where she consumed homemade potato salad and grilled chicken. She reports having 6-8 watery, non-bloody bowel movements per day. The patient describes crampy abdominal pain, primarily in the lower abdomen, which she rates as 6/10 in severity. She has experienced nausea throughout and had two episodes of vomiting yesterday (July 8th). The patient developed a fever yesterday evening, measured at home as 38.3\u00b0C (101\u00b0F). She reports feeling weak and fatigued, with decreased appetite and oral intake. She has been trying to stay hydrated with water and sports drinks but is concerned about dehydration. The patient denies any similar symptoms in family members or close contacts. She works as a waitress at a local Mexican restaurant but has not worked since symptom onset.",
+        "Plan of Treatment": "1. Diagnosis: Suspected Salmonella gastroenteritis based on clinical presentation and recent food history.\n2. Laboratory tests: Order stool culture, complete blood count, basic metabolic panel, and C-reactive protein.\n3. Fluid resuscitation: Initiate IV fluids (Normal Saline) to address dehydration.\n4. Symptom management:\n   a. Ondansetron 4mg IV for nausea\n   b. Acetaminophen 1000mg PO for fever and pain\n5. Nutrition: Recommend BRAT diet (Bananas, Rice, Applesauce, Toast) as tolerated.\n6. Patient education: Discuss importance of hand hygiene and food safety practices.\n7. Follow-up: Schedule follow-up appointment with primary care physician in 3-5 days.\n8. Reportable condition: Report suspected Salmonella case to local health department.\n9. Return precautions: Advise patient to return if symptoms worsen, unable to tolerate oral fluids, or develop bloody stools.\n10. Antibiotic consideration: Hold on antibiotic therapy unless severe illness or risk factors present. Await culture results.",
+        "Vaccine Credential Patient Assertion": "Patient reports being up-to-date on routine vaccinations but is unsure of specific dates. She recalls receiving a flu shot in the fall of 2023 but has not received any other vaccines in the past year. Patient denies ever receiving a typhoid vaccine."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "6462-8",
+                "LOINC Order Code Description": "Salmonella sp identified in Stool by Culture",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Stool",
+                "Specimen Type": "Feces",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-07-09 15:45:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "20240709L001"
+            },
+            {
+                "LOINC Laboratory Order Code": "789-8",
+                "LOINC Order Code Description": "Erythrocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "4.2 x 10^12/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-07-09 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240709L002"
+            },
+            {
+                "LOINC Laboratory Order Code": "6690-2",
+                "LOINC Order Code Description": "Leukocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "12.8 x 10^9/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-07-09 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240709L002"
+            },
+            {
+                "LOINC Laboratory Order Code": "2345-7",
+                "LOINC Order Code Description": "Glucose [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "95 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-07-09 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240709L003"
+            },
+            {
+                "LOINC Laboratory Order Code": "2160-0",
+                "LOINC Order Code Description": "Creatinine [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "0.9 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-07-09 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240709L003"
+            },
+            {
+                "LOINC Laboratory Order Code": "2951-2",
+                "LOINC Order Code Description": "Sodium [Moles/volume] in Serum or Plasma",
+                "Laboratory Result": "135 mmol/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-07-09 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240709L003"
+            },
+            {
+                "LOINC Laboratory Order Code": "2823-3",
+                "LOINC Order Code Description": "Potassium [Moles/volume] in Serum or Plasma",
+                "Laboratory Result": "3.8 mmol/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-07-09 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240709L003"
+            },
+            {
+                "LOINC Laboratory Order Code": "1742-6",
+                "LOINC Order Code Description": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "35 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-07-09 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240709L003"
+            },
+            {
+                "LOINC Laboratory Order Code": "1920-8",
+                "LOINC Order Code Description": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "32 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-07-09 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240709L003"
+            },
+            {
+                "LOINC Laboratory Order Code": "1988-5",
+                "LOINC Order Code Description": "C reactive protein [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "25 mg/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-07-09 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240709L004"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Salmonella gastroenteritis",
+                "ICD-10 Code": "A02.0",
+                "SNOMED-CT Code": "266096002",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-07-07",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Acute dehydration",
+                "ICD-10 Code": "E86.0",
+                "SNOMED-CT Code": "584516007",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-07-09",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Electrolyte imbalance",
+                "ICD-10 Code": "E87.8",
+                "SNOMED-CT Code": "237840007",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-07-09",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Abdominal pain",
+                "ICD-10 Code": "R10.9",
+                "SNOMED-CT Code": "21522001",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-07-07",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Nausea and vomiting",
+                "ICD-10 Code": "R11.2",
+                "SNOMED-CT Code": "16932000",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-07-07",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Intravenous fluid administration",
+                "Procedure Description": "Therapeutic, prophylactic, or diagnostic injection; intravenous push, single or initial substance/drug",
+                "CPT Code": "96374",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "Administration of 1L Normal Saline for rehydration",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Stool culture",
+                "Procedure Description": "Culture, bacterial; stool, with isolation and preliminary examination (eg, KIA, LIA), Salmonella and Shigella species",
+                "CPT Code": "87045",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "Stool culture to confirm Salmonella infection",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Complete blood count",
+                "Procedure Description": "Blood count; complete (CBC), automated (Hgb, Hct, RBC, WBC and platelet count) and automated differential WBC count",
+                "CPT Code": "85025",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "To assess for signs of infection and dehydration",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Basic metabolic panel",
+                "Procedure Description": "Basic metabolic panel (Calcium, ionized)",
+                "CPT Code": "80047",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "To assess electrolyte balance and kidney function",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "C-reactive protein test",
+                "Procedure Description": "C-reactive protein; quantitative",
+                "CPT Code": "86140",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "To assess level of inflammation",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Antiemetic administration",
+                "Procedure Description": "Therapeutic, prophylactic, or diagnostic injection; intravenous push, single or initial substance/drug",
+                "CPT Code": "96374",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "Administration of ondansetron 4mg IV for nausea",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Oral medication administration",
+                "Procedure Description": "Therapeutic, prophylactic, or diagnostic injection; each additional sequential intravenous push of a new substance/drug",
+                "CPT Code": "96375",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "Administration of acetaminophen 1000mg PO for fever and pain",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Patient education",
+                "Procedure Description": "Education and training for patient self-management by a qualified, nonphysician health care professional using a standardized curriculum, face-to-face with the patient (could include caregiver/family) each 30 minutes",
+                "CPT Code": "98960",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "Education on hand hygiene and food safety practices",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Follow-up appointment scheduling",
+                "Procedure Description": "Telephone evaluation and management service by a physician or other qualified health care professional who may report evaluation and management services provided to an established patient, parent, or guardian not originating from a related E/M service provided within the previous 7 days nor leading to an E/M service or procedure within the next 24 hours or soonest available appointment; 5-10 minutes of medical discussion",
+                "CPT Code": "99441",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-12",
+                "Details": "Schedule follow-up appointment with primary care physician in 3-5 days",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Normal Saline",
+                "Medication Type": "Intravenous Fluid",
+                "Purpose": "Rehydration",
+                "Administration Mode": "Intravenous",
+                "Dose": "1000 mL",
+                "Duration": "Over 2 hours",
+                "Start Date": "2024-07-09",
+                "Response": "Positive",
+                "Response Details": "Improved hydration status, increased urine output",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Nausea and vomiting control",
+                "Administration Mode": "Intravenous",
+                "Dose": "4 mg",
+                "Duration": "Single dose",
+                "Start Date": "2024-07-09",
+                "Response": "Positive",
+                "Response Details": "Reduced nausea and prevented further vomiting",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic and antipyretic",
+                "Purpose": "Fever and pain relief",
+                "Administration Mode": "Oral",
+                "Dose": "1000 mg",
+                "Duration": "Every 6 hours as needed",
+                "Start Date": "2024-07-09",
+                "Response": "Positive",
+                "Response Details": "Reduced fever and alleviated abdominal pain",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Loperamide",
+                "Medication Type": "Antidiarrheal",
+                "Purpose": "Control diarrhea",
+                "Administration Mode": "Oral",
+                "Dose": "4 mg initially, then 2 mg after each loose stool",
+                "Duration": "Not to exceed 16 mg/day",
+                "Start Date": "2024-07-09",
+                "Response": "Moderate",
+                "Response Details": "Slight reduction in frequency of diarrhea",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Ciprofloxacin",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Treat Salmonella infection",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg",
+                "Duration": "Twice daily for 7 days",
+                "Start Date": "2024-07-09",
+                "Response": "Pending",
+                "Response Details": "Awaiting full course completion to assess efficacy",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Probiotic supplement",
+                "Medication Type": "Dietary supplement",
+                "Purpose": "Restore gut flora",
+                "Administration Mode": "Oral",
+                "Dose": "1 capsule",
+                "Duration": "Daily for 14 days",
+                "Start Date": "2024-07-09",
+                "Response": "Pending",
+                "Response Details": "Long-term benefit to be assessed",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Oral Rehydration Solution",
+                "Medication Type": "Electrolyte replacement",
+                "Purpose": "Maintain hydration",
+                "Administration Mode": "Oral",
+                "Dose": "200 mL",
+                "Duration": "After each loose stool",
+                "Start Date": "2024-07-09",
+                "Response": "Positive",
+                "Response Details": "Helping maintain hydration status",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Bismuth subsalicylate",
+                "Medication Type": "Antidiarrheal",
+                "Purpose": "Relieve diarrhea and abdominal discomfort",
+                "Administration Mode": "Oral",
+                "Dose": "525 mg",
+                "Duration": "Every 30-60 minutes as needed, not to exceed 8 doses in 24 hours",
+                "Start Date": "2024-07-09",
+                "Response": "Moderate",
+                "Response Details": "Some relief of abdominal discomfort",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Multivitamin",
+                "Medication Type": "Dietary supplement",
+                "Purpose": "Nutritional support",
+                "Administration Mode": "Oral",
+                "Dose": "1 tablet",
+                "Duration": "Daily",
+                "Start Date": "2024-07-09",
+                "Response": "Neutral",
+                "Response Details": "No immediate observable effect",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Metoclopramide",
+                "Medication Type": "Antiemetic and gastrokinetic",
+                "Purpose": "Manage nausea and improve gastric emptying",
+                "Administration Mode": "Oral",
+                "Dose": "10 mg",
+                "Duration": "Three times daily before meals for 2-3 days",
+                "Start Date": "2024-07-09",
+                "Response": "Positive",
+                "Response Details": "Reduced nausea and improved tolerance to oral intake",
+                "Observation Date": "2024-07-09"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 27-year-old Hispanic female presented to the ED on 2024-07-09 with severe diarrhea and abdominal pain that began on 2024-07-07, likely related to consuming contaminated food at a July 4th barbecue. She developed fever, nausea, and vomiting on 2024-07-08. In the ED, she was diagnosed with Salmonella gastroenteritis, confirmed by stool culture. Treatment included IV fluids, antiemetics, and antibiotics. The patient was discharged home with instructions for follow-up care and education on food safety practices."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Marisol847 Velasquez531",
+        "Report_Header_Age": "27",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-07-10"
+    }
+}

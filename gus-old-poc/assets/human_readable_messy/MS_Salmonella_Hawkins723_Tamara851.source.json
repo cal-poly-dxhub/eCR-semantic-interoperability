@@ -1,0 +1,691 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "Black or African American",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "45",
+        "Date of Birth": "1979-06-24",
+        "Location": "Jackson, Mississippi",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Hawkins723, Tamara851",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed part-time",
+        "Gender Identity": "Female",
+        "Disability Status": "No functional limitations",
+        "Education Level": "Some college",
+        "Marital Status": "Divorced",
+        "Smoking Status": "Former smoker",
+        "BMI": "32.5",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Medicaid",
+        "Refugee Status": "Not a refugee",
+        "Correctional Facility Status": "Not in correctional facility",
+        "Lose Housing Worry": "Somewhat worried",
+        "People Living at Address": "3",
+        "Housing Status": "Renting",
+        "Stress Level": "Moderate stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1237 Magnolia Terrace, Apt 3B, Jackson, MS 39201",
+        "Patient Email": "tamara.hawkins723@emailprovider.com",
+        "Patient Phone": "601-555-3842"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Retail Sales Associate",
+        "Current Industry": "Retail",
+        "Usual Occupation": "Retail Sales Associate",
+        "Usual Industry": "Retail",
+        "Usual Employment Date Range": "Start: 2015-03-15 to current",
+        "Current Job Title": "Part-time Sales Associate",
+        "Current Employer": "Jackson Fashion Outlet, 456 County Line Road, Jackson, MS 39213, 601-555-7890",
+        "Current Employment Start Date": "2015-03-15",
+        "Annual Income": "$18,500"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Gulfport, Mississippi",
+                "Purpose": "Family",
+                "Start Date": "2024-06-15",
+                "End Date": "2024-06-16",
+                "Accommodations": "Family member's home",
+                "Mode of Travel": "Personal car",
+                "Activities": "Attended a family barbecue at a local park. Consumed homemade potato salad and grilled chicken. Used public restroom facilities at the park."
+            },
+            {
+                "Location": "Jackson, Mississippi",
+                "Purpose": "Routine",
+                "Start Date": "2024-06-10",
+                "End Date": "2024-06-10",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Public bus",
+                "Activities": "Visited a local farmer's market. Sampled various fresh produce and purchased some items. Used restroom at a nearby fast food restaurant."
+            },
+            {
+                "Location": "Vicksburg, Mississippi",
+                "Purpose": "Social events",
+                "Start Date": "2024-06-01",
+                "End Date": "2024-06-02",
+                "Accommodations": "Budget hotel",
+                "Mode of Travel": "Carpool with friends",
+                "Activities": "Attended a community potluck event. Consumed various homemade dishes. Visited a local historical site and used public restroom facilities."
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient reports recent travel within Mississippi. On June 15-16, 2024, she visited family in Gulfport, attending a barbecue where she consumed homemade potato salad and grilled chicken, and used public restroom facilities. On June 10, 2024, she visited a local farmer's market in Jackson, sampling various produce and using a fast food restaurant restroom. On June 1-2, 2024, she traveled to Vicksburg, attending a community potluck where she consumed various homemade dishes, and used public restroom facilities at a historical site. These recent exposures to potentially contaminated food and public facilities may be relevant to her current presentation of moderate salmonellosis with dehydration."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Severe diarrhea and vomiting for 3 days",
+        "Patient ID": "8293647",
+        "Encounter Class": "inpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "20240623001",
+        "Start DateTime": "2024-06-20 14:30",
+        "End DateTime": "2024-06-23 11:45",
+        "Discharge Disposition": "Discharged to home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Emergency department visit",
+                "SNOMED-CT Code": "4525004",
+                "Description": "Emergency department patient visit",
+                "Start Date": "2024-06-20",
+                "End Date": "2024-06-20"
+            },
+            {
+                "Encounter Type": "Hospital admission",
+                "SNOMED-CT Code": "32485007",
+                "Description": "Hospital admission procedure",
+                "Start Date": "2024-06-20",
+                "End Date": "2024-06-23"
+            },
+            {
+                "Encounter Type": "Inpatient stay",
+                "SNOMED-CT Code": "183452005",
+                "Description": "Inpatient stay",
+                "Start Date": "2024-06-20",
+                "End Date": "2024-06-23"
+            },
+            {
+                "Encounter Type": "Hydration therapy",
+                "SNOMED-CT Code": "385974004",
+                "Description": "Fluid management",
+                "Start Date": "2024-06-20",
+                "End Date": "2024-06-23"
+            },
+            {
+                "Encounter Type": "Infectious disease consultation",
+                "SNOMED-CT Code": "185389009",
+                "Description": "Infectious disease consultation",
+                "Start Date": "2024-06-21",
+                "End Date": "2024-06-21"
+            },
+            {
+                "Encounter Type": "Nutritional consultation",
+                "SNOMED-CT Code": "185392005",
+                "Description": "Nutritional consultation",
+                "Start Date": "2024-06-22",
+                "End Date": "2024-06-22"
+            },
+            {
+                "Encounter Type": "Hospital discharge",
+                "SNOMED-CT Code": "58000006",
+                "Description": "Patient discharge",
+                "Start Date": "2024-06-23",
+                "End Date": "2024-06-23"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Campbell451, Grace341, MD",
+        "Practitioner Phone": "601-555-7392",
+        "Practitioner Fax": "601-555-7393",
+        "Practitioner Email": "grace.campbell@jacksonhealthpartners.com",
+        "Practitioner Office Name": "Jackson Health Partners",
+        "Practitioner ID": "7286940513",
+        "Practitioner Address": "2145 Meadowbrook Lane, Suite 300, Jackson, MS 39202"
+    },
+    "Facility_Information": {
+        "Facility Name": "Jackson Memorial Hospital",
+        "Facility Type": "Hospital",
+        "Facility Phone": "601-555-9000",
+        "Facility Fax": "601-555-9001",
+        "Facility Address": "1234 Medical Center Drive, Jackson, MS 39201"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Diarrhea",
+                "SNOMED-CT": "62315008",
+                "Onset Date": "2024-06-18",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Vomiting",
+                "SNOMED-CT": "422400008",
+                "Onset Date": "2024-06-18",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-06-18",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fever",
+                "SNOMED-CT": "386661006",
+                "Onset Date": "2024-06-19",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-06-19",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Dehydration",
+                "SNOMED-CT": "34095006",
+                "Onset Date": "2024-06-20",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Headache",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2024-06-20",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Muscle cramps",
+                "SNOMED-CT": "55300003",
+                "Onset Date": "2024-06-20",
+                "Severity": "Mild",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "38.5",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-06-20 14:35:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "110",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-06-20 14:35:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "22",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-06-20 14:35:00"
+            },
+            {
+                "Vital Sign": "Systolic blood pressure",
+                "Value": "95",
+                "SNOMED-CT": "271649006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-20 14:35:00"
+            },
+            {
+                "Vital Sign": "Diastolic blood pressure",
+                "Value": "60",
+                "SNOMED-CT": "271650006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-20 14:35:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "97",
+                "SNOMED-CT": "103228002",
+                "Unit": "%",
+                "Measurement Time": "2024-06-20 14:35:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "88.5",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-06-20 14:40:00"
+            },
+            {
+                "Vital Sign": "Capillary refill time",
+                "Value": "3",
+                "SNOMED-CT": "364705006",
+                "Unit": "seconds",
+                "Measurement Time": "2024-06-20 14:40:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Severe diarrhea, vomiting, and abdominal pain for 3 days",
+        "Past Medical History": "Patient reports history of hypertension, controlled with medication. Type 2 diabetes diagnosed 3 years ago, managed with oral medications and diet. Cholecystectomy performed in 2020. No known history of gastrointestinal disorders. Patient is a former smoker, quit 5 years ago. No history of alcohol abuse. Allergic to penicillin (rash). Up to date on routine health screenings.",
+        "Review of Systems": "General: Reports fatigue and weakness. Denies recent weight changes.\nENT: No sore throat, ear pain, or nasal congestion.\nCardiovascular: Denies chest pain or palpitations. No history of heart disease.\nRespiratory: No cough, shortness of breath, or wheezing.\nGastrointestinal: Severe diarrhea (>10 times/day), watery, non-bloody. Moderate abdominal pain, crampy, diffuse. Nausea with multiple episodes of vomiting. Decreased appetite.\nGenitourinary: Reports decreased urination. No dysuria or hematuria.\nMusculoskeletal: Reports mild muscle cramps. No joint pain or swelling.\nSkin: No rashes or lesions. Skin appears dry.\nNeurological: Complains of mild headache. No dizziness or loss of consciousness.\nPsychiatric: Anxious about current illness. No history of depression or anxiety disorders.",
+        "History of Present Illness": "Ms. Hawkins, a 45-year-old African American female, presents with a 3-day history of severe diarrhea, vomiting, and abdominal pain. Symptoms began abruptly on June 18, 2024, following a family barbecue in Gulfport, MS on June 15-16. She reports consuming homemade potato salad and grilled chicken at the event. Diarrhea is described as watery, non-bloody, occurring >10 times daily. Vomiting began simultaneously, occurring 3-4 times daily. She complains of diffuse, crampy abdominal pain, rated 6/10 in severity. On June 19, she developed a low-grade fever and increasing fatigue. By June 20, she noticed decreased urination and felt dizzy upon standing, prompting her to seek medical attention. She denies any similar episodes in the past or recent travel outside Mississippi. No other family members who attended the barbecue have reported illness.",
+        "Plan of Treatment": "1. Admit patient for moderate dehydration secondary to suspected salmonellosis.\n2. Initiate IV fluid resuscitation with lactated Ringer's solution, 1L bolus followed by maintenance fluids.\n3. Monitor input/output strictly and adjust fluid administration as needed.\n4. Obtain stool culture and sensitivity to confirm Salmonella infection.\n5. Initiate empiric antibiotic therapy with Ciprofloxacin 500mg IV q12h, pending culture results.\n6. Administer Ondansetron 4mg IV q6h as needed for nausea and vomiting.\n7. Provide oral rehydration solution once vomiting is controlled.\n8. Monitor electrolytes and renal function daily.\n9. Gradual advancement of diet as tolerated, starting with clear liquids.\n10. Infectious disease consultation for management of salmonellosis.\n11. Nutritional consultation for dietary recommendations during recovery.\n12. Educate patient on food safety and hygiene practices to prevent future infections.\n13. Notify local health department of suspected salmonellosis case.\n14. Plan for discharge when adequately hydrated, tolerating oral intake, and diarrhea improving.\n15. Arrange follow-up appointment with primary care physician within one week of discharge.",
+        "Vaccine Credential Patient Assertion": "Patient reports being up-to-date on routine vaccinations, including annual flu shots. However, she is unsure about her Tdap (Tetanus, Diphtheria, Pertussis) status and cannot recall when she last received this vaccine. She denies ever receiving the typhoid vaccine. Patient agrees to review her vaccination records with her primary care physician at her follow-up appointment."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "6399-4",
+                "LOINC Order Code Description": "Bacterial culture, stool",
+                "Laboratory Result": "Salmonella species isolated",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Stool",
+                "Specimen Type": "Feces",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-06-20 15:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "ORD123456"
+            },
+            {
+                "LOINC Laboratory Order Code": "2345-7",
+                "LOINC Order Code Description": "Glucose [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "110 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-06-20 15:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123457"
+            },
+            {
+                "LOINC Laboratory Order Code": "2160-0",
+                "LOINC Order Code Description": "Creatinine [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "1.2 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-06-20 15:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123458"
+            },
+            {
+                "LOINC Laboratory Order Code": "2951-2",
+                "LOINC Order Code Description": "Sodium [Moles/volume] in Serum or Plasma",
+                "Laboratory Result": "132 mmol/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-06-20 15:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123459"
+            },
+            {
+                "LOINC Laboratory Order Code": "2823-3",
+                "LOINC Order Code Description": "Potassium [Moles/volume] in Serum or Plasma",
+                "Laboratory Result": "3.2 mmol/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654325",
+                "Specimen Collection Date": "2024-06-20 15:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123460"
+            },
+            {
+                "LOINC Laboratory Order Code": "2075-0",
+                "LOINC Order Code Description": "Chloride [Moles/volume] in Serum or Plasma",
+                "Laboratory Result": "95 mmol/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654326",
+                "Specimen Collection Date": "2024-06-20 15:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123461"
+            },
+            {
+                "LOINC Laboratory Order Code": "2028-9",
+                "LOINC Order Code Description": "Carbon dioxide, total [Moles/volume] in Serum or Plasma",
+                "Laboratory Result": "18 mmol/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654327",
+                "Specimen Collection Date": "2024-06-20 15:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123462"
+            },
+            {
+                "LOINC Laboratory Order Code": "751-8",
+                "LOINC Order Code Description": "Neutrophils [#/volume] in Blood by Automated count",
+                "Laboratory Result": "8.2 x10^9/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654328",
+                "Specimen Collection Date": "2024-06-20 15:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123463"
+            },
+            {
+                "LOINC Laboratory Order Code": "2093-3",
+                "LOINC Order Code Description": "Cholesterol [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "190 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654329",
+                "Specimen Collection Date": "2024-06-20 15:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123464"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Salmonella enteritis",
+                "ICD-10 Code": "A02.0",
+                "SNOMED-CT Code": "266096002",
+                "Diagnosis Date": "2024-06-20",
+                "Onset Date": "2024-06-18",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Moderate dehydration",
+                "ICD-10 Code": "E86.1",
+                "SNOMED-CT Code": "370979005",
+                "Diagnosis Date": "2024-06-20",
+                "Onset Date": "2024-06-20",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Acute gastroenteritis",
+                "ICD-10 Code": "A09",
+                "SNOMED-CT Code": "25374005",
+                "Diagnosis Date": "2024-06-20",
+                "Onset Date": "2024-06-18",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Electrolyte imbalance",
+                "ICD-10 Code": "E87.8",
+                "SNOMED-CT Code": "237840007",
+                "Diagnosis Date": "2024-06-20",
+                "Onset Date": "2024-06-20",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Type 2 diabetes mellitus without complications",
+                "ICD-10 Code": "E11.9",
+                "SNOMED-CT Code": "44054006",
+                "Diagnosis Date": "2021-06-15",
+                "Onset Date": "2021-06-15",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Essential (primary) hypertension",
+                "ICD-10 Code": "I10",
+                "SNOMED-CT Code": "59621000",
+                "Diagnosis Date": "2019-03-10",
+                "Onset Date": "2019-03-10",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Obesity",
+                "ICD-10 Code": "E66.9",
+                "SNOMED-CT Code": "414916001",
+                "Diagnosis Date": "2020-09-05",
+                "Onset Date": "2020-09-05",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Intravenous fluid administration",
+                "Procedure Description": "Therapeutic, prophylactic, or diagnostic injection (specify substance or drug); intravenous push, single or initial substance/drug",
+                "CPT Code": "96374",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-20",
+                "Details": "Administration of 1L lactated Ringer's solution IV bolus for initial fluid resuscitation",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Continuous intravenous infusion",
+                "Procedure Description": "Intravenous infusion, for therapy, prophylaxis, or diagnosis (specify substance or drug); initial, up to 1 hour",
+                "CPT Code": "96365",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-20",
+                "Details": "Initiation of maintenance IV fluids for ongoing hydration",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Stool culture",
+                "Procedure Description": "Culture, bacterial; stool, with isolation and preliminary examination (e.g., KIA, LIA), Salmonella and Shigella species",
+                "CPT Code": "87045",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-20",
+                "Details": "Stool culture to confirm Salmonella infection",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Electrolyte panel",
+                "Procedure Description": "Electrolyte panel This panel must include the following: Carbon dioxide (bicarbonate) (82374) Chloride (82435) Potassium (84132) Sodium (84295)",
+                "CPT Code": "80051",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-20",
+                "Details": "Assessment of electrolyte balance and hydration status",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Comprehensive metabolic panel",
+                "Procedure Description": "Comprehensive metabolic panel This panel must include the following: Albumin (82040) Bilirubin, total (82247) Calcium, total (82310) Carbon dioxide (bicarbonate) (82374) Chloride (82435) Creatinine (82565) Glucose (82947) Phosphatase, alkaline (84075) Potassium (84132) Protein, total (84155) Sodium (84295) Transferase, alanine amino (ALT) (SGPT) (84460) Transferase, aspartate amino (AST) (SGOT) (84450) Urea nitrogen (BUN) (84520)",
+                "CPT Code": "80053",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-20",
+                "Details": "Comprehensive assessment of metabolic status and organ function",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Antibiotic administration",
+                "Procedure Description": "Therapeutic, prophylactic, or diagnostic injection (specify substance or drug); intravenous push, each additional sequential intravenous push of a new substance/drug",
+                "CPT Code": "96375",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-06-20",
+                "Details": "Administration of Ciprofloxacin 500mg IV q12h for treatment of Salmonella infection",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Antiemetic administration",
+                "Procedure Description": "Therapeutic, prophylactic, or diagnostic injection (specify substance or drug); intravenous push, each additional sequential intravenous push of a new substance/drug",
+                "CPT Code": "96375",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-06-20",
+                "Details": "Administration of Ondansetron 4mg IV q6h as needed for nausea and vomiting",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Nutritional consultation",
+                "Procedure Description": "Medical nutrition therapy; initial assessment and intervention, individual, face-to-face with the patient, each 15 minutes",
+                "CPT Code": "97802",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-22",
+                "Details": "Nutritional consultation for dietary recommendations during recovery from salmonellosis",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Infectious disease consultation",
+                "Procedure Description": "Inpatient consultation for a new or established patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity",
+                "CPT Code": "99253",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-21",
+                "Details": "Infectious disease specialist consultation for management of salmonellosis",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Ciprofloxacin",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Treatment of Salmonella infection",
+                "Administration Mode": "Intravenous",
+                "Dose": "500 mg every 12 hours",
+                "Duration": "5 days",
+                "Start Date": "2024-06-20",
+                "Response": "Positive",
+                "Response Details": "Reduction in diarrhea frequency and abdominal pain after 48 hours of treatment",
+                "Observation Date": "2024-06-22"
+            },
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Control of nausea and vomiting",
+                "Administration Mode": "Intravenous",
+                "Dose": "4 mg every 6 hours as needed",
+                "Duration": "As needed during hospitalization",
+                "Start Date": "2024-06-20",
+                "Response": "Positive",
+                "Response Details": "Significant reduction in nausea and cessation of vomiting within 24 hours of initiation",
+                "Observation Date": "2024-06-21"
+            },
+            {
+                "Medication Name": "Lactated Ringer's Solution",
+                "Medication Type": "Intravenous Fluid",
+                "Purpose": "Rehydration and electrolyte replacement",
+                "Administration Mode": "Intravenous",
+                "Dose": "1L bolus, then 125 mL/hour",
+                "Duration": "72 hours",
+                "Start Date": "2024-06-20",
+                "Response": "Positive",
+                "Response Details": "Improvement in hydration status, normalization of blood pressure and heart rate",
+                "Observation Date": "2024-06-23"
+            },
+            {
+                "Medication Name": "Metformin",
+                "Medication Type": "Oral hypoglycemic",
+                "Purpose": "Management of Type 2 Diabetes",
+                "Administration Mode": "Oral",
+                "Dose": "1000 mg twice daily",
+                "Duration": "Ongoing",
+                "Start Date": "2021-06-15",
+                "Response": "Positive",
+                "Response Details": "Adequate glycemic control maintained during hospitalization",
+                "Observation Date": "2024-06-23"
+            },
+            {
+                "Medication Name": "Lisinopril",
+                "Medication Type": "ACE Inhibitor",
+                "Purpose": "Management of Hypertension",
+                "Administration Mode": "Oral",
+                "Dose": "10 mg once daily",
+                "Duration": "Ongoing",
+                "Start Date": "2019-03-10",
+                "Response": "Positive",
+                "Response Details": "Blood pressure remained within normal limits throughout hospitalization",
+                "Observation Date": "2024-06-23"
+            },
+            {
+                "Medication Name": "Potassium Chloride",
+                "Medication Type": "Electrolyte Supplement",
+                "Purpose": "Correction of hypokalemia",
+                "Administration Mode": "Intravenous",
+                "Dose": "20 mEq in 100 mL Normal Saline over 2 hours",
+                "Duration": "One-time dose",
+                "Start Date": "2024-06-21",
+                "Response": "Positive",
+                "Response Details": "Serum potassium levels normalized following administration",
+                "Observation Date": "2024-06-22"
+            },
+            {
+                "Medication Name": "Probiotic Supplement",
+                "Medication Type": "Dietary Supplement",
+                "Purpose": "Restoration of gut flora",
+                "Administration Mode": "Oral",
+                "Dose": "1 capsule twice daily",
+                "Duration": "14 days",
+                "Start Date": "2024-06-22",
+                "Response": "Positive",
+                "Response Details": "Gradual improvement in bowel function and stool consistency",
+                "Observation Date": "2024-06-23"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic/Antipyretic",
+                "Purpose": "Management of fever and headache",
+                "Administration Mode": "Oral",
+                "Dose": "650 mg every 6 hours as needed",
+                "Duration": "As needed during hospitalization",
+                "Start Date": "2024-06-20",
+                "Response": "Positive",
+                "Response Details": "Effective control of fever and alleviation of headache",
+                "Observation Date": "2024-06-22"
+            },
+            {
+                "Medication Name": "Loperamide",
+                "Medication Type": "Antidiarrheal",
+                "Purpose": "Control of diarrhea",
+                "Administration Mode": "Oral",
+                "Dose": "4 mg initially, then 2 mg after each loose stool",
+                "Duration": "As needed, not to exceed 16 mg/day",
+                "Start Date": "2024-06-22",
+                "Response": "Positive",
+                "Response Details": "Gradual reduction in frequency of diarrhea",
+                "Observation Date": "2024-06-23"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 45-year-old African American woman presented with severe diarrhea, vomiting, and abdominal pain for 3 days following a family barbecue. She was admitted for moderate dehydration due to suspected salmonellosis. Stool culture confirmed Salmonella infection. Treatment included IV fluids, ciprofloxacin, and ondansetron. The patient's condition improved with hydration and antibiotic therapy. She was discharged after 3 days with instructions for follow-up and food safety education."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Tamara851 Hawkins723",
+        "Report_Header_Age": "45",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-06-24"
+    }
+}

@@ -1,0 +1,648 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "White",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "38",
+        "Date of Birth": "1985-09-15",
+        "Location": "Bangor",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Whitcomb743, Melody652",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed full-time",
+        "Gender Identity": "Female",
+        "Disability Status": "No disability",
+        "Education Level": "Bachelor's degree",
+        "Marital Status": "Married",
+        "Smoking Status": "Former smoker",
+        "BMI": "24.8",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Private insurance",
+        "Refugee Status": "Not a refugee",
+        "Correctional Facility Status": "Not in correctional facility",
+        "Lose Housing Worry": "Not worried at all",
+        "People Living at Address": "3",
+        "Housing Status": "Rent apartment",
+        "Stress Level": "Somewhat stressed"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1742 Evergreen Terrace, Bangor, ME 04401",
+        "Patient Email": "melody.whitcomb@mailprovider.com",
+        "Patient Phone": "207-555-3918"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Marketing Manager",
+        "Current Industry": "Retail",
+        "Usual Occupation": "Marketing Manager",
+        "Usual Industry": "Retail",
+        "Usual Employment Date Range": "Start: 2012-03-15 to current",
+        "Current Job Title": "Senior Marketing Manager",
+        "Current Employer": "Maine Outdoor Gear, 123 Pine Street, Bangor, ME 04401, 207-555-7890",
+        "Current Employment Start Date": "2012-03-15",
+        "Annual Income": "$78,000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Boston, Massachusetts",
+                "Purpose": "Business",
+                "Start Date": "2024-05-15",
+                "End Date": "2024-05-17",
+                "Accommodations": "Marriott Hotel",
+                "Mode of Travel": "Commercial flight",
+                "Activities": "Attended marketing conference, networked with industry peers, visited local restaurants"
+            },
+            {
+                "Location": "Portland, Maine",
+                "Purpose": "Family",
+                "Start Date": "2024-03-22",
+                "End Date": "2024-03-24",
+                "Accommodations": "Family member's home",
+                "Mode of Travel": "Personal car",
+                "Activities": "Visited sister and her family, attended nephew's birthday party, went to local park"
+            },
+            {
+                "Location": "Acadia National Park, Maine",
+                "Purpose": "Vacation",
+                "Start Date": "2023-08-10",
+                "End Date": "2023-08-14",
+                "Accommodations": "Camping",
+                "Mode of Travel": "Personal car",
+                "Activities": "Hiking, wildlife watching, beach visits, outdoor cooking"
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient reports no significant travel history relevant to chronic hepatitis B infection. Recent trips include a short business trip to Boston (May 15-17, 2024), family visit to Portland, Maine (March 22-24, 2024), and a camping vacation in Acadia National Park (August 10-14, 2023). All travel was within the United States and does not indicate exposure to high-risk areas for hepatitis B transmission. Patient denies any international travel to regions with high hepatitis B prevalence. No reported activities or exposures during these trips that would increase risk of hepatitis B transmission or exacerbation."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Fatigue and mild abdominal discomfort",
+        "Patient ID": "7493215",
+        "Encounter Class": "outpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "20240622001",
+        "Start DateTime": "2024-06-22 09:30",
+        "End DateTime": "2024-06-22 10:45",
+        "Discharge Disposition": "Discharged to home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient visit",
+                "SNOMED-CT Code": "308335008",
+                "Description": "Patient encounter procedure",
+                "Start Date": "2024-06-22",
+                "End Date": "2024-06-22"
+            },
+            {
+                "Encounter Type": "Hepatology consultation",
+                "SNOMED-CT Code": "445450000",
+                "Description": "Consultation by hepatologist",
+                "Start Date": "2024-06-22",
+                "End Date": "2024-06-22"
+            },
+            {
+                "Encounter Type": "Follow-up visit",
+                "SNOMED-CT Code": "390906007",
+                "Description": "Follow-up encounter",
+                "Start Date": "2024-06-22",
+                "End Date": "2024-06-22"
+            },
+            {
+                "Encounter Type": "Chronic disease management",
+                "SNOMED-CT Code": "385641008",
+                "Description": "Chronic disease management",
+                "Start Date": "2024-06-22",
+                "End Date": "2024-06-22"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Clark789, David876, MD",
+        "Practitioner Phone": "207-555-3672",
+        "Practitioner Fax": "207-555-3673",
+        "Practitioner Email": "d.clark@bangorhepaclinic.org",
+        "Practitioner Office Name": "Bangor Hepatology Clinic",
+        "Practitioner ID": "6739285104",
+        "Practitioner Address": "456 Pine Tree Lane, Suite 302, Bangor, ME 04401"
+    },
+    "Facility_Information": {
+        "Facility Name": "Bangor Hepatology Clinic",
+        "Facility Type": "Outpatient clinic",
+        "Facility Phone": "207-555-3670",
+        "Facility Fax": "207-555-3671",
+        "Facility Address": "456 Pine Tree Lane, Suite 300, Bangor, ME 04401"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "Not pregnant",
+        "Pregnancy Status Determination Method": "Patient self-report",
+        "Pregnancy Status Recorded Date": "2024-06-22",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "2024-05-18",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-05-30",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal discomfort",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-06-15",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Decreased appetite",
+                "SNOMED-CT": "79890006",
+                "Onset Date": "2024-06-10",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-06-18",
+                "Severity": "Mild",
+                "Status": "Intermittent"
+            },
+            {
+                "Symptom": "Joint pain",
+                "SNOMED-CT": "57676002",
+                "Onset Date": "2024-06-05",
+                "Severity": "Mild",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "37.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "C",
+                "Measurement Time": "2024-06-22 09:35:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "72",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/min",
+                "Measurement Time": "2024-06-22 09:35:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "16",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/min",
+                "Measurement Time": "2024-06-22 09:35:00"
+            },
+            {
+                "Vital Sign": "Blood pressure",
+                "Value": "118/76",
+                "SNOMED-CT": "75367002",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-22 09:35:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "98",
+                "SNOMED-CT": "103228002",
+                "Unit": "%",
+                "Measurement Time": "2024-06-22 09:35:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "68.5",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-06-22 09:40:00"
+            },
+            {
+                "Vital Sign": "Body height",
+                "Value": "166",
+                "SNOMED-CT": "248334005",
+                "Unit": "cm",
+                "Measurement Time": "2024-06-22 09:40:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Follow-up for chronic hepatitis B and evaluation of mild fatigue and abdominal discomfort",
+        "Past Medical History": "Patient was diagnosed with chronic hepatitis B in 2018 following routine screening. Liver biopsy in 2019 showed mild fibrosis (F1 on METAVIR scale). No history of hepatic decompensation. Past medical history also includes mild depression (diagnosed 2020, well-controlled with sertraline) and seasonal allergies. Surgical history includes appendectomy (2005) and wisdom teeth extraction (2003). Patient quit smoking in 2015 after a 5-pack-year history. No history of alcohol abuse or intravenous drug use. Family history notable for maternal aunt with breast cancer.",
+        "Review of Systems": "General: Reports mild fatigue, denies fever, chills, or significant weight changes. HEENT: No visual changes, hearing loss, sinus problems, or oral lesions. Cardiovascular: Denies chest pain, palpitations, or edema. Respiratory: No shortness of breath, cough, or wheezing. Gastrointestinal: Reports mild, intermittent right upper quadrant discomfort, occasional nausea, and slightly decreased appetite. Denies vomiting, changes in bowel habits, or blood in stool. Genitourinary: No dysuria, urgency, or changes in urine color. Musculoskeletal: Mild joint pain, particularly in knees and hands. No muscle weakness. Skin: No rashes, jaundice, or pruritus. Neurological: No headaches, dizziness, or changes in sensation. Psychiatric: Mood stable on current medication, no sleep disturbances.",
+        "History of Present Illness": "Ms. Whitcomb is a 38-year-old female with a history of chronic hepatitis B, diagnosed in 2018 during routine screening. She has been maintained on entecavir 0.5 mg daily since diagnosis with good virologic suppression. Today, she presents for her scheduled 6-month follow-up and reports new onset of mild fatigue over the past 3-4 weeks. She also notes intermittent right upper quadrant discomfort for the past week, described as a dull ache, rated 2/10 in severity. Patient reports mild decrease in appetite but denies nausea, vomiting, or changes in bowel habits. She denies fever, night sweats, or unintentional weight loss. No recent travel or changes in medications. She continues to abstain from alcohol and has not used any new supplements or over-the-counter medications. Patient has been adherent to her antiviral medication regimen and hasn't missed any doses.",
+        "Plan of Treatment": "1. Continue entecavir 0.5 mg daily for chronic hepatitis B. 2. Order comprehensive metabolic panel, complete blood count, and hepatitis B viral load to assess current liver function and viral suppression. 3. Schedule right upper quadrant ultrasound to evaluate for any changes in liver appearance or development of focal lesions. 4. Recommend avoidance of alcohol and hepatotoxic medications. 5. Encourage a balanced diet rich in fruits, vegetables, and whole grains. Suggest moderate exercise as tolerated to help with fatigue. 6. Provide patient education on signs and symptoms that should prompt earlier follow-up (e.g., worsening abdominal pain, jaundice, severe fatigue). 7. Schedule follow-up appointment in 3 months to review test results and reassess symptoms. 8. Consider referral to rheumatology if joint pain persists or worsens, to evaluate for possible extrahepatic manifestations of chronic HBV or other underlying conditions. 9. Continue to monitor for any signs of hepatocellular carcinoma as per guidelines for chronic HBV patients. 10. Reinforce importance of medication adherence and regular follow-ups for optimal management of chronic hepatitis B.",
+        "Vaccine Credential Patient Assertion": "Patient reports receiving hepatitis A vaccine series in 2018 after chronic hepatitis B diagnosis. Unsure about hepatitis B vaccination status in childhood. Has received annual influenza vaccines, most recent in October 2023. COVID-19 vaccination series completed in 2021 with booster in 2022. Tetanus-diphtheria-pertussis (Tdap) booster received in 2019. Patient agrees to review and update any missing vaccinations as recommended."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "48748-7",
+                "LOINC Order Code Description": "Hepatitis B virus surface Ag",
+                "Laboratory Result": "Negative",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-06-22 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD2024062201"
+            },
+            {
+                "LOINC Laboratory Order Code": "5196-1",
+                "LOINC Order Code Description": "Hepatitis B virus core Ab IgM",
+                "Laboratory Result": "Negative",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-06-22 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD2024062202"
+            },
+            {
+                "LOINC Laboratory Order Code": "10900-9",
+                "LOINC Order Code Description": "Hepatitis B virus DNA",
+                "Laboratory Result": "< 10 IU/mL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-06-22 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD2024062203"
+            },
+            {
+                "LOINC Laboratory Order Code": "1742-6",
+                "LOINC Order Code Description": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "35 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-06-22 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD2024062204"
+            },
+            {
+                "LOINC Laboratory Order Code": "1920-8",
+                "LOINC Order Code Description": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "32 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654325",
+                "Specimen Collection Date": "2024-06-22 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD2024062205"
+            },
+            {
+                "LOINC Laboratory Order Code": "1975-2",
+                "LOINC Order Code Description": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "0.8 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654326",
+                "Specimen Collection Date": "2024-06-22 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD2024062206"
+            },
+            {
+                "LOINC Laboratory Order Code": "2085-9",
+                "LOINC Order Code Description": "Cholesterol [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "185 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654327",
+                "Specimen Collection Date": "2024-06-22 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD2024062207"
+            },
+            {
+                "LOINC Laboratory Order Code": "2160-0",
+                "LOINC Order Code Description": "Creatinine [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "0.8 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654328",
+                "Specimen Collection Date": "2024-06-22 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD2024062208"
+            },
+            {
+                "LOINC Laboratory Order Code": "4548-4",
+                "LOINC Order Code Description": "Hemoglobin A1c/Hemoglobin.total in Blood",
+                "Laboratory Result": "5.4 %",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Whole blood",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654329",
+                "Specimen Collection Date": "2024-06-22 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD2024062209"
+            },
+            {
+                "LOINC Laboratory Order Code": "6690-2",
+                "LOINC Order Code Description": "Leukocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "6.8 x10^3/uL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Whole blood",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654330",
+                "Specimen Collection Date": "2024-06-22 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD2024062210"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Chronic viral hepatitis B without delta-agent",
+                "ICD-10 Code": "B18.1",
+                "SNOMED-CT Code": "66071002",
+                "Diagnosis Date": "2018-09-15",
+                "Onset Date": "2018-09-15",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Mild liver fibrosis",
+                "ICD-10 Code": "K74.0",
+                "SNOMED-CT Code": "445505000",
+                "Diagnosis Date": "2019-03-20",
+                "Onset Date": "2019-03-20",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Fatigue",
+                "ICD-10 Code": "R53.83",
+                "SNOMED-CT Code": "84229001",
+                "Diagnosis Date": "2024-06-22",
+                "Onset Date": "2024-05-30",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Right upper quadrant abdominal pain",
+                "ICD-10 Code": "R10.11",
+                "SNOMED-CT Code": "21522001",
+                "Diagnosis Date": "2024-06-22",
+                "Onset Date": "2024-06-15",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Mild depression",
+                "ICD-10 Code": "F32.0",
+                "SNOMED-CT Code": "310495003",
+                "Diagnosis Date": "2020-07-10",
+                "Onset Date": "2020-06-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Seasonal allergic rhinitis",
+                "ICD-10 Code": "J30.2",
+                "SNOMED-CT Code": "367498001",
+                "Diagnosis Date": "2015-05-12",
+                "Onset Date": "2015-04-15",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic Imaging",
+                "Procedure Description": "Ultrasound, abdominal, real time with image documentation; complete",
+                "CPT Code": "76700",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-05",
+                "Details": "Right upper quadrant ultrasound to evaluate liver appearance and screen for focal lesions",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Laboratory",
+                "Procedure Description": "Hepatic function panel",
+                "CPT Code": "80076",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-22",
+                "Details": "Comprehensive metabolic panel to assess liver function and overall health status",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Laboratory",
+                "Procedure Description": "Hepatitis B virus DNA, quantitative",
+                "CPT Code": "87517",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-22",
+                "Details": "Viral load testing to monitor effectiveness of antiviral therapy",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Laboratory",
+                "Procedure Description": "Complete CBC w/auto diff WBC",
+                "CPT Code": "85025",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-22",
+                "Details": "Complete blood count to assess overall health and screen for potential complications",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic Imaging",
+                "Procedure Description": "CT abdomen and pelvis with contrast",
+                "CPT Code": "74177",
+                "Status": "Planned",
+                "Procedure Date": "2024-09-15",
+                "Details": "Scheduled follow-up imaging to screen for hepatocellular carcinoma",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic Procedure",
+                "Procedure Description": "Liver elastography",
+                "CPT Code": "91200",
+                "Status": "Planned",
+                "Procedure Date": "2024-12-10",
+                "Details": "Non-invasive assessment of liver fibrosis progression",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic Procedure",
+                "Procedure Description": "Hepatitis B vaccine administration",
+                "CPT Code": "90746",
+                "Status": "Completed",
+                "Procedure Date": "2018-10-05",
+                "Details": "Administration of Hepatitis B vaccine to patient's close contacts for prevention",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic Procedure",
+                "Procedure Description": "Liver biopsy, percutaneous",
+                "CPT Code": "47000",
+                "Status": "Completed",
+                "Procedure Date": "2019-03-20",
+                "Details": "Initial liver biopsy for staging of fibrosis at time of diagnosis",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Entecavir",
+                "Medication Type": "Antiviral",
+                "Purpose": "Treatment of chronic hepatitis B",
+                "Administration Mode": "Oral",
+                "Dose": "0.5 mg",
+                "Duration": "Daily",
+                "Start Date": "2018-09-20",
+                "Response": "Good",
+                "Response Details": "Effective viral suppression, well-tolerated",
+                "Observation Date": "2024-06-22"
+            },
+            {
+                "Medication Name": "Sertraline",
+                "Medication Type": "Antidepressant",
+                "Purpose": "Treatment of mild depression",
+                "Administration Mode": "Oral",
+                "Dose": "50 mg",
+                "Duration": "Daily",
+                "Start Date": "2020-07-15",
+                "Response": "Good",
+                "Response Details": "Improved mood, no significant side effects",
+                "Observation Date": "2024-06-22"
+            },
+            {
+                "Medication Name": "Cetirizine",
+                "Medication Type": "Antihistamine",
+                "Purpose": "Management of seasonal allergies",
+                "Administration Mode": "Oral",
+                "Dose": "10 mg",
+                "Duration": "Daily as needed during allergy season",
+                "Start Date": "2015-05-15",
+                "Response": "Good",
+                "Response Details": "Effective relief of allergy symptoms",
+                "Observation Date": "2024-06-22"
+            },
+            {
+                "Medication Name": "Vitamin D3",
+                "Medication Type": "Supplement",
+                "Purpose": "Maintenance of bone health",
+                "Administration Mode": "Oral",
+                "Dose": "2000 IU",
+                "Duration": "Daily",
+                "Start Date": "2022-01-10",
+                "Response": "Good",
+                "Response Details": "Improved vitamin D levels",
+                "Observation Date": "2024-06-22"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic",
+                "Purpose": "As needed for pain or fever",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg",
+                "Duration": "Every 6 hours as needed, not to exceed 4000 mg/day",
+                "Start Date": "2024-06-15",
+                "Response": "Moderate",
+                "Response Details": "Provides some relief for joint pain",
+                "Observation Date": "2024-06-22"
+            },
+            {
+                "Medication Name": "Ursodeoxycholic acid",
+                "Medication Type": "Bile acid",
+                "Purpose": "Liver support",
+                "Administration Mode": "Oral",
+                "Dose": "300 mg",
+                "Duration": "Twice daily",
+                "Start Date": "2024-06-22",
+                "Response": "Pending",
+                "Response Details": "Recently prescribed, efficacy to be assessed",
+                "Observation Date": "2024-06-22"
+            },
+            {
+                "Medication Name": "Multivitamin",
+                "Medication Type": "Supplement",
+                "Purpose": "General health maintenance",
+                "Administration Mode": "Oral",
+                "Dose": "1 tablet",
+                "Duration": "Daily",
+                "Start Date": "2023-01-01",
+                "Response": "Good",
+                "Response Details": "Well-tolerated, supports overall health",
+                "Observation Date": "2024-06-22"
+            },
+            {
+                "Medication Name": "Omeprazole",
+                "Medication Type": "Proton pump inhibitor",
+                "Purpose": "Management of occasional heartburn",
+                "Administration Mode": "Oral",
+                "Dose": "20 mg",
+                "Duration": "As needed, not to exceed 14 days",
+                "Start Date": "2024-05-30",
+                "Response": "Good",
+                "Response Details": "Effective relief of heartburn symptoms",
+                "Observation Date": "2024-06-22"
+            },
+            {
+                "Medication Name": "Milk thistle",
+                "Medication Type": "Herbal supplement",
+                "Purpose": "Liver support",
+                "Administration Mode": "Oral",
+                "Dose": "150 mg",
+                "Duration": "Daily",
+                "Start Date": "2024-01-15",
+                "Response": "Uncertain",
+                "Response Details": "Patient reports feeling generally well, but specific benefits unclear",
+                "Observation Date": "2024-06-22"
+            },
+            {
+                "Medication Name": "Tenofovir alafenamide",
+                "Medication Type": "Antiviral",
+                "Purpose": "Alternative treatment for chronic hepatitis B",
+                "Administration Mode": "Oral",
+                "Dose": "25 mg",
+                "Duration": "Daily",
+                "Start Date": "2024-06-22",
+                "Response": "Pending",
+                "Response Details": "Newly prescribed as potential alternative to entecavir, efficacy to be assessed",
+                "Observation Date": "2024-06-22"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. The report details a 38-year-old white female diagnosed with chronic hepatitis B in 2018, with mild fibrosis confirmed by biopsy in 2019. She has been on entecavir since diagnosis with good viral suppression. The patient presents for a follow-up with new symptoms of mild fatigue and abdominal discomfort. Lab results show controlled viral load and stable liver function. The treatment plan includes continued antiviral therapy, additional imaging, and close monitoring. The prognosis is good with ongoing antiviral therapy and regular follow-ups."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Melody652 Whitcomb743",
+        "Report_Header_Age": "38",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-06-23"
+    }
+}

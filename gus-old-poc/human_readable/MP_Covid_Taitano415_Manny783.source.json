@@ -1,0 +1,533 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "Pacific Islander",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "18",
+        "Date of Birth": "2006-06-12",
+        "Location": "Susupe",
+        "Country of Residence": "Northern Mariana Islands",
+        "Country of Nationality": "United States",
+        "Preferred Language": "Carolinian",
+        "Tribal Affiliation": "Carolinian"
+    },
+    "Patient Name": "Taitano415, Manny783",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Student",
+        "Gender Identity": "Male",
+        "Disability Status": "No disability",
+        "Education Level": "Some high school",
+        "Marital Status": "Never married",
+        "Smoking Status": "Never smoker",
+        "BMI": "22.1",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Medicaid",
+        "Refugee Status": "Not a refugee",
+        "Correctional Facility Status": "Not in correctional facility",
+        "Lose Housing Worry": "Not worried at all",
+        "People Living at Address": "6",
+        "Housing Status": "Renting",
+        "Stress Level": "Somewhat stressed"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1234 Latte Stone Ln., Susupe, MP 96950",
+        "Patient Email": "manny.taitano@islandmail.mp",
+        "Patient Phone": "670-555-8921"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Student",
+        "Current Industry": "Education",
+        "Usual Occupation": "Student",
+        "Usual Industry": "Education",
+        "Usual Employment Date Range": "Start: 2021-09-01 to current",
+        "Current Job Title": "High School Student",
+        "Current Employer": "Marianas High School, P.O. Box 506437, Saipan, MP 96950, 670-322-4595",
+        "Current Employment Start Date": "2021-09-01",
+        "Annual Income": "$0"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Saipan, Northern Mariana Islands",
+                "Purpose": "School",
+                "Start Date": "2024-06-10",
+                "End Date": "2024-06-11",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Public bus",
+                "Activities": "Attended high school classes, participated in after-school study group at the local library"
+            },
+            {
+                "Location": "Garapan, Saipan, Northern Mariana Islands",
+                "Purpose": "Social events",
+                "Start Date": "2024-06-08",
+                "End Date": "2024-06-08",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Friend's car",
+                "Activities": "Attended a crowded beach party with classmates, shared food and drinks"
+            },
+            {
+                "Location": "Chalan Kanoa, Saipan, Northern Mariana Islands",
+                "Purpose": "Family",
+                "Start Date": "2024-06-05",
+                "End Date": "2024-06-05",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Family car",
+                "Activities": "Visited grandmother's house for a large family gathering, shared meals indoors"
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient reports recent travel within Saipan, Northern Mariana Islands. On June 8, 2024, attended a crowded beach party in Garapan, sharing food and drinks with others. On June 5, 2024, visited grandmother's house in Chalan Kanoa for a large indoor family gathering with shared meals. Regularly travels to school in Saipan via public bus, most recently on June 10-11, 2024. These activities present potential COVID-19 exposure risks due to close contact with others in various settings, including crowded outdoor events, indoor family gatherings, and public transportation."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Cough, fever, and body aches",
+        "Patient ID": "3847291",
+        "Encounter Class": "outpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "98765432100",
+        "Start DateTime": "2024-06-11 14:30",
+        "End DateTime": "2024-06-11 15:45",
+        "Discharge Disposition": "Discharged to home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient visit",
+                "SNOMED-CT Code": "308335008",
+                "Description": "Patient encounter procedure",
+                "Start Date": "2024-06-11",
+                "End Date": "2024-06-11"
+            },
+            {
+                "Encounter Type": "Initial evaluation",
+                "SNOMED-CT Code": "185349003",
+                "Description": "Encounter for 'check-up'",
+                "Start Date": "2024-06-11",
+                "End Date": "2024-06-11"
+            },
+            {
+                "Encounter Type": "Infectious disease consultation",
+                "SNOMED-CT Code": "185389009",
+                "Description": "Encounter for infectious disease consultation",
+                "Start Date": "2024-06-11",
+                "End Date": "2024-06-11"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Mafnas212, Jose323, MD",
+        "Practitioner Phone": "670-555-3982",
+        "Practitioner Fax": "670-555-3983",
+        "Practitioner Email": "dr.mafnas@saipanhealth.mp",
+        "Practitioner Office Name": "Saipan Community Health Center",
+        "Practitioner ID": "7294581036",
+        "Practitioner Address": "789 Coral Tree Ave, Garapan, MP 96950"
+    },
+    "Facility_Information": {
+        "Facility Name": "Susupe Community Health Center",
+        "Facility Type": "Outpatient clinic",
+        "Facility Phone": "670-555-2468",
+        "Facility Fax": "670-555-2469",
+        "Facility Address": "567 Laulau Bay Drive, Susupe, MP 96950"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Cough",
+                "SNOMED-CT": "49727002",
+                "Onset Date": "2024-06-10",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fever",
+                "SNOMED-CT": "386661006",
+                "Onset Date": "2024-06-10",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Body aches",
+                "SNOMED-CT": "82991003",
+                "Onset Date": "2024-06-10",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-06-10",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Sore throat",
+                "SNOMED-CT": "267102003",
+                "Onset Date": "2024-06-11",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Headache",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2024-06-11",
+                "Severity": "Mild",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "38.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-06-11 14:35:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "92",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-06-11 14:36:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "20",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-06-11 14:37:00"
+            },
+            {
+                "Vital Sign": "Blood pressure",
+                "Value": "122/78",
+                "SNOMED-CT": "75367002",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-11 14:38:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "97",
+                "SNOMED-CT": "103228002",
+                "Unit": "%",
+                "Measurement Time": "2024-06-11 14:39:00"
+            },
+            {
+                "Vital Sign": "Body mass index",
+                "Value": "22.1",
+                "SNOMED-CT": "60621009",
+                "Unit": "kg/m2",
+                "Measurement Time": "2024-06-11 14:40:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Cough, fever, and body aches for 2 days",
+        "Past Medical History": "Patient reports no significant past medical history. No known chronic conditions, surgeries, or hospitalizations. Up-to-date on childhood vaccinations as per school requirements.",
+        "Review of Systems": "General: Reports fatigue and mild fever. Denies chills, night sweats, or unexplained weight loss.\nRespiratory: Complains of dry cough. Denies shortness of breath, wheezing, or chest pain.\nCardiovascular: Denies chest pain, palpitations, or edema.\nGastrointestinal: Reports normal appetite. Denies nausea, vomiting, diarrhea, or abdominal pain.\nMusculoskeletal: Complains of generalized body aches. Denies joint swelling or redness.\nNeurological: Reports mild headache. Denies dizziness, confusion, or loss of smell or taste.\nENT: Reports mild sore throat. Denies ear pain or nasal congestion.\nSkin: Denies rashes or unusual skin changes.\nPsychiatric: Denies anxiety or depression. Reports mild stress about missing school.\nEndocrine: Denies excessive thirst or frequent urination.\nHematologic: Denies easy bruising or bleeding.\nAllergic/Immunologic: Denies known allergies or recent changes in immune status.",
+        "History of Present Illness": "Manny Taitano, an 18-year-old Carolinian male, presents to the Susupe Community Health Center with complaints of cough, fever, and body aches that started two days ago. The patient reports that symptoms began gradually on the evening of June 10, 2024, starting with a mild dry cough and feeling unusually tired. By the next morning, he noticed he felt warm and had body aches. He took his temperature at home, which was 38.0\u00b0C (100.4\u00b0F). The cough has persisted and is described as dry and non-productive. The patient denies any shortness of breath or chest pain. He reports developing a mild sore throat and headache today (June 11). The patient has been taking over-the-counter acetaminophen for fever and body aches with some relief. He denies any recent travel outside of Saipan but mentions attending a crowded beach party in Garapan on June 8 and a large family gathering in Chalan Kanoa on June 5. The patient is concerned about the possibility of COVID-19 given his symptoms and recent social interactions. He has no known direct contact with anyone confirmed to have COVID-19 but acknowledges the possibility of exposure at recent gatherings. The patient has no underlying health conditions and was previously in good health.",
+        "Plan of Treatment": "1. COVID-19 Testing: Perform rapid antigen test for SARS-CoV-2 in office. Order RT-PCR test for confirmation, regardless of rapid test result.\n2. Symptomatic Treatment: Continue acetaminophen 500mg every 6 hours as needed for fever and body aches. Recommend increased fluid intake and rest.\n3. Isolation: Advise patient to self-isolate at home until test results are available and symptoms improve. Provide education on proper isolation procedures.\n4. Monitoring: Instruct patient to monitor symptoms closely. If shortness of breath, chest pain, or other concerning symptoms develop, seek immediate medical attention.\n5. Follow-up: Schedule telehealth follow-up in 2-3 days to review test results and symptom progression.\n6. Contact Tracing: Notify local health department for potential contact tracing if COVID-19 test is positive.\n7. Supportive Care: Recommend over-the-counter cough suppressants if needed. Encourage adequate hydration and nutrition.\n8. Education: Provide patient education on COVID-19 symptoms, transmission, and when to seek emergency care.\n9. Vaccination: If COVID-19 test is negative, discuss COVID-19 vaccination options and recommend scheduling once fully recovered from current illness.\n10. Mental Health: Assess for any anxiety or stress related to potential COVID-19 diagnosis and provide resources if needed.",
+        "Vaccine Credential Patient Assertion": "Patient reports receiving two doses of Pfizer-BioNTech COVID-19 vaccine in 2021 as part of school vaccination program. Unable to recall exact dates. No booster doses received. Patient agrees to verify vaccination dates and bring documentation to follow-up appointment."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "94500-6",
+                "LOINC Order Code Description": "SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory specimen by NAA with probe detection",
+                "Laboratory Result": "Detected",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Nasopharynx",
+                "Specimen Type": "Swab",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-06-11 15:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "2024061101"
+            },
+            {
+                "LOINC Laboratory Order Code": "94558-4",
+                "LOINC Order Code Description": "SARS-CoV-2 (COVID-19) Ag [Presence] in Respiratory specimen by Rapid immunoassay",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Nasopharynx",
+                "Specimen Type": "Swab",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-06-11 14:45:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "2024061102"
+            },
+            {
+                "LOINC Laboratory Order Code": "59408-5",
+                "LOINC Order Code Description": "Oxygen saturation in Arterial blood by Pulse oximetry",
+                "Laboratory Result": "97 %",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Finger",
+                "Specimen Type": "Pulse Oximetry",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-06-11 14:39:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024061103"
+            },
+            {
+                "LOINC Laboratory Order Code": "2339-0",
+                "LOINC Order Code Description": "Glucose [Mass/volume] in Blood",
+                "Laboratory Result": "92 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Capillary blood",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-06-11 14:50:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024061104"
+            },
+            {
+                "LOINC Laboratory Order Code": "26464-8",
+                "LOINC Order Code Description": "Leukocytes [#/volume] in Blood",
+                "Laboratory Result": "9.2 x10^3/uL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Venous blood",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654325",
+                "Specimen Collection Date": "2024-06-11 15:05:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024061105"
+            },
+            {
+                "LOINC Laboratory Order Code": "751-8",
+                "LOINC Order Code Description": "Neutrophils [#/volume] in Blood by Automated count",
+                "Laboratory Result": "6.1 x10^3/uL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Venous blood",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654326",
+                "Specimen Collection Date": "2024-06-11 15:05:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024061106"
+            },
+            {
+                "LOINC Laboratory Order Code": "2093-3",
+                "LOINC Order Code Description": "Cholesterol [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "170 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654327",
+                "Specimen Collection Date": "2024-06-11 15:05:00",
+                "Trigger": "No",
+                "Placer Order Number": "2024061107"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "COVID-19, virus identified",
+                "ICD-10 Code": "U07.1",
+                "SNOMED-CT Code": "840539006",
+                "Diagnosis Date": "2024-06-11",
+                "Onset Date": "2024-06-10",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Acute upper respiratory infection, unspecified",
+                "ICD-10 Code": "J06.9",
+                "SNOMED-CT Code": "54150009",
+                "Diagnosis Date": "2024-06-11",
+                "Onset Date": "2024-06-10",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Fever, unspecified",
+                "ICD-10 Code": "R50.9",
+                "SNOMED-CT Code": "386661006",
+                "Diagnosis Date": "2024-06-11",
+                "Onset Date": "2024-06-10",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Myalgia",
+                "ICD-10 Code": "M79.1",
+                "SNOMED-CT Code": "68962001",
+                "Diagnosis Date": "2024-06-11",
+                "Onset Date": "2024-06-10",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Fatigue",
+                "ICD-10 Code": "R53.83",
+                "SNOMED-CT Code": "84229001",
+                "Diagnosis Date": "2024-06-11",
+                "Onset Date": "2024-06-10",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Infectious agent detection by nucleic acid (DNA or RNA); severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (Coronavirus disease [COVID-19]), amplified probe technique",
+                "CPT Code": "87635",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-11",
+                "Details": "RT-PCR test for SARS-CoV-2 performed to confirm COVID-19 diagnosis",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], fluorescence immunoassay [FIA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative; severe acute respiratory syndrome coronavirus (eg, SARS-CoV, SARS-CoV-2 [COVID-19])",
+                "CPT Code": "87426",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-11",
+                "Details": "Rapid antigen test for SARS-CoV-2 performed for initial screening",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Pulse oximetry for home use, per 30 days",
+                "CPT Code": "94760",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-12",
+                "Details": "Home pulse oximetry monitoring recommended for patient to track oxygen saturation levels",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Therapeutic, prophylactic, or diagnostic injection (specify substance or drug); subcutaneous or intramuscular",
+                "CPT Code": "96372",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-18",
+                "Details": "Planned follow-up visit for potential administration of monoclonal antibody treatment if symptoms worsen",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Electrocardiogram, routine ECG with at least 12 leads; with interpretation and report",
+                "CPT Code": "93000",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-18",
+                "Details": "Planned follow-up ECG to monitor for potential cardiac complications of COVID-19",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Over-the-counter",
+                "Purpose": "Fever reduction and pain relief",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg every 6 hours as needed",
+                "Duration": "Up to 5 days",
+                "Start Date": "2024-06-10",
+                "Response": "Moderate improvement",
+                "Response Details": "Patient reports temporary reduction in fever and mild alleviation of body aches",
+                "Observation Date": "2024-06-11"
+            },
+            {
+                "Medication Name": "Dextromethorphan",
+                "Medication Type": "Over-the-counter",
+                "Purpose": "Cough suppression",
+                "Administration Mode": "Oral",
+                "Dose": "20 mg every 4 hours as needed",
+                "Duration": "Up to 7 days",
+                "Start Date": "2024-06-11",
+                "Response": "Mild improvement",
+                "Response Details": "Patient reports slight reduction in cough frequency",
+                "Observation Date": "2024-06-11"
+            },
+            {
+                "Medication Name": "Oseltamivir",
+                "Medication Type": "Prescription",
+                "Purpose": "Antiviral treatment",
+                "Administration Mode": "Oral",
+                "Dose": "75 mg twice daily",
+                "Duration": "5 days",
+                "Start Date": "2024-06-11",
+                "Response": "Pending",
+                "Response Details": "Treatment initiated, efficacy to be assessed in follow-up",
+                "Observation Date": "2024-06-11"
+            },
+            {
+                "Medication Name": "Zinc",
+                "Medication Type": "Over-the-counter supplement",
+                "Purpose": "Immune support",
+                "Administration Mode": "Oral",
+                "Dose": "50 mg daily",
+                "Duration": "14 days",
+                "Start Date": "2024-06-11",
+                "Response": "Pending",
+                "Response Details": "Supplementation started, effects to be monitored",
+                "Observation Date": "2024-06-11"
+            },
+            {
+                "Medication Name": "Vitamin C",
+                "Medication Type": "Over-the-counter supplement",
+                "Purpose": "Immune support",
+                "Administration Mode": "Oral",
+                "Dose": "1000 mg daily",
+                "Duration": "14 days",
+                "Start Date": "2024-06-11",
+                "Response": "Pending",
+                "Response Details": "Supplementation started, effects to be monitored",
+                "Observation Date": "2024-06-11"
+            },
+            {
+                "Medication Name": "Remdesivir",
+                "Medication Type": "Prescription",
+                "Purpose": "Antiviral treatment",
+                "Administration Mode": "Intravenous",
+                "Dose": "200 mg on day 1, followed by 100 mg daily",
+                "Duration": "5 days",
+                "Start Date": "2024-06-11",
+                "Response": "Pending",
+                "Response Details": "Treatment initiated, efficacy to be assessed in follow-up",
+                "Observation Date": "2024-06-11"
+            },
+            {
+                "Medication Name": "Dexamethasone",
+                "Medication Type": "Prescription",
+                "Purpose": "Anti-inflammatory",
+                "Administration Mode": "Oral",
+                "Dose": "6 mg once daily",
+                "Duration": "Up to 10 days",
+                "Start Date": "2024-06-11",
+                "Response": "Pending",
+                "Response Details": "Treatment initiated, efficacy to be assessed in follow-up",
+                "Observation Date": "2024-06-11"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. An 18-year-old Carolinian male presented with cough, fever, and body aches starting June 10, 2024. Recent social gatherings raised concerns about COVID-19 exposure. On June 11, he visited Susupe Community Health Center, where rapid antigen and RT-PCR tests were positive for SARS-CoV-2. Diagnosed with early-stage, symptomatic COVID-19, the patient was prescribed acetaminophen for symptom relief and oseltamivir as antiviral treatment. He was advised to self-isolate and monitor symptoms, with a telehealth follow-up scheduled in 2-3 days to assess disease progression."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Manny783 Taitano415",
+        "Report_Header_Age": "18",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-06-12"
+    }
+}

@@ -1,0 +1,396 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "White",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "30",
+        "Date of Birth": "1994-06-23",
+        "Location": "Russellville",
+        "Country of Residence": "United States of America",
+        "Country of Nationality": "United States of America",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Millsap784, Brock216",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed",
+        "Gender Identity": "Male",
+        "Disability Status": "No disability",
+        "Education Level": "Bachelor's Degree",
+        "Marital Status": "Never Married",
+        "Smoking Status": "Former smoker",
+        "BMI": "25.3",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Private health insurance through employer",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Not worried about losing housing",
+        "People Living at Address": "1",
+        "Housing Status": "Renting house/apartment/room",
+        "Stress Level": "Moderate stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "5674 Willow Creek Lane, Russellville, AR 72801",
+        "Patient Email": "brock.millsap@emailprovider.com",
+        "Patient Phone": "479-555-8216"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Accountant",
+        "Current Industry": "Accounting Services",
+        "Usual Occupation": "Accountant",
+        "Usual Industry": "Accounting Services",
+        "Usual Employment Date Range": "Start: 2018-06-01 to current",
+        "Current Job Title": "Senior Accountant",
+        "Current Employer": "Smith & Associates CPA Firm, 215 N Commerce Ave, Russellville, AR 72801, (479) 968-1040",
+        "Current Employment Start Date": "2018-06-01",
+        "Annual Income": "62000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Russellville, AR",
+                "Purpose": "Routine",
+                "Start Date": "2024-06-22",
+                "End Date": "2024-06-22",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Routine activities in hometown"
+            },
+            {
+                "Location": "Little Rock, AR",
+                "Purpose": "Business",
+                "Start Date": "2024-06-15",
+                "End Date": "2024-06-16",
+                "Accommodations": "Holiday Inn Express & Suites Little Rock-Chenal Pkwy, 10920 Kanis Rd, Little Rock, AR 72211",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Attended accounting conference"
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "The patient is a 30-year-old white male from Russellville, AR with no recent international travel. His travel history shows routine activities in his hometown on 2024-06-22. He attended an accounting conference in Little Rock, AR from 2024-06-15 to 2024-06-16, staying at the Holiday Inn Express & Suites Little Rock-Chenal Pkwy. He traveled by personal vehicle for both trips. This local travel within Arkansas may be relevant to potential exposure to Salmonella, the causative agent of the reported mild salmonellosis."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Diarrhea and abdominal cramps",
+        "Patient ID": "3018729",
+        "Encounter Class": "Outpatient",
+        "Encounter Status": "Finished",
+        "Encounter ID": "87612039875",
+        "Start DateTime": "2024-06-19 09:30",
+        "End DateTime": "2024-06-19 10:45",
+        "Discharge Disposition": "Home",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient Consultation",
+                "SNOMED-CT Code": "185463005",
+                "Description": "An encounter where the patient attends for an outpatient consultation",
+                "Start Date": "2024-06-19",
+                "End Date": "2024-06-19"
+            },
+            {
+                "Encounter Type": "Outpatient procedure",
+                "SNOMED-CT Code": "185465003",
+                "Description": "An encounter for an outpatient procedure",
+                "Start Date": "2024-06-19",
+                "End Date": "2024-06-19"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Gonzalez234, Maria678, MD",
+        "Practitioner Phone": "479-555-2468",
+        "Practitioner Fax": "479-555-1357",
+        "Practitioner Email": "maria.gonzalez@arkansasclinic.com",
+        "Practitioner Office Name": "Arkansas Clinic for Family Medicine",
+        "Practitioner ID": "7894561230",
+        "Practitioner Address": "2215 W Parkway Dr, Russellville, AR 72801"
+    },
+    "Facility_Information": {
+        "Facility Name": "Arkansas Clinic for Family Medicine",
+        "Facility Type": "Ambulatory Healthcare Facility",
+        "Facility Phone": "479-555-1234",
+        "Facility Fax": "479-555-5678",
+        "Facility Address": "2215 W Parkway Dr, Russellville, AR 72801"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Diarrhea",
+                "SNOMED-CT": "62315008",
+                "Onset Date": "2024-06-18",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal cramps",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-06-18",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-06-18",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Headache",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2024-06-19",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-06-19",
+                "Severity": "Mild",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "37.8",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-06-19 09:35:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "88",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-06-19 09:35:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "18",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-06-19 09:35:00"
+            },
+            {
+                "Vital Sign": "Blood pressure systolic",
+                "Value": "128",
+                "SNOMED-CT": "163020007",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-19 09:35:00"
+            },
+            {
+                "Vital Sign": "Blood pressure diastolic",
+                "Value": "82",
+                "SNOMED-CT": "163019004",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-19 09:35:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "98",
+                "SNOMED-CT": "59408-5",
+                "Unit": "%",
+                "Measurement Time": "2024-06-19 09:35:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Diarrhea and abdominal cramps",
+        "Past Medical History": "The patient is a 30-year-old white male with no significant past medical history. He has no chronic conditions, surgeries, or hospitalizations. His immunizations are up-to-date.",
+        "Review of Systems": "Constitutional: Denies fever, chills, or unintentional weight loss. HEENT: Denies headaches, vision changes, sore throat, or ear pain. Respiratory: Denies cough, shortness of breath, or wheezing. Cardiovascular: Denies chest pain or palpitations. Gastrointestinal: Reports diarrhea, abdominal cramps, and nausea starting 2 days ago. Genitourinary: Denies dysuria, frequency, or urgency. Musculoskeletal: Denies joint pain or swelling. Neurological: Denies dizziness, weakness, or numbness. Psychiatric: Denies depression or anxiety. Endocrine: Denies polydipsia or polyuria. Hematologic: Denies easy bruising or bleeding.",
+        "History of Present Illness": "The patient is a 30-year-old white male who presents with a 2-day history of diarrhea, abdominal cramps, and nausea. He reports having 5-6 episodes of loose, watery stools per day, accompanied by moderate cramping abdominal pain. The nausea is mild, and he has not vomited. He denies fever, chills, or blood in the stools. His last normal bowel movement was on 2024-06-17. He attended an accounting conference in Little Rock, AR from 2024-06-15 to 2024-06-16, where he ate at various restaurants. His symptoms started on 2024-06-18, the day after returning home.",
+        "Plan of Treatment": "Based on the history and presentation, the patient likely has a mild case of salmonellosis, likely acquired from contaminated food or water during his recent travel. The plan is to treat symptomatically with oral hydration and anti-diarrheal medication as needed. Stool culture and sensitivity will be obtained to confirm the diagnosis and guide antibiotic treatment if needed. The patient should avoid food preparation for others and practice good hand hygiene. He should return if symptoms worsen or do not improve in 3-4 days. With supportive care, full recovery is expected.",
+        "Vaccine Credential Patient Assertion": "The patient reports being up-to-date on routine vaccinations but has not received any travel-related or typhoid vaccines."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Order Code Description": "Stool culture",
+                "Laboratory Result": "Positive for Salmonella enterica",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Stool",
+                "Specimen Type": "Random",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2024-06-19 10:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "87654321"
+            },
+            {
+                "LOINC Order Code Description": "Comprehensive metabolic panel",
+                "Laboratory Result": "Within normal limits",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-06-19 09:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "12345678"
+            },
+            {
+                "LOINC Order Code Description": "Complete blood count (CBC)",
+                "Laboratory Result": "Within normal limits",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "135792468",
+                "Specimen Collection Date": "2024-06-19 09:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "98765432"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Salmonella enteritis",
+                "ICD-10 Code": "A02.0",
+                "SNOMED-CT Code": "16782003",
+                "Diagnosis Date": "2024-06-19",
+                "Onset Date": "2024-06-18",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Dehydration due to diarrhea",
+                "ICD-10 Code": "E86.8",
+                "SNOMED-CT Code": "59800008",
+                "Diagnosis Date": "2024-06-19",
+                "Onset Date": "2024-06-18",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Abdominal pain",
+                "ICD-10 Code": "R10.84",
+                "SNOMED-CT Code": "21522001",
+                "Diagnosis Date": "2024-06-19",
+                "Onset Date": "2024-06-18",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Nausea",
+                "ICD-10 Code": "R11.0",
+                "SNOMED-CT Code": "422587007",
+                "Diagnosis Date": "2024-06-19",
+                "Onset Date": "2024-06-18",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Stool culture",
+                "CPT Code": "87046",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-19",
+                "Details": "Stool culture to identify the causative organism in the patient's diarrheal illness.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Oral rehydration therapy",
+                "CPT Code": "96360",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-06-19",
+                "Details": "Oral rehydration with electrolyte solution to prevent and treat dehydration from diarrhea.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Medication",
+                "Procedure Description": "Loperamide prescription",
+                "CPT Code": "",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-19",
+                "Details": "Anti-diarrheal medication prescribed to control symptoms if needed.",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Loperamide",
+                "Medication Type": "Anti-diarrheal",
+                "Purpose": "Symptomatic treatment of diarrhea",
+                "Administration Mode": "Oral",
+                "Dose": "4 mg initially, then 2 mg after each loose stool, up to 8 mg/day",
+                "Duration": "As needed",
+                "Start Date": "2024-06-19",
+                "Response": "Good",
+                "Response Details": "Reduced frequency and severity of diarrhea within 24 hours",
+                "Observation Date": "2024-06-20"
+            },
+            {
+                "Medication Name": "Oral Rehydration Solution",
+                "Medication Type": "Electrolyte replenishment",
+                "Purpose": "Prevention and treatment of dehydration",
+                "Administration Mode": "Oral",
+                "Dose": "1 liter every 4-6 hours as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-06-19",
+                "Response": "Good",
+                "Response Details": "Maintained adequate hydration status",
+                "Observation Date": "2024-06-20"
+            },
+            {
+                "Medication Name": "Ciprofloxacin",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Treatment of Salmonella infection",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg twice daily",
+                "Duration": "7 days",
+                "Start Date": "2024-06-20",
+                "Response": "Excellent",
+                "Response Details": "Resolution of diarrhea and abdominal cramps within 48 hours",
+                "Observation Date": "2024-06-22"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic, antipyretic",
+                "Purpose": "Symptomatic treatment of headache and fever",
+                "Administration Mode": "Oral",
+                "Dose": "650 mg every 6 hours as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-06-19",
+                "Response": "Good",
+                "Response Details": "Provided relief of mild headache",
+                "Observation Date": "2024-06-19"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 30-year-old white male presents with 2-day history of diarrhea, cramps, and nausea after travel to Little Rock. Diagnosed with mild salmonellosis based on stool culture. Treated with oral rehydration, anti-diarrheals, and antibiotics. Symptoms resolved within 48 hours of treatment with full recovery expected."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Brock216 Millsap784",
+        "Report_Header_Age": "30",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-06-23"
+    }
+}

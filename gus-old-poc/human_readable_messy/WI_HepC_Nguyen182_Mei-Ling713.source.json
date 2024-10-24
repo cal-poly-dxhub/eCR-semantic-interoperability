@@ -1,0 +1,465 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "Asian",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "34",
+        "Date of Birth": "1989-11-23",
+        "Location": "West Allis, Wisconsin",
+        "Country of Residence": "United States of America",
+        "Country of Nationality": "United States of America",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Nguyen182, Mei-Ling713",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed",
+        "Gender Identity": "Identifies as female",
+        "Disability Status": "No disability",
+        "Education Level": "Bachelor's degree",
+        "Marital Status": "Married",
+        "Smoking Status": "Never smoker",
+        "BMI": "22.5",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Private health insurance through employer",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Not worried about losing housing",
+        "People Living at Address": "3",
+        "Housing Status": "Rented house or apartment",
+        "Stress Level": "Moderate stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1827 Maple Ridge Ln, West Allis, WI 53227",
+        "Patient Email": "mlnguyen713@email.com",
+        "Patient Phone": "414-555-2398"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Software Engineer",
+        "Current Industry": "Computer Systems Design and Related Services",
+        "Usual Occupation": "Software Engineer",
+        "Usual Industry": "Computer Systems Design and Related Services",
+        "Usual Employment Date Range": "Start: 2013-06-15 to current",
+        "Current Job Title": "Senior Software Engineer",
+        "Current Employer": "Epic Systems Corporation, 1979 Milky Way, Verona, WI 53593, (608) 271-9000",
+        "Current Employment Start Date": "2018-09-01",
+        "Annual Income": "112000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Milwaukee, Wisconsin",
+                "Purpose": "Routine",
+                "Start Date": "2024-06-20",
+                "End Date": "2024-06-20",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Visited a local restaurant for dinner with friends."
+            },
+            {
+                "Location": "Chicago, Illinois",
+                "Purpose": "Business",
+                "Start Date": "2024-05-15",
+                "End Date": "2024-05-17",
+                "Accommodations": "Hilton Chicago",
+                "Mode of Travel": "Air",
+                "Activities": "Attended a software engineering conference and networking events."
+            }
+        ]
+    },
+    "Travel_History_Narrative": "History of Travel Narrative: The patient is a 34-year-old female who lives in West Allis, Wisconsin. She traveled to Milwaukee, Wisconsin on June 20, 2024 for a routine visit where she visited a local restaurant for dinner with friends. Prior to that, she traveled to Chicago, Illinois from May 15-17, 2024 for a business trip where she attended a software engineering conference and networking events. She stayed at the Hilton Chicago hotel during this trip. Her recent travel within the Milwaukee metropolitan area may be relevant to potential exposure to acute hepatitis C virus.",
+    "Encounter_Details": {
+        "Chief Complaint": "Fatigue, nausea, and abdominal pain",
+        "Patient ID": "4589276",
+        "Encounter Class": "Ambulatory",
+        "Encounter Status": "Finished",
+        "Encounter ID": "12345678901",
+        "Start DateTime": "2024-06-25 10:30",
+        "End DateTime": "2024-06-25 12:00",
+        "Discharge Disposition": "Home",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Ambulatory",
+                "SNOMED-CT Code": "185347001",
+                "Description": "Outpatient encounter",
+                "Start Date": "2024-06-25",
+                "End Date": "2024-06-25"
+            },
+            {
+                "Encounter Type": "Outpatient Consultation",
+                "SNOMED-CT Code": "185463005",
+                "Description": "Consultation with a physician in an outpatient setting",
+                "Start Date": "2024-06-25",
+                "End Date": "2024-06-25"
+            },
+            {
+                "Encounter Type": "Diagnostic Procedure",
+                "SNOMED-CT Code": "399208008",
+                "Description": "Diagnostic procedure performed",
+                "Start Date": "2024-06-25",
+                "End Date": "2024-06-25"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Johnson336, Mark729, MD",
+        "Practitioner Phone": "414-555-7823",
+        "Practitioner Fax": "414-555-2649",
+        "Practitioner Email": "mjohnson@westallismedical.com",
+        "Practitioner Office Name": "West Allis Medical Clinic",
+        "Practitioner ID": "8765432109",
+        "Practitioner Address": "6712 W Greenfield Ave, West Allis, WI 53214"
+    },
+    "Facility_Information": {
+        "Facility Name": "West Allis Medical Clinic",
+        "Facility Type": "Ambulatory Health Care Facility",
+        "Facility Phone": "414-555-0123",
+        "Facility Fax": "414-555-9876",
+        "Facility Address": "6600 W National Ave, West Allis, WI 53214"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "Not pregnant",
+        "Pregnancy Status Determination Method": "Patient report",
+        "Pregnancy Status Recorded Date": "2024-06-25",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-06-20",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "16932000",
+                "Onset Date": "2024-06-22",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-06-23",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Loss of appetite",
+                "SNOMED-CT": "79890006",
+                "Onset Date": "2024-06-22",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Jaundice",
+                "SNOMED-CT": "51768003",
+                "Onset Date": "2024-06-24",
+                "Severity": "Mild",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "37.8",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-06-25 10:30:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "88",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-06-25 10:32:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "16",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-06-25 10:34:00"
+            },
+            {
+                "Vital Sign": "Blood pressure systolic",
+                "Value": "125",
+                "SNOMED-CT": "163020007",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-25 10:36:00"
+            },
+            {
+                "Vital Sign": "Blood pressure diastolic",
+                "Value": "78",
+                "SNOMED-CT": "163019004",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-25 10:36:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "98",
+                "SNOMED-CT": "59408-5",
+                "Unit": "percentage",
+                "Measurement Time": "2024-06-25 10:38:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Evaluation of fatigue, nausea, abdominal pain, and jaundice",
+        "Past Medical History": "The patient has no significant past medical history. She has no known chronic conditions, allergies, or previous surgeries. Her childhood immunizations are up to date. She denies any family history of liver disease or hepatitis.",
+        "Review of Systems": "Constitutional: Fatigue, loss of appetite. HEENT: Jaundice noted. Respiratory: Clear. Cardiovascular: Regular rate and rhythm. Gastrointestinal: Nausea, abdominal pain, no vomiting or diarrhea. Genitourinary: Normal. Musculoskeletal: No complaints. Neurological: Intact. Psychiatric: Mood is anxious.",
+        "History of Present Illness": "Ms. Nguyen is a 34-year-old Asian female who presents with a 5-day history of fatigue, nausea, abdominal pain, loss of appetite, and jaundice. She reports feeling generally well until 5 days ago when she began experiencing fatigue and malaise. Two days later, she developed nausea and dull, intermittent abdominal pain in the right upper quadrant. Over the past day, she has noticed yellowing of her skin and eyes. She denies fever, vomiting, diarrhea, or changes in urine or stool color. She has no recent travel outside of the Milwaukee metropolitan area. She works as a software engineer and denies any high-risk exposures or behaviors.",
+        "Plan of Treatment": "1. Order hepatitis panel to evaluate for acute viral hepatitis, including hepatitis A, B, and C. 2. Order complete metabolic panel to assess liver function. 3. If acute hepatitis C is confirmed, monitor closely for spontaneous viral clearance. Provide supportive care with hydration and anti-emetics as needed. 4. Counsel on avoiding alcohol and hepatotoxic medications during the acute phase. 5. Recommend rest and follow up in 1 week.",
+        "Vaccine Credential Patient Assertion": "The patient reports being up to date on routine vaccinations including hepatitis B, but has not received the hepatitis A vaccine."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Order Code Description": "Hepatitis C virus RNA [Presence] in Serum or Plasma",
+                "Laboratory Result": "Detected",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2024-06-25 11:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "87654321"
+            },
+            {
+                "LOINC Order Code Description": "Hepatitis C virus RNA [Units/volume] in Serum or Plasma by Probe with signal amplification",
+                "Laboratory Result": "1,250,000 IU/mL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-06-25 11:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "12345678"
+            },
+            {
+                "LOINC Order Code Description": "Hepatitis C virus genotype",
+                "Laboratory Result": "Genotype 1b",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "456789123",
+                "Specimen Collection Date": "2024-06-25 11:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "98765432"
+            },
+            {
+                "LOINC Order Code Description": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "125 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "789123456",
+                "Specimen Collection Date": "2024-06-25 11:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "65432109"
+            },
+            {
+                "LOINC Order Code Description": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "98 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "321987654",
+                "Specimen Collection Date": "2024-06-25 11:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "75849630"
+            },
+            {
+                "LOINC Order Code Description": "Total bilirubin [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "3.4 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "159753486",
+                "Specimen Collection Date": "2024-06-25 11:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "36985214"
+            },
+            {
+                "LOINC Order Code Description": "Hepatitis A virus RNA [Presence] in Serum or Plasma",
+                "Laboratory Result": "Not Detected",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "753159486",
+                "Specimen Collection Date": "2024-06-25 11:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "14725836"
+            },
+            {
+                "LOINC Order Code Description": "Hepatitis B virus surface antigen [Presence] in Serum or Plasma",
+                "Laboratory Result": "Not Detected",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "951753264",
+                "Specimen Collection Date": "2024-06-25 11:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "63258974"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Acute hepatitis C",
+                "ICD-10 Code": "B17.1",
+                "SNOMED-CT Code": "609676004",
+                "Diagnosis Date": "2024-06-25",
+                "Onset Date": "2024-06-20",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Elevated liver enzymes",
+                "ICD-10 Code": "R94.5",
+                "SNOMED-CT Code": "166643003",
+                "Diagnosis Date": "2024-06-25",
+                "Onset Date": "2024-06-25",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Jaundice",
+                "ICD-10 Code": "R17",
+                "SNOMED-CT Code": "51768003",
+                "Diagnosis Date": "2024-06-25",
+                "Onset Date": "2024-06-24",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Venipuncture",
+                "CPT Code": "36415",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-25",
+                "Details": "Blood draw for laboratory testing",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis panel",
+                "CPT Code": "86803",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-25",
+                "Details": "Laboratory testing for hepatitis A, B, and C viruses",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Comprehensive metabolic panel",
+                "CPT Code": "80053",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-25",
+                "Details": "Laboratory testing for liver function and metabolic markers",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Hydration therapy",
+                "CPT Code": "96360",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-02",
+                "Details": "Intravenous fluid administration for hydration if nausea/vomiting persists",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Anti-emetic therapy",
+                "CPT Code": "96372",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-02",
+                "Details": "Intravenous anti-nausea medication if nausea persists",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Over-the-counter",
+                "Purpose": "Symptomatic relief of fever, pain, and discomfort",
+                "Administration Mode": "Oral",
+                "Dose": "650 mg",
+                "Duration": "Every 6 hours as needed",
+                "Start Date": "2024-06-25",
+                "Response": "Fair",
+                "Response Details": "Provided mild relief of abdominal discomfort but did not alleviate fatigue or nausea.",
+                "Observation Date": "2024-06-26"
+            },
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Prescription",
+                "Purpose": "Treatment of nausea and vomiting",
+                "Administration Mode": "Oral",
+                "Dose": "8 mg",
+                "Duration": "Every 8 hours as needed",
+                "Start Date": "2024-06-27",
+                "Response": "Good",
+                "Response Details": "Effectively controlled nausea and vomiting within 1-2 hours of administration.",
+                "Observation Date": "2024-06-28"
+            },
+            {
+                "Medication Name": "Polyethylene glycol 3350",
+                "Medication Type": "Over-the-counter",
+                "Purpose": "Bowel preparation",
+                "Administration Mode": "Oral",
+                "Dose": "17 g",
+                "Duration": "Once daily for 1 day",
+                "Start Date": "2024-06-29",
+                "Response": "Good",
+                "Response Details": "Achieved adequate bowel cleansing prior to scheduled colonoscopy.",
+                "Observation Date": "2024-06-30"
+            },
+            {
+                "Medication Name": "Multivitamin",
+                "Medication Type": "Over-the-counter",
+                "Purpose": "Nutritional supplementation",
+                "Administration Mode": "Oral",
+                "Dose": "1 tablet",
+                "Duration": "Daily",
+                "Start Date": "2020-01-01",
+                "Response": "Good",
+                "Response Details": "No adverse effects noted. Routine supplementation.",
+                "Observation Date": "2024-06-25"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 34-year-old Asian female presented with acute hepatitis C, confirmed by positive HCV RNA and elevated liver enzymes. Her symptoms included fatigue, nausea, abdominal pain, and jaundice over 5 days. She was treated supportively with plans to monitor for spontaneous viral clearance."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Nguyen182, Mei-Ling713",
+        "Report_Header_Age": "34",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-07-01"
+    }
+}

@@ -1,0 +1,656 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "Asian",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "65",
+        "Date of Birth": "1959-05-22",
+        "Location": "Arlington, Virginia",
+        "Country of Residence": "United States",
+        "Country of Nationality": "Vietnam",
+        "Preferred Language": "Vietnamese",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Phan472, Quang158",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Retired",
+        "Gender Identity": "Male",
+        "Disability Status": "Disabled",
+        "Education Level": "Some college",
+        "Marital Status": "Married",
+        "Smoking Status": "Former smoker",
+        "BMI": "28.5",
+        "Active Military": "No",
+        "Discharged from Military": "Yes",
+        "Primary Insurance": "Medicare",
+        "Refugee Status": "Yes",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Somewhat worried",
+        "People Living at Address": "3",
+        "Housing Status": "Renting",
+        "Stress Level": "Quite a bit"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1742 Magnolia Terrace, Arlington, VA 22207",
+        "Patient Email": "quangphan1959@vmail.com",
+        "Patient Phone": "703-555-8214"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Retired",
+        "Current Industry": "N/A",
+        "Usual Occupation": "Restaurant Manager",
+        "Usual Industry": "Food Service",
+        "Usual Employment Date Range": "Start: 1985-03-15 to 2022-06-30",
+        "Current Job Title": "Retired",
+        "Current Employer": "N/A",
+        "Current Employment Start Date": "2022-07-01",
+        "Annual Income": "$24,000 (retirement benefits)"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Ho Chi Minh City, Vietnam",
+                "Purpose": "Family",
+                "Start Date": "2024-01-10",
+                "End Date": "2024-02-15",
+                "Accommodations": "Family home",
+                "Mode of Travel": "Commercial airline",
+                "Activities": "Visited extended family, attended Lunar New Year celebrations, visited local markets and restaurants"
+            },
+            {
+                "Location": "San Francisco, California",
+                "Purpose": "Medical",
+                "Start Date": "2023-09-05",
+                "End Date": "2023-09-08",
+                "Accommodations": "Hotel",
+                "Mode of Travel": "Commercial airline",
+                "Activities": "Consulted with hepatology specialist at UCSF Medical Center for second opinion on HCC treatment options"
+            },
+            {
+                "Location": "Eden Center, Falls Church, Virginia",
+                "Purpose": "Routine",
+                "Start Date": "2023-07-15",
+                "End Date": "2023-07-15",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Visited Vietnamese shopping center for groceries and dining, potential exposure to large community gathering"
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient has recent travel history relevant to chronic hepatitis B and HCC. In January-February 2024, he spent 5 weeks in Ho Chi Minh City, Vietnam, an area with high hepatitis B prevalence. While there, he engaged in activities that could potentially increase exposure risk, such as visiting local markets and restaurants. In September 2023, patient traveled to San Francisco for a specialist consultation regarding his HCC treatment options, indicating active management of his condition. Of note, in July 2023, patient visited Eden Center in Falls Church, VA, a large Vietnamese community gathering place. While this local travel doesn't pose direct infection risk, it suggests ongoing connection with a community that has higher hepatitis B prevalence, which may be relevant for public health considerations and community-based screening efforts."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Severe abdominal pain and jaundice",
+        "Patient ID": "8392471",
+        "Encounter Class": "inpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "20240521001",
+        "Start DateTime": "2024-05-18 14:30",
+        "End DateTime": "2024-05-21 11:45",
+        "Discharge Disposition": "Discharged to home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Emergency department visit",
+                "SNOMED-CT Code": "4525004",
+                "Description": "Emergency department patient visit",
+                "Start Date": "2024-05-18",
+                "End Date": "2024-05-18"
+            },
+            {
+                "Encounter Type": "Hospital admission",
+                "SNOMED-CT Code": "32485007",
+                "Description": "Hospital admission procedure",
+                "Start Date": "2024-05-18",
+                "End Date": "2024-05-21"
+            },
+            {
+                "Encounter Type": "Inpatient stay",
+                "SNOMED-CT Code": "183452005",
+                "Description": "Inpatient stay",
+                "Start Date": "2024-05-18",
+                "End Date": "2024-05-21"
+            },
+            {
+                "Encounter Type": "Gastroenterology consultation",
+                "SNOMED-CT Code": "84251009",
+                "Description": "Consultation by gastroenterologist",
+                "Start Date": "2024-05-19",
+                "End Date": "2024-05-19"
+            },
+            {
+                "Encounter Type": "Oncology consultation",
+                "SNOMED-CT Code": "84487005",
+                "Description": "Consultation by oncologist",
+                "Start Date": "2024-05-19",
+                "End Date": "2024-05-19"
+            },
+            {
+                "Encounter Type": "Radiotherapy planning",
+                "SNOMED-CT Code": "108290001",
+                "Description": "Radiotherapy planning procedure",
+                "Start Date": "2024-05-20",
+                "End Date": "2024-05-20"
+            },
+            {
+                "Encounter Type": "Palliative care consultation",
+                "SNOMED-CT Code": "103735009",
+                "Description": "Palliative care",
+                "Start Date": "2024-05-20",
+                "End Date": "2024-05-20"
+            },
+            {
+                "Encounter Type": "Hospital discharge",
+                "SNOMED-CT Code": "58000006",
+                "Description": "Patient discharge",
+                "Start Date": "2024-05-21",
+                "End Date": "2024-05-21"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Murphy239, Owen417, MD",
+        "Practitioner Phone": "703-555-3892",
+        "Practitioner Fax": "703-555-3893",
+        "Practitioner Email": "owen.murphy@arlingtononcology.com",
+        "Practitioner Office Name": "Arlington Oncology Associates",
+        "Practitioner ID": "7629384015",
+        "Practitioner Address": "2145 Wilson Boulevard, Suite 300, Arlington, VA 22201"
+    },
+    "Facility_Information": {
+        "Facility Name": "Virginia Hospital Center",
+        "Facility Type": "Hospital",
+        "Facility Phone": "703-555-6789",
+        "Facility Fax": "703-555-6790",
+        "Facility Address": "1701 N. George Mason Drive, Arlington, VA 22205"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-05-16",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Jaundice",
+                "SNOMED-CT": "18165001",
+                "Onset Date": "2024-05-17",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-05-15",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Weight loss",
+                "SNOMED-CT": "89362005",
+                "Onset Date": "2024-04-01",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-05-16",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Vomiting",
+                "SNOMED-CT": "422400008",
+                "Onset Date": "2024-05-17",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal distension",
+                "SNOMED-CT": "162042000",
+                "Onset Date": "2024-05-15",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Pruritus",
+                "SNOMED-CT": "418290006",
+                "Onset Date": "2024-05-17",
+                "Severity": "Mild",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "38.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-05-18 14:45:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "92",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-05-18 14:45:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "20",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-05-18 14:45:00"
+            },
+            {
+                "Vital Sign": "Systolic blood pressure",
+                "Value": "145",
+                "SNOMED-CT": "271649006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-05-18 14:45:00"
+            },
+            {
+                "Vital Sign": "Diastolic blood pressure",
+                "Value": "88",
+                "SNOMED-CT": "271650006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-05-18 14:45:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "97",
+                "SNOMED-CT": "103228002",
+                "Unit": "%",
+                "Measurement Time": "2024-05-18 14:45:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "78.5",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-05-18 14:50:00"
+            },
+            {
+                "Vital Sign": "Body height",
+                "Value": "166",
+                "SNOMED-CT": "50373000",
+                "Unit": "cm",
+                "Measurement Time": "2024-05-18 14:50:00"
+            },
+            {
+                "Vital Sign": "Pain score",
+                "Value": "7",
+                "SNOMED-CT": "225908003",
+                "Unit": "{score}",
+                "Measurement Time": "2024-05-18 14:55:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Severe abdominal pain and jaundice",
+        "Past Medical History": "Patient has a long-standing history of chronic hepatitis B, diagnosed in 1985 shortly after immigrating to the United States from Vietnam. He was initially managed with interferon therapy, later transitioning to oral antiviral medications. In 2020, he was diagnosed with hepatocellular carcinoma (HCC) following routine surveillance. He underwent transarterial chemoembolization (TACE) in 2021 and 2022, with initial good response. However, follow-up imaging in early 2023 showed disease progression. The patient has a history of type 2 diabetes mellitus, diagnosed in 2010 and managed with oral medications. He also has hypertension, diagnosed in 2005, currently controlled with medication. The patient is a former smoker, having quit in 2015 after a 30-pack-year history. He reports occasional alcohol use in the past but states he has been abstinent since his HCC diagnosis. There is a family history of liver cancer; his father died of HCC at age 70.",
+        "Review of Systems": "General: Reports significant fatigue and unintentional weight loss of about 10 kg over the past 3 months. Denies fever or chills. HEENT: Complains of yellowing of eyes. Denies vision changes, hearing problems, or difficulty swallowing. Cardiovascular: Denies chest pain, palpitations, or edema. Respiratory: Denies shortness of breath, cough, or wheezing. Gastrointestinal: Reports severe right upper quadrant abdominal pain, nausea, and occasional vomiting. Notes abdominal distension and early satiety. Denies changes in bowel habits or blood in stool. Genitourinary: Denies changes in urination or hematuria. Musculoskeletal: Reports general weakness but denies joint pain or swelling. Skin: Notes generalized itching and yellowing of skin. Neurological: Denies headaches, dizziness, or changes in mental status. Psychiatric: Expresses anxiety about his condition and prognosis. Endocrine: Denies excessive thirst or frequent urination. Hematologic: Denies easy bruising or bleeding. Allergic/Immunologic: Denies known allergies or recent infections.",
+        "History of Present Illness": "Mr. Phan is a 65-year-old Vietnamese-American male with a long-standing history of chronic hepatitis B and hepatocellular carcinoma, presenting with worsening right upper quadrant abdominal pain and jaundice. The abdominal pain started about three days ago, initially mild but progressively worsening to severe intensity. He describes the pain as constant and aching, occasionally sharp, and not relieved by over-the-counter pain medications. The patient noticed yellowing of his eyes and skin starting yesterday, accompanied by generalized itching. He reports increasing fatigue over the past few weeks, struggling to perform daily activities. There has been a significant unintentional weight loss of about 10 kg over the last three months. The patient also complains of nausea, occasional vomiting, and a feeling of abdominal fullness. He denies fever, changes in bowel habits, or blood in stool. Mr. Phan had his last TACE procedure in late 2022, with subsequent imaging in early 2023 showing disease progression. He has been considering further treatment options but has not yet started any new therapies. The patient adheres to his prescribed antiviral medication for hepatitis B and oral medications for diabetes and hypertension.",
+        "Plan of Treatment": "1. Admit patient to oncology service for management of advanced hepatocellular carcinoma and associated complications. 2. Obtain comprehensive metabolic panel, complete blood count, coagulation studies, and AFP level. 3. Schedule urgent CT scan of abdomen and pelvis with contrast to assess current extent of HCC and potential complications. 4. Initiate pain management with opioid analgesics, titrating as needed for comfort. 5. Start antiemetic therapy for nausea and vomiting. 6. Consult gastroenterology for evaluation and management of jaundice, potential biliary obstruction. 7. Consult interventional radiology to discuss potential palliative procedures such as portal vein embolization or additional TACE if appropriate. 8. Initiate systemic therapy with sorafenib, pending review of liver function tests and performance status. 9. Consult palliative care team for symptom management and goals of care discussion. 10. Continue current antiviral therapy for chronic hepatitis B. 11. Monitor for signs of hepatic encephalopathy and initiate lactulose if necessary. 12. Provide nutritional support and consider albumin infusion if indicated. 13. Discuss prognosis and treatment options with patient and family, including potential for clinical trials. 14. Schedule follow-up with oncology post-discharge for ongoing management and care coordination.",
+        "Vaccine Credential Patient Assertion": "Patient reports receiving hepatitis B vaccination series in Vietnam during childhood, but is unsure of exact dates or number of doses. He states he has not received any booster doses since immigrating to the United States. Patient confirms receiving COVID-19 primary series and one booster, with the last dose in September 2022. He reports being up to date with influenza vaccinations, receiving his last dose in October 2023. Patient is unsure about pneumococcal vaccination status and cannot recall receiving hepatitis A vaccination."
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Hepatocellular carcinoma",
+                "ICD-10 Code": "C22.0",
+                "SNOMED-CT Code": "109841003",
+                "Diagnosis Date": "2020-09-15",
+                "Onset Date": "2020-08-01",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Chronic viral hepatitis B without delta-agent",
+                "ICD-10 Code": "B18.1",
+                "SNOMED-CT Code": "66071002",
+                "Diagnosis Date": "1985-06-10",
+                "Onset Date": "1985-06-10",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Cirrhosis of liver due to viral hepatitis B",
+                "ICD-10 Code": "K74.60",
+                "SNOMED-CT Code": "197441003",
+                "Diagnosis Date": "2018-03-22",
+                "Onset Date": "2018-03-22",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Portal hypertension",
+                "ICD-10 Code": "K76.6",
+                "SNOMED-CT Code": "34742003",
+                "Diagnosis Date": "2019-11-30",
+                "Onset Date": "2019-11-30",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Jaundice, unspecified",
+                "ICD-10 Code": "R17",
+                "SNOMED-CT Code": "18165001",
+                "Diagnosis Date": "2024-05-17",
+                "Onset Date": "2024-05-17",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Type 2 diabetes mellitus without complications",
+                "ICD-10 Code": "E11.9",
+                "SNOMED-CT Code": "44054006",
+                "Diagnosis Date": "2010-04-18",
+                "Onset Date": "2010-04-18",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Essential (primary) hypertension",
+                "ICD-10 Code": "I10",
+                "SNOMED-CT Code": "59621000",
+                "Diagnosis Date": "2005-09-03",
+                "Onset Date": "2005-09-03",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Cachexia",
+                "ICD-10 Code": "R64",
+                "SNOMED-CT Code": "13791008",
+                "Diagnosis Date": "2024-05-18",
+                "Onset Date": "2024-02-18",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Ascites",
+                "ICD-10 Code": "R18.8",
+                "SNOMED-CT Code": "389026000",
+                "Diagnosis Date": "2024-05-18",
+                "Onset Date": "2024-05-15",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic Imaging",
+                "Procedure Description": "CT scan of abdomen and pelvis with contrast",
+                "CPT Code": "74177",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-18",
+                "Details": "Urgent CT scan to assess current extent of HCC and potential complications",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Laboratory",
+                "Procedure Description": "Comprehensive metabolic panel",
+                "CPT Code": "80053",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-18",
+                "Details": "To assess liver function and overall metabolic status",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Laboratory",
+                "Procedure Description": "Alpha-fetoprotein (AFP) tumor marker",
+                "CPT Code": "82105",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-18",
+                "Details": "To monitor HCC progression and treatment response",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Insertion of non-tunneled central venous catheter",
+                "CPT Code": "36556",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-19",
+                "Details": "For administration of medications and potential parenteral nutrition",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Paracentesis",
+                "CPT Code": "49082",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-19",
+                "Details": "Therapeutic paracentesis for symptomatic ascites",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Esophagogastroduodenoscopy with biopsy",
+                "CPT Code": "43239",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-20",
+                "Details": "To evaluate for esophageal varices and potential sources of upper GI bleeding",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Initiation of systemic chemotherapy",
+                "CPT Code": "96413",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-20",
+                "Details": "First administration of sorafenib for advanced HCC",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Radiation treatment delivery",
+                "CPT Code": "77385",
+                "Status": "Planned",
+                "Procedure Date": "2024-05-27",
+                "Details": "Planned palliative radiation therapy for pain management",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Interventional Radiology",
+                "Procedure Description": "Transarterial chemoembolization (TACE)",
+                "CPT Code": "37243",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-03",
+                "Details": "Planned palliative TACE procedure for HCC, pending evaluation of patient's condition",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Supportive",
+                "Procedure Description": "Insertion of implantable pump",
+                "CPT Code": "62362",
+                "Status": "Planned",
+                "Procedure Date": "2024-05-28",
+                "Details": "Planned insertion of implantable pump for continuous pain management",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Sorafenib",
+                "Medication Type": "Tyrosine kinase inhibitor",
+                "Purpose": "Treatment of advanced hepatocellular carcinoma",
+                "Administration Mode": "Oral",
+                "Dose": "400 mg twice daily",
+                "Duration": "Ongoing",
+                "Start Date": "2024-05-20",
+                "Response": "Partial response",
+                "Response Details": "Mild reduction in tumor markers, stable disease on imaging",
+                "Observation Date": "2024-05-21"
+            },
+            {
+                "Medication Name": "Entecavir",
+                "Medication Type": "Antiviral",
+                "Purpose": "Treatment of chronic hepatitis B",
+                "Administration Mode": "Oral",
+                "Dose": "0.5 mg once daily",
+                "Duration": "Long-term",
+                "Start Date": "2018-03-22",
+                "Response": "Effective",
+                "Response Details": "Suppressed HBV DNA levels, improved liver function tests",
+                "Observation Date": "2024-05-18"
+            },
+            {
+                "Medication Name": "Morphine sulfate",
+                "Medication Type": "Opioid analgesic",
+                "Purpose": "Pain management",
+                "Administration Mode": "Intravenous",
+                "Dose": "2-4 mg every 4 hours as needed",
+                "Duration": "During hospitalization",
+                "Start Date": "2024-05-18",
+                "Response": "Effective",
+                "Response Details": "Adequate pain control achieved, patient reports pain score reduced from 7 to 3",
+                "Observation Date": "2024-05-19"
+            },
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Management of nausea and vomiting",
+                "Administration Mode": "Intravenous",
+                "Dose": "4 mg every 8 hours",
+                "Duration": "During hospitalization",
+                "Start Date": "2024-05-18",
+                "Response": "Effective",
+                "Response Details": "Significant reduction in nausea and vomiting episodes",
+                "Observation Date": "2024-05-19"
+            },
+            {
+                "Medication Name": "Furosemide",
+                "Medication Type": "Loop diuretic",
+                "Purpose": "Management of ascites and edema",
+                "Administration Mode": "Intravenous",
+                "Dose": "40 mg twice daily",
+                "Duration": "During hospitalization",
+                "Start Date": "2024-05-18",
+                "Response": "Partially effective",
+                "Response Details": "Moderate reduction in ascites, may require dose adjustment",
+                "Observation Date": "2024-05-20"
+            },
+            {
+                "Medication Name": "Lactulose",
+                "Medication Type": "Laxative",
+                "Purpose": "Prevention and treatment of hepatic encephalopathy",
+                "Administration Mode": "Oral",
+                "Dose": "30 mL three times daily",
+                "Duration": "Ongoing",
+                "Start Date": "2024-05-19",
+                "Response": "Effective",
+                "Response Details": "Improved mental status, no signs of encephalopathy",
+                "Observation Date": "2024-05-21"
+            },
+            {
+                "Medication Name": "Metformin",
+                "Medication Type": "Biguanide",
+                "Purpose": "Management of type 2 diabetes",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg twice daily",
+                "Duration": "Long-term",
+                "Start Date": "2010-04-18",
+                "Response": "Effective",
+                "Response Details": "Blood glucose levels well-controlled",
+                "Observation Date": "2024-05-18"
+            },
+            {
+                "Medication Name": "Lisinopril",
+                "Medication Type": "ACE inhibitor",
+                "Purpose": "Management of hypertension",
+                "Administration Mode": "Oral",
+                "Dose": "10 mg once daily",
+                "Duration": "Long-term",
+                "Start Date": "2005-09-03",
+                "Response": "Effective",
+                "Response Details": "Blood pressure well-controlled",
+                "Observation Date": "2024-05-18"
+            },
+            {
+                "Medication Name": "Spironolactone",
+                "Medication Type": "Potassium-sparing diuretic",
+                "Purpose": "Management of ascites and portal hypertension",
+                "Administration Mode": "Oral",
+                "Dose": "100 mg once daily",
+                "Duration": "Ongoing",
+                "Start Date": "2024-05-19",
+                "Response": "Partially effective",
+                "Response Details": "Slight improvement in ascites, monitoring for hyperkalemia",
+                "Observation Date": "2024-05-21"
+            },
+            {
+                "Medication Name": "Albumin",
+                "Medication Type": "Plasma expander",
+                "Purpose": "Management of hypoalbuminemia and ascites",
+                "Administration Mode": "Intravenous",
+                "Dose": "25 g in 100 mL normal saline",
+                "Duration": "As needed",
+                "Start Date": "2024-05-19",
+                "Response": "Effective",
+                "Response Details": "Improved serum albumin levels, reduced ascites",
+                "Observation Date": "2024-05-20"
+            },
+            {
+                "Medication Name": "Vitamin K",
+                "Medication Type": "Vitamin supplement",
+                "Purpose": "Correction of coagulopathy",
+                "Administration Mode": "Subcutaneous",
+                "Dose": "10 mg daily",
+                "Duration": "5 days",
+                "Start Date": "2024-05-18",
+                "Response": "Partially effective",
+                "Response Details": "Slight improvement in INR, continued monitoring required",
+                "Observation Date": "2024-05-21"
+            },
+            {
+                "Medication Name": "Pantoprazole",
+                "Medication Type": "Proton pump inhibitor",
+                "Purpose": "Prophylaxis for stress ulcers",
+                "Administration Mode": "Intravenous",
+                "Dose": "40 mg once daily",
+                "Duration": "During hospitalization",
+                "Start Date": "2024-05-18",
+                "Response": "Effective",
+                "Response Details": "No signs of gastrointestinal bleeding",
+                "Observation Date": "2024-05-21"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. Mr. Phan, a 65-year-old Vietnamese-American male, has a long history of chronic hepatitis B (since 1985) and was diagnosed with hepatocellular carcinoma (HCC) in 2020. Despite initial TACE treatments in 2021-2022, his condition progressed. He was admitted in May 2024 with severe abdominal pain, jaundice, and weight loss. Current management includes sorafenib therapy, pain control, and palliative care. His prognosis is poor, with planned radiation therapy and potential additional TACE procedure."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Quang158 Phan472",
+        "Report_Header_Age": "65",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-05-22"
+    }
+}

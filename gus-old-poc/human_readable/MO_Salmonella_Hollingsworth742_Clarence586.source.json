@@ -1,0 +1,523 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "White",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "67",
+        "Date of Birth": "1956-12-15",
+        "Location": "Branson",
+        "Country of Residence": "United States of America",
+        "Country of Nationality": "United States of America",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Hollingsworth742, Clarence586",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Retired",
+        "Gender Identity": "Male",
+        "Disability Status": "None",
+        "Education Level": "High school graduate",
+        "Marital Status": "Married",
+        "Smoking Status": "Former smoker",
+        "BMI": "27.5",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Medicare",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Not at all",
+        "People Living at Address": "2",
+        "Housing Status": "Owner occupied",
+        "Stress Level": "Moderate amount of stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1247 Sycamore Lane, Branson, MO 65616",
+        "Patient Email": "clarencehollingsworth@email.net",
+        "Patient Phone": "417-555-8932"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Retired",
+        "Current Industry": "n/a",
+        "Usual Occupation": "Truck driver",
+        "Usual Industry": "Transportation and warehousing",
+        "Usual Employment Date Range": "Start: 1978-05-01 to 2018-12-31",
+        "Current Job Title": "n/a",
+        "Current Employer": "n/a",
+        "Current Employment Start Date": "n/a",
+        "Annual Income": "32000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Branson, MO",
+                "Purpose": "Routine",
+                "Start Date": "2024-06-10",
+                "End Date": "2024-06-24",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Routine daily activities around Branson area."
+            },
+            {
+                "Location": "Eureka Springs, AR",
+                "Purpose": "Vacation",
+                "Start Date": "2024-05-28",
+                "End Date": "2024-06-09",
+                "Accommodations": "Hotel",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Sightseeing, shopping, dining out."
+            }
+        ]
+    },
+    "Travel_History_Narrative": "History of Travel Narrative: The patient is a 67-year-old male residing in Branson, MO. He recently returned from a vacation in Eureka Springs, AR from 2024-05-28 to 2024-06-09 where he stayed in a hotel. During this trip, he participated in activities such as sightseeing, shopping, and dining out. Upon returning to Branson, he reports routine daily activities around the local area from 2024-06-10 to the present date of 2024-06-24. His recent travel history raises concerns for potential exposure to foodborne illnesses such as salmonellosis during his vacation, which may have contributed to his current clinical presentation.",
+    "Encounter_Details": {
+        "Chief Complaint": "Severe abdominal pain, vomiting, and fever",
+        "Patient ID": "6782145",
+        "Encounter Class": "emergency",
+        "Encounter Status": "finished",
+        "Encounter ID": "87654321098",
+        "Start DateTime": "2024-06-23 14:22",
+        "End DateTime": "2024-06-25 09:15",
+        "Discharge Disposition": "Admitted to hospital inpatient",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Emergency department admission",
+                "SNOMED-CT Code": "4525004",
+                "Description": "Emergency department patient encounter",
+                "Start Date": "2024-06-23",
+                "End Date": "2024-06-24"
+            },
+            {
+                "Encounter Type": "Hospital admission",
+                "SNOMED-CT Code": "32485007",
+                "Description": "Hospital admission, patient encounter",
+                "Start Date": "2024-06-24",
+                "End Date": "n/a"
+            },
+            {
+                "Encounter Type": "Intensive care unit admission",
+                "SNOMED-CT Code": "34628009",
+                "Description": "Admission to intensive care unit, patient encounter",
+                "Start Date": "2024-06-24",
+                "End Date": "n/a"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Parker762, Noah258, MD",
+        "Practitioner Phone": "417-555-2673",
+        "Practitioner Fax": "417-555-8912",
+        "Practitioner Email": "noah.parker@bransonclinic.com",
+        "Practitioner Office Name": "Branson Clinic",
+        "Practitioner ID": "5678912340",
+        "Practitioner Address": "123 Main St, Branson, MO 65616"
+    },
+    "Facility_Information": {
+        "Facility Name": "Ozarks Regional Medical Center",
+        "Facility Type": "General acute care hospital",
+        "Facility Phone": "417-555-0123",
+        "Facility Fax": "417-555-4567",
+        "Facility Address": "789 Hospital Drive, Branson, MO 65616"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "Not pregnant",
+        "Pregnancy Status Determination Method": "Patient reported",
+        "Pregnancy Status Recorded Date": "2024-06-23",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-06-21",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Vomiting",
+                "SNOMED-CT": "16932000",
+                "Onset Date": "2024-06-22",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fever",
+                "SNOMED-CT": "386661006",
+                "Onset Date": "2024-06-22",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Diarrhea",
+                "SNOMED-CT": "62315008",
+                "Onset Date": "2024-06-21",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Dehydration",
+                "SNOMED-CT": "103004008",
+                "Onset Date": "2024-06-23",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-06-22",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Headache",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2024-06-22",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Muscle cramps",
+                "SNOMED-CT": "90560007",
+                "Onset Date": "2024-06-23",
+                "Severity": "Moderate",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "39.8",
+                "SNOMED-CT": "386737004",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-06-23 14:30:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "115",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-06-23 14:35:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "22",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-06-23 14:40:00"
+            },
+            {
+                "Vital Sign": "Blood pressure",
+                "Value": "90/55",
+                "SNOMED-CT": "85354007",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-23 14:45:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "92",
+                "SNOMED-CT": "59408-5",
+                "Unit": "%",
+                "Measurement Time": "2024-06-23 14:50:00"
+            },
+            {
+                "Vital Sign": "Capillary refill time",
+                "Value": "4",
+                "SNOMED-CT": "89096-4",
+                "Unit": "seconds",
+                "Measurement Time": "2024-06-23 14:55:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Severe abdominal pain, vomiting, fever, and diarrhea.",
+        "Past Medical History": "The patient is a 67-year-old male with a past medical history of hypertension, controlled with lisinopril. He also has a history of hyperlipidemia, managed with dietary modifications. He reports no other significant medical conditions or surgical history. Family history is unremarkable.",
+        "Review of Systems": "Constitutional: Fatigue, fever, and chills present. HEENT: Normocephalic, atraumatic. Eyes: No icterus or conjunctival injection. Cardiovascular: Regular rate and rhythm, no murmurs. Respiratory: Clear to auscultation bilaterally. Gastrointestinal: Severe, diffuse abdominal pain, nausea, vomiting, and diarrhea. Genitourinary: No dysuria or hematuria. Musculoskeletal: Muscle cramps in lower extremities. Skin: No rashes or lesions. Neurological: Alert and oriented x3. Psychiatric: Mood and affect appropriate.",
+        "History of Present Illness": "The patient is a 67-year-old male who presented to the emergency department with a 3-day history of severe abdominal pain, nausea, vomiting, and diarrhea. He reports that the symptoms began shortly after returning from a vacation in Eureka Springs, AR, where he dined out frequently. The abdominal pain is described as diffuse, cramping, and severe in intensity. He has had multiple episodes of non-bloody, watery diarrhea and non-bilious vomiting. He also reports subjective fevers, chills, and muscle cramps in his lower extremities. He denies any recent travel outside of the region, sick contacts, or consumption of undercooked meats or unpasteurized dairy products.",
+        "Plan of Treatment": "Based on the patient's clinical presentation and history, the leading diagnosis is severe salmonellosis with sepsis. The plan of treatment includes aggressive intravenous fluid resuscitation, empiric broad-spectrum antibiotic therapy with ceftriaxone and metronidazole, and supportive care in the intensive care unit. Stool cultures and blood cultures have been obtained to confirm the diagnosis and guide antimicrobial therapy. Electrolyte imbalances and acid-base disturbances will be closely monitored and corrected as needed. The patient will require close monitoring for potential complications, such as dehydration, electrolyte abnormalities, and septic shock. Surgical consultation will be obtained if there is any concern for bowel perforation or peritonitis.",
+        "Vaccine Credential Patient Assertion": "The patient reports being up-to-date on routine vaccinations but is unsure of his specific vaccination history."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Order Code Description": "Stool culture",
+                "Laboratory Result": "Salmonella enterica serovar Typhimurium isolated",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Stool",
+                "Specimen Type": "Random",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2024-06-23 15:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "87654321"
+            },
+            {
+                "LOINC Order Code Description": "Blood culture",
+                "Laboratory Result": "No growth",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-06-23 15:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "12345678"
+            },
+            {
+                "LOINC Order Code Description": "Comprehensive metabolic panel",
+                "Laboratory Result": "Sodium 132 mmol/L (L), Potassium 3.1 mmol/L (L), Chloride 96 mmol/L, CO2 22 mmol/L, BUN 28 mg/dL (H), Creatinine 1.5 mg/dL (H), Glucose 110 mg/dL, Calcium 8.5 mg/dL, Albumin 3.2 g/dL, Total Protein 6.0 g/dL, AST 45 U/L (H), ALT 32 U/L, Alkaline Phosphatase 85 U/L, Total Bilirubin 0.6 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "456789123",
+                "Specimen Collection Date": "2024-06-23 16:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "98765432"
+            },
+            {
+                "LOINC Order Code Description": "Complete blood count with differential",
+                "Laboratory Result": "WBC 15.2 K/uL (H), RBC 4.2 M/uL, Hemoglobin 12.5 g/dL, Hematocrit 38.5%, Platelets 220 K/uL, Neutrophils 80% (H), Lymphocytes 12%, Monocytes 6%, Eosinophils 2%, Basophils 0%",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "789456123",
+                "Specimen Collection Date": "2024-06-23 16:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "65432109"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Salmonella gastroenteritis",
+                "ICD-10 Code": "A02.0",
+                "SNOMED-CT Code": "34000006",
+                "Diagnosis Date": "2024-06-23",
+                "Onset Date": "2024-06-21",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Sepsis due to Salmonella gastroenteritis",
+                "ICD-10 Code": "A02.1",
+                "SNOMED-CT Code": "10801005",
+                "Diagnosis Date": "2024-06-23",
+                "Onset Date": "2024-06-23",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Dehydration due to gastroenteritis",
+                "ICD-10 Code": "E86.0",
+                "SNOMED-CT Code": "103004008",
+                "Diagnosis Date": "2024-06-23",
+                "Onset Date": "2024-06-23",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Hypokalemia",
+                "ICD-10 Code": "E87.6",
+                "SNOMED-CT Code": "28243009",
+                "Diagnosis Date": "2024-06-23",
+                "Onset Date": "2024-06-23",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Acute kidney injury",
+                "ICD-10 Code": "N17.9",
+                "SNOMED-CT Code": "36225009",
+                "Diagnosis Date": "2024-06-23",
+                "Onset Date": "2024-06-23",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Intravenous infusion of therapeutic substance",
+                "CPT Code": "96365",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-06-23",
+                "Details": "Aggressive intravenous fluid resuscitation with normal saline and electrolyte replacement for treatment of dehydration and electrolyte imbalances.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Intravenous antibiotic therapy",
+                "CPT Code": "96365",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-06-23",
+                "Details": "Empiric broad-spectrum intravenous antibiotic therapy with ceftriaxone and metronidazole for treatment of severe salmonellosis and sepsis.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Stool culture",
+                "CPT Code": "87045",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-23",
+                "Details": "Stool culture obtained to confirm the diagnosis of salmonellosis and guide antimicrobial therapy.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Blood culture",
+                "CPT Code": "87040",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-23",
+                "Details": "Blood culture obtained to evaluate for bacteremia and sepsis.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Comprehensive metabolic panel",
+                "CPT Code": "80053",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-23",
+                "Details": "Comprehensive metabolic panel ordered to assess electrolyte imbalances, kidney function, and other metabolic derangements.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Complete blood count with differential",
+                "CPT Code": "85025",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-23",
+                "Details": "Complete blood count with differential ordered to evaluate for infection, anemia, and other hematologic abnormalities.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Intensive care unit admission",
+                "CPT Code": "99477",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-06-24",
+                "Details": "Admission to the intensive care unit for close monitoring and management of severe salmonellosis, sepsis, and potential complications.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Abdominal CT scan with contrast",
+                "CPT Code": "74160",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-25",
+                "Details": "Abdominal CT scan with contrast planned to evaluate for potential complications such as bowel perforation or peritonitis.",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Ceftriaxone",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Treatment of severe salmonellosis and sepsis",
+                "Administration Mode": "Intravenous",
+                "Dose": "2 g every 24 hours",
+                "Duration": "7-14 days",
+                "Start Date": "2024-06-23",
+                "Response": "Improving",
+                "Response Details": "Fever and abdominal pain have improved, but patient remains hospitalized for continued treatment and monitoring.",
+                "Observation Date": "2024-06-25"
+            },
+            {
+                "Medication Name": "Metronidazole",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Treatment of anaerobic bacterial infections",
+                "Administration Mode": "Intravenous",
+                "Dose": "500 mg every 8 hours",
+                "Duration": "7-14 days",
+                "Start Date": "2024-06-23",
+                "Response": "Improving",
+                "Response Details": "Fever and abdominal pain have improved, but patient remains hospitalized for continued treatment and monitoring.",
+                "Observation Date": "2024-06-25"
+            },
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Treatment of nausea and vomiting",
+                "Administration Mode": "Intravenous",
+                "Dose": "4 mg every 8 hours as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-06-23",
+                "Response": "Good",
+                "Response Details": "Nausea and vomiting have resolved with ondansetron administration.",
+                "Observation Date": "2024-06-24"
+            },
+            {
+                "Medication Name": "Lisinopril",
+                "Medication Type": "Antihypertensive",
+                "Purpose": "Treatment of hypertension",
+                "Administration Mode": "Oral",
+                "Dose": "10 mg once daily",
+                "Duration": "Chronic",
+                "Start Date": "2020-01-01",
+                "Response": "Good",
+                "Response Details": "Blood pressure well-controlled on current dose.",
+                "Observation Date": "2024-06-23"
+            },
+            {
+                "Medication Name": "Potassium chloride",
+                "Medication Type": "Electrolyte supplement",
+                "Purpose": "Treatment of hypokalemia",
+                "Administration Mode": "Intravenous",
+                "Dose": "20 mEq every 8 hours",
+                "Duration": "Until potassium levels normalize",
+                "Start Date": "2024-06-24",
+                "Response": "Improving",
+                "Response Details": "Potassium levels have improved but remain slightly low.",
+                "Observation Date": "2024-06-25"
+            },
+            {
+                "Medication Name": "Normal saline",
+                "Medication Type": "Intravenous fluid",
+                "Purpose": "Treatment of dehydration and electrolyte imbalances",
+                "Administration Mode": "Intravenous",
+                "Dose": "150 mL/hour",
+                "Duration": "Ongoing",
+                "Start Date": "2024-06-23",
+                "Response": "Improving",
+                "Response Details": "Urine output has improved, and electrolyte imbalances are resolving.",
+                "Observation Date": "2024-06-25"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic",
+                "Purpose": "Treatment of fever and pain",
+                "Administration Mode": "Oral",
+                "Dose": "650 mg every 6 hours as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-06-25",
+                "Response": "Planned",
+                "Response Details": "Medication planned for fever and pain management.",
+                "Observation Date": "n/a"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 67-year-old male presented with severe salmonellosis and sepsis after a recent vacation. He was admitted to the ICU for IV fluids, antibiotics, and supportive care. His condition was critical with a guarded prognosis due to dehydration, electrolyte imbalances, and acute kidney injury."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Clarence586 Hollingsworth742",
+        "Report_Header_Age": "67",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-06-25"
+    }
+}

@@ -1,0 +1,532 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "Black or African American",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "33",
+        "Date of Birth": "1991-02-17",
+        "Location": "Morristown",
+        "Country of Residence": "United States of America",
+        "Country of Nationality": "United States of America",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Jackson234, Tanisha235",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed",
+        "Gender Identity": "Female",
+        "Disability Status": "No disability",
+        "Education Level": "Some college credit, no degree",
+        "Marital Status": "Never married",
+        "Smoking Status": "Former smoker",
+        "BMI": "28.4",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Private health insurance through employer",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Not worried about losing housing",
+        "People Living at Address": "2",
+        "Housing Status": "Rents home",
+        "Stress Level": "Moderately stressed"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1427 Oak Terrace, Morristown, NJ 07960",
+        "Patient Email": "tanisha.jackson@email.com",
+        "Patient Phone": "973-555-2468"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Administrative Assistant",
+        "Current Industry": "Healthcare and Social Assistance",
+        "Usual Occupation": "Administrative Assistant",
+        "Usual Industry": "Healthcare and Social Assistance",
+        "Usual Employment Date Range": "Start: 2015-08-01 to current",
+        "Current Job Title": "Medical Administrative Assistant",
+        "Current Employer": "Morristown Medical Center, 100 Madison Ave, Morristown, NJ 07960, (973) 971-5000",
+        "Current Employment Start Date": "2019-04-15",
+        "Annual Income": "38000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Morristown, NJ",
+                "Purpose": "Routine",
+                "Start Date": "2024-05-29",
+                "End Date": "2024-05-29",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Visited local park and grocery store"
+            },
+            {
+                "Location": "Newark, NJ",
+                "Purpose": "Business",
+                "Start Date": "2024-05-20",
+                "End Date": "2024-05-22",
+                "Accommodations": "Hotel",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Attended a work conference"
+            },
+            {
+                "Location": "New York City, NY",
+                "Purpose": "Vacation",
+                "Start Date": "2024-04-12",
+                "End Date": "2024-04-15",
+                "Accommodations": "Hotel",
+                "Mode of Travel": "Train",
+                "Activities": "Sightseeing, visited museums and restaurants"
+            }
+        ]
+    },
+    "Travel_History_Narrative": "History of Travel Narrative: The patient is a 33-year-old Black, non-Hispanic female residing in Morristown, NJ. Her recent travel history includes routine activities around her local area on 2024-05-29, attending a work conference in Newark, NJ from 2024-05-20 to 2024-05-22, and a vacation to New York City, NY from 2024-04-12 to 2024-04-15. There is no reported travel outside of the tri-state area or any high-risk locations that would suggest an increased risk of exposure to hepatitis C virus.",
+    "Encounter_Details": {
+        "Chief Complaint": "Fatigue and abdominal discomfort",
+        "Patient ID": "8765432",
+        "Encounter Class": "Outpatient",
+        "Encounter Status": "Finished",
+        "Encounter ID": "12345678901",
+        "Start DateTime": "2024-05-10 09:30",
+        "End DateTime": "2024-05-10 11:15",
+        "Discharge Disposition": "Home",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient Consultation",
+                "SNOMED-CT Code": "185463005",
+                "Description": "An encounter where the patient attends for an outpatient consultation with a physician or other health care provider",
+                "Start Date": "2024-05-10",
+                "End Date": "2024-05-10"
+            },
+            {
+                "Encounter Type": "Outpatient Diagnostic Procedure",
+                "SNOMED-CT Code": "185349003",
+                "Description": "An encounter for diagnostic procedure(s) performed on an outpatient basis",
+                "Start Date": "2024-05-15",
+                "End Date": "2024-05-15"
+            },
+            {
+                "Encounter Type": "Outpatient Procedure",
+                "SNOMED-CT Code": "185347001",
+                "Description": "An encounter for therapeutic procedure(s) performed on an outpatient basis",
+                "Start Date": "2024-05-22",
+                "End Date": "2024-05-22"
+            },
+            {
+                "Encounter Type": "Outpatient Follow-up",
+                "SNOMED-CT Code": "390766007",
+                "Description": "An encounter for follow-up treatment or re-evaluation of an existing condition on an outpatient basis",
+                "Start Date": "2024-05-29",
+                "End Date": "2024-05-29"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Dubois987, Jean-Luc012, MD",
+        "Practitioner Phone": "973-555-2689",
+        "Practitioner Fax": "973-555-4127",
+        "Practitioner Email": "jldubois@morrismedicine.com",
+        "Practitioner Office Name": "Morris Medicine Associates",
+        "Practitioner ID": "7894561230",
+        "Practitioner Address": "200 Ridgedale Ave, Morristown, NJ 07960"
+    },
+    "Facility_Information": {
+        "Facility Name": "Morris Medicine Associates",
+        "Facility Type": "Ambulatory Healthcare Facility",
+        "Facility Phone": "973-555-2600",
+        "Facility Fax": "973-555-2601",
+        "Facility Address": "200 Ridgedale Ave, Morristown, NJ 07960"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "Not pregnant",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-04-25",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-05-05",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "16991000119107",
+                "Onset Date": "2024-05-08",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Loss of appetite",
+                "SNOMED-CT": "79890006",
+                "Onset Date": "2024-05-03",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Jaundice",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2024-05-09",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Dark urine",
+                "SNOMED-CT": "83076005",
+                "Onset Date": "2024-05-07",
+                "Severity": "Mild",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "98.6",
+                "SNOMED-CT": "386725007",
+                "Unit": "F",
+                "Measurement Time": "2024-05-10 09:35:00"
+            },
+            {
+                "Vital Sign": "Pulse rate",
+                "Value": "78",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-05-10 09:37:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "16",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-05-10 09:39:00"
+            },
+            {
+                "Vital Sign": "Blood pressure systolic",
+                "Value": "122",
+                "SNOMED-CT": "163020008",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-05-10 09:41:00"
+            },
+            {
+                "Vital Sign": "Blood pressure diastolic",
+                "Value": "78",
+                "SNOMED-CT": "163019004",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-05-10 09:41:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "165",
+                "SNOMED-CT": "27113001",
+                "Unit": "lb",
+                "Measurement Time": "2024-05-10 09:45:00"
+            },
+            {
+                "Vital Sign": "Body height",
+                "Value": "65",
+                "SNOMED-CT": "8302-2",
+                "Unit": "in",
+                "Measurement Time": "2024-05-10 09:47:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "98",
+                "SNOMED-CT": "59408-5",
+                "Unit": "%",
+                "Measurement Time": "2024-05-10 09:50:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Evaluation of fatigue, abdominal discomfort, and other symptoms suggestive of acute hepatitis C infection.",
+        "Past Medical History": "The patient has no significant past medical history. She has no chronic medical conditions, no prior surgeries, and no known drug allergies. She is a former smoker but quit 3 years ago. Family history is unremarkable.",
+        "Review of Systems": "Constitutional: Fatigue and decreased appetite present. HEENT: Scleral icterus noted. Respiratory: No complaints. Cardiovascular: No complaints. Gastrointestinal: Abdominal discomfort, nausea, and dark urine reported. Genitourinary: No complaints. Musculoskeletal: No complaints. Neurological: No complaints. Psychiatric: No complaints. Endocrine: No complaints. Hematologic: No complaints. Allergies: No known drug allergies.",
+        "History of Present Illness": "Ms. Jackson is a 33-year-old Black, non-Hispanic female who presents with a 3-week history of fatigue, abdominal discomfort, nausea, loss of appetite, jaundice, and dark urine. Symptoms started gradually around April 25th with fatigue, which progressively worsened. Abdominal discomfort began about 10 days ago, described as a dull, aching pain in the right upper quadrant. Nausea and loss of appetite followed shortly after. She noticed yellowing of her eyes and skin about 5 days ago, along with dark urine. She denies fever, vomiting, diarrhea, or changes in bowel habits. She has no known exposure to hepatitis but did have a recent vacation in New York City in mid-April. She is sexually active with one male partner and uses barrier protection. She denies high-risk sexual behavior, IV drug use, or occupational exposure to blood or body fluids. Family denies any history of liver disease.",
+        "Plan of Treatment": "Based on the history and physical exam findings, the leading diagnosis is acute hepatitis C virus (HCV) infection. The following steps will be taken: 1) Order HCV RNA quantitative test to confirm diagnosis and determine viral load. 2) Obtain baseline labs including CBC, CMP, PT/INR, HBsAg, HIV, and HAV IgM to evaluate disease severity and rule out other causes. 3) Perform abdominal ultrasound to assess liver status. 4) Consult gastroenterology for evaluation and initiation of direct-acting antiviral therapy, likely a pangenotypic regimen such as glecaprevir/pibrentasvir. 5) Provide counseling on avoiding alcohol, practicing safe sex, and preventing transmission. 6) Schedule follow-up in 2 weeks to monitor treatment response and side effects. The goal is to achieve a sustained virologic response and complete cure.",
+        "Vaccine Credential Patient Assertion": "The patient reports being up-to-date on routine vaccinations including hepatitis B, but has not received the hepatitis A vaccine."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Order Code Description": "Hepatitis C virus RNA [Presence]",
+                "Laboratory Result": "Detected",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2024-05-10 10:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "87654321"
+            },
+            {
+                "LOINC Order Code Description": "Hepatitis C virus RNA [#/volume] (viral load)",
+                "Laboratory Result": "1,250,000 IU/mL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-05-10 10:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "12345678"
+            },
+            {
+                "LOINC Order Code Description": "Hepatitis A virus IgM Ab [Presence]",
+                "Laboratory Result": "Not detected",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "567890123",
+                "Specimen Collection Date": "2024-05-10 10:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "98765432"
+            },
+            {
+                "LOINC Order Code Description": "Hepatitis B virus surface Ag [Presence]",
+                "Laboratory Result": "Not detected",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "456789012",
+                "Specimen Collection Date": "2024-05-10 10:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "23456789"
+            },
+            {
+                "LOINC Order Code Description": "HIV 1+2 Ab & HIV 1 p24 Ag [Presence]",
+                "Laboratory Result": "Not detected",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "345678901",
+                "Specimen Collection Date": "2024-05-10 10:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "34567890"
+            },
+            {
+                "LOINC Order Code Description": "Complete blood count (CBC) panel",
+                "Laboratory Result": "Within normal limits",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "234567890",
+                "Specimen Collection Date": "2024-05-10 10:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "45678901"
+            },
+            {
+                "LOINC Order Code Description": "Comprehensive metabolic panel",
+                "Laboratory Result": "Elevated AST 85 U/L, ALT 120 U/L, total bilirubin 2.5 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2024-05-10 10:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "56789012"
+            },
+            {
+                "LOINC Order Code Description": "Prothrombin time (PT)",
+                "Laboratory Result": "13.5 seconds",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Plasma",
+                "Specimen ID": "012345678",
+                "Specimen Collection Date": "2024-05-10 10:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "67890123"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Acute hepatitis C",
+                "ICD-10 Code": "B17.1",
+                "SNOMED-CT Code": "86109005",
+                "Diagnosis Date": "2024-05-10",
+                "Onset Date": "2024-04-25",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Fatigue",
+                "ICD-10 Code": "R53.83",
+                "SNOMED-CT Code": "84229001",
+                "Diagnosis Date": "2024-05-10",
+                "Onset Date": "2024-04-25",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Abdominal pain",
+                "ICD-10 Code": "R10.9",
+                "SNOMED-CT Code": "21522001",
+                "Diagnosis Date": "2024-05-10",
+                "Onset Date": "2024-05-05",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Nausea",
+                "ICD-10 Code": "R11.0",
+                "SNOMED-CT Code": "16991000119107",
+                "Diagnosis Date": "2024-05-10",
+                "Onset Date": "2024-05-08",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Loss of appetite",
+                "ICD-10 Code": "R63.0",
+                "SNOMED-CT Code": "79890006",
+                "Diagnosis Date": "2024-05-10",
+                "Onset Date": "2024-05-03",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Jaundice",
+                "ICD-10 Code": "R17",
+                "SNOMED-CT Code": "25064002",
+                "Diagnosis Date": "2024-05-10",
+                "Onset Date": "2024-05-09",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Dark urine",
+                "ICD-10 Code": "R82.2",
+                "SNOMED-CT Code": "83076005",
+                "Diagnosis Date": "2024-05-10",
+                "Onset Date": "2024-05-07",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic Procedure",
+                "Procedure Description": "Ultrasound examination of abdomen, complete",
+                "CPT Code": "76700",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-15",
+                "Details": "Abdominal ultrasound performed to evaluate liver status and rule out any structural abnormalities.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic Procedure",
+                "Procedure Description": "Antiviral therapy initiation",
+                "CPT Code": "96372",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-05-22",
+                "Details": "Initiated direct-acting antiviral therapy with glecaprevir/pibrentasvir for treatment of acute hepatitis C virus infection.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic Procedure",
+                "Procedure Description": "Medication therapy management service",
+                "CPT Code": "99605",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-05",
+                "Details": "Scheduled follow-up visit to monitor treatment response, side effects, and adherence to antiviral therapy.",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Glecaprevir/Pibrentasvir",
+                "Medication Type": "Antiviral",
+                "Purpose": "Treatment of acute hepatitis C virus infection",
+                "Administration Mode": "Oral",
+                "Dose": "300 mg/120 mg once daily",
+                "Duration": "8 weeks",
+                "Start Date": "2024-05-22",
+                "Response": "Excellent",
+                "Response Details": "Patient has shown a rapid decline in viral load and improvement in liver function tests after 2 weeks of treatment.",
+                "Observation Date": "2024-06-05"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic",
+                "Purpose": "Relief of abdominal pain and discomfort",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg every 6 hours as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-05-10",
+                "Response": "Good",
+                "Response Details": "Patient reports adequate relief of abdominal pain with occasional use of acetaminophen.",
+                "Observation Date": "2024-05-29"
+            },
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Prevention of nausea and vomiting",
+                "Administration Mode": "Oral",
+                "Dose": "8 mg every 8 hours as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-05-10",
+                "Response": "Fair",
+                "Response Details": "Patient reports some relief of nausea but occasional breakthrough episodes.",
+                "Observation Date": "2024-05-29"
+            },
+            {
+                "Medication Name": "Multivitamin",
+                "Medication Type": "Nutritional Supplement",
+                "Purpose": "Nutritional support during illness",
+                "Administration Mode": "Oral",
+                "Dose": "One tablet daily",
+                "Duration": "Ongoing",
+                "Start Date": "2024-05-10",
+                "Response": "Good",
+                "Response Details": "Patient reports improved energy levels and appetite with multivitamin supplementation.",
+                "Observation Date": "2024-06-05"
+            },
+            {
+                "Medication Name": "Hepatitis B Vaccine",
+                "Medication Type": "Vaccine",
+                "Purpose": "Prevention of hepatitis B virus infection",
+                "Administration Mode": "Intramuscular",
+                "Dose": "3-dose series",
+                "Duration": "0, 1, and 6 months",
+                "Start Date": "2024-06-01",
+                "Response": "Planned",
+                "Response Details": "Patient scheduled to receive hepatitis B vaccine series after completion of hepatitis C treatment.",
+                "Observation Date": "n/a"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 33-year-old Black, non-Hispanic female presents with acute hepatitis C infection. She developed fatigue, abdominal pain, nausea, jaundice, and dark urine over 3 weeks. Diagnostic tests confirmed HCV infection with elevated liver enzymes. She was started on direct-acting antiviral therapy and is responding well with anticipated complete cure."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Tanisha235 Jackson234",
+        "Report_Header_Age": "33",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-06-02"
+    }
+}

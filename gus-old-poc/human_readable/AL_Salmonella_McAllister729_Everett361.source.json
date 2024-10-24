@@ -1,0 +1,510 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "White",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "58",
+        "Date of Birth": "1965-11-22",
+        "Location": "Birmingham",
+        "Country of Residence": "United States of America",
+        "Country of Nationality": "United States of America",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "McAllister729, Everett361",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed",
+        "Gender Identity": "Male",
+        "Disability Status": "No disability",
+        "Education Level": "Bachelor's Degree",
+        "Marital Status": "Married",
+        "Smoking Status": "Former smoker",
+        "BMI": "27.8",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Private Health Insurance",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Not at all",
+        "People Living at Address": "3",
+        "Housing Status": "Owner occupied",
+        "Stress Level": "Moderate amount of stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1627 Oakwood Circle, Birmingham, AL 35203",
+        "Patient Email": "everett.mcallister729@emailprovider.com",
+        "Patient Phone": "205-555-8712"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Accountant",
+        "Current Industry": "Accounting Services",
+        "Usual Occupation": "Accountant",
+        "Usual Industry": "Accounting Services",
+        "Usual Employment Date Range": "Start: 1989-06-01 to current",
+        "Current Job Title": "Senior Accountant",
+        "Current Employer": "Wilkins & Associates CPAs, 2100 Southbridge Pkwy Suite 650, Birmingham, AL 35209, (205) 987-7777",
+        "Current Employment Start Date": "2001-09-15",
+        "Annual Income": "$85,000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Panama City Beach, Florida",
+                "Purpose": "Vacation",
+                "Start Date": "2024-06-15",
+                "End Date": "2024-06-22",
+                "Accommodations": "Beachfront resort",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Beach activities, dining out, sightseeing"
+            },
+            {
+                "Location": "Birmingham, Alabama",
+                "Purpose": "Routine",
+                "Start Date": "2024-06-23",
+                "End Date": "2024-06-30",
+                "Accommodations": "n/a",
+                "Mode of Travel": "n/a",
+                "Activities": "Regular daily activities at home and work"
+            }
+        ]
+    },
+    "Travel_History_Narrative": "History of Travel Narrative: The patient recently returned from a vacation in Panama City Beach, Florida from June 15th to June 22nd, 2024. During this trip, he stayed at a beachfront resort and participated in beach activities, dining out, and sightseeing. Prior to the onset of symptoms, the patient had been engaged in regular daily activities at home and work in Birmingham, Alabama from June 23rd to June 30th, 2024.",
+    "Encounter_Details": {
+        "Chief Complaint": "Severe abdominal cramps and diarrhea",
+        "Patient ID": "5678912",
+        "Encounter Class": "emergency",
+        "Encounter Status": "finished",
+        "Encounter ID": "24680135792",
+        "Start DateTime": "2024-07-01 14:22",
+        "End DateTime": "2024-07-05 11:45",
+        "Discharge Disposition": "Home Health Care",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Emergency hospital admission",
+                "SNOMED-CT Code": "183452005",
+                "Description": "An unplanned encounter for the patient at a hospital for emergency treatment",
+                "Start Date": "2024-07-01",
+                "End Date": "2024-07-05"
+            },
+            {
+                "Encounter Type": "Inpatient hospital admission",
+                "SNOMED-CT Code": "32485007",
+                "Description": "The period of time when the patient was formally admitted for inpatient hospital care",
+                "Start Date": "2024-07-01",
+                "End Date": "2024-07-05"
+            },
+            {
+                "Encounter Type": "Hospital Discharge",
+                "SNOMED-CT Code": "306694007",
+                "Description": "The discharge of the patient from the hospital after an inpatient stay",
+                "Start Date": "2024-07-05",
+                "End Date": "2024-07-05"
+            },
+            {
+                "Encounter Type": "Home health care",
+                "SNOMED-CT Code": "384666001",
+                "Description": "Health care provided by professionals in the patient's home environment",
+                "Start Date": "2024-07-06",
+                "End Date": "n/a"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Harris675, Michael847, MD",
+        "Practitioner Phone": "205-555-9876",
+        "Practitioner Fax": "205-555-2468",
+        "Practitioner Email": "michael.harris675@bmclinic.org",
+        "Practitioner Office Name": "Birmingham Medical Clinic",
+        "Practitioner ID": "1928374650",
+        "Practitioner Address": "2712 Lakeshore Drive, Birmingham, AL 35209"
+    },
+    "Facility_Information": {
+        "Facility Name": "Birmingham Regional Medical Center",
+        "Facility Type": "General Acute Care Hospital",
+        "Facility Phone": "205-555-2000",
+        "Facility Fax": "205-555-2001",
+        "Facility Address": "1701 University Blvd, Birmingham, AL 35233"
+    },
+    "Current_Pregnancy_Information": "n/a",
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-06-29",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Diarrhea",
+                "SNOMED-CT": "62315008",
+                "Onset Date": "2024-06-30",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-06-30",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Vomiting",
+                "SNOMED-CT": "422400008",
+                "Onset Date": "2024-07-01",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fever",
+                "SNOMED-CT": "386661006",
+                "Onset Date": "2024-07-01",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Headache",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2024-07-01",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Malaise",
+                "SNOMED-CT": "367391008",
+                "Onset Date": "2024-07-01",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Dehydration",
+                "SNOMED-CT": "63637008",
+                "Onset Date": "2024-07-01",
+                "Severity": "Moderate",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "38.9",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-07-01 14:30:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "110",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-07-01 14:35:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "22",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-07-01 14:40:00"
+            },
+            {
+                "Vital Sign": "Blood pressure",
+                "Value": "105/65",
+                "SNOMED-CT": "365117001",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-01 14:45:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "97",
+                "SNOMED-CT": "59408-5",
+                "Unit": "%",
+                "Measurement Time": "2024-07-01 14:50:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Severe abdominal cramps and diarrhea",
+        "Past Medical History": "The patient has a history of seasonal allergies and occasional acid reflux, but no other significant medical conditions. He has not had any previous hospitalizations or surgeries. Family history is unremarkable.",
+        "Review of Systems": "Constitutional: Denies fever, chills, or weight changes. Eyes: No vision changes or eye pain. ENT: No sore throat, ear pain, or nasal congestion. Respiratory: No cough, shortness of breath, or chest pain. Cardiovascular: No chest pain, palpitations, or edema. Gastrointestinal: Severe, cramping abdominal pain, nausea, vomiting, and diarrhea for the past 2 days. Genitourinary: No urinary symptoms. Musculoskeletal: No joint pain or swelling. Skin: No rashes or lesions. Neurological: No headaches, dizziness, or weakness. Psychiatric: No mood or sleep disturbances.",
+        "History of Present Illness": "The patient is a 58-year-old male who presented to the emergency department with a 2-day history of severe abdominal cramps and diarrhea. He reports having 10-12 episodes of watery, non-bloody diarrhea per day, accompanied by nausea, vomiting, and generalized abdominal pain. The symptoms began shortly after returning from a week-long vacation in Panama City Beach, Florida, where he dined at various restaurants and participated in beach activities. He denies any recent antibiotic use, travel outside the United States, or sick contacts. He has been unable to tolerate oral intake due to the vomiting and has noticed decreased urine output over the past day.",
+        "Plan of Treatment": "1. Admit to hospital for inpatient management of severe gastroenteritis, likely infectious etiology. 2. Initiate IV fluid resuscitation with normal saline and antiemetic therapy. 3. Order stool culture and ova/parasite studies to identify causative organism. 4. Start empiric antibiotic therapy with ciprofloxacin pending culture results. 5. Strict enteric precautions. 6. Consult dietitian for appropriate dietary advancement once symptoms improve. 7. Monitor closely for signs of dehydration, electrolyte imbalances, and clinical deterioration.",
+        "Vaccine Credential Patient Assertion": "The patient reports being up-to-date on all routine vaccinations, including the annual influenza vaccine. However, he has not received any travel-related vaccines for his recent trip to Florida."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Order Code Description": "Stool culture",
+                "Laboratory Result": "Positive for Salmonella enterica serotype Typhimurium",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Stool",
+                "Specimen Type": "Random",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2024-07-01 15:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "12345"
+            },
+            {
+                "LOINC Order Code Description": "Stool ova and parasite exam",
+                "Laboratory Result": "No ova or parasites seen",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Stool",
+                "Specimen Type": "Random",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-07-01 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "67890"
+            },
+            {
+                "LOINC Order Code Description": "Complete blood count (CBC) with differential",
+                "Laboratory Result": "WBC 14.5 x 10^9/L (elevated), Neutrophils 80% (elevated), Lymphocytes 15% (normal), Monocytes 4% (normal), Eosinophils 1% (normal), Basophils 0% (normal), Hemoglobin 14.2 g/dL (normal), Hematocrit 42.6% (normal), Platelets 220 x 10^9/L (normal)",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "456789123",
+                "Specimen Collection Date": "2024-07-01 16:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "24680"
+            },
+            {
+                "LOINC Order Code Description": "Comprehensive metabolic panel (CMP)",
+                "Laboratory Result": "Sodium 135 mmol/L (normal), Potassium 3.8 mmol/L (normal), Chloride 102 mmol/L (normal), CO2 24 mmol/L (normal), Glucose 98 mg/dL (normal), BUN 18 mg/dL (normal), Creatinine 1.1 mg/dL (normal), Calcium 9.2 mg/dL (normal), Protein 7.0 g/dL (normal), Albumin 4.1 g/dL (normal), Bilirubin 0.6 mg/dL (normal), Alkaline phosphatase 72 U/L (normal), AST 28 U/L (normal), ALT 32 U/L (normal)",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "789456123",
+                "Specimen Collection Date": "2024-07-01 16:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "35791"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Salmonella gastroenteritis",
+                "ICD-10 Code": "A02.0",
+                "SNOMED-CT Code": "11915003",
+                "Diagnosis Date": "2024-07-01",
+                "Onset Date": "2024-06-29",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Dehydration",
+                "ICD-10 Code": "E86.0",
+                "SNOMED-CT Code": "63637008",
+                "Diagnosis Date": "2024-07-01",
+                "Onset Date": "2024-07-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Nausea",
+                "ICD-10 Code": "R11",
+                "SNOMED-CT Code": "422587007",
+                "Diagnosis Date": "2024-07-01",
+                "Onset Date": "2024-06-30",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Vomiting",
+                "ICD-10 Code": "R11",
+                "SNOMED-CT Code": "422400008",
+                "Diagnosis Date": "2024-07-01",
+                "Onset Date": "2024-07-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Fever",
+                "ICD-10 Code": "R50.9",
+                "SNOMED-CT Code": "386661006",
+                "Diagnosis Date": "2024-07-01",
+                "Onset Date": "2024-07-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Headache",
+                "ICD-10 Code": "R51",
+                "SNOMED-CT Code": "25064002",
+                "Diagnosis Date": "2024-07-01",
+                "Onset Date": "2024-07-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Malaise",
+                "ICD-10 Code": "R53.83",
+                "SNOMED-CT Code": "367391008",
+                "Diagnosis Date": "2024-07-01",
+                "Onset Date": "2024-07-01",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Stool culture",
+                "CPT Code": "87046",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-01",
+                "Details": "Stool culture was performed to identify the causative organism for the patient's gastroenteritis symptoms.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Stool ova and parasite exam",
+                "CPT Code": "87177",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-01",
+                "Details": "Stool ova and parasite exam was performed to rule out parasitic causes of the patient's symptoms.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Complete blood count (CBC) with differential",
+                "CPT Code": "85025",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-01",
+                "Details": "CBC with differential was ordered to assess for systemic infection and evaluate the patient's overall health status.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Comprehensive metabolic panel (CMP)",
+                "CPT Code": "80053",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-01",
+                "Details": "CMP was ordered to evaluate the patient's electrolyte levels, kidney function, and liver function in the setting of severe gastroenteritis.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Intravenous fluid administration",
+                "CPT Code": "96360",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-07-01",
+                "Details": "Intravenous fluid resuscitation with normal saline was initiated to treat dehydration and correct fluid and electrolyte imbalances.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Antiemetic therapy",
+                "CPT Code": "n/a",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-07-01",
+                "Details": "Antiemetic medications were administered to control nausea and vomiting.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Antibiotic therapy",
+                "CPT Code": "n/a",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-07-01",
+                "Details": "Empiric antibiotic therapy with ciprofloxacin was initiated to treat the suspected bacterial gastroenteritis.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Dietary counseling",
+                "CPT Code": "n/a",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-06",
+                "Details": "Consultation with a dietitian is planned to provide guidance on appropriate dietary advancement once the patient's symptoms improve.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Home health care",
+                "CPT Code": "n/a",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-06",
+                "Details": "Home health care services will be initiated upon discharge to monitor the patient's recovery and provide any necessary support.",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Ciprofloxacin",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Treatment of Salmonella gastroenteritis",
+                "Administration Mode": "Intravenous",
+                "Dose": "400 mg every 12 hours",
+                "Duration": "7 days",
+                "Start Date": "2024-07-01",
+                "Response": "Positive",
+                "Response Details": "The patient's diarrhea and abdominal cramping improved after initiating ciprofloxacin therapy.",
+                "Observation Date": "2024-07-03"
+            },
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Control of nausea and vomiting",
+                "Administration Mode": "Intravenous",
+                "Dose": "4 mg every 8 hours as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-07-01",
+                "Response": "Positive",
+                "Response Details": "The patient's nausea and vomiting were well-controlled with ondansetron.",
+                "Observation Date": "2024-07-02"
+            },
+            {
+                "Medication Name": "Normal Saline",
+                "Medication Type": "Intravenous Fluid",
+                "Purpose": "Fluid resuscitation and electrolyte replacement",
+                "Administration Mode": "Intravenous",
+                "Dose": "1 liter bolus, then 150 mL/hr continuous infusion",
+                "Duration": "Ongoing",
+                "Start Date": "2024-07-01",
+                "Response": "Positive",
+                "Response Details": "The patient's hydration status improved, and electrolyte levels normalized with intravenous fluid therapy.",
+                "Observation Date": "2024-07-03"
+            },
+            {
+                "Medication Name": "Omeprazole",
+                "Medication Type": "Proton Pump Inhibitor",
+                "Purpose": "Treatment of acid reflux (historical)",
+                "Administration Mode": "Oral",
+                "Dose": "20 mg once daily",
+                "Duration": "Ongoing",
+                "Start Date": "2022-01-01",
+                "Response": "Positive",
+                "Response Details": "The patient's acid reflux symptoms have been well-controlled with omeprazole.",
+                "Observation Date": "2024-06-01"
+            },
+            {
+                "Medication Name": "Loperamide",
+                "Medication Type": "Antidiarrheal",
+                "Purpose": "Control of diarrhea (planned)",
+                "Administration Mode": "Oral",
+                "Dose": "4 mg initially, then 2 mg after each loose stool (maximum 16 mg/day)",
+                "Duration": "As needed",
+                "Start Date": "2024-07-06",
+                "Response": "n/a",
+                "Response Details": "Loperamide will be prescribed upon discharge to manage any residual diarrhea.",
+                "Observation Date": "n/a"
+            }
+        ]
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Everett361 McAllister729",
+        "Report_Header_Age": "58",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-07-10"
+    }
+}

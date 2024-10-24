@@ -1,0 +1,926 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "White",
+        "Ethnicity": "Non-Hispanic",
+        "Patient Age": "60",
+        "Date of Birth": "1964-03-15",
+        "Location": "Marquette, Michigan",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Gustafson724, Leif319",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Retired",
+        "Gender Identity": "Male",
+        "Disability Status": "Disabled",
+        "Education Level": "High school graduate",
+        "Marital Status": "Married",
+        "Smoking Status": "Former smoker",
+        "BMI": "28.5",
+        "Active Military": "No",
+        "Discharged from Military": "Yes",
+        "Primary Insurance": "Medicare",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Not worried at all",
+        "People Living at Address": "2",
+        "Housing Status": "Owns home",
+        "Stress Level": "Somewhat stressed"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1723 Birch Creek Rd., Marquette, MI 49855",
+        "Patient Email": "leif.gustafson724@northmail.com",
+        "Patient Phone": "906-555-3847"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Retired",
+        "Current Industry": "N/A",
+        "Usual Occupation": "Logging Equipment Operator",
+        "Usual Industry": "Forestry and Logging",
+        "Usual Employment Date Range": "Start: 1982-06-01 to 2022-09-30",
+        "Current Job Title": "Retired",
+        "Current Employer": "N/A",
+        "Current Employment Start Date": "2022-10-01",
+        "Annual Income": "$24,000 (Retirement Income)"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Marquette, Michigan",
+                "Purpose": "Routine",
+                "Start Date": "2024-07-10",
+                "End Date": "2024-07-10",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Visited local hepatology clinic for routine check-up and liver function tests."
+            },
+            {
+                "Location": "Ann Arbor, Michigan",
+                "Purpose": "Medical",
+                "Start Date": "2024-05-15",
+                "End Date": "2024-05-17",
+                "Accommodations": "Hotel",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Traveled to University of Michigan Hospital for liver transplant evaluation and consultation with specialists."
+            },
+            {
+                "Location": "Marquette, Michigan",
+                "Purpose": "Routine",
+                "Start Date": "2024-03-20",
+                "End Date": "2024-03-20",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Attended local support group for individuals with hepatitis C and advanced liver disease."
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient has primarily remained local to Marquette, Michigan for routine care related to his hepatitis C and advanced cirrhosis. On 2024-07-10, he visited a local hepatology clinic for a routine check-up and liver function tests. Of note, the patient traveled to Ann Arbor, Michigan from 2024-05-15 to 2024-05-17 for a liver transplant evaluation and consultation with specialists at the University of Michigan Hospital, which is consistent with his status as a liver transplant candidate. On 2024-03-20, he attended a local support group in Marquette for individuals with hepatitis C and advanced liver disease, indicating ongoing engagement with his condition management. No international travel or exposure to high-risk areas for hepatitis C transmission has been reported in the recent travel history."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Worsening abdominal swelling and fatigue",
+        "Patient ID": "3847291",
+        "Encounter Class": "inpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "82736459102",
+        "Start DateTime": "2024-07-08 09:30",
+        "End DateTime": "2024-07-10 14:15",
+        "Discharge Disposition": "Home with home health services",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Hospital admission",
+                "SNOMED-CT Code": "32485007",
+                "Description": "Hospital admission (procedure)",
+                "Start Date": "2024-07-08",
+                "End Date": "2024-07-08"
+            },
+            {
+                "Encounter Type": "Inpatient stay",
+                "SNOMED-CT Code": "183452005",
+                "Description": "Inpatient stay (finding)",
+                "Start Date": "2024-07-08",
+                "End Date": "2024-07-10"
+            },
+            {
+                "Encounter Type": "Gastroenterology consultation",
+                "SNOMED-CT Code": "84251009",
+                "Description": "Gastroenterology consultation (procedure)",
+                "Start Date": "2024-07-08",
+                "End Date": "2024-07-08"
+            },
+            {
+                "Encounter Type": "Hepatology consultation",
+                "SNOMED-CT Code": "310282002",
+                "Description": "Hepatology consultation (procedure)",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Paracentesis",
+                "SNOMED-CT Code": "34284001",
+                "Description": "Paracentesis (procedure)",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Dietary consultation",
+                "SNOMED-CT Code": "11429006",
+                "Description": "Consultation for nutrition (procedure)",
+                "Start Date": "2024-07-10",
+                "End Date": "2024-07-10"
+            },
+            {
+                "Encounter Type": "Hospital discharge",
+                "SNOMED-CT Code": "58000006",
+                "Description": "Patient discharge (procedure)",
+                "Start Date": "2024-07-10",
+                "End Date": "2024-07-10"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Patel902, Jordan218, MD",
+        "Practitioner Phone": "906-555-7823",
+        "Practitioner Fax": "906-555-7824",
+        "Practitioner Email": "j.patel@marquettegastro.com",
+        "Practitioner Office Name": "Marquette Gastroenterology & Hepatology Clinic",
+        "Practitioner ID": "6729384015",
+        "Practitioner Address": "1200 Pine Grove Ave, Suite 300, Marquette, MI 49855"
+    },
+    "Facility_Information": {
+        "Facility Name": "Upper Peninsula Medical Center",
+        "Facility Type": "Hospital",
+        "Facility Phone": "906-555-2000",
+        "Facility Fax": "906-555-2001",
+        "Facility Address": "580 W College Ave, Marquette, MI 49855"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Abdominal swelling",
+                "SNOMED-CT": "389026000",
+                "Onset Date": "2024-06-15",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-06-20",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Jaundice",
+                "SNOMED-CT": "18165001",
+                "Onset Date": "2024-07-01",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Pruritus",
+                "SNOMED-CT": "418363000",
+                "Onset Date": "2024-07-03",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Peripheral edema",
+                "SNOMED-CT": "262484000",
+                "Onset Date": "2024-06-25",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Anorexia",
+                "SNOMED-CT": "79890006",
+                "Onset Date": "2024-06-28",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Muscle wasting",
+                "SNOMED-CT": "248549003",
+                "Onset Date": "2024-06-10",
+                "Severity": "Mild",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Blood pressure",
+                "Value": "135/85",
+                "SNOMED-CT": "75367002",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-08 09:45:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "88",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-07-08 09:45:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "20",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-07-08 09:45:00"
+            },
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "37.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "\u00b0C",
+                "Measurement Time": "2024-07-08 09:45:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "96",
+                "SNOMED-CT": "103228002",
+                "Unit": "%",
+                "Measurement Time": "2024-07-08 09:45:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "82.5",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-07-08 09:50:00"
+            },
+            {
+                "Vital Sign": "Abdominal girth",
+                "Value": "110",
+                "SNOMED-CT": "363812007",
+                "Unit": "cm",
+                "Measurement Time": "2024-07-08 09:50:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Worsening abdominal swelling and fatigue in patient with hepatitis C and advanced cirrhosis",
+        "Past Medical History": "60-year-old male with a history of chronic hepatitis C diagnosed in 1995, likely contracted through IV drug use in the 1980s. Patient developed cirrhosis in 2015 and has been managed for complications of end-stage liver disease since then. History of esophageal varices with one episode of bleeding in 2020, treated with banding. Hepatic encephalopathy, well-controlled on lactulose and rifaximin. Recurrent ascites requiring intermittent paracentesis. Hypertension, well-controlled on medication. Type 2 diabetes mellitus, diet-controlled. History of alcohol abuse, sober since 2010. Former smoker, quit in 2015. No known drug allergies.",
+        "Review of Systems": "General: Reports increased fatigue and weakness. Denies fever or chills.\nSkin: Notes worsening jaundice and mild itching. No rashes or lesions.\nHEENT: No headaches, vision changes, or hearing problems. Denies epistaxis.\nCardiovascular: Denies chest pain or palpitations. Reports mild shortness of breath with exertion.\nRespiratory: No cough or wheezing. Denies hemoptysis.\nGastrointestinal: Complains of increased abdominal swelling and discomfort. No abdominal pain. Reports decreased appetite but denies nausea or vomiting. No changes in bowel habits. Denies melena or hematochezia.\nGenitourinary: Notes slightly decreased urine output. No dysuria or hematuria.\nMusculoskeletal: Reports muscle wasting, particularly in arms and legs. No joint pain or swelling.\nNeurological: Denies confusion or changes in mental status. No tremors or seizures.\nPsychiatric: Mood stable. Denies depression or anxiety.\nEndocrine: No heat or cold intolerance. Reports stable blood sugars.\nHematologic/Lymphatic: Denies easy bruising or bleeding. No enlarged lymph nodes.",
+        "History of Present Illness": "Mr. Gustafson is a 60-year-old male with a long-standing history of hepatitis C and advanced cirrhosis, presenting with worsening abdominal swelling and fatigue over the past three weeks. He reports a gradual increase in abdominal girth, accompanied by increasing fatigue and weakness. The patient notes that his usual activities have become more challenging due to these symptoms. He has also observed a yellowing of his skin and eyes over the past week, along with mild itching. His appetite has decreased, although he denies nausea or vomiting. Mr. Gustafson mentions that his urine output has slightly decreased, but he denies any pain or burning with urination. He has been adherent to his medication regimen, including diuretics, but feels they are less effective than usual. The patient denies any recent alcohol use or changes in his diet. He has not experienced any confusion or changes in mental status. Mr. Gustafson last underwent paracentesis two months ago and feels he is due for another procedure. He expresses concern about the progression of his liver disease and is anxious to discuss his status as a liver transplant candidate.",
+        "Plan of Treatment": "1. Admit patient for management of worsening ascites and evaluation of liver function.\n2. Perform large volume paracentesis to relieve abdominal distension and discomfort.\n3. Obtain comprehensive metabolic panel, complete blood count, coagulation studies, and serum albumin level.\n4. Assess MELD-Na score to update liver transplant status.\n5. Adjust diuretic regimen as needed based on response to paracentesis and laboratory results.\n6. Monitor for signs of spontaneous bacterial peritonitis; perform diagnostic paracentesis if clinically indicated.\n7. Optimize nutritional status: consult with dietitian for low-sodium, high-protein diet plan.\n8. Continue current medications for hepatic encephalopathy prevention (lactulose and rifaximin).\n9. Evaluate for any subtle signs of hepatic encephalopathy and adjust treatment if necessary.\n10. Assess for any new varices or need for repeat endoscopic evaluation.\n11. Consider initiating midodrine to improve effective arterial blood volume and renal perfusion.\n12. Educate patient on sodium and fluid restriction, monitoring for signs of hepatic encephalopathy, and when to seek immediate medical attention.\n13. Coordinate with the liver transplant team to update the patient's status and discuss any additional evaluations needed.\n14. Arrange follow-up appointment with hepatology in 2 weeks after discharge.\n15. Provide home health services for weight monitoring, abdominal girth measurements, and medication management post-discharge.",
+        "Vaccine Credential Patient Assertion": "Patient reports receiving hepatitis A and B vaccines in 2015 after cirrhosis diagnosis. Up to date on influenza vaccinations, last received in October 2023. Received COVID-19 primary series and one booster in 2022. Unsure about pneumococcal vaccination status. Declines to provide information about childhood vaccinations."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "1742-6",
+                "LOINC Order Code Description": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "98",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123456"
+            },
+            {
+                "LOINC Laboratory Order Code": "1920-8",
+                "LOINC Order Code Description": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "112",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123457"
+            },
+            {
+                "LOINC Laboratory Order Code": "1975-2",
+                "LOINC Order Code Description": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "3.8",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123458"
+            },
+            {
+                "LOINC Laboratory Order Code": "2160-0",
+                "LOINC Order Code Description": "Creatinine [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "1.4",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123459"
+            },
+            {
+                "LOINC Laboratory Order Code": "2345-7",
+                "LOINC Order Code Description": "Glucose [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "118",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654325",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123460"
+            },
+            {
+                "LOINC Laboratory Order Code": "2885-2",
+                "LOINC Order Code Description": "Protein [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "6.2",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654326",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123461"
+            },
+            {
+                "LOINC Laboratory Order Code": "2951-2",
+                "LOINC Order Code Description": "Sodium [Moles/volume] in Serum or Plasma",
+                "Laboratory Result": "132",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654327",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123462"
+            },
+            {
+                "LOINC Laboratory Order Code": "6768-6",
+                "LOINC Order Code Description": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "210",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654328",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123463"
+            },
+            {
+                "LOINC Laboratory Order Code": "1751-7",
+                "LOINC Order Code Description": "Albumin [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "2.8",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654329",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123464"
+            },
+            {
+                "LOINC Laboratory Order Code": "6301-6",
+                "LOINC Order Code Description": "INR in Platelet poor plasma by Coagulation assay",
+                "Laboratory Result": "1.8",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Plasma",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654330",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123465"
+            },
+            {
+                "LOINC Laboratory Order Code": "777-3",
+                "LOINC Order Code Description": "Platelets [#/volume] in Blood by Automated count",
+                "Laboratory Result": "85000",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654331",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123466"
+            },
+            {
+                "LOINC Laboratory Order Code": "4544-3",
+                "LOINC Order Code Description": "Hematocrit [Volume Fraction] of Blood by Automated count",
+                "Laboratory Result": "32.5",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654332",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123467"
+            },
+            {
+                "LOINC Laboratory Order Code": "2498-4",
+                "LOINC Order Code Description": "Iron [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "45",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654333",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123468"
+            },
+            {
+                "LOINC Laboratory Order Code": "2276-4",
+                "LOINC Order Code Description": "Ferritin [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "220",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654334",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123469"
+            },
+            {
+                "LOINC Laboratory Order Code": "2324-2",
+                "LOINC Order Code Description": "Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "185",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654335",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123470"
+            },
+            {
+                "LOINC Laboratory Order Code": "14957-5",
+                "LOINC Order Code Description": "Microalbumin [Mass/volume] in Urine",
+                "Laboratory Result": "45",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Urine",
+                "Specimen Type": "Urine",
+                "Specimen ID": "987654336",
+                "Specimen Collection Date": "2024-07-08 11:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123471"
+            },
+            {
+                "LOINC Laboratory Order Code": "1988-5",
+                "LOINC Order Code Description": "C reactive protein [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "3.2",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654337",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123472"
+            },
+            {
+                "LOINC Laboratory Order Code": "5902-2",
+                "LOINC Order Code Description": "Prothrombin time (PT) [Time] in Platelet poor plasma by Coagulation assay",
+                "Laboratory Result": "18.5",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Plasma",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654338",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123473"
+            },
+            {
+                "LOINC Laboratory Order Code": "2532-0",
+                "LOINC Order Code Description": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "320",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654339",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123474"
+            },
+            {
+                "LOINC Laboratory Order Code": "2093-3",
+                "LOINC Order Code Description": "Cholesterol [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "145",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654340",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123475"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Chronic hepatitis C with cirrhosis",
+                "ICD-10 Code": "B18.2",
+                "SNOMED-CT Code": "197321007",
+                "Diagnosis Date": "2015-03-20",
+                "Onset Date": "1995-09-15",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Hepatic encephalopathy",
+                "ICD-10 Code": "K72.91",
+                "SNOMED-CT Code": "72836002",
+                "Diagnosis Date": "2020-11-10",
+                "Onset Date": "2020-11-05",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Ascites",
+                "ICD-10 Code": "R18.8",
+                "SNOMED-CT Code": "389026000",
+                "Diagnosis Date": "2021-02-15",
+                "Onset Date": "2021-02-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Esophageal varices without bleeding",
+                "ICD-10 Code": "I85.00",
+                "SNOMED-CT Code": "195474006",
+                "Diagnosis Date": "2019-08-22",
+                "Onset Date": "2019-08-22",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Portal hypertension",
+                "ICD-10 Code": "K76.6",
+                "SNOMED-CT Code": "34742003",
+                "Diagnosis Date": "2018-05-30",
+                "Onset Date": "2018-05-30",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Hepatorenal syndrome",
+                "ICD-10 Code": "K76.7",
+                "SNOMED-CT Code": "14760008",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-07-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Thrombocytopenia",
+                "ICD-10 Code": "D69.6",
+                "SNOMED-CT Code": "302215000",
+                "Diagnosis Date": "2022-09-12",
+                "Onset Date": "2022-09-12",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Hyponatremia",
+                "ICD-10 Code": "E87.1",
+                "SNOMED-CT Code": "89627008",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-07-08",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Hepatic osteopathy",
+                "ICD-10 Code": "M89.9",
+                "SNOMED-CT Code": "4598005",
+                "Diagnosis Date": "2023-04-18",
+                "Onset Date": "2023-04-18",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Essential hypertension",
+                "ICD-10 Code": "I10",
+                "SNOMED-CT Code": "59621000",
+                "Diagnosis Date": "2010-03-05",
+                "Onset Date": "2010-03-05",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Type 2 diabetes mellitus without complications",
+                "ICD-10 Code": "E11.9",
+                "SNOMED-CT Code": "44054006",
+                "Diagnosis Date": "2018-11-20",
+                "Onset Date": "2018-11-20",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Paracentesis of abdominal cavity",
+                "CPT Code": "49082",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "Large volume paracentesis performed to relieve abdominal distension and discomfort. Approximately 4 liters of ascitic fluid removed.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Esophagogastroduodenoscopy, diagnostic, including collection of specimen(s) by brushing or washing, when performed (separate procedure)",
+                "CPT Code": "43235",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-25",
+                "Details": "Scheduled for surveillance of esophageal varices and assessment of portal hypertensive gastropathy.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Liver elastography, mechanically induced shear wave (eg, vibration), without imaging, with interpretation and report",
+                "CPT Code": "91200",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-10",
+                "Details": "Performed to assess liver stiffness and monitor progression of cirrhosis.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Therapeutic paracentesis, with or without diagnostic sample (separate procedure)",
+                "CPT Code": "49083",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-07-10",
+                "Details": "Initiated albumin infusion post-paracentesis to prevent circulatory dysfunction.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Abdominal ultrasound with duplex Doppler",
+                "CPT Code": "76700",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "Performed to assess liver morphology, portal vein flow, and screen for hepatocellular carcinoma.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Insertion of tunneled centrally inserted central venous catheter, without subcutaneous port or pump",
+                "CPT Code": "36558",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-15",
+                "Details": "Scheduled for placement of central line for potential long-term albumin infusions and easier blood draws.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis C antibody",
+                "CPT Code": "86803",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "Routine monitoring of hepatitis C antibody levels.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis C virus, quantification",
+                "CPT Code": "87522",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "Performed to assess viral load and monitor treatment efficacy.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Hemodialysis procedure with single physician evaluation",
+                "CPT Code": "90935",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-12",
+                "Details": "Scheduled for management of hepatorenal syndrome and fluid overload.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "CT abdomen and pelvis with contrast",
+                "CPT Code": "74177",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-18",
+                "Details": "Scheduled for comprehensive evaluation of liver, assessment of portal hypertension, and screening for hepatocellular carcinoma.",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Sofosbuvir/Velpatasvir",
+                "Medication Type": "Antiviral",
+                "Purpose": "Treatment of Hepatitis C",
+                "Administration Mode": "Oral",
+                "Dose": "400mg/100mg",
+                "Duration": "12 weeks",
+                "Start Date": "2024-01-15",
+                "Response": "Partial response",
+                "Response Details": "Viral load decreased but not undetectable",
+                "Observation Date": "2024-04-08"
+            },
+            {
+                "Medication Name": "Furosemide",
+                "Medication Type": "Loop diuretic",
+                "Purpose": "Management of ascites and edema",
+                "Administration Mode": "Oral",
+                "Dose": "40mg twice daily",
+                "Duration": "Ongoing",
+                "Start Date": "2023-09-01",
+                "Response": "Moderate improvement",
+                "Response Details": "Reduction in ascites and peripheral edema, but not complete resolution",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Spironolactone",
+                "Medication Type": "Potassium-sparing diuretic",
+                "Purpose": "Management of ascites and edema",
+                "Administration Mode": "Oral",
+                "Dose": "100mg daily",
+                "Duration": "Ongoing",
+                "Start Date": "2023-09-01",
+                "Response": "Moderate improvement",
+                "Response Details": "Synergistic effect with furosemide in managing fluid retention",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Lactulose",
+                "Medication Type": "Laxative",
+                "Purpose": "Prevention and treatment of hepatic encephalopathy",
+                "Administration Mode": "Oral",
+                "Dose": "30mL three times daily",
+                "Duration": "Ongoing",
+                "Start Date": "2020-11-15",
+                "Response": "Good response",
+                "Response Details": "Effective in preventing recurrent episodes of hepatic encephalopathy",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Rifaximin",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Prevention of hepatic encephalopathy",
+                "Administration Mode": "Oral",
+                "Dose": "550mg twice daily",
+                "Duration": "Ongoing",
+                "Start Date": "2021-03-10",
+                "Response": "Good response",
+                "Response Details": "No episodes of hepatic encephalopathy since initiation",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Propranolol",
+                "Medication Type": "Beta-blocker",
+                "Purpose": "Prevention of variceal bleeding",
+                "Administration Mode": "Oral",
+                "Dose": "20mg twice daily",
+                "Duration": "Ongoing",
+                "Start Date": "2020-09-01",
+                "Response": "Good response",
+                "Response Details": "No episodes of variceal bleeding since initiation",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Lisinopril",
+                "Medication Type": "ACE inhibitor",
+                "Purpose": "Management of hypertension",
+                "Administration Mode": "Oral",
+                "Dose": "10mg daily",
+                "Duration": "Ongoing",
+                "Start Date": "2010-03-05",
+                "Response": "Good response",
+                "Response Details": "Blood pressure well-controlled",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Metformin",
+                "Medication Type": "Biguanide",
+                "Purpose": "Management of type 2 diabetes",
+                "Administration Mode": "Oral",
+                "Dose": "500mg twice daily",
+                "Duration": "Ongoing",
+                "Start Date": "2018-11-20",
+                "Response": "Good response",
+                "Response Details": "HbA1c levels maintained within target range",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Ursodeoxycholic acid",
+                "Medication Type": "Bile acid",
+                "Purpose": "Management of cholestasis",
+                "Administration Mode": "Oral",
+                "Dose": "300mg twice daily",
+                "Duration": "Ongoing",
+                "Start Date": "2022-05-15",
+                "Response": "Moderate improvement",
+                "Response Details": "Slight reduction in pruritus and improvement in liver enzymes",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Vitamin K",
+                "Medication Type": "Vitamin supplement",
+                "Purpose": "Correction of coagulopathy",
+                "Administration Mode": "Subcutaneous",
+                "Dose": "10mg weekly",
+                "Duration": "Ongoing",
+                "Start Date": "2023-01-10",
+                "Response": "Mild improvement",
+                "Response Details": "Slight improvement in INR values",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Albumin",
+                "Medication Type": "Plasma expander",
+                "Purpose": "Management of ascites and prevention of hepatorenal syndrome",
+                "Administration Mode": "Intravenous",
+                "Dose": "25g in 100mL",
+                "Duration": "As needed",
+                "Start Date": "2024-07-09",
+                "Response": "Good response",
+                "Response Details": "Improvement in serum albumin levels and renal function",
+                "Observation Date": "2024-07-10"
+            },
+            {
+                "Medication Name": "Midodrine",
+                "Medication Type": "Alpha-1 adrenergic agonist",
+                "Purpose": "Management of hepatorenal syndrome",
+                "Administration Mode": "Oral",
+                "Dose": "7.5mg three times daily",
+                "Duration": "Ongoing",
+                "Start Date": "2024-07-09",
+                "Response": "Moderate improvement",
+                "Response Details": "Slight increase in blood pressure and urine output",
+                "Observation Date": "2024-07-10"
+            },
+            {
+                "Medication Name": "Pantoprazole",
+                "Medication Type": "Proton pump inhibitor",
+                "Purpose": "Prevention of gastrointestinal bleeding",
+                "Administration Mode": "Oral",
+                "Dose": "40mg daily",
+                "Duration": "Ongoing",
+                "Start Date": "2020-08-15",
+                "Response": "Good response",
+                "Response Details": "No episodes of gastrointestinal bleeding",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Zinc sulfate",
+                "Medication Type": "Mineral supplement",
+                "Purpose": "Management of zinc deficiency",
+                "Administration Mode": "Oral",
+                "Dose": "220mg daily",
+                "Duration": "Ongoing",
+                "Start Date": "2023-03-01",
+                "Response": "Mild improvement",
+                "Response Details": "Slight improvement in taste alterations and appetite",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Thiamine",
+                "Medication Type": "Vitamin supplement",
+                "Purpose": "Prevention of Wernicke's encephalopathy",
+                "Administration Mode": "Oral",
+                "Dose": "100mg daily",
+                "Duration": "Ongoing",
+                "Start Date": "2022-11-01",
+                "Response": "Good response",
+                "Response Details": "No signs of thiamine deficiency",
+                "Observation Date": "2024-07-08"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. The report details a 60-year-old white male with advanced hepatitis C cirrhosis, diagnosed in 1995. He has developed complications including ascites, esophageal varices, and hepatic encephalopathy. Recently hospitalized for worsening ascites and fatigue, he underwent paracentesis and evaluation for liver transplantation. His condition is managed with diuretics, lactulose, rifaximin, and other supportive medications. Lab results indicate deteriorating liver function. The patient is considered a liver transplant candidate with a moderate prognosis."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Leif319 Gustafson724",
+        "Report_Header_Age": "60",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-07-11"
+    }
+}

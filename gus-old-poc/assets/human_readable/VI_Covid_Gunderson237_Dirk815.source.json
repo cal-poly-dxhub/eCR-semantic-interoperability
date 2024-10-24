@@ -1,0 +1,512 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "White",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "60",
+        "Date of Birth": "1963-06-16",
+        "Location": "Frederiksted",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Gunderson237, Dirk815",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed",
+        "Gender Identity": "Male",
+        "Disability Status": "No disability",
+        "Education Level": "Bachelor's Degree",
+        "Marital Status": "Married",
+        "Smoking Status": "Former smoker",
+        "BMI": "26.5",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Private Health Insurance",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Not at all",
+        "People Living at Address": "2",
+        "Housing Status": "Owner-occupied housing unit",
+        "Stress Level": "Moderate amount of stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "2517 Sycamore Lane, Frederiksted, VI 00840",
+        "Patient Email": "dirk.gunderson237@email.com",
+        "Patient Phone": "340-555-8296"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Financial Manager",
+        "Current Industry": "Finance and Insurance",
+        "Usual Occupation": "Financial Manager",
+        "Usual Industry": "Finance and Insurance",
+        "Usual Employment Date Range": "Start: 2000-09-01 to current",
+        "Current Job Title": "Senior Financial Manager",
+        "Current Employer": "Fidelity Investments, 245 Summer St, Boston, MA 02210, (800) 343-3548",
+        "Current Employment Start Date": "2010-03-15",
+        "Annual Income": "145000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Frederiksted, US Virgin Islands",
+                "Purpose": "Vacation",
+                "Start Date": "2024-05-25",
+                "End Date": "2024-06-14",
+                "Accommodations": "Marriott Frenchman's Cove, Frederiksted, VI 00840",
+                "Mode of Travel": "Air travel",
+                "Activities": "Gunderson237 traveled to the US Virgin Islands for a Caribbean vacation with his wife. They stayed at the Marriott Frenchman's Cove resort in Frederiksted and spent most days relaxing on the beach, snorkeling, and taking guided tours of the island's historical sites."
+            },
+            {
+                "Location": "Boston, MA, USA",
+                "Purpose": "Business",
+                "Start Date": "2024-05-20",
+                "End Date": "2024-05-24",
+                "Accommodations": "The Westin Copley Place, Boston, MA 02116",
+                "Mode of Travel": "Air travel",
+                "Activities": "Gunderson237 traveled to Boston for a week-long financial management training seminar hosted by his employer, Fidelity Investments. During the days he attended the training sessions and corporate meetings."
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Mr. Gunderson237 is a 60-year-old white male who recently traveled to Frederiksted, US Virgin Islands for a vacation from May 25th to June 14th, 2024. He stayed at the Marriott Frenchman's Cove resort and participated in activities such as beach visits, snorkeling, and guided tours of historical sites. Prior to his vacation, he traveled to Boston, MA from May 20th to May 24th for a work-related financial management training seminar hosted by his employer, Fidelity Investments. Both trips involved air travel. His recent travel to the US Virgin Islands is relevant given the reportable condition of COVID-19 in Frederiksted."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Shortness of breath and chest pain",
+        "Patient ID": "9876543",
+        "Encounter Class": "emergency",
+        "Encounter Status": "finished",
+        "Encounter ID": "87654321000",
+        "Start DateTime": "2024-06-14 16:30",
+        "End DateTime": "2024-06-16 10:45",
+        "Discharge Disposition": "Discharged home with home health care service",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Emergency Hospital Admission",
+                "SNOMED-CT Code": "183452005",
+                "Description": "Emergency hospital admission is the act of admitting a patient to a hospital for emergency care.",
+                "Start Date": "2024-06-14",
+                "End Date": "2024-06-16"
+            },
+            {
+                "Encounter Type": "Inpatient Encounter",
+                "SNOMED-CT Code": "32485007",
+                "Description": "An encounter for an inpatient episode of care.",
+                "Start Date": "2024-06-14",
+                "End Date": "2024-06-16"
+            },
+            {
+                "Encounter Type": "Hospital Discharge",
+                "SNOMED-CT Code": "306237005",
+                "Description": "The discharge of a patient from a hospital.",
+                "Start Date": "2024-06-16",
+                "End Date": "n/a"
+            },
+            {
+                "Encounter Type": "Referral to Home Health Care",
+                "SNOMED-CT Code": "305208004",
+                "Description": "Referral to home health care services.",
+                "Start Date": "2024-06-16",
+                "End Date": "n/a"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "McBean567, William987, MD",
+        "Practitioner Phone": "340-555-7892",
+        "Practitioner Fax": "340-555-2109",
+        "Practitioner Email": "william.mcbean567@islandhealth.vi",
+        "Practitioner Office Name": "Frederiksted Community Health Center",
+        "Practitioner ID": "7412589036",
+        "Practitioner Address": "2 Hospital Ground, Frederiksted, VI 00840"
+    },
+    "Facility_Information": {
+        "Facility Name": "Juan F. Luis Hospital & Medical Center",
+        "Facility Type": "General Acute Care Hospital",
+        "Facility Phone": "340-776-8311",
+        "Facility Fax": "340-719-1435",
+        "Facility Address": "4007 Estate Diamond Ruby, Christiansted, VI 00820"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Shortness of breath",
+                "SNOMED-CT": "267036007",
+                "Onset Date": "2024-06-13",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Chest pain",
+                "SNOMED-CT": "29857009",
+                "Onset Date": "2024-06-13",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Cough",
+                "SNOMED-CT": "49727002",
+                "Onset Date": "2024-06-10",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fever",
+                "SNOMED-CT": "386661006",
+                "Onset Date": "2024-06-11",
+                "Severity": "Mild",
+                "Status": "Inactive"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-06-10",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Myalgia",
+                "SNOMED-CT": "68962001",
+                "Onset Date": "2024-06-11",
+                "Severity": "Mild",
+                "Status": "Inactive"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "38.9",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-06-14 16:45:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "26",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-06-14 16:50:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "110",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-06-14 16:55:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "91",
+                "SNOMED-CT": "59408-5",
+                "Unit": "percent",
+                "Measurement Time": "2024-06-14 17:00:00"
+            },
+            {
+                "Vital Sign": "Blood pressure",
+                "Value": "145/92",
+                "SNOMED-CT": "75367002",
+                "Unit": "mm[Hg]",
+                "Measurement Time": "2024-06-14 17:05:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Shortness of breath and chest pain.",
+        "Past Medical History": "Mr. Gunderson237 is a 60-year-old white male with a past medical history of hypertension, controlled with lisinopril, and hyperlipidemia, managed with atorvastatin. He is a former smoker, having quit 10 years ago after smoking for 25 years. He has no known drug allergies. His family history is significant for coronary artery disease in his father.",
+        "Review of Systems": "Constitutional: Fatigue, no fever or chills. HEENT: Normocephalic, atraumatic. Eyes: No visual changes. Cardiovascular: Chest pain, shortness of breath. Respiratory: Cough, dyspnea on exertion. Gastrointestinal: No nausea, vomiting, or diarrhea. Genitourinary: No issues. Musculoskeletal: No joint pain or swelling. Skin: No rashes or lesions. Neurological: No headaches, dizziness, or focal deficits. Psychiatric: Mood and affect appropriate.",
+        "History of Present Illness": "Mr. Gunderson237 is a 60-year-old white male who presented to the emergency department with complaints of shortness of breath and chest pain that began 2 days ago. He reports that he recently returned from a vacation in Frederiksted, US Virgin Islands, where he spent time on the beach and participated in snorkeling activities. Prior to his vacation, he had traveled to Boston for a work-related training seminar. His shortness of breath initially started as mild exertional dyspnea but has progressively worsened to the point where he is now experiencing shortness of breath at rest. The chest pain is described as a dull, aching sensation in the center of his chest that radiates to his left arm. It is aggravated by deep breaths and relieved by rest. He also reports a dry cough that started a few days before the onset of shortness of breath and chest pain. He denies any fever, chills, nausea, vomiting, or diarrhea.",
+        "Plan of Treatment": "1. Admit to the hospital for further evaluation and management of suspected COVID-19 pneumonia. 2. Obtain chest X-ray and CT scan of the chest to assess for pulmonary involvement. 3. Start supplemental oxygen therapy and monitor oxygen saturation levels closely. 4. Obtain COVID-19 PCR test and respiratory viral panel. 5. Start empiric treatment with remdesivir and dexamethasone for COVID-19 pneumonia. 6. Consult pulmonology and critical care for potential need for escalation of care. 7. Monitor closely for any signs of respiratory decompensation or hemodynamic instability. 8. Provide supportive care with intravenous fluids, antipyretics, and analgesics as needed.",
+        "Vaccine Credential Patient Assertion": "Mr. Gunderson237 reports that he received two doses of the Pfizer-BioNTech COVID-19 vaccine in March and April of 2021, but he has not received any booster doses."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Order Code Description": "SARS-CoV-2 (COVID-19) RNA Pnl Resp NAA+probe",
+                "Laboratory Result": "Detected",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Nasopharyngeal swab",
+                "Specimen Type": "Swab",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2024-06-14 17:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "87654321"
+            },
+            {
+                "LOINC Order Code Description": "Respiratory virus Pnl PCR.ND",
+                "Laboratory Result": "Negative for influenza A/B, RSV, parainfluenza, adenovirus, human metapneumovirus",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Nasopharyngeal swab",
+                "Specimen Type": "Swab",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-06-14 17:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "12345678"
+            },
+            {
+                "LOINC Order Code Description": "Chest CT Angio+CTA",
+                "Laboratory Result": "Bilateral multifocal peripheral ground-glass and consolidative pulmonary opacities consistent with COVID-19 pneumonia. No evidence of pulmonary embolism.",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "n/a",
+                "Specimen Type": "n/a",
+                "Specimen ID": "n/a",
+                "Specimen Collection Date": "2024-06-14 18:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "45678912"
+            },
+            {
+                "LOINC Order Code Description": "Chest 2 View XR",
+                "Laboratory Result": "Bilateral peripheral airspace opacities consistent with multifocal pneumonia.",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "n/a",
+                "Specimen Type": "n/a",
+                "Specimen ID": "n/a",
+                "Specimen Collection Date": "2024-06-14 17:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "23456789"
+            },
+            {
+                "LOINC Order Code Description": "CBC with Differential",
+                "Laboratory Result": "WBC 12.5 K/uL (elevated), Neutrophils 85% (elevated), Lymphocytes 10% (low)",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "567891234",
+                "Specimen Collection Date": "2024-06-14 18:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "98765432"
+            },
+            {
+                "LOINC Order Code Description": "Comprehensive Metabolic Panel",
+                "Laboratory Result": "Within normal limits",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "456789123",
+                "Specimen Collection Date": "2024-06-14 18:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "65432109"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "COVID-19 pneumonia",
+                "ICD-10 Code": "J12.82",
+                "SNOMED-CT Code": "840539006",
+                "Diagnosis Date": "2024-06-14",
+                "Onset Date": "2024-06-13",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Acute respiratory distress",
+                "ICD-10 Code": "J80",
+                "SNOMED-CT Code": "67782005",
+                "Diagnosis Date": "2024-06-14",
+                "Onset Date": "2024-06-13",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Cough",
+                "ICD-10 Code": "R05",
+                "SNOMED-CT Code": "49727002",
+                "Diagnosis Date": "2024-06-14",
+                "Onset Date": "2024-06-10",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Fatigue",
+                "ICD-10 Code": "R53.83",
+                "SNOMED-CT Code": "84229001",
+                "Diagnosis Date": "2024-06-14",
+                "Onset Date": "2024-06-10",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Essential hypertension",
+                "ICD-10 Code": "I10",
+                "SNOMED-CT Code": "38341003",
+                "Diagnosis Date": "2019-01-15",
+                "Onset Date": "2019-01-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Hyperlipidemia",
+                "ICD-10 Code": "E78.5",
+                "SNOMED-CT Code": "55822004",
+                "Diagnosis Date": "2021-03-22",
+                "Onset Date": "2021-02-01",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Intravenous infusion of remdesivir",
+                "CPT Code": "J0248",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-06-14",
+                "Details": "Remdesivir was initiated for the treatment of COVID-19 pneumonia.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Intravenous infusion of dexamethasone",
+                "CPT Code": "J7506",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-06-14",
+                "Details": "Dexamethasone was initiated as an adjunctive treatment for COVID-19 pneumonia.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Chest CT angiography with contrast",
+                "CPT Code": "71275",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-14",
+                "Details": "CT angiography of the chest was performed to evaluate for pulmonary involvement of COVID-19 and to rule out pulmonary embolism.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Chest X-ray, 2 views",
+                "CPT Code": "71046",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-14",
+                "Details": "Chest X-ray was performed as an initial imaging study to evaluate for pulmonary infiltrates.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Oxygen therapy, continuous",
+                "CPT Code": "94658",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-06-14",
+                "Details": "Supplemental oxygen therapy was initiated to maintain adequate oxygenation in the setting of COVID-19 pneumonia.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Referral to home health care",
+                "CPT Code": "99601",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-16",
+                "Details": "Home health care services were arranged to provide continued monitoring and support after hospital discharge.",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Remdesivir",
+                "Medication Type": "Antiviral",
+                "Purpose": "Treatment of COVID-19 pneumonia",
+                "Administration Mode": "Intravenous infusion",
+                "Dose": "200 mg loading dose on day 1, followed by 100 mg once daily",
+                "Duration": "5 days",
+                "Start Date": "2024-06-14",
+                "Response": "Improved",
+                "Response Details": "After initiating remdesivir, the patient's respiratory status gradually improved over the next few days, with decreased oxygen requirements and improved oxygenation.",
+                "Observation Date": "2024-06-17"
+            },
+            {
+                "Medication Name": "Dexamethasone",
+                "Medication Type": "Corticosteroid",
+                "Purpose": "Adjunctive treatment for COVID-19 pneumonia",
+                "Administration Mode": "Intravenous infusion",
+                "Dose": "6 mg once daily",
+                "Duration": "10 days",
+                "Start Date": "2024-06-14",
+                "Response": "Improved",
+                "Response Details": "The addition of dexamethasone helped to reduce inflammation and improve the patient's respiratory status when used in conjunction with remdesivir.",
+                "Observation Date": "2024-06-17"
+            },
+            {
+                "Medication Name": "Lisinopril",
+                "Medication Type": "Angiotensin-Converting Enzyme (ACE) Inhibitor",
+                "Purpose": "Treatment of hypertension",
+                "Administration Mode": "Oral",
+                "Dose": "20 mg once daily",
+                "Duration": "Ongoing",
+                "Start Date": "2019-01-15",
+                "Response": "Well-controlled",
+                "Response Details": "The patient's blood pressure has been well-controlled with lisinopril, with no reported side effects.",
+                "Observation Date": "2024-06-14"
+            },
+            {
+                "Medication Name": "Atorvastatin",
+                "Medication Type": "Statin",
+                "Purpose": "Treatment of hyperlipidemia",
+                "Administration Mode": "Oral",
+                "Dose": "40 mg once daily",
+                "Duration": "Ongoing",
+                "Start Date": "2021-03-22",
+                "Response": "Well-controlled",
+                "Response Details": "The patient's lipid levels have been within target range since starting atorvastatin, with no reported side effects.",
+                "Observation Date": "2024-06-14"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic, Antipyretic",
+                "Purpose": "Treatment of fever and pain",
+                "Administration Mode": "Oral",
+                "Dose": "650 mg every 6 hours as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-06-14",
+                "Response": "Effective",
+                "Response Details": "Acetaminophen was used as needed to manage the patient's fever and provide relief from body aches and discomfort associated with COVID-19 pneumonia.",
+                "Observation Date": "2024-06-15"
+            },
+            {
+                "Medication Name": "Albuterol",
+                "Medication Type": "Bronchodilator",
+                "Purpose": "Management of respiratory symptoms",
+                "Administration Mode": "Inhalation",
+                "Dose": "2 puffs every 4-6 hours as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-06-15",
+                "Response": "Moderately effective",
+                "Response Details": "Albuterol was used as needed to help relieve the patient's shortness of breath and wheezing associated with COVID-19 pneumonia, with moderate improvement in symptoms.",
+                "Observation Date": "2024-06-16"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 60-year-old white male tourist developed COVID-19 pneumonia after travel to the US Virgin Islands. He presented with shortness of breath, chest pain, and cough. Imaging confirmed bilateral pulmonary opacities. He was hospitalized and treated with remdesivir and dexamethasone, resulting in gradual improvement."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Dirk815 Gunderson237",
+        "Report_Header_Age": "60",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-06-16"
+    }
+}

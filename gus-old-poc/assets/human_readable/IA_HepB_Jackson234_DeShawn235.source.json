@@ -1,0 +1,456 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "Black or African American",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "24",
+        "Date of Birth": "1999-06-17",
+        "Location": "Des Moines, Iowa",
+        "Country of Residence": "United States of America",
+        "Country of Nationality": "United States of America",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Jackson234, DeShawn235",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed",
+        "Gender Identity": "Male",
+        "Disability Status": "No disability",
+        "Education Level": "High school graduate",
+        "Marital Status": "Never married",
+        "Smoking Status": "Former smoker",
+        "BMI": "25.8",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Medicaid",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Not worried about losing housing",
+        "People Living at Address": "2",
+        "Housing Status": "Rents home",
+        "Stress Level": "Moderately stressed"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1247 Oakwood Lane, Des Moines, IA 50311",
+        "Patient Email": "deshawn.jacksonxyz@example.com",
+        "Patient Phone": "515-555-8792"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Warehouse worker",
+        "Current Industry": "Logistics and Supply Chain",
+        "Usual Occupation": "Warehouse worker",
+        "Usual Industry": "Logistics and Supply Chain",
+        "Usual Employment Date Range": "Start: 2018-08-01 to current",
+        "Current Job Title": "Material Handler",
+        "Current Employer": "Amazon Fulfillment Center, 4700 NE 14th St, Des Moines, IA 50313, (515) 262-8121",
+        "Current Employment Start Date": "2018-08-01",
+        "Annual Income": 32000
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Des Moines, Iowa",
+                "Purpose": "Routine",
+                "Start Date": "2024-05-01",
+                "End Date": "2024-06-16",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Routine daily activities in hometown"
+            }
+        ]
+    },
+    "Travel_History_Narrative": "History of Travel Narrative: Mr. Jackson, DeShawn is a 24-year-old Black, non-Hispanic male residing in Des Moines, Iowa. His travel history from May 1, 2024, to June 16, 2024, indicates routine daily activities within his hometown of Des Moines, Iowa, with no recent travel outside of the local area. This limited travel history does not suggest any significant risk factors for acquiring or transmitting hepatitis B virus through travel-related exposures during the specified timeframe.",
+    "Encounter_Details": {
+        "Chief Complaint": "Fatigue, nausea, and yellowing of the skin",
+        "Patient ID": "1234567",
+        "Encounter Class": "outpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "12345678901",
+        "Start DateTime": "2024-06-10 09:30",
+        "End DateTime": "2024-06-10 11:15",
+        "Discharge Disposition": "Home",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient Consultation",
+                "SNOMED-CT Code": "185347001",
+                "Description": "Outpatient procedure",
+                "Start Date": "2024-06-10",
+                "End Date": "2024-06-10"
+            },
+            {
+                "Encounter Type": "Laboratory Test",
+                "SNOMED-CT Code": "1201000175108",
+                "Description": "Diagnostic service",
+                "Start Date": "2024-06-10",
+                "End Date": "2024-06-10"
+            },
+            {
+                "Encounter Type": "Outpatient Follow-up",
+                "SNOMED-CT Code": "185349003",
+                "Description": "Outpatient follow up",
+                "Start Date": "2024-06-17",
+                "End Date": "2024-06-17"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Reynolds815, Olivia229, MD",
+        "Practitioner Phone": "515-555-7892",
+        "Practitioner Fax": "515-555-2387",
+        "Practitioner Email": "olivia.reynolds815@exampleclinic.com",
+        "Practitioner Office Name": "Example Primary Care Clinic",
+        "Practitioner ID": "1928374650",
+        "Practitioner Address": "2718 Westown Parkway, West Des Moines, IA 50266"
+    },
+    "Facility_Information": {
+        "Facility Name": "Example Primary Care Clinic",
+        "Facility Type": "Ambulatory Health Care Facility",
+        "Facility Phone": "515-555-2468",
+        "Facility Fax": "515-555-9876",
+        "Facility Address": "2718 Westown Parkway, West Des Moines, IA 50266"
+    },
+    "Current_Pregnancy_Information": "n/a",
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Jaundice",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2024-06-08",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-06-05",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "16932000",
+                "Onset Date": "2024-06-07",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Malaise",
+                "SNOMED-CT": "367636005",
+                "Onset Date": "2024-06-06",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Decreased appetite",
+                "SNOMED-CT": "79890006",
+                "Onset Date": "2024-06-08",
+                "Severity": "Moderate",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "38.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-06-10 09:35:00"
+            },
+            {
+                "Vital Sign": "Pulse rate",
+                "Value": "88",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-06-10 09:35:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "16",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-06-10 09:35:00"
+            },
+            {
+                "Vital Sign": "Blood pressure systolic",
+                "Value": "128",
+                "SNOMED-CT": "163020007",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-10 09:35:00"
+            },
+            {
+                "Vital Sign": "Blood pressure diastolic",
+                "Value": "82",
+                "SNOMED-CT": "163019004",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-10 09:35:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "82.1",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-06-10 09:40:00"
+            },
+            {
+                "Vital Sign": "Body height",
+                "Value": "175",
+                "SNOMED-CT": "8302-2",
+                "Unit": "cm",
+                "Measurement Time": "2024-06-10 09:40:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Evaluation of jaundice, fatigue, nausea, and malaise.",
+        "Past Medical History": "Mr. Jackson, DeShawn is a 24-year-old Black, non-Hispanic male with no significant past medical history. He is a former smoker but quit 2 years ago. He has no known drug allergies. Family history is non-contributory.",
+        "Review of Systems": "Constitutional: Positive for fatigue, malaise, and decreased appetite. Negative for fever, chills, or weight loss. Eyes: Positive for jaundice. Negative for eye pain or vision changes. Respiratory: Negative for cough, shortness of breath, or chest pain. Gastrointestinal: Positive for nausea. Negative for vomiting, diarrhea, constipation, or abdominal pain. Genitourinary: Negative for dysuria, hematuria, or urinary frequency. Musculoskeletal: Negative for joint pain, swelling, or muscle weakness. Skin: Positive for jaundice. Negative for rash or pruritus. Neurological: Negative for headache, dizziness, or numbness. Psychiatric: Negative for depression, anxiety, or sleep disturbances.",
+        "History of Present Illness": "Mr. Jackson, DeShawn is a 24-year-old Black, non-Hispanic male who presents with a 5-day history of fatigue, malaise, and a 3-day history of nausea and jaundice. He reports that the fatigue and malaise started gradually but have progressively worsened. The nausea is intermittent and not associated with vomiting. He denies any abdominal pain, diarrhea, or constipation. He also denies any fever, chills, or night sweats. He has not experienced any recent travel or exposure to individuals with similar symptoms. He denies any high-risk sexual behavior or intravenous drug use. He reports no recent changes in diet, medications, or supplements.",
+        "Plan of Treatment": "1. Diagnosis: Acute hepatitis B infection, symptomatic. 2. Laboratory tests: Hepatitis B surface antigen, hepatitis B core antibody, hepatitis B surface antibody, liver function tests, complete blood count, and viral hepatitis panel. 3. Supportive care: Encourage rest, hydration, and a balanced diet. 4. Medications: Prescribe antiemetics as needed for nausea. 5. Follow-up: Schedule a follow-up appointment in 1 week to review lab results and monitor progress. 6. Counseling: Provide education on hepatitis B transmission, prevention, and the importance of avoiding alcohol and hepatotoxic substances during the acute phase. 7. Referral: Consider referral to a gastroenterologist or hepatologist if the condition worsens or complications arise.",
+        "Vaccine Credential Patient Assertion": "The patient reports receiving the hepatitis B vaccine series as a child but does not have documentation available."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Order Code Description": "Hepatitis B surface antigen",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2024-06-10 10:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "87654321"
+            },
+            {
+                "LOINC Order Code Description": "Hepatitis B core antibody",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "234567890",
+                "Specimen Collection Date": "2024-06-10 10:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "98765432"
+            },
+            {
+                "LOINC Order Code Description": "Hepatitis B surface antibody",
+                "Laboratory Result": "Negative",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "345678901",
+                "Specimen Collection Date": "2024-06-10 10:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "09876543"
+            },
+            {
+                "LOINC Order Code Description": "Alanine aminotransferase (ALT)",
+                "Laboratory Result": "120 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "456789012",
+                "Specimen Collection Date": "2024-06-10 10:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "10987654"
+            },
+            {
+                "LOINC Order Code Description": "Aspartate aminotransferase (AST)",
+                "Laboratory Result": "95 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "567890123",
+                "Specimen Collection Date": "2024-06-10 10:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "21098765"
+            },
+            {
+                "LOINC Order Code Description": "Total bilirubin",
+                "Laboratory Result": "3.2 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "678901234",
+                "Specimen Collection Date": "2024-06-10 10:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "32109876"
+            },
+            {
+                "LOINC Order Code Description": "Complete blood count (CBC) with differential",
+                "Laboratory Result": "Within normal limits",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole Blood",
+                "Specimen ID": "789012345",
+                "Specimen Collection Date": "2024-06-10 10:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "43210987"
+            },
+            {
+                "LOINC Order Code Description": "Viral hepatitis panel",
+                "Laboratory Result": "Hepatitis B virus detected, other viral hepatitis markers negative",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "890123456",
+                "Specimen Collection Date": "2024-06-10 10:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "54321098"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Acute hepatitis B virus infection",
+                "ICD-10 Code": "B16.9",
+                "SNOMED-CT Code": "66071002",
+                "Diagnosis Date": "2024-06-10",
+                "Onset Date": "2024-06-05",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Jaundice",
+                "ICD-10 Code": "R17",
+                "SNOMED-CT Code": "25064002",
+                "Diagnosis Date": "2024-06-10",
+                "Onset Date": "2024-06-08",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Fatigue",
+                "ICD-10 Code": "R53.83",
+                "SNOMED-CT Code": "84229001",
+                "Diagnosis Date": "2024-06-10",
+                "Onset Date": "2024-06-05",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Nausea",
+                "ICD-10 Code": "R11.0",
+                "SNOMED-CT Code": "16932000",
+                "Diagnosis Date": "2024-06-10",
+                "Onset Date": "2024-06-07",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Malaise",
+                "ICD-10 Code": "R53.81",
+                "SNOMED-CT Code": "367636005",
+                "Diagnosis Date": "2024-06-10",
+                "Onset Date": "2024-06-06",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Decreased appetite",
+                "ICD-10 Code": "R63.0",
+                "SNOMED-CT Code": "79890006",
+                "Diagnosis Date": "2024-06-10",
+                "Onset Date": "2024-06-08",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Venipuncture",
+                "CPT Code": "36415",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-10",
+                "Details": "Blood draw for laboratory testing",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Supportive care",
+                "CPT Code": "N/A",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-06-10",
+                "Details": "Encourage rest, hydration, and a balanced diet",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Medication",
+                "Procedure Description": "Antiemetic medication administration",
+                "CPT Code": "N/A",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-10",
+                "Details": "Prescribe antiemetics as needed for nausea",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Follow-up",
+                "Procedure Description": "Office visit",
+                "CPT Code": "99213",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-17",
+                "Details": "Follow-up appointment to review lab results and monitor progress",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Treatment of nausea",
+                "Administration Mode": "Oral",
+                "Dose": "8mg every 8 hours as needed",
+                "Duration": "As needed for nausea",
+                "Start Date": "2024-06-10",
+                "Response": "Good",
+                "Response Details": "Nausea improved after administration",
+                "Observation Date": "2024-06-11"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic, antipyretic",
+                "Purpose": "Treatment of fever, headache, or body aches",
+                "Administration Mode": "Oral",
+                "Dose": "650mg every 6 hours as needed",
+                "Duration": "As needed for fever or pain",
+                "Start Date": "2024-06-10",
+                "Response": "Fair",
+                "Response Details": "Mild relief of fatigue and malaise",
+                "Observation Date": "2024-06-11"
+            },
+            {
+                "Medication Name": "Multivitamin",
+                "Medication Type": "Vitamin/Mineral Supplement",
+                "Purpose": "Nutritional support",
+                "Administration Mode": "Oral",
+                "Dose": "1 tablet daily",
+                "Duration": "Ongoing",
+                "Start Date": "2024-06-10",
+                "Response": "Unknown",
+                "Response Details": "No specific therapeutic response observed",
+                "Observation Date": "2024-06-17"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 24-year-old Black, non-Hispanic male presented with acute hepatitis B infection, jaundice, fatigue, nausea, and malaise. Laboratory tests confirmed the diagnosis. Supportive care and antiemetics were provided, with a planned follow-up appointment to monitor progress."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "DeShawn235 Jackson234",
+        "Report_Header_Age": "24",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-06-17"
+    }
+}

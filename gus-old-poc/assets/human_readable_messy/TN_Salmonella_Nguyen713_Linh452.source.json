@@ -1,0 +1,661 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "Asian",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "39",
+        "Date of Birth": "1985-01-15",
+        "Location": "Nashville, TN",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Nguyen713, Linh452",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed full-time",
+        "Gender Identity": "Female",
+        "Disability Status": "No disability",
+        "Education Level": "Bachelor's degree",
+        "Marital Status": "Married",
+        "Smoking Status": "Never smoker",
+        "BMI": "23.5",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Private health insurance",
+        "Refugee Status": "Not a refugee",
+        "Correctional Facility Status": "Not in correctional facility",
+        "Lose Housing Worry": "Not worried at all",
+        "People Living at Address": "3",
+        "Housing Status": "Rent",
+        "Stress Level": "Moderate stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "2735 Magnolia Terrace, Nashville, TN 37211",
+        "Patient Email": "linh.nguyen452@emailprovider.com",
+        "Patient Phone": "615-555-3892"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Software Engineer",
+        "Current Industry": "Information Technology",
+        "Usual Occupation": "Software Engineer",
+        "Usual Industry": "Information Technology",
+        "Usual Employment Date Range": "Start: 2010-09-01 to current",
+        "Current Job Title": "Senior Software Engineer",
+        "Current Employer": "TechNova Solutions, 150 Broadway Ave, Nashville, TN 37203, 615-555-7890",
+        "Current Employment Start Date": "2018-03-15",
+        "Annual Income": "$105,000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Nashville, TN",
+                "Purpose": "Routine",
+                "Start Date": "2024-07-06",
+                "End Date": "2024-07-06",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Attended a local food festival in Centennial Park, sampled various food items including a chicken salad that tasted slightly off"
+            },
+            {
+                "Location": "Atlanta, GA",
+                "Purpose": "Business",
+                "Start Date": "2024-06-28",
+                "End Date": "2024-06-30",
+                "Accommodations": "Hyatt Regency Atlanta",
+                "Mode of Travel": "Commercial flight",
+                "Activities": "Attended a tech conference, ate at various restaurants including a buffet-style establishment"
+            },
+            {
+                "Location": "Nashville, TN",
+                "Purpose": "Routine",
+                "Start Date": "2024-06-25",
+                "End Date": "2024-06-25",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Visited a newly opened deli for lunch with coworkers, tried their special of the day which was a chicken sandwich"
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient reports attending a local food festival in Nashville on 2024-07-06 where she sampled various foods, including a chicken salad that tasted 'slightly off'. Prior to this, patient traveled to Atlanta, GA from 2024-06-28 to 2024-06-30 for a business conference, during which she ate at multiple restaurants including a buffet-style establishment. On 2024-06-25, patient visited a newly opened deli in Nashville for lunch and consumed their special of the day, a chicken sandwich. These recent dining experiences, particularly the questionable chicken salad and exposure to buffet-style food service, may be relevant to the patient's current presentation of salmonella poisoning."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Severe abdominal pain and diarrhea",
+        "Patient ID": "8675309",
+        "Encounter Class": "emergency",
+        "Encounter Status": "finished",
+        "Encounter ID": "12345678901",
+        "Start DateTime": "2024-07-08 14:30",
+        "End DateTime": "2024-07-09 18:45",
+        "Discharge Disposition": "Discharged to home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Emergency department visit",
+                "SNOMED-CT Code": "4525004",
+                "Description": "Emergency department patient visit",
+                "Start Date": "2024-07-08",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Observation",
+                "SNOMED-CT Code": "448951000124107",
+                "Description": "Admission to observation unit",
+                "Start Date": "2024-07-08",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Nursing care",
+                "SNOMED-CT Code": "385941006",
+                "Description": "Nursing care",
+                "Start Date": "2024-07-08",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Dietary consultation",
+                "SNOMED-CT Code": "11429006",
+                "Description": "Consultation for nutrition",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Discharge planning",
+                "SNOMED-CT Code": "10983005",
+                "Description": "Hospital discharge planning",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Williams541, Sarah369, MD",
+        "Practitioner Phone": "615-555-7231",
+        "Practitioner Fax": "615-555-7232",
+        "Practitioner Email": "sarah.williams@nashvillemedical.com",
+        "Practitioner Office Name": "Nashville Medical Center",
+        "Practitioner ID": "7392614580",
+        "Practitioner Address": "1823 Maple Grove Drive, Nashville, TN 37204"
+    },
+    "Facility_Information": {
+        "Facility Name": "Nashville General Hospital",
+        "Facility Type": "Hospital",
+        "Facility Phone": "615-555-9876",
+        "Facility Fax": "615-555-9877",
+        "Facility Address": "1817 Patterson Street, Nashville, TN 37203"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-07-07",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Diarrhea",
+                "SNOMED-CT": "62315008",
+                "Onset Date": "2024-07-07",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-07-07",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Vomiting",
+                "SNOMED-CT": "422400008",
+                "Onset Date": "2024-07-08",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fever",
+                "SNOMED-CT": "386661006",
+                "Onset Date": "2024-07-08",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-07-08",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Headache",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2024-07-08",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Dehydration",
+                "SNOMED-CT": "34095006",
+                "Onset Date": "2024-07-08",
+                "Severity": "Moderate",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "39.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "C",
+                "Measurement Time": "2024-07-08 14:35:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "102",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/min",
+                "Measurement Time": "2024-07-08 14:35:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "22",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/min",
+                "Measurement Time": "2024-07-08 14:35:00"
+            },
+            {
+                "Vital Sign": "Systolic blood pressure",
+                "Value": "118",
+                "SNOMED-CT": "271649006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-08 14:35:00"
+            },
+            {
+                "Vital Sign": "Diastolic blood pressure",
+                "Value": "72",
+                "SNOMED-CT": "271650006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-08 14:35:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "97",
+                "SNOMED-CT": "103228002",
+                "Unit": "%",
+                "Measurement Time": "2024-07-08 14:35:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "58.5",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-07-08 14:40:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Severe abdominal pain, diarrhea, and vomiting for 2 days",
+        "Past Medical History": "Patient has a history of mild lactose intolerance and seasonal allergies. No prior hospitalizations or surgeries. No known history of gastrointestinal disorders. Last physical examination was 8 months ago, with normal results. Family history is negative for inflammatory bowel disease or colon cancer.",
+        "Review of Systems": "General: Reports fatigue and weakness. Denies recent weight changes.\nENT: No sore throat or ear pain. Denies nasal congestion.\nCardiovascular: Denies chest pain or palpitations. No history of heart problems.\nRespiratory: No shortness of breath or cough.\nGastrointestinal: Severe abdominal pain, primarily in lower abdomen. Frequent watery diarrhea (>6 times/day). Nausea and vomiting since yesterday. No blood in stool observed.\nGenitourinary: Denies dysuria or increased urinary frequency. Last menstrual period was 2 weeks ago, regular cycle.\nMusculoskeletal: Reports general body aches. No joint swelling or specific muscle pain.\nSkin: No rashes or unusual marks noted.\nNeurological: Complains of mild headache. No dizziness or loss of consciousness.\nPsychiatric: Anxious about symptoms but otherwise normal mood.",
+        "History of Present Illness": "Linh Nguyen, a 39-year-old Asian female, presents to the ER with a 2-day history of severe abdominal pain and diarrhea. Symptoms began approximately 24 hours after attending a local food festival where she consumed various foods, including a chicken salad that she reports tasted 'slightly off'. The abdominal pain is described as crampy, diffuse, and worsening over time. Diarrhea is watery, occurring >6 times daily, without visible blood. Nausea and vomiting started yesterday, further compromising oral intake. Patient also reports a fever, though not measured at home. She has attempted to manage symptoms with over-the-counter antidiarrheal medication and oral rehydration solutions, but with minimal relief. Of note, patient traveled to Atlanta for a business trip 10 days ago, where she ate at several restaurants including a buffet. She denies similar symptoms in family members or close contacts. Patient is concerned about dehydration due to persistent symptoms and reduced oral intake.",
+        "Plan of Treatment": "1. Admit patient for observation and management of moderate salmonella gastroenteritis.\n2. Initiate IV fluid resuscitation with lactated Ringer's solution to address dehydration.\n3. Collect stool samples for culture and sensitivity testing to confirm Salmonella infection.\n4. Symptomatic treatment:\n   a. Ondansetron 4mg IV q6h as needed for nausea and vomiting\n   b. Acetaminophen 650mg PO q6h for fever and pain\n5. Monitor electrolytes and renal function; correct as needed.\n6. Initiate clear liquid diet as tolerated, advance as symptoms improve.\n7. Hold antibiotics pending culture results and clinical course, as most cases of non-invasive salmonellosis are self-limiting.\n8. Educate patient on proper hand hygiene and food safety practices.\n9. Notify local health department of suspected salmonella case.\n10. Reassess in 24 hours for clinical improvement. If no improvement or worsening symptoms, consider blood cultures and possible antibiotic therapy.\n11. Discharge planning to include follow-up with PCP within 1 week and dietary counseling.",
+        "Vaccine Credential Patient Assertion": "Patient reports being up-to-date on all recommended adult vaccinations, including annual influenza vaccine. Last tetanus booster was 3 years ago. No recent travel vaccines required. Patient declined HPV vaccine in the past due to personal choice. COVID-19 vaccination status: fully vaccinated with primary series and one booster dose."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "6331-3",
+                "LOINC Order Code Description": "Salmonella sp identified in Stool by Culture",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Stool",
+                "Specimen Type": "Feces",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-07-08 15:20:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "ORD123456"
+            },
+            {
+                "LOINC Laboratory Order Code": "2339-0",
+                "LOINC Order Code Description": "Glucose [Mass/volume] in Blood",
+                "Laboratory Result": "110 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-07-08 15:25:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123457"
+            },
+            {
+                "LOINC Laboratory Order Code": "2160-0",
+                "LOINC Order Code Description": "Creatinine [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "0.9 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-07-08 15:25:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123458"
+            },
+            {
+                "LOINC Laboratory Order Code": "2951-2",
+                "LOINC Order Code Description": "Sodium [Moles/volume] in Serum or Plasma",
+                "Laboratory Result": "135 mmol/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-07-08 15:25:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123459"
+            },
+            {
+                "LOINC Laboratory Order Code": "2823-3",
+                "LOINC Order Code Description": "Potassium [Moles/volume] in Serum or Plasma",
+                "Laboratory Result": "3.4 mmol/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "987654325",
+                "Specimen Collection Date": "2024-07-08 15:25:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123460"
+            },
+            {
+                "LOINC Laboratory Order Code": "2075-0",
+                "LOINC Order Code Description": "Chloride [Moles/volume] in Serum or Plasma",
+                "Laboratory Result": "98 mmol/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "987654326",
+                "Specimen Collection Date": "2024-07-08 15:25:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123461"
+            },
+            {
+                "LOINC Laboratory Order Code": "789-8",
+                "LOINC Order Code Description": "Erythrocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "4.2 x10^6/uL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654327",
+                "Specimen Collection Date": "2024-07-08 15:25:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123462"
+            },
+            {
+                "LOINC Laboratory Order Code": "6690-2",
+                "LOINC Order Code Description": "Leukocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "12.5 x10^3/uL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654328",
+                "Specimen Collection Date": "2024-07-08 15:25:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123463"
+            },
+            {
+                "LOINC Laboratory Order Code": "777-3",
+                "LOINC Order Code Description": "Platelets [#/volume] in Blood by Automated count",
+                "Laboratory Result": "230 x10^3/uL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654329",
+                "Specimen Collection Date": "2024-07-08 15:25:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123464"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Salmonella enteritis",
+                "ICD-10 Code": "A02.0",
+                "SNOMED-CT Code": "58410006",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-07-07",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Moderate dehydration",
+                "ICD-10 Code": "E86.1",
+                "SNOMED-CT Code": "370969007",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-07-08",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Acute abdominal pain",
+                "ICD-10 Code": "R10.0",
+                "SNOMED-CT Code": "30473006",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-07-07",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Nausea and vomiting",
+                "ICD-10 Code": "R11.2",
+                "SNOMED-CT Code": "16932000",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-07-07",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Fever",
+                "ICD-10 Code": "R50.9",
+                "SNOMED-CT Code": "386661006",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-07-08",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Fatigue",
+                "ICD-10 Code": "R53.83",
+                "SNOMED-CT Code": "84229001",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-07-08",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Stool culture",
+                "CPT Code": "87045",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "Stool culture to confirm Salmonella infection",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Intravenous infusion, hydration; initial, 31 minutes to 1 hour",
+                "CPT Code": "96360",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "IV fluid resuscitation with lactated Ringer's solution to address dehydration",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Complete blood count (CBC) with differential",
+                "CPT Code": "85025",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "To assess for signs of infection and evaluate hydration status",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Basic metabolic panel",
+                "CPT Code": "80048",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "To evaluate electrolyte balance and renal function",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Therapeutic, prophylactic, or diagnostic injection; intravenous push, single or initial substance/drug",
+                "CPT Code": "96374",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "Administration of ondansetron for nausea and vomiting",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Electrocardiogram, routine ECG with at least 12 leads; with interpretation and report",
+                "CPT Code": "93000",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "To assess for any cardiac abnormalities due to electrolyte imbalance",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Insertion of peripheral intravenous catheter",
+                "CPT Code": "36000",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "Placement of IV line for fluid and medication administration",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Abdominal ultrasound",
+                "CPT Code": "76700",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-09",
+                "Details": "To rule out any abdominal complications if symptoms persist",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Dietary counseling",
+                "CPT Code": "97802",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-09",
+                "Details": "Nutritional counseling for post-Salmonella diet management",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Treat nausea and vomiting",
+                "Administration Mode": "Intravenous",
+                "Dose": "4 mg",
+                "Duration": "Every 6 hours as needed",
+                "Start Date": "2024-07-08",
+                "Response": "Moderate improvement",
+                "Response Details": "Patient reported decreased nausea and vomiting frequency after administration",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic, Antipyretic",
+                "Purpose": "Reduce fever and alleviate pain",
+                "Administration Mode": "Oral",
+                "Dose": "650 mg",
+                "Duration": "Every 6 hours as needed",
+                "Start Date": "2024-07-08",
+                "Response": "Mild improvement",
+                "Response Details": "Patient's fever reduced slightly, mild pain relief reported",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Lactated Ringer's Solution",
+                "Medication Type": "Intravenous Fluid",
+                "Purpose": "Rehydration and electrolyte replacement",
+                "Administration Mode": "Intravenous",
+                "Dose": "1000 mL",
+                "Duration": "Over 8 hours",
+                "Start Date": "2024-07-08",
+                "Response": "Significant improvement",
+                "Response Details": "Patient's hydration status improved, urine output increased",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Loperamide",
+                "Medication Type": "Antidiarrheal",
+                "Purpose": "Reduce frequency of diarrhea",
+                "Administration Mode": "Oral",
+                "Dose": "4 mg initially, then 2 mg after each loose stool",
+                "Duration": "As needed, not to exceed 16 mg/day",
+                "Start Date": "2024-07-09",
+                "Response": "Moderate improvement",
+                "Response Details": "Frequency of diarrhea decreased from >6 times/day to 3-4 times/day",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Potassium Chloride",
+                "Medication Type": "Electrolyte Supplement",
+                "Purpose": "Correct hypokalemia",
+                "Administration Mode": "Oral",
+                "Dose": "20 mEq",
+                "Duration": "Twice daily",
+                "Start Date": "2024-07-09",
+                "Response": "Mild improvement",
+                "Response Details": "Serum potassium levels slowly improving",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Probiotics (Lactobacillus and Bifidobacterium)",
+                "Medication Type": "Dietary Supplement",
+                "Purpose": "Support gut microbiome recovery",
+                "Administration Mode": "Oral",
+                "Dose": "1 capsule",
+                "Duration": "Once daily",
+                "Start Date": "2024-07-09",
+                "Response": "Not yet observed",
+                "Response Details": "Too early to determine effect",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Ciprofloxacin",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Treat Salmonella infection",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg",
+                "Duration": "Twice daily for 7 days",
+                "Start Date": "2024-07-09",
+                "Response": "Pending",
+                "Response Details": "Antibiotic therapy initiated after confirmation of Salmonella infection",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Loratadine",
+                "Medication Type": "Antihistamine",
+                "Purpose": "Manage seasonal allergies (pre-existing condition)",
+                "Administration Mode": "Oral",
+                "Dose": "10 mg",
+                "Duration": "Once daily",
+                "Start Date": "2024-01-15",
+                "Response": "Effective",
+                "Response Details": "Patient reports good control of allergy symptoms",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Multivitamin",
+                "Medication Type": "Dietary Supplement",
+                "Purpose": "General health maintenance",
+                "Administration Mode": "Oral",
+                "Dose": "1 tablet",
+                "Duration": "Once daily",
+                "Start Date": "2023-11-01",
+                "Response": "Satisfactory",
+                "Response Details": "Patient reports feeling generally well when taking regularly",
+                "Observation Date": "2024-07-08"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 39-year-old Asian female presented to the ER on 2024-07-08 with severe abdominal pain and diarrhea, which began after attending a food festival on 2024-07-06. Symptoms worsened over 48 hours, including nausea, vomiting, and fever. Lab tests confirmed Salmonella infection. The patient was admitted for observation, treated with IV fluids for moderate dehydration, and given symptomatic relief medications. Antibiotic therapy was initiated after confirmation of Salmonella. The patient's condition was classified as moderate, with recovery expected."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Linh452 Nguyen713",
+        "Report_Header_Age": "39",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-07-10"
+    }
+}

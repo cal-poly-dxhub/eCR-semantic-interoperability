@@ -1,0 +1,651 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "Black or African American",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "22",
+        "Date of Birth": "2002-06-21",
+        "Location": "West Allis, Wisconsin",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Washington743, Darius291",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed part-time",
+        "Gender Identity": "Male",
+        "Disability Status": "No disability",
+        "Education Level": "Some college",
+        "Marital Status": "Never married",
+        "Smoking Status": "Current every day smoker",
+        "BMI": "28.4",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Medicaid",
+        "Refugee Status": "Not a refugee",
+        "Correctional Facility Status": "Not in correctional facility",
+        "Lose Housing Worry": "Somewhat worried",
+        "People Living at Address": "3",
+        "Housing Status": "Renting",
+        "Stress Level": "Moderate stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1742 Maple Creek Dr., Apt 3B, West Allis, WI 53214",
+        "Patient Email": "darius.washington291@emailprovider.com",
+        "Patient Phone": "414-555-7829"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Retail Sales Associate",
+        "Current Industry": "Retail",
+        "Usual Occupation": "Retail Sales Associate",
+        "Usual Industry": "Retail",
+        "Usual Employment Date Range": "Start: 2022-09-15 to current",
+        "Current Job Title": "Sales Associate",
+        "Current Employer": "Midwest Electronics, 2200 S 108th St, West Allis, WI 53227, 414-555-9000",
+        "Current Employment Start Date": "2022-09-15",
+        "Annual Income": "$18,500"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Milwaukee, Wisconsin",
+                "Purpose": "Social events",
+                "Start Date": "2024-06-15",
+                "End Date": "2024-06-15",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Public bus",
+                "Activities": "Attended a food festival in downtown Milwaukee, sampling various street foods including tacos, kebabs, and ice cream."
+            },
+            {
+                "Location": "Chicago, Illinois",
+                "Purpose": "Family",
+                "Start Date": "2024-05-25",
+                "End Date": "2024-05-27",
+                "Accommodations": "Family member's home",
+                "Mode of Travel": "Car",
+                "Activities": "Visited family for Memorial Day weekend. Attended a large family barbecue in a local park, where homemade potato salad and grilled meats were served."
+            },
+            {
+                "Location": "Madison, Wisconsin",
+                "Purpose": "Business",
+                "Start Date": "2024-04-10",
+                "End Date": "2024-04-11",
+                "Accommodations": "Budget hotel",
+                "Mode of Travel": "Company carpool",
+                "Activities": "Attended a retail sales training seminar. Ate at various fast food establishments and the hotel's continental breakfast."
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient reports recent travel history potentially relevant to Salmonella infection. On 2024-06-15, attended a food festival in Milwaukee, sampling various street foods including tacos, kebabs, and ice cream, which could be potential sources of foodborne illness. From 2024-05-25 to 2024-05-27, visited family in Chicago for Memorial Day weekend, participating in a large family barbecue where homemade potato salad and grilled meats were served - both high-risk foods for Salmonella if improperly prepared or stored. Earlier, on 2024-04-10 to 2024-04-11, traveled to Madison for work, eating at various fast food establishments and a hotel continental breakfast, which could also be potential exposure sources. No international travel reported."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Severe abdominal pain and fever",
+        "Patient ID": "2937465",
+        "Encounter Class": "inpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "84629173650",
+        "Start DateTime": "2024-06-18 14:30",
+        "End DateTime": "2024-06-20 16:45",
+        "Discharge Disposition": "Home with outpatient follow-up",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Emergency department visit",
+                "SNOMED-CT Code": "4525004",
+                "Description": "Emergency department patient visit",
+                "Start Date": "2024-06-18",
+                "End Date": "2024-06-18"
+            },
+            {
+                "Encounter Type": "Hospital admission",
+                "SNOMED-CT Code": "32485007",
+                "Description": "Hospital admission procedure",
+                "Start Date": "2024-06-18",
+                "End Date": "2024-06-18"
+            },
+            {
+                "Encounter Type": "Inpatient stay",
+                "SNOMED-CT Code": "183452005",
+                "Description": "Hospital inpatient stay",
+                "Start Date": "2024-06-18",
+                "End Date": "2024-06-20"
+            },
+            {
+                "Encounter Type": "Infectious disease consultation",
+                "SNOMED-CT Code": "84251009",
+                "Description": "Infectious disease consultation",
+                "Start Date": "2024-06-19",
+                "End Date": "2024-06-19"
+            },
+            {
+                "Encounter Type": "Intravenous fluid management",
+                "SNOMED-CT Code": "127784005",
+                "Description": "Intravenous fluid management",
+                "Start Date": "2024-06-18",
+                "End Date": "2024-06-20"
+            },
+            {
+                "Encounter Type": "Antibiotic therapy",
+                "SNOMED-CT Code": "182817000",
+                "Description": "Antibiotic therapy",
+                "Start Date": "2024-06-18",
+                "End Date": "2024-06-20"
+            },
+            {
+                "Encounter Type": "Hospital discharge",
+                "SNOMED-CT Code": "58000006",
+                "Description": "Patient discharge",
+                "Start Date": "2024-06-20",
+                "End Date": "2024-06-20"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Tanaka118, Hana553, MD",
+        "Practitioner Phone": "414-555-3276",
+        "Practitioner Fax": "414-555-8901",
+        "Practitioner Email": "dr.tanaka@westallismedical.com",
+        "Practitioner Office Name": "West Allis Medical Center",
+        "Practitioner ID": "7392615804",
+        "Practitioner Address": "8901 W Lincoln Ave, West Allis, WI 53227"
+    },
+    "Facility_Information": {
+        "Facility Name": "West Allis Memorial Hospital",
+        "Facility Type": "Hospital",
+        "Facility Phone": "414-555-2000",
+        "Facility Fax": "414-555-2001",
+        "Facility Address": "8901 W Lincoln Ave, West Allis, WI 53227"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Fever",
+                "SNOMED-CT": "386661006",
+                "Onset Date": "2024-06-16",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-06-16",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Diarrhea",
+                "SNOMED-CT": "62315008",
+                "Onset Date": "2024-06-16",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-06-16",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Vomiting",
+                "SNOMED-CT": "422400008",
+                "Onset Date": "2024-06-17",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-06-17",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Headache",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2024-06-17",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Chills",
+                "SNOMED-CT": "43724002",
+                "Onset Date": "2024-06-18",
+                "Severity": "Moderate",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "39.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-06-18 14:35:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "112",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-06-18 14:35:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "22",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-06-18 14:35:00"
+            },
+            {
+                "Vital Sign": "Systolic blood pressure",
+                "Value": "98",
+                "SNOMED-CT": "271649006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-18 14:35:00"
+            },
+            {
+                "Vital Sign": "Diastolic blood pressure",
+                "Value": "60",
+                "SNOMED-CT": "271650006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-18 14:35:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "97",
+                "SNOMED-CT": "103228002",
+                "Unit": "%",
+                "Measurement Time": "2024-06-18 14:35:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "86.2",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-06-18 14:40:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Severe abdominal pain, fever, and diarrhea for 3 days",
+        "Past Medical History": "Patient has no significant past medical history. He reports occasional alcohol use and is a current smoker (1/2 pack per day for 4 years). No known drug allergies. No previous hospitalizations or surgeries. Up-to-date on routine vaccinations as a child, but has not received any recent vaccinations.",
+        "Review of Systems": "General: Positive for fever, chills, fatigue, and weakness. Negative for weight loss or night sweats.\nGastrointestinal: Positive for severe abdominal pain, nausea, vomiting, and watery diarrhea. Negative for blood in stool or constipation.\nCardiovascular: Negative for chest pain or palpitations. Positive for mild lightheadedness upon standing.\nRespiratory: Negative for cough, shortness of breath, or wheezing.\nGenitourinary: Negative for dysuria or hematuria. Reports darker urine, likely due to dehydration.\nMusculoskeletal: Positive for generalized body aches. Negative for joint swelling or specific joint pain.\nSkin: Negative for rashes or lesions.\nNeurological: Positive for mild headache. Negative for confusion, seizures, or focal weakness.\nPsychiatric: Negative for anxiety or depression, but reports feeling distressed about his symptoms.",
+        "History of Present Illness": "Mr. Washington is a 22-year-old African American male who presents to the emergency department with a 3-day history of progressively worsening abdominal pain, fever, and diarrhea. The abdominal pain is described as severe, crampy, and diffuse. He reports having 8-10 watery, non-bloody stools per day. The patient has been experiencing fever with a maximum temperature of 39.5\u00b0C (103.1\u00b0F) at home. He also complains of nausea and has had multiple episodes of vomiting over the past 24 hours.\n\nThe patient recalls attending a food festival in Milwaukee on June 15th, where he sampled various street foods. He also mentions a family barbecue in Chicago over the Memorial Day weekend where he consumed homemade potato salad and grilled meats. No one else in his family has reported similar symptoms.\n\nMr. Washington has attempted to manage his symptoms at home with over-the-counter antidiarrheal medications and acetaminophen, but his condition has continued to deteriorate. He reports feeling weak, dizzy, and unable to keep fluids down, which prompted his visit to the emergency department.\n\nHe denies any recent international travel, contact with sick individuals, or consumption of raw or undercooked foods other than at the mentioned events. The patient works as a retail sales associate and has not been to work since the onset of symptoms due to his illness.",
+        "Plan of Treatment": "1. Admit patient to the medical ward for management of severe gastroenteritis and suspected salmonella infection with possible bacteremia.\n\n2. Obtain blood cultures (2 sets) and stool cultures for comprehensive analysis, including salmonella testing.\n\n3. Initiate IV fluid resuscitation with normal saline. Adjust rate based on clinical response and electrolyte levels.\n\n4. Start empiric antibiotic therapy with IV ceftriaxone 2g every 24 hours, pending culture results.\n\n5. Administer IV ondansetron 4mg every 8 hours as needed for nausea and vomiting.\n\n6. Provide IV acetaminophen 1g every 6 hours for fever and pain management.\n\n7. Monitor vital signs, including temperature, blood pressure, and heart rate, every 4 hours.\n\n8. Obtain daily complete blood count, comprehensive metabolic panel, and C-reactive protein to track infection and hydration status.\n\n9. Implement contact precautions as per hospital protocol for suspected infectious diarrhea.\n\n10. Consult Infectious Disease specialist for further management and antibiotic stewardship.\n\n11. Provide oral rehydration solution once vomiting subsides and patient can tolerate oral intake.\n\n12. Educate patient on food safety practices and the importance of proper hand hygiene.\n\n13. Notify local health department of suspected salmonella case.\n\n14. Plan for discharge when clinically improved, with oral antibiotics if indicated based on culture results and clinical course.\n\n15. Schedule follow-up appointment with primary care physician within one week of discharge.",
+        "Vaccine Credential Patient Assertion": "Patient reports receiving all recommended childhood vaccinations but is unsure of specific dates. He has not received any recent vaccinations in adulthood. Patient is willing to update any necessary vaccinations as recommended by healthcare providers."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "600-7",
+                "LOINC Order Code Description": "Bacteria identified in Blood by Culture",
+                "Laboratory Result": "Salmonella enterica",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-06-18 15:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "24681357"
+            },
+            {
+                "LOINC Laboratory Order Code": "625-4",
+                "LOINC Order Code Description": "Bacteria identified in Stool by Culture",
+                "Laboratory Result": "Salmonella enterica",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Stool",
+                "Specimen Type": "Stool",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2024-06-18 16:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "13579246"
+            },
+            {
+                "LOINC Laboratory Order Code": "6742-1",
+                "LOINC Order Code Description": "Erythrocyte sedimentation rate",
+                "Laboratory Result": "45 mm/hr",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "246813579",
+                "Specimen Collection Date": "2024-06-18 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "97531864"
+            },
+            {
+                "LOINC Laboratory Order Code": "751-8",
+                "LOINC Order Code Description": "Neutrophils [#/volume] in Blood by Automated count",
+                "Laboratory Result": "12.5 x10^9/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "135792468",
+                "Specimen Collection Date": "2024-06-18 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "86420975"
+            },
+            {
+                "LOINC Laboratory Order Code": "2160-0",
+                "LOINC Order Code Description": "Creatinine [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "1.1 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "864209753",
+                "Specimen Collection Date": "2024-06-18 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "75319864"
+            },
+            {
+                "LOINC Laboratory Order Code": "2093-3",
+                "LOINC Order Code Description": "Cholesterol [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "180 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "753198642",
+                "Specimen Collection Date": "2024-06-18 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "20864975"
+            },
+            {
+                "LOINC Laboratory Order Code": "2075-0",
+                "LOINC Order Code Description": "Chloride [Moles/volume] in Serum or Plasma",
+                "Laboratory Result": "98 mmol/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "198642753",
+                "Specimen Collection Date": "2024-06-18 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "64209753"
+            },
+            {
+                "LOINC Laboratory Order Code": "2339-0",
+                "LOINC Order Code Description": "Glucose [Mass/volume] in Blood",
+                "Laboratory Result": "110 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "642097531",
+                "Specimen Collection Date": "2024-06-18 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "31986420"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Salmonella sepsis",
+                "ICD-10 Code": "A02.1",
+                "SNOMED-CT Code": "53085002",
+                "Diagnosis Date": "2024-06-18",
+                "Onset Date": "2024-06-16",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Salmonella gastroenteritis",
+                "ICD-10 Code": "A02.0",
+                "SNOMED-CT Code": "58554000",
+                "Diagnosis Date": "2024-06-18",
+                "Onset Date": "2024-06-16",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Dehydration",
+                "ICD-10 Code": "E86.0",
+                "SNOMED-CT Code": "34095006",
+                "Diagnosis Date": "2024-06-18",
+                "Onset Date": "2024-06-17",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Acute kidney injury",
+                "ICD-10 Code": "N17.9",
+                "SNOMED-CT Code": "14669001",
+                "Diagnosis Date": "2024-06-18",
+                "Onset Date": "2024-06-18",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Electrolyte imbalance",
+                "ICD-10 Code": "E87.8",
+                "SNOMED-CT Code": "237840007",
+                "Diagnosis Date": "2024-06-18",
+                "Onset Date": "2024-06-18",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Nicotine dependence",
+                "ICD-10 Code": "F17.200",
+                "SNOMED-CT Code": "56294008",
+                "Diagnosis Date": "2024-06-18",
+                "Onset Date": "2020-06-01",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Intravenous catheterization",
+                "Procedure Description": "Insertion of venous catheter",
+                "CPT Code": "36000",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-18",
+                "Details": "Peripheral IV line placed for administration of fluids and medications",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Blood culture",
+                "Procedure Description": "Blood culture for bacteria, including anaerobic identification",
+                "CPT Code": "87040",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-18",
+                "Details": "Two sets of blood cultures drawn to identify causative organism",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Stool culture",
+                "Procedure Description": "Culture, bacterial; stool",
+                "CPT Code": "87045",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-18",
+                "Details": "Stool sample collected for culture to identify Salmonella",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Intravenous fluid administration",
+                "Procedure Description": "Intravenous infusion, hydration; initial, 31 minutes to 1 hour",
+                "CPT Code": "96360",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-18",
+                "Details": "IV fluid resuscitation with normal saline for dehydration",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Electrocardiogram",
+                "Procedure Description": "Electrocardiogram, routine ECG with at least 12 leads; with interpretation and report",
+                "CPT Code": "93000",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-18",
+                "Details": "ECG performed to assess cardiac status due to tachycardia",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Abdominal ultrasound",
+                "Procedure Description": "Ultrasound, abdominal, complete",
+                "CPT Code": "76700",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-19",
+                "Details": "Abdominal ultrasound to evaluate for potential complications of salmonella infection",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Antibiotic administration",
+                "Procedure Description": "Therapeutic, prophylactic, or diagnostic injection; intravenous push, single or initial substance/drug",
+                "CPT Code": "96374",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-06-18",
+                "Details": "Administration of IV ceftriaxone for treatment of Salmonella sepsis",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Infectious disease consultation",
+                "Procedure Description": "Inpatient consultation for a new or established patient",
+                "CPT Code": "99253",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-19",
+                "Details": "Infectious disease specialist consulted for management of Salmonella sepsis",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Follow-up outpatient visit",
+                "Procedure Description": "Office or other outpatient visit for the evaluation and management of an established patient",
+                "CPT Code": "99214",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-27",
+                "Details": "Scheduled follow-up appointment with primary care physician one week after discharge",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Ceftriaxone",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Treatment of Salmonella sepsis",
+                "Administration Mode": "Intravenous",
+                "Dose": "2g every 24 hours",
+                "Duration": "3 days",
+                "Start Date": "2024-06-18",
+                "Response": "Positive",
+                "Response Details": "Patient's fever reduced and blood cultures showed clearance of infection",
+                "Observation Date": "2024-06-20"
+            },
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Management of nausea and vomiting",
+                "Administration Mode": "Intravenous",
+                "Dose": "4mg every 8 hours as needed",
+                "Duration": "2 days",
+                "Start Date": "2024-06-18",
+                "Response": "Positive",
+                "Response Details": "Significant reduction in nausea and vomiting episodes",
+                "Observation Date": "2024-06-20"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic and antipyretic",
+                "Purpose": "Management of fever and pain",
+                "Administration Mode": "Intravenous",
+                "Dose": "1g every 6 hours",
+                "Duration": "2 days",
+                "Start Date": "2024-06-18",
+                "Response": "Positive",
+                "Response Details": "Fever reduced and patient reported decreased abdominal pain",
+                "Observation Date": "2024-06-20"
+            },
+            {
+                "Medication Name": "Normal Saline",
+                "Medication Type": "Intravenous fluid",
+                "Purpose": "Rehydration and electrolyte balance",
+                "Administration Mode": "Intravenous",
+                "Dose": "1000mL every 8 hours",
+                "Duration": "2 days",
+                "Start Date": "2024-06-18",
+                "Response": "Positive",
+                "Response Details": "Improved hydration status and normalized electrolyte levels",
+                "Observation Date": "2024-06-20"
+            },
+            {
+                "Medication Name": "Ciprofloxacin",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Continuation of Salmonella treatment",
+                "Administration Mode": "Oral",
+                "Dose": "500mg twice daily",
+                "Duration": "7 days",
+                "Start Date": "2024-06-20",
+                "Response": "Pending",
+                "Response Details": "Prescribed at discharge for continued treatment",
+                "Observation Date": "2024-06-20"
+            },
+            {
+                "Medication Name": "Loperamide",
+                "Medication Type": "Antidiarrheal",
+                "Purpose": "Management of diarrhea",
+                "Administration Mode": "Oral",
+                "Dose": "2mg after each loose stool, not to exceed 16mg/day",
+                "Duration": "As needed",
+                "Start Date": "2024-06-20",
+                "Response": "Pending",
+                "Response Details": "Prescribed at discharge for symptomatic relief if needed",
+                "Observation Date": "2024-06-20"
+            },
+            {
+                "Medication Name": "Probiotics",
+                "Medication Type": "Dietary supplement",
+                "Purpose": "Restore gut flora",
+                "Administration Mode": "Oral",
+                "Dose": "1 capsule daily",
+                "Duration": "30 days",
+                "Start Date": "2024-06-20",
+                "Response": "Pending",
+                "Response Details": "Recommended at discharge to support gut health",
+                "Observation Date": "2024-06-20"
+            },
+            {
+                "Medication Name": "Nicotine Patch",
+                "Medication Type": "Smoking cessation aid",
+                "Purpose": "Support smoking cessation",
+                "Administration Mode": "Transdermal",
+                "Dose": "21mg/24 hours",
+                "Duration": "6 weeks",
+                "Start Date": "2024-06-20",
+                "Response": "Pending",
+                "Response Details": "Prescribed at discharge to support smoking cessation efforts",
+                "Observation Date": "2024-06-20"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 22-year-old African American male presented to the ER on 2024-06-18 with severe abdominal pain, fever, and diarrhea for 3 days. He had recently attended a food festival and family barbecue. Diagnosed with Salmonella sepsis and gastroenteritis, he was admitted for IV antibiotics and fluids. Blood and stool cultures confirmed Salmonella enterica. The patient responded well to treatment, with symptoms improving over 2 days. He was discharged on 2024-06-20 with oral antibiotics and follow-up care instructions."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Darius291 Washington743",
+        "Report_Header_Age": "22",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-06-21"
+    }
+}

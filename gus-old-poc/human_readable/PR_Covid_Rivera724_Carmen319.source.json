@@ -1,0 +1,742 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "White",
+        "Ethnicity": "Hispanic or Latino",
+        "Patient Age": "42",
+        "Date of Birth": "1981-09-20",
+        "Location": "Bayamon",
+        "Country of Residence": "Puerto Rico",
+        "Country of Nationality": "United States",
+        "Preferred Language": "Spanish",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Rivera724, Carmen319",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed",
+        "Gender Identity": "Female",
+        "Disability Status": "No disability",
+        "Education Level": "Bachelor's degree",
+        "Marital Status": "Married",
+        "Smoking Status": "Former smoker",
+        "BMI": "27.4",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Private health insurance",
+        "Refugee Status": "Not a refugee",
+        "Correctional Facility Status": "Not in a correctional facility",
+        "Lose Housing Worry": "Not worried at all",
+        "People Living at Address": "4",
+        "Housing Status": "Renting",
+        "Stress Level": "Somewhat stressed"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1542 Calle del Sol, Apt. 3B, Bayamon, PR 00956",
+        "Patient Email": "carmen.rivera724@emailpuerto.com",
+        "Patient Phone": "787-555-3291"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Marketing Manager",
+        "Current Industry": "Tourism and Hospitality",
+        "Usual Occupation": "Marketing Manager",
+        "Usual Industry": "Tourism and Hospitality",
+        "Usual Employment Date Range": "Start: 2015-03-01 to current",
+        "Current Job Title": "Senior Marketing Manager",
+        "Current Employer": "Caribe Hilton, 1 San Geronimo Street, San Juan, PR 00901, 787-721-0303",
+        "Current Employment Start Date": "2015-03-01",
+        "Annual Income": "$78,000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "San Juan, Puerto Rico",
+                "Purpose": "Business",
+                "Start Date": "2024-05-20",
+                "End Date": "2024-05-24",
+                "Accommodations": "Caribe Hilton Hotel",
+                "Mode of Travel": "Car",
+                "Activities": "Attended a marketing conference for the tourism industry. Participated in workshops and networking events with colleagues from various hotels and resorts."
+            },
+            {
+                "Location": "Ponce, Puerto Rico",
+                "Purpose": "Family",
+                "Start Date": "2024-04-12",
+                "End Date": "2024-04-14",
+                "Accommodations": "Family member's home",
+                "Mode of Travel": "Car",
+                "Activities": "Visited elderly parents for a weekend. Attended a family gathering in a local park and dined at a busy restaurant."
+            },
+            {
+                "Location": "Miami, Florida, USA",
+                "Purpose": "Business",
+                "Start Date": "2024-03-05",
+                "End Date": "2024-03-08",
+                "Accommodations": "Hilton Miami Downtown",
+                "Mode of Travel": "Airplane",
+                "Activities": "Attended a regional marketing strategy meeting for Hilton properties in the Caribbean. Participated in group discussions and presentations in conference rooms."
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient reports recent travel within Puerto Rico and to mainland USA in the months preceding COVID-19 diagnosis. Most recent travel was a 5-day business trip to San Juan (May 20-24, 2024) for a marketing conference, involving close contact with colleagues in indoor settings. Prior to that, patient visited family in Ponce (April 12-14, 2024), including attendance at a gathering in a public park and dining at a crowded restaurant. In early March (March 5-8, 2024), patient traveled by air to Miami, Florida for a business meeting, staying at a hotel and participating in group discussions in conference rooms. These travel events, particularly the recent conference in San Juan with its indoor setting and multiple contacts, may have increased patient's risk of COVID-19 exposure."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Difficulty breathing and fever",
+        "Patient ID": "7294851",
+        "Encounter Class": "inpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "20240612345",
+        "Start DateTime": "2024-06-08 14:30",
+        "End DateTime": "2024-06-12 11:00",
+        "Discharge Disposition": "home",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Emergency department visit",
+                "SNOMED-CT Code": "4525004",
+                "Description": "Emergency department visit (procedure)",
+                "Start Date": "2024-06-08",
+                "End Date": "2024-06-08"
+            },
+            {
+                "Encounter Type": "Hospital admission",
+                "SNOMED-CT Code": "32485007",
+                "Description": "Hospital admission (procedure)",
+                "Start Date": "2024-06-08",
+                "End Date": "2024-06-12"
+            },
+            {
+                "Encounter Type": "Inpatient stay",
+                "SNOMED-CT Code": "183452005",
+                "Description": "Inpatient stay (finding)",
+                "Start Date": "2024-06-08",
+                "End Date": "2024-06-12"
+            },
+            {
+                "Encounter Type": "Respiratory therapy",
+                "SNOMED-CT Code": "385857005",
+                "Description": "Respiratory therapy (regime/therapy)",
+                "Start Date": "2024-06-09",
+                "End Date": "2024-06-12"
+            },
+            {
+                "Encounter Type": "Oxygen therapy",
+                "SNOMED-CT Code": "57485005",
+                "Description": "Oxygen therapy (procedure)",
+                "Start Date": "2024-06-09",
+                "End Date": "2024-06-12"
+            },
+            {
+                "Encounter Type": "Radiologic examination",
+                "SNOMED-CT Code": "168537006",
+                "Description": "Radiologic examination (procedure)",
+                "Start Date": "2024-06-09",
+                "End Date": "2024-06-09"
+            },
+            {
+                "Encounter Type": "Patient discharge",
+                "SNOMED-CT Code": "58000006",
+                "Description": "Patient discharge (procedure)",
+                "Start Date": "2024-06-12",
+                "End Date": "2024-06-12"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Roderiguez434, Carmen545, MD",
+        "Practitioner Phone": "787-555-9384",
+        "Practitioner Fax": "787-555-9385",
+        "Practitioner Email": "c.rodriguez@bayamonhealthcenter.pr",
+        "Practitioner Office Name": "Bayamon Health Center",
+        "Practitioner ID": "6273859104",
+        "Practitioner Address": "2145 Avenida Laurel, Suite 300, Bayamon, PR 00956"
+    },
+    "Facility_Information": {
+        "Facility Name": "Hospital Universitario Dr. Ram\u00f3n Ruiz Arnau",
+        "Facility Type": "Hospital",
+        "Facility Phone": "787-555-7200",
+        "Facility Fax": "787-555-7201",
+        "Facility Address": "Calle Santa Cruz 735, Bayam\u00f3n, PR 00960"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "Not pregnant",
+        "Pregnancy Status Determination Method": "Patient self-report",
+        "Pregnancy Status Recorded Date": "2024-06-08",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "2024-05-15",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Fever",
+                "SNOMED-CT": "386661006",
+                "Onset Date": "2024-06-06",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Dyspnea",
+                "SNOMED-CT": "267036007",
+                "Onset Date": "2024-06-07",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Cough",
+                "SNOMED-CT": "49727002",
+                "Onset Date": "2024-06-06",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-06-06",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Myalgia",
+                "SNOMED-CT": "68962001",
+                "Onset Date": "2024-06-07",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Headache",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2024-06-07",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Sore throat",
+                "SNOMED-CT": "162397003",
+                "Onset Date": "2024-06-06",
+                "Severity": "Mild",
+                "Status": "Improving"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "38.9",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-06-08 14:45:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "24",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-06-08 14:45:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "105",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-06-08 14:45:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "92",
+                "SNOMED-CT": "103228002",
+                "Unit": "%",
+                "Measurement Time": "2024-06-08 14:45:00"
+            },
+            {
+                "Vital Sign": "Systolic blood pressure",
+                "Value": "135",
+                "SNOMED-CT": "271649006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-08 14:45:00"
+            },
+            {
+                "Vital Sign": "Diastolic blood pressure",
+                "Value": "85",
+                "SNOMED-CT": "271650006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-08 14:45:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Difficulty breathing, fever, and cough for 3 days",
+        "Past Medical History": "Patient has a history of mild asthma, well-controlled with occasional use of albuterol inhaler. She was diagnosed with hypertension 2 years ago and is on lisinopril 10mg daily. Patient is a former smoker, having quit 5 years ago after a 10-pack-year history. She has no history of diabetes, heart disease, or other chronic conditions. Patient had chickenpox as a child and reports being up-to-date on routine vaccinations.",
+        "Review of Systems": "General: Positive for fatigue and fever. Respiratory: Positive for cough and shortness of breath. Cardiovascular: Negative for chest pain or palpitations. Gastrointestinal: Negative for nausea, vomiting, or diarrhea. Musculoskeletal: Positive for mild body aches. Neurological: Positive for mild headache. ENT: Positive for sore throat. Skin: Negative for rashes. Psychiatric: Negative for anxiety or depression. All other systems reviewed and negative.",
+        "History of Present Illness": "Carmen Rivera, a 42-year-old female, presents to the emergency department with a 3-day history of worsening respiratory symptoms. She reports the onset of a dry cough and low-grade fever on 2024-06-06, which she initially attributed to her asthma or a common cold. However, her symptoms progressively worsened, with the development of shortness of breath, particularly notable when climbing stairs or performing routine household activities. Her fever has persisted, ranging from 38.5\u00b0C to 39\u00b0C, only partially responsive to over-the-counter antipyretics. She also complains of fatigue, mild body aches, and a sore throat. Ms. Rivera recently attended a marketing conference in San Juan from May 20-24, where she was in close contact with numerous colleagues in indoor settings. She denies any known direct exposure to COVID-19 positive individuals but acknowledges the possibility given her recent travel and work in the tourism industry. She has been working from home since the onset of symptoms and has self-isolated from her family members. Ms. Rivera has not received a COVID-19 test prior to this visit.",
+        "Plan of Treatment": "1. Admit patient to isolation room for management of moderate COVID-19 pneumonia. 2. Initiate supplemental oxygen via nasal cannula to maintain SpO2 > 94%. 3. Start remdesivir 200 mg IV on day 1, followed by 100 mg IV daily for 4 days. 4. Administer dexamethasone 6 mg IV daily for up to 10 days. 5. Continue patient's home medications, including lisinopril for hypertension. 6. Provide albuterol inhaler as needed for breakthrough wheezing. 7. Encourage prone positioning when awake to improve oxygenation. 8. Monitor vital signs, including continuous pulse oximetry. 9. Obtain daily CBC, CMP, and inflammatory markers (CRP, D-dimer). 10. Repeat chest X-ray in 48-72 hours to assess progression. 11. Initiate DVT prophylaxis with enoxaparin 40 mg SC daily. 12. Provide supportive care including IV fluids, antipyretics, and nutritional support as needed. 13. Consult respiratory therapy for chest physiotherapy and incentive spirometry. 14. Monitor for clinical deterioration and escalate care if needed. 15. Provide patient education on COVID-19 and importance of isolation. 16. Plan for discharge when clinically stable with adequate oxygenation on room air, with follow-up in 1-2 weeks.",
+        "Vaccine Credential Patient Assertion": "Patient reports receiving two doses of Pfizer-BioNTech COVID-19 vaccine in early 2021, but has not received any booster doses. Unable to provide exact dates of vaccination. Patient expresses uncertainty about the need for boosters and admits to not keeping up with current recommendations."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "94534-5",
+                "LOINC Order Code Description": "SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory specimen by NAA with probe detection",
+                "Laboratory Result": "Detected",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Nasopharynx",
+                "Specimen Type": "Swab",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-06-08 15:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "202406080001"
+            },
+            {
+                "LOINC Laboratory Order Code": "89579-7",
+                "LOINC Order Code Description": "SARS-CoV-2 (COVID-19) IgG Ab [Presence] in Serum or Plasma by Immunoassay",
+                "Laboratory Result": "Negative",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-06-08 15:35:00",
+                "Trigger": "No",
+                "Placer Order Number": "202406080002"
+            },
+            {
+                "LOINC Laboratory Order Code": "26464-8",
+                "LOINC Order Code Description": "Leukocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "11.2 x 10^9/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-06-08 15:40:00",
+                "Trigger": "No",
+                "Placer Order Number": "202406080003"
+            },
+            {
+                "LOINC Laboratory Order Code": "751-8",
+                "LOINC Order Code Description": "Neutrophils [#/volume] in Blood by Automated count",
+                "Laboratory Result": "8.4 x 10^9/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-06-08 15:40:00",
+                "Trigger": "No",
+                "Placer Order Number": "202406080003"
+            },
+            {
+                "LOINC Laboratory Order Code": "731-0",
+                "LOINC Order Code Description": "Lymphocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "1.8 x 10^9/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-06-08 15:40:00",
+                "Trigger": "No",
+                "Placer Order Number": "202406080003"
+            },
+            {
+                "LOINC Laboratory Order Code": "777-3",
+                "LOINC Order Code Description": "Platelets [#/volume] in Blood by Automated count",
+                "Laboratory Result": "220 x 10^9/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-06-08 15:40:00",
+                "Trigger": "No",
+                "Placer Order Number": "202406080003"
+            },
+            {
+                "LOINC Laboratory Order Code": "2160-0",
+                "LOINC Order Code Description": "Creatinine [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "0.9 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-06-08 15:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "202406080004"
+            },
+            {
+                "LOINC Laboratory Order Code": "1920-8",
+                "LOINC Order Code Description": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "45 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-06-08 15:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "202406080004"
+            },
+            {
+                "LOINC Laboratory Order Code": "1742-6",
+                "LOINC Order Code Description": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "52 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-06-08 15:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "202406080004"
+            },
+            {
+                "LOINC Laboratory Order Code": "1988-5",
+                "LOINC Order Code Description": "C reactive protein [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "75 mg/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654325",
+                "Specimen Collection Date": "2024-06-08 15:50:00",
+                "Trigger": "No",
+                "Placer Order Number": "202406080005"
+            },
+            {
+                "LOINC Laboratory Order Code": "48065-7",
+                "LOINC Order Code Description": "Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma",
+                "Laboratory Result": "0.8 mg/L FEU",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Plasma",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654326",
+                "Specimen Collection Date": "2024-06-08 15:55:00",
+                "Trigger": "No",
+                "Placer Order Number": "202406080006"
+            },
+            {
+                "LOINC Laboratory Order Code": "2093-3",
+                "LOINC Order Code Description": "Cholesterol [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "210 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654327",
+                "Specimen Collection Date": "2024-06-08 16:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "202406080007"
+            },
+            {
+                "LOINC Laboratory Order Code": "2571-8",
+                "LOINC Order Code Description": "Triglyceride [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "150 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654327",
+                "Specimen Collection Date": "2024-06-08 16:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "202406080007"
+            },
+            {
+                "LOINC Laboratory Order Code": "2085-9",
+                "LOINC Order Code Description": "Cholesterol in HDL [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "45 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654327",
+                "Specimen Collection Date": "2024-06-08 16:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "202406080007"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "COVID-19 pneumonia",
+                "ICD-10 Code": "U07.1",
+                "SNOMED-CT Code": "840539006",
+                "Diagnosis Date": "2024-06-08",
+                "Onset Date": "2024-06-06",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Acute respiratory failure with hypoxia",
+                "ICD-10 Code": "J96.01",
+                "SNOMED-CT Code": "95437004",
+                "Diagnosis Date": "2024-06-08",
+                "Onset Date": "2024-06-07",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Essential (primary) hypertension",
+                "ICD-10 Code": "I10",
+                "SNOMED-CT Code": "59621000",
+                "Diagnosis Date": "2022-06-15",
+                "Onset Date": "2022-06-15",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Mild intermittent asthma",
+                "ICD-10 Code": "J45.20",
+                "SNOMED-CT Code": "370221004",
+                "Diagnosis Date": "2014-03-10",
+                "Onset Date": "2014-03-10",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "History of tobacco use",
+                "ICD-10 Code": "Z87.891",
+                "SNOMED-CT Code": "8517006",
+                "Diagnosis Date": "2019-05-20",
+                "Onset Date": "2019-05-20",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Overweight",
+                "ICD-10 Code": "E66.3",
+                "SNOMED-CT Code": "238131007",
+                "Diagnosis Date": "2024-06-08",
+                "Onset Date": "2024-06-08",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Chest X-ray, single view",
+                "CPT Code": "71045",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-08",
+                "Details": "Performed to assess for pneumonia. Findings showed bilateral patchy infiltrates consistent with COVID-19 pneumonia.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Insertion of non-tunneled central venous catheter",
+                "CPT Code": "36556",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-08",
+                "Details": "Placed for administration of IV medications and fluids.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Oxygen supplementation",
+                "CPT Code": "94760",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-06-08",
+                "Details": "Continuous oxygen therapy via nasal cannula to maintain SpO2 > 94%.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Nebulizer treatment",
+                "CPT Code": "94640",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-06-09",
+                "Details": "Albuterol nebulizer treatments every 4-6 hours as needed for wheezing or shortness of breath.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Electrocardiogram, routine ECG with at least 12 leads",
+                "CPT Code": "93000",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-08",
+                "Details": "Performed to assess for any cardiac involvement. Results showed sinus tachycardia, no acute ischemic changes.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Chest physiotherapy",
+                "CPT Code": "94669",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-06-09",
+                "Details": "Daily chest physiotherapy to improve respiratory function and secretion clearance.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Follow-up chest X-ray, single view",
+                "CPT Code": "71045",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-11",
+                "Details": "Scheduled to assess progression of pneumonia and response to treatment.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Incentive spirometry",
+                "CPT Code": "94640",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-06-09",
+                "Details": "Patient instructed to use incentive spirometer 10 times every hour while awake to prevent atelectasis.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Prone positioning",
+                "CPT Code": "N/A",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-06-09",
+                "Details": "Patient encouraged to lie in prone position for 2-4 hours at a time while awake to improve oxygenation.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Pulse oximetry",
+                "CPT Code": "94760",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-06-08",
+                "Details": "Continuous pulse oximetry monitoring to assess oxygen saturation levels.",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Remdesivir",
+                "Medication Type": "Antiviral",
+                "Purpose": "Treatment of COVID-19",
+                "Administration Mode": "Intravenous",
+                "Dose": "200 mg on day 1, followed by 100 mg daily",
+                "Duration": "5 days",
+                "Start Date": "2024-06-08",
+                "Response": "Moderate improvement",
+                "Response Details": "Patient showed gradual improvement in respiratory symptoms and fever reduction",
+                "Observation Date": "2024-06-12"
+            },
+            {
+                "Medication Name": "Dexamethasone",
+                "Medication Type": "Corticosteroid",
+                "Purpose": "Reduce inflammation in COVID-19",
+                "Administration Mode": "Intravenous",
+                "Dose": "6 mg daily",
+                "Duration": "5 days",
+                "Start Date": "2024-06-08",
+                "Response": "Positive",
+                "Response Details": "Improvement in oxygenation and reduced inflammatory markers",
+                "Observation Date": "2024-06-12"
+            },
+            {
+                "Medication Name": "Enoxaparin",
+                "Medication Type": "Anticoagulant",
+                "Purpose": "DVT prophylaxis",
+                "Administration Mode": "Subcutaneous injection",
+                "Dose": "40 mg daily",
+                "Duration": "During hospitalization",
+                "Start Date": "2024-06-08",
+                "Response": "Effective",
+                "Response Details": "No signs of thromboembolism observed",
+                "Observation Date": "2024-06-12"
+            },
+            {
+                "Medication Name": "Lisinopril",
+                "Medication Type": "ACE inhibitor",
+                "Purpose": "Hypertension management",
+                "Administration Mode": "Oral",
+                "Dose": "10 mg daily",
+                "Duration": "Ongoing",
+                "Start Date": "2022-06-15",
+                "Response": "Well-controlled",
+                "Response Details": "Blood pressure maintained within normal range",
+                "Observation Date": "2024-06-12"
+            },
+            {
+                "Medication Name": "Albuterol",
+                "Medication Type": "Short-acting beta-agonist",
+                "Purpose": "Bronchodilation",
+                "Administration Mode": "Inhaler and nebulizer",
+                "Dose": "2 puffs every 4-6 hours as needed, or 2.5 mg via nebulizer every 4-6 hours as needed",
+                "Duration": "As needed during hospitalization",
+                "Start Date": "2024-06-08",
+                "Response": "Effective",
+                "Response Details": "Provided relief from occasional wheezing and shortness of breath",
+                "Observation Date": "2024-06-12"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic and antipyretic",
+                "Purpose": "Fever and pain management",
+                "Administration Mode": "Oral",
+                "Dose": "650 mg every 6 hours as needed",
+                "Duration": "As needed during hospitalization",
+                "Start Date": "2024-06-08",
+                "Response": "Effective",
+                "Response Details": "Helped manage fever and provided mild pain relief",
+                "Observation Date": "2024-06-12"
+            },
+            {
+                "Medication Name": "Famotidine",
+                "Medication Type": "H2 receptor antagonist",
+                "Purpose": "Stress ulcer prophylaxis",
+                "Administration Mode": "Intravenous",
+                "Dose": "20 mg twice daily",
+                "Duration": "During hospitalization",
+                "Start Date": "2024-06-08",
+                "Response": "Preventive",
+                "Response Details": "No signs of gastrointestinal bleeding or ulceration",
+                "Observation Date": "2024-06-12"
+            },
+            {
+                "Medication Name": "Budesonide/Formoterol",
+                "Medication Type": "Inhaled corticosteroid/long-acting beta-agonist combination",
+                "Purpose": "Asthma management",
+                "Administration Mode": "Inhaler",
+                "Dose": "160/4.5 mcg, 2 puffs twice daily",
+                "Duration": "Ongoing",
+                "Start Date": "2024-06-09",
+                "Response": "Improved control",
+                "Response Details": "Better management of underlying asthma during COVID-19 infection",
+                "Observation Date": "2024-06-12"
+            },
+            {
+                "Medication Name": "Zinc sulfate",
+                "Medication Type": "Dietary supplement",
+                "Purpose": "Immune support",
+                "Administration Mode": "Oral",
+                "Dose": "220 mg daily",
+                "Duration": "During hospitalization",
+                "Start Date": "2024-06-08",
+                "Response": "Unknown",
+                "Response Details": "Administered as part of supportive care, specific effects not measurable",
+                "Observation Date": "2024-06-12"
+            },
+            {
+                "Medication Name": "Vitamin D3",
+                "Medication Type": "Dietary supplement",
+                "Purpose": "Immune support",
+                "Administration Mode": "Oral",
+                "Dose": "5000 IU daily",
+                "Duration": "During hospitalization",
+                "Start Date": "2024-06-08",
+                "Response": "Unknown",
+                "Response Details": "Administered as part of supportive care, specific effects not measurable",
+                "Observation Date": "2024-06-12"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. Carmen Rivera, a 42-year-old female from Bayamon, Puerto Rico, was admitted on June 8, 2024 with moderate COVID-19 pneumonia. She presented with fever, cough, and dyspnea after recent business travel. Despite being vaccinated, she tested positive for SARS-CoV-2. Chest X-ray showed bilateral infiltrates. Treatment included remdesivir, dexamethasone, and supplemental oxygen. She responded well to treatment, with improving respiratory status and inflammatory markers. She was discharged home on June 12, 2024, with a fair prognosis and expected recovery."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Carmen319 Rivera724",
+        "Report_Header_Age": "42",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-06-13"
+    }
+}

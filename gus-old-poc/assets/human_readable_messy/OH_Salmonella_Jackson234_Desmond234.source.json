@@ -1,0 +1,504 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "Black or African American",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "68",
+        "Date of Birth": "1956-01-15",
+        "Location": "Cleveland",
+        "Country of Residence": "United States of America",
+        "Country of Nationality": "United States of America",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Jackson234, Desmond234",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed",
+        "Gender Identity": "Male",
+        "Disability Status": "No disability",
+        "Education Level": "High school graduate",
+        "Marital Status": "Married",
+        "Smoking Status": "Former smoker",
+        "BMI": "31.2",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Medicare",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Not worried about losing housing",
+        "People Living at Address": "3",
+        "Housing Status": "Rented house or apartment",
+        "Stress Level": "Moderately stressed"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1237 Oakwood Ave, Cleveland, OH 44113",
+        "Patient Email": "desmond.jacksonxyz@email.com",
+        "Patient Phone": "216-555-8976"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Truck driver",
+        "Current Industry": "Transportation and warehousing",
+        "Usual Occupation": "Truck driver",
+        "Usual Industry": "Transportation and warehousing",
+        "Usual Employment Date Range": "Start: 1985-06-01 to current",
+        "Current Job Title": "Long haul truck driver",
+        "Current Employer": "Schneider National Inc., 3101 S Packerland Dr, Green Bay, WI 54313, (920) 592-2000",
+        "Current Employment Start Date": "2001-03-15",
+        "Annual Income": "58000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Chicago, IL",
+                "Purpose": "Business",
+                "Start Date": "2024-06-22",
+                "End Date": "2024-06-25",
+                "Accommodations": "Motel 6 Chicago O'Hare",
+                "Mode of Travel": "Commercial truck",
+                "Activities": "Delivered freight to several warehouses in the Chicago area. Ate at a few truck stops and diners."
+            },
+            {
+                "Location": "Cleveland, OH",
+                "Purpose": "Routine",
+                "Start Date": "2024-06-25",
+                "End Date": "2024-06-30",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Commercial truck",
+                "Activities": "Returned home between long haul trips. Spent time with family."
+            },
+            {
+                "Location": "Indianapolis, IN",
+                "Purpose": "Business",
+                "Start Date": "2024-06-30",
+                "End Date": "2024-07-03",
+                "Accommodations": "Motel 6 Indianapolis East",
+                "Mode of Travel": "Commercial truck",
+                "Activities": "Delivered freight to warehouses in the Indianapolis metro area. Ate at truck stops and fast food restaurants."
+            }
+        ]
+    },
+    "Travel_History_Narrative": "History of Travel Narrative: The patient is a 68-year-old male long haul truck driver who frequently travels across the Midwest for work. In the weeks prior to symptom onset, he made trips to Chicago, IL from 6/22 to 6/25 where he stayed in a motel and ate at truck stops and diners. He then returned home to Cleveland, OH from 6/25 to 6/30. On 6/30 he departed for Indianapolis, IN until 7/3, again staying in a motel and eating at truck stops and fast food restaurants during this trip. His occupation and travel patterns involving frequent stops at restaurants and lodging facilities put him at potential risk for foodborne and enteric illnesses like salmonellosis.",
+    "Encounter_Details": {
+        "Chief Complaint": "Fever, chills, and abdominal cramps",
+        "Patient ID": "4892375",
+        "Encounter Class": "emergency",
+        "Encounter Status": "finished",
+        "Encounter ID": "87654321098",
+        "Start DateTime": "2024-07-05 14:22",
+        "End DateTime": "2024-07-10 10:15",
+        "Discharge Disposition": "Discharged to home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Emergency department admission",
+                "SNOMED-CT Code": "4525004",
+                "Description": "The act of administrative and clinical admission of a patient to an emergency department of a hospital or emergency clinic for emergency medical services.",
+                "Start Date": "2024-07-05",
+                "End Date": "2024-07-06"
+            },
+            {
+                "Encounter Type": "Inpatient hospital admission",
+                "SNOMED-CT Code": "32485007",
+                "Description": "The act of administrative and clinical admission of a patient to a hospital for purposes of providing medical and/or surgical services across an unbroken period of time from admission to discharge.",
+                "Start Date": "2024-07-06",
+                "End Date": "2024-07-10"
+            },
+            {
+                "Encounter Type": "Discharge to service",
+                "SNOMED-CT Code": "306237000",
+                "Description": "The discharge of a patient from a hospital, nursing home or other care environment to a home care service.",
+                "Start Date": "2024-07-10",
+                "End Date": "n/a"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Washington488, Caleb940, MD",
+        "Practitioner Phone": "216-555-7892",
+        "Practitioner Fax": "216-555-2109",
+        "Practitioner Email": "caleb.washington488@clevelandclinic.org",
+        "Practitioner Office Name": "Cleveland Clinic Main Campus",
+        "Practitioner ID": "7894561032",
+        "Practitioner Address": "9500 Euclid Ave, Cleveland, OH 44195"
+    },
+    "Facility_Information": {
+        "Facility Name": "Cleveland Clinic Main Campus",
+        "Facility Type": "General acute care hospital",
+        "Facility Phone": "216-444-5678",
+        "Facility Fax": "216-444-0987",
+        "Facility Address": "9500 Euclid Ave, Cleveland, OH 44195"
+    },
+    "Current_Pregnancy_Information": "n/a",
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Fever",
+                "SNOMED-CT": "386661006",
+                "Onset Date": "2024-07-03",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Chills",
+                "SNOMED-CT": "169629003",
+                "Onset Date": "2024-07-04",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-07-04",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Diarrhea",
+                "SNOMED-CT": "62315008",
+                "Onset Date": "2024-07-05",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-07-05",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Vomiting",
+                "SNOMED-CT": "16932000",
+                "Onset Date": "2024-07-05",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Headache",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2024-07-05",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-07-04",
+                "Severity": "Moderate",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "39.5",
+                "SNOMED-CT": "386725007",
+                "Unit": "Cel",
+                "Measurement Time": "2024-07-05 14:30:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "110",
+                "SNOMED-CT": "364075005",
+                "Unit": "/min",
+                "Measurement Time": "2024-07-05 14:35:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "22",
+                "SNOMED-CT": "86290005",
+                "Unit": "/min",
+                "Measurement Time": "2024-07-05 14:40:00"
+            },
+            {
+                "Vital Sign": "Blood pressure systolic",
+                "Value": "95",
+                "SNOMED-CT": "271649006",
+                "Unit": "mm[Hg]",
+                "Measurement Time": "2024-07-05 14:45:00"
+            },
+            {
+                "Vital Sign": "Blood pressure diastolic",
+                "Value": "60",
+                "SNOMED-CT": "271650006",
+                "Unit": "mm[Hg]",
+                "Measurement Time": "2024-07-05 14:45:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Fever, abdominal cramps, and diarrhea",
+        "Past Medical History": "The patient is a 68-year-old African American male with a past medical history of hypertension, hyperlipidemia, and type 2 diabetes mellitus. He has no known drug allergies. His surgical history is significant for a cholecystectomy in 2010. He is a former smoker, having quit 15 years ago after a 30 pack-year history. He denies any significant family history of malignancy or autoimmune disease.",
+        "Review of Systems": "Constitutional: Positive for fatigue, fever, and chills. Negative for weight loss. HEENT: Negative for sore throat, ear pain, nasal congestion. Respiratory: Negative for cough, shortness of breath, wheezing. Cardiovascular: Negative for chest pain, palpitations. Gastrointestinal: Positive for abdominal cramps, nausea, vomiting, and diarrhea. Negative for melena or hematochezia. Genitourinary: Negative for dysuria, hematuria, urinary frequency. Musculoskeletal: Negative for joint pain, back pain, muscle weakness. Neurological: Positive for headache. Negative for dizziness, syncope, seizures. Psychiatric: Negative for depression, anxiety, sleep disturbance. Endocrine: Negative for heat/cold intolerance, polydipsia, polyuria. Hematologic/Lymphatic: Negative for easy bruising/bleeding.",
+        "History of Present Illness": "The patient is a 68-year-old African American male long-haul truck driver who presented to the emergency department with a 2-day history of fever, chills, abdominal cramps, nausea, vomiting, and diarrhea. His symptoms started shortly after returning home from a trip to Indianapolis, where he stayed in a motel and ate at truck stops. He denies any sick contacts or recent antibiotic use. He reports having 6-8 episodes of non-bloody diarrhea per day. His abdominal cramps are constant and severe, rated 8/10 in intensity. He has been unable to tolerate any oral intake due to nausea and vomiting. He denies any headache, cough, dysuria, or rash.",
+        "Plan of Treatment": "1. Admit to inpatient medicine service for IV fluid hydration, IV antibiotics, and symptom management. 2. Order stool culture, blood cultures x 2, CBC, CMP, UA, and inflammatory markers. 3. Start IV ceftriaxone 2 g daily for empiric coverage of enteric pathogen. 4. Obtain infectious disease consult if cultures positive for Salmonella or other pathogen. 5. Advance diet as tolerated. 6. Strict contact/enteric precautions. 7. Provide symptomatic treatment with anti-emetics and anti-diarrheals as needed. 8. Educate on food safety and hand hygiene. 9. Follow-up in clinic in 1 week.",
+        "Vaccine Credential Patient Assertion": "The patient reports being up-to-date on all recommended vaccinations, including annual influenza vaccine and pneumococcal vaccines. However, he does not recall receiving any typhoid or cholera vaccines."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Order Code Description": "Complete blood count (CBC) panel",
+                "Laboratory Result": "WBC: 14.2 x10^3/uL (H), RBC: 4.8 x10^6/uL, Hgb: 14.2 g/dL, Hct: 42.1%, Platelets: 215 x10^3/uL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2024-07-05 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "87654321"
+            },
+            {
+                "LOINC Order Code Description": "Comprehensive metabolic panel",
+                "Laboratory Result": "Na: 138 mmol/L, K: 4.1 mmol/L, Cl: 101 mmol/L, CO2: 26 mmol/L, BUN: 22 mg/dL (H), Creat: 1.2 mg/dL, Glu: 135 mg/dL (H), Ca: 9.2 mg/dL, Prot: 6.8 g/dL, Alb: 3.5 g/dL, Tbili: 0.8 mg/dL, ALP: 75 U/L, AST: 32 U/L, ALT: 28 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-07-05 15:35:00",
+                "Trigger": "No",
+                "Placer Order Number": "12345678"
+            },
+            {
+                "LOINC Order Code Description": "Urinalysis",
+                "Laboratory Result": "Color: Yellow, Clarity: Clear, Glucose: Negative, Bilirubin: Negative, Ketones: Negative, Specific Gravity: 1.020, Blood: Negative, pH: 6.0, Protein: Trace (30 mg/dL), Urobilinogen: 0.2 mg/dL, Nitrite: Negative, Leukocyte esterase: Negative",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Urine",
+                "Specimen Type": "Clean Catch",
+                "Specimen ID": "456789123",
+                "Specimen Collection Date": "2024-07-05 16:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "98765432"
+            },
+            {
+                "LOINC Order Code Description": "Stool culture",
+                "Laboratory Result": "Salmonella enterica serovar Enteritidis isolated",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Stool",
+                "Specimen Type": "Random",
+                "Specimen ID": "789456123",
+                "Specimen Collection Date": "2024-07-05 17:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "65432109"
+            },
+            {
+                "LOINC Order Code Description": "Blood culture x2",
+                "Laboratory Result": "No growth after 5 days incubation",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "321987654",
+                "Specimen Collection Date": "2024-07-05 18:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "76543210"
+            },
+            {
+                "LOINC Order Code Description": "C-reactive protein",
+                "Laboratory Result": "125 mg/L (H)",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "654789321",
+                "Specimen Collection Date": "2024-07-06 08:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "32109876"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Salmonella enteritis",
+                "ICD-10 Code": "A02.0",
+                "SNOMED-CT Code": "4106007",
+                "Diagnosis Date": "2024-07-05",
+                "Onset Date": "2024-07-03",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Salmonella sepsis",
+                "ICD-10 Code": "A02.1",
+                "SNOMED-CT Code": "10453001",
+                "Diagnosis Date": "2024-07-07",
+                "Onset Date": "2024-07-05",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Hypertension",
+                "ICD-10 Code": "I10",
+                "SNOMED-CT Code": "38341003",
+                "Diagnosis Date": "2015-01-01",
+                "Onset Date": "2014-06-15",
+                "Status": "Chronic",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Hyperlipidemia",
+                "ICD-10 Code": "E78.5",
+                "SNOMED-CT Code": "49051004",
+                "Diagnosis Date": "2018-03-22",
+                "Onset Date": "2017-11-01",
+                "Status": "Chronic",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Type 2 diabetes mellitus",
+                "ICD-10 Code": "E11",
+                "SNOMED-CT Code": "44054006",
+                "Diagnosis Date": "2020-09-18",
+                "Onset Date": "2020-06-01",
+                "Status": "Chronic",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Computed tomography (CT) of abdomen and pelvis with contrast",
+                "CPT Code": "74177",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-06",
+                "Details": "CT scan performed to evaluate for intra-abdominal pathology and complications of salmonellosis.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Intravenous antibiotic therapy",
+                "CPT Code": "96365",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-07-06",
+                "Details": "Intravenous ceftriaxone 2g daily initiated for treatment of salmonella bacteremia.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Intravenous fluid hydration therapy",
+                "CPT Code": "96360",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-07-06",
+                "Details": "IV fluid hydration with normal saline initiated for volume repletion due to diarrheal losses.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Blood culture collection",
+                "CPT Code": "87040",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-05",
+                "Details": "Two sets of blood cultures drawn to evaluate for bloodstream infection.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Stool culture",
+                "CPT Code": "87045",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-05",
+                "Details": "Stool specimen collected for bacterial culture to identify enteric pathogen.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Planned",
+                "Procedure Description": "Infectious disease physician consultation",
+                "CPT Code": "99253",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-08",
+                "Details": "Consult requested with infectious disease specialist to guide management of salmonella bacteremia.",
+                "Trigger": "Yes"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Ceftriaxone",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Treatment of Salmonella bacteremia",
+                "Administration Mode": "Intravenous",
+                "Dose": "2g",
+                "Duration": "Once daily",
+                "Start Date": "2024-07-06",
+                "Response": "Improving",
+                "Response Details": "Fever and abdominal pain improving after 48 hours of therapy. Repeat blood cultures pending.",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Treatment of nausea and vomiting",
+                "Administration Mode": "Intravenous",
+                "Dose": "4mg",
+                "Duration": "Every 8 hours as needed",
+                "Start Date": "2024-07-06",
+                "Response": "Adequate",
+                "Response Details": "Nausea and vomiting controlled with as needed dosing.",
+                "Observation Date": "2024-07-07"
+            },
+            {
+                "Medication Name": "Loperamide",
+                "Medication Type": "Antidiarrheal",
+                "Purpose": "Treatment of diarrhea",
+                "Administration Mode": "Oral",
+                "Dose": "4mg",
+                "Duration": "Initially, then 2mg after each loose stool (max 16mg/day)",
+                "Start Date": "2024-07-08",
+                "Response": "Partial",
+                "Response Details": "Diarrhea somewhat improved but still 4-5 loose stools per day.",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Lisinopril",
+                "Medication Type": "Antihypertensive",
+                "Purpose": "Treatment of hypertension",
+                "Administration Mode": "Oral",
+                "Dose": "20mg",
+                "Duration": "Daily",
+                "Start Date": "2015-03-01",
+                "Response": "Adequate",
+                "Response Details": "Blood pressure well-controlled on current regimen.",
+                "Observation Date": "2024-06-15"
+            },
+            {
+                "Medication Name": "Atorvastatin",
+                "Medication Type": "Statin",
+                "Purpose": "Treatment of hyperlipidemia",
+                "Administration Mode": "Oral",
+                "Dose": "40mg",
+                "Duration": "Daily",
+                "Start Date": "2018-05-01",
+                "Response": "Adequate",
+                "Response Details": "LDL cholesterol at goal on current dose.",
+                "Observation Date": "2024-03-22"
+            },
+            {
+                "Medication Name": "Metformin",
+                "Medication Type": "Antihyperglycemic",
+                "Purpose": "Treatment of type 2 diabetes mellitus",
+                "Administration Mode": "Oral",
+                "Dose": "1000mg",
+                "Duration": "Twice daily",
+                "Start Date": "2020-10-01",
+                "Response": "Suboptimal",
+                "Response Details": "HbA1c 8.2% on current regimen, insulin may be required.",
+                "Observation Date": "2024-05-18"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 68-year-old black male truck driver developed salmonella enteritis after a trip, progressing to bacteremia. He was hospitalized for IV antibiotics and fluids. Comorbidities like diabetes raised concerns but he improved, though still had diarrhea at discharge."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Desmond234 Jackson234",
+        "Report_Header_Age": "68",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-07-11"
+    }
+}

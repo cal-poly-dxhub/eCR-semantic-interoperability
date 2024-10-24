@@ -1,0 +1,758 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "White",
+        "Ethnicity": "Hispanic or Latino",
+        "Patient Age": "30",
+        "Date of Birth": "1994-03-15",
+        "Location": "Kissimmee, FL",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "Spanish",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Morales742, Carmen185",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Unemployed",
+        "Gender Identity": "Female",
+        "Disability Status": "No disability",
+        "Education Level": "High school graduate",
+        "Marital Status": "Single",
+        "Smoking Status": "Former smoker",
+        "BMI": "28.5",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Medicaid",
+        "Refugee Status": "Not a refugee",
+        "Correctional Facility Status": "Not in correctional facility",
+        "Lose Housing Worry": "Somewhat worried",
+        "People Living at Address": "4",
+        "Housing Status": "Renting",
+        "Stress Level": "High stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1742 Palmetto Ln., Apt 3B, Kissimmee, FL 34741",
+        "Patient Email": "cmorales1994@emailprovider.com",
+        "Patient Phone": "407-555-3286"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Unemployed",
+        "Current Industry": "N/A",
+        "Usual Occupation": "Retail Sales Associate",
+        "Usual Industry": "Retail",
+        "Usual Employment Date Range": "Start: 2015-06-01 to 2024-03-15",
+        "Current Job Title": "N/A",
+        "Current Employer": "N/A",
+        "Current Employment Start Date": "N/A",
+        "Annual Income": "$0 (currently unemployed)"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "San Juan, Puerto Rico",
+                "Purpose": "Family",
+                "Start Date": "2024-05-01",
+                "End Date": "2024-05-10",
+                "Accommodations": "Family home",
+                "Mode of Travel": "Commercial flight",
+                "Activities": "Visited extended family, attended a family reunion, spent time at local beaches"
+            },
+            {
+                "Location": "Miami, Florida",
+                "Purpose": "Medical",
+                "Start Date": "2024-03-20",
+                "End Date": "2024-03-22",
+                "Accommodations": "Budget hotel",
+                "Mode of Travel": "Personal car",
+                "Activities": "Attended specialist medical appointment, visited local pharmacy"
+            },
+            {
+                "Location": "Orlando, Florida",
+                "Purpose": "Social events",
+                "Start Date": "2024-02-14",
+                "End Date": "2024-02-14",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Rideshare",
+                "Activities": "Attended a friend's birthday party at a local restaurant"
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient reports recent travel to San Juan, Puerto Rico from May 1-10, 2024 for a family reunion. She stayed with family and engaged in various social activities. Prior to this, patient traveled to Miami, Florida from March 20-22, 2024 for a specialist medical appointment, staying at a budget hotel. On February 14, 2024, patient made a day trip to Orlando, Florida for a social event. Given the patient's active, severe hepatitis C infection and pregnancy status, these travels, particularly the longer stay in Puerto Rico, may have implications for her condition management and risk of complications. The medical visit to Miami could be relevant to her hepatitis C treatment or pregnancy care. No international travel outside the US and its territories was reported."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Severe abdominal pain and fatigue",
+        "Patient ID": "8472639",
+        "Encounter Class": "emergency",
+        "Encounter Status": "finished",
+        "Encounter ID": "20240708153",
+        "Start DateTime": "2024-07-08 09:15",
+        "End DateTime": "2024-07-08 18:30",
+        "Discharge Disposition": "Discharged to home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Emergency department visit",
+                "SNOMED-CT Code": "4525004",
+                "Description": "Emergency department patient visit",
+                "Start Date": "2024-07-08",
+                "End Date": "2024-07-08"
+            },
+            {
+                "Encounter Type": "Obstetric ultrasound",
+                "SNOMED-CT Code": "268445003",
+                "Description": "Obstetric ultrasound scan",
+                "Start Date": "2024-07-08",
+                "End Date": "2024-07-08"
+            },
+            {
+                "Encounter Type": "Hepatology consultation",
+                "SNOMED-CT Code": "310282002",
+                "Description": "Hepatology service",
+                "Start Date": "2024-07-08",
+                "End Date": "2024-07-08"
+            },
+            {
+                "Encounter Type": "High risk pregnancy consultation",
+                "SNOMED-CT Code": "424441002",
+                "Description": "High risk pregnancy consultation",
+                "Start Date": "2024-07-08",
+                "End Date": "2024-07-08"
+            },
+            {
+                "Encounter Type": "Patient education",
+                "SNOMED-CT Code": "311401005",
+                "Description": "Patient education procedure",
+                "Start Date": "2024-07-08",
+                "End Date": "2024-07-08"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Ramirez295, Luis342, MD",
+        "Practitioner Phone": "407-555-7832",
+        "Practitioner Fax": "407-555-7833",
+        "Practitioner Email": "dr.ramirez@kissimmeehealthcenter.org",
+        "Practitioner Office Name": "Kissimmee Health Center",
+        "Practitioner ID": "6729384015",
+        "Practitioner Address": "1835 Oak Street, Suite 201, Kissimmee, FL 34741"
+    },
+    "Facility_Information": {
+        "Facility Name": "Osceola Regional Medical Center",
+        "Facility Type": "Hospital",
+        "Facility Phone": "407-555-2000",
+        "Facility Fax": "407-555-2001",
+        "Facility Address": "700 West Oak Street, Kissimmee, FL 34741"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "Pregnant",
+        "Pregnancy Status Determination Method": "Urine hCG test",
+        "Pregnancy Status Recorded Date": "2024-06-10",
+        "Estimated Date of Delivery": "2025-01-15",
+        "Estimated Date of Delivery Method": "LMP-based calculation",
+        "Estimated Gestational Age": "8 weeks 5 days",
+        "Estimated Gestational Age Determination Date": "2024-07-08",
+        "Estimated Gestational Age Determination Method": "Ultrasound measurement",
+        "Last Menstrual Period": "2024-05-04",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-07-06",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-07-01",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-07-05",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Jaundice",
+                "SNOMED-CT": "18165001",
+                "Onset Date": "2024-07-07",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Loss of appetite",
+                "SNOMED-CT": "79890006",
+                "Onset Date": "2024-07-03",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Dark urine",
+                "SNOMED-CT": "34436003",
+                "Onset Date": "2024-07-06",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Joint pain",
+                "SNOMED-CT": "57676002",
+                "Onset Date": "2024-07-04",
+                "Severity": "Mild",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "38.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "C",
+                "Measurement Time": "2024-07-08 09:20:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "92",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/min",
+                "Measurement Time": "2024-07-08 09:20:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "18",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/min",
+                "Measurement Time": "2024-07-08 09:20:00"
+            },
+            {
+                "Vital Sign": "Systolic blood pressure",
+                "Value": "135",
+                "SNOMED-CT": "271649006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-08 09:20:00"
+            },
+            {
+                "Vital Sign": "Diastolic blood pressure",
+                "Value": "88",
+                "SNOMED-CT": "271650006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-08 09:20:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "98",
+                "SNOMED-CT": "103228002",
+                "Unit": "%",
+                "Measurement Time": "2024-07-08 09:20:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "72.5",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-07-08 09:25:00"
+            },
+            {
+                "Vital Sign": "Body mass index",
+                "Value": "28.5",
+                "SNOMED-CT": "60621009",
+                "Unit": "kg/m2",
+                "Measurement Time": "2024-07-08 09:25:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Severe abdominal pain and fatigue in pregnant patient with known hepatitis C",
+        "Past Medical History": "Patient has a history of chronic hepatitis C, diagnosed 3 years ago. She has been non-compliant with treatment due to lack of insurance and unstable housing situation. Patient also has a history of depression and anxiety, managed with counseling. She reports a previous miscarriage 2 years ago. Patient is a former smoker, having quit 6 months ago when she found out she was pregnant. No history of alcohol abuse or intravenous drug use.",
+        "Review of Systems": "General: Reports fatigue and weakness. Denies fever or chills.\nSkin: Notes yellowing of skin and eyes.\nHEENT: Denies vision changes, hearing problems, or throat pain.\nCardiovascular: Denies chest pain or palpitations.\nRespiratory: Denies shortness of breath or cough.\nGastrointestinal: Complains of severe abdominal pain, primarily in right upper quadrant. Reports nausea and loss of appetite. Denies vomiting or diarrhea.\nGenitourinary: Reports dark urine. Denies dysuria or increased frequency.\nMusculoskeletal: Reports mild joint pain, particularly in knees and ankles.\nNeurological: Denies headaches, dizziness, or changes in consciousness.\nPsychiatric: Acknowledges increased anxiety about pregnancy and hepatitis C status.\nEndocrine: Denies excessive thirst or frequent urination.\nHematologic: Denies easy bruising or bleeding.\nAllergic/Immunologic: Denies recent allergies or infections.",
+        "History of Present Illness": "Carmen Morales is a 30-year-old G2P0 Hispanic female at 8 weeks 5 days gestation who presents to the ED with severe abdominal pain and fatigue. Patient reports the abdominal pain started 2 days ago, gradually worsening, and is primarily located in the right upper quadrant. She describes the pain as constant and sharp, rating it 8/10 in severity. The pain is exacerbated by movement and deep breathing, and not relieved by over-the-counter pain medications.\n\nPatient also complains of increasing fatigue over the past week, making it difficult for her to perform daily activities. She has experienced nausea for the past 3 days, leading to decreased appetite and food intake. Patient noticed yellowing of her skin and eyes yesterday, as well as darkening of her urine.\n\nPatient has a known history of chronic hepatitis C, diagnosed 3 years ago, but has been non-compliant with treatment due to lack of insurance and unstable housing situation. She discovered her pregnancy 4 weeks ago and has not yet established prenatal care. Patient denies any vaginal bleeding or cramping related to the pregnancy.\n\nPatient reports no recent travel outside of a trip to Puerto Rico 2 months ago for a family reunion. She denies any known sick contacts or recent changes in medications. Patient quit smoking 6 months ago and denies any alcohol or illicit drug use.",
+        "Plan of Treatment": "1. Admit patient to high-risk obstetrics service for close monitoring and management of active hepatitis C in pregnancy.\n2. Consult hepatology for evaluation and recommendations on hepatitis C management during pregnancy.\n3. Perform comprehensive metabolic panel, complete blood count, coagulation studies, and hepatitis C viral load.\n4. Ultrasound of liver and biliary system to assess for complications of hepatitis C.\n5. Obstetric ultrasound to confirm fetal viability and gestational age.\n6. Initiate IV hydration and antiemetics as needed for nausea.\n7. Pain management with acetaminophen; avoid NSAIDs.\n8. Monitor for signs of hepatic encephalopathy or other complications of liver disease.\n9. Educate patient on importance of adherence to hepatitis C treatment and potential risks to fetus.\n10. Arrange for social work consult to address housing instability and insurance issues.\n11. Schedule follow-up with high-risk obstetrics and hepatology in 1 week.\n12. Provide patient education on hepatitis C transmission prevention and importance of prenatal care.\n13. Consider initiating antiviral therapy for hepatitis C after careful risk-benefit analysis and patient consent.\n14. Recommend hepatitis A and B vaccinations if not previously immunized.\n15. Arrange for nutritional consult to address dietary needs in pregnancy with liver disease.",
+        "Vaccine Credential Patient Assertion": "Patient reports receiving hepatitis B vaccination series as a child but is unsure of completion status. She has not received hepatitis A vaccine. Patient received Tdap vaccine 2 years ago. She is unsure about MMR and varicella vaccination status. Patient declined flu vaccine last season due to concerns about vaccine safety during pregnancy."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "1742-6",
+                "LOINC Order Code Description": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "210",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "ORD123456"
+            },
+            {
+                "LOINC Laboratory Order Code": "1920-8",
+                "LOINC Order Code Description": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "180",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "ORD123457"
+            },
+            {
+                "LOINC Laboratory Order Code": "1975-2",
+                "LOINC Order Code Description": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "3.2",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "ORD123458"
+            },
+            {
+                "LOINC Laboratory Order Code": "4548-4",
+                "LOINC Order Code Description": "Hemoglobin A1c/Hemoglobin.total in Blood",
+                "Laboratory Result": "5.2",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Whole blood",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123459"
+            },
+            {
+                "LOINC Laboratory Order Code": "2085-9",
+                "LOINC Order Code Description": "Cholesterol in HDL [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "45",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654325",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123460"
+            },
+            {
+                "LOINC Laboratory Order Code": "2093-3",
+                "LOINC Order Code Description": "Cholesterol in LDL [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "130",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654326",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123461"
+            },
+            {
+                "LOINC Laboratory Order Code": "2571-8",
+                "LOINC Order Code Description": "Triglyceride [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "180",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654327",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123462"
+            },
+            {
+                "LOINC Laboratory Order Code": "6690-2",
+                "LOINC Order Code Description": "Leukocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "12.5",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Whole blood",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654328",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123463"
+            },
+            {
+                "LOINC Laboratory Order Code": "789-8",
+                "LOINC Order Code Description": "Erythrocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "4.2",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Whole blood",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654329",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123464"
+            },
+            {
+                "LOINC Laboratory Order Code": "777-3",
+                "LOINC Order Code Description": "Platelets [#/volume] in Blood by Automated count",
+                "Laboratory Result": "220",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Whole blood",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654330",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123465"
+            },
+            {
+                "LOINC Laboratory Order Code": "6301-6",
+                "LOINC Order Code Description": "INR in Platelet poor plasma by Coagulation assay",
+                "Laboratory Result": "1.2",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Plasma",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654331",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123466"
+            },
+            {
+                "LOINC Laboratory Order Code": "48159-8",
+                "LOINC Order Code Description": "Hepatitis C virus RNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection",
+                "Laboratory Result": "6.2",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654332",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "ORD123467"
+            },
+            {
+                "LOINC Laboratory Order Code": "20570-8",
+                "LOINC Order Code Description": "Hematocrit [Volume Fraction] of Blood",
+                "Laboratory Result": "36",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Whole blood",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654333",
+                "Specimen Collection Date": "2024-07-08 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123468"
+            },
+            {
+                "LOINC Laboratory Order Code": "2106-3",
+                "LOINC Order Code Description": "Choriogonadotropin (Pregnancy test) [Presence] in Urine",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Urine",
+                "Specimen Type": "Urine",
+                "Specimen ID": "987654334",
+                "Specimen Collection Date": "2024-07-08 10:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123469"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Chronic hepatitis C with hepatic coma",
+                "ICD-10 Code": "B18.2",
+                "SNOMED-CT Code": "128302006",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2021-06-15",
+                "Status": "Active",
+                "Evidence": "Elevated ALT, AST, bilirubin; high HCV viral load",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "High-risk pregnancy due to liver disease",
+                "ICD-10 Code": "O26.61",
+                "SNOMED-CT Code": "199745000",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-06-10",
+                "Status": "Active",
+                "Evidence": "Positive pregnancy test; known chronic hepatitis C",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Jaundice",
+                "ICD-10 Code": "R17",
+                "SNOMED-CT Code": "18165001",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-07-07",
+                "Status": "Active",
+                "Evidence": "Elevated bilirubin; patient-reported yellowing of skin",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Fatigue",
+                "ICD-10 Code": "R53.83",
+                "SNOMED-CT Code": "84229001",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-07-01",
+                "Status": "Active",
+                "Evidence": "Patient-reported symptom",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Right upper quadrant abdominal pain",
+                "ICD-10 Code": "R10.11",
+                "SNOMED-CT Code": "21522001",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-07-06",
+                "Status": "Active",
+                "Evidence": "Patient-reported symptom",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Nausea in pregnancy",
+                "ICD-10 Code": "O21.0",
+                "SNOMED-CT Code": "422587007",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-07-05",
+                "Status": "Active",
+                "Evidence": "Patient-reported symptom; confirmed pregnancy",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Maternal care for other specified fetal problems, first trimester",
+                "ICD-10 Code": "O36.8910",
+                "SNOMED-CT Code": "199745000",
+                "Diagnosis Date": "2024-07-08",
+                "Onset Date": "2024-06-10",
+                "Status": "Active",
+                "Evidence": "Confirmed pregnancy; chronic hepatitis C",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Abdominal ultrasound",
+                "CPT Code": "76700",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "Performed to assess liver and biliary system for complications of hepatitis C",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Obstetric ultrasound, first trimester",
+                "CPT Code": "76801",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "Performed to confirm fetal viability and gestational age",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Intravenous infusion, hydration",
+                "CPT Code": "96360",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-08",
+                "Details": "IV hydration initiated for management of nausea and dehydration",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Liver elastography",
+                "CPT Code": "91200",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-15",
+                "Details": "Scheduled to assess liver fibrosis and guide hepatitis C management",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Esophagogastroduodenoscopy with biopsy",
+                "CPT Code": "43239",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-22",
+                "Details": "Scheduled to evaluate for esophageal varices due to chronic hepatitis C",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Hepatitis A and B vaccination",
+                "CPT Code": "90636",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-15",
+                "Details": "Recommended to prevent additional liver infections in patient with hepatitis C",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Individual psychotherapy",
+                "CPT Code": "90832",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-16",
+                "Details": "Scheduled to address anxiety related to high-risk pregnancy and hepatitis C status",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Fetal non-stress test",
+                "CPT Code": "59025",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-29",
+                "Details": "Scheduled to monitor fetal well-being in high-risk pregnancy",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Therapeutic phlebotomy",
+                "CPT Code": "36415",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-18",
+                "Details": "Considered for management of elevated ferritin levels associated with chronic hepatitis C",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Amniocentesis",
+                "CPT Code": "59000",
+                "Status": "Planned",
+                "Procedure Date": "2024-08-05",
+                "Details": "Scheduled to assess fetal risk due to maternal hepatitis C infection",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Sofosbuvir/Velpatasvir",
+                "Medication Type": "Antiviral",
+                "Purpose": "Treatment of chronic hepatitis C",
+                "Administration Mode": "Oral",
+                "Dose": "400mg/100mg",
+                "Duration": "Once daily for 12 weeks",
+                "Start Date": "2024-07-09",
+                "Response": "Pending",
+                "Response Details": "Treatment initiated, viral load monitoring planned",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Management of nausea",
+                "Administration Mode": "Intravenous",
+                "Dose": "4mg",
+                "Duration": "Every 8 hours as needed",
+                "Start Date": "2024-07-08",
+                "Response": "Positive",
+                "Response Details": "Reduced frequency and severity of nausea",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic",
+                "Purpose": "Pain management",
+                "Administration Mode": "Oral",
+                "Dose": "650mg",
+                "Duration": "Every 6 hours as needed",
+                "Start Date": "2024-07-08",
+                "Response": "Partial",
+                "Response Details": "Moderate reduction in abdominal pain",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Ursodeoxycholic acid",
+                "Medication Type": "Bile acid",
+                "Purpose": "Management of cholestasis",
+                "Administration Mode": "Oral",
+                "Dose": "300mg",
+                "Duration": "Twice daily",
+                "Start Date": "2024-07-09",
+                "Response": "Pending",
+                "Response Details": "Initiated to manage cholestasis, monitoring liver function tests",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Prenatal vitamin",
+                "Medication Type": "Supplement",
+                "Purpose": "Prenatal nutrition support",
+                "Administration Mode": "Oral",
+                "Dose": "1 tablet",
+                "Duration": "Once daily",
+                "Start Date": "2024-06-15",
+                "Response": "Positive",
+                "Response Details": "Well-tolerated, supporting nutritional needs during pregnancy",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Lactulose",
+                "Medication Type": "Laxative",
+                "Purpose": "Prevention of hepatic encephalopathy",
+                "Administration Mode": "Oral",
+                "Dose": "30mL",
+                "Duration": "Three times daily",
+                "Start Date": "2024-07-09",
+                "Response": "Pending",
+                "Response Details": "Initiated as prophylaxis, monitoring for signs of encephalopathy",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Vitamin K",
+                "Medication Type": "Vitamin supplement",
+                "Purpose": "Correction of coagulopathy",
+                "Administration Mode": "Subcutaneous",
+                "Dose": "10mg",
+                "Duration": "Once weekly",
+                "Start Date": "2024-07-09",
+                "Response": "Pending",
+                "Response Details": "Initiated to address potential coagulation issues, monitoring INR",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Sertraline",
+                "Medication Type": "Antidepressant",
+                "Purpose": "Management of depression and anxiety",
+                "Administration Mode": "Oral",
+                "Dose": "50mg",
+                "Duration": "Once daily",
+                "Start Date": "2023-09-01",
+                "Response": "Positive",
+                "Response Details": "Improved mood and reduced anxiety symptoms",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Folic acid",
+                "Medication Type": "Vitamin supplement",
+                "Purpose": "Prevention of neural tube defects",
+                "Administration Mode": "Oral",
+                "Dose": "400mcg",
+                "Duration": "Once daily",
+                "Start Date": "2024-06-15",
+                "Response": "Positive",
+                "Response Details": "Well-tolerated, supporting fetal development",
+                "Observation Date": "2024-07-08"
+            },
+            {
+                "Medication Name": "Albumin",
+                "Medication Type": "Plasma expander",
+                "Purpose": "Management of ascites",
+                "Administration Mode": "Intravenous",
+                "Dose": "25g",
+                "Duration": "Once daily for 3 days",
+                "Start Date": "2024-07-09",
+                "Response": "Pending",
+                "Response Details": "Initiated to manage potential ascites, monitoring fluid status",
+                "Observation Date": "2024-07-09"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 30-year-old pregnant Hispanic woman with chronic hepatitis C presents to the ED with severe abdominal pain, fatigue, and jaundice. She is 8 weeks pregnant and has been non-compliant with hepatitis C treatment due to lack of insurance. Lab results show elevated liver enzymes and high viral load. The patient is admitted for management of active hepatitis C in pregnancy, with concerns for high risk of complications. Treatment includes antiviral therapy, symptom management, and close monitoring of both maternal and fetal health."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Carmen185 Morales742",
+        "Report_Header_Age": "30",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-07-09"
+    }
+}

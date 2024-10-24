@@ -1,0 +1,583 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "White",
+        "Ethnicity": "Non-Hispanic",
+        "Patient Age": "26",
+        "Date of Birth": "1998-06-15",
+        "Location": "Crossville",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Bowers791, Haley523",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed",
+        "Gender Identity": "Female",
+        "Disability Status": "No disability",
+        "Education Level": "Bachelor's degree",
+        "Marital Status": "Single",
+        "Smoking Status": "Never smoker",
+        "BMI": "23.7",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Private insurance",
+        "Refugee Status": "Not a refugee",
+        "Correctional Facility Status": "Not in correctional facility",
+        "Lose Housing Worry": "Not worried at all",
+        "People Living at Address": "2",
+        "Housing Status": "Renting",
+        "Stress Level": "Moderate stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1732 Willow Creek Ln., Crossville, TN 38555",
+        "Patient Email": "haley.bowers98@email.com",
+        "Patient Phone": "931-555-7284"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Elementary School Teacher",
+        "Current Industry": "Education",
+        "Usual Occupation": "Elementary School Teacher",
+        "Usual Industry": "Education",
+        "Usual Employment Date Range": "Start: 2020-08-01 to current",
+        "Current Job Title": "3rd Grade Teacher",
+        "Current Employer": "Pine Creek Elementary School, 456 Oakwood Dr, Crossville, TN 38555, 931-555-2345",
+        "Current Employment Start Date": "2020-08-01",
+        "Annual Income": "$42,500"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Nashville, TN",
+                "Purpose": "Business",
+                "Start Date": "2024-06-28",
+                "End Date": "2024-06-30",
+                "Accommodations": "Hilton Downtown Nashville",
+                "Mode of Travel": "Personal car",
+                "Activities": "Attended a teachers' conference at the Nashville Convention Center. Participated in workshops and networking events with educators from across the state."
+            },
+            {
+                "Location": "Knoxville, TN",
+                "Purpose": "Social events",
+                "Start Date": "2024-06-22",
+                "End Date": "2024-06-23",
+                "Accommodations": "Friend's apartment",
+                "Mode of Travel": "Personal car",
+                "Activities": "Visited a college friend. Attended a crowded outdoor music festival in Market Square. Dined at several local restaurants."
+            },
+            {
+                "Location": "Crossville, TN",
+                "Purpose": "Routine",
+                "Start Date": "2024-06-15",
+                "End Date": "2024-06-15",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Personal car",
+                "Activities": "Attended a large community potluck at Cumberland Mountain State Park. Interacted with numerous local residents and visitors."
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient reports recent travel that may be relevant to COVID-19 exposure. From June 28-30, 2024, she attended a teachers' conference in Nashville, TN, which involved indoor gatherings at the Nashville Convention Center. On June 22-23, 2024, she visited Knoxville, TN, where she attended a crowded outdoor music festival and dined at several local restaurants. On June 15, 2024, she participated in a large community potluck at Cumberland Mountain State Park in Crossville, TN, interacting with numerous local residents and visitors. These activities, particularly the indoor conference and crowded outdoor events, present potential exposure risks for COVID-19 transmission."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Cough, fever, and body aches",
+        "Patient ID": "7891234",
+        "Encounter Class": "outpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "12345678901",
+        "Start DateTime": "2024-07-03 14:30",
+        "End DateTime": "2024-07-03 15:45",
+        "Discharge Disposition": "Discharged to home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient visit",
+                "SNOMED-CT Code": "308335008",
+                "Description": "Patient encounter procedure",
+                "Start Date": "2024-07-03",
+                "End Date": "2024-07-03"
+            },
+            {
+                "Encounter Type": "Initial evaluation",
+                "SNOMED-CT Code": "185349003",
+                "Description": "Encounter for 'check-up'",
+                "Start Date": "2024-07-03",
+                "End Date": "2024-07-03"
+            },
+            {
+                "Encounter Type": "Respiratory assessment",
+                "SNOMED-CT Code": "185465004",
+                "Description": "Respiratory system examination",
+                "Start Date": "2024-07-03",
+                "End Date": "2024-07-03"
+            },
+            {
+                "Encounter Type": "Fever assessment",
+                "SNOMED-CT Code": "315642008",
+                "Description": "Fever assessment",
+                "Start Date": "2024-07-03",
+                "End Date": "2024-07-03"
+            },
+            {
+                "Encounter Type": "COVID-19 screening",
+                "SNOMED-CT Code": "1240581000000104",
+                "Description": "Severe acute respiratory syndrome coronavirus 2 screening",
+                "Start Date": "2024-07-03",
+                "End Date": "2024-07-03"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Simmons907, Elijah233, MD",
+        "Practitioner Phone": "931-555-3872",
+        "Practitioner Fax": "931-555-3873",
+        "Practitioner Email": "dr.simmons@crossvillefamilycare.com",
+        "Practitioner Office Name": "Crossville Family Care Center",
+        "Practitioner ID": "7629384105",
+        "Practitioner Address": "2145 Oak Ridge Lane, Crossville, TN 38555"
+    },
+    "Facility_Information": {
+        "Facility Name": "Crossville Family Care Center",
+        "Facility Type": "Outpatient clinic",
+        "Facility Phone": "931-555-3870",
+        "Facility Fax": "931-555-3871",
+        "Facility Address": "2145 Oak Ridge Lane, Crossville, TN 38555"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "Not pregnant",
+        "Pregnancy Status Determination Method": "Patient self-report",
+        "Pregnancy Status Recorded Date": "2024-07-03",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "2024-06-10",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Cough",
+                "SNOMED-CT": "49727002",
+                "Onset Date": "2024-07-01",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fever",
+                "SNOMED-CT": "386661006",
+                "Onset Date": "2024-07-02",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Body aches",
+                "SNOMED-CT": "82991003",
+                "Onset Date": "2024-07-02",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-07-02",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Sore throat",
+                "SNOMED-CT": "267102003",
+                "Onset Date": "2024-07-03",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Headache",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2024-07-03",
+                "Severity": "Mild",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "38.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-07-03 14:35:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "92",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-07-03 14:36:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "20",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-07-03 14:37:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "97",
+                "SNOMED-CT": "431314004",
+                "Unit": "%",
+                "Measurement Time": "2024-07-03 14:38:00"
+            },
+            {
+                "Vital Sign": "Systolic blood pressure",
+                "Value": "122",
+                "SNOMED-CT": "271649006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-03 14:39:00"
+            },
+            {
+                "Vital Sign": "Diastolic blood pressure",
+                "Value": "78",
+                "SNOMED-CT": "271650006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-03 14:39:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Cough, fever, and body aches",
+        "Past Medical History": "Patient reports no significant past medical history. She has had typical childhood illnesses including chickenpox at age 6. No history of chronic diseases, hospitalizations, or surgeries. She has maintained up-to-date vaccinations throughout childhood and adolescence, but has not received any COVID-19 vaccines.",
+        "Review of Systems": "General: Reports fatigue and mild fever. Denies chills, night sweats, or unexplained weight loss.\nRespiratory: Complains of dry cough. Denies shortness of breath, wheezing, or chest pain.\nCardiovascular: Denies chest pain, palpitations, or edema.\nGastrointestinal: Denies nausea, vomiting, diarrhea, or abdominal pain.\nMusculoskeletal: Reports generalized body aches, particularly in back and legs. Denies joint swelling or redness.\nNeurological: Reports mild headache. Denies dizziness, confusion, or loss of smell or taste.\nENT: Reports mild sore throat. Denies ear pain or nasal congestion.\nSkin: Denies rashes or unusual skin changes.\nPsychiatric: Denies anxiety or depression, but expresses concern about potential COVID-19 diagnosis.",
+        "History of Present Illness": "Ms. Bowers is a 26-year-old female presenting with a 3-day history of progressive symptoms. She first noticed a dry cough on July 1, 2024, which has persisted and slightly worsened. On July 2, she developed a low-grade fever and generalized body aches, particularly in her back and legs. Today, July 3, she woke up with a mild sore throat and headache. She denies any shortness of breath, chest pain, or loss of smell or taste. The patient reports recent travel, including attending a teachers' conference in Nashville from June 28-30, visiting Knoxville for a music festival on June 22-23, and participating in a large community potluck in Crossville on June 15. She works as an elementary school teacher but is currently on summer break. She has not been in close contact with anyone known to have COVID-19 but acknowledges potential exposure during her recent travels and social activities. The patient has not received any COVID-19 vaccines.",
+        "Plan of Treatment": "1. COVID-19 testing: Ordered rapid antigen test and PCR test for SARS-CoV-2.\n2. Symptomatic treatment: Recommended over-the-counter acetaminophen for fever and body aches, and throat lozenges for sore throat.\n3. Hydration: Advised to increase fluid intake.\n4. Rest: Recommended plenty of rest and sleep.\n5. Isolation: Instructed patient to self-isolate at home until test results are available and symptoms resolve.\n6. Monitoring: Patient to monitor symptoms closely, especially for any signs of shortness of breath or worsening fever.\n7. Follow-up: Virtual follow-up appointment scheduled in 2 days to review test results and reassess symptoms.\n8. Education: Provided information on COVID-19 symptoms, transmission, and when to seek emergency care.\n9. Contact tracing: Advised patient to inform recent close contacts about potential exposure.\n10. Vaccination discussion: Discussed importance of COVID-19 vaccination once current illness resolves and patient is eligible.\n11. Return precautions: Instructed to return immediately or seek emergency care if experiencing shortness of breath, chest pain, confusion, or other concerning symptoms.",
+        "Vaccine Credential Patient Assertion": "Patient reports no prior COVID-19 vaccinations. She states she has been hesitant due to concerns about vaccine side effects and perceived low personal risk. Patient is open to discussing vaccination options after resolution of current illness."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "94500-6",
+                "LOINC Order Code Description": "SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory specimen by NAA with probe detection",
+                "Laboratory Result": "Detected",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Nasopharynx",
+                "Specimen Type": "Swab",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-07-03 15:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "ORD123456"
+            },
+            {
+                "LOINC Laboratory Order Code": "94558-4",
+                "LOINC Order Code Description": "SARS-CoV-2 (COVID-19) Ag [Presence] in Respiratory specimen by Rapid immunoassay",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Nasal",
+                "Specimen Type": "Swab",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-07-03 15:05:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "ORD123457"
+            },
+            {
+                "LOINC Laboratory Order Code": "2160-0",
+                "LOINC Order Code Description": "Creatinine [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "0.8",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-07-03 15:10:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123458"
+            },
+            {
+                "LOINC Laboratory Order Code": "751-8",
+                "LOINC Order Code Description": "Neutrophils [#/volume] in Blood by Automated count",
+                "Laboratory Result": "4.2",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-07-03 15:10:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123459"
+            },
+            {
+                "LOINC Laboratory Order Code": "731-0",
+                "LOINC Order Code Description": "Lymphocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "1.8",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654325",
+                "Specimen Collection Date": "2024-07-03 15:10:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123460"
+            },
+            {
+                "LOINC Laboratory Order Code": "26464-8",
+                "LOINC Order Code Description": "Leukocytes [#/volume] in Blood",
+                "Laboratory Result": "7.5",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654326",
+                "Specimen Collection Date": "2024-07-03 15:10:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123461"
+            },
+            {
+                "LOINC Laboratory Order Code": "2093-3",
+                "LOINC Order Code Description": "Cholesterol [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "185",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654327",
+                "Specimen Collection Date": "2024-07-03 15:10:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123462"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "COVID-19, virus identified",
+                "ICD-10 Code": "U07.1",
+                "SNOMED-CT Code": "840539006",
+                "Diagnosis Date": "2024-07-03",
+                "Onset Date": "2024-07-01",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Acute upper respiratory infection, unspecified",
+                "ICD-10 Code": "J06.9",
+                "SNOMED-CT Code": "54150009",
+                "Diagnosis Date": "2024-07-03",
+                "Onset Date": "2024-07-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Fever, unspecified",
+                "ICD-10 Code": "R50.9",
+                "SNOMED-CT Code": "386661006",
+                "Diagnosis Date": "2024-07-03",
+                "Onset Date": "2024-07-02",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Myalgia",
+                "ICD-10 Code": "M79.1",
+                "SNOMED-CT Code": "68962001",
+                "Diagnosis Date": "2024-07-03",
+                "Onset Date": "2024-07-02",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Fatigue",
+                "ICD-10 Code": "R53.83",
+                "SNOMED-CT Code": "84229001",
+                "Diagnosis Date": "2024-07-03",
+                "Onset Date": "2024-07-02",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Infectious agent detection by nucleic acid (DNA or RNA); severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (Coronavirus disease [COVID-19]), amplified probe technique",
+                "CPT Code": "87635",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-03",
+                "Details": "PCR test for SARS-CoV-2 performed to confirm COVID-19 diagnosis",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Infectious agent antigen detection by immunoassay technique, (eg, enzyme immunoassay [EIA], enzyme-linked immunosorbent assay [ELISA], fluorescence immunoassay [FIA], immunochemiluminometric assay [IMCA]) qualitative or semiquantitative; severe acute respiratory syndrome coronavirus (eg, SARS-CoV, SARS-CoV-2 [COVID-19])",
+                "CPT Code": "87426",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-03",
+                "Details": "Rapid antigen test for SARS-CoV-2 performed for immediate results",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Pulse oximetry for home use",
+                "CPT Code": "94760",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-04",
+                "Details": "Patient instructed to monitor oxygen saturation at home and report if below 94%",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Therapeutic exercises to develop strength, endurance, range of motion, and flexibility, each 15 minutes",
+                "CPT Code": "97110",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-10",
+                "Details": "Breathing exercises planned to aid in recovery and prevent complications",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Chest x-ray, single view",
+                "CPT Code": "71045",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-10",
+                "Details": "Follow-up chest x-ray planned to assess for any lung involvement",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Over-the-counter analgesic and antipyretic",
+                "Purpose": "Fever reduction and pain relief",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg every 6 hours as needed",
+                "Duration": "Up to 5 days",
+                "Start Date": "2024-07-03",
+                "Response": "Moderate improvement",
+                "Response Details": "Patient reports reduced fever and mild alleviation of body aches",
+                "Observation Date": "2024-07-03"
+            },
+            {
+                "Medication Name": "Dextromethorphan",
+                "Medication Type": "Over-the-counter cough suppressant",
+                "Purpose": "Cough relief",
+                "Administration Mode": "Oral",
+                "Dose": "20 mg every 4 hours as needed",
+                "Duration": "Up to 7 days",
+                "Start Date": "2024-07-03",
+                "Response": "Mild improvement",
+                "Response Details": "Patient reports slight reduction in cough frequency",
+                "Observation Date": "2024-07-03"
+            },
+            {
+                "Medication Name": "Benzocaine/Menthol lozenge",
+                "Medication Type": "Over-the-counter throat lozenge",
+                "Purpose": "Sore throat relief",
+                "Administration Mode": "Oral dissolving",
+                "Dose": "1 lozenge every 2 hours as needed",
+                "Duration": "Up to 7 days",
+                "Start Date": "2024-07-03",
+                "Response": "Good improvement",
+                "Response Details": "Patient reports significant relief of sore throat symptoms",
+                "Observation Date": "2024-07-03"
+            },
+            {
+                "Medication Name": "Oral rehydration solution",
+                "Medication Type": "Electrolyte replacement",
+                "Purpose": "Maintain hydration and electrolyte balance",
+                "Administration Mode": "Oral",
+                "Dose": "As needed",
+                "Duration": "Until symptoms resolve",
+                "Start Date": "2024-07-03",
+                "Response": "Good improvement",
+                "Response Details": "Patient reports feeling more hydrated and less fatigued",
+                "Observation Date": "2024-07-03"
+            },
+            {
+                "Medication Name": "Zinc",
+                "Medication Type": "Dietary supplement",
+                "Purpose": "Immune support",
+                "Administration Mode": "Oral",
+                "Dose": "50 mg daily",
+                "Duration": "14 days",
+                "Start Date": "2024-07-03",
+                "Response": "Unknown",
+                "Response Details": "Too early to determine effectiveness",
+                "Observation Date": "2024-07-03"
+            },
+            {
+                "Medication Name": "Vitamin C",
+                "Medication Type": "Dietary supplement",
+                "Purpose": "Immune support",
+                "Administration Mode": "Oral",
+                "Dose": "1000 mg daily",
+                "Duration": "14 days",
+                "Start Date": "2024-07-03",
+                "Response": "Unknown",
+                "Response Details": "Too early to determine effectiveness",
+                "Observation Date": "2024-07-03"
+            },
+            {
+                "Medication Name": "Vitamin D3",
+                "Medication Type": "Dietary supplement",
+                "Purpose": "Immune support",
+                "Administration Mode": "Oral",
+                "Dose": "2000 IU daily",
+                "Duration": "30 days",
+                "Start Date": "2024-07-03",
+                "Response": "Unknown",
+                "Response Details": "Too early to determine effectiveness",
+                "Observation Date": "2024-07-03"
+            },
+            {
+                "Medication Name": "Melatonin",
+                "Medication Type": "Over-the-counter sleep aid",
+                "Purpose": "Improve sleep quality",
+                "Administration Mode": "Oral",
+                "Dose": "3 mg at bedtime",
+                "Duration": "As needed",
+                "Start Date": "2024-07-03",
+                "Response": "Good improvement",
+                "Response Details": "Patient reports improved sleep quality and duration",
+                "Observation Date": "2024-07-03"
+            },
+            {
+                "Medication Name": "Nasal saline spray",
+                "Medication Type": "Over-the-counter nasal moisturizer",
+                "Purpose": "Nasal congestion relief",
+                "Administration Mode": "Intranasal",
+                "Dose": "1-2 sprays per nostril as needed",
+                "Duration": "Until symptoms resolve",
+                "Start Date": "2024-07-03",
+                "Response": "Mild improvement",
+                "Response Details": "Patient reports slight relief of nasal congestion",
+                "Observation Date": "2024-07-03"
+            },
+            {
+                "Medication Name": "Ibuprofen",
+                "Medication Type": "Over-the-counter NSAID",
+                "Purpose": "Pain relief and fever reduction",
+                "Administration Mode": "Oral",
+                "Dose": "400 mg every 6 hours as needed",
+                "Duration": "Up to 5 days",
+                "Start Date": "2024-07-03",
+                "Response": "Not used",
+                "Response Details": "Prescribed as alternative to acetaminophen if needed, not yet used",
+                "Observation Date": "2024-07-03"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 26-year-old female teacher presented with cough, fever, and body aches starting July 1, 2024. She had recent travel history to Nashville and Knoxville. On July 3, she visited an outpatient clinic where COVID-19 was suspected. Rapid antigen and PCR tests were positive for SARS-CoV-2. The patient was diagnosed with early-stage, symptomatic COVID-19. Treatment included over-the-counter medications for symptom relief. She was instructed to self-isolate and monitor symptoms. The patient had no prior COVID-19 vaccinations and was open to discussing vaccination after recovery."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Haley523 Bowers791",
+        "Report_Header_Age": "26",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-07-04"
+    }
+}

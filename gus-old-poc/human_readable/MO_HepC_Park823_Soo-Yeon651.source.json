@@ -1,0 +1,795 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "Asian",
+        "Ethnicity": "Non-Hispanic",
+        "Patient Age": "50",
+        "Date of Birth": "1974-07-02",
+        "Location": "St. Louis",
+        "Country of Residence": "United States",
+        "Country of Nationality": "South Korea",
+        "Preferred Language": "Korean",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Park823, Soo-Yeon651",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed part-time",
+        "Gender Identity": "Female",
+        "Disability Status": "No disability",
+        "Education Level": "Bachelor's degree",
+        "Marital Status": "Married",
+        "Smoking Status": "Never smoker",
+        "BMI": "23.5",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Private health insurance",
+        "Refugee Status": "Not a refugee",
+        "Correctional Facility Status": "Not in correctional facility",
+        "Lose Housing Worry": "Not worried at all",
+        "People Living at Address": "4",
+        "Housing Status": "Renting",
+        "Stress Level": "Moderate stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1823 Magnolia Terrace, Apt 4B, St. Louis, MO 63108",
+        "Patient Email": "sooyeon.park74@kormail.com",
+        "Patient Phone": "314-555-9276"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Administrative Assistant",
+        "Current Industry": "Healthcare",
+        "Usual Occupation": "Administrative Assistant",
+        "Usual Industry": "Healthcare",
+        "Usual Employment Date Range": "Start: 2010-03-15 to current",
+        "Current Job Title": "Part-time Administrative Assistant",
+        "Current Employer": "St. Louis Children's Hospital, One Children's Place, St. Louis, MO 63110, 314-454-6000",
+        "Current Employment Start Date": "2010-03-15",
+        "Annual Income": "$28,000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Seoul, South Korea",
+                "Purpose": "Family",
+                "Start Date": "2024-05-15",
+                "End Date": "2024-06-01",
+                "Accommodations": "Family home",
+                "Mode of Travel": "Commercial flight",
+                "Activities": "Visited elderly parents, attended family gatherings, visited local markets and restaurants"
+            },
+            {
+                "Location": "Chicago, Illinois, USA",
+                "Purpose": "Business",
+                "Start Date": "2024-03-10",
+                "End Date": "2024-03-12",
+                "Accommodations": "Hotel",
+                "Mode of Travel": "Train",
+                "Activities": "Attended a healthcare administration conference, networked with colleagues"
+            },
+            {
+                "Location": "St. Louis, Missouri, USA",
+                "Purpose": "Routine",
+                "Start Date": "2024-02-20",
+                "End Date": "2024-02-20",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Visited a local Korean grocery store, had lunch at a Korean restaurant"
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient reports recent travel to Seoul, South Korea from May 15 to June 1, 2024, staying with family. This travel to an HBV endemic area is relevant to her chronic hepatitis C and HCC status. Patient also traveled domestically to Chicago in March 2024 for a healthcare conference, and makes routine trips within St. Louis, including to Korean markets and restaurants. No specific hepatitis C or liver cancer risk factors noted in travel history, but continued monitoring is advised given the patient's condition and travel to areas with varying healthcare standards."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Severe abdominal pain and jaundice",
+        "Patient ID": "7845932",
+        "Encounter Class": "inpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "20240701001",
+        "Start DateTime": "2024-06-28 14:30",
+        "End DateTime": "2024-07-01 16:45",
+        "Discharge Disposition": "Discharged to home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Emergency department visit",
+                "SNOMED-CT Code": "4525004",
+                "Description": "Emergency department patient visit",
+                "Start Date": "2024-06-28",
+                "End Date": "2024-06-28"
+            },
+            {
+                "Encounter Type": "Hospital admission",
+                "SNOMED-CT Code": "32485007",
+                "Description": "Hospital admission procedure",
+                "Start Date": "2024-06-28",
+                "End Date": "2024-07-01"
+            },
+            {
+                "Encounter Type": "Inpatient stay",
+                "SNOMED-CT Code": "183452005",
+                "Description": "Emergency hospital admission",
+                "Start Date": "2024-06-28",
+                "End Date": "2024-07-01"
+            },
+            {
+                "Encounter Type": "Gastroenterology consultation",
+                "SNOMED-CT Code": "185389009",
+                "Description": "Gastroenterology consultation",
+                "Start Date": "2024-06-29",
+                "End Date": "2024-06-29"
+            },
+            {
+                "Encounter Type": "Oncology consultation",
+                "SNOMED-CT Code": "185347001",
+                "Description": "Oncology consultation",
+                "Start Date": "2024-06-30",
+                "End Date": "2024-06-30"
+            },
+            {
+                "Encounter Type": "Diagnostic imaging",
+                "SNOMED-CT Code": "77477000",
+                "Description": "Computerized tomography of abdomen",
+                "Start Date": "2024-06-29",
+                "End Date": "2024-06-29"
+            },
+            {
+                "Encounter Type": "Laboratory encounter",
+                "SNOMED-CT Code": "108252007",
+                "Description": "Laboratory procedure",
+                "Start Date": "2024-06-29",
+                "End Date": "2024-06-30"
+            },
+            {
+                "Encounter Type": "Palliative care consultation",
+                "SNOMED-CT Code": "443761007",
+                "Description": "Consultation for palliative care",
+                "Start Date": "2024-07-01",
+                "End Date": "2024-07-01"
+            },
+            {
+                "Encounter Type": "Discharge planning",
+                "SNOMED-CT Code": "305351004",
+                "Description": "Admission to discharge planning",
+                "Start Date": "2024-07-01",
+                "End Date": "2024-07-01"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "King274, Victor678, MD",
+        "Practitioner Phone": "314-555-7823",
+        "Practitioner Fax": "314-555-7824",
+        "Practitioner Email": "v.king@stlouisoncology.org",
+        "Practitioner Office Name": "St. Louis Oncology Associates",
+        "Practitioner ID": "7392615480",
+        "Practitioner Address": "2145 Oncology Way, Suite 300, St. Louis, MO 63110"
+    },
+    "Facility_Information": {
+        "Facility Name": "Barnes-Jewish Hospital",
+        "Facility Type": "Hospital",
+        "Facility Phone": "314-555-2345",
+        "Facility Fax": "314-555-2346",
+        "Facility Address": "1 Barnes-Jewish Hospital Plaza, St. Louis, MO 63110"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-06-25",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Jaundice",
+                "SNOMED-CT": "18165001",
+                "Onset Date": "2024-06-26",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-06-20",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Weight loss",
+                "SNOMED-CT": "89362005",
+                "Onset Date": "2024-06-01",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-06-27",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Anorexia",
+                "SNOMED-CT": "79890006",
+                "Onset Date": "2024-06-15",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Pruritus",
+                "SNOMED-CT": "418290006",
+                "Onset Date": "2024-06-26",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Ascites",
+                "SNOMED-CT": "389026000",
+                "Onset Date": "2024-06-28",
+                "Severity": "Moderate",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "38.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "C",
+                "Measurement Time": "2024-06-28 14:35:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "92",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/min",
+                "Measurement Time": "2024-06-28 14:35:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "20",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/min",
+                "Measurement Time": "2024-06-28 14:35:00"
+            },
+            {
+                "Vital Sign": "Systolic blood pressure",
+                "Value": "135",
+                "SNOMED-CT": "271649006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-28 14:35:00"
+            },
+            {
+                "Vital Sign": "Diastolic blood pressure",
+                "Value": "85",
+                "SNOMED-CT": "271650006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-28 14:35:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "97",
+                "SNOMED-CT": "431314004",
+                "Unit": "%",
+                "Measurement Time": "2024-06-28 14:35:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "58.5",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-06-28 14:40:00"
+            },
+            {
+                "Vital Sign": "Body mass index",
+                "Value": "23.5",
+                "SNOMED-CT": "60621009",
+                "Unit": "kg/m2",
+                "Measurement Time": "2024-06-28 14:40:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Severe abdominal pain and jaundice",
+        "Past Medical History": "Patient has a history of chronic hepatitis C diagnosed in 2014. She underwent treatment with direct-acting antivirals in 2015 but experienced a relapse in 2017. She was diagnosed with hepatocellular carcinoma (HCC) in 2023 and has been undergoing treatment since then. Other medical history includes hypertension (diagnosed 2019) and type 2 diabetes mellitus (diagnosed 2020). She has no known drug allergies.",
+        "Review of Systems": "General: Reports significant fatigue and unintentional weight loss of 10 pounds over the past month. Denies fever or chills.\nSkin: Notes yellowing of skin and eyes. Reports mild itching.\nHEENT: Denies vision changes, hearing problems, or difficulty swallowing.\nCardiovascular: Denies chest pain or palpitations.\nRespiratory: Denies shortness of breath or cough.\nGastrointestinal: Complains of severe right upper quadrant abdominal pain, nausea, and decreased appetite. Denies vomiting or changes in bowel habits.\nGenitourinary: Denies changes in urination or urinary symptoms.\nMusculoskeletal: Reports general weakness but denies joint pain or swelling.\nNeurological: Denies headaches, dizziness, or changes in consciousness.\nPsychiatric: Expresses anxiety about her condition but denies depression or suicidal thoughts.",
+        "History of Present Illness": "Mrs. Park is a 50-year-old Korean-American female with a history of chronic hepatitis C and hepatocellular carcinoma who presents with worsening right upper quadrant abdominal pain and jaundice. The abdominal pain started about a week ago and has progressively worsened, now rated as 8/10 in severity. She describes the pain as constant and dull, occasionally sharp with movement. The jaundice was first noticed by her family two days ago and has become more pronounced. She reports increasing fatigue over the past month, along with a 10-pound unintentional weight loss. She also notes decreased appetite and intermittent nausea without vomiting. The patient denies fever, chills, or changes in bowel habits. She recently traveled to South Korea to visit family from May 15 to June 1, 2024, but denies any new symptoms or exposures during this trip. Her last oncology follow-up was two months ago, where imaging showed stable disease.",
+        "Plan of Treatment": "1. Admit patient to oncology service for further evaluation and management of suspected HCC progression.\n2. Order urgent CT scan of abdomen and pelvis with contrast to assess tumor status and look for potential complications.\n3. Complete blood work including CBC, CMP, PT/INR, AFP, and hepatitis viral load.\n4. Consult gastroenterology for evaluation and potential paracentesis if ascites is confirmed.\n5. Initiate pain management with opioid analgesics, starting with low doses and titrating as needed.\n6. Begin antiemetic therapy for nausea.\n7. Consult nutrition for assessment and recommendations given weight loss and decreased appetite.\n8. Discuss case at multidisciplinary tumor board to determine best course of action (e.g., potential for local therapies vs. systemic treatment).\n9. Consult palliative care team for symptom management and goals of care discussion.\n10. Schedule follow-up with hepatology to reassess chronic hepatitis C management.\n11. Provide psychological support and consider referral to oncology social worker.\n12. Educate patient and family about prognosis and potential treatment options.\n13. Arrange for close outpatient follow-up after discharge, including home health services if needed.",
+        "Vaccine Credential Patient Assertion": "Patient reports being up-to-date with hepatitis A and B vaccinations as recommended for individuals with chronic liver disease. She received her most recent influenza vaccine in October 2023. She has completed the primary series of COVID-19 vaccination but is unsure about her booster status. Patient declines to provide information about other routine adult vaccinations."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "1742-6",
+                "LOINC Order Code Description": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "185",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-06-28 15:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "ORD123456"
+            },
+            {
+                "LOINC Laboratory Order Code": "1920-8",
+                "LOINC Order Code Description": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "210",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-06-28 15:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "ORD123457"
+            },
+            {
+                "LOINC Laboratory Order Code": "1975-2",
+                "LOINC Order Code Description": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "4.2",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-06-28 15:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "ORD123458"
+            },
+            {
+                "LOINC Laboratory Order Code": "6768-6",
+                "LOINC Order Code Description": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "280",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-06-28 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123459"
+            },
+            {
+                "LOINC Laboratory Order Code": "2324-2",
+                "LOINC Order Code Description": "Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "195",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654325",
+                "Specimen Collection Date": "2024-06-28 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123460"
+            },
+            {
+                "LOINC Laboratory Order Code": "4542-7",
+                "LOINC Order Code Description": "Hematocrit [Volume Fraction] of Blood",
+                "Laboratory Result": "32.5",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Whole blood",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654326",
+                "Specimen Collection Date": "2024-06-28 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123461"
+            },
+            {
+                "LOINC Laboratory Order Code": "2085-9",
+                "LOINC Order Code Description": "Cholesterol in HDL [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "38",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654327",
+                "Specimen Collection Date": "2024-06-28 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123462"
+            },
+            {
+                "LOINC Laboratory Order Code": "2571-8",
+                "LOINC Order Code Description": "Triglyceride [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "180",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654328",
+                "Specimen Collection Date": "2024-06-28 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123463"
+            },
+            {
+                "LOINC Laboratory Order Code": "6301-6",
+                "LOINC Order Code Description": "INR in Platelet poor plasma by Coagulation assay",
+                "Laboratory Result": "1.4",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Plasma",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654329",
+                "Specimen Collection Date": "2024-06-28 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123464"
+            },
+            {
+                "LOINC Laboratory Order Code": "2857-1",
+                "LOINC Order Code Description": "Protime in Platelet poor plasma by Coagulation assay",
+                "Laboratory Result": "16.8",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Plasma",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654330",
+                "Specimen Collection Date": "2024-06-28 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "ORD123465"
+            },
+            {
+                "LOINC Laboratory Order Code": "1834-1",
+                "LOINC Order Code Description": "Alpha-fetoprotein [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "2500",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654331",
+                "Specimen Collection Date": "2024-06-28 15:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "ORD123466"
+            },
+            {
+                "LOINC Laboratory Order Code": "48345-3",
+                "LOINC Order Code Description": "Hepatitis C virus RNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection",
+                "Laboratory Result": "5.8",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654332",
+                "Specimen Collection Date": "2024-06-28 15:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "ORD123467"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Hepatocellular carcinoma",
+                "ICD-10 Code": "C22.0",
+                "SNOMED-CT Code": "109841003",
+                "Diagnosis Date": "2023-09-15",
+                "Onset Date": "2023-08-30",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Chronic hepatitis C",
+                "ICD-10 Code": "B18.2",
+                "SNOMED-CT Code": "50711007",
+                "Diagnosis Date": "2014-03-20",
+                "Onset Date": "2014-01-15",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Liver cirrhosis due to hepatitis C",
+                "ICD-10 Code": "K74.60",
+                "SNOMED-CT Code": "197441003",
+                "Diagnosis Date": "2020-11-10",
+                "Onset Date": "2020-09-25",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Portal hypertension",
+                "ICD-10 Code": "K76.6",
+                "SNOMED-CT Code": "34742003",
+                "Diagnosis Date": "2022-07-18",
+                "Onset Date": "2022-06-30",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Ascites",
+                "ICD-10 Code": "R18.8",
+                "SNOMED-CT Code": "389026000",
+                "Diagnosis Date": "2024-06-28",
+                "Onset Date": "2024-06-28",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Jaundice",
+                "ICD-10 Code": "R17",
+                "SNOMED-CT Code": "18165001",
+                "Diagnosis Date": "2024-06-26",
+                "Onset Date": "2024-06-26",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Type 2 diabetes mellitus",
+                "ICD-10 Code": "E11.9",
+                "SNOMED-CT Code": "44054006",
+                "Diagnosis Date": "2020-05-12",
+                "Onset Date": "2020-04-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Essential hypertension",
+                "ICD-10 Code": "I10",
+                "SNOMED-CT Code": "59621000",
+                "Diagnosis Date": "2019-09-03",
+                "Onset Date": "2019-08-15",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic Imaging",
+                "Procedure Description": "CT scan of abdomen and pelvis with contrast",
+                "CPT Code": "74177",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-29",
+                "Details": "To assess tumor status and look for potential complications",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Laboratory",
+                "Procedure Description": "Hepatitis C Viral RNA, Quantitative, Real-Time PCR",
+                "CPT Code": "87522",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-29",
+                "Details": "To determine current viral load",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Paracentesis",
+                "CPT Code": "49082",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-30",
+                "Details": "Therapeutic removal of ascitic fluid and diagnostic analysis",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Transarterial chemoembolization (TACE)",
+                "CPT Code": "37243",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-15",
+                "Details": "Planned local therapy for HCC based on tumor board recommendation",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Upper endoscopy",
+                "CPT Code": "43235",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-08",
+                "Details": "To evaluate for esophageal varices due to portal hypertension",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Insertion of implantable venous access port",
+                "CPT Code": "36561",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-01",
+                "Details": "For administration of systemic therapy and frequent blood draws",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Liver biopsy",
+                "CPT Code": "47000",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-22",
+                "Details": "To assess tumor characteristics and liver fibrosis stage",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Radiation therapy treatment delivery",
+                "CPT Code": "77385",
+                "Status": "Planned",
+                "Procedure Date": "2024-08-01",
+                "Details": "Planned stereotactic body radiation therapy (SBRT) for HCC",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Supportive",
+                "Procedure Description": "Therapeutic phlebotomy",
+                "CPT Code": "36410",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-07-03",
+                "Details": "Weekly phlebotomy to manage elevated hematocrit due to liver disease",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Monitoring",
+                "Procedure Description": "Continuous remote monitoring of physiologic parameter(s)",
+                "CPT Code": "99454",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-07-02",
+                "Details": "Remote monitoring of weight and blood pressure for management of ascites and hypertension",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Sofosbuvir/Velpatasvir",
+                "Medication Type": "Direct-acting antiviral",
+                "Purpose": "Treatment of chronic hepatitis C",
+                "Administration Mode": "Oral",
+                "Dose": "400mg/100mg",
+                "Duration": "12 weeks",
+                "Start Date": "2024-07-01",
+                "Response": "Pending",
+                "Response Details": "Treatment initiated during hospitalization, viral load to be monitored",
+                "Observation Date": "2024-07-01"
+            },
+            {
+                "Medication Name": "Lenvatinib",
+                "Medication Type": "Tyrosine kinase inhibitor",
+                "Purpose": "Treatment of hepatocellular carcinoma",
+                "Administration Mode": "Oral",
+                "Dose": "12mg daily",
+                "Duration": "Ongoing",
+                "Start Date": "2023-10-15",
+                "Response": "Partial response",
+                "Response Details": "Tumor size reduction noted on previous imaging, but recent symptoms suggest possible progression",
+                "Observation Date": "2024-06-15"
+            },
+            {
+                "Medication Name": "Furosemide",
+                "Medication Type": "Loop diuretic",
+                "Purpose": "Management of ascites",
+                "Administration Mode": "Intravenous",
+                "Dose": "40mg twice daily",
+                "Duration": "During hospitalization",
+                "Start Date": "2024-06-28",
+                "Response": "Positive",
+                "Response Details": "Reduction in abdominal distension and improved comfort",
+                "Observation Date": "2024-07-01"
+            },
+            {
+                "Medication Name": "Spironolactone",
+                "Medication Type": "Potassium-sparing diuretic",
+                "Purpose": "Management of ascites",
+                "Administration Mode": "Oral",
+                "Dose": "100mg daily",
+                "Duration": "Ongoing",
+                "Start Date": "2024-01-10",
+                "Response": "Partial response",
+                "Response Details": "Helps maintain fluid balance, but ascites has worsened recently",
+                "Observation Date": "2024-06-28"
+            },
+            {
+                "Medication Name": "Morphine Sulfate",
+                "Medication Type": "Opioid analgesic",
+                "Purpose": "Pain management",
+                "Administration Mode": "Intravenous",
+                "Dose": "2-4mg every 4 hours as needed",
+                "Duration": "During hospitalization",
+                "Start Date": "2024-06-28",
+                "Response": "Positive",
+                "Response Details": "Effective pain relief with minimal side effects",
+                "Observation Date": "2024-07-01"
+            },
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Management of nausea",
+                "Administration Mode": "Intravenous",
+                "Dose": "4mg every 8 hours as needed",
+                "Duration": "During hospitalization",
+                "Start Date": "2024-06-28",
+                "Response": "Positive",
+                "Response Details": "Significant reduction in nausea",
+                "Observation Date": "2024-07-01"
+            },
+            {
+                "Medication Name": "Lactulose",
+                "Medication Type": "Laxative",
+                "Purpose": "Prevention of hepatic encephalopathy",
+                "Administration Mode": "Oral",
+                "Dose": "20ml three times daily",
+                "Duration": "Ongoing",
+                "Start Date": "2023-11-20",
+                "Response": "Positive",
+                "Response Details": "Maintains regular bowel movements and helps prevent encephalopathy",
+                "Observation Date": "2024-06-30"
+            },
+            {
+                "Medication Name": "Metformin",
+                "Medication Type": "Biguanide",
+                "Purpose": "Management of type 2 diabetes",
+                "Administration Mode": "Oral",
+                "Dose": "500mg twice daily",
+                "Duration": "Ongoing",
+                "Start Date": "2020-05-15",
+                "Response": "Positive",
+                "Response Details": "Helps maintain blood glucose levels within target range",
+                "Observation Date": "2024-06-28"
+            },
+            {
+                "Medication Name": "Lisinopril",
+                "Medication Type": "ACE inhibitor",
+                "Purpose": "Management of hypertension",
+                "Administration Mode": "Oral",
+                "Dose": "10mg daily",
+                "Duration": "Ongoing",
+                "Start Date": "2019-09-10",
+                "Response": "Positive",
+                "Response Details": "Blood pressure well-controlled",
+                "Observation Date": "2024-06-28"
+            },
+            {
+                "Medication Name": "Ursodeoxycholic acid",
+                "Medication Type": "Bile acid",
+                "Purpose": "Management of cholestasis",
+                "Administration Mode": "Oral",
+                "Dose": "300mg twice daily",
+                "Duration": "Ongoing",
+                "Start Date": "2023-12-05",
+                "Response": "Partial response",
+                "Response Details": "Some improvement in liver function tests, but bilirubin remains elevated",
+                "Observation Date": "2024-06-30"
+            },
+            {
+                "Medication Name": "Vitamin K",
+                "Medication Type": "Vitamin supplement",
+                "Purpose": "Correction of coagulopathy",
+                "Administration Mode": "Subcutaneous",
+                "Dose": "10mg weekly",
+                "Duration": "Ongoing",
+                "Start Date": "2024-03-20",
+                "Response": "Positive",
+                "Response Details": "Helps maintain INR within target range",
+                "Observation Date": "2024-06-30"
+            },
+            {
+                "Medication Name": "Propranolol",
+                "Medication Type": "Beta-blocker",
+                "Purpose": "Prevention of variceal bleeding",
+                "Administration Mode": "Oral",
+                "Dose": "20mg twice daily",
+                "Duration": "Ongoing",
+                "Start Date": "2022-08-15",
+                "Response": "Positive",
+                "Response Details": "No episodes of variceal bleeding since initiation",
+                "Observation Date": "2024-06-30"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 50-year-old Korean-American woman with chronic hepatitis C since 2014 and hepatocellular carcinoma diagnosed in 2023 presents with worsening abdominal pain and jaundice. Her condition has deteriorated despite previous treatments, including antiviral therapy and tyrosine kinase inhibitors. Current hospitalization reveals elevated liver enzymes, high AFP, and persistent HCV viremia. Imaging suggests tumor progression. The patient faces a poor prognosis, requiring aggressive treatment including potential TACE and radiation therapy, along with renewed antiviral treatment and supportive care."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Soo-Yeon651 Park823",
+        "Report_Header_Age": "50",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-07-02"
+    }
+}

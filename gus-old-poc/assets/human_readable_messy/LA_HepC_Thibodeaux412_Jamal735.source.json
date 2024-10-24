@@ -1,0 +1,583 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "Black or African American",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "50",
+        "Date of Birth": "1974-06-20",
+        "Location": "New Orleans, Louisiana",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Thibodeaux412, Jamal735",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed part-time",
+        "Gender Identity": "Male",
+        "Disability Status": "No disability",
+        "Education Level": "High school graduate",
+        "Marital Status": "Divorced",
+        "Smoking Status": "Current every day smoker",
+        "BMI": "31.2",
+        "Active Military": "No",
+        "Discharged from Military": "Yes",
+        "Primary Insurance": "Medicaid",
+        "Refugee Status": "Not a refugee",
+        "Correctional Facility Status": "Not in correctional facility",
+        "Lose Housing Worry": "Somewhat worried",
+        "People Living at Address": "3",
+        "Housing Status": "Renting",
+        "Stress Level": "Moderate stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "2714 Bayou Breeze Dr., Apt 3B, New Orleans, LA 70119",
+        "Patient Email": "jthibodeaux74@nolacable.net",
+        "Patient Phone": "504-555-8237"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Security Guard",
+        "Current Industry": "Hospitality and Tourism",
+        "Usual Occupation": "Security Guard",
+        "Usual Industry": "Hospitality and Tourism",
+        "Usual Employment Date Range": "Start: 2010-03-15 to current",
+        "Current Job Title": "Part-time Night Security Guard",
+        "Current Employer": "Crescent City Casino, 228 Bourbon St, New Orleans, LA 70130, 504-555-2468",
+        "Current Employment Start Date": "2018-09-01",
+        "Annual Income": "$22,000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Baton Rouge, Louisiana",
+                "Purpose": "Family",
+                "Start Date": "2024-05-10",
+                "End Date": "2024-05-12",
+                "Accommodations": "Sister's house",
+                "Mode of Travel": "Personal car",
+                "Activities": "Attended nephew's high school graduation. Shared meals with extended family. Visited local park."
+            },
+            {
+                "Location": "New Orleans, Louisiana",
+                "Purpose": "Routine",
+                "Start Date": "2024-03-15",
+                "End Date": "2024-03-15",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Public bus",
+                "Activities": "Visited local community health clinic for routine check-up and blood work. Stopped at a neighborhood bar afterwards."
+            },
+            {
+                "Location": "Biloxi, Mississippi",
+                "Purpose": "Social events",
+                "Start Date": "2023-11-22",
+                "End Date": "2023-11-24",
+                "Accommodations": "Budget motel",
+                "Mode of Travel": "Friend's car",
+                "Activities": "Attended Thanksgiving celebration with friends. Visited local casino. Shared meals and drinks with group."
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient reports recent travel within Louisiana and Mississippi. Notably, he visited Baton Rouge from May 10-12, 2024, staying with family and attending social gatherings. On March 15, 2024, he traveled within New Orleans for a routine health check-up, using public transportation. In November 2023, he spent two days in Biloxi, Mississippi, engaging in social activities including visiting a casino. While these travels do not present significant risk factors for hepatitis C transmission, the patient's visit to a casino and reported stop at a neighborhood bar after a clinic visit could potentially involve exposure to high-risk environments. It's important to note that hepatitis C is not typically spread through casual contact, but the patient's activities in these locations may warrant further discussion regarding potential risk behaviors."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Fatigue and abdominal discomfort",
+        "Patient ID": "7845632",
+        "Encounter Class": "outpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "58963214785",
+        "Start DateTime": "2024-06-18 09:30",
+        "End DateTime": "2024-06-18 11:15",
+        "Discharge Disposition": "Discharged to home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient visit",
+                "SNOMED-CT Code": "308335008",
+                "Description": "Patient encounter procedure",
+                "Start Date": "2024-06-18",
+                "End Date": "2024-06-18"
+            },
+            {
+                "Encounter Type": "Hepatology consultation",
+                "SNOMED-CT Code": "84251009",
+                "Description": "Hepatology consultation",
+                "Start Date": "2024-06-18",
+                "End Date": "2024-06-18"
+            },
+            {
+                "Encounter Type": "Abdominal ultrasound",
+                "SNOMED-CT Code": "16310003",
+                "Description": "Diagnostic ultrasonography of abdomen",
+                "Start Date": "2024-06-18",
+                "End Date": "2024-06-18"
+            },
+            {
+                "Encounter Type": "Laboratory encounter",
+                "SNOMED-CT Code": "108252007",
+                "Description": "Laboratory procedure",
+                "Start Date": "2024-06-18",
+                "End Date": "2024-06-18"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Howard382, Benjamin789, MD",
+        "Practitioner Phone": "504-555-3729",
+        "Practitioner Fax": "504-555-3730",
+        "Practitioner Email": "bhoward@crescenthealth.org",
+        "Practitioner Office Name": "Crescent City Hepatology Clinic",
+        "Practitioner ID": "7392614580",
+        "Practitioner Address": "1825 Canal Street, Suite 305, New Orleans, LA 70112"
+    },
+    "Facility_Information": {
+        "Facility Name": "Crescent City Hepatology Clinic",
+        "Facility Type": "Outpatient Medical Clinic",
+        "Facility Phone": "504-555-3700",
+        "Facility Fax": "504-555-3701",
+        "Facility Address": "1825 Canal Street, Suite 300, New Orleans, LA 70112"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-05-01",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal discomfort",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-05-15",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Loss of appetite",
+                "SNOMED-CT": "79890006",
+                "Onset Date": "2024-05-20",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-06-01",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Weight loss",
+                "SNOMED-CT": "89362005",
+                "Onset Date": "2024-05-01",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Jaundice",
+                "SNOMED-CT": "18165001",
+                "Onset Date": "2024-06-10",
+                "Severity": "Mild",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "37.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-06-18 09:35:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "82",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-06-18 09:36:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "16",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-06-18 09:37:00"
+            },
+            {
+                "Vital Sign": "Systolic blood pressure",
+                "Value": "138",
+                "SNOMED-CT": "271649006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-18 09:38:00"
+            },
+            {
+                "Vital Sign": "Diastolic blood pressure",
+                "Value": "88",
+                "SNOMED-CT": "271650006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-18 09:38:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "97",
+                "SNOMED-CT": "431314004",
+                "Unit": "%",
+                "Measurement Time": "2024-06-18 09:39:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "88.5",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-06-18 09:40:00"
+            },
+            {
+                "Vital Sign": "Body mass index",
+                "Value": "31.2",
+                "SNOMED-CT": "60621009",
+                "Unit": "kg/m2",
+                "Measurement Time": "2024-06-18 09:41:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Fatigue, abdominal discomfort, and follow-up for chronic hepatitis C with compensated cirrhosis",
+        "Past Medical History": "Patient has a history of chronic hepatitis C diagnosed in 2015, with progression to compensated cirrhosis confirmed in 2020. He has a history of alcohol use disorder, now in remission since 2018. He also has hypertension, diagnosed in 2019 and currently managed with medication. The patient has a history of depression, diagnosed in 2016, for which he receives ongoing treatment. He underwent an appendectomy in 2000 and has a history of recurrent urinary tract infections, with the last episode in 2022.",
+        "Review of Systems": "General: Reports fatigue and unintentional weight loss of about 10 pounds over the last two months. Denies fever or chills. HEENT: Denies headaches, vision changes, or hearing problems. Cardiovascular: Denies chest pain, palpitations, or edema. Respiratory: Denies shortness of breath or cough. Gastrointestinal: Reports mild abdominal discomfort, primarily in the right upper quadrant. Mild nausea, but no vomiting. Reports decreased appetite. Denies changes in bowel habits or blood in stool. Genitourinary: Denies dysuria, frequency, or urgency. No hematuria. Musculoskeletal: Reports general muscle weakness but denies joint pain or swelling. Skin: Notes mild yellowing of skin and eyes over the past week. Denies rashes or itching. Neurological: Denies headaches, dizziness, or changes in memory. Psychiatric: Mood stable on current medication. Denies suicidal ideation. Endocrine: Denies excessive thirst or frequent urination. Hematologic: Denies easy bruising or bleeding.",
+        "History of Present Illness": "Mr. Thibodeaux is a 50-year-old African American male with a known history of chronic hepatitis C and compensated cirrhosis, presenting today for follow-up and evaluation of worsening symptoms. He reports increasing fatigue over the past 6-8 weeks, which has begun to interfere with his part-time work as a security guard. He notes mild but persistent discomfort in the right upper quadrant of his abdomen, which he describes as a dull ache. This discomfort has been present for about a month and is not associated with eating or movement. The patient has also noticed a decrease in appetite and estimates he has lost about 10 pounds over the last two months without trying. He reports mild nausea, particularly in the mornings, but denies vomiting. Over the past week, he has observed a slight yellowing of his skin and eyes. He denies fever, chills, or night sweats. He has not noticed any changes in his bowel habits and denies any blood in his stool. The patient confirms he has been adherent to his prescribed medications and has maintained sobriety from alcohol since 2018. He expresses concern about the progression of his liver disease and its impact on his ability to work and daily activities.",
+        "Plan of Treatment": "1. Laboratory tests: Order comprehensive metabolic panel, complete blood count, prothrombin time/INR, and alpha-fetoprotein to assess liver function and screen for hepatocellular carcinoma. 2. Imaging: Schedule an abdominal ultrasound to evaluate for signs of portal hypertension and screen for liver masses. 3. Medications: Continue current antiviral therapy for hepatitis C. Adjust dosage if necessary based on renal function. Prescribe lactulose for mild hepatic encephalopathy symptoms. 4. Lifestyle modifications: Reinforce importance of abstaining from alcohol. Recommend a low-sodium diet and provide nutritional counseling referral. 5. Vaccinations: Ensure patient is up-to-date on hepatitis A and B vaccinations. Recommend annual influenza vaccine and pneumococcal vaccine if not already received. 6. Monitoring: Schedule follow-up appointment in 4 weeks to review test results and reassess symptoms. Provide patient with symptoms to watch for that would require immediate medical attention. 7. Specialist referral: Refer to hepatology for evaluation for potential liver transplant candidacy given the progression of symptoms. 8. Support: Provide information on local support groups for patients with chronic liver disease. Offer referral to social services for assistance with work-related concerns. 9. Education: Discuss the importance of medication adherence and regular follow-ups. Provide written materials on managing cirrhosis symptoms.",
+        "Vaccine Credential Patient Assertion": "Patient reports receiving hepatitis A and B vaccines in 2015 after initial hepatitis C diagnosis. Annual flu shots received, with the most recent in October 2023. Pneumococcal vaccine (PPSV23) received in 2020. COVID-19 primary series and one booster received, with the last dose in September 2022. Patient is unsure about tetanus status and has no record of shingles vaccination."
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Chronic hepatitis C with compensated cirrhosis",
+                "ICD-10 Code": "B18.2",
+                "SNOMED-CT Code": "1116000",
+                "Diagnosis Date": "2020-03-15",
+                "Onset Date": "2015-09-22",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Essential (primary) hypertension",
+                "ICD-10 Code": "I10",
+                "SNOMED-CT Code": "59621000",
+                "Diagnosis Date": "2019-11-03",
+                "Onset Date": "2019-10-15",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Major depressive disorder, recurrent, in partial remission",
+                "ICD-10 Code": "F33.41",
+                "SNOMED-CT Code": "310495003",
+                "Diagnosis Date": "2016-07-18",
+                "Onset Date": "2016-05-30",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Alcohol use disorder, in remission",
+                "ICD-10 Code": "F10.21",
+                "SNOMED-CT Code": "415293002",
+                "Diagnosis Date": "2018-02-10",
+                "Onset Date": "2010-01-01",
+                "Status": "In Remission",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Obesity",
+                "ICD-10 Code": "E66.9",
+                "SNOMED-CT Code": "414916001",
+                "Diagnosis Date": "2024-06-18",
+                "Onset Date": "2022-01-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Mild hepatic encephalopathy",
+                "ICD-10 Code": "K72.90",
+                "SNOMED-CT Code": "13920009",
+                "Diagnosis Date": "2024-06-18",
+                "Onset Date": "2024-05-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Fatigue",
+                "ICD-10 Code": "R53.83",
+                "SNOMED-CT Code": "84229001",
+                "Diagnosis Date": "2024-06-18",
+                "Onset Date": "2024-05-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Unintentional weight loss",
+                "ICD-10 Code": "R63.4",
+                "SNOMED-CT Code": "89362005",
+                "Diagnosis Date": "2024-06-18",
+                "Onset Date": "2024-05-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Mild jaundice",
+                "ICD-10 Code": "R17",
+                "SNOMED-CT Code": "18165001",
+                "Diagnosis Date": "2024-06-18",
+                "Onset Date": "2024-06-10",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic Imaging",
+                "Procedure Description": "Ultrasound, abdominal, complete",
+                "CPT Code": "76700",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-18",
+                "Details": "Performed to assess liver texture, size, and screen for hepatocellular carcinoma and portal hypertension.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Laboratory",
+                "Procedure Description": "Comprehensive metabolic panel",
+                "CPT Code": "80053",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-18",
+                "Details": "Ordered to assess liver function, including ALT, AST, albumin, and bilirubin levels.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Laboratory",
+                "Procedure Description": "Complete blood count (CBC) with differential",
+                "CPT Code": "85025",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-18",
+                "Details": "Performed to evaluate for anemia, thrombocytopenia, and other hematologic abnormalities associated with cirrhosis.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Laboratory",
+                "Procedure Description": "Prothrombin time (PT) with INR",
+                "CPT Code": "85610",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-18",
+                "Details": "Ordered to assess coagulation status and liver synthetic function.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Laboratory",
+                "Procedure Description": "Alpha-fetoprotein (AFP), serum",
+                "CPT Code": "82105",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-18",
+                "Details": "Performed as part of hepatocellular carcinoma screening in cirrhotic patient.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic Imaging",
+                "Procedure Description": "CT scan of abdomen and pelvis with contrast",
+                "CPT Code": "74177",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-02",
+                "Details": "Scheduled for further evaluation of liver and to rule out hepatocellular carcinoma.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Endoscopy",
+                "Procedure Description": "Esophagogastroduodenoscopy with biopsy",
+                "CPT Code": "43239",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-09",
+                "Details": "Scheduled to evaluate for esophageal varices and assess for portal hypertensive gastropathy.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Laboratory",
+                "Procedure Description": "Hepatitis C Viral RNA, Quantitative",
+                "CPT Code": "87522",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-16",
+                "Details": "Scheduled to monitor viral load and response to antiviral therapy.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Consultation",
+                "Procedure Description": "Hepatology consultation",
+                "CPT Code": "99245",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-23",
+                "Details": "Referral to hepatologist for evaluation of liver transplant candidacy.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Nutritional counseling",
+                "CPT Code": "97802",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-30",
+                "Details": "Scheduled for dietary guidance on managing cirrhosis and maintaining proper nutrition.",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Sofosbuvir/Velpatasvir",
+                "Medication Type": "Antiviral",
+                "Purpose": "Treatment of chronic hepatitis C",
+                "Administration Mode": "Oral",
+                "Dose": "400mg/100mg",
+                "Duration": "Once daily for 12 weeks",
+                "Start Date": "2024-03-01",
+                "Response": "Positive",
+                "Response Details": "Viral load decreased from 2,000,000 IU/mL to 50 IU/mL after 8 weeks of treatment",
+                "Observation Date": "2024-05-24"
+            },
+            {
+                "Medication Name": "Lisinopril",
+                "Medication Type": "ACE Inhibitor",
+                "Purpose": "Management of hypertension",
+                "Administration Mode": "Oral",
+                "Dose": "10mg",
+                "Duration": "Once daily",
+                "Start Date": "2019-11-15",
+                "Response": "Positive",
+                "Response Details": "Blood pressure well-controlled, averaging 130/82 mmHg",
+                "Observation Date": "2024-06-18"
+            },
+            {
+                "Medication Name": "Sertraline",
+                "Medication Type": "SSRI Antidepressant",
+                "Purpose": "Treatment of depression",
+                "Administration Mode": "Oral",
+                "Dose": "100mg",
+                "Duration": "Once daily",
+                "Start Date": "2016-08-01",
+                "Response": "Positive",
+                "Response Details": "Mood stable, no significant depressive symptoms reported",
+                "Observation Date": "2024-06-18"
+            },
+            {
+                "Medication Name": "Lactulose",
+                "Medication Type": "Laxative",
+                "Purpose": "Management of hepatic encephalopathy",
+                "Administration Mode": "Oral",
+                "Dose": "30mL",
+                "Duration": "Three times daily",
+                "Start Date": "2024-06-18",
+                "Response": "Pending",
+                "Response Details": "Recently prescribed, efficacy to be assessed at follow-up",
+                "Observation Date": "2024-06-18"
+            },
+            {
+                "Medication Name": "Spironolactone",
+                "Medication Type": "Potassium-sparing diuretic",
+                "Purpose": "Management of ascites",
+                "Administration Mode": "Oral",
+                "Dose": "100mg",
+                "Duration": "Once daily",
+                "Start Date": "2023-09-15",
+                "Response": "Positive",
+                "Response Details": "Mild reduction in abdominal distension, no significant fluid accumulation",
+                "Observation Date": "2024-06-18"
+            },
+            {
+                "Medication Name": "Thiamine",
+                "Medication Type": "Vitamin B1 supplement",
+                "Purpose": "Prevention of Wernicke's encephalopathy",
+                "Administration Mode": "Oral",
+                "Dose": "100mg",
+                "Duration": "Once daily",
+                "Start Date": "2018-02-15",
+                "Response": "Positive",
+                "Response Details": "No signs of thiamine deficiency",
+                "Observation Date": "2024-06-18"
+            },
+            {
+                "Medication Name": "Omeprazole",
+                "Medication Type": "Proton pump inhibitor",
+                "Purpose": "Prevention of gastrointestinal bleeding",
+                "Administration Mode": "Oral",
+                "Dose": "20mg",
+                "Duration": "Once daily",
+                "Start Date": "2022-11-01",
+                "Response": "Positive",
+                "Response Details": "No episodes of gastrointestinal bleeding reported",
+                "Observation Date": "2024-06-18"
+            },
+            {
+                "Medication Name": "Propranolol",
+                "Medication Type": "Beta-blocker",
+                "Purpose": "Prevention of variceal bleeding",
+                "Administration Mode": "Oral",
+                "Dose": "20mg",
+                "Duration": "Twice daily",
+                "Start Date": "2023-03-10",
+                "Response": "Positive",
+                "Response Details": "No episodes of variceal bleeding, heart rate well-controlled",
+                "Observation Date": "2024-06-18"
+            },
+            {
+                "Medication Name": "Multivitamin",
+                "Medication Type": "Dietary supplement",
+                "Purpose": "Nutritional support",
+                "Administration Mode": "Oral",
+                "Dose": "1 tablet",
+                "Duration": "Once daily",
+                "Start Date": "2020-03-20",
+                "Response": "Positive",
+                "Response Details": "No signs of vitamin deficiencies on recent lab work",
+                "Observation Date": "2024-06-18"
+            },
+            {
+                "Medication Name": "Calcium carbonate",
+                "Medication Type": "Calcium supplement",
+                "Purpose": "Prevention of osteoporosis",
+                "Administration Mode": "Oral",
+                "Dose": "500mg",
+                "Duration": "Twice daily",
+                "Start Date": "2022-01-15",
+                "Response": "Positive",
+                "Response Details": "Bone density scan stable compared to previous year",
+                "Observation Date": "2024-03-05"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. The report details a 50-year-old African American male with chronic hepatitis C and compensated cirrhosis, diagnosed in 2015 and 2020 respectively. The patient, with a history of alcohol use disorder (in remission since 2018), presents with worsening symptoms including fatigue, abdominal discomfort, and mild jaundice. Recent lab work and imaging suggest disease progression. The patient is currently on antiviral therapy and medications for cirrhosis management. A hepatology referral is planned to evaluate liver transplant candidacy, reflecting the advancing nature of his condition."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Jamal735 Thibodeaux412",
+        "Report_Header_Age": "50",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-06-19"
+    }
+}

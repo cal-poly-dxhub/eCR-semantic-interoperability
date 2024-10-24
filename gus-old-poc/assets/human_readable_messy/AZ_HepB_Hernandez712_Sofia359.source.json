@@ -1,0 +1,399 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "White",
+        "Ethnicity": "Hispanic or Latino",
+        "Patient Age": "38",
+        "Date of Birth": "1986-06-15",
+        "Location": "Phoenix",
+        "Country of Residence": "United States of America",
+        "Country of Nationality": "United States of America",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Hernandez712, Sofia359",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed",
+        "Gender Identity": "Female",
+        "Disability Status": "No disability",
+        "Education Level": "Bachelor's Degree",
+        "Marital Status": "Married",
+        "Smoking Status": "Former smoker",
+        "BMI": "25.3",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Private health insurance",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Not at all",
+        "People Living at Address": "3",
+        "Housing Status": "Rented house or apartment",
+        "Stress Level": "Moderate amount of stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "2317 Sycamore Lane, Phoenix, AZ 85018",
+        "Patient Email": "sofia.hernandez712@emailprovider.com",
+        "Patient Phone": "623-555-4892"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Marketing Manager",
+        "Current Industry": "Marketing and Advertising",
+        "Usual Occupation": "Marketing Manager",
+        "Usual Industry": "Marketing and Advertising",
+        "Usual Employment Date Range": "Start: 2014-09-01 to current",
+        "Current Job Title": "Marketing Manager",
+        "Current Employer": "Acme Advertising Agency, 1234 Central Ave, Phoenix, AZ 85012, (602) 555-9876",
+        "Current Employment Start Date": "2014-09-01",
+        "Annual Income": "75000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Los Angeles, California",
+                "Purpose": "Business",
+                "Start Date": "2023-05-01",
+                "End Date": "2023-05-05",
+                "Accommodations": "Hilton Los Angeles Airport",
+                "Mode of Travel": "Air",
+                "Activities": "Attended a marketing conference and met with clients."
+            },
+            {
+                "Location": "San Diego, California",
+                "Purpose": "Vacation",
+                "Start Date": "2022-07-15",
+                "End Date": "2022-07-22",
+                "Accommodations": "Airbnb rental",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Family beach vacation, visited local attractions like the San Diego Zoo and Balboa Park."
+            },
+            {
+                "Location": "Phoenix, Arizona",
+                "Purpose": "Routine",
+                "Start Date": "2023-06-01",
+                "End Date": "2023-06-01",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Routine doctor's appointment for annual physical exam."
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "The patient has a history of recent travel to Los Angeles, California for a business trip from May 1st to May 5th, 2023, where she attended a marketing conference and met with clients. She stayed at the Hilton Los Angeles Airport and traveled by air. In July 2022, she took a family vacation to San Diego, California from July 15th to July 22nd, staying in an Airbnb rental and traveling by personal vehicle. She visited local attractions such as the San Diego Zoo and Balboa Park. The patient also had a routine doctor's appointment in Phoenix, Arizona on June 1st, 2023, for an annual physical exam, traveling locally by personal vehicle. There is no reported travel history to areas with high prevalence of hepatitis B."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Routine follow-up for hepatitis B",
+        "Patient ID": "9876543",
+        "Encounter Class": "outpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "87654321098",
+        "Start DateTime": "2024-05-15 10:00",
+        "End DateTime": "2024-05-15 11:30",
+        "Discharge Disposition": "Routine follow-up scheduled",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient consultation",
+                "SNOMED-CT Code": "185347001",
+                "Description": "Outpatient consultation (procedure)",
+                "Start Date": "2024-05-15",
+                "End Date": "2024-05-15"
+            },
+            {
+                "Encounter Type": "Outpatient follow-up",
+                "SNOMED-CT Code": "390807003",
+                "Description": "Patient re-attending for follow-up (situation)",
+                "Start Date": "2024-05-15",
+                "End Date": "2024-05-15"
+            },
+            {
+                "Encounter Type": "Hepatitis B screening",
+                "SNOMED-CT Code": "171207006",
+                "Description": "Screening for viral hepatitis (procedure)",
+                "Start Date": "2024-05-15",
+                "End Date": "2024-05-15"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Crawford752, Elizabeth913, MD",
+        "Practitioner Phone": "602-555-7824",
+        "Practitioner Fax": "602-555-2391",
+        "Practitioner Email": "elizabeth.crawford@desertclinics.com",
+        "Practitioner Office Name": "Desert Clinics of Phoenix",
+        "Practitioner ID": "8765432109",
+        "Practitioner Address": "4567 E Thomas Rd, Phoenix, AZ 85018"
+    },
+    "Facility_Information": {
+        "Facility Name": "Desert Clinics of Phoenix",
+        "Facility Type": "Outpatient clinic",
+        "Facility Phone": "602-555-1234",
+        "Facility Fax": "602-555-5678",
+        "Facility Address": "4321 N 32nd St, Phoenix, AZ 85018"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "Not pregnant",
+        "Pregnancy Status Determination Method": "Based on patient demographics and cohort rules",
+        "Pregnancy Status Recorded Date": "2024-05-15",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Asymptomatic",
+                "SNOMED-CT": "162467007",
+                "Onset Date": "2024-05-15",
+                "Severity": "Asymptomatic",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "36.8",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-05-15 10:05:00"
+            },
+            {
+                "Vital Sign": "Blood pressure",
+                "Value": "120/80",
+                "SNOMED-CT": "163020007",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-05-15 10:10:00"
+            },
+            {
+                "Vital Sign": "Pulse rate",
+                "Value": "72",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-05-15 10:15:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "14",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-05-15 10:20:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "98",
+                "SNOMED-CT": "59408-5",
+                "Unit": "percentage",
+                "Measurement Time": "2024-05-15 10:25:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Follow-up evaluation for hepatitis B chronic inactive carrier state.",
+        "Past Medical History": "The patient is a 38-year-old Hispanic female with a history of chronic hepatitis B virus (HBV) infection, diagnosed in 2012 during routine screening. She has been followed closely by her primary care provider and a hepatologist. Her HBV viral load has remained low, and her liver function tests have been within normal limits. She has no history of cirrhosis, liver cancer, or other significant medical conditions. Her family history is unremarkable for liver disease.",
+        "Review of Systems": "The patient denies any current symptoms such as fatigue, nausea, vomiting, abdominal pain, jaundice, or pruritus. She reports no changes in appetite, weight, or bowel habits. She denies fever, chills, or night sweats. Her review of systems is otherwise unremarkable.",
+        "History of Present Illness": "The patient is a 38-year-old Hispanic female who presents for routine follow-up of her chronic hepatitis B virus (HBV) infection. She was diagnosed with chronic HBV in 2012 during routine screening and has been closely monitored since then. Her HBV viral load has remained low, and her liver function tests have been within normal limits. She denies any new symptoms or concerns. She continues to follow a healthy lifestyle and adheres to her recommended follow-up schedule.",
+        "Plan of Treatment": "1. Continue routine monitoring of HBV viral load and liver function tests every 6 months. 2. Encourage adherence to a healthy lifestyle, including a balanced diet, regular exercise, and avoidance of alcohol and hepatotoxic substances. 3. Reinforce the importance of safe sexual practices and avoiding sharing personal items that may expose others to HBV. 4. Recommend annual screening for hepatocellular carcinoma with abdominal ultrasound and alpha-fetoprotein levels. 5. Discuss the potential benefits and risks of antiviral therapy if viral load or liver function tests become abnormal. 6. Provide education on the importance of lifetime monitoring and management of chronic HBV infection.",
+        "Vaccine Credential Patient Assertion": "The patient reports receiving the hepatitis B vaccine series during childhood, but she does not have a documented record of her vaccination history."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Order Code Description": "Hepatitis B virus DNA [Presence]",
+                "Laboratory Result": "Detected",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2024-05-14 09:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "87654321"
+            },
+            {
+                "LOINC Order Code Description": "Hepatitis B virus DNA [#/volume] (viral load)",
+                "Laboratory Result": "250",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-05-14 09:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "12345678"
+            },
+            {
+                "LOINC Order Code Description": "Alanine aminotransferase [Enzymatic activity/Volume]",
+                "Laboratory Result": "25",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "456789123",
+                "Specimen Collection Date": "2024-05-14 09:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "87654321"
+            },
+            {
+                "LOINC Order Code Description": "Aspartate aminotransferase [Enzymatic activity/Volume]",
+                "Laboratory Result": "22",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "789123456",
+                "Specimen Collection Date": "2024-05-14 09:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "12345678"
+            },
+            {
+                "LOINC Order Code Description": "Alpha-fetoprotein [Mass/volume]",
+                "Laboratory Result": "2.5",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "321654987",
+                "Specimen Collection Date": "2024-05-14 09:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "98765432"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Chronic viral hepatitis B with hepatic coma",
+                "ICD-10 Code": "B18.0",
+                "SNOMED-CT Code": "27826009",
+                "Diagnosis Date": "2012-06-15",
+                "Onset Date": "2012-05-01",
+                "Status": "Inactive",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Chronic viral hepatitis B without delta-agent",
+                "ICD-10 Code": "B18.1",
+                "SNOMED-CT Code": "66071002",
+                "Diagnosis Date": "2012-06-15",
+                "Onset Date": "2012-05-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Hepatitis B virus carrier",
+                "ICD-10 Code": "Z22.51",
+                "SNOMED-CT Code": "38000005",
+                "Diagnosis Date": "2024-05-15",
+                "Onset Date": "2012-05-01",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Abdominal ultrasound of liver",
+                "CPT Code": "76700",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-14",
+                "Details": "Annual screening for hepatocellular carcinoma in chronic hepatitis B patient.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Venipuncture",
+                "CPT Code": "36415",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-14",
+                "Details": "Blood draw for laboratory testing of viral load, liver function tests, and alpha-fetoprotein.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Lifestyle and risk factor modification, patient education",
+                "CPT Code": "99401",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-05-15",
+                "Details": "Counseling on maintaining a healthy lifestyle, safe sexual practices, avoiding alcohol and hepatotoxic substances, and the importance of lifelong monitoring for chronic hepatitis B.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Antiviral therapy consideration",
+                "CPT Code": "n/a",
+                "Status": "Planned",
+                "Procedure Date": "n/a",
+                "Details": "Discuss the potential benefits and risks of initiating antiviral therapy if viral load or liver function tests become abnormal in the future.",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Tenofovir disoproxil fumarate",
+                "Medication Type": "Antiviral",
+                "Purpose": "Treatment of chronic hepatitis B virus (HBV) infection",
+                "Administration Mode": "Oral",
+                "Dose": "300 mg once daily",
+                "Duration": "Long-term",
+                "Start Date": "2012-07-01",
+                "Response": "Good",
+                "Response Details": "Viral load suppressed to undetectable levels within 6 months of initiation. Liver function tests normalized.",
+                "Observation Date": "2013-01-15"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic",
+                "Purpose": "Management of occasional mild headaches or muscle aches",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg as needed, maximum 3000 mg per day",
+                "Duration": "As needed",
+                "Start Date": "2022-01-01",
+                "Response": "Good",
+                "Response Details": "Provides relief from mild pain symptoms when taken as directed.",
+                "Observation Date": "2022-06-15"
+            },
+            {
+                "Medication Name": "Ibuprofen",
+                "Medication Type": "Anti-inflammatory",
+                "Purpose": "Management of occasional mild to moderate pain or inflammation",
+                "Administration Mode": "Oral",
+                "Dose": "200-400 mg every 4-6 hours as needed, maximum 1200 mg per day",
+                "Duration": "As needed",
+                "Start Date": "2021-03-01",
+                "Response": "Good",
+                "Response Details": "Provides relief from mild to moderate pain and inflammation when taken as directed.",
+                "Observation Date": "2021-09-30"
+            },
+            {
+                "Medication Name": "Multivitamin",
+                "Medication Type": "Dietary supplement",
+                "Purpose": "General health and wellness",
+                "Administration Mode": "Oral",
+                "Dose": "One tablet daily",
+                "Duration": "Long-term",
+                "Start Date": "2018-01-01",
+                "Response": "Good",
+                "Response Details": "Helps ensure adequate intake of essential vitamins and minerals.",
+                "Observation Date": "2023-12-31"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 38-year-old Hispanic female with chronic inactive hepatitis B since 2012 is followed regularly. She remains asymptomatic with low viral load, normal liver function, and no complications. Monitoring and lifestyle modifications are ongoing."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Hernandez712, Sofia359",
+        "Report_Header_Age": "38",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-06-15"
+    }
+}

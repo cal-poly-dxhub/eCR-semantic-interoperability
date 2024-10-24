@@ -1,0 +1,408 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "White",
+        "Ethnicity": "Non-Hispanic",
+        "Patient Age": "52",
+        "Date of Birth": "1972-06-15",
+        "Location": "Effingham",
+        "Country of Residence": "United States of America",
+        "Country of Nationality": "United States of America",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Wellman713, Garrett492",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed",
+        "Gender Identity": "Male",
+        "Disability Status": "No disability",
+        "Education Level": "High school graduate",
+        "Marital Status": "Married",
+        "Smoking Status": "Former smoker",
+        "BMI": "28.5",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Private health insurance",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Not worried",
+        "People Living at Address": "3",
+        "Housing Status": "Rented home",
+        "Stress Level": "Moderately stressed"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "2317 Oakwood Lane, Effingham, IL 62401",
+        "Patient Email": "garrett.wellman713@email.net",
+        "Patient Phone": "217-555-8642"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Truck driver",
+        "Current Industry": "Transportation and warehousing",
+        "Usual Occupation": "Truck driver",
+        "Usual Industry": "Transportation and warehousing",
+        "Usual Employment Date Range": "Start: 1994-08-15 to current",
+        "Current Job Title": "Long-haul truck driver",
+        "Current Employer": "Midwest Freight Carriers, 1205 Industrial Dr, Effingham, IL 62401, (217) 342-5678",
+        "Current Employment Start Date": "2006-04-01",
+        "Annual Income": "52000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Various locations across the United States",
+                "Purpose": "Business",
+                "Start Date": "2023-11-01",
+                "End Date": "2024-06-15",
+                "Accommodations": "Truck stops, motels",
+                "Mode of Travel": "Commercial truck",
+                "Activities": "Long-haul trucking deliveries across multiple states"
+            },
+            {
+                "Location": "Effingham, Illinois",
+                "Purpose": "Routine",
+                "Start Date": "2024-06-16",
+                "End Date": "2024-06-30",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Daily activities around home town"
+            }
+        ]
+    },
+    "Travel_History_Narrative": "History of Travel Narrative: Garrett is a 52-year-old long-haul truck driver who travels extensively across the United States for work. From November 1, 2023 to June 15, 2024, he was on the road frequently, staying at various truck stops and motels while making deliveries in multiple states. During this time, his occupation put him at potential risk for exposure to bloodborne pathogens such as hepatitis C virus (HCV) through activities like sharing personal items or engaging in high-risk behaviors. After June 15th, he returned to his home in Effingham, Illinois, where he has remained until the present time, with no recent travel history that would increase his risk further.",
+    "Encounter_Details": {
+        "Chief Complaint": "Fatigue and abdominal discomfort",
+        "Patient ID": "7823915",
+        "Encounter Class": "Outpatient",
+        "Encounter Status": "Finished",
+        "Encounter ID": "12345678901",
+        "Start DateTime": "2024-03-12 09:30",
+        "End DateTime": "2024-03-12 11:15",
+        "Discharge Disposition": "Home",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient consultation",
+                "SNOMED-CT Code": "185347001",
+                "Description": "Outpatient consultation (procedure)",
+                "Start Date": "2024-03-12",
+                "End Date": "2024-03-12"
+            },
+            {
+                "Encounter Type": "Diagnostic evaluation",
+                "SNOMED-CT Code": "169554008",
+                "Description": "Diagnostic evaluation (procedure)",
+                "Start Date": "2024-03-12",
+                "End Date": "2024-03-12"
+            },
+            {
+                "Encounter Type": "Outpatient procedure",
+                "SNOMED-CT Code": "185349003",
+                "Description": "Outpatient procedure (procedure)",
+                "Start Date": "2024-03-19",
+                "End Date": "2024-03-19"
+            },
+            {
+                "Encounter Type": "Outpatient follow-up",
+                "SNOMED-CT Code": "390766007",
+                "Description": "Outpatient follow-up (procedure)",
+                "Start Date": "2024-04-16",
+                "End Date": "2024-04-16"
+            },
+            {
+                "Encounter Type": "Outpatient treatment",
+                "SNOMED-CT Code": "185345000",
+                "Description": "Outpatient treatment (procedure)",
+                "Start Date": "2024-05-21",
+                "End Date": "2024-06-11"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Fischer223, Samuel398, MD",
+        "Practitioner Phone": "217-555-7823",
+        "Practitioner Fax": "217-555-2917",
+        "Practitioner Email": "samuel.fischer@effinghamclinic.com",
+        "Practitioner Office Name": "Effingham Gastroenterology Clinic",
+        "Practitioner ID": "7412589036",
+        "Practitioner Address": "1201 Maple St, Effingham, IL 62401"
+    },
+    "Facility_Information": {
+        "Facility Name": "Effingham Gastroenterology Clinic",
+        "Facility Type": "Gastroenterology clinic",
+        "Facility Phone": "217-555-7823",
+        "Facility Fax": "217-555-2917",
+        "Facility Address": "1201 Maple St, Effingham, IL 62401"
+    },
+    "Current_Pregnancy_Information": "n/a",
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-02-15",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-03-01",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "16930004",
+                "Onset Date": "2024-03-05",
+                "Severity": "Mild",
+                "Status": "Intermittent"
+            },
+            {
+                "Symptom": "Decreased appetite",
+                "SNOMED-CT": "79890006",
+                "Onset Date": "2024-03-01",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Muscle aches",
+                "SNOMED-CT": "90560007",
+                "Onset Date": "2024-02-20",
+                "Severity": "Mild",
+                "Status": "Intermittent"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "98.6",
+                "SNOMED-CT": "386725007",
+                "Unit": "F",
+                "Measurement Time": "2024-03-12 09:35:00"
+            },
+            {
+                "Vital Sign": "Blood pressure",
+                "Value": "130/85",
+                "SNOMED-CT": "75367002",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-03-12 09:37:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "78",
+                "SNOMED-CT": "364075005",
+                "Unit": "bpm",
+                "Measurement Time": "2024-03-12 09:38:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "16",
+                "SNOMED-CT": "86290005",
+                "Unit": "/min",
+                "Measurement Time": "2024-03-12 09:40:00"
+            },
+            {
+                "Vital Sign": "Body mass index",
+                "Value": "28.5",
+                "SNOMED-CT": "60621009",
+                "Unit": "kg/m2",
+                "Measurement Time": "2024-03-12 09:45:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Evaluation of fatigue, abdominal discomfort, and other symptoms for possible hepatitis C virus (HCV) infection.",
+        "Past Medical History": "The patient is a 52-year-old white male with a past medical history notable for obesity (BMI 28.5 kg/m2) and former smoking. He has no known chronic medical conditions and denies any prior surgeries or hospitalizations. Family history is unremarkable. He takes no routine medications.",
+        "Review of Systems": "Constitutional: Reports fatigue and decreased appetite for the past 2 months. Gastrointestinal: Complains of intermittent nausea and mild, dull abdominal pain for the past month. Denies vomiting, diarrhea, melena, or hematochezia. Musculoskeletal: Occasional mild muscle aches and body pains. All other systems reviewed and negative.",
+        "History of Present Illness": "Mr. Wellman713 is a 52-year-old long-haul truck driver who presents for evaluation of fatigue, abdominal discomfort, nausea, decreased appetite, and muscle aches over the past 2-3 months. Symptoms have been gradually worsening. He denies fever, chills, jaundice, dark urine, or other associated symptoms. He has a history of extensive travel across multiple states for his job as a truck driver from November 2023 to mid-June 2024. He reports occasional alcohol use but denies any history of injection drug use. Sexual history is monogamous with his wife. He has no known sick contacts or other risk factors for viral hepatitis.",
+        "Plan of Treatment": "Based on the history and risk factors, the leading diagnosis is hepatitis C virus (HCV) infection, likely acquired through occupational exposure during his long-haul trucking work. The plan is to obtain baseline labs including complete blood count, comprehensive metabolic panel, and HCV antibody with reflex to quantitative HCV RNA viral load if positive. If HCV is confirmed, the patient will require staging with fibroscan or other non-invasive testing to assess degree of liver fibrosis. Presuming he has early-stage fibrosis, the treatment plan will involve direct-acting antiviral therapy with one of the newer pan-genotypic regimens for 8-12 weeks. Close monitoring of viral load and liver function tests during and after treatment. Counsel on avoiding alcohol and review transmission risks. Schedule follow-up in 1 week to discuss results.",
+        "Vaccine Credential Patient Assertion": "Patient declines to provide vaccination records at this time."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Order Code Description": "Hepatitis C virus Ab.IgG&IgM",
+                "Laboratory Result": "Detected",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2024-03-12 10:00:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "87654321"
+            },
+            {
+                "LOINC Order Code Description": "Hepatitis C virus RNA [Viral Load]",
+                "Laboratory Result": "1,250,000 IU/mL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Plasma",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-03-12 10:05:00",
+                "Trigger": "No",
+                "Placer Order Number": "13579086"
+            },
+            {
+                "LOINC Order Code Description": "Alanine aminotransferase [Serum ALT]",
+                "Laboratory Result": "68 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "246813579",
+                "Specimen Collection Date": "2024-03-12 10:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "97531642"
+            },
+            {
+                "LOINC Order Code Description": "Aspartate aminotransferase [Serum AST]",
+                "Laboratory Result": "54 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "753159642",
+                "Specimen Collection Date": "2024-03-12 10:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "64207531"
+            },
+            {
+                "LOINC Order Code Description": "Hemoglobin [Mass/volume]",
+                "Laboratory Result": "15.2 g/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous",
+                "Specimen ID": "159263748",
+                "Specimen Collection Date": "2024-03-12 10:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "32109876"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Chronic viral hepatitis C",
+                "ICD-10 Code": "B18.2",
+                "SNOMED-CT Code": "50711007",
+                "Diagnosis Date": "2024-03-12",
+                "Onset Date": "2024-02-15",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Hepatitis C virus infection with early fibrosis of liver",
+                "ICD-10 Code": "B18.21",
+                "SNOMED-CT Code": "441593000",
+                "Diagnosis Date": "2024-03-19",
+                "Onset Date": "2024-02-15",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Obesity",
+                "ICD-10 Code": "E66.9",
+                "SNOMED-CT Code": "238131007",
+                "Diagnosis Date": "2024-03-12",
+                "Onset Date": "2010-01-01",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Fibroscan",
+                "CPT Code": "91200",
+                "Status": "Completed",
+                "Procedure Date": "2024-03-19",
+                "Details": "Non-invasive assessment of liver fibrosis using transient elastography to stage hepatitis C virus infection.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Antiviral therapy",
+                "CPT Code": "96365",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-05-21",
+                "Details": "Initiation of 12-week course of direct-acting antiviral therapy with glecaprevir/pibrentasvir for treatment of chronic hepatitis C virus infection.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "HCV viral load",
+                "CPT Code": "87522",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-23",
+                "Details": "Quantitative HCV RNA viral load testing to assess for sustained virologic response 12 weeks after completing antiviral therapy.",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Glecaprevir/Pibrentasvir",
+                "Medication Type": "Antiviral",
+                "Purpose": "Treatment of chronic hepatitis C virus infection",
+                "Administration Mode": "Oral",
+                "Dose": "300 mg/120 mg once daily",
+                "Duration": "12 weeks",
+                "Start Date": "2024-05-21",
+                "Response": "Virologic response",
+                "Response Details": "HCV RNA viral load undetectable at 4 weeks of treatment",
+                "Observation Date": "2024-06-18"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic",
+                "Purpose": "Management of muscle aches and mild pain",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg every 6 hours as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-03-12",
+                "Response": "Adequate pain relief",
+                "Response Details": "Reported improvement in muscle aches and abdominal discomfort",
+                "Observation Date": "2024-04-16"
+            },
+            {
+                "Medication Name": "Omeprazole",
+                "Medication Type": "Proton pump inhibitor",
+                "Purpose": "Gastric acid suppression for nausea",
+                "Administration Mode": "Oral",
+                "Dose": "20 mg once daily",
+                "Duration": "8 weeks",
+                "Start Date": "2024-03-12",
+                "Response": "Partial response",
+                "Response Details": "Nausea improved but not fully resolved",
+                "Observation Date": "2024-05-07"
+            },
+            {
+                "Medication Name": "Metformin",
+                "Medication Type": "Antihyperglycemic",
+                "Purpose": "Treatment of type 2 diabetes mellitus",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg twice daily",
+                "Duration": "Ongoing",
+                "Start Date": "2018-09-01",
+                "Response": "Good glycemic control",
+                "Response Details": "HbA1c 6.8% at last check on 2024-02-01",
+                "Observation Date": "2024-02-01"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 52-year-old white male truck driver presented with fatigue, abdominal pain, and other symptoms. He was diagnosed with chronic hepatitis C virus infection likely acquired during occupational exposures. Staging showed early-stage liver fibrosis. He initiated successful treatment with direct-acting antiviral therapy and achieved sustained virologic response with regular monitoring."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Garrett492 Wellman713",
+        "Report_Header_Age": "52",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-07-01"
+    }
+}

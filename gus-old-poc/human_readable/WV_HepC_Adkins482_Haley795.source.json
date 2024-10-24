@@ -1,0 +1,631 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "White",
+        "Ethnicity": "Non-Hispanic",
+        "Patient Age": "18",
+        "Date of Birth": "2005-06-04",
+        "Location": "Beckley",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Adkins482, Haley795",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Student",
+        "Gender Identity": "Female",
+        "Disability Status": "No disability",
+        "Education Level": "Some high school",
+        "Marital Status": "Never married",
+        "Smoking Status": "Never smoker",
+        "BMI": "22.1",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Parent's insurance",
+        "Refugee Status": "Not a refugee",
+        "Correctional Facility Status": "Not in correctional facility",
+        "Lose Housing Worry": "Not worried at all",
+        "People Living at Address": "4",
+        "Housing Status": "Lives with parents",
+        "Stress Level": "Somewhat stressed"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1842 Maple Grove Ln., Beckley, WV 25801",
+        "Patient Email": "haley.adkins795@email.com",
+        "Patient Phone": "304-555-7219"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Student",
+        "Current Industry": "Education",
+        "Usual Occupation": "Student",
+        "Usual Industry": "Education",
+        "Usual Employment Date Range": "Start: 2019-09-01 to current",
+        "Current Job Title": "High School Student",
+        "Current Employer": "Woodrow Wilson High School, 400 Stanaford Rd, Beckley, WV 25801, (304) 256-4646",
+        "Current Employment Start Date": "2019-09-01",
+        "Annual Income": "$0"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Charleston, West Virginia",
+                "Purpose": "School",
+                "Start Date": "2024-05-25",
+                "End Date": "2024-05-25",
+                "Accommodations": "n/a",
+                "Mode of Travel": "School bus",
+                "Activities": "Attended a high school debate competition at the Charleston Civic Center. Shared meals and close quarters with other students."
+            },
+            {
+                "Location": "Fayetteville, West Virginia",
+                "Purpose": "Social events",
+                "Start Date": "2024-05-18",
+                "End Date": "2024-05-18",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Friend's car",
+                "Activities": "Attended an outdoor music festival. Used portable toilets and shared food and drinks with friends."
+            },
+            {
+                "Location": "Beckley, West Virginia",
+                "Purpose": "Routine",
+                "Start Date": "2024-05-10",
+                "End Date": "2024-05-10",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Walking",
+                "Activities": "Visited a local tattoo parlor for a new tattoo. Procedure involved potential exposure to blood-borne pathogens."
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient reports recent travel within West Virginia that may be relevant to her acute hepatitis C infection. On May 10, 2024, she received a new tattoo at a local parlor in Beckley, which involved potential exposure to blood-borne pathogens. On May 18, 2024, she attended an outdoor music festival in Fayetteville, where she used portable toilets and shared food and drinks with friends, presenting possible routes of transmission. Most recently, on May 25, 2024, she traveled to Charleston for a school debate competition, where she shared meals and close quarters with other students. These activities, particularly the tattoo procedure, present potential risk factors for hepatitis C transmission and align with the typical incubation period for acute, symptomatic hepatitis C."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Fatigue, yellowing skin, and stomach pain",
+        "Patient ID": "5827394",
+        "Encounter Class": "outpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "20240602-001",
+        "Start DateTime": "2024-06-02 09:15",
+        "End DateTime": "2024-06-02 11:30",
+        "Discharge Disposition": "Discharged to home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient visit",
+                "SNOMED-CT Code": "308335008",
+                "Description": "Patient encounter procedure",
+                "Start Date": "2024-06-02",
+                "End Date": "2024-06-02"
+            },
+            {
+                "Encounter Type": "Initial evaluation",
+                "SNOMED-CT Code": "185349003",
+                "Description": "Encounter for 'check-up'",
+                "Start Date": "2024-06-02",
+                "End Date": "2024-06-02"
+            },
+            {
+                "Encounter Type": "Medical consultation",
+                "SNOMED-CT Code": "11429006",
+                "Description": "Consultation",
+                "Start Date": "2024-06-02",
+                "End Date": "2024-06-02"
+            },
+            {
+                "Encounter Type": "Laboratory procedure",
+                "SNOMED-CT Code": "108252007",
+                "Description": "Laboratory procedure",
+                "Start Date": "2024-06-02",
+                "End Date": "2024-06-02"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Ibrahim079, Fatima516, MD",
+        "Practitioner Phone": "304-555-8392",
+        "Practitioner Fax": "304-555-8393",
+        "Practitioner Email": "f.ibrahim@beckleyhealthcare.org",
+        "Practitioner Office Name": "Beckley Community Health Center",
+        "Practitioner ID": "7629384015",
+        "Practitioner Address": "1234 Oak Street, Suite 300, Beckley, WV 25801"
+    },
+    "Facility_Information": {
+        "Facility Name": "Beckley Community Health Center",
+        "Facility Type": "Outpatient clinic",
+        "Facility Phone": "304-555-8390",
+        "Facility Fax": "304-555-8391",
+        "Facility Address": "1234 Oak Street, Beckley, WV 25801"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "Not pregnant",
+        "Pregnancy Status Determination Method": "Patient self-report",
+        "Pregnancy Status Recorded Date": "2024-06-02",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "2024-05-15",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-05-28",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Jaundice",
+                "SNOMED-CT": "18165001",
+                "Onset Date": "2024-05-30",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-05-29",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-05-29",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Loss of appetite",
+                "SNOMED-CT": "79890006",
+                "Onset Date": "2024-05-28",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Dark urine",
+                "SNOMED-CT": "34436003",
+                "Onset Date": "2024-05-31",
+                "Severity": "Mild",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "38.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "\u00b0C",
+                "Measurement Time": "2024-06-02 09:20:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "92",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-06-02 09:21:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "18",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-06-02 09:22:00"
+            },
+            {
+                "Vital Sign": "Blood pressure",
+                "Value": "118/76",
+                "SNOMED-CT": "75367002",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-06-02 09:23:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "98",
+                "SNOMED-CT": "103228002",
+                "Unit": "%",
+                "Measurement Time": "2024-06-02 09:24:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "60.8",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-06-02 09:25:00"
+            },
+            {
+                "Vital Sign": "Body height",
+                "Value": "165.5",
+                "SNOMED-CT": "50373000",
+                "Unit": "cm",
+                "Measurement Time": "2024-06-02 09:26:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Fatigue, yellowing skin, and abdominal pain",
+        "Past Medical History": "Patient reports no significant past medical history. She had chickenpox at age 6 and has had occasional minor illnesses such as colds and flu. No history of chronic diseases, surgeries, or hospitalizations. She denies any known allergies to medications or foods. Family history is negative for liver diseases or other relevant conditions.",
+        "Review of Systems": "General: Reports fatigue and malaise for the past 5 days. Denies fever or chills.\nSkin: Notes yellowing of skin and eyes starting 3 days ago.\nHEENT: Denies sore throat, ear pain, or nasal congestion.\nCardiovascular: Denies chest pain or palpitations.\nRespiratory: Denies cough or shortness of breath.\nGastrointestinal: Complains of moderate abdominal pain, mainly in the right upper quadrant. Reports nausea but no vomiting. Notes decreased appetite and darker urine for the past 3-4 days. Denies changes in bowel movements.\nGenitourinary: Denies dysuria or frequency.\nMusculoskeletal: Denies joint pain or muscle aches.\nNeurological: Denies headaches, dizziness, or changes in vision.\nPsychiatric: Denies depression or anxiety, but expresses concern about her symptoms.",
+        "History of Present Illness": "Haley Adkins, an 18-year-old female, presents with a 5-day history of progressive fatigue, followed by the onset of jaundice and abdominal pain 3 days ago. She first noticed feeling unusually tired after school on May 28, 2024. On May 30, she observed yellowing of her skin and eyes, which prompted concern. Concurrently, she developed a dull, aching pain in her upper right abdomen. The pain is described as moderate, constant, and not radiating. She reports associated nausea but no vomiting. Her appetite has decreased, and she's noticed her urine becoming darker over the past few days. She denies fever, chills, or any respiratory symptoms. The patient received a tattoo at a local parlor on May 10, 2024. She also attended an outdoor music festival on May 18, where she used portable toilets and shared food and drinks with friends. On May 25, she traveled to Charleston for a school debate competition. She denies any recent sexual activity, intravenous drug use, or known exposure to individuals with liver disease. She has no history of blood transfusions or other medical procedures involving potential blood exposure.",
+        "Plan of Treatment": "1. Diagnosis: Based on the patient's presentation and laboratory results, we suspect acute hepatitis C infection. We will confirm with HCV RNA testing.\n2. Patient Education: Explain the nature of hepatitis C, its transmission, and prognosis. Emphasize the importance of rest and hydration.\n3. Supportive Care: Recommend adequate rest and increased fluid intake. Advise on a balanced, nutritious diet as tolerated.\n4. Monitoring: Schedule follow-up appointments to track liver function tests and monitor symptom progression.\n5. Antiviral Therapy: Given the acute nature of the infection, we will closely monitor for spontaneous clearance over the next 12-16 weeks before considering antiviral therapy.\n6. Lifestyle Modifications: Advise complete abstinence from alcohol and avoidance of hepatotoxic medications.\n7. Prevention: Counsel on preventing transmission to others, including safe sex practices and avoiding sharing personal items that may come into contact with blood.\n8. Psychosocial Support: Offer resources for counseling and support groups if needed.\n9. Further Testing: Screen for other hepatitis viruses (A and B) and HIV.\n10. Referral: Consider referral to a hepatologist for specialized management if symptoms worsen or persist.\n11. Follow-up: Schedule a follow-up appointment in 1 week to reassess symptoms and review all test results.",
+        "Vaccine Credential Patient Assertion": "Patient reports being up-to-date on all recommended vaccinations for her age group, including Hepatitis B series completed in infancy. She received her most recent Tdap booster last year. Patient is unsure about her HPV vaccination status. She has not received Hepatitis A vaccination."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "1742-6",
+                "LOINC Order Code Description": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "450",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-06-02 09:45:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "24060201"
+            },
+            {
+                "LOINC Laboratory Order Code": "1920-8",
+                "LOINC Order Code Description": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "380",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-06-02 09:45:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "24060202"
+            },
+            {
+                "LOINC Laboratory Order Code": "1975-2",
+                "LOINC Order Code Description": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "3.2",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-06-02 09:45:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "24060203"
+            },
+            {
+                "LOINC Laboratory Order Code": "11011-4",
+                "LOINC Order Code Description": "Hepatitis C virus RNA [Log units/volume] (viral load) in Serum or Plasma by NAA with probe detection",
+                "Laboratory Result": "5.8",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-06-02 09:45:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "24060204"
+            },
+            {
+                "LOINC Laboratory Order Code": "13955-0",
+                "LOINC Order Code Description": "Hepatitis C virus Ab [Units/volume] in Serum or Plasma by Immunoassay",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-06-02 09:45:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "24060205"
+            },
+            {
+                "LOINC Laboratory Order Code": "2324-2",
+                "LOINC Order Code Description": "Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "95",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-06-02 09:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "24060206"
+            },
+            {
+                "LOINC Laboratory Order Code": "4548-4",
+                "LOINC Order Code Description": "Hemoglobin A1c/Hemoglobin.total in Blood",
+                "Laboratory Result": "5.2",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Whole blood",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-06-02 09:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "24060207"
+            },
+            {
+                "LOINC Laboratory Order Code": "6690-2",
+                "LOINC Order Code Description": "Leukocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "7.2",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Whole blood",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-06-02 09:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "24060208"
+            },
+            {
+                "LOINC Laboratory Order Code": "2085-9",
+                "LOINC Order Code Description": "Cholesterol [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "170",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-06-02 09:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "24060209"
+            },
+            {
+                "LOINC Laboratory Order Code": "2160-0",
+                "LOINC Order Code Description": "Creatinine [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "0.8",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-06-02 09:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "24060210"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Acute hepatitis C",
+                "ICD-10 Code": "B17.10",
+                "SNOMED-CT Code": "50711007",
+                "Diagnosis Date": "2024-06-02",
+                "Onset Date": "2024-05-28",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Jaundice",
+                "ICD-10 Code": "R17",
+                "SNOMED-CT Code": "18165001",
+                "Diagnosis Date": "2024-06-02",
+                "Onset Date": "2024-05-30",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Fatigue",
+                "ICD-10 Code": "R53.83",
+                "SNOMED-CT Code": "84229001",
+                "Diagnosis Date": "2024-06-02",
+                "Onset Date": "2024-05-28",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Abdominal pain, right upper quadrant",
+                "ICD-10 Code": "R10.11",
+                "SNOMED-CT Code": "21522001",
+                "Diagnosis Date": "2024-06-02",
+                "Onset Date": "2024-05-29",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Nausea",
+                "ICD-10 Code": "R11.0",
+                "SNOMED-CT Code": "422587007",
+                "Diagnosis Date": "2024-06-02",
+                "Onset Date": "2024-05-29",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Decreased appetite",
+                "ICD-10 Code": "R63.0",
+                "SNOMED-CT Code": "79890006",
+                "Diagnosis Date": "2024-06-02",
+                "Onset Date": "2024-05-28",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis C antibody test",
+                "CPT Code": "86803",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-02",
+                "Details": "Performed to detect antibodies to hepatitis C virus",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis C RNA, quantitative",
+                "CPT Code": "87522",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-02",
+                "Details": "Quantitative PCR test to measure hepatitis C viral load",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Liver function panel",
+                "CPT Code": "80076",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-02",
+                "Details": "Comprehensive metabolic panel to assess liver function",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Abdominal ultrasound",
+                "CPT Code": "76700",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-05",
+                "Details": "Scheduled to evaluate liver size and texture",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Intravenous fluid administration",
+                "CPT Code": "96360",
+                "Status": "Completed",
+                "Procedure Date": "2024-06-02",
+                "Details": "1 liter of normal saline given for hydration",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis A antibody test",
+                "CPT Code": "86708",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-09",
+                "Details": "Scheduled to rule out co-infection with hepatitis A",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis B surface antigen",
+                "CPT Code": "87340",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-09",
+                "Details": "Scheduled to rule out co-infection with hepatitis B",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "HIV-1 and HIV-2 antibody test",
+                "CPT Code": "87389",
+                "Status": "Planned",
+                "Procedure Date": "2024-06-09",
+                "Details": "Scheduled as part of comprehensive STI screening",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Over-the-counter analgesic",
+                "Purpose": "Pain relief and fever reduction",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg every 6 hours as needed",
+                "Duration": "Up to 7 days",
+                "Start Date": "2024-06-02",
+                "Response": "Moderate improvement",
+                "Response Details": "Patient reports reduced abdominal discomfort and lowered body temperature",
+                "Observation Date": "2024-06-03"
+            },
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Prescription antiemetic",
+                "Purpose": "Nausea management",
+                "Administration Mode": "Oral",
+                "Dose": "4 mg twice daily as needed",
+                "Duration": "Up to 5 days",
+                "Start Date": "2024-06-02",
+                "Response": "Significant improvement",
+                "Response Details": "Patient reports marked reduction in nausea symptoms",
+                "Observation Date": "2024-06-03"
+            },
+            {
+                "Medication Name": "Ursodeoxycholic acid",
+                "Medication Type": "Prescription bile acid",
+                "Purpose": "Improve bile flow and reduce liver inflammation",
+                "Administration Mode": "Oral",
+                "Dose": "300 mg twice daily",
+                "Duration": "4 weeks, to be reassessed",
+                "Start Date": "2024-06-03",
+                "Response": "Pending evaluation",
+                "Response Details": "Started recently, efficacy to be assessed in follow-up",
+                "Observation Date": "2024-06-03"
+            },
+            {
+                "Medication Name": "Vitamin B Complex",
+                "Medication Type": "Over-the-counter supplement",
+                "Purpose": "Support liver function and overall health",
+                "Administration Mode": "Oral",
+                "Dose": "1 tablet daily",
+                "Duration": "Ongoing",
+                "Start Date": "2024-06-02",
+                "Response": "Well-tolerated",
+                "Response Details": "No adverse effects reported, potential benefits to be assessed long-term",
+                "Observation Date": "2024-06-03"
+            },
+            {
+                "Medication Name": "Oral Rehydration Solution",
+                "Medication Type": "Over-the-counter electrolyte solution",
+                "Purpose": "Maintain hydration and electrolyte balance",
+                "Administration Mode": "Oral",
+                "Dose": "As needed, up to 1 liter per day",
+                "Duration": "As needed",
+                "Start Date": "2024-06-02",
+                "Response": "Effective",
+                "Response Details": "Patient reports improved hydration and reduced fatigue",
+                "Observation Date": "2024-06-03"
+            },
+            {
+                "Medication Name": "Ibuprofen",
+                "Medication Type": "Over-the-counter NSAID",
+                "Purpose": "Pain relief",
+                "Administration Mode": "Oral",
+                "Dose": "400 mg every 6 hours as needed",
+                "Duration": "Up to 5 days",
+                "Start Date": "2024-05-29",
+                "Response": "Discontinued",
+                "Response Details": "Stopped due to potential liver stress in acute hepatitis",
+                "Observation Date": "2024-06-02"
+            },
+            {
+                "Medication Name": "Milk Thistle",
+                "Medication Type": "Herbal supplement",
+                "Purpose": "Support liver health",
+                "Administration Mode": "Oral",
+                "Dose": "150 mg twice daily",
+                "Duration": "4 weeks, to be reassessed",
+                "Start Date": "2024-06-03",
+                "Response": "Pending evaluation",
+                "Response Details": "Started recently, efficacy and safety to be monitored",
+                "Observation Date": "2024-06-03"
+            },
+            {
+                "Medication Name": "Loperamide",
+                "Medication Type": "Over-the-counter antidiarrheal",
+                "Purpose": "Manage occasional diarrhea",
+                "Administration Mode": "Oral",
+                "Dose": "2 mg as needed, not to exceed 8 mg per day",
+                "Duration": "As needed",
+                "Start Date": "2024-06-02",
+                "Response": "Effective when used",
+                "Response Details": "Patient reports relief of occasional loose stools",
+                "Observation Date": "2024-06-03"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. An 18-year-old female presented with fatigue, jaundice, and abdominal pain. Symptoms began on May 28, 2024, with jaundice appearing on May 30. Recent history included a tattoo on May 10 and attendance at a music festival on May 18. Lab tests on June 2 revealed elevated liver enzymes, positive HCV antibodies, and high viral load, leading to a diagnosis of acute hepatitis C. Treatment focused on supportive care, including acetaminophen for pain, ondansetron for nausea, and ursodeoxycholic acid to improve bile flow. The patient's prognosis is good with anticipated full recovery."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Haley795 Adkins482",
+        "Report_Header_Age": "18",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-06-03"
+    }
+}

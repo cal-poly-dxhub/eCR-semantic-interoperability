@@ -1,0 +1,717 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "White",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "78",
+        "Date of Birth": "1945-09-15",
+        "Location": "Saratoga Springs",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Fitzgerald743, Walter159",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Retired",
+        "Gender Identity": "Male",
+        "Disability Status": "Disabled",
+        "Education Level": "High school graduate",
+        "Marital Status": "Widowed",
+        "Smoking Status": "Former smoker",
+        "BMI": "28.5",
+        "Active Military": "No",
+        "Discharged from Military": "Yes",
+        "Primary Insurance": "Medicare",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Not worried at all",
+        "People Living at Address": "20",
+        "Housing Status": "Retirement community",
+        "Stress Level": "Somewhat stressed"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1235 Maple Grove Ln., Unit 14, Saratoga Springs, NY 12866",
+        "Patient Email": "wfitzgerald1945@seniormail.com",
+        "Patient Phone": "518-555-3792"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Retired",
+        "Current Industry": "N/A",
+        "Usual Occupation": "High School Teacher",
+        "Usual Industry": "Education",
+        "Usual Employment Date Range": "Start: 1968-09-01 to 2010-06-30",
+        "Current Job Title": "Retired",
+        "Current Employer": "N/A",
+        "Current Employment Start Date": "2010-07-01",
+        "Annual Income": "$38,000 (pension and social security)"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Saratoga Springs, NY",
+                "Purpose": "Routine",
+                "Start Date": "2024-05-15",
+                "End Date": "2024-05-15",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Retirement home shuttle",
+                "Activities": "Attended a weekly bingo night at the Saratoga Senior Center. The event was crowded with approximately 50 seniors in attendance."
+            },
+            {
+                "Location": "Albany, NY",
+                "Purpose": "Medical",
+                "Start Date": "2024-05-10",
+                "End Date": "2024-05-10",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Retirement home shuttle",
+                "Activities": "Visited Albany Medical Center for a routine check-up. Spent time in a crowded waiting room with other patients."
+            },
+            {
+                "Location": "Saratoga Springs, NY",
+                "Purpose": "Social",
+                "Start Date": "2024-05-03",
+                "End Date": "2024-05-03",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Walking",
+                "Activities": "Attended a community potluck dinner in the retirement home's common area. Interacted closely with many other residents."
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient is a 78-year-old male resident of a retirement community in Saratoga Springs, NY. Recent travel history relevant to COVID-19 exposure risk includes: 1) Attendance at a crowded weekly bingo night at the Saratoga Senior Center on 2024-05-15, with approximately 50 seniors present in close proximity. 2) Visit to Albany Medical Center on 2024-05-10 for a routine check-up, where patient spent time in a crowded waiting room with other patients. 3) Participation in a community potluck dinner in the retirement home's common area on 2024-05-03, involving close interactions with many other residents. All travel was local within upstate New York, primarily using retirement home shuttle services. These activities present potential COVID-19 exposure risks due to close contact with multiple individuals in indoor settings, particularly given the patient's residence in a communal living environment."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Shortness of breath and fever",
+        "Patient ID": "7629384",
+        "Encounter Class": "inpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "98765432100",
+        "Start DateTime": "2024-05-18 14:30",
+        "End DateTime": "2024-05-21 16:45",
+        "Discharge Disposition": "Transferred to skilled nursing facility",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Emergency room admission",
+                "SNOMED-CT Code": "183452005",
+                "Description": "Emergency hospital admission (procedure)",
+                "Start Date": "2024-05-18",
+                "End Date": "2024-05-18"
+            },
+            {
+                "Encounter Type": "Hospital admission",
+                "SNOMED-CT Code": "32485007",
+                "Description": "Hospital admission (procedure)",
+                "Start Date": "2024-05-18",
+                "End Date": "2024-05-21"
+            },
+            {
+                "Encounter Type": "Intensive care management",
+                "SNOMED-CT Code": "304577004",
+                "Description": "Intensive care management (procedure)",
+                "Start Date": "2024-05-19",
+                "End Date": "2024-05-20"
+            },
+            {
+                "Encounter Type": "Patient monitoring",
+                "SNOMED-CT Code": "359940006",
+                "Description": "Patient monitoring (regime/therapy)",
+                "Start Date": "2024-05-18",
+                "End Date": "2024-05-21"
+            },
+            {
+                "Encounter Type": "Oxygen therapy",
+                "SNOMED-CT Code": "57485005",
+                "Description": "Oxygen therapy (procedure)",
+                "Start Date": "2024-05-18",
+                "End Date": "2024-05-21"
+            },
+            {
+                "Encounter Type": "Medication therapy",
+                "SNOMED-CT Code": "416608005",
+                "Description": "Drug therapy (procedure)",
+                "Start Date": "2024-05-18",
+                "End Date": "2024-05-21"
+            },
+            {
+                "Encounter Type": "Physical therapy",
+                "SNOMED-CT Code": "91251008",
+                "Description": "Physical therapy procedure (regime/therapy)",
+                "Start Date": "2024-05-20",
+                "End Date": "2024-05-21"
+            },
+            {
+                "Encounter Type": "Patient discharge",
+                "SNOMED-CT Code": "58000006",
+                "Description": "Patient discharge (procedure)",
+                "Start Date": "2024-05-21",
+                "End Date": "2024-05-21"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Patel637, Anita842, MD",
+        "Practitioner Phone": "518-555-7294",
+        "Practitioner Fax": "518-555-7295",
+        "Practitioner Email": "apatel@saratogamedical.org",
+        "Practitioner Office Name": "Saratoga Medical Center",
+        "Practitioner ID": "1234567890",
+        "Practitioner Address": "123 Health Plaza, Saratoga Springs, NY 12866",
+        "End Date": "2024-05-21"
+    },
+    "Facility_Information": {
+        "Facility Name": "Saratoga Medical Center",
+        "Facility Type": "Hospital",
+        "Facility Phone": "518-555-7000",
+        "Facility Fax": "518-555-7001",
+        "Facility Address": "123 Health Plaza, Saratoga Springs, NY 12866"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Dyspnea",
+                "SNOMED-CT": "267036007",
+                "Onset Date": "2024-05-16",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fever",
+                "SNOMED-CT": "386661006",
+                "Onset Date": "2024-05-17",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Cough",
+                "SNOMED-CT": "49727002",
+                "Onset Date": "2024-05-16",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-05-16",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Myalgia",
+                "SNOMED-CT": "68962001",
+                "Onset Date": "2024-05-17",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Confusion",
+                "SNOMED-CT": "40917007",
+                "Onset Date": "2024-05-18",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Decreased oxygen saturation",
+                "SNOMED-CT": "103228002",
+                "Onset Date": "2024-05-18",
+                "Severity": "Moderate",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "38.8",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-05-18 14:35:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "24",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-05-18 14:35:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "102",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-05-18 14:35:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "92",
+                "SNOMED-CT": "103228002",
+                "Unit": "%",
+                "Measurement Time": "2024-05-18 14:35:00"
+            },
+            {
+                "Vital Sign": "Systolic blood pressure",
+                "Value": "138",
+                "SNOMED-CT": "271649006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-05-18 14:35:00"
+            },
+            {
+                "Vital Sign": "Diastolic blood pressure",
+                "Value": "85",
+                "SNOMED-CT": "271650006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-05-18 14:35:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Shortness of breath and fever",
+        "Past Medical History": "Patient has a history of hypertension, type 2 diabetes mellitus, and chronic obstructive pulmonary disease (COPD). He underwent a coronary artery bypass graft (CABG) surgery in 2015 for coronary artery disease. The patient is a former smoker with a 40 pack-year history, having quit in 2010. He also has a history of recurrent pneumonia, with his last episode occurring in 2023.",
+        "Review of Systems": "General: Positive for fatigue and fever. Respiratory: Positive for shortness of breath and cough. Cardiovascular: Negative for chest pain or palpitations. Gastrointestinal: Negative for nausea, vomiting, or diarrhea. Musculoskeletal: Positive for generalized muscle aches. Neurological: Positive for mild confusion. Skin: Negative for rashes. HEENT: Negative for sore throat or runny nose. Genitourinary: Negative for urinary symptoms.",
+        "History of Present Illness": "Mr. Fitzgerald is a 78-year-old male resident of a retirement community who presents with a 3-day history of progressively worsening shortness of breath and fever. Symptoms began on 2024-05-16 with mild dyspnea and a dry cough. On 2024-05-17, he developed a fever, measured at home as 38.3\u00b0C (101\u00b0F), along with increased fatigue and muscle aches. Today (2024-05-18), his shortness of breath has significantly worsened, and he reports feeling mildly confused. He denies any recent travel outside of his local area but mentions attending a crowded bingo night at the Saratoga Senior Center on 2024-05-15 and a medical appointment in Albany on 2024-05-10. Given his age, comorbidities, and residence in a communal living environment, there is a high suspicion for COVID-19 infection.",
+        "Plan of Treatment": "1. Admit patient to isolation room for suspected COVID-19 infection. 2. Obtain nasopharyngeal swab for SARS-CoV-2 PCR testing. 3. Initiate supplemental oxygen therapy via nasal cannula to maintain SpO2 > 94%. 4. Start IV fluids for hydration. 5. Administer acetaminophen for fever and pain relief. 6. Begin empiric antiviral therapy with remdesivir. 7. Start dexamethasone 6 mg daily for moderate COVID-19. 8. Monitor vital signs, including continuous pulse oximetry. 9. Obtain chest X-ray to assess for pneumonia. 10. Order complete blood count, comprehensive metabolic panel, C-reactive protein, and D-dimer. 11. Initiate DVT prophylaxis with enoxaparin. 12. Continue home medications for chronic conditions. 13. Consult pulmonology for management of COPD in the context of suspected COVID-19. 14. Implement prone positioning if oxygenation worsens. 15. Educate patient on importance of self-proning and incentive spirometry. 16. Notify the local health department of suspected COVID-19 case. 17. Arrange for contact tracing within the retirement community. 18. Reassess frequently for any signs of clinical deterioration requiring escalation of care.",
+        "Vaccine Credential Patient Assertion": "Patient reports receiving two doses of the Pfizer-BioNTech COVID-19 vaccine in early 2021, followed by a booster dose in late 2021. However, he is unsure about subsequent boosters and cannot recall receiving any additional doses in the past year."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "94500-6",
+                "LOINC Order Code Description": "SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory specimen by NAA with probe detection",
+                "Laboratory Result": "Detected",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Nasopharynx",
+                "Specimen Type": "Swab",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-05-18 15:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "20240518153000"
+            },
+            {
+                "LOINC Laboratory Order Code": "94534-5",
+                "LOINC Order Code Description": "SARS-CoV-2 (COVID-19) RdRp gene [Cycle Threshold #] in Respiratory specimen by NAA with probe detection",
+                "Laboratory Result": "25.3",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Nasopharynx",
+                "Specimen Type": "Swab",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-05-18 15:30:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240518153001"
+            },
+            {
+                "LOINC Laboratory Order Code": "751-8",
+                "LOINC Order Code Description": "Neutrophils [#/volume] in Blood by Automated count",
+                "Laboratory Result": "7.2 x 10^9/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-05-18 16:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240518160000"
+            },
+            {
+                "LOINC Laboratory Order Code": "731-0",
+                "LOINC Order Code Description": "Lymphocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "0.8 x 10^9/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-05-18 16:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240518160001"
+            },
+            {
+                "LOINC Laboratory Order Code": "6690-2",
+                "LOINC Order Code Description": "Leukocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "9.5 x 10^9/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-05-18 16:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240518160002"
+            },
+            {
+                "LOINC Laboratory Order Code": "789-8",
+                "LOINC Order Code Description": "Erythrocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "4.2 x 10^12/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-05-18 16:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240518160003"
+            },
+            {
+                "LOINC Laboratory Order Code": "777-3",
+                "LOINC Order Code Description": "Platelets [#/volume] in Blood by Automated count",
+                "Laboratory Result": "180 x 10^9/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-05-18 16:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240518160004"
+            },
+            {
+                "LOINC Laboratory Order Code": "2160-0",
+                "LOINC Order Code Description": "Creatinine [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "1.3 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Venous blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-05-18 16:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240518160005"
+            },
+            {
+                "LOINC Laboratory Order Code": "1920-8",
+                "LOINC Order Code Description": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "45 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Venous blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-05-18 16:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240518160006"
+            },
+            {
+                "LOINC Laboratory Order Code": "1742-6",
+                "LOINC Order Code Description": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "52 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Venous blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-05-18 16:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240518160007"
+            },
+            {
+                "LOINC Laboratory Order Code": "1988-5",
+                "LOINC Order Code Description": "C reactive protein [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "85 mg/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Venous blood",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-05-18 16:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240518160008"
+            },
+            {
+                "LOINC Laboratory Order Code": "48065-7",
+                "LOINC Order Code Description": "Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma",
+                "Laboratory Result": "850 ng/mL FEU",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Plasma",
+                "Specimen Type": "Venous blood",
+                "Specimen ID": "987654325",
+                "Specimen Collection Date": "2024-05-18 16:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240518160009"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "COVID-19",
+                "ICD-10 Code": "U07.1",
+                "SNOMED-CT Code": "840539006",
+                "Diagnosis Date": "2024-05-18",
+                "Onset Date": "2024-05-16",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Viral pneumonia",
+                "ICD-10 Code": "J12.89",
+                "SNOMED-CT Code": "75570004",
+                "Diagnosis Date": "2024-05-18",
+                "Onset Date": "2024-05-18",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Acute hypoxemic respiratory failure",
+                "ICD-10 Code": "J96.01",
+                "SNOMED-CT Code": "65710008",
+                "Diagnosis Date": "2024-05-18",
+                "Onset Date": "2024-05-18",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Chronic obstructive pulmonary disease",
+                "ICD-10 Code": "J44.9",
+                "SNOMED-CT Code": "13645005",
+                "Diagnosis Date": "2020-03-15",
+                "Onset Date": "2020-03-15",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Type 2 diabetes mellitus",
+                "ICD-10 Code": "E11.9",
+                "SNOMED-CT Code": "44054006",
+                "Diagnosis Date": "2015-09-22",
+                "Onset Date": "2015-09-22",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Essential hypertension",
+                "ICD-10 Code": "I10",
+                "SNOMED-CT Code": "59621000",
+                "Diagnosis Date": "2010-11-30",
+                "Onset Date": "2010-11-30",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Coronary artery disease",
+                "ICD-10 Code": "I25.10",
+                "SNOMED-CT Code": "53741008",
+                "Diagnosis Date": "2015-04-12",
+                "Onset Date": "2015-04-12",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Chest X-ray, 2 views, frontal and lateral",
+                "CPT Code": "71046",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-18",
+                "Details": "Performed to assess for pneumonia and other lung abnormalities associated with COVID-19",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Insertion of non-tunneled central venous catheter",
+                "CPT Code": "36556",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-18",
+                "Details": "Placed for administration of IV fluids and medications",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Oxygen supplementation",
+                "CPT Code": "94660",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-05-18",
+                "Details": "Continuous oxygen therapy via nasal cannula to maintain SpO2 > 94%",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Mechanical ventilation management",
+                "CPT Code": "94002",
+                "Status": "Planned",
+                "Procedure Date": "2024-05-19",
+                "Details": "Prepared for possible intubation and mechanical ventilation if respiratory status deteriorates",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Therapeutic activities, direct patient contact by provider, each 15 minutes",
+                "CPT Code": "97530",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-05-20",
+                "Details": "Physical therapy sessions to maintain mobility and prevent complications of prolonged bed rest",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Electrocardiogram, routine ECG with at least 12 leads",
+                "CPT Code": "93000",
+                "Status": "Completed",
+                "Procedure Date": "2024-05-18",
+                "Details": "Performed to assess cardiac status and rule out acute cardiac events",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Nebulizer treatment",
+                "CPT Code": "94640",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-05-18",
+                "Details": "Administered bronchodilators via nebulizer for management of COPD exacerbation",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Pulse oximetry for home use",
+                "CPT Code": "94760",
+                "Status": "Planned",
+                "Procedure Date": "2024-05-21",
+                "Details": "To be provided at discharge for continued monitoring of oxygen saturation at home",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Remdesivir",
+                "Medication Type": "Antiviral",
+                "Purpose": "Treatment of COVID-19",
+                "Administration Mode": "Intravenous",
+                "Dose": "200 mg on day 1, followed by 100 mg daily",
+                "Duration": "5 days",
+                "Start Date": "2024-05-18",
+                "Response": "Moderate improvement",
+                "Response Details": "Patient showed slight reduction in viral load and marginal improvement in respiratory symptoms",
+                "Observation Date": "2024-05-21"
+            },
+            {
+                "Medication Name": "Dexamethasone",
+                "Medication Type": "Corticosteroid",
+                "Purpose": "Reduce inflammation in COVID-19",
+                "Administration Mode": "Intravenous",
+                "Dose": "6 mg once daily",
+                "Duration": "10 days",
+                "Start Date": "2024-05-18",
+                "Response": "Positive",
+                "Response Details": "Observed reduction in inflammatory markers and improved oxygenation",
+                "Observation Date": "2024-05-21"
+            },
+            {
+                "Medication Name": "Enoxaparin",
+                "Medication Type": "Anticoagulant",
+                "Purpose": "DVT prophylaxis",
+                "Administration Mode": "Subcutaneous injection",
+                "Dose": "40 mg once daily",
+                "Duration": "Duration of hospitalization",
+                "Start Date": "2024-05-18",
+                "Response": "Effective",
+                "Response Details": "No signs of thrombosis; no bleeding complications",
+                "Observation Date": "2024-05-21"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic/Antipyretic",
+                "Purpose": "Fever and pain relief",
+                "Administration Mode": "Oral",
+                "Dose": "1000 mg every 6 hours as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-05-18",
+                "Response": "Effective",
+                "Response Details": "Reduced fever and alleviated body aches",
+                "Observation Date": "2024-05-21"
+            },
+            {
+                "Medication Name": "Albuterol",
+                "Medication Type": "Bronchodilator",
+                "Purpose": "Management of COPD and COVID-related bronchospasm",
+                "Administration Mode": "Nebulizer",
+                "Dose": "2.5 mg in 3 mL normal saline every 4-6 hours as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-05-18",
+                "Response": "Moderate improvement",
+                "Response Details": "Provided some relief of dyspnea, but patient still requires oxygen therapy",
+                "Observation Date": "2024-05-21"
+            },
+            {
+                "Medication Name": "Metformin",
+                "Medication Type": "Oral antidiabetic",
+                "Purpose": "Management of Type 2 Diabetes",
+                "Administration Mode": "Oral",
+                "Dose": "1000 mg twice daily",
+                "Duration": "Ongoing",
+                "Start Date": "2015-09-22",
+                "Response": "Suboptimal",
+                "Response Details": "Blood glucose levels elevated due to stress of acute illness",
+                "Observation Date": "2024-05-21"
+            },
+            {
+                "Medication Name": "Lisinopril",
+                "Medication Type": "ACE inhibitor",
+                "Purpose": "Management of Hypertension",
+                "Administration Mode": "Oral",
+                "Dose": "10 mg once daily",
+                "Duration": "Ongoing",
+                "Start Date": "2010-11-30",
+                "Response": "Effective",
+                "Response Details": "Blood pressure well-controlled despite acute illness",
+                "Observation Date": "2024-05-21"
+            },
+            {
+                "Medication Name": "Atorvastatin",
+                "Medication Type": "Statin",
+                "Purpose": "Management of Hyperlipidemia and Coronary Artery Disease",
+                "Administration Mode": "Oral",
+                "Dose": "40 mg once daily",
+                "Duration": "Ongoing",
+                "Start Date": "2015-04-12",
+                "Response": "Effective",
+                "Response Details": "Lipid levels well-controlled",
+                "Observation Date": "2024-05-21"
+            },
+            {
+                "Medication Name": "Insulin Glargine",
+                "Medication Type": "Long-acting insulin",
+                "Purpose": "Management of hyperglycemia during acute illness",
+                "Administration Mode": "Subcutaneous injection",
+                "Dose": "20 units at bedtime",
+                "Duration": "Duration of hospitalization",
+                "Start Date": "2024-05-18",
+                "Response": "Partially effective",
+                "Response Details": "Helps maintain baseline glucose control, but supplemental rapid-acting insulin needed",
+                "Observation Date": "2024-05-21"
+            },
+            {
+                "Medication Name": "Famotidine",
+                "Medication Type": "H2 receptor antagonist",
+                "Purpose": "Stress ulcer prophylaxis",
+                "Administration Mode": "Intravenous",
+                "Dose": "20 mg twice daily",
+                "Duration": "Duration of hospitalization",
+                "Start Date": "2024-05-18",
+                "Response": "Effective",
+                "Response Details": "No signs of gastrointestinal bleeding",
+                "Observation Date": "2024-05-21"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 78-year-old male resident of a retirement home in Saratoga Springs, NY, developed COVID-19 symptoms on 2024-05-16. His condition worsened, leading to hospitalization on 2024-05-18 with dyspnea, fever, and confusion. The patient tested positive for SARS-CoV-2 and was diagnosed with COVID-19 pneumonia and acute hypoxemic respiratory failure. Treatment included remdesivir, dexamethasone, and oxygen therapy. With a history of COPD, diabetes, and heart disease, his prognosis remained guarded. The patient was discharged to a skilled nursing facility on 2024-05-21 for continued care."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Walter159 Fitzgerald743",
+        "Report_Header_Age": "78",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-05-22"
+    }
+}

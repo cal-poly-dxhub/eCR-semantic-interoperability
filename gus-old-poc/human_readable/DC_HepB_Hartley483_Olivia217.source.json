@@ -1,0 +1,674 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "White",
+        "Ethnicity": "Non-Hispanic",
+        "Patient Age": "28",
+        "Date of Birth": "1995-09-15",
+        "Location": "Washington, DC",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Hartley483, Olivia217",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed",
+        "Gender Identity": "Female",
+        "Disability Status": "No disability",
+        "Education Level": "Bachelor's degree",
+        "Marital Status": "Single",
+        "Smoking Status": "Never smoker",
+        "BMI": "22.8",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Private health insurance",
+        "Refugee Status": "Not a refugee",
+        "Correctional Facility Status": "Not in correctional facility",
+        "Lose Housing Worry": "Not worried at all",
+        "People Living at Address": "2",
+        "Housing Status": "Renting",
+        "Stress Level": "Moderate stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1732 Magnolia Terrace, Apt 5B, Washington, DC 20009",
+        "Patient Email": "olivia.hartley217@emailprovider.com",
+        "Patient Phone": "202-555-3847"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Marketing Specialist",
+        "Current Industry": "Technology",
+        "Usual Occupation": "Marketing Specialist",
+        "Usual Industry": "Technology",
+        "Usual Employment Date Range": "Start: 2019-06-01 to current",
+        "Current Job Title": "Digital Marketing Specialist",
+        "Current Employer": "TechNova Solutions, 1800 K Street NW, Suite 900, Washington, DC 20006, 202-555-7890",
+        "Current Employment Start Date": "2019-06-01",
+        "Annual Income": "$72,000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Bangkok, Thailand",
+                "Purpose": "Vacation",
+                "Start Date": "2024-06-01",
+                "End Date": "2024-06-15",
+                "Accommodations": "Boutique hotel in Sukhumvit area",
+                "Mode of Travel": "Commercial airline",
+                "Activities": "Street food tours, visited temples, beach day trips, received tattoo from local artist"
+            },
+            {
+                "Location": "New York City, New York",
+                "Purpose": "Business",
+                "Start Date": "2024-05-10",
+                "End Date": "2024-05-13",
+                "Accommodations": "Midtown Manhattan hotel",
+                "Mode of Travel": "Train",
+                "Activities": "Attended marketing conference, networked with industry professionals, dined at various restaurants"
+            },
+            {
+                "Location": "Washington, DC",
+                "Purpose": "Routine",
+                "Start Date": "2024-04-20",
+                "End Date": "2024-04-20",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Public transportation",
+                "Activities": "Attended a large outdoor music festival in the National Mall area"
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient reports recent international travel to Bangkok, Thailand from June 1-15, 2024. During this trip, she received a tattoo from a local artist, which may pose a risk for hepatitis B transmission if proper sterilization procedures were not followed. Prior to this, patient attended a large outdoor music festival in Washington, DC on April 20, 2024, where close contact with others could potentially increase risk of exposure to infectious diseases. No other recent travel history of significance for hepatitis B transmission noted."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Yellowing skin and eyes, extreme fatigue",
+        "Patient ID": "3847291",
+        "Encounter Class": "outpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "20240701-001",
+        "Start DateTime": "2024-07-01 09:15",
+        "End DateTime": "2024-07-01 11:30",
+        "Discharge Disposition": "Discharged to home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient visit",
+                "SNOMED-CT Code": "308335008",
+                "Description": "Patient encounter procedure",
+                "Start Date": "2024-07-01",
+                "End Date": "2024-07-01"
+            },
+            {
+                "Encounter Type": "Initial evaluation",
+                "SNOMED-CT Code": "185349003",
+                "Description": "Encounter for 'check-up'",
+                "Start Date": "2024-07-01",
+                "End Date": "2024-07-01"
+            },
+            {
+                "Encounter Type": "History taking",
+                "SNOMED-CT Code": "84100007",
+                "Description": "History taking (procedure)",
+                "Start Date": "2024-07-01",
+                "End Date": "2024-07-01"
+            },
+            {
+                "Encounter Type": "Physical examination",
+                "SNOMED-CT Code": "5880005",
+                "Description": "Physical examination procedure",
+                "Start Date": "2024-07-01",
+                "End Date": "2024-07-01"
+            },
+            {
+                "Encounter Type": "Laboratory test",
+                "SNOMED-CT Code": "108252007",
+                "Description": "Laboratory procedure",
+                "Start Date": "2024-07-01",
+                "End Date": "2024-07-01"
+            },
+            {
+                "Encounter Type": "Diagnostic imaging",
+                "SNOMED-CT Code": "363679005",
+                "Description": "Imaging (procedure)",
+                "Start Date": "2024-07-01",
+                "End Date": "2024-07-01"
+            },
+            {
+                "Encounter Type": "Patient education",
+                "SNOMED-CT Code": "311401005",
+                "Description": "Patient education (procedure)",
+                "Start Date": "2024-07-01",
+                "End Date": "2024-07-01"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Brown231, Maya876, MD",
+        "Practitioner Phone": "202-555-7632",
+        "Practitioner Fax": "202-555-7633",
+        "Practitioner Email": "maya.brown@capitolhealthclinic.org",
+        "Practitioner Office Name": "Capitol Health Clinic",
+        "Practitioner ID": "7529384610",
+        "Practitioner Address": "1845 Constitution Ave NW, Suite 300, Washington, DC 20006"
+    },
+    "Facility_Information": {
+        "Facility Name": "Capitol Health Clinic",
+        "Facility Type": "Outpatient clinic",
+        "Facility Phone": "202-555-7600",
+        "Facility Fax": "202-555-7601",
+        "Facility Address": "1845 Constitution Ave NW, Suite 300, Washington, DC 20006"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "Not pregnant",
+        "Pregnancy Status Determination Method": "Patient self-report",
+        "Pregnancy Status Recorded Date": "2024-07-01",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "2024-06-12",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Jaundice",
+                "SNOMED-CT": "18165001",
+                "Onset Date": "2024-06-28",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-06-25",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-06-26",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-06-27",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Loss of appetite",
+                "SNOMED-CT": "79890006",
+                "Onset Date": "2024-06-26",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Dark urine",
+                "SNOMED-CT": "34436003",
+                "Onset Date": "2024-06-29",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Fever",
+                "SNOMED-CT": "386661006",
+                "Onset Date": "2024-06-25",
+                "Severity": "Mild",
+                "Status": "Improving"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "37.8",
+                "SNOMED-CT": "386725007",
+                "Unit": "C",
+                "Measurement Time": "2024-07-01 09:20:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "88",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/min",
+                "Measurement Time": "2024-07-01 09:22:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "18",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/min",
+                "Measurement Time": "2024-07-01 09:23:00"
+            },
+            {
+                "Vital Sign": "Blood pressure",
+                "Value": "118/76",
+                "SNOMED-CT": "75367002",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-01 09:25:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "98",
+                "SNOMED-CT": "431314004",
+                "Unit": "%",
+                "Measurement Time": "2024-07-01 09:26:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "62.5",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-07-01 09:28:00"
+            },
+            {
+                "Vital Sign": "Body mass index",
+                "Value": "22.8",
+                "SNOMED-CT": "60621009",
+                "Unit": "kg/m2",
+                "Measurement Time": "2024-07-01 09:30:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Yellowing skin and eyes, extreme fatigue, nausea",
+        "Past Medical History": "Patient reports no significant past medical history. No known chronic illnesses or previous hospitalizations. No history of liver disease or hepatitis. Patient received a tattoo in Bangkok, Thailand one month ago. Last menstrual period was on June 12, 2024. Patient denies any known allergies to medications.",
+        "Review of Systems": "General: Reports fatigue, low-grade fever, and loss of appetite. Skin: Notes yellowing of skin and eyes. HEENT: Denies vision changes, hearing problems, or throat pain. Cardiovascular: Denies chest pain or palpitations. Respiratory: Denies shortness of breath or cough. Gastrointestinal: Reports nausea, mild abdominal pain, and dark urine. No vomiting or changes in bowel movements. Musculoskeletal: Denies joint pain or muscle aches. Neurological: Denies headaches, dizziness, or changes in consciousness. Psychiatric: Denies depression or anxiety beyond concern about current symptoms.",
+        "History of Present Illness": "Olivia Hartley, a 28-year-old white non-Hispanic female, presents with a 6-day history of progressive symptoms. She first noticed unusual fatigue and a low-grade fever on June 25, 2024. Two days later, she developed nausea and mild abdominal discomfort. On June 28, she observed yellowing of her skin and eyes, which prompted her to seek medical attention. She also reports dark urine starting June 29. Patient recently traveled to Bangkok, Thailand from June 1-15, 2024, where she received a tattoo from a local artist. She attended a large outdoor music festival in Washington, DC on April 20, 2024. No known sick contacts. Denies any recent blood transfusions, intravenous drug use, or unprotected sexual encounters. Patient is not currently pregnant and her last menstrual period was on June 12, 2024.",
+        "Plan of Treatment": "1. Diagnosis: Based on the patient's symptoms and recent history, we suspect acute hepatitis B infection. We will confirm with serological tests including HBsAg, anti-HBc IgM, and HBV DNA. 2. Additional tests: Complete blood count, liver function tests, coagulation profile, and abdominal ultrasound to assess liver condition. 3. Supportive care: Recommend rest and adequate hydration. Advise on proper nutrition and avoiding alcohol. 4. Symptom management: Prescribe antiemetics for nausea if needed. 5. Monitoring: Close follow-up to track liver function and symptom progression. 6. Patient education: Counsel on the nature of hepatitis B, its transmission, and preventive measures to avoid spreading the infection. 7. Vaccination: Once confirmed, notify and recommend vaccination for close contacts if not already immunized. 8. Referral: Consider referral to a hepatologist for specialized care if symptoms worsen or persist. 9. Follow-up: Schedule a follow-up appointment in one week to review test results and reassess symptoms. 10. Reporting: Report the case to the local health department as per requirements for acute hepatitis B.",
+        "Vaccine Credential Patient Assertion": "Patient reports receiving routine childhood vaccinations but is unsure about her hepatitis B vaccination status. She does not have a vaccination record available and cannot recall receiving any hepatitis B vaccines as an adult."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "10900-9",
+                "LOINC Order Code Description": "Hepatitis B virus surface Ag [Presence] in Serum or Plasma by Immunoassay",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-07-01 09:45:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "24070101"
+            },
+            {
+                "LOINC Laboratory Order Code": "11322-4",
+                "LOINC Order Code Description": "Hepatitis B virus core Ab IgM [Units/volume] in Serum or Plasma by Immunoassay",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-07-01 09:45:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "24070102"
+            },
+            {
+                "LOINC Laboratory Order Code": "10664-1",
+                "LOINC Order Code Description": "Hepatitis B virus DNA [#/volume] (viral load) in Serum or Plasma by Probe and target amplification method",
+                "Laboratory Result": "1,200,000 IU/mL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Plasma",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-07-01 09:45:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "24070103"
+            },
+            {
+                "LOINC Laboratory Order Code": "1742-6",
+                "LOINC Order Code Description": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "450 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-07-01 09:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "24070104"
+            },
+            {
+                "LOINC Laboratory Order Code": "1920-8",
+                "LOINC Order Code Description": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "380 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654325",
+                "Specimen Collection Date": "2024-07-01 09:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "24070105"
+            },
+            {
+                "LOINC Laboratory Order Code": "1975-2",
+                "LOINC Order Code Description": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "3.8 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654326",
+                "Specimen Collection Date": "2024-07-01 09:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "24070106"
+            },
+            {
+                "LOINC Laboratory Order Code": "6690-2",
+                "LOINC Order Code Description": "Leukocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "8.2 x 10^9/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654327",
+                "Specimen Collection Date": "2024-07-01 09:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "24070107"
+            },
+            {
+                "LOINC Laboratory Order Code": "789-8",
+                "LOINC Order Code Description": "Erythrocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "4.5 x 10^12/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654328",
+                "Specimen Collection Date": "2024-07-01 09:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "24070108"
+            },
+            {
+                "LOINC Laboratory Order Code": "777-3",
+                "LOINC Order Code Description": "Platelets [#/volume] in Blood by Automated count",
+                "Laboratory Result": "180 x 10^9/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Whole blood",
+                "Specimen ID": "987654329",
+                "Specimen Collection Date": "2024-07-01 09:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "24070109"
+            },
+            {
+                "LOINC Laboratory Order Code": "6301-6",
+                "LOINC Order Code Description": "INR in Platelet poor plasma by Coagulation assay",
+                "Laboratory Result": "1.1",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Plasma",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654330",
+                "Specimen Collection Date": "2024-07-01 09:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "24070110"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Acute hepatitis B",
+                "ICD-10 Code": "B16.9",
+                "SNOMED-CT Code": "66071002",
+                "Diagnosis Date": "2024-07-01",
+                "Onset Date": "2024-06-25",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Jaundice",
+                "ICD-10 Code": "R17",
+                "SNOMED-CT Code": "18165001",
+                "Diagnosis Date": "2024-07-01",
+                "Onset Date": "2024-06-28",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Fatigue",
+                "ICD-10 Code": "R53.83",
+                "SNOMED-CT Code": "84229001",
+                "Diagnosis Date": "2024-07-01",
+                "Onset Date": "2024-06-25",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Nausea",
+                "ICD-10 Code": "R11.0",
+                "SNOMED-CT Code": "422587007",
+                "Diagnosis Date": "2024-07-01",
+                "Onset Date": "2024-06-26",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Acute viral hepatitis",
+                "ICD-10 Code": "B17.9",
+                "SNOMED-CT Code": "111879005",
+                "Diagnosis Date": "2024-07-01",
+                "Onset Date": "2024-06-25",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Abdominal ultrasound",
+                "CPT Code": "76700",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-01",
+                "Details": "Performed to assess liver condition and rule out any complications",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis B surface antigen (HBsAg)",
+                "CPT Code": "87340",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-01",
+                "Details": "Serological test to confirm acute hepatitis B infection",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis B core antibody (anti-HBc), IgM",
+                "CPT Code": "86705",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-01",
+                "Details": "Serological test to confirm acute hepatitis B infection",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis B virus DNA, quantitative",
+                "CPT Code": "87517",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-01",
+                "Details": "PCR test to determine viral load",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Intravenous hydration",
+                "CPT Code": "96360",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-01",
+                "Details": "Administration of IV fluids for hydration support",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Therapeutic, prophylactic, or diagnostic injection",
+                "CPT Code": "96372",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-01",
+                "Details": "Administration of antiemetic medication for nausea management",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Liver elastography",
+                "CPT Code": "91200",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-08",
+                "Details": "Planned follow-up to assess liver stiffness and fibrosis",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis B virus DNA, quantitative",
+                "CPT Code": "87517",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-15",
+                "Details": "Planned follow-up PCR test to monitor viral load",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Manage nausea",
+                "Administration Mode": "Intravenous",
+                "Dose": "4 mg",
+                "Duration": "As needed",
+                "Start Date": "2024-07-01",
+                "Response": "Positive",
+                "Response Details": "Patient reported significant reduction in nausea within 30 minutes of administration",
+                "Observation Date": "2024-07-01"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic, Antipyretic",
+                "Purpose": "Manage fever and mild pain",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg",
+                "Duration": "Every 6 hours as needed",
+                "Start Date": "2024-07-01",
+                "Response": "Positive",
+                "Response Details": "Patient reported reduction in fever and improved comfort",
+                "Observation Date": "2024-07-01"
+            },
+            {
+                "Medication Name": "Ursodeoxycholic acid",
+                "Medication Type": "Choleretic",
+                "Purpose": "Support liver function and reduce cholestasis",
+                "Administration Mode": "Oral",
+                "Dose": "300 mg",
+                "Duration": "Twice daily",
+                "Start Date": "2024-07-01",
+                "Response": "Pending",
+                "Response Details": "To be assessed at follow-up appointment",
+                "Observation Date": "2024-07-01"
+            },
+            {
+                "Medication Name": "Vitamin K",
+                "Medication Type": "Vitamin supplement",
+                "Purpose": "Support blood clotting factors",
+                "Administration Mode": "Oral",
+                "Dose": "10 mg",
+                "Duration": "Once daily",
+                "Start Date": "2024-07-01",
+                "Response": "Neutral",
+                "Response Details": "No adverse effects noted, efficacy to be assessed with follow-up blood tests",
+                "Observation Date": "2024-07-01"
+            },
+            {
+                "Medication Name": "Lactobacillus acidophilus",
+                "Medication Type": "Probiotic",
+                "Purpose": "Support gut health",
+                "Administration Mode": "Oral",
+                "Dose": "1 billion CFU",
+                "Duration": "Once daily",
+                "Start Date": "2024-07-01",
+                "Response": "Positive",
+                "Response Details": "Patient reported improved digestive comfort",
+                "Observation Date": "2024-07-01"
+            },
+            {
+                "Medication Name": "Tenofovir",
+                "Medication Type": "Antiviral",
+                "Purpose": "Suppress hepatitis B virus replication",
+                "Administration Mode": "Oral",
+                "Dose": "300 mg",
+                "Duration": "Once daily",
+                "Start Date": "2024-07-01",
+                "Response": "Pending",
+                "Response Details": "Efficacy to be assessed with follow-up viral load testing",
+                "Observation Date": "2024-07-01"
+            },
+            {
+                "Medication Name": "Milk thistle extract",
+                "Medication Type": "Herbal supplement",
+                "Purpose": "Support liver health",
+                "Administration Mode": "Oral",
+                "Dose": "150 mg",
+                "Duration": "Twice daily",
+                "Start Date": "2024-07-01",
+                "Response": "Neutral",
+                "Response Details": "No adverse effects noted, efficacy to be assessed with follow-up liver function tests",
+                "Observation Date": "2024-07-01"
+            },
+            {
+                "Medication Name": "Normal Saline",
+                "Medication Type": "Intravenous fluid",
+                "Purpose": "Hydration",
+                "Administration Mode": "Intravenous",
+                "Dose": "1000 mL",
+                "Duration": "Over 8 hours",
+                "Start Date": "2024-07-01",
+                "Response": "Positive",
+                "Response Details": "Patient reported feeling less fatigued after fluid administration",
+                "Observation Date": "2024-07-01"
+            },
+            {
+                "Medication Name": "Multivitamin",
+                "Medication Type": "Vitamin supplement",
+                "Purpose": "General nutritional support",
+                "Administration Mode": "Oral",
+                "Dose": "1 tablet",
+                "Duration": "Once daily",
+                "Start Date": "2024-07-01",
+                "Response": "Neutral",
+                "Response Details": "No adverse effects noted, long-term benefits to be assessed",
+                "Observation Date": "2024-07-01"
+            },
+            {
+                "Medication Name": "Promethazine",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Manage nausea (as needed)",
+                "Administration Mode": "Oral",
+                "Dose": "25 mg",
+                "Duration": "Every 6 hours as needed",
+                "Start Date": "2024-07-01",
+                "Response": "Positive",
+                "Response Details": "Patient reported good control of nausea when used",
+                "Observation Date": "2024-07-01"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 28-year-old female presents with acute hepatitis B symptoms, including jaundice, fatigue, and nausea, following recent travel to Thailand where she received a tattoo. Onset began on June 25, 2024, with progressive symptoms leading to medical attention on July 1. Diagnosis confirmed through serological tests. Treatment includes supportive care, symptom management, and antiviral medication. Patient is expected to recover fully with rest and hydration. Follow-up appointments and monitoring of liver function are planned."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Olivia217 Hartley483",
+        "Report_Header_Age": "28",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-07-02"
+    }
+}

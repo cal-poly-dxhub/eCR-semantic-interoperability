@@ -1,0 +1,556 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Male",
+        "Gender": "Male",
+        "Race": "American Indian or Alaska Native",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "27",
+        "Date of Birth": "1997-05-22",
+        "Location": "Reno",
+        "Country of Residence": "United States of America",
+        "Country of Nationality": "United States of America",
+        "Preferred Language": "Paiute",
+        "Tribal Affiliation": "Paiute"
+    },
+    "Patient Name": "Numakair234, Tukkut723",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Unemployed",
+        "Gender Identity": "Male",
+        "Disability Status": "None",
+        "Education Level": "High School Graduate",
+        "Marital Status": "Never Married",
+        "Smoking Status": "Former Smoker",
+        "BMI": "24.5",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Medicaid",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Somewhat worried",
+        "People Living at Address": "3",
+        "Housing Status": "Renting",
+        "Stress Level": "Moderately high stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1234 Paiute Trail Rd., Reno, NV 89512",
+        "Patient Email": "tukkut723@residentialemail.com",
+        "Patient Phone": "775-555-8642"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Unemployed",
+        "Current Industry": "None",
+        "Usual Occupation": "Construction Worker",
+        "Usual Industry": "Construction",
+        "Usual Employment Date Range": "Start: 2017-06-01 to 2022-12-31",
+        "Current Job Title": "None",
+        "Current Employer": "None",
+        "Current Employment Start Date": null,
+        "Annual Income": 0
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Reno, NV",
+                "Purpose": "Routine",
+                "Start Date": "2024-06-01",
+                "End Date": "2024-07-10",
+                "Accommodations": "n/a",
+                "Mode of Travel": "n/a",
+                "Activities": "Residing at home address. No travel outside of Reno area."
+            },
+            {
+                "Location": "Pyramid Lake, NV",
+                "Purpose": "Family",
+                "Start Date": "2024-05-25",
+                "End Date": "2024-05-27",
+                "Accommodations": "Camping",
+                "Mode of Travel": "Personal Vehicle",
+                "Activities": "Attended family gathering and camping at Pyramid Lake. Swam in lake."
+            }
+        ]
+    },
+    "Travel_History_Narrative": "History of Travel Narrative: Patient reports recent travel to Pyramid Lake, NV from 2024-05-25 to 2024-05-27 for a family gathering and camping trip. He swam in the lake during this trip. Otherwise, patient has remained in the Reno, NV area since 2024-06-01 with no other travel outside the local region.",
+    "Encounter_Details": {
+        "Chief Complaint": "Fever, headache, and neck stiffness",
+        "Patient ID": "7654321",
+        "Encounter Class": "emergency",
+        "Encounter Status": "finished",
+        "Encounter ID": "12345678901",
+        "Start DateTime": "2024-07-03 15:22",
+        "End DateTime": "2024-07-10 11:45",
+        "Discharge Disposition": "Admitted to hospital inpatient care",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Emergency Room Admission",
+                "SNOMED-CT Code": "4525004",
+                "Description": "Emergency Room Admission (procedure)",
+                "Start Date": "2024-07-03",
+                "End Date": "2024-07-03"
+            },
+            {
+                "Encounter Type": "Inpatient Hospital Admission",
+                "SNOMED-CT Code": "32485007",
+                "Description": "Hospital admission (procedure)",
+                "Start Date": "2024-07-03",
+                "End Date": "2024-07-10"
+            },
+            {
+                "Encounter Type": "Intensive Care Unit Admission",
+                "SNOMED-CT Code": "305351004",
+                "Description": "Admission to intensive care unit (procedure)",
+                "Start Date": "2024-07-03",
+                "End Date": "n/a"
+            },
+            {
+                "Encounter Type": "Neurological Intensive Care Unit Admission",
+                "SNOMED-CT Code": "305352006",
+                "Description": "Admission to neurological intensive care unit (procedure)",
+                "Start Date": "2024-07-05",
+                "End Date": "n/a"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Hayes393, Amelia019, MD",
+        "Practitioner Phone": "775-555-4321",
+        "Practitioner Fax": "775-555-8765",
+        "Practitioner Email": "amelia.hayes393@renohealthcenter.org",
+        "Practitioner Office Name": "Reno Health Center",
+        "Practitioner ID": "7894561230",
+        "Practitioner Address": "567 Sierra Vista Dr, Reno, NV 89523"
+    },
+    "Facility_Information": {
+        "Facility Name": "Reno Regional Medical Center",
+        "Facility Type": "General Acute Care Hospital",
+        "Facility Phone": "775-555-0123",
+        "Facility Fax": "775-555-9876",
+        "Facility Address": "789 Medical Center Dr, Reno, NV 89501"
+    },
+    "Current_Pregnancy_Information": "n/a",
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Fever",
+                "SNOMED-CT": "386661006",
+                "Onset Date": "2024-07-01",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Headache",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2024-07-02",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Neck stiffness",
+                "SNOMED-CT": "60032008",
+                "Onset Date": "2024-07-03",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "16932000",
+                "Onset Date": "2024-07-03",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Vomiting",
+                "SNOMED-CT": "56876005",
+                "Onset Date": "2024-07-03",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Photophobia",
+                "SNOMED-CT": "102616003",
+                "Onset Date": "2024-07-03",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Altered mental status",
+                "SNOMED-CT": "419723007",
+                "Onset Date": "2024-07-04",
+                "Severity": "Severe",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Seizures",
+                "SNOMED-CT": "91175000",
+                "Onset Date": "2024-07-05",
+                "Severity": "Severe",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "39.8",
+                "SNOMED-CT": "386737004",
+                "Unit": "Cel",
+                "Measurement Time": "2024-07-03 15:30:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "112",
+                "SNOMED-CT": "364075005",
+                "Unit": "bpm",
+                "Measurement Time": "2024-07-03 15:35:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "22",
+                "SNOMED-CT": "86290005",
+                "Unit": "/min",
+                "Measurement Time": "2024-07-03 15:40:00"
+            },
+            {
+                "Vital Sign": "Blood pressure systolic",
+                "Value": "145",
+                "SNOMED-CT": "271649006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-03 15:45:00"
+            },
+            {
+                "Vital Sign": "Blood pressure diastolic",
+                "Value": "92",
+                "SNOMED-CT": "271650006",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-03 15:45:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "96",
+                "SNOMED-CT": "59408-5",
+                "Unit": "%",
+                "Measurement Time": "2024-07-03 16:00:00"
+            },
+            {
+                "Vital Sign": "Glasgow coma scale score",
+                "Value": "13",
+                "SNOMED-CT": "249119004",
+                "Unit": "{score}",
+                "Measurement Time": "2024-07-03 16:15:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Patient presents with fever, headache, neck stiffness, nausea, vomiting, photophobia, altered mental status, and seizures.",
+        "Past Medical History": "The patient has no significant past medical history. He reports being a former smoker but quit 2 years ago. He denies any chronic medical conditions or prior hospitalizations.",
+        "Review of Systems": "Constitutional: Fever, fatigue. Head: Severe headache, photophobia. Eyes: Photophobia. Ears/Nose/Throat: Denied. Respiratory: Denied. Cardiovascular: Denied. Gastrointestinal: Nausea, vomiting. Genitourinary: Denied. Musculoskeletal: Neck stiffness. Skin: Denied. Neurological: Altered mental status, seizures. Psychiatric: Denied. Endocrine: Denied. Hematology: Denied. Allergies: No known drug allergies.",
+        "History of Present Illness": "The patient is a 27-year-old Native American male who presented to the emergency department with a 3-day history of fever, headache, and neck stiffness. Symptoms started with a high fever and severe headache. Over the next 2 days, he developed neck stiffness, nausea, vomiting, and photophobia. This morning, his mental status became altered, and he had a witnessed generalized tonic-clonic seizure at home, prompting emergency evaluation. He reports recent travel to Pyramid Lake for a family gathering where he swam in the lake. He denies any other sick contacts or recent illnesses. His immunization status is uncertain.",
+        "Plan of Treatment": "This patient is presenting with signs and symptoms concerning for meningitis, likely bacterial in nature given the acute onset and severity. Based on his history of swimming in Pyramid Lake, Salmonella is a leading consideration as the causative pathogen. The plan is to admit the patient to the Neurological ICU for further management of suspected Salmonella meningitis. Workup will include CT head, lumbar puncture, blood cultures, and empiric IV antibiotics covering for Salmonella and other bacterial pathogens. Infectious Disease will be consulted. Supportive care in the ICU with close neurological monitoring. If meningitis is confirmed, a prolonged course of IV antibiotics will be required. Prognosis is guarded given severe presentation with potential neurological complications.",
+        "Vaccine Credential Patient Assertion": "The patient declines to provide his vaccination status."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Order Code Description": "Bacterial culture, blood",
+                "Laboratory Result": "Positive for Salmonella enterica",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Blood Culture",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2024-07-03 16:30:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "87654321"
+            },
+            {
+                "LOINC Order Code Description": "Complete blood count (CBC) panel",
+                "Laboratory Result": "WBC 18.2 x10^9/L (High), Neutrophils 85% (High), Lymphocytes 10% (Low), Other values within normal limits",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Venous Blood",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-07-03 16:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "12345678"
+            },
+            {
+                "LOINC Order Code Description": "C-reactive protein",
+                "Laboratory Result": "142 mg/L (High)",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "567891234",
+                "Specimen Collection Date": "2024-07-03 17:00:00",
+                "Trigger": "No",
+                "Placer Order Number": "45678912"
+            },
+            {
+                "LOINC Order Code Description": "Cerebrospinal fluid (CSF) analysis",
+                "Laboratory Result": "WBC 2800 cells/mm3 (High), Neutrophils 90% (High), Glucose 20 mg/dL (Low), Protein 320 mg/dL (High), Gram stain: Gram-negative rods seen",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Cerebrospinal Fluid",
+                "Specimen Type": "CSF",
+                "Specimen ID": "234567891",
+                "Specimen Collection Date": "2024-07-04 09:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "78912345"
+            },
+            {
+                "LOINC Order Code Description": "CSF culture",
+                "Laboratory Result": "Positive for Salmonella enterica",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Cerebrospinal Fluid",
+                "Specimen Type": "CSF Culture",
+                "Specimen ID": "891234567",
+                "Specimen Collection Date": "2024-07-04 09:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "56789123"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Salmonella meningitis",
+                "ICD-10 Code": "A02.2",
+                "SNOMED-CT Code": "36292008",
+                "Diagnosis Date": "2024-07-04",
+                "Onset Date": "2024-07-01",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Fever, unspecified",
+                "ICD-10 Code": "R50.9",
+                "SNOMED-CT Code": "386661006",
+                "Diagnosis Date": "2024-07-03",
+                "Onset Date": "2024-07-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Headache",
+                "ICD-10 Code": "R51",
+                "SNOMED-CT Code": "25064002",
+                "Diagnosis Date": "2024-07-03",
+                "Onset Date": "2024-07-02",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Nausea",
+                "ICD-10 Code": "R11",
+                "SNOMED-CT Code": "16932000",
+                "Diagnosis Date": "2024-07-03",
+                "Onset Date": "2024-07-03",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Vomiting",
+                "ICD-10 Code": "R11",
+                "SNOMED-CT Code": "56876005",
+                "Diagnosis Date": "2024-07-03",
+                "Onset Date": "2024-07-03",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Photophobia",
+                "ICD-10 Code": "H53.12",
+                "SNOMED-CT Code": "102616003",
+                "Diagnosis Date": "2024-07-03",
+                "Onset Date": "2024-07-03",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Altered mental status",
+                "ICD-10 Code": "R41.82",
+                "SNOMED-CT Code": "419723007",
+                "Diagnosis Date": "2024-07-04",
+                "Onset Date": "2024-07-04",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Seizure",
+                "ICD-10 Code": "R56.9",
+                "SNOMED-CT Code": "91175000",
+                "Diagnosis Date": "2024-07-05",
+                "Onset Date": "2024-07-05",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Computed tomography (CT) scan of head or brain; without contrast material",
+                "CPT Code": "70450",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-03",
+                "Details": "CT scan of the head was performed to evaluate for intracranial pathology and rule out mass effect, hemorrhage, or other structural lesions prior to lumbar puncture.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Lumbar puncture",
+                "CPT Code": "62270",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-04",
+                "Details": "Lumbar puncture was performed to obtain cerebrospinal fluid for analysis and culture to evaluate for suspected meningitis.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Initiation of intravenous antibiotic therapy",
+                "CPT Code": "96365",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-07-04",
+                "Details": "Empiric intravenous antibiotic therapy with ceftriaxone and ampicillin was initiated to cover for suspected bacterial meningitis, including Salmonella.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Intensive care services",
+                "CPT Code": "99291",
+                "Status": "Ongoing",
+                "Procedure Date": "2024-07-03",
+                "Details": "The patient was admitted to the intensive care unit for close monitoring and management of suspected severe meningitis.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Seizure management",
+                "CPT Code": "95957",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-05",
+                "Details": "Anticonvulsant medication was administered for management of witnessed generalized seizure activity.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Planned",
+                "Procedure Description": "Magnetic resonance imaging (MRI) of brain",
+                "CPT Code": "70553",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-12",
+                "Details": "Brain MRI with and without contrast has been scheduled to further evaluate for any complications or sequelae of meningitis, such as cerebritis, ventriculitis, or infarcts.",
+                "Trigger": "Yes"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Ceftriaxone",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Treatment of suspected bacterial meningitis",
+                "Administration Mode": "Intravenous",
+                "Dose": "2 grams every 12 hours",
+                "Duration": "Ongoing",
+                "Start Date": "2024-07-04",
+                "Response": "Partial Response",
+                "Response Details": "Fever and headache improved, but altered mental status and seizures persisted initially.",
+                "Observation Date": "2024-07-06"
+            },
+            {
+                "Medication Name": "Ampicillin",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Treatment of suspected bacterial meningitis",
+                "Administration Mode": "Intravenous",
+                "Dose": "2 grams every 4 hours",
+                "Duration": "Ongoing",
+                "Start Date": "2024-07-04",
+                "Response": "Partial Response",
+                "Response Details": "Fever and headache improved, but altered mental status and seizures persisted initially.",
+                "Observation Date": "2024-07-06"
+            },
+            {
+                "Medication Name": "Levetiracetam",
+                "Medication Type": "Anticonvulsant",
+                "Purpose": "Management of seizures",
+                "Administration Mode": "Intravenous",
+                "Dose": "1000 mg every 12 hours",
+                "Duration": "Ongoing",
+                "Start Date": "2024-07-05",
+                "Response": "Good Response",
+                "Response Details": "No further seizure activity after initiation of levetiracetam.",
+                "Observation Date": "2024-07-07"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic, antipyretic",
+                "Purpose": "Fever and headache management",
+                "Administration Mode": "Oral",
+                "Dose": "650 mg every 6 hours as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-07-03",
+                "Response": "Partial Response",
+                "Response Details": "Provided some relief of fever and headache, but not complete resolution.",
+                "Observation Date": "2024-07-04"
+            },
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Management of nausea and vomiting",
+                "Administration Mode": "Intravenous",
+                "Dose": "4 mg every 8 hours as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-07-03",
+                "Response": "Good Response",
+                "Response Details": "Nausea and vomiting resolved after initiation of ondansetron.",
+                "Observation Date": "2024-07-04"
+            },
+            {
+                "Medication Name": "Dexamethasone",
+                "Medication Type": "Corticosteroid",
+                "Purpose": "Adjunctive treatment for meningitis to reduce inflammation",
+                "Administration Mode": "Intravenous",
+                "Dose": "10 mg every 6 hours",
+                "Duration": "Ongoing",
+                "Start Date": "2024-07-05",
+                "Response": "Good Response",
+                "Response Details": "Improvement in altered mental status and reduction in intracranial pressure.",
+                "Observation Date": "2024-07-07"
+            },
+            {
+                "Medication Name": "Ibuprofen",
+                "Medication Type": "NSAID, analgesic, antipyretic",
+                "Purpose": "Historical medication for pain and fever management",
+                "Administration Mode": "Oral",
+                "Dose": "600 mg every 6 hours as needed",
+                "Duration": "Prior to admission",
+                "Start Date": "2024-07-01",
+                "Response": "Partial Response",
+                "Response Details": "Provided some relief of fever and headache prior to admission, but symptoms worsened.",
+                "Observation Date": "2024-07-03"
+            },
+            {
+                "Medication Name": "Ciprofloxacin",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Planned treatment for Salmonella meningitis",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg twice daily",
+                "Duration": "Planned",
+                "Start Date": "2024-07-15",
+                "Response": "Pending",
+                "Response Details": "Planned oral antibiotic therapy to complete treatment course after discharge.",
+                "Observation Date": "n/a"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 27-year-old Native American male presented with fever, headache, and meningitis symptoms after swimming at Pyramid Lake. He rapidly deteriorated with altered mental status and seizures. Salmonella meningitis was diagnosed based on blood and CSF cultures. He was admitted to the ICU for IV antibiotics, seizure management, and supportive care, with a guarded prognosis due to the severity of his neurological complications."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Tukkut723 Numakair234",
+        "Report_Header_Age": "27",
+        "Report_Header_Gender": "M",
+        "Report_Date": "2024-07-11"
+    }
+}

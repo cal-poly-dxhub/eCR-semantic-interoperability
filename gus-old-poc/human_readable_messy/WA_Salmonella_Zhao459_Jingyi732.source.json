@@ -1,0 +1,495 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "Asian",
+        "Ethnicity": "Chinese",
+        "Patient Age": "45",
+        "Date of Birth": "1979-03-15",
+        "Location": "Bellevue",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "Mandarin",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Zhao459, Jingyi732",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed full time",
+        "Gender Identity": "Female",
+        "Disability Status": "No disability",
+        "Education Level": "Bachelor's degree",
+        "Marital Status": "Married",
+        "Smoking Status": "Never smoker",
+        "BMI": "22.8",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Private insurance",
+        "Refugee Status": "Not a refugee",
+        "Correctional Facility Status": "Not in correctional facility",
+        "Lose Housing Worry": "Not worried at all",
+        "People Living at Address": "4",
+        "Housing Status": "Owns home",
+        "Stress Level": "Somewhat stressed"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1237 Evergreen Terrace, Bellevue, WA 98004",
+        "Patient Email": "jingyi.zhao732@emailprovider.com",
+        "Patient Phone": "425-555-8964"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Software Engineer",
+        "Current Industry": "Information Technology",
+        "Usual Occupation": "Software Engineer",
+        "Usual Industry": "Information Technology",
+        "Usual Employment Date Range": "Start: 2005-09-01 to current",
+        "Current Job Title": "Senior Software Engineer",
+        "Current Employer": "TechNova Solutions, 1000 NE 8th St, Bellevue, WA 98004, 425-555-7000",
+        "Current Employment Start Date": "2015-03-15",
+        "Annual Income": "$135,000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Seattle, WA",
+                "Purpose": "Business",
+                "Start Date": "2024-07-08",
+                "End Date": "2024-07-10",
+                "Accommodations": "Hyatt Regency Seattle",
+                "Mode of Travel": "Personal car",
+                "Activities": "Attended a tech conference, dined at several local restaurants including a food truck festival"
+            },
+            {
+                "Location": "San Francisco, CA",
+                "Purpose": "Vacation",
+                "Start Date": "2024-06-15",
+                "End Date": "2024-06-22",
+                "Accommodations": "Airbnb apartment",
+                "Mode of Travel": "Commercial flight",
+                "Activities": "Visited tourist attractions, ate at various restaurants, attended a cooking class"
+            },
+            {
+                "Location": "Bellevue, WA",
+                "Purpose": "Routine",
+                "Start Date": "2024-05-20",
+                "End Date": "2024-05-20",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Personal car",
+                "Activities": "Attended a community potluck dinner at local park"
+            },
+            {
+                "Location": "Vancouver, BC, Canada",
+                "Purpose": "Family",
+                "Start Date": "2024-04-05",
+                "End Date": "2024-04-07",
+                "Accommodations": "Family member's home",
+                "Mode of Travel": "Personal car",
+                "Activities": "Family gathering, home-cooked meals, visited local markets"
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient reports recent travel that may be relevant to her Salmonella chronic carrier status. From July 8-10, 2024, she attended a tech conference in Seattle, WA, where she dined at several local restaurants and a food truck festival, increasing potential exposure to varied food handling practices. A week-long vacation to San Francisco, CA from June 15-22, 2024 included eating at various restaurants and attending a cooking class, both of which could be risk factors for Salmonella exposure. On May 20, 2024, she attended a community potluck dinner at a local park in Bellevue, WA, another potential source of foodborne illness. From April 5-7, 2024, she visited family in Vancouver, BC, Canada, where she consumed home-cooked meals and visited local markets. While none of these trips directly correlate with the onset of her carrier status, they represent potential exposure opportunities and highlight the importance of food safety education for the patient to prevent transmission."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Routine follow-up for Salmonella carrier status",
+        "Patient ID": "4592731",
+        "Encounter Class": "outpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "98765432100",
+        "Start DateTime": "2024-07-10 09:30",
+        "End DateTime": "2024-07-10 10:15",
+        "Discharge Disposition": "Discharged to home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient follow-up visit",
+                "SNOMED-CT Code": "185349009",
+                "Description": "Outpatient follow-up visit (procedure)",
+                "Start Date": "2024-07-10",
+                "End Date": "2024-07-10"
+            },
+            {
+                "Encounter Type": "Infectious disease consultation",
+                "SNOMED-CT Code": "84251009",
+                "Description": "Infectious disease consultation (procedure)",
+                "Start Date": "2024-07-10",
+                "End Date": "2024-07-10"
+            },
+            {
+                "Encounter Type": "Patient education",
+                "SNOMED-CT Code": "311401005",
+                "Description": "Patient education (procedure)",
+                "Start Date": "2024-07-10",
+                "End Date": "2024-07-10"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Ross771, Madison512, MD",
+        "Practitioner Phone": "425-555-3287",
+        "Practitioner Fax": "425-555-9104",
+        "Practitioner Email": "m.ross771@bellevueinfectiousdisease.com",
+        "Practitioner Office Name": "Bellevue Infectious Disease Specialists",
+        "Practitioner ID": "7629384015",
+        "Practitioner Address": "1542 Evergreen Way, Suite 300, Bellevue, WA 98004"
+    },
+    "Facility_Information": {
+        "Facility Name": "Bellevue Infectious Disease Specialists",
+        "Facility Type": "Outpatient Clinic",
+        "Facility Phone": "425-555-3200",
+        "Facility Fax": "425-555-3201",
+        "Facility Address": "1542 Evergreen Way, Suite 300, Bellevue, WA 98004"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "n/a",
+        "Pregnancy Status Determination Method": "n/a",
+        "Pregnancy Status Recorded Date": "n/a",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "No symptoms",
+                "SNOMED-CT": "162415008",
+                "Onset Date": "2024-07-10",
+                "Severity": "N/A",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "36.8",
+                "SNOMED-CT": "386725007",
+                "Unit": "\u00b0C",
+                "Measurement Time": "2024-07-10 09:35:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "72",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/min",
+                "Measurement Time": "2024-07-10 09:35:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "14",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/min",
+                "Measurement Time": "2024-07-10 09:35:00"
+            },
+            {
+                "Vital Sign": "Blood pressure",
+                "Value": "118/78",
+                "SNOMED-CT": "75367002",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-10 09:35:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "98",
+                "SNOMED-CT": "103228002",
+                "Unit": "%",
+                "Measurement Time": "2024-07-10 09:35:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "60.5",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-07-10 09:35:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Follow-up for asymptomatic Salmonella chronic carrier status",
+        "Past Medical History": "Patient was diagnosed as an asymptomatic Salmonella chronic carrier 6 months ago following a routine screening after a community outbreak. No history of symptomatic Salmonella infection. Past medical history includes mild hyperlipidemia managed with diet and exercise. Appendectomy at age 12. No other significant medical conditions. No known drug allergies.",
+        "Review of Systems": "General: Denies fever, chills, fatigue, or weight changes. HEENT: No headaches, vision changes, hearing problems, nasal congestion, or sore throat. Cardiovascular: No chest pain, palpitations, or edema. Respiratory: No cough, shortness of breath, or wheezing. Gastrointestinal: Denies abdominal pain, nausea, vomiting, diarrhea, or constipation. Normal appetite and bowel movements. Genitourinary: No dysuria, frequency, or urgency. Musculoskeletal: No joint pain or muscle aches. Skin: No rashes or lesions. Neurological: No dizziness, weakness, or paresthesias. Psychiatric: No depression, anxiety, or sleep disturbances. Endocrine: No heat or cold intolerance. Hematologic: No easy bruising or bleeding. All other systems reviewed and negative.",
+        "History of Present Illness": "Ms. Zhao is a 45-year-old Chinese-American female presenting for routine follow-up of her asymptomatic Salmonella chronic carrier status. She was diagnosed 6 months ago during a community screening following a local outbreak. Since her diagnosis, she has remained asymptomatic but continues to test positive for Salmonella in stool cultures. She denies any episodes of diarrhea, abdominal pain, fever, or other gastrointestinal symptoms. She reports strict adherence to hand hygiene practices and food safety guidelines as previously instructed. Ms. Zhao works as a software engineer and does not handle food professionally. She lives with her husband and two children, all of whom have tested negative for Salmonella. She expresses concern about her recent travels and attendance at social gatherings, worried about potential transmission to others despite her precautions.",
+        "Plan of Treatment": "1. Continue current management plan for asymptomatic Salmonella chronic carrier status. 2. Reinforce importance of strict hand hygiene and food safety practices. 3. Provide updated educational materials on preventing Salmonella transmission, with emphasis on travel and social gathering scenarios. 4. Order repeat stool culture to monitor bacterial shedding. 5. Recommend family members undergo repeat screening as a precautionary measure. 6. Discuss potential antibiotic treatment options, weighing risks and benefits, if patient desires attempt at clearance. 7. Advise patient to inform healthcare providers of her carrier status before any medical procedures. 8. Schedule follow-up appointment in 3 months or sooner if symptoms develop. 9. Provide hotline number for any urgent concerns or questions regarding her condition.",
+        "Vaccine Credential Patient Assertion": "Patient reports being up-to-date on all recommended adult vaccinations, including annual influenza vaccine. Received Tdap booster 2 years ago. Completed Hepatitis A and B series in adulthood due to increased travel. No record of typhoid vaccination. Patient agrees to consider typhoid vaccination given her chronic carrier status, pending further discussion of risks and benefits."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "6331-3",
+                "LOINC Order Code Description": "Salmonella sp identified in Stool by Culture",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Stool",
+                "Specimen Type": "Feces",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2024-07-10 09:45:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "20240710001"
+            },
+            {
+                "LOINC Laboratory Order Code": "14430-3",
+                "LOINC Order Code Description": "Salmonella sp serotype XXX in Stool by Culture",
+                "Laboratory Result": "Salmonella enterica serotype Typhi",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Stool",
+                "Specimen Type": "Feces",
+                "Specimen ID": "987654322",
+                "Specimen Collection Date": "2024-07-10 09:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240710002"
+            },
+            {
+                "LOINC Laboratory Order Code": "2345-7",
+                "LOINC Order Code Description": "Glucose [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "92 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654323",
+                "Specimen Collection Date": "2024-07-10 09:50:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240710003"
+            },
+            {
+                "LOINC Laboratory Order Code": "2093-3",
+                "LOINC Order Code Description": "Cholesterol [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "210 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654324",
+                "Specimen Collection Date": "2024-07-10 09:50:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240710004"
+            },
+            {
+                "LOINC Laboratory Order Code": "2571-8",
+                "LOINC Order Code Description": "Triglyceride [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "150 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "987654325",
+                "Specimen Collection Date": "2024-07-10 09:50:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240710005"
+            },
+            {
+                "LOINC Laboratory Order Code": "6463-4",
+                "LOINC Order Code Description": "Bacteria identified in Stool by Culture",
+                "Laboratory Result": "Salmonella species present",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Stool",
+                "Specimen Type": "Feces",
+                "Specimen ID": "987654326",
+                "Specimen Collection Date": "2024-07-10 09:45:00",
+                "Trigger": "No",
+                "Placer Order Number": "20240710006"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Chronic typhoid carrier state",
+                "ICD-10 Code": "Z22.0",
+                "SNOMED-CT Code": "61977001",
+                "Diagnosis Date": "2024-01-15",
+                "Onset Date": "2024-01-15",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Asymptomatic Salmonella infection",
+                "ICD-10 Code": "Z22.1",
+                "SNOMED-CT Code": "91302008",
+                "Diagnosis Date": "2024-01-15",
+                "Onset Date": "2024-01-15",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Pure hypercholesterolemia",
+                "ICD-10 Code": "E78.0",
+                "SNOMED-CT Code": "13644009",
+                "Diagnosis Date": "2022-09-20",
+                "Onset Date": "2022-09-20",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "History of appendectomy",
+                "ICD-10 Code": "Z98.0",
+                "SNOMED-CT Code": "428251008",
+                "Diagnosis Date": "1991-06-10",
+                "Onset Date": "1991-06-10",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Stool culture for Salmonella",
+                "CPT Code": "87045",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-10",
+                "Details": "Routine stool culture to monitor Salmonella shedding in chronic carrier",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Fecal leukocyte examination",
+                "CPT Code": "89055",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-10",
+                "Details": "To check for presence of white blood cells in stool, indicating inflammation",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Individual preventive medicine counseling",
+                "CPT Code": "99401",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-10",
+                "Details": "Counseling on hygiene practices and prevention of Salmonella transmission",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatobiliary system imaging",
+                "CPT Code": "78227",
+                "Status": "Planned",
+                "Procedure Date": "2024-08-15",
+                "Details": "Scheduled to evaluate gallbladder for potential Salmonella colonization",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Typhoid vaccine administration",
+                "CPT Code": "90691",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-25",
+                "Details": "Scheduled administration of typhoid vaccine to boost immunity",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Lipid panel",
+                "CPT Code": "80061",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-10",
+                "Details": "Routine monitoring of lipid levels due to history of hypercholesterolemia",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Ciprofloxacin",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Attempted eradication of Salmonella",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg twice daily",
+                "Duration": "4 weeks",
+                "Start Date": "2024-01-20",
+                "Response": "Partial",
+                "Response Details": "Reduced bacterial shedding but did not achieve complete clearance",
+                "Observation Date": "2024-02-17"
+            },
+            {
+                "Medication Name": "Amoxicillin",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Attempted eradication of Salmonella",
+                "Administration Mode": "Oral",
+                "Dose": "1000 mg three times daily",
+                "Duration": "2 weeks",
+                "Start Date": "2024-03-05",
+                "Response": "Poor",
+                "Response Details": "No significant reduction in bacterial shedding observed",
+                "Observation Date": "2024-03-19"
+            },
+            {
+                "Medication Name": "Trimethoprim-Sulfamethoxazole",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Attempted eradication of Salmonella",
+                "Administration Mode": "Oral",
+                "Dose": "160/800 mg twice daily",
+                "Duration": "3 weeks",
+                "Start Date": "2024-04-10",
+                "Response": "Partial",
+                "Response Details": "Temporary reduction in bacterial shedding, but recurrence after treatment cessation",
+                "Observation Date": "2024-05-01"
+            },
+            {
+                "Medication Name": "Probiotics (Lactobacillus rhamnosus GG)",
+                "Medication Type": "Dietary Supplement",
+                "Purpose": "Support gut health and potentially reduce Salmonella colonization",
+                "Administration Mode": "Oral",
+                "Dose": "10 billion CFU daily",
+                "Duration": "Ongoing",
+                "Start Date": "2024-02-01",
+                "Response": "Positive",
+                "Response Details": "Patient reports improved general gut health, but no significant impact on Salmonella carrier status",
+                "Observation Date": "2024-07-10"
+            },
+            {
+                "Medication Name": "Atorvastatin",
+                "Medication Type": "HMG-CoA reductase inhibitor (statin)",
+                "Purpose": "Management of hypercholesterolemia",
+                "Administration Mode": "Oral",
+                "Dose": "10 mg daily",
+                "Duration": "Ongoing",
+                "Start Date": "2022-09-25",
+                "Response": "Positive",
+                "Response Details": "Effective reduction in LDL cholesterol levels",
+                "Observation Date": "2024-07-10"
+            },
+            {
+                "Medication Name": "Azithromycin",
+                "Medication Type": "Antibiotic",
+                "Purpose": "Planned attempt for Salmonella eradication",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg daily",
+                "Duration": "3 days",
+                "Start Date": "2024-07-20",
+                "Response": "Pending",
+                "Response Details": "Treatment not yet initiated",
+                "Observation Date": "N/A"
+            },
+            {
+                "Medication Name": "Bismuth subsalicylate",
+                "Medication Type": "Antidiarrheal",
+                "Purpose": "Symptomatic relief if needed",
+                "Administration Mode": "Oral",
+                "Dose": "525 mg every 4-8 hours as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-01-15",
+                "Response": "N/A",
+                "Response Details": "Prescribed for use if diarrheal symptoms occur, but patient has remained asymptomatic",
+                "Observation Date": "2024-07-10"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 45-year-old Chinese-American female software engineer was diagnosed as an asymptomatic Salmonella chronic carrier 6 months ago following a community outbreak. Despite multiple antibiotic treatments (ciprofloxacin, amoxicillin, trimethoprim-sulfamethoxazole), she continues to test positive for Salmonella in stool cultures. The patient remains asymptomatic but poses a transmission risk. Management focuses on strict hygiene practices, ongoing monitoring, and patient education. A new treatment with azithromycin is planned. The patient also has mild hypercholesterolemia managed with atorvastatin."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Jingyi732 Zhao459",
+        "Report_Header_Age": "45",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-07-11"
+    }
+}

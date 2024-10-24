@@ -1,0 +1,682 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "White",
+        "Ethnicity": "Hispanic or Latino",
+        "Patient Age": "39",
+        "Date of Birth": "1985-02-15",
+        "Location": "Indianapolis, Indiana",
+        "Country of Residence": "United States",
+        "Country of Nationality": "United States",
+        "Preferred Language": "Spanish",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Velasquez723, Marisol159",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed part-time",
+        "Gender Identity": "Female",
+        "Disability Status": "No disability",
+        "Education Level": "High school graduate",
+        "Marital Status": "Married",
+        "Smoking Status": "Former smoker",
+        "BMI": "27.8",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Medicaid",
+        "Refugee Status": "Not a refugee",
+        "Correctional Facility Status": "Not in correctional facility",
+        "Lose Housing Worry": "Somewhat worried",
+        "People Living at Address": "4",
+        "Housing Status": "Renting",
+        "Stress Level": "Moderate stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "1723 Mariposa Ln., Apt 3B, Indianapolis, IN 46202",
+        "Patient Email": "marisol.velasquez85@correo.com",
+        "Patient Phone": "317-555-9384"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Retail Sales Associate",
+        "Current Industry": "Retail",
+        "Usual Occupation": "Retail Sales Associate",
+        "Usual Industry": "Retail",
+        "Usual Employment Date Range": "Start: 2018-03-15 to current",
+        "Current Job Title": "Sales Associate",
+        "Current Employer": "Tienda Latina, 2345 W. Washington St., Indianapolis, IN 46222, 317-555-7890",
+        "Current Employment Start Date": "2018-03-15",
+        "Annual Income": "$24,000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "Chicago, Illinois",
+                "Purpose": "Family",
+                "Start Date": "2024-05-15",
+                "End Date": "2024-05-18",
+                "Accommodations": "Sister's apartment",
+                "Mode of Travel": "Bus",
+                "Activities": "Visited sister and her family, attended a family gathering in a local park, went shopping at a discount store"
+            },
+            {
+                "Location": "Gary, Indiana",
+                "Purpose": "Business",
+                "Start Date": "2024-03-10",
+                "End Date": "2024-03-11",
+                "Accommodations": "Budget motel",
+                "Mode of Travel": "Company van",
+                "Activities": "Attended a retail sales training seminar, shared meals with coworkers at local restaurants"
+            },
+            {
+                "Location": "Indianapolis, Indiana",
+                "Purpose": "Routine",
+                "Start Date": "2024-02-20",
+                "End Date": "2024-02-20",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Public bus",
+                "Activities": "Visited a free community health clinic for routine check-up and blood tests"
+            }
+        ]
+    },
+    "Travel_History_Narrative": {
+        "History of Travel Narrative": "Patient reports limited travel in the past few months. Most significant for hepatitis C risk was a one-night stay in Gary, Indiana in March 2024 for work training, where she shared meals with coworkers. Patient also visited Chicago for a family gathering in May 2024, staying with her sister. No international travel reported. In February 2024, patient used public transportation to visit a community health clinic in Indianapolis for routine check-up and blood tests, which may have led to her current diagnosis. No high-risk activities or exposures were explicitly mentioned during these trips, but shared accommodations and public transportation use are noted."
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Fatigue and abdominal discomfort",
+        "Patient ID": "7382915",
+        "Encounter Class": "outpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "20240709001",
+        "Start DateTime": "2024-07-09 09:30",
+        "End DateTime": "2024-07-09 11:15",
+        "Discharge Disposition": "Discharged to home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient visit",
+                "SNOMED-CT Code": "308335008",
+                "Description": "Patient encounter procedure",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Hepatology consultation",
+                "SNOMED-CT Code": "439740005",
+                "Description": "Hepatology consultation",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Chronic disease management",
+                "SNOMED-CT Code": "384809003",
+                "Description": "Chronic disease management",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            },
+            {
+                "Encounter Type": "Patient education",
+                "SNOMED-CT Code": "311401005",
+                "Description": "Patient education",
+                "Start Date": "2024-07-09",
+                "End Date": "2024-07-09"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Thompson237, David651, MD",
+        "Practitioner Phone": "317-555-8214",
+        "Practitioner Fax": "317-555-8215",
+        "Practitioner Email": "dthompson237@indyhepatology.com",
+        "Practitioner Office Name": "Indianapolis Hepatology Specialists",
+        "Practitioner ID": "6729384105",
+        "Practitioner Address": "4532 Liver Lane, Suite 300, Indianapolis, IN 46202"
+    },
+    "Facility_Information": {
+        "Facility Name": "Indianapolis Hepatology Specialists",
+        "Facility Type": "Outpatient Clinic",
+        "Facility Phone": "317-555-8200",
+        "Facility Fax": "317-555-8201",
+        "Facility Address": "4532 Liver Lane, Suite 300, Indianapolis, IN 46202"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "Not pregnant",
+        "Pregnancy Status Determination Method": "Patient self-report",
+        "Pregnancy Status Recorded Date": "2024-07-09",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "2024-06-18",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2024-05-20",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal discomfort",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2024-06-15",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Loss of appetite",
+                "SNOMED-CT": "79890006",
+                "Onset Date": "2024-06-01",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "422587007",
+                "Onset Date": "2024-06-25",
+                "Severity": "Mild",
+                "Status": "Intermittent"
+            },
+            {
+                "Symptom": "Joint pain",
+                "SNOMED-CT": "57676002",
+                "Onset Date": "2024-05-30",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Difficulty concentrating",
+                "SNOMED-CT": "60032008",
+                "Onset Date": "2024-06-10",
+                "Severity": "Moderate",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "37.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "Celsius",
+                "Measurement Time": "2024-07-09 09:35:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "82",
+                "SNOMED-CT": "364075005",
+                "Unit": "beats/minute",
+                "Measurement Time": "2024-07-09 09:35:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "16",
+                "SNOMED-CT": "86290005",
+                "Unit": "breaths/minute",
+                "Measurement Time": "2024-07-09 09:35:00"
+            },
+            {
+                "Vital Sign": "Blood pressure",
+                "Value": "128/82",
+                "SNOMED-CT": "75367002",
+                "Unit": "mmHg",
+                "Measurement Time": "2024-07-09 09:35:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "98",
+                "SNOMED-CT": "431314004",
+                "Unit": "%",
+                "Measurement Time": "2024-07-09 09:35:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "75.3",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2024-07-09 09:40:00"
+            },
+            {
+                "Vital Sign": "Body mass index",
+                "Value": "27.8",
+                "SNOMED-CT": "60621009",
+                "Unit": "kg/m2",
+                "Measurement Time": "2024-07-09 09:40:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Evaluation of chronic hepatitis C with moderate fibrosis",
+        "Past Medical History": "Patient has a history of chronic hepatitis C, diagnosed in 2022 following routine screening. Liver biopsy in 2023 revealed moderate fibrosis (F2 on METAVIR scale). Patient also has a history of depression, treated with sertraline since 2020. Former smoker, quit in 2021. No history of alcohol abuse. Denies intravenous drug use. Had appendectomy in 2010. Received blood transfusion in 2005 following a car accident, which is the suspected source of HCV infection.",
+        "Review of Systems": "General: Reports fatigue and mild weight loss of 5 pounds over the past month. Denies fever or chills. HEENT: No headaches, vision changes, or hearing problems. Cardiovascular: Denies chest pain or palpitations. Respiratory: No shortness of breath or cough. Gastrointestinal: Complains of mild abdominal discomfort in right upper quadrant, intermittent nausea, and decreased appetite. No vomiting, diarrhea, or constipation. Genitourinary: No changes in urination. Musculoskeletal: Reports mild joint pain, particularly in knees and hands. Skin: No rashes or itching. Neurological: Mentions difficulty concentrating. No numbness or tingling. Psychiatric: Denies feelings of depression or anxiety. Endocrine: No excessive thirst or frequent urination. Hematologic: No easy bruising or bleeding.",
+        "History of Present Illness": "Marisol Velasquez is a 39-year-old Hispanic female with a history of chronic hepatitis C, diagnosed in 2022. She presents today for evaluation and management of her condition. The patient reports increasing fatigue over the past two months, which has begun to affect her work performance at the retail store where she is employed part-time. She also notes mild abdominal discomfort in the right upper quadrant that started about three weeks ago. The patient has experienced a decrease in appetite and has lost about 5 pounds unintentionally in the last month. She denies any fever, jaundice, or dark urine. The patient mentions difficulty concentrating, which she attributes to her fatigue. She has been experiencing mild joint pain, particularly in her knees and hands. The patient denies any history of intravenous drug use but did receive a blood transfusion in 2005 following a car accident, which is suspected to be the source of her HCV infection. She is a former smoker who quit in 2021 and denies any alcohol use. The patient expresses concern about her condition and is eager to discuss treatment options.",
+        "Plan of Treatment": "1. Initiate antiviral therapy with glecaprevir/pibrentasvir (Mavyret) 300 mg/120 mg, three tablets daily for 8 weeks. This pan-genotypic regimen is appropriate for treatment-naive patients with compensated cirrhosis or advanced fibrosis. 2. Order baseline labs including CBC, CMP, HCV RNA quantitative, HCV genotype, HIV and Hepatitis B screening. 3. Schedule follow-up appointments at 4 weeks and 8 weeks to monitor treatment progress and side effects. 4. Recommend vaccination against Hepatitis A and B if not already immune. 5. Advise patient to avoid alcohol completely and maintain a healthy diet. 6. Encourage regular exercise as tolerated to help manage fatigue. 7. Refer to a nutritionist for dietary counseling to address weight loss and maintain liver health. 8. Consider referral to psychiatry for evaluation of cognitive symptoms and to ensure optimal management of pre-existing depression. 9. Educate patient on the importance of medication adherence and potential side effects of treatment. 10. Schedule post-treatment follow-up at 12 weeks after completion of therapy to assess for sustained virologic response (SVR). 11. Advise on the importance of continued liver monitoring even after achieving SVR.",
+        "Vaccine Credential Patient Assertion": "Patient reports receiving Hepatitis A vaccine series in childhood. Unsure about Hepatitis B vaccination status. Up to date on Tetanus/Diphtheria/Pertussis (Tdap) vaccination. Received annual flu shot in October 2023. Completed COVID-19 primary series and one booster. Declines to provide information about HPV vaccination status."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Laboratory Order Code": "48741-1",
+                "LOINC Order Code Description": "Hepatitis C virus RNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection",
+                "Laboratory Result": "5.8 log IU/mL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "987654321"
+            },
+            {
+                "LOINC Laboratory Order Code": "11011-4",
+                "LOINC Order Code Description": "Hepatitis C virus genotype",
+                "Laboratory Result": "Genotype 1a",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "123456790",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "987654322"
+            },
+            {
+                "LOINC Laboratory Order Code": "1742-6",
+                "LOINC Order Code Description": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "78 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "123456791",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "987654323"
+            },
+            {
+                "LOINC Laboratory Order Code": "1920-8",
+                "LOINC Order Code Description": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                "Laboratory Result": "65 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "123456792",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "987654324"
+            },
+            {
+                "LOINC Laboratory Order Code": "1975-2",
+                "LOINC Order Code Description": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "1.2 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "123456793",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "987654325"
+            },
+            {
+                "LOINC Laboratory Order Code": "4544-3",
+                "LOINC Order Code Description": "Hematocrit [Volume Fraction] of Blood by Automated count",
+                "Laboratory Result": "38%",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Whole blood",
+                "Specimen Type": "Blood",
+                "Specimen ID": "123456794",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "987654326"
+            },
+            {
+                "LOINC Laboratory Order Code": "6690-2",
+                "LOINC Order Code Description": "Leukocytes [#/volume] in Blood by Automated count",
+                "Laboratory Result": "5.8 x 10^9/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Whole blood",
+                "Specimen Type": "Blood",
+                "Specimen ID": "123456795",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "987654327"
+            },
+            {
+                "LOINC Laboratory Order Code": "777-3",
+                "LOINC Order Code Description": "Platelets [#/volume] in Blood by Automated count",
+                "Laboratory Result": "180 x 10^9/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Whole blood",
+                "Specimen Type": "Blood",
+                "Specimen ID": "123456796",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "987654328"
+            },
+            {
+                "LOINC Laboratory Order Code": "2160-0",
+                "LOINC Order Code Description": "Creatinine [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "0.9 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "123456797",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "987654329"
+            },
+            {
+                "LOINC Laboratory Order Code": "2085-9",
+                "LOINC Order Code Description": "Cholesterol [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "210 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Serum",
+                "Specimen Type": "Blood",
+                "Specimen ID": "123456798",
+                "Specimen Collection Date": "2024-07-09 10:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "987654330"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Chronic hepatitis C with moderate fibrosis",
+                "ICD-10 Code": "B18.2",
+                "SNOMED-CT Code": "1116000",
+                "Diagnosis Date": "2023-03-15",
+                "Onset Date": "2022-09-01",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Liver fibrosis",
+                "ICD-10 Code": "K74.0",
+                "SNOMED-CT Code": "197441003",
+                "Diagnosis Date": "2023-03-15",
+                "Onset Date": "2023-03-15",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Fatigue",
+                "ICD-10 Code": "R53.83",
+                "SNOMED-CT Code": "84229001",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-05-20",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Abdominal discomfort",
+                "ICD-10 Code": "R10.9",
+                "SNOMED-CT Code": "21522001",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-06-15",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Depression",
+                "ICD-10 Code": "F32.9",
+                "SNOMED-CT Code": "35489007",
+                "Diagnosis Date": "2020-05-10",
+                "Onset Date": "2020-03-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Overweight",
+                "ICD-10 Code": "E66.3",
+                "SNOMED-CT Code": "238131007",
+                "Diagnosis Date": "2024-07-09",
+                "Onset Date": "2024-07-09",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "History of appendectomy",
+                "ICD-10 Code": "Z98.0",
+                "SNOMED-CT Code": "428251008",
+                "Diagnosis Date": "2010-06-15",
+                "Onset Date": "2010-06-15",
+                "Status": "Resolved",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Liver biopsy, percutaneous needle",
+                "CPT Code": "47000",
+                "Status": "Completed",
+                "Procedure Date": "2023-03-15",
+                "Details": "Performed to assess the degree of liver fibrosis. Results showed moderate fibrosis (F2 on METAVIR scale).",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis C antibody screening",
+                "CPT Code": "86803",
+                "Status": "Completed",
+                "Procedure Date": "2022-09-01",
+                "Details": "Initial screening test that led to diagnosis of chronic hepatitis C.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis C RNA, quantitative",
+                "CPT Code": "87522",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "Viral load test to determine the amount of HCV in the blood. Result: 5.8 log IU/mL.",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Hepatitis C genotype",
+                "CPT Code": "87902",
+                "Status": "Completed",
+                "Procedure Date": "2024-07-09",
+                "Details": "Test to determine the specific strain of HCV. Result: Genotype 1a.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Hepatitis C treatment initiation",
+                "CPT Code": "99214",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-16",
+                "Details": "Initiation of antiviral therapy with glecaprevir/pibrentasvir (Mavyret) 300 mg/120 mg, three tablets daily for 8 weeks.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Liver ultrasound",
+                "CPT Code": "76700",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-23",
+                "Details": "Scheduled to assess liver structure and screen for hepatocellular carcinoma prior to treatment initiation.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Hepatitis A vaccination",
+                "CPT Code": "90632",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-16",
+                "Details": "Recommended vaccination for patients with chronic liver disease if not already immune.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Hepatitis B vaccination",
+                "CPT Code": "90746",
+                "Status": "Planned",
+                "Procedure Date": "2024-07-16",
+                "Details": "Recommended vaccination for patients with chronic liver disease if not already immune.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "FibroScan",
+                "CPT Code": "91200",
+                "Status": "Planned",
+                "Procedure Date": "2024-08-13",
+                "Details": "Non-invasive assessment of liver fibrosis scheduled for 4-week follow-up after treatment initiation.",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "HCV RNA quantitative test",
+                "CPT Code": "87522",
+                "Status": "Planned",
+                "Procedure Date": "2024-10-22",
+                "Details": "Scheduled for 12 weeks after completion of antiviral therapy to assess for sustained virologic response (SVR).",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Glecaprevir/Pibrentasvir (Mavyret)",
+                "Medication Type": "Antiviral",
+                "Purpose": "Treatment of chronic hepatitis C",
+                "Administration Mode": "Oral",
+                "Dose": "300 mg/120 mg, three tablets daily",
+                "Duration": "8 weeks",
+                "Start Date": "2024-07-16",
+                "Response": "Pending",
+                "Response Details": "Treatment initiated, monitoring for viral load reduction and side effects",
+                "Observation Date": "2024-07-16"
+            },
+            {
+                "Medication Name": "Sertraline",
+                "Medication Type": "Antidepressant",
+                "Purpose": "Management of depression",
+                "Administration Mode": "Oral",
+                "Dose": "50 mg daily",
+                "Duration": "Ongoing",
+                "Start Date": "2020-05-15",
+                "Response": "Positive",
+                "Response Details": "Patient reports improved mood and reduced depressive symptoms",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic",
+                "Purpose": "Pain relief for joint pain",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg as needed, not to exceed 4000 mg daily",
+                "Duration": "As needed",
+                "Start Date": "2024-06-01",
+                "Response": "Moderate",
+                "Response Details": "Provides some relief for joint pain, patient uses intermittently",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Omeprazole",
+                "Medication Type": "Proton pump inhibitor",
+                "Purpose": "Management of abdominal discomfort and nausea",
+                "Administration Mode": "Oral",
+                "Dose": "20 mg daily",
+                "Duration": "4 weeks",
+                "Start Date": "2024-07-09",
+                "Response": "Pending",
+                "Response Details": "Newly prescribed to address gastrointestinal symptoms",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Vitamin D3",
+                "Medication Type": "Supplement",
+                "Purpose": "Bone health and immune support",
+                "Administration Mode": "Oral",
+                "Dose": "2000 IU daily",
+                "Duration": "Ongoing",
+                "Start Date": "2023-09-01",
+                "Response": "Positive",
+                "Response Details": "Vitamin D levels improved on recent lab tests",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Milk Thistle",
+                "Medication Type": "Herbal supplement",
+                "Purpose": "Liver support",
+                "Administration Mode": "Oral",
+                "Dose": "150 mg twice daily",
+                "Duration": "3 months",
+                "Start Date": "2024-04-15",
+                "Response": "Neutral",
+                "Response Details": "Patient reports no noticeable changes, continuing use",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Ondansetron",
+                "Medication Type": "Antiemetic",
+                "Purpose": "Management of nausea",
+                "Administration Mode": "Oral",
+                "Dose": "4 mg as needed",
+                "Duration": "As needed",
+                "Start Date": "2024-07-09",
+                "Response": "Pending",
+                "Response Details": "Prescribed for potential nausea during antiviral treatment",
+                "Observation Date": "2024-07-09"
+            },
+            {
+                "Medication Name": "Hepatitis A Vaccine",
+                "Medication Type": "Vaccine",
+                "Purpose": "Prevention of Hepatitis A",
+                "Administration Mode": "Intramuscular injection",
+                "Dose": "1 mL",
+                "Duration": "Single dose, with booster in 6-12 months",
+                "Start Date": "2024-07-16",
+                "Response": "Pending",
+                "Response Details": "Scheduled for administration",
+                "Observation Date": "2024-07-16"
+            },
+            {
+                "Medication Name": "Hepatitis B Vaccine",
+                "Medication Type": "Vaccine",
+                "Purpose": "Prevention of Hepatitis B",
+                "Administration Mode": "Intramuscular injection",
+                "Dose": "1 mL",
+                "Duration": "3-dose series over 6 months",
+                "Start Date": "2024-07-16",
+                "Response": "Pending",
+                "Response Details": "Scheduled for first dose administration",
+                "Observation Date": "2024-07-16"
+            },
+            {
+                "Medication Name": "Multivitamin",
+                "Medication Type": "Supplement",
+                "Purpose": "General nutritional support",
+                "Administration Mode": "Oral",
+                "Dose": "1 tablet daily",
+                "Duration": "Ongoing",
+                "Start Date": "2023-01-01",
+                "Response": "Positive",
+                "Response Details": "Patient reports feeling generally well with regular use",
+                "Observation Date": "2024-07-09"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. Marisol Velasquez, a 39-year-old Hispanic female, was diagnosed with chronic hepatitis C in 2022 following routine screening. A liver biopsy in 2023 revealed moderate fibrosis (F2). She presents with fatigue, abdominal discomfort, and mild weight loss. Lab results show elevated liver enzymes and high viral load. Treatment with glecaprevir/pibrentasvir is initiated. The patient has a history of depression and is a former smoker. The suspected source of HCV infection is a blood transfusion in 2005. The prognosis is favorable, with the patient likely to achieve sustained virologic response."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Marisol159 Velasquez723",
+        "Report_Header_Age": "39",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-07-10"
+    }
+}

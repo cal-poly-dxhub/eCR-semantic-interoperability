@@ -1,0 +1,523 @@
+{
+    "Patient_Demographics": {
+        "Birth Sex": "Female",
+        "Gender": "Female",
+        "Race": "Asian",
+        "Ethnicity": "Not Hispanic or Latino",
+        "Patient Age": "45",
+        "Date of Birth": "1978-06-17",
+        "Location": "Edison, NJ",
+        "Country of Residence": "United States of America",
+        "Country of Nationality": "United States of America",
+        "Preferred Language": "English",
+        "Tribal Affiliation": "n/a"
+    },
+    "Patient Name": "Nguyen378, Minh621",
+    "Socioeconomic_Factors": {
+        "Employment Status": "Employed",
+        "Gender Identity": "Female",
+        "Disability Status": "No disability",
+        "Education Level": "Bachelor's Degree",
+        "Marital Status": "Married",
+        "Smoking Status": "Former smoker",
+        "BMI": "24.5",
+        "Active Military": "No",
+        "Discharged from Military": "No",
+        "Primary Insurance": "Private health insurance",
+        "Refugee Status": "No",
+        "Correctional Facility Status": "No",
+        "Lose Housing Worry": "Not worried about losing housing",
+        "People Living at Address": "4",
+        "Housing Status": "Rented house or apartment",
+        "Stress Level": "Moderate stress"
+    },
+    "Patient_Contact_Information": {
+        "Patient Address": "2817 Willow Grove Drive, Edison, NJ 08820",
+        "Patient Email": "minguyen378@emailprovider.com",
+        "Patient Phone": "732-555-1098"
+    },
+    "Occupational_Data": {
+        "Current Occupation": "Software Engineer",
+        "Current Industry": "Computer Systems Design and Related Services",
+        "Usual Occupation": "Software Engineer",
+        "Usual Industry": "Computer Systems Design and Related Services",
+        "Usual Employment Date Range": "Start: 2002-08-15 to current",
+        "Current Job Title": "Senior Software Engineer",
+        "Current Employer": "Acme Software Solutions Inc., 1234 Oak St, Edison, NJ 08820, (732) 555-9876",
+        "Current Employment Start Date": "2010-03-01",
+        "Annual Income": "115000"
+    },
+    "Travel_History": {
+        "Travel_History_Entries": [
+            {
+                "Location": "New York City, NY",
+                "Purpose": "Business",
+                "Start Date": "2023-05-20",
+                "End Date": "2023-05-22",
+                "Accommodations": "Hilton Garden Inn New York/Manhattan-Midtown East",
+                "Mode of Travel": "Train",
+                "Activities": "Attended a software engineering conference and met with clients."
+            },
+            {
+                "Location": "Atlantic City, NJ",
+                "Purpose": "Vacation",
+                "Start Date": "2022-08-12",
+                "End Date": "2022-08-14",
+                "Accommodations": "Caesars Atlantic City Hotel & Casino",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Visited casinos, restaurants and beach with spouse."
+            },
+            {
+                "Location": "Edison, NJ",
+                "Purpose": "Routine",
+                "Start Date": "2023-06-01",
+                "End Date": "2023-06-01",
+                "Accommodations": "n/a",
+                "Mode of Travel": "Personal vehicle",
+                "Activities": "Routine visit to local grocery store and pharmacy."
+            }
+        ]
+    },
+    "Encounter_Details": {
+        "Chief Complaint": "Fatigue, abdominal pain, and jaundice",
+        "Patient ID": "5689012",
+        "Encounter Class": "outpatient",
+        "Encounter Status": "finished",
+        "Encounter ID": "98765432101",
+        "Start DateTime": "2023-04-12 10:30",
+        "End DateTime": "2023-04-12 12:15",
+        "Discharge Disposition": "Home or self care (routine discharge)",
+        "Date of Death": "n/a"
+    },
+    "Encounter_Types": {
+        "Encounter_Type_Entries": [
+            {
+                "Encounter Type": "Outpatient consultation",
+                "SNOMED-CT Code": "185463005",
+                "Description": "An encounter for an outpatient consultation",
+                "Start Date": "2023-04-12",
+                "End Date": "2023-04-12"
+            },
+            {
+                "Encounter Type": "Diagnostic procedure",
+                "SNOMED-CT Code": "1201000175109",
+                "Description": "An encounter for a diagnostic procedure",
+                "Start Date": "2023-04-14",
+                "End Date": "2023-04-14"
+            },
+            {
+                "Encounter Type": "Follow-up encounter",
+                "SNOMED-CT Code": "390766001",
+                "Description": "An encounter for follow-up of an existing condition",
+                "Start Date": "2023-05-10",
+                "End Date": "2023-05-10"
+            },
+            {
+                "Encounter Type": "Medication order",
+                "SNOMED-CT Code": "1231000175102",
+                "Description": "An encounter for ordering medication",
+                "Start Date": "2023-05-10",
+                "End Date": "2023-05-10"
+            }
+        ]
+    },
+    "Practitioner_Information": {
+        "Practitioner Name": "Anderson101, Emma234, MD",
+        "Practitioner Phone": "732-555-6789",
+        "Practitioner Fax": "732-555-4321",
+        "Practitioner Email": "emma.anderson@liverwellclinic.com",
+        "Practitioner Office Name": "Liver Well Clinic",
+        "Practitioner ID": "1928374650",
+        "Practitioner Address": "456 Oak Tree Road, Edison, NJ 08820"
+    },
+    "Facility_Information": {
+        "Facility Name": "Liver Well Clinic",
+        "Facility Type": "Outpatient Clinic",
+        "Facility Phone": "732-555-2468",
+        "Facility Fax": "732-555-7531",
+        "Facility Address": "456 Oak Tree Road, Edison, NJ 08820"
+    },
+    "Current_Pregnancy_Information": {
+        "Pregnancy Status": "Not pregnant",
+        "Pregnancy Status Determination Method": "Clinical evaluation",
+        "Pregnancy Status Recorded Date": "2023-04-12",
+        "Estimated Date of Delivery": "n/a",
+        "Estimated Date of Delivery Method": "n/a",
+        "Estimated Gestational Age": "n/a",
+        "Estimated Gestational Age Determination Date": "n/a",
+        "Estimated Gestational Age Determination Method": "n/a",
+        "Last Menstrual Period": "n/a",
+        "Pregnancy Outcome": "n/a",
+        "Pregnancy Outcome Date": "n/a",
+        "Postpartum Status": "n/a"
+    },
+    "Symptoms": {
+        "Symptom_Entries": [
+            {
+                "Symptom": "Fatigue",
+                "SNOMED-CT": "84229001",
+                "Onset Date": "2023-03-15",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Abdominal pain",
+                "SNOMED-CT": "21522001",
+                "Onset Date": "2023-04-01",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Jaundice",
+                "SNOMED-CT": "25064002",
+                "Onset Date": "2023-04-05",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Nausea",
+                "SNOMED-CT": "16930004",
+                "Onset Date": "2023-04-10",
+                "Severity": "Mild",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Loss of appetite",
+                "SNOMED-CT": "79890006",
+                "Onset Date": "2023-03-20",
+                "Severity": "Moderate",
+                "Status": "Active"
+            },
+            {
+                "Symptom": "Dark urine",
+                "SNOMED-CT": "92501003",
+                "Onset Date": "2023-04-08",
+                "Severity": "Mild",
+                "Status": "Active"
+            }
+        ]
+    },
+    "Vital_Signs": {
+        "Vital_Sign_Entries": [
+            {
+                "Vital Sign": "Body temperature",
+                "Value": "37.2",
+                "SNOMED-CT": "386725007",
+                "Unit": "Cel",
+                "Measurement Time": "2023-04-12 10:35:00"
+            },
+            {
+                "Vital Sign": "Blood pressure",
+                "Value": "130/85",
+                "SNOMED-CT": "85354007",
+                "Unit": "mm[Hg]",
+                "Measurement Time": "2023-04-12 10:40:00"
+            },
+            {
+                "Vital Sign": "Heart rate",
+                "Value": "78",
+                "SNOMED-CT": "364075005",
+                "Unit": "/min",
+                "Measurement Time": "2023-04-12 10:42:00"
+            },
+            {
+                "Vital Sign": "Respiratory rate",
+                "Value": "16",
+                "SNOMED-CT": "86290005",
+                "Unit": "/min",
+                "Measurement Time": "2023-04-12 10:45:00"
+            },
+            {
+                "Vital Sign": "Oxygen saturation",
+                "Value": "97",
+                "SNOMED-CT": "59408-5",
+                "Unit": "%",
+                "Measurement Time": "2023-04-12 10:48:00"
+            },
+            {
+                "Vital Sign": "Body weight",
+                "Value": "62",
+                "SNOMED-CT": "27113001",
+                "Unit": "kg",
+                "Measurement Time": "2023-04-12 11:00:00"
+            },
+            {
+                "Vital Sign": "Body mass index (BMI)",
+                "Value": "24.5",
+                "SNOMED-CT": "60621009",
+                "Unit": "kg/m2",
+                "Measurement Time": "2023-04-12 11:02:00"
+            }
+        ]
+    },
+    "Practitioner_Documents": {
+        "Reason for Visit": "Patient presents with fatigue, abdominal pain, jaundice, nausea, loss of appetite, and dark urine.",
+        "Past Medical History": "The patient has no significant past medical history except for being a former smoker. There is no history of chronic conditions, surgeries, or hospitalizations.",
+        "Review of Systems": "General: Fatigue, loss of appetite. HEENT: Jaundice noted. Respiratory: No complaints. Cardiovascular: No complaints. Gastrointestinal: Abdominal pain, nausea, dark urine. Genitourinary: No complaints. Musculoskeletal: No complaints. Skin: Jaundice noted. Neurological: No complaints. Psychiatric: Denies anxiety or depression.",
+        "History of Present Illness": "Ms. Nguyen is a 45-year-old Asian female who presents with complaints of fatigue for the past month, which has been gradually worsening. Over the past 2 weeks, she has also experienced abdominal pain in the right upper quadrant, nausea, loss of appetite, and noticed her urine has become darker in color. She denies any fever, chills, vomiting, or changes in bowel habits. She also reports noticing yellowing of her skin and eyes over the past few days. She has no history of liver disease or other chronic medical conditions. She is a former smoker but quit 5 years ago. She denies any alcohol or drug use. Her family history is unremarkable.",
+        "Plan of Treatment": "Based on the clinical presentation and initial laboratory findings, the patient has been diagnosed with chronic hepatitis B with compensated cirrhosis. The plan is to start her on antiviral therapy with tenofovir 300 mg once daily. She will need regular monitoring with liver function tests, hepatitis B viral load, and imaging studies to assess for disease progression or complications. Lifestyle modifications, including a healthy diet, exercise, and avoidance of alcohol, will be recommended. She should also receive hepatitis A and pneumococcal vaccinations. Close follow-up will be arranged in 4 weeks to assess response to treatment and adjust management as needed. With appropriate treatment and monitoring, the prognosis is good for long-term management of her condition.",
+        "Vaccine Credential Patient Assertion": "The patient reports receiving the hepatitis B vaccine series as a child but is unsure of the specific dates. She has not received the hepatitis A or pneumococcal vaccines."
+    },
+    "Lab_Orders_and_Results": {
+        "Lab_Entries": [
+            {
+                "LOINC Order Code Description": "Hepatitis B virus surface Ag [Presence] in Serum",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "123456789",
+                "Specimen Collection Date": "2023-04-12 11:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "87654321"
+            },
+            {
+                "LOINC Order Code Description": "Hepatitis B virus surface Ab [Presence] in Serum",
+                "Laboratory Result": "Negative",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "987654321",
+                "Specimen Collection Date": "2023-04-12 11:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "12345678"
+            },
+            {
+                "LOINC Order Code Description": "Hepatitis B virus core Ab [Presence] in Serum",
+                "Laboratory Result": "Positive",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "456789123",
+                "Specimen Collection Date": "2023-04-12 11:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "98765432"
+            },
+            {
+                "LOINC Order Code Description": "Hepatitis B virus DNA [#/volume] in Serum or Plasma",
+                "Laboratory Result": "2,500,000 IU/mL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Plasma",
+                "Specimen ID": "789123456",
+                "Specimen Collection Date": "2023-04-12 11:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "65432109"
+            },
+            {
+                "LOINC Order Code Description": "Alanine aminotransferase [Enzymatic activity/Volume] in Serum or Plasma",
+                "Laboratory Result": "85 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "321987654",
+                "Specimen Collection Date": "2023-04-12 11:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "24681012"
+            },
+            {
+                "LOINC Order Code Description": "Aspartate aminotransferase [Enzymatic activity/Volume] in Serum or Plasma",
+                "Laboratory Result": "75 U/L",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "654789123",
+                "Specimen Collection Date": "2023-04-12 11:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "36925814"
+            },
+            {
+                "LOINC Order Code Description": "Total Bilirubin [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "2.8 mg/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "963258147",
+                "Specimen Collection Date": "2023-04-12 11:15:00",
+                "Trigger": "Yes",
+                "Placer Order Number": "75319642"
+            },
+            {
+                "LOINC Order Code Description": "Albumin [Mass/volume] in Serum or Plasma",
+                "Laboratory Result": "3.5 g/dL",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Serum",
+                "Specimen ID": "258147963",
+                "Specimen Collection Date": "2023-04-12 11:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "19753846"
+            },
+            {
+                "LOINC Order Code Description": "Prothrombin time [Normalized ratio]",
+                "Laboratory Result": "1.2",
+                "Laboratory Result Status": "Final",
+                "Specimen Source": "Blood",
+                "Specimen Type": "Plasma",
+                "Specimen ID": "147258963",
+                "Specimen Collection Date": "2023-04-12 11:15:00",
+                "Trigger": "No",
+                "Placer Order Number": "82971365"
+            }
+        ]
+    },
+    "Diagnoses": {
+        "Diagnosis_Entries": [
+            {
+                "Diagnosis": "Chronic viral hepatitis B with hepatic coma",
+                "ICD-10 Code": "B18.0",
+                "SNOMED-CT Code": "197027007",
+                "Diagnosis Date": "2023-04-12",
+                "Onset Date": "2022-12-01",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Cirrhosis of liver without biliary cirrhosis",
+                "ICD-10 Code": "K74.6",
+                "SNOMED-CT Code": "437849007",
+                "Diagnosis Date": "2023-04-12",
+                "Onset Date": "2023-01-15",
+                "Status": "Active",
+                "Trigger": "Yes"
+            },
+            {
+                "Diagnosis": "Fatigue",
+                "ICD-10 Code": "R53.83",
+                "SNOMED-CT Code": "84229001",
+                "Diagnosis Date": "2023-04-12",
+                "Onset Date": "2023-03-15",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Abdominal pain",
+                "ICD-10 Code": "R10.9",
+                "SNOMED-CT Code": "21522001",
+                "Diagnosis Date": "2023-04-12",
+                "Onset Date": "2023-04-01",
+                "Status": "Active",
+                "Trigger": "No"
+            },
+            {
+                "Diagnosis": "Jaundice",
+                "ICD-10 Code": "R17",
+                "SNOMED-CT Code": "25064002",
+                "Diagnosis Date": "2023-04-12",
+                "Onset Date": "2023-04-05",
+                "Status": "Active",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Procedures": {
+        "Procedure_Entries": [
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Abdominal ultrasound of liver",
+                "CPT Code": "76700",
+                "Status": "Completed",
+                "Procedure Date": "2023-04-14",
+                "Details": "Ultrasound to evaluate liver parenchyma and assess for cirrhosis",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Diagnostic",
+                "Procedure Description": "Liver elastography",
+                "CPT Code": "91200",
+                "Status": "Completed",
+                "Procedure Date": "2023-04-14",
+                "Details": "Non-invasive assessment of liver fibrosis",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Therapeutic",
+                "Procedure Description": "Antiviral therapy initiation",
+                "CPT Code": "96372",
+                "Status": "Ongoing",
+                "Procedure Date": "2023-05-10",
+                "Details": "Initiation of tenofovir 300 mg once daily for treatment of chronic hepatitis B",
+                "Trigger": "Yes"
+            },
+            {
+                "Procedure Type": "Preventive",
+                "Procedure Description": "Hepatitis A vaccine administration",
+                "CPT Code": "90632",
+                "Status": "Planned",
+                "Procedure Date": "2023-06-01",
+                "Details": "Hepatitis A vaccine recommended for patients with chronic liver disease",
+                "Trigger": "No"
+            },
+            {
+                "Procedure Type": "Preventive",
+                "Procedure Description": "Pneumococcal vaccine administration",
+                "CPT Code": "90670",
+                "Status": "Planned",
+                "Procedure Date": "2023-06-01",
+                "Details": "Pneumococcal vaccine recommended for patients with chronic liver disease",
+                "Trigger": "No"
+            }
+        ]
+    },
+    "Medications": {
+        "Medication_Entries": [
+            {
+                "Medication Name": "Tenofovir",
+                "Medication Type": "Antiviral",
+                "Purpose": "Treatment of chronic hepatitis B",
+                "Administration Mode": "Oral",
+                "Dose": "300 mg once daily",
+                "Duration": "Long-term",
+                "Start Date": "2023-05-10",
+                "Response": "Good",
+                "Response Details": "After 4 weeks of treatment, the patient reported improvement in fatigue and abdominal pain. Repeat laboratory tests showed a decrease in hepatitis B viral load and improvement in liver enzymes.",
+                "Observation Date": "2023-06-07"
+            },
+            {
+                "Medication Name": "Acetaminophen",
+                "Medication Type": "Analgesic",
+                "Purpose": "Management of abdominal pain",
+                "Administration Mode": "Oral",
+                "Dose": "500 mg as needed, maximum 3000 mg per day",
+                "Duration": "As needed",
+                "Start Date": "2023-04-12",
+                "Response": "Fair",
+                "Response Details": "Provided some relief of abdominal pain but did not completely resolve it.",
+                "Observation Date": "2023-04-19"
+            },
+            {
+                "Medication Name": "Hepatitis A vaccine",
+                "Medication Type": "Vaccine",
+                "Purpose": "Prevention of hepatitis A infection",
+                "Administration Mode": "Intramuscular",
+                "Dose": "Two-dose series",
+                "Duration": "One-time series",
+                "Start Date": "2023-06-01",
+                "Response": "n/a",
+                "Response Details": "Vaccine administered for prevention purposes.",
+                "Observation Date": "2023-06-01"
+            },
+            {
+                "Medication Name": "Pneumococcal vaccine",
+                "Medication Type": "Vaccine",
+                "Purpose": "Prevention of pneumococcal infections",
+                "Administration Mode": "Intramuscular",
+                "Dose": "Single dose",
+                "Duration": "One-time dose",
+                "Start Date": "2023-06-01",
+                "Response": "n/a",
+                "Response Details": "Vaccine administered for prevention purposes.",
+                "Observation Date": "2023-06-01"
+            }
+        ]
+    },
+    "Case_Summary": {
+        "Summary": "This is a fictional representation of healthcare data intended for interoperability testing and solution development. The data are entirely fictitious and do not represent a real person or a real clinical scenario. A 45-year-old Asian female presented with fatigue, abdominal pain, jaundice, and was diagnosed with chronic hepatitis B and compensated cirrhosis. She was started on antiviral therapy and scheduled for monitoring. With treatment, her prognosis is good."
+    },
+    "Report_Information": {
+        "Report_Header_Patient_Name": "Nguyen378 Minh621",
+        "Report_Header_Age": "46",
+        "Report_Header_Gender": "F",
+        "Report_Date": "2024-06-17"
+    }
+}
