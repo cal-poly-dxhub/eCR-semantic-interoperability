@@ -8,6 +8,12 @@ from botocore.exceptions import ClientError
 
 from shared import save_to_file
 
+from fhir.resources.patient import Patient
+from fhir.resources.humanname import HumanName
+from fhir.resources.fhirtypes import Date
+
+import xml.etree.ElementTree as ET
+
 get_info_prompt: str = """<prompt>
 You are a medical data analyst tasked with analyzing a list of key-value pairs from a medical JSON dataset. Your goal is to identify the key-value pairs where the value contains information related to a specific query.
 The key-value pairs may include various types of data, such as text, numbers, or nested objects/arrays, representing different medical attributes, diagnoses, treatments, test results, and more.
@@ -32,6 +38,25 @@ You will split your response into "thought" and "relevant_pairs". There should b
 </relevant_pairs>
 </format>
 </prompt>"""
+
+def xml_to_patient_json(filepath : str):
+    with open(filepath , 'r') as f:
+        cda = f.read()
+
+    root = ET.fromstring(cda)
+    namespace = {'cda': 'urn:hl7-org:v3'}
+    # patient_path = 'ClinicalDocument.recordTarget.patientRole'
+
+    patient_gender_entity = root.find(".//cda:recordTarget/cda:patientRole/cda:patient/cda:administrativeGenderCode", namespaces=namespace)
+    patient_name = root.find(".//cda:recordTarget/cda:patientRole/cda:patient/cda:name/cda:given", namespaces=namespace).text
+    patient_birth_entity = root.find(".//cda:recordTarget/cda:patientRole/cda:patient/cda:birthTime", namespaces=namespace)
+
+    gender_code = patient_gender_entity.attrib["code"]
+    birthdate = patient_birth_entity.attrib['value']
+
+    date = Date(int(birthdate[0:4]),int(birthdate[4:6]), int(birthdate[6:]) )
+
+    return(Patient( birthDate=date, gender=gender_code, name=[HumanName(given=[patient_name])]))
 
 
 def get_all_keys(data: Any) -> list[str]:
@@ -60,8 +85,8 @@ def create_key_value_xml(keys: list[str], values: list[Any]) -> str:
 
 
 def get_bedrock_response(prompt: str) -> str:
-    client = boto3.client("bedrock-runtime", region_name="us-east-1")  # type: ignore
-    model_id = "anthropic.claude-3-sonnet-20240229-v1:0"
+    client = boto3.client("bedrock-runtime", region_name="us-west-2")  # type: ignore
+    model_id = "anthropic.claude-3-haiku-20240307-v1:0"
     conversation = [{"role": "user", "content": [{"text": prompt}]}]
 
     try:
@@ -134,18 +159,23 @@ def get_json_value(data: Any, key: str) -> Any:
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 3:
+    if len(sys.argv) < 1:
         print("Usage: python script.py <file_path> query")
     else:
-        file = sys.argv[1]
-        query = sys.argv[2]
-        file_path = f"../assets/human_readable_messy/{file}"
+        # file_path = sys.argv[1]
+        file_path = './input_xml.xml'
+        # query = sys.argv[2]
+        query = "what is the patients name"
+        # file_path = f"../assets/human_readable_messy/{file}"
+
 
         keys = []
         data = None
         try:
             with open(file_path, "r") as file:
-                data = json.load(file)
+                patient = xml_to_patient_json(file_path)
+                data = patient.json()
+                data = json.loads(data)
                 keys: list[str] = get_all_keys(data)
         except FileNotFoundError:
             print(f"Error: File '{file_path}' not found.")
@@ -160,5 +190,4 @@ if __name__ == "__main__":
             )
             vr = get_bedrock_response(vp)
             pairs = get_json_pairs_tags(vr)
-            # print(pairs)
-            save_to_file(json.dumps(pairs, indent=2), "output.json")
+            save_to_file(json.dumps(pairs, indent=2), "output2.json")
