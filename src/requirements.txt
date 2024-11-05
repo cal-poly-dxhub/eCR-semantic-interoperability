@@ -2,6 +2,7 @@ boto3
 mypy
 types-botocore
 gensim
-difflib
+# difflib
 bs4
 fhir.resources
+fhir_core
