@@ -6,3 +6,4 @@ gensim
 bs4
 fhir.resources
 fhir_core
+lxml
