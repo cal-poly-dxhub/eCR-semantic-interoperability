@@ -5,6 +5,7 @@ import sys
 import lxml  # type: ignore # parser for bs4
 from bs4 import BeautifulSoup
 
+from filter import filter_flattened_json
 from flatten import flatten_json
 from parse_hl7 import xml_to_dict
 
@@ -33,3 +34,6 @@ if __name__ == "__main__":
     flatd = flatten_json(bs4d)
     with open(pathext + "step2_flat.json", "w") as outfile:
         json.dump(flatd, outfile)
+    filteredd = filter_flattened_json(flatd)
+    with open(pathext + "step3_filtered.json", "w") as outfile:
+        json.dump(filteredd, outfile)
