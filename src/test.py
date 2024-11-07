@@ -1,8 +1,8 @@
-import difflib
+import difflib  # type: ignore
 import json
 import xml.etree.ElementTree as ET
 
-import boto3
+import boto3  # type: ignore
 from botocore.exceptions import ClientError
 from bs4 import BeautifulSoup
 from fhir.resources.extension import Extension
@@ -217,7 +217,6 @@ def get_direct_text(element):
 # if multiple of same children, makes array with objects of each child
 def xml_to_dict(element):
     data = {}
-
     if element.attrs:
         data.update(element.attrs)
 
