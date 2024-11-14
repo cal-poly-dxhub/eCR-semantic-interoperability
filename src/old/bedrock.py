@@ -14,6 +14,7 @@ client = boto3.client(  # type: ignore
 model_id = "anthropic.claude-3-sonnet-20240229-v1:0"
 
 
+# test
 # test_message = [{"role": "user", "content": [{"text": "tell me a joke"}]}]  # type: ignore
 # response = client.converse(  # type: ignore
 #     modelId=model_id,
