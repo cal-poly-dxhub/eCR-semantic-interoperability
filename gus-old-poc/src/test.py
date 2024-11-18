@@ -1,10 +1,12 @@
 # import xml.etree.ElementTree as ET
 
 from fhir.resources.patient import Patient
+from fhir.resources.patient import PatientContact
 from fhir.resources.humanname import HumanName
 from fhir.resources.fhirtypes import Date
 from fhir.resources.fhirtypes import ContactPointType
 from fhir.resources.extension import Extension
+from fhir.resources.address import Address
 
 from fhir_core.types import CodeType
 
@@ -497,39 +499,446 @@ You are a medical data analyst specializing in FHIR resources and standards.
 }
 """
 
+fill_patient_noSH_prompt: str = """<prompt>
+You are a medical data analyst specializing in HL7 V3 CDA, FHIR data, LOINC, and SNOMED codes.
+
+You will be provided with:
+1. A JSON object representing a FHIR Patient data type.
+2. JSON objects of the HL7 V3 CDA data extracted from the original document.
+
+**HL7 V3 CDA JSON Structure:**
+- **Children Elements:** Contain text along with LOINC and SNOMED codes that provide context to the text.
+
+**Your Task:**
+- **Cross-Reference Data:** Compare the HL7 V3 CDA JSON with the provided FHIR Patient JSON.
+- **Fill Missing Data:** Populate any missing fields in the FHIR Patient JSON based on the HL7 V3 CDA JSON content.
+- **Adhere to FHIR Standards:** Ensure the outputted JSON strictly follows FHIR standards.
+- **Exclude Reasoning:** Do **not** include your reasoning process or any unnecessary preamble in the output.
+
+**Output Requirements:**
+- **Single JSON Object:** Only output the updated FHIR Patient JSON object.
+- **No Additional Text:** Do not include any explanations, comments, or additional text outside the JSON.
+
+**Patient JSON Object Fields:**
+Ensure the main fields of the Patient JSON include only the following:
+- `active`
+- `address`
+- `birthDate`
+- `communication` (Languages used to communicate with the patient about their health)
+- `contact` (Contact parties such as guardian, partner, or friend)
+- `deceasedBoolean`
+- `deceasedDateTime`
+- `gender`
+- `generalPractitioner`
+- `identifier`
+- `link`
+- `managingOrganization`
+- `maritalStatus`
+- `extension`
+- `multipleBirthBoolean`
+- `multipleBirthInteger`
+- `name`
+- `photo`
+- `telecom` (Contact details for the individual)
+
+**Extension Field Guidelines:**
+- **Additional Information:** Include details such as Sexual Orientation, Race, Ethnicity, etc., in the `extension` field following standard FHIR practices.
+- **Excluding Unknown Values:** 
+  - If a field is marked as unknown, uses a null flavor, or indicates that the value is unknown or not applicable, **exclude** it from the JSON entirely.
+  - Do **not** input it as "unknown," "null flavor," or any other placeholder.
+  - It is acceptable for the `extension` field to remain empty if no extensions are necessary.
+
+**Other Notes:**
+- **Excluding Unknowns in Main Fields:** In addition to the `extension` field, if any value in the main part of the JSON object is unknown or uses a null flavor, **exclude** it from the JSON entirely.
+  - Do **not** include it as "unknown," "null flavor," or any other placeholder.
+
+**Provided Data Sections:**
+- **Patient JSON Object:**
+  --PATIENT--
+
+- **Patient Role Information:**
+  --PR--
+</prompt>"""
+
+make_encounter_prompt: str = """<prompt>
+You are a medical data analyst specializing in HL7 V3 CDA, FHIR data, LOINC, and SNOMED codes.
+
+You will be provided with:
+1. JSON objects of the HL7 V3 CDA data extracted from the original document.
+
+**HL7 V3 CDA JSON Structure:**
+- **Children Elements:** Contain text along with LOINC and SNOMED codes that provide context to the text.
+
+**Your Task:**
+- **Create New FHIR Encounter Resource:** Generate a complete FHIR Encounter JSON object based on the provided HL7 V3 CDA JSON data.
+- **Adhere to FHIR Standards:** Ensure the created JSON strictly follows FHIR standards and aligns with the provided `Encounter` class structure.
+- **Exclude Reasoning:** Do **not** include your reasoning process or any unnecessary preamble in the output.
+
+**Output Requirements:**
+- **Single JSON Object:** Only output the newly created FHIR Encounter JSON object.
+- **No Additional Text:** Do not include any explanations, comments, or additional text outside the JSON.
+- **JSON Compatibility:** The JSON output must be properly formatted so that `json.loads(<your response>)` can parse it into a dictionary in Python without errors.
+
+**Encounter JSON Object Fields:**
+Ensure the JSON includes only the following fields as defined in the `Encounter` class:
+- `resource_type`
+- `status`
+- `class`
+- `type`
+- `priority`
+- `subject`
+- `participant`
+- `appointment`
+- `actualPeriod` (Start and end times)
+- `length`
+- `reason`
+- `diagnosis`
+- `account`
+- `admission`
+- `location`
+- `serviceProvider`
+- `partOf`
+- `serviceType`
+- `episodeOfCare`
+- `identifier`
+
+**Field Guidelines:**
+
+- **resource_type** (Required) Type of FHIR resource this is. 
+
+- **status:** (Required) The current state of the encounter "planned | in-progress | on-hold | discharged | completed | cancelled | discontinued | entered-in-error | unknown".
+  
+- **class:** Classification of patient encounter context (e.g., inpatient, outpatient).
+
+- **type:** Specific type of encounter (e.g., e-mail consultation, surgical day-care).
+
+- **priority:** Indicates the urgency of the encounter.
+
+- **subject:** If a specific patient or group reference is provided in the input, include it here. **Do not create or add a reference to a subject if none is provided.**
+
+- **participant:** List of participants involved in the encounter.
+
+- **appointment:** The appointment that scheduled this encounter.
+
+- **actualPeriod:** The actual start and end time of the encounter.
+
+- **length:** Actual quantity of time the encounter lasted.
+
+- **reason:** The reason why the patient came to the encounter. The list of medical reasons expected to be addressed during the encounter.
+
+- **diagnosis:** The list of diagnoses relevant to this encounter.
+
+- **account:** The set of accounts that may be used for billing for this encounter.
+
+- **admission:** Details about the admission to a healthcare service.
+
+- **location:** List of locations where the patient has been during this encounter.
+
+- **serviceProvider:** The organization responsible for this encounter.
+
+- **partOf:** Another Encounter this encounter is part of.
+
+- **serviceType:** Specific type of service provided.
+
+- **episodeOfCare:** Episode(s) of care that this encounter should be recorded against.
+
+- **identifier:** Identifier(s) by which this encounter is known.
+
+**Reference and Field Omission Guidelines:**
+- **Do Not Assume References:** Only include references to other objects (e.g., patient, observation, or condition) if they are explicitly provided in the input data. **If the input does not specify a reference, do not create one or use placeholders.**
+- **Excluding Unknown Values:** 
+  - If a field is marked as unknown, uses a null flavor, or indicates that the value is unknown or not applicable, **exclude** it from the JSON entirely.
+  - Do **not** input it as "unknown," "null flavor," or any other placeholder.
+  - If a field has no information available in the input, simply omit it from the JSON.
+  
+**Excluding Unknowns in Main Fields:**
+- If any value in the main part of the JSON object is unknown or uses a null flavor, **exclude** it from the JSON entirely.
+  - Do **not** include it as "unknown," "null flavor," or any other placeholder.
+
+**Provided Data Sections:**
+- **HL7 V3 CDA Encounter JSON Data:**
+  --ENCOUNTER--
+</prompt>"""
+
+
+make_condition_prompt: str = """<prompt>
+You are a medical data analyst specializing in HL7 V3 CDA, FHIR data, LOINC, and SNOMED codes.
+
+You will be provided with:
+1. JSON objects of the HL7 V3 CDA data extracted from the original document.
+
+**HL7 V3 CDA JSON Structure:**
+- **Children Elements:** Contain text along with LOINC and SNOMED codes that provide context to the text.
+
+**Your Task:**
+- **Create New FHIR Condition Resource:** Generate a complete FHIR Condition JSON object based on the provided HL7 V3 CDA JSON data.
+- **Adhere to FHIR Standards:** Ensure the created JSON strictly follows FHIR standards and aligns with the provided `Condition` class structure.
+- **Exclude Reasoning:** Do **not** include your reasoning process or any unnecessary preamble in the output.
+
+**Output Requirements:**
+- **Single JSON Object:** Only output the newly created FHIR Condition JSON object.
+- **No Additional Text:** Do not include any explanations, comments, or additional text outside the JSON.
+- **JSON Compatibility:** The JSON output must be properly formatted so that `json.loads(<your response>)` can parse it into a dictionary in Python without errors.
+
+**Condition JSON Object Fields:**
+Ensure the JSON includes only the following fields as defined in the `Condition` class:
+
+- `id`
+- `resource_type` 
+- `clinicalStatus`
+- `verificationStatus`
+- `category`
+- `severity`
+- `code`
+- `bodySite`
+- `subject`
+- `encounter`
+- `evidence`
+- `identifier`
+- `note`
+- `onsetAge`
+- `onsetDateTime`
+- `onsetPeriod`
+- `onsetRange`
+- `onsetString`
+- `abatementAge`
+- `abatementDateTime`
+- `abatementPeriod`
+- `abatementRange`
+- `abatementString`
+- `participant`
+- `recordedDate`
+- `stage`
+
+**Field Guidelines:**
+
+- **id:** (Optional) Unique identifier for the condition.
+
+- **resource_type** (Required) Type of FHIR resource this is. 
+  
+- **clinicalStatus:** (Required) The clinical status of the condition (e.g., active, inactive, remission).
+  
+- **verificationStatus:** The verification status to support the clinical status of the condition (e.g., confirmed, unconfirmed).
+  
+- **category:** A category assigned to the condition (e.g., problem-list-item, encounter-diagnosis).
+  
+- **severity:** Subjective severity of the condition as evaluated by the clinician.
+  
+- **code:** Identification of the condition, problem, or diagnosis.
+  
+- **bodySite:** Anatomical location where this condition manifests itself.
+  
+- **subject:** (Required) The patient or group who the condition record is associated with. **Only include this field if the input data explicitly provides a reference. Do not create a reference or use placeholders.**
+  
+- **encounter:** The Encounter during which this Condition was created. **Include this field only if a specific encounter reference is provided. Do not assume or create references.**
+  
+- **evidence:** Supporting evidence or manifestations that are the basis of the condition's verification status.
+  
+- **identifier:** External identifiers for this condition.
+  
+- **note:** Additional information about the Condition.
+  
+- **onsetAge / onsetDateTime / onsetPeriod / onsetRange / onsetString:** Estimated or actual date, date-time, age, period, or string that the condition began.
+  
+- **abatementAge / abatementDateTime / abatementPeriod / abatementRange / abatementString:** The date or estimated date that the condition resolved or went into remission.
+  
+- **participant:** Who or what participated in the activities related to the condition and how they were involved.
+  
+- **recordedDate:** The date when this particular Condition record was created in the system.
+  
+- **stage:** Stage or grade of the condition, usually assessed formally.
+
+**Guidelines for References:**
+- **No Assumed References:** Only include references to other objects (e.g., patient, encounter, observation) if they are explicitly provided in the input data. **If the input does not specify a reference, do not create one or use placeholders.**
+
+**Excluding Unknown Values in Main Fields:**
+- If any value in the main part of the JSON object is unknown, uses a null flavor, or is not provided in the input, **exclude** it from the JSON entirely.
+  - Do **not** include it as "unknown," "null flavor," or any other placeholder.
+
+**Provided Data Sections:**
+- **HL7 V3 CDA Condition JSON Data:**
+  --CONDITION--
+</prompt>"""
+
+
+make_observation_prompt: str = """<prompt>
+You are a medical data analyst specializing in HL7 V3 CDA, FHIR data, LOINC, and SNOMED codes.
+
+You will be provided with:
+1. JSON objects of the HL7 V3 CDA data extracted from the original document.
+
+**HL7 V3 CDA JSON Structure:**
+- **Children Elements:** Contain text along with LOINC and SNOMED codes that provide context to the text.
+
+**Your Task:**
+- **Create New FHIR Observation Resource(s):** 
+  - Generate one or more complete FHIR Observation JSON object(s) based on the provided HL7 V3 CDA JSON data.
+  - **Special Handling for Social History:** If the input data includes social history, extract each observation within it and create individual Observation JSON objects for each, instead of embedding them within a social history object.
+- **Adhere to FHIR Standards:** Ensure the created JSON strictly follows FHIR standards and aligns with the provided `Observation` class structure.
+- **Exclude Reasoning:** Do **not** include your reasoning process or any unnecessary preamble in the output.
+
+**Output Requirements:**
+- **JSON Array or Single JSON Object:**
+  - If social history or multiple observations are present, output a JSON array containing each Observation JSON object.
+  - If only a single observation is present, output a single JSON object.
+- **No Additional Text:** Do not include any explanations, comments, or additional text outside the JSON.
+- **JSON Compatibility:** The JSON output must be properly formatted so that `json.loads(<your response>)` can parse it into a dictionary or list of dictionaries in Python without errors.
+
+**Observation JSON Object Fields:**
+Ensure each JSON object includes only the following fields as defined in the `Observation` class:
+
+- `resource_type`
+- `status`
+- `category`
+- `code`
+- `subject`
+- `encounter`
+- `effectiveDateTime`
+- `effectivePeriod`
+- `issued`
+- `performer`
+- `valueQuantity`
+- `valueBoolean`
+- `valueCodeableConcept`
+- `valueDateTime`
+- `valueInteger`
+- `valuePeriod`
+- `valueRange`
+- `valueRatio`
+- `valueReference`
+- `valueSampledData`
+- `valueString`
+- `valueTime`
+- `dataAbsentReason`
+- `interpretation`
+- `note`
+- `bodySite`
+- `method`
+- `device`
+- `referenceRange`
+- `basedOn`
+- `derivedFrom`
+- `bodyStructure`
+- `component`
+- `focus`
+- `hasMember`
+- `identifier`
+- `instantiatesCanonical`
+- `instantiatesReference`
+- `partOf`
+- `triggeredBy`
+
+**Field Guidelines:**
+
+- **status:** (Required) The status of the observation result (e.g., registered, preliminary, final, amended).
+
+- **resource_type** (Required) Type of FHIR resource this is. 
+      
+- **category:** Classification of the type of observation (e.g., vital-signs, laboratory).
+      
+- **code:** (Required) Type of observation (code/type), describes what was observed.
+      
+- **subject:** (Required) Who and/or what the observation is about (e.g., patient, group). **Only include this field if the input data explicitly provides a reference. Do not create a reference or use placeholders.**
+      
+- **encounter:** The healthcare event during which this observation is made. **Include this field only if a specific encounter reference is provided. Do not assume or create references.**
+      
+- **effectiveDateTime / effectivePeriod:** The time or time-period the observed value is asserted as being true.
+      
+- **issued:** The date and time this version of the observation was made available to providers.
+      
+- **performer:** Who is responsible for the observation.
+      
+- **valueQuantity / valueBoolean / valueCodeableConcept / valueDateTime / valueInteger / valuePeriod / valueRange / valueRatio / valueReference / valueSampledData / valueString / valueTime:** The information determined as a result of making the observation, represented in various data types.
+      
+- **dataAbsentReason:** Provides a reason why the expected value is missing.
+      
+- **interpretation:** A categorical assessment of an observation value (e.g., high, low, normal).
+      
+- **note:** Comments about the observation or the results.
+      
+- **bodySite:** The anatomical location where this observation was made.
+      
+- **method:** The mechanism used to perform the observation.
+      
+- **device:** Reference to the device that generates the measurements or the device settings.
+      
+- **referenceRange:** Guidance on how to interpret the value by comparison to a normal or recommended range.
+      
+- **basedOn:** A plan, proposal, or order that is fulfilled in whole or in part by this observation.
+      
+- **derivedFrom:** Related resources from which the observation value is derived.
+      
+- **bodyStructure:** The body structure on the subject's body where the observation was made.
+      
+- **component:** Component observations that share the same attributes.
+      
+- **focus:** The actual focus of the observation when it is not the subject of record.
+      
+- **hasMember:** Related resources that belong to the Observation group.
+      
+- **identifier:** External identifiers for this observation.
+      
+- **instantiatesCanonical / instantiatesReference:** References to FHIR ObservationDefinition resources that provide the definition adhered to by this observation.
+      
+- **partOf:** A larger event of which this particular observation is a component or step.
+      
+- **triggeredBy:** Identifies the observation(s) that triggered the performance of this observation.
+
+**Guidelines for References:**
+- **No Assumed References:** Only include references to other objects (e.g., patient, encounter, observation) if they are explicitly provided in the input data. **If the input does not specify a reference, do not create one or use placeholders.**
+
+**Excluding Unknown Values in Main Fields:**
+- If any value in the main part of the JSON object is unknown, uses a null flavor, or is not provided in the input, **exclude** it from the JSON entirely.
+  - Do **not** include it as "unknown," "null flavor," or any other placeholder.
+
+**Handling Social History:**
+- When the input data includes social history sections:
+  - **Do Not** embed observations within a `socialHistory` object.
+  - **Instead**, extract each observation within the social history and generate separate `Observation` JSON objects for each.
+  - Ensure each extracted observation adheres to the **Observation JSON Object Fields** and **Field Guidelines** outlined above.
+
+**Provided Data Sections:**
+- **HL7 V3 CDA Observation JSON Data:**
+  --OBSERVATION--
+</prompt>"""
 
 # tree = ET.parse('./input_xml.xml')
 # root = tree.getroot()
 
 # ET.register_namespace('', 'urn:hl7-org:v3')
 # namespace = {'cda': 'urn:hl7-org:v3'}
-objects = {}
+objects = {'encounters': [], 'observations' : [], 'conditions' : []}
+encounter_ids = ['2.16.840.1.113883.10.20.22.2.22.1', '2.16.840.1.113883.10.20.22.4.49', '2.16.840.1.113883.10.20.22.4.41']
+encounter_loincs = ['46240-8']
+condition_ids = ['2.16.840.1.113883.10.20.22.2.5.1']
+condition_loincs = ['11450-4']
+observation_ids = ['2.16.840.1.113883.10.20.22.2.3.1', '2.16.840.1.113883.10.20.22.2.17', '2.16.840.1.113883.10.20.22.4.27']
+observation_loincs = ['30954-2', '29762-2', '141-2', '627-0', '18855-7']
 
 
-def create_patient(given_name, gender_code, date, marital_status, mobile_phone, info: dict):
-  #could prob make this more flexible
-  if given_name is None:
-    given_name = "NULL"
-  if gender_code is None:
-    gender_code = "NULL"
-  if date is None:
-    date = Date(0,0,0)
-  if marital_status is None:
-    marital_status = 'NULL'
-  if mobile_phone is None:
-    mobile_phone = 'NULL'
+
+def create_patient(info: dict):
   
   return Patient(
     extension=[],
-    telecom=[ContactPointType(use=CodeType('mobile'), value=mobile_phone)],
+    telecom=info['telecom'],
     birthDate=info['birthdate'],
     gender=info['gender'],
-    name=[HumanName(given=[info['name']['given']], family=info['name']['family'])]
-)
+    name=[HumanName(given=[info['name']['given']], family=info['name']['family'])],
+    active = True,
+    deceasedBoolean=info['deceasedBoolean'],
+    address=[Address(city=info.get('addr',{}).get('city',''), 
+                     state=info.get('addr',{}).get('state',''), 
+                     country=info.get('addr',{}).get('country',''), 
+                     line=[info.get('addr',{}).get('line','')],
+                     postalCode=info.get('addr',{}).get('postal',''))]
+  )
+  
 
 def get_bedrock_response(prompt: str) -> str:
   client = boto3.client("bedrock-runtime", region_name="us-west-2")  # type: ignore
   model_id = "anthropic.claude-3-5-sonnet-20240620-v1:0"
+  # model_id = 'meta.llama3-2-1b-instruct-v1:0'
   conversation = [{"role": "user", "content": [{"text": prompt}]}]
 
   try:
@@ -546,9 +955,9 @@ def get_bedrock_response(prompt: str) -> str:
     exit(1)
 
 def fill_in_patient(patient_role, social_history):
-  prompt = fill_in_patient_cot_prompt.replace('--PR--',patient_role).replace('--PATIENT--',objects['Patient'].json()).replace('--SH--',social_history)
+  prompt = fill_patient_noSH_prompt.replace('--PR--',patient_role).replace('--PATIENT--',objects['Patient'].json())#.replace('--SH--',social_history)
   response = get_bedrock_response(prompt)
-  print(response)
+  # print(response)
   return json.loads(response)
   
 
@@ -556,6 +965,36 @@ def create_bundle(ecr_info: dict):
   prompt = create_ecr_bundle_prompt.replace('--PATIENT--',json.dumps(ecr_info['patient'])).replace('--OBSERVATIONS--', json.dumps(ecr_info['observations']))
   response = get_bedrock_response(prompt)
   print(response)
+
+
+def cda_guardian_contact(contact: dict):
+  info = {}
+  name = contact.get('guardianPerson', {}).get('name')
+  addr = contact.get('addr', {})
+  telecom = contact.get('telecom')
+  codes = contact.get('code')
+
+  if name:
+    info['name'] = {
+      'given': info['name']['given']['content'],
+      'family': info['name']['family']['content']
+    }
+
+  if telecom:
+    telecom_uses = {'hp': 'home', 'mc': 'mobile'}
+    info['telecom'] = []
+    for comm in telecom:
+      use_value = telecom_uses.get(comm.get('use', '').lower())
+
+      contact_point_data = {
+        'value': comm.get('value', '')
+      }
+      if use_value:
+        contact_point_data['use'] = CodeType(use_value)
+      if '@' in contact_point_data['value']:
+        contact_point_data['system'] = CodeType('email')
+      info['telecom'].append(ContactPointType(**contact_point_data))
+
 
 def cda_patient_create(file: dict) -> dict:
   given_name = None
@@ -568,6 +1007,7 @@ def cda_patient_create(file: dict) -> dict:
   patientrole: dict = file.get("recordTarget", {}).get("patientRole", {})
   telecom: dict = file.get("recordTarget", {}).get("patientRole", {}).get("telecom", {})
   components: dict = file.get("component", {}).get("structuredBody", {}).get("component", {})
+  guardian: dict = file.get("recordTarget", {}).get("patientRole", {}).get("patient",{}).get('guardian')
 
   info = {}
 
@@ -577,37 +1017,119 @@ def cda_patient_create(file: dict) -> dict:
       info['name'] = {}
       info['name']['given'] = given_name
       info['name']['family'] = patient['name']['family']['content']
+
     if "administrativeGenderCode" in patient:
       gender_code = patient["administrativeGenderCode"]["code"]
       if gender_code.lower() == "m":
         info['gender'] = 'Male'
       elif gender_code.lower() == 'f':
         info['gender'] = 'Female'
+
     if "birthTime" in patient:
       date = patient["birthTime"]["value"]
       date = Date(int(date[0:4]),int(date[4:6]), int(date[6:]))
       info['birthdate'] = date
 
-  if telecom:
-    info['telecom'] = []
-    for comm in telecom:
-      if "use" in comm and comm["use"] == "MC":
-        info['telecom'].append({'system': "phone", 'value' : comm['value'], 'use' : 'mobile'})
-        mobile_phone = comm["value"]
-
-  socialHistory = None
-  if components: # look for social history
-    for component in components:
-      if component["section"]["code"]["code"] == "29762-2":
-        socialHistory = component
-        break
+    if telecom:
+      telecom_uses = {'hp': 'home', 'mc': 'mobile'}
+      info['telecom'] = []
+      for comm in telecom:
+        use_value = telecom_uses.get(comm.get('use', '').lower())
   
-  
-  
+        contact_point_data = {
+          'value': comm.get('value', '')
+        }
+        if use_value:
+          contact_point_data['use'] = CodeType(use_value)
+        if '@' in contact_point_data['value']:
+          contact_point_data['system'] = CodeType('email')
+        info['telecom'].append(ContactPointType(**contact_point_data))
 
-  objects["Patient"] = create_patient(given_name, gender_code, date, marital_status, mobile_phone, info)
-  return {"patientrole" : patientrole, "socialhistory" : socialHistory}
+    if guardian:
+      info['guardian'] = cda_guardian_contact(guardian)
 
+
+
+    if patient.get('deceasedInd') is not None:
+      info["deceasedBoolean"] = patient['deceasedInd']['value']
+      if patient['deceasedInd']['value'] == 'true':
+        info["deceasedDateTime"] = patient['deceasedInd']['time']
+
+    if patientrole.get('addr') is not None:
+      info['addr'] = {'city' : patientrole.get('addr', [{}])[0].get('city', {}).get('content', ""), 
+                      'country' : patientrole.get('addr', [{}])[0].get('country', {}).get('content', ""), 
+                      'postal' : patientrole.get('addr', [{}])[0].get('postalCode', {}).get('content', ""), 
+                      'state' : patientrole.get('addr', [{}])[0].get('state', {}).get('content', ""),
+                      'line' : patientrole.get('addr', [{}])[0].get('streetAddressLine', {}).get('content', "")}
+      if patientrole.get('addr', [{}])[0].get('use', '').lower() == "HP":
+        info['addr']['use'] = 'home'
+
+  objects["Patient"] = create_patient(info)
+
+def make_encounter(encounter: dict):
+  # print("**GIVEN**\n\n", encounter, '\n\n\n')
+  prompt = make_encounter_prompt.replace('--ENCOUNTER--', json.dumps(encounter))
+  response = get_bedrock_response(prompt)
+  # print(response)
+  response =  json.loads(response)
+  if isinstance(response, list):
+    for enc in response:
+      objects['encounters'].append(enc)
+  else: 
+    objects['encounters'].append(response)
+
+def make_condition(condition: dict):
+  prompt = make_condition_prompt.replace('--CONDITION--', json.dumps(condition))
+  response = get_bedrock_response(prompt)
+  # print(response)
+  response =  json.loads(response)
+  if isinstance(response, list):
+    for cond in response:
+      objects['conditions'].append(cond)
+  else: 
+    objects['conditions'].append(response)
+
+def make_observation(observation: dict):
+  prompt = make_observation_prompt.replace('--OBSERVATION', json.dumps(observation))
+  response = get_bedrock_response(prompt)
+  # print(response)
+  response =  json.loads(response)
+  if isinstance(response, list):
+    for obs in response:
+      objects['observations'].append(obs)
+  else: 
+    objects['observations'].append(response)
+
+def map_hl7(file: dict):
+  cda_patient_create(file)
+  components = file.get("component", {}).get("structuredBody", {}).get("component", {})
+  if not components:
+    return
+
+  for component in components:
+    section = component.get('section', {})
+    if 'nullFlavor' in section:
+      continue
+
+    template_id = section.get('templateId', {})
+    code = section.get('code', {}).get('code')
+
+    # Normalize templateId to be a list
+    if isinstance(template_id, dict):
+      template_id = [template_id]
+    elif template_id is None:
+      template_id = []
+
+    template_root = template_id[0].get('root') if template_id else None
+
+    if (template_root in encounter_ids) or (code in encounter_loincs):
+      make_encounter(component)
+    elif (template_root in condition_ids) or (code in condition_loincs):
+      make_condition(component)
+    elif (template_root in observation_ids) or (code in observation_loincs):
+      make_observation(component)
+
+    
 
 def get_direct_text(element):
   return ''.join([t for t in element.contents if isinstance(t, str)]).strip()
@@ -645,8 +1167,26 @@ if __name__ == "__main__":
   with open ('input_xml.xml', 'r') as f:
     soup = BeautifulSoup(f.read(), 'xml')
     d = xml_to_dict(soup.ClinicalDocument)
-  patient_fields_dict = cda_patient_create(d)
-  print(objects['Patient'].json())
+  # patient_fields_dict = cda_patient_create(d)
+  cda_patient_create(d)
+  # print(objects['Patient'].json())
+  map_hl7(d)
+  output = {}
+  output["Patient"] = json.loads(objects['Patient'].json()) #if isinstance(objects['Patient'].json(), str) else objects['Patient'].json()
+  output["Encounters"] = objects['encounters']         
+  output["conditions"] = objects['conditions']         
+  output["observations"] = objects['observations'] 
+
+
+  with open ('output.json', 'w') as of:
+    of.write(json.dumps(output, indent=2))
+
+
+
+
+
+
+  # print(objects['Patient'].json())
   # print(patient_fields_dict['socialhistory'])
   # print("***MANUAL PATIENT:*** \n\n ", objects['Patient'].json())
   # print("\n\n****MODEL FILL:****\n\n")
