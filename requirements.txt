@@ -1,9 +1,12 @@
 boto3
 mypy
 types-botocore
+types-boto3
 gensim
 # difflib
 bs4
 fhir.resources
 fhir_core
 lxml
+pydantic
+uuid
