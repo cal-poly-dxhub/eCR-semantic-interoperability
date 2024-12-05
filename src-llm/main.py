@@ -4,26 +4,27 @@ import sys
 
 import lxml  # type: ignore # parser for bs4
 from bs4 import BeautifulSoup
-
+from build_fhir import build_fhir_object
 from filter import filter_flattened_json
 from flatten import flatten_json
 from parse_hl7 import xml_to_dict
 
+pathext = "../assets/out/"
+
 
 def cleanup():
-    if os.path.exists("assets/out"):
-        for file in os.listdir("assets/out"):
-            os.remove(os.path.join("assets/out", file))
+    if os.path.exists(pathext):
+        for file in os.listdir(pathext):
+            os.remove(os.path.join(pathext, file))
     else:
-        os.mkdir("assets/out")
+        os.mkdir(pathext)
 
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("ssage: python parse_xml.py <xml_file>")
+        print("usage: python parse_xml.py <xml_file>")
         sys.exit(1)
     cleanup()
-    pathext = "assets/out/"
 
     file = sys.argv[1]
     with open(file, "r") as f:
@@ -37,3 +38,6 @@ if __name__ == "__main__":
     filteredd = filter_flattened_json(flatd)
     with open(pathext + "step3_filtered.json", "w") as outfile:
         json.dump(filteredd, outfile)
+    fhird = build_fhir_object(filteredd)
+    with open(pathext + "step4_fhir_object.json", "w") as f:
+        json.dump(fhird, f)
