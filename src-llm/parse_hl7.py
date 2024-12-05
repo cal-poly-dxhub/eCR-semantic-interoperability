@@ -1,6 +1,6 @@
 import json
 import sys
-from typing import Any, Dict, List, Union
+from typing import Any, Union
 
 import lxml  # type: ignore # parser for bs4
 from bs4 import BeautifulSoup
@@ -10,7 +10,7 @@ def get_direct_text(element: Any) -> str:
     return "".join([t for t in element.contents if isinstance(t, str)]).strip()
 
 
-def xml_to_dict(element: Any) -> Dict[str, Union[str, List[Dict[str, Any]]]]:
+def xml_to_dict(element: Any) -> dict[str, Union[str, list[dict[str, Any]]]]:
     """
     Convert an XML element to a dictionary.
     """

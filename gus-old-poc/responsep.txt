@@ -1,0 +1,31 @@
+<thought>
+To find key-value pairs relevant to the query "pregnant", I will scan through the list of pairs and look for values that contain information related to pregnancy status, gestational age, estimated due date, or other details indicating the patient is pregnant. I'll include any pairs where the value explicitly mentions pregnancy or contains relevant data about the pregnancy.
+</thought>
+
+<relevant_pairs>
+<pair>
+<key>Current_Pregnancy_Information</key>
+<value>{'Pregnancy Status': 'Pregnant', 'Pregnancy Status Determination Method': 'Urine hCG test', 'Pregnancy Status Recorded Date': '2024-06-20', 'Estimated Date of Delivery': '2025-01-15', 'Estimated Date of Delivery Method': 'Last menstrual period', 'Estimated Gestational Age': '12 weeks 5 days', 'Estimated Gestational Age Determination Date': '2024-07-11', 'Estimated Gestational Age Determination Method': 'Ultrasound measurement', 'Last Menstrual Period': '2024-04-18', 'Pregnancy Outcome': 'n/a', 'Pregnancy Outcome Date': 'n/a', 'Postpartum Status': 'n/a'}</value>
+<reason>This value contains detailed information about the patient's current pregnancy, including pregnancy status, estimated due date, gestational age, and other pregnancy-related details.</reason>
+</pair>
+<pair>
+<key>Pregnancy Status</key>
+<value>Pregnant</value>
+<reason>This value directly states that the patient is pregnant.</reason>
+</pair>
+<pair>
+<key>Estimated Date of Delivery</key>
+<value>2025-01-15</value>
+<reason>This value provides the estimated due date, which is relevant for a pregnant patient.</reason>
+</pair>
+<pair>
+<key>Estimated Gestational Age</key>
+<value>12 weeks 5 days</value>
+<reason>This value specifies the patient's gestational age, which is relevant for a pregnant patient.</reason>
+</pair>
+<pair>
+<key>History of Present Illness</key>
+<value>Ms. Campbell is a 28-year-old G1P0 female at 12 weeks and 5 days gestation who presents to the ED with a 3-day history of progressively worsening diarrhea and abdominal pain. The diarrhea is described as watery, occurring 8-10 times per day, without blood or mucus. She reports severe, crampy abdominal pain, primarily in the lower abdomen. The patient has also experienced nausea and vomiting for the past 2 days, with difficulty keeping food or liquids down. She notes the onset of fever yesterday, measured at home as 38.3°C (101°F). The patient reports feeling increasingly fatigued and dizzy, especially when standing up quickly. She denies any urinary symptoms, vaginal bleeding, or contractions. Of note, the patient traveled to Jamaica 3 weeks ago for a family reunion, where she attended a large barbecue and ate at local restaurants. She also reports eating at a new local deli in Yonkers about 6 weeks ago. The patient is concerned about the impact of her symptoms on her pregnancy and has not experienced relief with over-the-counter antidiarrheal medications.</value>
+<reason>This value mentions that the patient is a pregnant female at 12 weeks gestation, which is relevant to the query.</reason>
+</pair>
+</relevant_pairs>
