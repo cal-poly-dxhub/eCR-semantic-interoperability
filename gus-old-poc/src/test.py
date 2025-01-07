@@ -301,8 +301,6 @@ You will be provided with:
 - **Patient Role Information:**
   --PR--
 
-- **Social History Section:**
-  --SH--
 
 **Output Format Example:**
 ```json
@@ -774,7 +772,7 @@ You will be provided with:
 - **Create New FHIR Observation Resource(s):** 
   - Generate one or more complete FHIR Observation JSON object(s) based on the provided HL7 V3 CDA JSON data.
   - **Special Handling for Social History:** If the input data includes social history, extract each observation within it and create individual Observation JSON objects for each, instead of embedding them within a social history object.
-- **Adhere to FHIR Standards:** Ensure the created JSON strictly follows FHIR standards and aligns with the provided `Observation` class structure.
+- **Adhere to FHIR Standards:** Ensure the created JSON strictly follows FHIR standards and aligns with the provided Observation class structure.
 - **Exclude Reasoning:** Do **not** include your reasoning process or any unnecessary preamble in the output.
 
 **Output Requirements:**
@@ -782,51 +780,52 @@ You will be provided with:
   - If social history or multiple observations are present, output a JSON array containing each Observation JSON object.
   - If only a single observation is present, output a single JSON object.
 - **No Additional Text:** Do not include any explanations, comments, or additional text outside the JSON.
-- **JSON Compatibility:** The JSON output must be properly formatted so that `json.loads(<your response>)` can parse it into a dictionary or list of dictionaries in Python without errors.
+- **JSON Compatibility:** The JSON output must be properly formatted so that json.loads(<your response>) can parse it into a dictionary or list of dictionaries in Python without errors.
+- **Drawing conclusions** If in a 'content' field you see information about the patient in a doctors note, like the patient travling or being pregannt, create the necessary fhir resource that details that thing. Like if in the note the doctor mentions the patient being pregnant, make a observation resource that is a standard way to represent preganncy. Include a "sourceInfo" field with the direct text you drew this conclusion from so I can cross reference from the original file.
 
 **Observation JSON Object Fields:**
-Ensure each JSON object includes only the following fields as defined in the `Observation` class:
+Ensure each JSON object includes only the following fields as defined in the Observation class:
 
-- `resource_type`
-- `status`
-- `category`
-- `code`
-- `subject`
-- `encounter`
-- `effectiveDateTime`
-- `effectivePeriod`
-- `issued`
-- `performer`
-- `valueQuantity`
-- `valueBoolean`
-- `valueCodeableConcept`
-- `valueDateTime`
-- `valueInteger`
-- `valuePeriod`
-- `valueRange`
-- `valueRatio`
-- `valueReference`
-- `valueSampledData`
-- `valueString`
-- `valueTime`
-- `dataAbsentReason`
-- `interpretation`
-- `note`
-- `bodySite`
-- `method`
-- `device`
-- `referenceRange`
-- `basedOn`
-- `derivedFrom`
-- `bodyStructure`
-- `component`
-- `focus`
-- `hasMember`
-- `identifier`
-- `instantiatesCanonical`
-- `instantiatesReference`
-- `partOf`
-- `triggeredBy`
+- resource_type
+- status
+- category
+- code
+- subject
+- encounter
+- effectiveDateTime
+- effectivePeriod
+- issued
+- performer
+- valueQuantity
+- valueBoolean
+- valueCodeableConcept
+- valueDateTime
+- valueInteger
+- valuePeriod
+- valueRange
+- valueRatio
+- valueReference
+- valueSampledData
+- valueString
+- valueTime
+- dataAbsentReason
+- interpretation
+- note
+- bodySite
+- method
+- device
+- referenceRange
+- basedOn
+- derivedFrom
+- bodyStructure
+- component
+- focus
+- hasMember
+- identifier
+- instantiatesCanonical
+- instantiatesReference
+- partOf
+- triggeredBy
 
 **Field Guidelines:**
 
@@ -893,8 +892,8 @@ Ensure each JSON object includes only the following fields as defined in the `Ob
 
 **Handling Social History:**
 - When the input data includes social history sections:
-  - **Do Not** embed observations within a `socialHistory` object.
-  - **Instead**, extract each observation within the social history and generate separate `Observation` JSON objects for each.
+  - **Do Not** embed observations within a socialHistory object.
+  - **Instead**, extract each observation within the social history and generate separate Observation JSON objects for each.
   - Ensure each extracted observation adheres to the **Observation JSON Object Fields** and **Field Guidelines** outlined above.
 
 **Provided Data Sections:**
@@ -912,7 +911,7 @@ encounter_ids = ['2.16.840.1.113883.10.20.22.2.22.1', '2.16.840.1.113883.10.20.2
 encounter_loincs = ['46240-8']
 condition_ids = ['2.16.840.1.113883.10.20.22.2.5.1']
 condition_loincs = ['11450-4']
-observation_ids = ['2.16.840.1.113883.10.20.22.2.3.1', '2.16.840.1.113883.10.20.22.2.17', '2.16.840.1.113883.10.20.22.4.27']
+observation_ids = ['2.16.840.1.113883.10.20.22.2.3.1', '2.16.840.1.113883.10.20.22.2.17', '2.16.840.1.113883.10.20.22.4.27', '1.3.6.1.4.1.19376.1.5.3.1.3.4']
 observation_loincs = ['30954-2', '29762-2', '141-2', '627-0', '18855-7']
 
 
@@ -967,33 +966,33 @@ def create_bundle(ecr_info: dict):
   print(response)
 
 
-def cda_guardian_contact(contact: dict):
-  info = {}
-  name = contact.get('guardianPerson', {}).get('name')
-  addr = contact.get('addr', {})
-  telecom = contact.get('telecom')
-  codes = contact.get('code')
+# def cda_guardian_contact(contact: dict):
+#   info = {}
+#   name = contact.get('guardianPerson', {}).get('name')
+#   addr = contact.get('addr', {})
+#   telecom = contact.get('telecom')
+#   codes = contact.get('code')
 
-  if name:
-    info['name'] = {
-      'given': info['name']['given']['content'],
-      'family': info['name']['family']['content']
-    }
+#   if name:
+#     info['name'] = {
+#       'given': info['name']['given']['content'],
+#       'family': info['name']['family']['content']
+#     }
 
-  if telecom:
-    telecom_uses = {'hp': 'home', 'mc': 'mobile'}
-    info['telecom'] = []
-    for comm in telecom:
-      use_value = telecom_uses.get(comm.get('use', '').lower())
+#   if telecom:
+#     telecom_uses = {'hp': 'home', 'mc': 'mobile'}
+#     info['telecom'] = []
+#     for comm in telecom:
+#       use_value = telecom_uses.get(comm.get('use', '').lower())
 
-      contact_point_data = {
-        'value': comm.get('value', '')
-      }
-      if use_value:
-        contact_point_data['use'] = CodeType(use_value)
-      if '@' in contact_point_data['value']:
-        contact_point_data['system'] = CodeType('email')
-      info['telecom'].append(ContactPointType(**contact_point_data))
+#       contact_point_data = {
+#         'value': comm.get('value', '')
+#       }
+#       if use_value:
+#         contact_point_data['use'] = CodeType(use_value)
+#       if '@' in contact_point_data['value']:
+#         contact_point_data['system'] = CodeType('email')
+#       info['telecom'].append(ContactPointType(**contact_point_data))
 
 
 def cda_patient_create(file: dict) -> dict:
@@ -1045,8 +1044,8 @@ def cda_patient_create(file: dict) -> dict:
           contact_point_data['system'] = CodeType('email')
         info['telecom'].append(ContactPointType(**contact_point_data))
 
-    if guardian:
-      info['guardian'] = cda_guardian_contact(guardian)
+    # if guardian:
+      # info['guardian'] = cda_guardian_contact(guardian)
 
 
 
@@ -1092,8 +1091,8 @@ def make_condition(condition: dict):
 def make_observation(observation: dict):
   prompt = make_observation_prompt.replace('--OBSERVATION', json.dumps(observation))
   response = get_bedrock_response(prompt)
-  # print(response)
   response =  json.loads(response)
+  # print(response)
   if isinstance(response, list):
     for obs in response:
       objects['observations'].append(obs)
@@ -1169,10 +1168,10 @@ if __name__ == "__main__":
     d = xml_to_dict(soup.ClinicalDocument)
   # patient_fields_dict = cda_patient_create(d)
   cda_patient_create(d)
-  # print(objects['Patient'].json())
   map_hl7(d)
+  
   output = {}
-  output["Patient"] = json.loads(objects['Patient'].json()) #if isinstance(objects['Patient'].json(), str) else objects['Patient'].json()
+  output["Patient"] = json.loads(objects['Patient'].json())
   output["Encounters"] = objects['encounters']         
   output["conditions"] = objects['conditions']         
   output["observations"] = objects['observations'] 
