@@ -7,7 +7,7 @@ def transform_object(fhir_object: dict[str, Any], flat_json: dict[str, str]) -> 
     """
     puts the flat json into the fhir object
     """
-    id = flat_json["id"]
+    xml_path = flat_json["path"]
     value = flat_json["value"]
     fhir_path = get_fhir_from_flat_json(flat_json)
     # fhir_path = "Patient.name.given"
@@ -18,7 +18,7 @@ def transform_object(fhir_object: dict[str, Any], flat_json: dict[str, str]) -> 
             if key not in current:
                 current[key] = {}
             current = current[key]
-        current[keys[-1]] = {"id": id, "value": value}
+        current[keys[-1]] = {"value": value, "hl7_path": xml_path}
 
 
 def build_fhir_object(flat_json: list[dict[str, str]]) -> dict[str, Any]:
