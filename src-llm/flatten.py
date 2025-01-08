@@ -1,5 +1,4 @@
 from typing import Any
-from uuid import uuid4
 
 
 def flatten_json(data: dict[str, Any]) -> list[dict[str, str]]:
@@ -28,7 +27,6 @@ def flatten_json(data: dict[str, Any]) -> list[dict[str, str]]:
                 {
                     "path": parent_key.replace(".content", ""),
                     "value": data,
-                    "id": str(uuid4()),
                 }
             )
 

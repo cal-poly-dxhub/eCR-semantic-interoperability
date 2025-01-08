@@ -38,7 +38,7 @@ def xml_to_dict(element: Any) -> dict[str, Union[str, list[dict[str, Any]]]]:
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("ssage: python parse_xml.py <xml_file>")
+        print("usage: python parse_xml.py <xml_file>")
         sys.exit(1)
 
     file = sys.argv[1]
