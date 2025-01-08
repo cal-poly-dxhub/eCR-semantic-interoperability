@@ -12,8 +12,14 @@ client = boto3.client(  # type: ignore
     aws_access_key_id=os.environ["AWS_ACCESS_KEY_ID"],
     aws_secret_access_key=os.environ["AWS_SECRET_ACCESS_KEY"],
 )
-claude_instant_v1 = "anthropic.claude-instant-v1"
+claude_instant_v1 = "anthropic.claude-instant-v1:2:100k"
 claude_3_sonnet = "anthropic.claude-3-sonnet-20240229-v1:0"
+nova_micro = "amazon.nova-micro-v1:0"
+
+b = boto3.client("bedrock", region_name="us-west-2")  # type: ignore
+
+# list all bedrock models
+# print(b.list_foundation_models()["modelSummaries"])  # type: ignore
 
 
 def get_bedrock_response(prompt: str) -> str:
