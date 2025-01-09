@@ -13,3 +13,7 @@ Translating data from differently formatted eCRs and producing a cleaned standar
 ### src-llm
 
 - current llm only code
+
+### src-chunks
+
+- chunk-based embedding approach
