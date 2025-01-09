@@ -25,9 +25,9 @@ def deduplicate_json(data: list[dict[str, str]]) -> list[dict[str, str]]:
             unique_data.append(item)
         else:
             dups += 1
-            print(
-                f"duplicate found. Current item: {item["path"]}, Seen item: {next(x for x in seen if x == (normalized_path, value))}"
-            )
+            # print(
+            #     f"duplicate found. Current item: {item["path"]}, Seen item: {next(x for x in seen if x == (normalized_path, value))}"
+            # )
 
     print(f"removed {dups} duplicates")
     return unique_data
