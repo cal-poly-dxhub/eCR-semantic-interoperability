@@ -10,3 +10,6 @@ fhir_core
 lxml
 pydantic
 uuid
+torch
+transformers
+numpy
