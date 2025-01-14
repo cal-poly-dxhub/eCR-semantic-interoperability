@@ -29,32 +29,136 @@ condition_loincs = ['11450-4']
 observation_ids = ['2.16.840.1.113883.10.20.22.2.3.1', '2.16.840.1.113883.10.20.22.2.17', '2.16.840.1.113883.10.20.22.4.27', '1.3.6.1.4.1.19376.1.5.3.1.3.4']
 observation_loincs = ['30954-2', '29762-2', '141-2', '627-0', '18855-7']
 
+# def get_subject(cda_header: dict) -> dict:
+#   patient_role = cda_header.get("recordTarget", {}).get("patientRole", {})
+#   patient_id = "unknown-patient"
+#   given_name = "Unknown"
+#   family_name = "Unknown"
+
+#   pid = patient_role.get("id")
+#   if isinstance(pid, list) and len(pid) > 0:
+#     patient_id = pid[0].get("root", "unknown-patient")
+#   elif isinstance(pid, dict):
+#     patient_id = pid.get("root", "unknown-patient")
+
+#   patient_data = patient_role.get("patient", {})
+#   name_data = patient_data.get("name")
+#   if isinstance(name_data, list) and len(name_data) > 0:
+#     given_name = name_data[0].get("given", "Unknown")
+#     family_name = name_data[0].get("family", "Unknown")
+#   elif isinstance(name_data, dict):
+#     given_name = name_data.get("given", "Unknown")
+#     family_name = name_data.get("family", "Unknown")
+
+#   display_name = f"{given_name} {family_name}"
+#   return {
+#     "reference": f"Patient/{patient_id}",
+#     "display": display_name
+#   }
+
 def get_subject(cda_header: dict) -> dict:
-  patient_role = cda_header.get("recordTarget", {}).get("patientRole", {})
-  patient_id = "unknown-patient"
-  given_name = "Unknown"
-  family_name = "Unknown"
+    """
+    Extract a subject (patient) reference and display from a parsed CDA header structure.
+    Returns a dict like:
+      {
+        "reference": "Patient/{some_id}",
+        "display": "GivenName FamilyName"
+      }
+    """
 
-  pid = patient_role.get("id")
-  if isinstance(pid, list) and len(pid) > 0:
-    patient_id = pid[0].get("root", "unknown-patient")
-  elif isinstance(pid, dict):
-    patient_id = pid.get("root", "unknown-patient")
+    # Safely get the recordTarget element (could be dict or list).
+    record_target = cda_header.get("recordTarget", {})
+    if isinstance(record_target, list):
+        record_target = record_target[0] if record_target else {}
 
-  patient_data = patient_role.get("patient", {})
-  name_data = patient_data.get("name")
-  if isinstance(name_data, list) and len(name_data) > 0:
-    given_name = name_data[0].get("given", "Unknown")
-    family_name = name_data[0].get("family", "Unknown")
-  elif isinstance(name_data, dict):
-    given_name = name_data.get("given", "Unknown")
-    family_name = name_data.get("family", "Unknown")
+    # Get the patientRole element (could also be dict or list).
+    patient_role = record_target.get("patientRole", {})
+    if isinstance(patient_role, list):
+        patient_role = patient_role[0] if patient_role else {}
 
-  display_name = f"{given_name} {family_name}"
-  return {
-    "reference": f"Patient/{patient_id}",
-    "display": display_name
-  }
+    #
+    # 1) Get the patient ID
+    #
+    patient_id = "unknown-patient"
+    pid_data = patient_role.get("id")
+
+    if isinstance(pid_data, list) and pid_data:
+        # If there's more than one <id>, just pick the first
+        first_id = pid_data[0]
+        patient_id = (
+            first_id.get("root") or 
+            first_id.get("extension") or 
+            "unknown-patient"
+        )
+    elif isinstance(pid_data, dict):
+        patient_id = (
+            pid_data.get("root") or 
+            pid_data.get("extension") or 
+            "unknown-patient"
+        )
+
+    #
+    # 2) Extract name information (Given and Family).
+    #
+    given_name = "Unknown"
+    family_name = "Unknown"
+
+    patient_data = patient_role.get("patient", {})
+    name_data = patient_data.get("name")
+
+    # Helper to unify how we extract the "string" from name fields.
+    def get_text_field(val):
+        """
+        Returns a string from either:
+          - a plain string
+          - a dict with {"content": "..."}
+          - a list of such
+        Defaults to "Unknown" if we can't parse it.
+        """
+        if isinstance(val, dict):
+            # e.g. { "content": "Mickey" }
+            return val.get("content", "Unknown")
+        elif isinstance(val, list):
+            # If it's a list of dicts or strings, join them
+            # e.g. [{"content": "Mickey"}, {"content": "Michael"}] => "Mickey Michael"
+            parts = []
+            for item in val:
+                if isinstance(item, dict):
+                    parts.append(item.get("content", "Unknown"))
+                else:
+                    # item might be a plain string
+                    parts.append(str(item))
+            # Filter out "Unknown" if possible, or just join them all
+            return " ".join(x for x in parts if x)
+        elif isinstance(val, str):
+            return val
+        # If none of the above, fallback
+        return "Unknown"
+
+    def parse_name_dict(name_dict: dict):
+        # e.g. name_dict = {
+        #   "use": "L",
+        #   "given": {"content": "Mickey"},
+        #   "family": {"content": "Mouse"}
+        # }
+        g = get_text_field(name_dict.get("given"))
+        f = get_text_field(name_dict.get("family"))
+        return g, f
+
+    if isinstance(name_data, list) and name_data:
+        # Take the first <name> block
+        given_name, family_name = parse_name_dict(name_data[0])
+    elif isinstance(name_data, dict):
+        given_name, family_name = parse_name_dict(name_data)
+
+    #
+    # 3) Construct the final result
+    #
+    display_name = f"{given_name} {family_name}".strip()
+    return {
+        "reference": f"Patient/{patient_id}",
+        "display": display_name
+    }
 
 
 
@@ -63,14 +167,28 @@ def create_encounter(encounter: dict):
 
 def traverse_condition(condition: dict) -> dict:
   ...
-  
-def traverse_prob_list(condition: dict) -> dict:
-  info = None
-  if 'entry' in condition.keys():
-    info = condition['entry'].get('act',{})
-  if info is None:
-    return {}
-  return info
+
+
+def traverse_prob_list(condition: dict) -> list[dict]:
+  acts = []
+  entry = condition.get("entry")
+
+  if isinstance(entry, dict):
+    act = entry.get("act")
+    if isinstance(act, dict):
+      acts.append(act)
+
+  elif isinstance(entry, list):
+    for e in entry:
+      if isinstance(e, dict):
+        act = e.get("act")
+        if isinstance(act, dict):
+          acts.append(act)
+
+  return acts
+
+
+
 
 # def extract_single_entryrelationship(relation: dict) -> dict:
 #     info = {}
@@ -209,26 +327,149 @@ def prob_list_entryrelationship(entryrelationship):
     return [extract_single_entryrelationship(entryrelationship)]
   
 
+# def create_problem_list(file: dict, condition_data: dict):
+#   info = traverse_prob_list(condition_data)
+#   status = ""
+#   subject_data = get_subject(file)
+#   relations = None
+
+#   if "statusCode" in info:
+#     status = info["statusCode"].get("code", "")
+
+#   if "entryRelationship" in info:
+#     relations = prob_list_entryrelationship(info["entryRelationship"])
+
+#   condition_dict = {}
+#   patient_id = subject_data.get("id", "unknown-patient")
+#   patient_name = subject_data.get("name", "Unknown")
+#   condition_dict["subject"] = {
+#       "reference": f"Patient/{patient_id}",
+#       "display": patient_name
+#   }
+#   condition_dict["clinicalStatus"] = {
+#       "coding": [
+#         {
+          
+#         }
+#       ]
+#     }
+
+#   condition_dict['category'] = [
+#       {
+#         "coding": [
+#           {
+#             "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+#             "code": "problem-list-item",
+#             "display": "Problem List Item"
+#           }
+#         ]
+#       }
+#     ]
+
+#   allowed_statuses = [
+#     "active", "recurrence", "relapse", "inactive",
+#     "remission", "resolved", "unknown"
+#   ]
+#   if status and status.lower() in allowed_statuses:
+#     condition_dict["clinicalStatus"] = {
+#       "coding": [
+#         {
+#           "code": status.lower(),
+#           "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+#           "display": status.capitalize()
+#         }
+#       ]
+#     }
+
+#   if relations:
+#     condition_dict["code"] = {"coding": []}
+#     seen_codes = set()
+
+#     for relation in relations[0]['parsedCodings']:
+#       code = relation.get("code", "")
+#       display = relation.get("display", "")
+#       system = relation.get("systemName", "")
+
+#       if code and display and system and code not in seen_codes:
+#         condition_dict["code"]["coding"].append({
+#           "code": code,
+#           "display": display,
+#           "system": system
+#         })
+#         seen_codes.add(code)
+
+#       translation = relation.get("translation")
+#       if translation:
+#         t_code = translation.get("code", "")
+#         t_display = translation.get("display", "")
+#         t_system = translation.get("systemName", "")
+
+#         if t_code and t_display and t_system and t_code not in seen_codes:
+#           condition_dict["code"]["coding"].append({
+#             "code": t_code,
+#             "display": t_display,
+#             "system": t_system
+#           })
+#           seen_codes.add(t_code)
+
+#   condition_dict["resourceType"] = "Condition"
+#   condition = Condition.parse_obj(condition_dict)
+#   print(condition.json())
+
+    
 def create_problem_list(file: dict, condition_data: dict):
-  info = traverse_prob_list(condition_data)
+  all_acts = traverse_prob_list(condition_data)
+  all_codings = []
+  seen_codes = set()
   status = ""
+
+  for act in all_acts:
+    maybe_status = act.get("statusCode", {}).get("code", "")
+    if not status and maybe_status:
+      status = maybe_status
+
+    if "entryRelationship" in act:
+      relations = prob_list_entryrelationship(act["entryRelationship"])
+      for relation in relations:
+        for coding in relation["parsedCodings"]:
+          code = coding.get("code", "")
+          display = coding.get("display", "")
+          system = coding.get("systemName", "")
+          if code and display and system and code not in seen_codes:
+            all_codings.append({
+              "code": code,
+              "display": display,
+              "system": system
+            })
+            seen_codes.add(code)
+
+          translation = coding.get("translation")
+          if translation:
+            t_code = translation.get("code", "")
+            t_display = translation.get("display", "")
+            t_system = translation.get("systemName", "")
+            if t_code and t_display and t_system and t_code not in seen_codes:
+              all_codings.append({
+                "code": t_code,
+                "display": t_display,
+                "system": t_system
+              })
+              seen_codes.add(t_code)
+
   subject_data = get_subject(file)
+  patient_id = subject_data.get("reference", "unknown-patient")
+  patient_name = subject_data.get("display", "Unknown")
 
-  if "statusCode" in info:
-    status = info["statusCode"].get("code", "")
-
-  if "entryRelationship" in info:
-    relations = prob_list_entryrelationship(info["entryRelationship"])
-
-  condition_dict = {}
-  patient_id = subject_data.get("id", "unknown-patient")
-  patient_name = subject_data.get("name", "Unknown")
-  condition_dict["subject"] = {
+  condition_dict = {
+    "resourceType": "Condition",
+    "subject": {
       "reference": f"Patient/{patient_id}",
       "display": patient_name
-  }
-
-  condition_dict['category'] = [
+    },
+    "clinicalStatus": {
+      "coding": []
+    },
+    "category": [
       {
         "coding": [
           {
@@ -239,6 +480,7 @@ def create_problem_list(file: dict, condition_data: dict):
         ]
       }
     ]
+  }
 
   allowed_statuses = [
     "active", "recurrence", "relapse", "inactive",
@@ -255,42 +497,11 @@ def create_problem_list(file: dict, condition_data: dict):
       ]
     }
 
-  if relations:
-    condition_dict["code"] = {"coding": []}
-    seen_codes = set()
+  if all_codings:
+    condition_dict["code"] = {"coding": all_codings}
 
-    for relation in relations[0]['parsedCodings']:
-      code = relation.get("code", "")
-      display = relation.get("display", "")
-      system = relation.get("systemName", "")
-
-      if code and display and system and code not in seen_codes:
-        condition_dict["code"]["coding"].append({
-          "code": code,
-          "display": display,
-          "system": system
-        })
-        seen_codes.add(code)
-
-      translation = relation.get("translation")
-      if translation:
-        t_code = translation.get("code", "")
-        t_display = translation.get("display", "")
-        t_system = translation.get("systemName", "")
-
-        if t_code and t_display and t_system and t_code not in seen_codes:
-          condition_dict["code"]["coding"].append({
-            "code": t_code,
-            "display": t_display,
-            "system": t_system
-          })
-          seen_codes.add(t_code)
-
-  condition_dict["resourceType"] = "Condition"
   condition = Condition.parse_obj(condition_dict)
-  print(condition.json())
-
-    
+  print(condition.json(indent=2))
 
   
 def create_condition(file:dict, condition: dict):
@@ -353,7 +564,8 @@ def xml_to_dict(element):
     return data
 
 if __name__ == "__main__":
-  with open ('input_xml.xml', 'r') as f:
+  with open ('input_xml3.xml', 'r') as f:
     soup = BeautifulSoup(f.read(), 'xml')
     d = xml_to_dict(soup.ClinicalDocument)
+
   traverse(d)
