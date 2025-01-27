@@ -104,8 +104,62 @@ def tester(file, cond):
     if fc not in cond_codes:
       print(fc)
 
+def get_subject(cda_header: dict, path="ClinicalDocument.recordTarget[0].patientRole[0]") -> dict:
+  record_target = cda_header.get("recordTarget", {})
+  if isinstance(record_target, list):
+    record_target = record_target[0] if record_target else {}
+  patient_role = record_target.get("patientRole", {})
+  if isinstance(patient_role, list):
+    patient_role = patient_role[0] if patient_role else {}
+  patient_id = "unknown-patient"
+  pid_data = patient_role.get("id")
+  if isinstance(pid_data, list) and pid_data:
+    first_id = pid_data[0]
+    patient_id = (
+      first_id.get("root")
+      or first_id.get("extension")
+      or "unknown-patient"
+    )
+  elif isinstance(pid_data, dict):
+    patient_id = (
+      pid_data.get("root")
+      or pid_data.get("extension")
+      or "unknown-patient"
+    )
+  given_name = "Unknown"
+  family_name = "Unknown"
+  patient_data = patient_role.get("patient", {})
+  name_data = patient_data.get("name")
+  def get_text_field(val):
+    if isinstance(val, dict):
+      return val.get("content", "Unknown")
+    elif isinstance(val, list):
+      parts = []
+      for item in val:
+        if isinstance(item, dict):
+          parts.append(item.get("content", "Unknown"))
+        else:
+          parts.append(str(item))
+      return " ".join(x for x in parts if x)
+    elif isinstance(val, str):
+      return val
+    return "Unknown"
+  def parse_name_dict(name_dict: dict):
+    g = get_text_field(name_dict.get("given"))
+    f = get_text_field(name_dict.get("family"))
+    return g, f
+  if isinstance(name_data, list) and name_data:
+    given_name, family_name = parse_name_dict(name_data[0])
+  elif isinstance(name_data, dict):
+    given_name, family_name = parse_name_dict(name_data)
+  display_name = f"{given_name} {family_name}".strip()
+  return {
+    "reference": f"Patient/{patient_id}",
+    "display": display_name,
+    "xmlPath": path
+  }
 
-def get_subject(cda_header: dict) -> dict:
+#def get_subject(cda_header: dict) -> dict:
   record_target = cda_header.get("recordTarget", {})
   if isinstance(record_target, list):
     record_target = record_target[0] if record_target else {}
@@ -297,10 +351,9 @@ def create_problem_list(file: dict, condition_data: dict):
         for coding in relation["parsedCodings"]:
           code = coding.get("code", "")
           display = coding.get("display", "")
-          system = coding.get("codeSystemName", "")  # Changed from "systemName" to "codeSystemName"
+          system = coding.get("codeSystemName", "")
           system = system_urls.get(system.lower(), system)
           if code and code not in seen_codes:
-            # Ensure 'display' is not empty
             if not display:
               display = "Unknown"
             all_codings.append({
@@ -309,15 +362,13 @@ def create_problem_list(file: dict, condition_data: dict):
               "system": system
             })
             seen_codes.add(code)
-
   subject_data = get_subject(file)
   patient_id = subject_data.get("reference", "unknown-patient")
   patient_name = subject_data.get("display", "Unknown")
-
   condition_dict = {
     "resourceType": "Condition",
     "subject": {
-      "reference": f"Patient/{patient_id}",
+      "reference": patient_id,
       "display": patient_name
     },
     "clinicalStatus": {"coding": []},
@@ -333,10 +384,7 @@ def create_problem_list(file: dict, condition_data: dict):
       }
     ]
   }
-
-  allowed_statuses = [
-    "active","recurrence","relapse","inactive","remission","resolved","unknown"
-  ]
+  allowed_statuses = ["active","recurrence","relapse","inactive","remission","resolved","unknown"]
   if status and status.lower() in allowed_statuses:
     condition_dict["clinicalStatus"] = {
       "coding": [
@@ -347,14 +395,11 @@ def create_problem_list(file: dict, condition_data: dict):
         }
       ]
     }
-
   if all_codings:
     condition_dict["code"] = {"coding": all_codings}
-
   try:
     c_obj = Condition.parse_obj(condition_dict)
     output = json.loads(c_obj.json())
-    # Now re-add the path info
     path_list = []
     for act, act_path in all_acts:
       if "entryRelationship" in act:
@@ -362,18 +407,108 @@ def create_problem_list(file: dict, condition_data: dict):
         for relation in relations:
           for coding in relation["parsedCodings"]:
             path_list.append(coding.get("xmlPath"))
-
-    # Re-add path to output codes if lengths match
     if "code" in output and "coding" in output["code"]:
       codings_in_output = output["code"]["coding"]
       for i, c in enumerate(codings_in_output):
         if i < len(path_list):
           c["path"] = path_list[i]
+    output["subject"]["path"] = subject_data.get("xmlPath", "")
     print(json.dumps(output))
-
-    # print(tester(condition_data, json.dumps(output)))
   except Exception as e:
     print(json.dumps({"error": str(e)}))
+
+#def create_problem_list(file: dict, condition_data: dict):
+  # all_acts = traverse_prob_list(condition_data)
+  # all_codings = []
+  # seen_codes = set()
+  # status = ""
+  # for act, act_path in all_acts:
+  #   maybe_status = act.get("statusCode", {}).get("code", "")
+  #   if not status and maybe_status:
+  #     status = maybe_status
+  #   if "entryRelationship" in act:
+  #     relations = prob_list_entryrelationship(act["entryRelationship"], act_path + ".entryRelationship")
+  #     for relation in relations:
+  #       for coding in relation["parsedCodings"]:
+  #         code = coding.get("code", "")
+  #         display = coding.get("display", "")
+  #         system = coding.get("codeSystemName", "")  # Changed from "systemName" to "codeSystemName"
+  #         system = system_urls.get(system.lower(), system)
+  #         if code and code not in seen_codes:
+  #           # Ensure 'display' is not empty
+  #           if not display:
+  #             display = "Unknown"
+  #           all_codings.append({
+  #             "code": code,
+  #             "display": display,
+  #             "system": system
+  #           })
+  #           seen_codes.add(code)
+
+  # subject_data = get_subject(file)
+  # patient_id = subject_data.get("reference", "unknown-patient")
+  # patient_name = subject_data.get("display", "Unknown")
+
+  # condition_dict = {
+  #   "resourceType": "Condition",
+  #   "subject": {
+  #     "reference": f"Patient/{patient_id}",
+  #     "display": patient_name
+  #   },
+  #   "clinicalStatus": {"coding": []},
+  #   "category": [
+  #     {
+  #       "coding": [
+  #         {
+  #           "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+  #           "code": "problem-list-item",
+  #           "display": "Problem List Item"
+  #         }
+  #       ]
+  #     }
+  #   ]
+  # }
+
+  # allowed_statuses = [
+  #   "active","recurrence","relapse","inactive","remission","resolved","unknown"
+  # ]
+  # if status and status.lower() in allowed_statuses:
+  #   condition_dict["clinicalStatus"] = {
+  #     "coding": [
+  #       {
+  #         "code": status.lower(),
+  #         "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+  #         "display": status.capitalize()
+  #       }
+  #     ]
+  #   }
+
+  # if all_codings:
+  #   condition_dict["code"] = {"coding": all_codings}
+
+  # try:
+  #   c_obj = Condition.parse_obj(condition_dict)
+  #   output = json.loads(c_obj.json())
+  #   # Now re-add the path info
+  #   path_list = []
+  #   for act, act_path in all_acts:
+  #     if "entryRelationship" in act:
+  #       relations = prob_list_entryrelationship(act["entryRelationship"], act_path + ".entryRelationship")
+  #       for relation in relations:
+  #         for coding in relation["parsedCodings"]:
+  #           path_list.append(coding.get("xmlPath"))
+
+  #   # Re-add path to output codes if lengths match
+  #   if "code" in output and "coding" in output["code"]:
+  #     codings_in_output = output["code"]["coding"]
+  #     for i, c in enumerate(codings_in_output):
+  #       if i < len(path_list):
+  #         c["path"] = path_list[i]
+  #   print(json.dumps(output))
+
+  #   # print(tester(condition_data, json.dumps(output)))
+  # except Exception as e:
+  #   print(json.dumps({"error": str(e)}))
 
 def create_condition(file: dict, condition: dict):
   if condition['code']['code'] == '11450-4':
