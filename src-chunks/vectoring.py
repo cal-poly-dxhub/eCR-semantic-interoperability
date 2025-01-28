@@ -1,12 +1,15 @@
 import json
 import os
+import re
+import time
 from typing import Any
 
 import boto3
 import torch
-from transformers import BertModel, BertTokenizer
+from transformers import BertModel, BertTokenizer  # type: ignore
 
-model_id = "amazon.titan-embed-text-v1"
+embedding_model_id = "amazon.titan-embed-text-v2:0"
+llm_model_id = "anthropic.claude-3-5-sonnet-20241022-v2:0"
 client = boto3.client(  # type: ignore
     "bedrock-runtime",
     region_name="us-west-2",
@@ -23,54 +26,82 @@ bedrock = boto3.client(  # type: ignore
 
 
 def test_bedrock():
-    response = bedrock.list_foundation_models(  # type: ignore
-        byOutputModality="EMBEDDING",
-    )
+    response = bedrock.list_foundation_models()  # type: ignore
     summarries = response["modelSummaries"]  # type: ignore
     for model in summarries:  # type: ignore
-        print(model["modelName"], model["modelId"])  # type: ignore
-
-    """
-    Titan Text Embeddings v2 amazon.titan-embed-g1-text-02
-    Titan Embeddings G1 - Text amazon.titan-embed-text-v1:2:8k
-    Titan Embeddings G1 - Text amazon.titan-embed-text-v1
-    Titan Text Embeddings V2 amazon.titan-embed-text-v2:0
-    Titan Multimodal Embeddings G1 amazon.titan-embed-image-v1:0
-    Titan Multimodal Embeddings G1 amazon.titan-embed-image-v1
-    Embed English cohere.embed-english-v3:0:512
-    Embed English cohere.embed-english-v3
-    Embed Multilingual cohere.embed-multilingual-v3:0:512
-    Embed Multilingual cohere.embed-multilingual-v3
-    """
+        print(model["modelName"], "| model id:", model["modelId"])  # type: ignore
 
 
-def embed_text(data: str) -> dict[str, Any]:
-    # test_bedrock()
-    # exit(0)
-    native_request = {"inputText": data}
+def embed_text(data: dict[str, Any]) -> dict[str, Any]:
+    # bedrock
+    return get_bedrock_embeddings(data)
+
+    # local
+    # return get_biobert_embeddings(data)
+
+
+def get_all_categories() -> list[str]:
+    with open("assets/ecr_schema.json", "r") as f:
+        schema = json.load(f)
+    categories = schema["properties"]
+    return list(categories.keys())
+
+
+def get_category(text: str) -> str:
+    categories = get_all_categories()
+    prompt = "You are going to be given a block of text and a list of categories. You need to select the category that best describes the text. The categories are: "
+    for i, c in enumerate(categories):
+        prompt += f"{i+1}. {c}, "
+    prompt = prompt[:-2] + ".\n\n"
+    prompt += "Text block:\n"
+    prompt += text
+    prompt += "\n\nWhich category best describes the text? Please respond with the name of the category in XML format, e.g. <category>category_name</category>."
+
+    request_body = {  # type: ignore
+        "anthropic_version": "bedrock-2023-05-31",
+        "messages": [{"role": "user", "content": prompt}],
+        "max_tokens": 1000,
+    }
+
+    response = client.invoke_model(modelId=llm_model_id, body=json.dumps(request_body))  # type: ignore
+    response_body = json.loads(response["body"].read())  # type: ignore
+    print("got response, waiting 10 seconds")
+    time.sleep(10)
+    response_text = response_body["content"][0]["text"]
+    match = re.search(r"<category>(.*?)</category>", response_text)
+    if match:
+        return match.group(1)
+    return ""
+
+
+def get_bedrock_embeddings(data: dict[str, Any]) -> dict[str, Any]:
+    native_request = {"inputText": data["text"]}
     request = json.dumps(native_request)
 
-    response = client.invoke_model(modelId=model_id, body=request)  # type: ignore
+    response = client.invoke_model(modelId=embedding_model_id, body=request)  # type: ignore
     model_response = json.loads(response["body"].read())  # type: ignore
 
     embedding = model_response["embedding"]
-    input_token_count = model_response["inputTextTokenCount"]
+    # input_token_count = model_response["inputTextTokenCount"]
+    category = get_category(data["text"])
 
-    print("input:", data)
-    print(f"number of input tokens: {input_token_count}")
-    print(f"embedding size: {len(embedding)}")
-    print("embedding:", embedding[:10], "...")
+    r: dict[str, Any] = {
+        "chunk_id": data["chunk_id"],
+        "path": data["path"],
+        "chunk_size": data["chunk_size"],
+        "category": category,
+        "embedding": embedding,
+    }
 
-    return model_response
+    return r
 
 
 # LOCAL
 
-tokenizer = BertTokenizer.from_pretrained("dmis-lab/biobert-v1.1")  # type: ignore
-model = BertModel.from_pretrained("dmis-lab/biobert-v1.1")  # type: ignore
-
 
 def get_biobert_embeddings(data: dict[str, Any]) -> dict[str, Any]:
+    tokenizer = BertTokenizer.from_pretrained("dmis-lab/biobert-v1.1")  # type: ignore
+    model = BertModel.from_pretrained("dmis-lab/biobert-v1.1")  # type: ignore
     # Tokenize the text
     text: str = data["text"]
     inputs = tokenizer(  # type: ignore
@@ -92,7 +123,13 @@ def get_biobert_embeddings(data: dict[str, Any]) -> dict[str, Any]:
         "chunk_id": data["chunk_id"],
         "path": data["path"],
         "chunk_size": data["chunk_size"],
+        # TODO: add category
+        "category": "",
         "embedding": embeddings,
     }
 
     return r  # type: ignore
+
+
+if __name__ == "__main__":
+    test_bedrock()

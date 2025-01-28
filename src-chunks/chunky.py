@@ -16,7 +16,7 @@ def manipulate_tag(tag: str) -> str:
 
 def chunkify_by_hierarchy(
     element: ET.Element,
-    max_chunk_size: int = 1000,
+    max_chunk_size: int,
 ) -> list[dict[str, Any]]:
     """
     chunk the document dynamically based on the xml hierarchy
@@ -32,7 +32,6 @@ def chunkify_by_hierarchy(
         parent_path: str,
     ):
         nonlocal current_chunk, current_chunk_size, chunk_id
-
         if el.text:
             clean_el_text = clean_text(el.text)
             clean_el_text_length = len(clean_el_text)
@@ -59,11 +58,14 @@ def chunkify_by_hierarchy(
                     current_chunk_size = clean_el_text_length
 
     def traverse_xml_tree(el: ET.Element, parent_path: str):
-        manipulated_tag = manipulate_tag(el.tag)
+        # manipulated_tag = manipulate_tag(el.tag)
         process_element(el, parent_path)
 
         for child in el:
-            new_parent_path = parent_path + "." + manipulated_tag
+            child_tag = manipulate_tag(child.tag)
+            siblings = [c for c in el if manipulate_tag(c.tag) == child_tag]
+            index = siblings.index(child)
+            new_parent_path = f"{parent_path}.{child_tag}.{index}"
             traverse_xml_tree(child, new_parent_path)
 
     traverse_xml_tree(element, "root")
@@ -84,7 +86,7 @@ def chunkify_by_hierarchy(
 
 
 def extract_relevant_chunks(
-    filename: str, max_chunk_size: int = 1000
+    filename: str, max_chunk_size: int = 6000
 ) -> list[dict[str, Any]]:
     """
     extract chunks of the document using XML parsing and dynamic chunking
