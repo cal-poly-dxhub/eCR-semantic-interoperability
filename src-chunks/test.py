@@ -4,7 +4,7 @@ import sys
 from typing import Any
 
 import numpy as np  # type: ignore
-from chunky2 import extract_relevant_chunks
+from chunky import extract_relevant_chunks
 from pathy import get_clickable_chunk, parse_xml_path
 from transform import get_matching_schema, transform_table_to_json
 from vectoring import embed_text
