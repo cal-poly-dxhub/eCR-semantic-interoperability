@@ -8,7 +8,6 @@ from fhir.resources.address import Address
 from fhir.resources.condition import Condition
 from fhir.resources import fhirtypes
 
-
 from fhir_core.types import CodeType
 
 
@@ -22,6 +21,8 @@ from bs4 import BeautifulSoup
 import json
 
 import re
+
+import sys
 
 objects = {'encounters': [], 'observations' : [], 'conditions' : []}
 encounter_ids = ['2.16.840.1.113883.10.20.22.2.22.1', '2.16.840.1.113883.10.20.22.4.49', '2.16.840.1.113883.10.20.22.4.41']
@@ -243,8 +244,6 @@ def traverse_prob_list(section: dict, path="ClinicalDocument.component.structure
           acts.append((act, f"{path}.entry[{i}].act"))
   return acts
 
-
-
 def extract_single_entryrelationship(relation: dict, path: str) -> dict:
   """
   Parses a single <observation>, <procedure>, <substanceAdministration>, <act>, or <organizer>.
@@ -355,12 +354,16 @@ def create_problem_list(file: dict, condition_data: dict):
           system = system_urls.get(system.lower(), system)
           if code and code not in seen_codes:
             if not display:
-              display = "Unknown"
-            all_codings.append({
+              all_codings.append({
               "code": code,
-              "display": display,
               "system": system
             })
+            else:
+              all_codings.append({
+                "code": code,
+                "display": display,
+                "system": system
+              })
             seen_codes.add(code)
   subject_data = get_subject(file)
   patient_id = subject_data.get("reference", "unknown-patient")
@@ -556,7 +559,14 @@ def xml_to_dict(element):
 
 
 if __name__ == "__main__":
-  with open ('input_xml3.xml', 'r') as f:
+  if len(sys.argv) < 2:
+    print("Error: Please specify an input file")
+    print("Usage: python script.py <input_file>")
+    sys.exit(1)
+    
+  input_file = sys.argv[1]
+    
+  with open(input_file, 'r') as f:
     soup = BeautifulSoup(f.read(), 'xml')
     d = xml_to_dict(soup.ClinicalDocument)
 
