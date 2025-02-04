@@ -1,17 +1,7 @@
 import json
-import os
-import time
 from typing import Any
 
-import boto3
-
-llm_model_id = "anthropic.claude-3-5-sonnet-20241022-v2:0"
-client = boto3.client(  # type: ignore
-    "bedrock-runtime",
-    region_name="us-west-2",
-    aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
-    aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
-)
+from bedrock import invoke_llm
 
 
 def transform_text_to_xml(text: str) -> str:
@@ -60,8 +50,7 @@ def transform_table_to_json(text: str, schema: dict[str, Any]) -> dict[str, Any]
         "max_tokens": 1000,
     }
 
-    time.sleep(10)
-    response = client.invoke_model(modelId=llm_model_id, body=json.dumps(request_body))  # type: ignore
+    response = invoke_llm(json.dumps(request_body))
     response_body = json.loads(response["body"].read())  # type: ignore
     response_text = response_body["content"][0]["text"]
 
