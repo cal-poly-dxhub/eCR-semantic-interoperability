@@ -3,7 +3,7 @@ import os
 import sys
 
 from chunky import extract_relevant_chunks
-from vectoring import embed_text, get_biobert_embeddings  # type: ignore
+from vectoring import embed_text  # type: ignore
 
 pathext = "out/"
 embeddings_path = "embeddings/"
