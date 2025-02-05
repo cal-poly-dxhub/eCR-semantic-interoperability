@@ -2,9 +2,8 @@ import json
 import re
 from typing import Any
 
-import torch
+
 from bedrock import invoke_embedding, invoke_llm
-from transformers import BertModel, BertTokenizer  # type: ignore
 
 
 def embed_text(data: dict[str, Any]) -> dict[str, Any]:
@@ -67,38 +66,3 @@ def get_bedrock_embeddings(data: dict[str, Any]) -> dict[str, Any]:
     }
 
     return r
-
-
-# LOCAL
-
-
-def get_biobert_embeddings(data: dict[str, Any]) -> dict[str, Any]:
-    tokenizer = BertTokenizer.from_pretrained("dmis-lab/biobert-v1.1")  # type: ignore
-    model = BertModel.from_pretrained("dmis-lab/biobert-v1.1")  # type: ignore
-    # Tokenize the text
-    text: str = data["text"]
-    inputs = tokenizer(  # type: ignore
-        text, return_tensors="pt", truncation=True, padding=True, max_length=512
-    )
-
-    # Get the embeddings from BioBERT
-    with torch.no_grad():  # type: ignore
-        outputs = model(**inputs)  # type: ignore
-
-    # The embeddings are in outputs[0], which is the hidden states of the model
-    # You can use the last hidden state or pooler_output
-    embeddings = outputs.last_hidden_state.mean(  # type: ignore
-        dim=1
-    ).squeeze()  # Using mean of token embeddings
-
-    embeddings = embeddings.tolist()  # type: ignore
-    r = {  # type: ignore
-        "chunk_id": data["chunk_id"],
-        "path": data["path"],
-        "chunk_size": data["chunk_size"],
-        # TODO: add category
-        "category": "",
-        "embedding": embeddings,
-    }
-
-    return r  # type: ignore
