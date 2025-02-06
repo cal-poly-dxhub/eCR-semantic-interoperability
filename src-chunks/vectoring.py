@@ -2,28 +2,26 @@ import json
 import re
 from typing import Any
 
-import torch
 from bedrock import invoke_embedding, invoke_llm
-from transformers import BertModel, BertTokenizer  # type: ignore
+
+# choose schema type between "hl7" and "ecr" (makedata golden template)
+SCHEMA_TYPE = "hl7"
 
 
 def embed_text(data: dict[str, Any]) -> dict[str, Any]:
     # bedrock
     return get_bedrock_embeddings(data)
 
-    # local
-    # return get_biobert_embeddings(data)
 
-
-def get_all_categories() -> list[str]:
-    with open("assets/ecr_schema.json", "r") as f:
+def get_categories_from_file(type: str) -> list[str]:
+    with open(f"assets/{type}_schema.json", "r") as f:
         schema = json.load(f)
     categories = schema["properties"]
     return list(categories.keys())
 
 
 def get_category(text: str) -> str:
-    categories = get_all_categories()
+    categories = get_categories_from_file(SCHEMA_TYPE)
     prompt = "You are going to be given a block of text and a list of categories. You need to select the category that best describes the text. The categories are: "
     for i, c in enumerate(categories):
         prompt += f"{i+1}. {c}, "
@@ -38,7 +36,9 @@ def get_category(text: str) -> str:
         "max_tokens": 1000,
     }
 
-    response = invoke_llm(request_body, "amazon.nova-lite-v1:0")
+    response = invoke_llm(
+        json.dumps(request_body), "anthropic.claude-3-haiku-20240307-v1:0"
+    )
     response_body = json.loads(response["body"].read())  # type: ignore
     response_text = response_body["content"][0]["text"]
     match = re.search(r"<category>(.*?)</category>", response_text)
@@ -67,38 +67,3 @@ def get_bedrock_embeddings(data: dict[str, Any]) -> dict[str, Any]:
     }
 
     return r
-
-
-# LOCAL
-
-
-def get_biobert_embeddings(data: dict[str, Any]) -> dict[str, Any]:
-    tokenizer = BertTokenizer.from_pretrained("dmis-lab/biobert-v1.1")  # type: ignore
-    model = BertModel.from_pretrained("dmis-lab/biobert-v1.1")  # type: ignore
-    # Tokenize the text
-    text: str = data["text"]
-    inputs = tokenizer(  # type: ignore
-        text, return_tensors="pt", truncation=True, padding=True, max_length=512
-    )
-
-    # Get the embeddings from BioBERT
-    with torch.no_grad():  # type: ignore
-        outputs = model(**inputs)  # type: ignore
-
-    # The embeddings are in outputs[0], which is the hidden states of the model
-    # You can use the last hidden state or pooler_output
-    embeddings = outputs.last_hidden_state.mean(  # type: ignore
-        dim=1
-    ).squeeze()  # Using mean of token embeddings
-
-    embeddings = embeddings.tolist()  # type: ignore
-    r = {  # type: ignore
-        "chunk_id": data["chunk_id"],
-        "path": data["path"],
-        "chunk_size": data["chunk_size"],
-        # TODO: add category
-        "category": "",
-        "embedding": embeddings,
-    }
-
-    return r  # type: ignore
