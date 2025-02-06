@@ -5,8 +5,10 @@ from typing import Any
 
 import numpy as np  # type: ignore
 from chunky import extract_relevant_chunks
-from pathy import get_clickable_chunk, parse_xml_path
-from transform import get_matching_schema, transform_table_to_json
+from pathy import get_clickable_chunk, get_xml_element, parse_xml_path  # type: ignore
+from transform import etree_transform_data_to_json  # type: ignore
+from transform import llm_transform_data_to_json  # type: ignore
+from transform import get_matching_schema
 from vectoring import embed_text
 
 
@@ -48,8 +50,8 @@ if __name__ == "__main__":
     with open("out/chunks.json", "w") as f:
         json.dump(chunks, f)
 
+    # choose between hl7 and ecr (makedata golden template) schemas in vectoring.py
     test_file_embeddings = [embed_text(chunk) for chunk in chunks]
-
     similarities: list[dict[str, Any]] = []
 
     for i, tfe in enumerate(test_file_embeddings):
@@ -99,10 +101,10 @@ if __name__ == "__main__":
     print("-" * 120)
     print(f"best match: {best_match['similarity']}")
     print(
-        f"test chunk: {parse_xml_path(best_match['test_file']['file'], best_match['test_file']['path'])}"
+        f"test chunk: \"{parse_xml_path(best_match['test_file']['file'], best_match['test_file']['path'])}\""
     )
     print(
-        f"existing chunk: {get_clickable_chunk(best_match['existing_file']['file'], best_match['existing_file']['chunk_id'])}"
+        f"existing chunk: \"{get_clickable_chunk(best_match['existing_file']['file'], best_match['existing_file']['chunk_id'])}\""
     )
     print("-" * 120)
 
@@ -115,7 +117,15 @@ if __name__ == "__main__":
     text = d[best_match_chunk_id]["text"]
 
     # transform the text into a json object
-    j = transform_table_to_json(text, best_match_schema)
-    print(j)
-    with open("out/json_object.json", "w") as f:
+    # j = llm_transform_data_to_json(text, best_match_schema)
+
+    # transform the file and path into a json object
+    print(f"schema: {best_match_schema}")
+    test_file_path = best_match["test_file"]["path"]
+    closest_section_path = test_file_path.split(".section.")[0] + ".section"
+    element = get_xml_element(file, closest_section_path)  # type: ignore
+    j = etree_transform_data_to_json(element)  # type: ignore
+    # add category to json
+    with open(f"out/json_object.json", "w") as f:
         json.dump(j, f, indent=4)
+    print(f"exported to out/json_object.json")

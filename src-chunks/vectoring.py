@@ -2,27 +2,26 @@ import json
 import re
 from typing import Any
 
-
 from bedrock import invoke_embedding, invoke_llm
+
+# choose schema type between "hl7" and "ecr" (makedata golden template)
+SCHEMA_TYPE = "hl7"
 
 
 def embed_text(data: dict[str, Any]) -> dict[str, Any]:
     # bedrock
     return get_bedrock_embeddings(data)
 
-    # local
-    # return get_biobert_embeddings(data)
 
-
-def get_all_categories() -> list[str]:
-    with open("assets/ecr_schema.json", "r") as f:
+def get_categories_from_file(type: str) -> list[str]:
+    with open(f"assets/{type}_schema.json", "r") as f:
         schema = json.load(f)
     categories = schema["properties"]
     return list(categories.keys())
 
 
 def get_category(text: str) -> str:
-    categories = get_all_categories()
+    categories = get_categories_from_file(SCHEMA_TYPE)
     prompt = "You are going to be given a block of text and a list of categories. You need to select the category that best describes the text. The categories are: "
     for i, c in enumerate(categories):
         prompt += f"{i+1}. {c}, "
@@ -37,7 +36,9 @@ def get_category(text: str) -> str:
         "max_tokens": 1000,
     }
 
-    response = invoke_llm(request_body, "amazon.nova-lite-v1:0")
+    response = invoke_llm(
+        json.dumps(request_body), "anthropic.claude-3-haiku-20240307-v1:0"
+    )
     response_body = json.loads(response["body"].read())  # type: ignore
     response_text = response_body["content"][0]["text"]
     match = re.search(r"<category>(.*?)</category>", response_text)
