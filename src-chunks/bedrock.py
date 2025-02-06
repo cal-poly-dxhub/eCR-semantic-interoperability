@@ -1,5 +1,5 @@
-import json
 import os
+import time
 from typing import Any
 
 import boto3
@@ -30,11 +30,18 @@ def test_bedrock():
         print(model["modelName"], "| model id:", model["modelId"])  # type: ignore
 
 
-def invoke_llm(body: Any, modelId: str = "", retries: int = 0) -> Any:
+def invoke_llm(body: Any, modelId: str = llm_model_id, retries: int = 0) -> Any:
     print("invoking llm, retries:", retries)
     try:
-        return client.invoke_model(modelId=llm_model_id, body=json.dumps(body))  # type: ignore
+        return client.invoke_model(modelId=modelId, body=body)  # type: ignore
     except Exception as e:
+        if "(ThrottlingException)" in str(e) and retries < 3:
+            time.sleep((retries + 1) * 8)
+            return invoke_llm(
+                body,
+                modelId,
+                retries + 1,
+            )
         print(e)
         exit(1)
 
@@ -44,6 +51,12 @@ def invoke_embedding(body: Any, retries: int = 0) -> Any:
     try:
         return client.invoke_model(modelId=embedding_model_id, body=body)  # type: ignore
     except Exception as e:
+        if "(ThrottlingException)" in str(e) and retries < 3:
+            time.sleep((retries + 1) * 8)
+            return invoke_embedding(
+                body,
+                retries + 1,
+            )
         print(e)
         exit(1)
 

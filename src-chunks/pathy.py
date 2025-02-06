@@ -3,9 +3,9 @@ import sys
 from lxml import etree  # type: ignore
 
 
-def parse_xml_path(filepath: str, path: str) -> str:
-    """ "
-    parses an xml file and returns a string of file, line number, character
+def get_xml_element(filepath: str, path: str) -> etree.Element:  # type: ignore
+    """
+    parses an xml file and returns the element at the given path
     """
     parser = etree.XMLParser(remove_blank_text=True)  # type: ignore # To preserve line numbers
     tree = etree.parse(filepath, parser)  # type: ignore
@@ -19,6 +19,14 @@ def parse_xml_path(filepath: str, path: str) -> str:
         elif part.isdigit():
             element = element[int(part)]  # type: ignore
 
+    return element
+
+
+def parse_xml_path(filepath: str, path: str) -> str:
+    """ "
+    parses an xml file and returns a string of file, line number, character
+    """
+    element = get_xml_element(filepath, path)  # type: ignore
     return f"{filepath}, {element.sourceline}"  # type: ignore
 
 
