@@ -141,6 +141,77 @@ def chunkify_by_hierarchy(
 
     return chunks
 
+def chunkify_by_hierarchy_text_tables(
+  element: ET.Element,
+  max_chunk_size: int,
+  include_tables: bool = True,
+  include_text: bool = True
+) -> list[dict[str, Any]]:
+  """
+  Dynamically chunks the document based on the XML hierarchy.
+  It can extract:
+    - <table> elements (if include_tables is True)
+    - <text> elements that do not contain any <table> descendants (if include_text is True)
+  """
+  chunks: list[dict[str, Any]] = []
+  chunk_id = 0
+
+  def process_element(el: ET.Element, parent_path: str):
+    nonlocal chunk_id
+    if include_tables and el.tag.endswith("table"):
+      t = table_to_list(el)
+      chunk = chunkify_table_list(t, max_chunk_size)
+      if chunk:
+        combined_text = " ".join(chunk)
+        chunks.append({
+          "chunk_id": chunk_id,
+          "text": combined_text,
+          "path": parent_path,
+          "chunk_size": len(combined_text),
+        })
+        chunk_id += 1
+
+    if include_text and el.tag.endswith("text") and el.find('.//table') is None:
+      if el.text and el.text.strip():
+        clean_el_text = clean_text(el.text)
+        clean_el_text_length = len(clean_el_text)
+        if clean_el_text_length > 0:
+          if clean_el_text_length <= max_chunk_size:
+            chunks.append({
+              "chunk_id": chunk_id,
+              "text": clean_el_text,
+              "path": parent_path,
+              "chunk_size": clean_el_text_length,
+            })
+            chunk_id += 1
+          else:
+            # If the text exceeds max_chunk_size, split it into smaller chunks.
+            start = 0
+            while start < clean_el_text_length:
+              end = start + max_chunk_size
+              chunk_text = clean_el_text[start:end]
+              chunks.append({
+                "chunk_id": chunk_id,
+                "text": chunk_text,
+                "path": parent_path,
+                "chunk_size": len(chunk_text),
+              })
+              chunk_id += 1
+              start = end
+
+  def traverse_xml_tree(el: ET.Element, parent_path: str):
+    process_element(el, parent_path)
+    for child in el:
+      child_tag = manipulate_tag(child.tag)
+      siblings = [c for c in el if manipulate_tag(c.tag) == child_tag]
+      index = siblings.index(child)
+      if len(siblings) > 1:
+        child_tag = f"{index}"
+      new_parent_path = f"{parent_path}.{child_tag}"
+      traverse_xml_tree(child, new_parent_path)
+
+  traverse_xml_tree(element, "root")
+  return chunks
 
 def extract_relevant_chunks(
     filename: str, max_chunk_size: int = 6000
@@ -151,4 +222,5 @@ def extract_relevant_chunks(
     tree = ET.parse(filename)
     root = tree.getroot()
     chunks = chunkify_by_hierarchy(root, max_chunk_size)
+    # chunks = chunkify_by_hierarchy_text_tables(root, max_chunk_size, False, True)
     return chunks
