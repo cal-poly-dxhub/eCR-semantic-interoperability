@@ -221,6 +221,6 @@ def extract_relevant_chunks(
     """
     tree = ET.parse(filename)
     root = tree.getroot()
-    chunks = chunkify_by_hierarchy(root, max_chunk_size)
-    # chunks = chunkify_by_hierarchy_text_tables(root, max_chunk_size, False, True)
+    # chunks = chunkify_by_hierarchy(root, max_chunk_size)
+    chunks = chunkify_by_hierarchy_text_tables(root, max_chunk_size, False, True)
     return chunks
