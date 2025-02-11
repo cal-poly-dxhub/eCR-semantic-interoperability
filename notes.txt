@@ -1,0 +1,14 @@
+golden:
+beautiful frontend report
+- grab ecrs from an s3 bucket
+structures + dispay reconstructed entire document (all chunks)
+ - underlying thing is the reconstructed json
+ - citation links back to original xml documents
+ - demonstrate llm inference on xml text segment
+  - ex: pregnancy, travel histpry, occupation (make up data if need be) ask llm for value (haiku 3.5 on every open ended text field for the questions too)
+    - is patient pregnant
+    - does patient have recent travel history (yes/no, where, when)
+    - does patient have occupation
+  - update underlying json (pregnant: true (gotten from llm inference) (citable))
+  - throw in snomed/loinc if applicable
+- show that any provider sample can be tested with (test with nevada and florida)
