@@ -68,6 +68,46 @@ def llm_transform_data_to_json(data: str, schema: dict[str, Any]) -> dict[str, A
     return j
 
 
+def attrib_nesting_helper(element: etree.Element) -> dict[str, Any]:  # type: ignore
+    """
+    helper function to transform a etree.Element's attributes to a json object, including attributes
+    """
+    json_data = {}
+    for attr_name, attr_value in element.attrib.items():  # type: ignore
+        json_data[attr_name] = attr_value  # type: ignore
+    return json_data  # type: ignore
+
+
+def etree_table_helper(element: etree.Element, headers: list[str] = []) -> dict[str, Any]:  # type: ignore
+    """
+    helper function to transform a etree.Element's table to a json object, including attributes
+    """
+    json_data = {}
+    for child in element:  # type: ignore
+        if child.tag.endswith("colgroup"):  # type: ignore
+            continue
+        if child.tag.endswith("thead"):  # type: ignore
+            for tr in child:  # type: ignore
+                for _, cell in enumerate(tr):  # type: ignore
+                    headers.append(cell.text)  # type: ignore
+            # continue
+
+        # if child.tag.endswith("tbody"):  # type: ignore
+        #     for tr in child:  # type: ignore
+        #         for i, td in enumerate(tr):  # type: ignore
+        #             if len(td) > 0:  # type: ignore
+        #                 json_data[child.tag[16:]] = etree_table_helper(td, headers)  # type: ignore
+        #             else:
+        #                 json_data[child.tag[16:]] = td.text  # type: ignore
+
+        if len(child) > 0:  # type: ignore
+            json_data[child.tag[16:]] = etree_table_helper(child, headers)  # type: ignore
+        else:
+            json_data[child.tag[16:]] = child.text  # type: ignore
+
+    return json_data  # type: ignore
+
+
 def etree_transform_data_to_json(element: etree.Element) -> dict[str, Any]:  # type: ignore
     """
     transform a etree.Element to a json object, including attributes
@@ -83,3 +123,23 @@ def etree_transform_data_to_json(element: etree.Element) -> dict[str, Any]:  # t
             json_data[child.tag[16:] + "_" + attr_name] = attr_value  # type: ignore
 
     return json_data  # type: ignore
+
+
+# def etree_transform_data_to_json(element: etree.Element) -> dict[str, Any]:  # type: ignore
+#     """
+#     transform a etree.Element to a json object, including attributes
+#     """
+#     json_data = {}
+#     for child in element:  # type: ignore
+#         if len(child) > 0:  # type: ignore
+#             json_data[child.tag[16:]] = etree_transform_data_to_json(child)  # type: ignore
+#         else:
+#             json_data[child.tag[16:]] = child.text  # type: ignore
+
+#         # if child.tag.endswith("table"):  # type: ignore
+#         #     json_data[child.tag[16:]] = etree_table_helper(child)  # type: ignore
+
+#         if child.attrib:  # type: ignore
+#             json_data[child.tag[16:]] = attrib_nesting_helper(child)  # type: ignore
+
+#     return json_data  # type: ignore
