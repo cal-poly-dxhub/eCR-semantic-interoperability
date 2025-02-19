@@ -1,4 +1,5 @@
 import json
+import sys
 from typing import Any
 
 from bedrock import invoke_llm
@@ -100,14 +101,38 @@ def etree_table_helper(element: etree.Element, headers: list[str] = []) -> dict[
     return table_list  # type: ignore
 
 
+def etree_text_helper(element: etree.Element) -> dict[str, Any]:  # type: ignore
+    """
+    helper function to transform a etree.Element's text to a json object, including attributes
+    """
+    json_data = {}
+    for child in element:  # type: ignore
+        if child.tag.endswith("table"):  # type: ignore
+            json_data[child.tag[16:]] = etree_table_helper(child)  # type: ignore
+
+        if len(child) > 0:  # type: ignore
+            json_data[child.tag[16:]] = etree_transform_data_to_json(child)  # type: ignore
+
+        else:
+            if child.text is not None:  # type: ignore
+                json_data[child.tag[16:]] = {  # type: ignore
+                    ".text": child.text,  # type: ignore
+                    **attrib_nesting_helper(child),  # type: ignore
+                }  # type: ignore
+            else:
+                json_data[child.tag[16:]] = attrib_nesting_helper(child)  # type: ignore
+
+    return json_data  # type: ignore
+
+
 def etree_transform_data_to_json(element: etree.Element) -> dict[str, Any]:  # type: ignore
     """
     transform a etree.Element to a json object, including attributes
     """
     json_data = {}
     for child in element:  # type: ignore
-        if child.tag.endswith("table"):  # type: ignore
-            json_data[child.tag[16:]] = etree_table_helper(child)  # type: ignore
+        if child.tag.endswith("text"):  # type: ignore
+            json_data[child.tag[16:]] = etree_text_helper(child)  # type: ignore
 
         elif len(child) > 0:  # type: ignore
             json_data[child.tag[16:]] = etree_transform_data_to_json(child)  # type: ignore
@@ -122,3 +147,18 @@ def etree_transform_data_to_json(element: etree.Element) -> dict[str, Any]:  # t
                 json_data[child.tag[16:]] = attrib_nesting_helper(child)  # type: ignore
 
     return json_data  # type: ignore
+
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("usage: python transform.py <filepath>")
+        exit(1)
+
+    filepath = sys.argv[1]
+    with open(filepath, "r") as f:
+        parser = etree.XMLParser(remove_blank_text=True)  # type: ignore # To preserve line numbers
+        tree = etree.parse(filepath, parser)  # type: ignore
+    j = etree_transform_data_to_json(tree.getroot())  # type: ignore
+
+    with open("out/transform.json", "w") as f:
+        json.dump(j, f, indent=2)
