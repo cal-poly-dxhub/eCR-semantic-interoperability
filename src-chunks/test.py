@@ -227,15 +227,14 @@ if __name__ == "__main__":
   
   file = sys.argv[1]
 
-  # 1) Extract all chunks from the XML, which may include text and/or tables.
   chunks = extract_relevant_chunks(file)
   with open("out/chunks.json", "w") as f:
     json.dump(chunks, f)
 
-  # 2) Embed each chunk (text or table).
+  
   test_file_embeddings = [embed_text(chunk) for chunk in chunks]
 
-  # 3) Load all known embeddings and compute cosine similarities, for possible table usage.
+  
   existing_embeddings = load_all_embeddings()
   similarities: list[dict[str, Any]] = []
   for i, tfe in enumerate(test_file_embeddings):
@@ -265,11 +264,11 @@ if __name__ == "__main__":
   with open("out/similarities.json", "w") as f:
     json.dump(truncated, f, indent=4)
 
-  # 4) Identify table vs text chunks by checking the last component in chunk["path"].
+
   text_indices = [i for i, c in enumerate(chunks) if c["path"].split(".")[-1].lower() == "text"]
   table_indices = [i for i, c in enumerate(chunks) if c["path"].split(".")[-1].lower() == "table"]
 
-  # 5) For table chunks, pick the best match by similarity and transform only that chunk.
+ 
   best_table_record = None
   if table_indices:
     # Filter similarities to only those that reference a table chunk
@@ -287,16 +286,16 @@ if __name__ == "__main__":
       best_table_record["text"] = chunks[best_id]["text"]
       best_table_record["path"] = chunks[best_id]["path"]
 
-  # 6) For text chunks, call LLM per chunk, transform their parent XML, and store all in a list.
+  
   text_segment_records = []
   for i in text_indices:
     chunk = chunks[i]
     if "text" in chunk and chunk["text"]:
-      # Ask LLM
+    
       answers = ask_llm_additional_questions(chunk["text"])
       chunk["llm_answers"] = answers
 
-      # Get parent
+
       section_path = ".".join(chunk["path"].split(".")[:-1])
       try:
         element = get_xml_element(file, section_path)
@@ -308,9 +307,7 @@ if __name__ == "__main__":
       record["inference_answers"] = chunk.get("llm_answers", {})
       text_segment_records.append(record)
 
-  # 7) Build final output object:
-  #    - "best_match_table" -> whichever single chunk had the highest similarity among table chunks
-  #    - "text_segments" -> array of all text chunk transformations
+
   final_output = {}
   if best_table_record:
     final_output["best_match_table"] = best_table_record
@@ -319,7 +316,6 @@ if __name__ == "__main__":
 
   final_output["text_segments"] = text_segment_records
 
-  # 8) Write the final JSON output as a single object containing both the table record and text array.
   with open("out/json_object.json", "w") as f:
     json.dump(final_output, f, indent=4)
 
