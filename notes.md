@@ -4,13 +4,13 @@
 
 ### frontend
 
-- beautiful frontend report
-- display reconstructed entire document (all chunks)
-- citation links back to original xml documents
+- **_beautiful frontend report_**
+- **_display reconstructed entire document (all chunks)_**
+- **_citation links back to original xml documents_**
 
 ### backend
 
-- grab ecrs from an s3 bucket
+- **_grab ecrs from an s3 bucket_**
 - demonstrate llm inference on xml text segment
   - ex: pregnancy, travel history, occupation (make up data if need be) ask llm for value (haiku 3.5 on every open ended text field for the questions too)
   - is patient pregnant
@@ -18,7 +18,6 @@
   - does patient have occupation
 - underlying thing is the reconstructed json
 - throw in snomed/loinc if applicable
-
 - update underlying json (pregnant: true (gotten from llm inference) (citable))
 
 ### vaidation

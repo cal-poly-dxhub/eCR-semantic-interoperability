@@ -27,7 +27,7 @@ def table_to_list(element: ET.Element) -> list[list[str]]:
     td = table.find_all("td")  # type: ignore
     headers = [clean_text(h.text) for h in th]
     rows: list[list[str]] = []
-    for i in range(0, len(td), len(headers)):
+    for i in range(0, len(td)):
         row = [clean_text(cell.text) for cell in td[i : i + len(headers)]]
         rows.append(row)
 
