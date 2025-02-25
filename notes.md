@@ -4,9 +4,10 @@
 
 ### frontend
 
-- **_beautiful frontend report_**
+- nevada doesnt care about frontend for now
+<!-- - **_beautiful frontend report_**
 - **_display reconstructed entire document (all chunks)_**
-- **_citation links back to original xml documents_**
+- **_citation links back to original xml documents_** -->
 
 ### backend
 
@@ -24,4 +25,11 @@
 
 - groud truth data
 - take known fake patient data
--
+- get synthetic data from s3
+
+### security
+
+- validation
+- application used
+- ports used
+- aws services used
