@@ -134,6 +134,9 @@ def etree_transform_data_to_json(element: etree.Element) -> dict[str, Any]:  # t
         if child.tag.endswith("text"):  # type: ignore
             json_data[child.tag[16:]] = etree_text_helper(child)  # type: ignore
 
+        if child.tag.endswith("table"):  # type: ignore
+            json_data[child.tag[16:]] = etree_table_helper(child)  # type: ignore
+
         elif len(child) > 0:  # type: ignore
             json_data[child.tag[16:]] = etree_transform_data_to_json(child)  # type: ignore
 

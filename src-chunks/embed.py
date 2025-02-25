@@ -3,7 +3,7 @@ import os
 import sys
 
 from chunky import extract_relevant_chunks
-from vectoring import embed_text
+from vectoring import get_bedrock_embeddings_with_category
 
 pathext = "out/"
 
@@ -28,7 +28,7 @@ if __name__ == "__main__":
         json.dump(chunks, f)
 
     # choose between hl7 and ecr (makedata golden template) schemas in vectoring.py
-    embeddings = [embed_text(chunk) for chunk in chunks]
+    embeddings = [get_bedrock_embeddings_with_category(chunk) for chunk in chunks]
     output_path = "embeddings/" + file[7:].replace(".xml", ".json")
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, "w") as f:
