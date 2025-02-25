@@ -33,3 +33,12 @@
 - application used
 - ports used
 - aws services used
+
+#### new idea
+
+- use embedding pipeline to get category of data
+- use llm inference to get answers to 4 questions
+- create new xml document with
+  - category of data
+  - original xml section chunk
+  - llm inference answers
