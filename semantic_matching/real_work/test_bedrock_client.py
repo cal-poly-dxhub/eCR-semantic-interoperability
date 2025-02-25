@@ -69,14 +69,22 @@ def main():
     job_id = client.create_batch_inference_job(job_name, input_location, output_location, role_arn)
     final_status = client.monitor_job_status(job_id)
     
-    if final_status == 'COMPLETED':
+    print(f"{final_status=}")
+    if 'Complete' in final_status:
         print("\nBatch job completed successfully!")
         results = client.download_batch_results(bucket_name)
         print(f"Downloaded {len(results)} results from S3")
         print("\nSample Result:")
-        print(json.dumps(results[0], indent=2))
-    else:
-        print(f"Batch job failed with status: {final_status}")
+        if results:  # Add safety check
+            sample_result = results[0]
+            # Parse the result based on your needs
+            print(json.dumps({
+                "modelInput": sample_result.get("modelInput"),
+                "modelOutput": sample_result.get("modelOutput")
+            }, indent=2))
+        else:
+            print("No results found")
+
 
 if __name__ == "__main__":
     main()
