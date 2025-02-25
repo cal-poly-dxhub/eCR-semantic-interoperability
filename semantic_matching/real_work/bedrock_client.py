@@ -8,6 +8,7 @@ import logging
 from pathlib import Path
 from typing import List, Dict, Any
 import json_lines
+from tqdm import tqdm
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -333,7 +334,7 @@ class BedrockClient:
         logger.info(f"Generating embeddings for {len(texts)} texts in file: {filename}")
         try:
             embeddings = []
-            for text in texts:
+            for text in tqdm(texts, desc="Generating embeddings", unit="text"):
                 response = self.single_bedrock_client.invoke_model(
                     modelId=self.embeddings_model_id,
                     body=json.dumps({
@@ -350,7 +351,7 @@ class BedrockClient:
                         "embedding": result['embeddings'][0]
                     }, f)
                     f.write('\n')
-            
+
             logger.info(f"Generated embeddings for {len(texts)} texts in {filename}")
             return embeddings
         except ClientError as e:
