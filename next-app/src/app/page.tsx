@@ -1,20 +1,33 @@
+"use client";
+
 import Chunk from "@/components/Chunk";
-import { Button, Paper, Title } from "@mantine/core";
-import jsonObject from "../../public/json_object.json";
+import { Box, Group, Paper, Stack, Title } from "@mantine/core";
+import jsonObject from "../../public/side_by_side.json";
 
 export default function Home() {
   return (
-    <Paper m="xl" withBorder p="md" radius="md" mih={200} h="100%">
-      <Title c="blue.5" order={2}>
-        json_object
-      </Title>
-      <Button
-        component="a"
-        href="vscode://file//Users/gusflusser/DxHub/eCR-semantic-interoperability/assets/florida/86a927d6-9a33-43b7-b3dc-1c57b30a1146_20240726065146.xml"
-      >
-        link
-      </Button>
-      <Chunk t="test title" j={jsonObject} />
-    </Paper>
+    <Box p="md">
+      {jsonObject.map((i, index) => (
+        <Paper key={index.toString()} withBorder p="md" m="md">
+          <Stack gap="xs">
+            <Title c="blue.5" order={3}>
+              chunk {index + 1} -- {(i.similarity * 100).toFixed(2)}% similarity
+            </Title>
+            <Group justify="flex-start" align="flex-start">
+              <Chunk
+                t="test chunk"
+                j={i.test_chunk}
+                style={{ maxWidth: "50%" }}
+              />
+              <Chunk
+                t="existing chunk"
+                j={i.existing_chunk}
+                style={{ maxWidth: "50%" }}
+              />
+            </Group>
+          </Stack>
+        </Paper>
+      ))}
+    </Box>
   );
 }

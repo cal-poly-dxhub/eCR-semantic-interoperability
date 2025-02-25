@@ -4,12 +4,13 @@ import sys
 from typing import Any
 
 import numpy as np  # type: ignore
-from bedrock import invoke_llm, llm_model_id  # For invoking LLM
+from bedrock import ask_llm_additional_questions  # type: ignore
+from bedrock import invoke_llm, llm_model_id  # type: ignore
 from chunky import extract_relevant_chunks
 from pathy import get_clickable_chunk, get_xml_element, parse_xml_path  # type: ignore
 from transform import etree_transform_data_to_json  # type: ignore
 from transform import get_matching_schema
-from vectoring import embed_text
+from vectoring import get_bedrock_embeddings
 
 
 def load_all_embeddings() -> list[Any]:
@@ -36,46 +37,6 @@ def load_all_embeddings() -> list[Any]:
                     embeddings.append(r)
 
     return embeddings
-
-
-def ask_llm_additional_questions(text: str) -> dict[str, Any]:
-    """
-    Calls the LLM to answer the three questions about pregnancy, travel history, and occupation.
-    Returns a dict in JSON format.
-    """
-    prompt = (
-        "You are analyzing the following text from a patient's record:\n\n"
-        f"{text}\n\n"
-        "Answer these questions in JSON format with exactly the following keys and structure:\n\n"
-        "{\n"
-        '  "patient_pregnant": "true" or "false",\n'
-        '  "patient_pregnant_cot": "string explanation of your chain of thought of how arrived at your conclusion",\n'
-        '  "recent_travel_history": {\n'
-        '    "true_false": "true" or "false",\n'
-        '    "where": "string",\n'
-        '    "when": "string",\n'
-        '    "cot": "string explanation of your chain of thought of how arrived at your conclusion"\n'
-        "  },\n"
-        '  "occupation": {\n'
-        '    "true_false": "true" or "false",\n'
-        '    "job": "string",\n'
-        '    "cot": "string explanation of your chain of thought of how arrived at your conclusion"\n'
-        "  }\n"
-        "}\n\n"
-        'For each field, if the text does not indicate any specific information, return "false" for the boolean value '
-        "and an empty string for the text fields. Do not add any extra keys."
-    )
-    request_body = {
-        "anthropic_version": "bedrock-2023-05-31",
-        "messages": [{"role": "user", "content": prompt}],
-        "max_tokens": 500,
-    }
-    response = invoke_llm(json.dumps(request_body), llm_model_id)
-    response_text = json.loads(response["body"].read())["content"][0]["text"]
-    try:
-        return json.loads(response_text)
-    except Exception:
-        return {}
 
 
 def cos_similarity(a: np.array, b: np.array) -> float:  # type: ignore
@@ -124,7 +85,7 @@ def cos_similarity(a: np.array, b: np.array) -> float:  # type: ignore
 #     similarities.sort(key=lambda x: x["similarity"], reverse=True)
 #     truncated = similarities[:10]
 #     with open("out/similarities.json", "w") as f:
-#         json.dump(truncated, f, indent=4)
+#         json.dump(truncated, f, indent=2)
 
 #     text_indices = [
 #         i for i, c in enumerate(chunks) if c["path"].split(".")[-1].lower() == "text"
@@ -180,7 +141,7 @@ def cos_similarity(a: np.array, b: np.array) -> float:  # type: ignore
 #     final_output["text_segments"] = text_segment_records
 
 #     with open("out/json_object.json", "w") as f:
-#         json.dump(final_output, f, indent=4)
+#         json.dump(final_output, f, indent=2)
 
 #     print("exported to out/json_object.json")
 
@@ -196,11 +157,12 @@ if __name__ == "__main__":
         json.dump(chunks, f)
 
     # choose between hl7 and ecr (makedata golden template) schemas in vectoring.py
+    test_file_embeddings = [get_bedrock_embeddings(chunk) for chunk in chunks]
     existing_embeddings = load_all_embeddings()
-    test_file_embeddings = [embed_text(chunk) for chunk in chunks]
     similarities: list[list[dict[str, Any]]] = []
 
     for i, tfe in enumerate(test_file_embeddings):
+        similarities.append([])
         for j, existing_embedding in enumerate(existing_embeddings):
             similarity = cos_similarity(
                 np.array(tfe["embedding"]), np.array(existing_embedding["embedding"])
@@ -225,17 +187,60 @@ if __name__ == "__main__":
     # now similarities = [[{existing_file, test_file, similarity}, {...}, ...], [{...}, {...}, ...], ...]
 
     # for each array in similarities, get the first element of the first element
-    document_with_similarities = []
+    document_with_similarities: list[Any] = []
     for i in range(len(similarities)):
         document_with_similarities.append(similarities[i][0])  # type: ignore
 
     with open("out/whole_doc_similarities.json", "w") as f:
-        json.dump(document_with_similarities, f, indent=4)
+        json.dump(document_with_similarities, f, indent=2)
+
+    # save file of chunks and their similar chunks
+    side_by_side: list[Any] = []
+    for i, c in enumerate(document_with_similarities):
+        existing_file = (
+            c["existing_file"]["file"]
+            .replace("embeddings/", "assets/")
+            .replace(".json", ".xml")
+        )
+        test_xml_section = c["test_file"]["path"].split(".section.")[0] + ".section"
+        test_xml: Any = get_xml_element(c["test_file"]["file"], test_xml_section)
+        existing_xml_section = (
+            c["existing_file"]["path"].split(".section.")[0] + ".section"
+        )
+        existing_xml: Any = get_xml_element(
+            existing_file,
+            existing_xml_section,
+        )
+
+        test_link = parse_xml_path(c["test_file"]["file"], c["test_file"]["path"])
+        existing_link = get_clickable_chunk(
+            c["existing_file"]["file"], c["existing_file"]["chunk_id"]
+        )
+
+        side_by_side.append(
+            {
+                "test_chunk": {
+                    "file": c["test_file"]["file"],
+                    "path": c["test_file"]["path"],
+                    "link": test_link,
+                    "source_info": etree_transform_data_to_json(test_xml),
+                },
+                "existing_chunk": {
+                    "file": existing_file,
+                    "path": c["existing_file"]["path"],
+                    "link": existing_link,
+                    "source_info": etree_transform_data_to_json(existing_xml),
+                },
+                "similarity": c["similarity"],
+            }
+        )
+
+    with open("out/side_by_side.json", "w") as f:
+        json.dump(side_by_side, f, indent=2)
+
     exit(0)
 
-    truncated = similarities[:10]
-    with open("out/similarities.json", "w") as f:
-        json.dump(truncated, f, indent=4)
+    # ------------------
 
     best_match = truncated[0]
     best_match_file = best_match["existing_file"]["file"]
@@ -268,5 +273,5 @@ if __name__ == "__main__":
     j = etree_transform_data_to_json(element)  # type: ignore
     # add category to json
     with open(f"out/json_object.json", "w") as f:
-        json.dump(j, f, indent=4)
+        json.dump(j, f, indent=2)
     print(f"exported to out/json_object.json")

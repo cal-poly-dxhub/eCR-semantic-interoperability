@@ -2,6 +2,8 @@ import sys
 
 from lxml import etree  # type: ignore
 
+CUTOFF = 0
+
 
 def get_xml_element(filepath: str, path: str) -> etree.Element:  # type: ignore
     """
@@ -12,8 +14,8 @@ def get_xml_element(filepath: str, path: str) -> etree.Element:  # type: ignore
     element = tree.getroot()  # type: ignore
     path_parts = path.split(".")
     for part in path_parts:
-        tags = [child.tag[16:] for child in element]  # type: ignore
-        # print(tags)  # type: ignore
+        # print([child.tag[16:] for child in element if isinstance(child.tag, str)])
+        tags = [child.tag[16:] for child in element if isinstance(child.tag, str)]  # type: ignore
         if part in tags:
             element = element[tags.index(part)]  # type: ignore
         elif part.isdigit():
@@ -27,7 +29,7 @@ def parse_xml_path(filepath: str, path: str) -> str:
     parses an xml file and returns a string of file, line number, character
     """
     element = get_xml_element(filepath, path)  # type: ignore
-    return f"{filepath}, {element.sourceline}"  # type: ignore
+    return f"{filepath}:{element.sourceline}"  # type: ignore
 
 
 def get_clickable_chunk(filepath: str, chunk_id: int) -> str:

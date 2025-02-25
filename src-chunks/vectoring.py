@@ -8,11 +8,6 @@ from bedrock import invoke_embedding, invoke_llm
 SCHEMA_TYPE = "hl7"
 
 
-def embed_text(data: dict[str, Any]) -> dict[str, Any]:
-    # bedrock
-    return get_bedrock_embeddings(data)
-
-
 def get_categories_from_file(type: str) -> list[str]:
     with open(f"assets/{type}_schema.json", "r") as f:
         schema = json.load(f)
@@ -56,14 +51,19 @@ def get_bedrock_embeddings(data: dict[str, Any]) -> dict[str, Any]:
 
     embedding = model_response["embedding"]
     # input_token_count = model_response["inputTextTokenCount"]
-    category = get_category(data["text"])
 
     r: dict[str, Any] = {
         "chunk_id": data["chunk_id"],
         "path": data["path"],
         "chunk_size": data["chunk_size"],
-        "category": category,
         "embedding": embedding,
     }
 
     return r
+
+
+def get_bedrock_embeddings_with_category(data: dict[str, Any]) -> dict[str, Any]:
+    e = get_bedrock_embeddings(data)
+    category = get_category(data["text"])
+    e["category"] = category
+    return e
