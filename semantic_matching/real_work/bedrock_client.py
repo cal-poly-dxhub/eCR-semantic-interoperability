@@ -3,11 +3,11 @@ import json
 import time
 import argparse
 import random
+import uuid
 from botocore.exceptions import ClientError
 import logging
 from pathlib import Path
-from typing import List, Dict, Any
-import json_lines
+from typing import List, Dict, Any, Optional
 from tqdm import tqdm
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -28,7 +28,7 @@ class BedrockClient:
         self.single_bedrock_client = session.client('bedrock-runtime')
         self.bedrock_client = session.client('bedrock')
         self.llm_model_id = 'anthropic.claude-3-5-sonnet-20241022-v2:0'
-        self.embeddings_model_id = 'cohere.embed-multilingual-v3'
+        self.embeddings_model_id = 'amazon.titan-embed-text-v2:0'
         logger.info("BedrockClient initialized successfully")
 
     def create_s3_bucket_if_not_exists(self, bucket_name):
@@ -329,7 +329,62 @@ class BedrockClient:
         except Exception as e:
             logger.error(f"Error parsing folder timestamp: {e}")
             return datetime.min
+    
+    def generate_embeddings_batch_jsonl(self, texts: List[str], filename: str = "embeddings_batch.jsonl") -> str:
+        """Generate JSONL file for batch embedding jobs."""
+        logger.info(f"Generating batch embeddings JSONL file: {filename}")
+        records = []
+        for text in texts:
+            record_id = str(uuid.uuid4())
+            record = {
+                "recordId": record_id,
+                "modelInput": {
+                    "texts": [text],
+                    "input_type": "search_document"
+                }
+            }
+            records.append(record)
+        
+        with open(filename, 'w') as f:
+            for record in records:
+                f.write(json.dumps(record) + '\n')
+        
+        logger.info(f"Generated {len(records)} embedding records in {filename}")
+        return filename
 
+    def create_embeddings_batch_job(self, job_name: str, input_location: str, 
+                                  output_location: str, role_arn: str) -> str:
+        """Create a batch embedding job."""
+        logger.info(f"Creating batch embeddings job: {job_name}")
+        try:
+            response = self.bedrock_client.create_model_invocation_job(
+                modelId=self.embeddings_model_id,
+                jobName=job_name,
+                inputDataConfig={"s3InputDataConfig": {"s3Uri": input_location}},
+                outputDataConfig={"s3OutputDataConfig": {"s3Uri": output_location}},
+                roleArn=role_arn
+            )
+            job_arn = response.get('jobArn')
+            job_id = job_arn.split('/')[-1]
+            logger.info(f"Created batch embeddings job: {job_id}")
+            return job_id
+        except ClientError as e:
+            logger.error(f"Error creating batch embeddings job: {e}")
+            raise
+
+    def parse_batch_embeddings(self, results_file: str) -> Dict[str, List[float]]:
+        """Parse embeddings from batch job results."""
+        logger.info(f"Parsing batch embeddings from {results_file}")
+        embeddings = {}
+        with open(results_file, 'r') as f:
+            for line in f:
+                record = json.loads(line)
+                if 'modelOutput' in record:
+                    emb = record['modelOutput'].get('embeddings', [])
+                    if emb:
+                        embeddings[record['recordId']] = emb[0]
+        return embeddings
+    
     def generate_embeddings(self, texts: List[str], filename: str = "embeddings.jsonl"):
         logger.info(f"Generating embeddings for {len(texts)} texts in file: {filename}")
         try:
@@ -338,17 +393,17 @@ class BedrockClient:
                 response = self.single_bedrock_client.invoke_model(
                     modelId=self.embeddings_model_id,
                     body=json.dumps({
-                        "texts": [text],
-                        "input_type": "search_document"
+                        "inputText": text
                     })
                 )
                 result = json.loads(response['body'].read())
-                embeddings.append(result['embeddings'][0])
+                embedding = result.get('embedding', [])
+                embeddings.append(embedding)
 
                 with open(filename, 'a') as f:
                     json.dump({
                         "text": text,
-                        "embedding": result['embeddings'][0]
+                        "embedding": embedding
                     }, f)
                     f.write('\n')
 
