@@ -26,35 +26,7 @@ class BedrockClient:
         self.bedrock_client = session.client('bedrock')
         self.llm_model_id = 'anthropic.claude-3-5-sonnet-20241022-v2:0'
         self.embeddings_model_id = 'cohere.embed-multilingual-v3'
-        
-    # def verify_s3_permissions(self, bucket_name):
-    #     try:
-    #         print("Waiting for S3 permissions to propagate...")
-    #         time.sleep(60)
-    #         print("Verifying S3 permissions...")
-    #         self.s3_client.list_objects_v2(Bucket=bucket_name, MaxKeys=1)
-    #         self.s3_client.put_object(
-    #             Bucket=bucket_name,
-    #             Key='test-permissions.txt',
-    #             Body='Testing write permissions'
-    #         )
-    #         self.s3_client.delete_object(
-    #             Bucket=bucket_name,
-    #             Key='test-permissions.txt'
-    #         )
-    #         logger.info("Successfully verified S3 permissions")
-    #         return True
-    #     except ClientError as e:
-    #         logger.error(f"S3 permission verification failed: {e}")
-    #         if 'AccessDenied' in str(e):
-    #             logger.error("""
-    #             Please ensure your AWS credentials have the following S3 permissions:
-    #             - s3:PutObject
-    #             - s3:GetObject
-    #             - s3:ListBucket
-    #             - s3:DeleteObject
-    #             """)
-    #         return False
+
     def create_s3_bucket_if_not_exists(self, bucket_name):
         try:
             self.s3_client.head_bucket(Bucket=bucket_name)
@@ -233,7 +205,7 @@ class BedrockClient:
                 status = response['status']
                 logger.info(f"Job status: {status}")
 
-                if status in ['COMPLETED', 'FAILED', 'STOPPED']:
+                if status.upper() in ['COMPLETED', 'FAILED', 'STOPPED']:
                     return status
 
                 time.sleep(60)
@@ -300,81 +272,57 @@ class BedrockClient:
 
     def download_batch_results(self, bucket_name: str, s3_prefix: str = "output/"):
         try:
-            results = []
+            print(f"\nAttempting to download results from bucket: {bucket_name}")
+            print(f"Using prefix: {s3_prefix}")
+            
+            # List all objects in the specified prefix
+            print("\nListing objects in bucket...")
             response = self.s3_client.list_objects_v2(
                 Bucket=bucket_name,
                 Prefix=s3_prefix
             )
             
+            print(f"\nResponse contents: {response}")
+            
+            # Find the .jsonl.out file
+            jsonl_out_file = None
             for obj in response.get('Contents', []):
                 key = obj['Key']
-                if key.endswith('.jsonl'):
-                    content = self.s3_client.get_object(
-                        Bucket=bucket_name,
-                        Key=key
-                    )
-                    results.extend(json_lines.Reader(content['Body'].read().decode()))
+                print(f"Found object: {key}")
+                if key.endswith('.jsonl.out'):
+                    jsonl_out_file = key
+                    print(f"\nFound JSONL output file: {key}")
+                    break
             
-            logger.info(f"Downloaded {len(results)} results from S3")
-            return results
+            if not jsonl_out_file:
+                print(f"\nError: No .jsonl.out file found in bucket {bucket_name} with prefix {s3_prefix}")
+                logger.error(f"No .jsonl.out file found in bucket {bucket_name} with prefix {s3_prefix}")
+                return None
+            
+            # Download the file
+            print(f"\nDownloading file: {jsonl_out_file}")
+            self.s3_client.download_file(
+                bucket_name,
+                jsonl_out_file,
+                "downloaded_results.jsonl.out"
+            )
+            
+            print(f"\nSuccessfully downloaded file to: downloaded_results.jsonl.out")
+            return "downloaded_results.jsonl.out"
         except ClientError as e:
+            print(f"\nError during download process: {str(e)}")
             logger.error(f"Error downloading batch results: {e}")
             raise
 
-    # def generate_embeddings(self, texts: List[str], filename: str = "embeddings.jsonl"):
-    #     try:
-    #         from sentence_transformers import SentenceTransformer
-    #         model = SentenceTransformer(self.embeddings_model_id)
-    #         embeddings = model.encode(texts, show_progress_bar=True)
+    def _get_folder_time(self, folder_prefix):
+        timestamp_str = folder_prefix.split('/')[-2]
+        try:
+            from datetime import datetime
+            return datetime.fromisoformat(timestamp_str.replace('Z', '+00:00'))
+        except Exception as e:
+            logger.error(f"Error parsing folder timestamp: {e}")
+            return datetime.min
 
-    #         with open(filename, 'w') as f:
-    #             for text, emb in zip(texts, embeddings):
-    #                 json.dump({
-    #                     "text": text,
-    #                     "embedding": emb.tolist()
-    #                 }, f)
-    #                 f.write('\n')
-            
-    #         logger.info(f"Generated embeddings for {len(texts)} texts in {filename}")
-    #         return embeddings
-    #     except Exception as e:
-    #         logger.error(f"Error generating embeddings: {e}")
-    #         raise
-
-    # def semantic_search(self, query: str, embeddings_file: str):
-    #     try:
-    #         from sentence_transformers import SentenceTransformer, util
-    #         model = SentenceTransformer(self.embeddings_model_id)
-            
-    #         # Load existing embeddings
-    #         existing_embeddings = []
-    #         existing_texts = []
-    #         with open(embeddings_file, 'r') as f:
-    #             for line in f:
-    #                 data = json.loads(line)
-    #                 existing_embeddings.append(data['embedding'])
-    #                 existing_texts.append(data['text'])
-            
-    #         # Encode query
-    #         query_embedding = model.encode(query)
-            
-    #         # Compute cosine similarities
-    #         cos_scores = util.cos_sim(query_embedding, existing_embeddings)
-            
-    #         # Get top 10 matches
-    #         top_results = zip(
-    #             existing_texts,
-    #             existing_embeddings,
-    #             cos_scores[0]
-    #         )
-            
-    #         # Sort by score in descending order
-    #         top_results = sorted(top_results, key=lambda x: x[2], reverse=True)
-            
-    #         return [(text, score) for text, emb, score in top_results[:10]]
-    #     except Exception as e:
-    #         logger.error(f"Error performing semantic search: {e}")
-    #         raise
     def generate_embeddings(self, texts: List[str], filename: str = "embeddings.jsonl"):
         try:
             embeddings = []
