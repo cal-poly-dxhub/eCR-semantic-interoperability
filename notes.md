@@ -11,7 +11,7 @@
 
 ### backend
 
-- **_grab ecrs from an s3 bucket_**
+- grab ecrs from an s3 bucket
 - demonstrate llm inference on xml text segment
   - ex: pregnancy, travel history, occupation (make up data if need be) ask llm for value (haiku 3.5 on every open ended text field for the questions too)
   - is patient pregnant
@@ -39,6 +39,6 @@
 - use embedding pipeline to get category of data
 - use llm inference to get answers to 4 questions
 - create new xml document with
-  - category of data
-  - original xml section chunk
-  - llm inference answers
+  - category of data (category)
+  - original xml section chunk (source)
+  - llm inference answers (inference)

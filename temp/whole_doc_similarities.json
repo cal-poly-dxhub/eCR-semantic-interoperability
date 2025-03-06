@@ -1,0 +1,30 @@
+[
+  {
+    "existing_file": {
+      "file": "embeddings/t.json",
+      "chunk_id": 0,
+      "path": "root.component.structuredBody.0.section.text"
+    },
+    "test_file": {
+      "file": "assets/t.xml",
+      "chunk_id": 0,
+      "path": "root.component.structuredBody.0.section.text"
+    },
+    "similarity": 1.0,
+    "category": "eICR Composition"
+  },
+  {
+    "existing_file": {
+      "file": "embeddings/t.json",
+      "chunk_id": 1,
+      "path": "root.component.structuredBody.1.section.text"
+    },
+    "test_file": {
+      "file": "assets/t.xml",
+      "chunk_id": 1,
+      "path": "root.component.structuredBody.1.section.text"
+    },
+    "similarity": 1.0000000000000002,
+    "category": "Pregnancy Status"
+  }
+]

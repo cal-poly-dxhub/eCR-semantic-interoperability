@@ -1,19 +1,33 @@
-# eCR-semantic-interoperability
+# DxHub eCR Freeform Information Extraction and Classification
 
-Translating data from differently formatted eCRs and producing a cleaned standard FIHR formatted version
+## Setup:
 
-### gus-old-poc
+1. Create a virtual environment:
 
-- the old extract & double extract code for getting data from notes/summary sections
+```bash
+python3.9 -m venv .venv
+```
 
-### src-fhir-resources
+2. Install the required packages:
 
-- testing programs to get python objects from fhir.resources
+```bash
+pip install -r requirements.txt
+```
 
-### src-llm
+## Usage:
 
-- current llm only code
+1. Run the following command to submit an eCR for LLM classification:
 
-### src-chunks
+```bash
+python src/embed.py <path_to_ecr>
+```
 
-- chunk-based embedding approach
+2. Run the following command to test another eCR against the dataset of embeddings:
+
+```bash
+python src/test.py <path_to_ecr>
+```
+
+- After runnung `src/embed.py` the output embedding will be saved in the `embeddings/` directory under the filepath of the embedded file.
+- Intermediate files that may be useful for debugging are saved in the `temp/` directory after running either `src/embed.py` or `src/test.py`
+- Final xml test output file `xml_source_inference.xml` will be saved in the `out/` directory.

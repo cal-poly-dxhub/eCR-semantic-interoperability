@@ -1,0 +1,1714 @@
+[
+  [
+    {
+      "existing_file": {
+        "file": "embeddings/t.json",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 1.0,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/synthea/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 1.0,
+      "category": "eICR Patient"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/synthea/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.3845463221064132,
+      "category": "eICR Patient"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/synthea/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json",
+        "chunk_id": 8,
+        "path": "root.component.structuredBody.8.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.29033179748704563,
+      "category": "eICR Patient"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 14,
+        "path": "root.component.structuredBody.7.section.text.0"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.24731169890262034,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 9,
+        "path": "root.component.structuredBody.7.section.text.0"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.2409431105813016,
+      "category": "eICR Patient"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 13,
+        "path": "root.component.structuredBody.7.section.text.4"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.19348051690841292,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 12,
+        "path": "root.component.structuredBody.7.section.text.3"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.14102618220739416,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/t.json",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.12965183019651813,
+      "category": "Pregnancy Status"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 21,
+        "path": "root.component.structuredBody.8.section.entry.encounter.3.act.entryRelationship.observation.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.12316520945532897,
+      "category": "eICR Encounter"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 11,
+        "path": "root.component.structuredBody.7.section.text.2"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.11619100564407603,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 3,
+        "path": "root.component.structuredBody.6.section.text.list.0.1"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.11301227109880357,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 2,
+        "path": "root.component.structuredBody.6.section.text.list.item.1"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.11278375005636584,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 6,
+        "path": "root.component.structuredBody.6.section.entry.organizer.1.observation.referenceRange.observationRange.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.11147867496528138,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.6.section.text.list.item.0"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.11143284449698265,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 15,
+        "path": "root.component.structuredBody.7.section.text.1"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.10642667452863512,
+      "category": "eICR Patient"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 7,
+        "path": "root.component.structuredBody.6.section.entry.organizer.2.observation.referenceRange.observationRange.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.10576816457451034,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 8,
+        "path": "root.component.structuredBody.6.section.entry.organizer.3.observation.referenceRange.observationRange.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.10576816457451034,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/synthea/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json",
+        "chunk_id": 7,
+        "path": "root.component.structuredBody.7.section.text.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.09836366710058803,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 8,
+        "path": "root.component.structuredBody.6.section.text.list.1.0"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.09783282341011945,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 14,
+        "path": "root.component.structuredBody.7.section.text.5"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.09694759576924612,
+      "category": "Pregnancy Status"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 9,
+        "path": "root.component.structuredBody.6.section.text.list.1.1"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.0959651518511027,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 4,
+        "path": "root.component.structuredBody.6.section.text.list.0.2"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.09494047236305575,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 10,
+        "path": "root.component.structuredBody.6.section.text.list.1.2"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.09494047236305575,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 3,
+        "path": "root.component.structuredBody.6.section.text.list.item.2"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.09494047236305575,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/hl7_schema.json",
+        "chunk_id": 4,
+        "path": "root.component.structuredBody.4.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.08734622742476736,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 2,
+        "path": "root.component.structuredBody.6.section.text.list.0.0"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.08684847744177465,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.5.section.text.list.item.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.08681098633899684,
+      "category": "eICR Patient"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 19,
+        "path": "root.component.structuredBody.8.section.entry.encounter.1.act.entryRelationship.observation.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.08638504180778665,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 5,
+        "path": "root.component.structuredBody.6.section.text.list.0.3"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.08637266319243853,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/synthea/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json",
+        "chunk_id": 4,
+        "path": "root.component.structuredBody.4.section.text.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.08362621993733504,
+      "category": "eICR Encounter"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 17,
+        "path": "root.component.structuredBody.7.section.11.act.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.08060164279833236,
+      "category": "eICR Location"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 10,
+        "path": "root.component.structuredBody.7.section.text.1"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.08050881358181737,
+      "category": ""
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 15,
+        "path": "root.component.structuredBody.7.section.text.6"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.07931111657745007,
+      "category": "eICR Patient"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/synthea/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json",
+        "chunk_id": 3,
+        "path": "root.component.structuredBody.3.section.text.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.07401857931758687,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 5,
+        "path": "root.component.structuredBody.6.section.text.list.item.4"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.07126805212465291,
+      "category": "eICR Organization"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/synthea/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json",
+        "chunk_id": 5,
+        "path": "root.component.structuredBody.5.section.text.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.07031661892524323,
+      "category": "eICR Encounter"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.3.section.text.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.06876516003667743,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/hl7_schema.json",
+        "chunk_id": 6,
+        "path": "root.component.structuredBody.6.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.06845033571206643,
+      "category": "Pregnancy Status"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 20,
+        "path": "root.component.structuredBody.8.section.entry.encounter.2.act.entryRelationship.observation.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.0673843223358986,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 11,
+        "path": "root.component.structuredBody.6.section.text.list.1.3"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.06654944503409316,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/hl7_schema.json",
+        "chunk_id": 5,
+        "path": "root.component.structuredBody.5.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.0605480674740057,
+      "category": "eICR Location"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/hl7_schema.json",
+        "chunk_id": 2,
+        "path": "root.component.structuredBody.2.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.05643421665357175,
+      "category": "eICR Organization"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 18,
+        "path": "root.component.structuredBody.8.section.text.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.05610372340853107,
+      "category": "eICR Encounter"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 17,
+        "path": "root.component.structuredBody.8.section.text.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.05070483525648644,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 7,
+        "path": "root.component.structuredBody.6.section.text.list.0.5"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.05061318267751886,
+      "category": "eICR Location"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 13,
+        "path": "root.component.structuredBody.6.section.text.list.1.5"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.05061318267751886,
+      "category": "eICR Location"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/hl7_schema.json",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.048304310914308674,
+      "category": "eICR Patient"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/hl7_schema.json",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.04788190173713304,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/hl7_schema.json",
+        "chunk_id": 3,
+        "path": "root.component.structuredBody.3.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.04720617208011448,
+      "category": "eICR Encounter"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.4.section.text.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.04504984955605304,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 18,
+        "path": "root.component.structuredBody.8.section.entry.encounter.1.act.entryRelationship.observation.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.04266640928317494,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 16,
+        "path": "root.component.structuredBody.7.section.text.2"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.03485229175771195,
+      "category": "eICR Occupation History"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/hl7_schema.json",
+        "chunk_id": 7,
+        "path": "root.component.structuredBody.7.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.0289167515247525,
+      "category": "eICR Travel History"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/synthea/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json",
+        "chunk_id": 2,
+        "path": "root.component.structuredBody.2.section.text.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.027710079993405728,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/synthea/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json",
+        "chunk_id": 6,
+        "path": "root.component.structuredBody.6.section.text.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.02519140222881098,
+      "category": "eICR Encounter"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 4,
+        "path": "root.component.structuredBody.6.section.text.list.item.3"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.024893399441342834,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 6,
+        "path": "root.component.structuredBody.6.section.text.list.0.4"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.017258144411324627,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 12,
+        "path": "root.component.structuredBody.6.section.text.list.1.4"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.017258144411324627,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/hl7_schema.json",
+        "chunk_id": 8,
+        "path": "root.component.structuredBody.8.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": 0.006469438380313025,
+      "category": "eICR Occupation History"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 16,
+        "path": "root.component.structuredBody.7.section.text.7"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "similarity": -0.0027610552132126685,
+      "category": "eICR Travel History"
+    }
+  ],
+  [
+    {
+      "existing_file": {
+        "file": "embeddings/t.json",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 1.0000000000000002,
+      "category": "Pregnancy Status"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/hl7_schema.json",
+        "chunk_id": 6,
+        "path": "root.component.structuredBody.6.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.3181550346412128,
+      "category": "Pregnancy Status"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 14,
+        "path": "root.component.structuredBody.7.section.text.5"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.24338199352001794,
+      "category": "Pregnancy Status"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/hl7_schema.json",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.2132198510155136,
+      "category": "eICR Patient"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 10,
+        "path": "root.component.structuredBody.7.section.text.1"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.18930919956313766,
+      "category": ""
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/synthea/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.18594451217495303,
+      "category": "eICR Patient"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.5.section.text.list.item.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.18443201246732058,
+      "category": "eICR Patient"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/synthea/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json",
+        "chunk_id": 7,
+        "path": "root.component.structuredBody.7.section.text.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.15790744118041655,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/hl7_schema.json",
+        "chunk_id": 5,
+        "path": "root.component.structuredBody.5.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.14804013799308774,
+      "category": "eICR Location"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 4,
+        "path": "root.component.structuredBody.6.section.text.list.0.2"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.14664488654856758,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 10,
+        "path": "root.component.structuredBody.6.section.text.list.1.2"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.14664488654856758,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 3,
+        "path": "root.component.structuredBody.6.section.text.list.item.2"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.14664488654856758,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 6,
+        "path": "root.component.structuredBody.6.section.entry.organizer.1.observation.referenceRange.observationRange.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.14507080781271248,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/t.json",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.12965183019651813,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/synthea/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.12965183019651813,
+      "category": "eICR Patient"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/synthea/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json",
+        "chunk_id": 8,
+        "path": "root.component.structuredBody.8.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.1291243201759059,
+      "category": "eICR Patient"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/synthea/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json",
+        "chunk_id": 5,
+        "path": "root.component.structuredBody.5.section.text.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.12717689919705646,
+      "category": "eICR Encounter"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 9,
+        "path": "root.component.structuredBody.7.section.text.0"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.12612392120590704,
+      "category": "eICR Patient"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/synthea/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json",
+        "chunk_id": 4,
+        "path": "root.component.structuredBody.4.section.text.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.1182836716421097,
+      "category": "eICR Encounter"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 6,
+        "path": "root.component.structuredBody.6.section.text.list.0.4"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.11000546633612086,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 12,
+        "path": "root.component.structuredBody.6.section.text.list.1.4"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.11000546633612086,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 16,
+        "path": "root.component.structuredBody.7.section.text.2"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.10997924662781007,
+      "category": "eICR Occupation History"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 15,
+        "path": "root.component.structuredBody.7.section.text.6"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.10944965685302262,
+      "category": "eICR Patient"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 14,
+        "path": "root.component.structuredBody.7.section.text.0"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.10831895219210036,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 19,
+        "path": "root.component.structuredBody.8.section.entry.encounter.1.act.entryRelationship.observation.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.10801045180638384,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/synthea/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json",
+        "chunk_id": 3,
+        "path": "root.component.structuredBody.3.section.text.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.10487866987410085,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.3.section.text.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.10304189620910939,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/hl7_schema.json",
+        "chunk_id": 7,
+        "path": "root.component.structuredBody.7.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.09946803374932445,
+      "category": "eICR Travel History"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 15,
+        "path": "root.component.structuredBody.7.section.text.1"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.09556091303549315,
+      "category": "eICR Patient"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/hl7_schema.json",
+        "chunk_id": 0,
+        "path": "root.component.structuredBody.0.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.09494807330775071,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 18,
+        "path": "root.component.structuredBody.8.section.text.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.09239937020331208,
+      "category": "eICR Encounter"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 17,
+        "path": "root.component.structuredBody.8.section.text.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.09143331145259177,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 7,
+        "path": "root.component.structuredBody.6.section.entry.organizer.2.observation.referenceRange.observationRange.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.08907830036224672,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 8,
+        "path": "root.component.structuredBody.6.section.entry.organizer.3.observation.referenceRange.observationRange.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.08907830036224672,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 18,
+        "path": "root.component.structuredBody.8.section.entry.encounter.1.act.entryRelationship.observation.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.08550841485447969,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 11,
+        "path": "root.component.structuredBody.6.section.text.list.1.3"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.08379196024683101,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/hl7_schema.json",
+        "chunk_id": 4,
+        "path": "root.component.structuredBody.4.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.07946918817179024,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 2,
+        "path": "root.component.structuredBody.6.section.text.list.item.1"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.07481250828654525,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 3,
+        "path": "root.component.structuredBody.6.section.text.list.0.1"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.07399355656670524,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.4.section.text.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.07216016552850868,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/hl7_schema.json",
+        "chunk_id": 3,
+        "path": "root.component.structuredBody.3.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.07114387719962732,
+      "category": "eICR Encounter"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 4,
+        "path": "root.component.structuredBody.6.section.text.list.item.3"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.07102744003665544,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 9,
+        "path": "root.component.structuredBody.6.section.text.list.1.1"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.06751767488890292,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/hl7_schema.json",
+        "chunk_id": 8,
+        "path": "root.component.structuredBody.8.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.06677760905619692,
+      "category": "eICR Occupation History"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/synthea/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json",
+        "chunk_id": 2,
+        "path": "root.component.structuredBody.2.section.text.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.06363838421283158,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/synthea/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json",
+        "chunk_id": 6,
+        "path": "root.component.structuredBody.6.section.text.table"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.06316220574697944,
+      "category": "eICR Encounter"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 16,
+        "path": "root.component.structuredBody.7.section.text.7"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.062412948539568046,
+      "category": "eICR Travel History"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 5,
+        "path": "root.component.structuredBody.6.section.text.list.0.3"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.060836150555267435,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.6.section.text.list.item.0"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.059585265110224904,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 5,
+        "path": "root.component.structuredBody.6.section.text.list.item.4"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.05361028999739685,
+      "category": "eICR Organization"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 17,
+        "path": "root.component.structuredBody.7.section.11.act.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.05171140928462275,
+      "category": "eICR Location"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/hl7_schema.json",
+        "chunk_id": 2,
+        "path": "root.component.structuredBody.2.section.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.050132581377558126,
+      "category": "eICR Organization"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 13,
+        "path": "root.component.structuredBody.7.section.text.4"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.04994311498588964,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 11,
+        "path": "root.component.structuredBody.7.section.text.2"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.046469653910714524,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 12,
+        "path": "root.component.structuredBody.7.section.text.3"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.044536646240412536,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 2,
+        "path": "root.component.structuredBody.6.section.text.list.0.0"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.03640219985209237,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 8,
+        "path": "root.component.structuredBody.6.section.text.list.1.0"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.032792297561568866,
+      "category": "eICR Lab Orders"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 20,
+        "path": "root.component.structuredBody.8.section.entry.encounter.2.act.entryRelationship.observation.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.023661599117497954,
+      "category": "eICR Composition"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 7,
+        "path": "root.component.structuredBody.6.section.text.list.0.5"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.0227900145670072,
+      "category": "eICR Location"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/florida/1.2.840.114350.1.13.502.3.7.8.688883.2614691_20240716202346.json",
+        "chunk_id": 13,
+        "path": "root.component.structuredBody.6.section.text.list.1.5"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.0227900145670072,
+      "category": "eICR Location"
+    },
+    {
+      "existing_file": {
+        "file": "embeddings/nevada/TST_travel_Scrambled.json",
+        "chunk_id": 21,
+        "path": "root.component.structuredBody.8.section.entry.encounter.3.act.entryRelationship.observation.text"
+      },
+      "test_file": {
+        "file": "assets/t.xml",
+        "chunk_id": 1,
+        "path": "root.component.structuredBody.1.section.text"
+      },
+      "similarity": 0.021818351580195162,
+      "category": "eICR Encounter"
+    }
+  ]
+]
