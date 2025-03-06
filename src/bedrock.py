@@ -14,7 +14,6 @@ client = boto3.client(  # type: ignore
     aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
     # config=boto3.config.Config(retries={"max_attempts": 10}),  # type: ignore
 )
-
 bedrock = boto3.client(  # type: ignore
     "bedrock",
     region_name="us-west-2",
@@ -32,7 +31,7 @@ def test_bedrock():
 
 
 def invoke_llm(body: Any, modelId: str = llm_model_id, retries: int = 0) -> Any:
-    print("invoking llm, retries:", retries)
+    # print("invoking llm, retries:", retries)
     try:
         return client.invoke_model(modelId=modelId, body=body)  # type: ignore
     except Exception as e:
@@ -48,7 +47,7 @@ def invoke_llm(body: Any, modelId: str = llm_model_id, retries: int = 0) -> Any:
 
 
 def invoke_embedding(body: Any, retries: int = 0) -> Any:
-    print("invoking embedding, retries:", retries)
+    # print("invoking embedding, retries:", retries)
     try:
         return client.invoke_model(modelId=embedding_model_id, body=body)  # type: ignore
     except Exception as e:
@@ -100,6 +99,49 @@ def ask_llm_additional_questions(text: str) -> dict[str, Any]:
         return json.loads(response_text)
     except Exception:
         return {}
+
+
+def llm_inference(text: str) -> str:
+    """
+    llm inference on 3 questions:
+    1. is the patient pregnant?
+    2. recent travel history?
+    3. patient's occupation?
+    """
+    prompt = (
+        "You are analyzing the following text from a patient's record:\n\n"
+        f"{text}\n\n"
+        "Answer these questions in XML format with the following keys and structure:\n\n"
+        '<pregnancy pregnant="true" or "false">\n'
+        "<reasoning>explaination of your chain of thought for this record</reasoning>\n"
+        "</pregnancy>\n"
+        '<travel status="true" or "false">\n'
+        "<recent_travel>\n"
+        "<reasoning>explaination of your chain of thought for this record</reasoning>\n"
+        "<location>string</location>\n"
+        "<date>string</date>\n"
+        "</recent_travel>\n"
+        "... more recent travels if any\n"
+        "</travel>\n"
+        '<occupation employed="true" or "false">\n'
+        "<reasoning>explaination of your chain of thought for this record</reasoning>\n"
+        "<job>string</job>\n"
+        "</occupation>\n"
+        'For each field, if the text does not indicate any specific information, return "false" for the boolean value '
+        "and an empty string for the text fields. Do not add any extra keys."
+    )
+    request_body: dict[str, Any] = {
+        "anthropic_version": "bedrock-2023-05-31",
+        "messages": [{"role": "user", "content": prompt}],
+        "max_tokens": 500,
+    }
+
+    response = invoke_llm(json.dumps(request_body), llm_model_id)
+    response_text = json.loads(response["body"].read())["content"][0]["text"]
+    try:
+        return response_text
+    except Exception:
+        return None  # type: ignore
 
 
 if __name__ == "__main__":

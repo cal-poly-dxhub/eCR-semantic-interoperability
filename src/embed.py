@@ -2,18 +2,18 @@ import json
 import os
 import sys
 
-from chunky import extract_relevant_chunks
+from chunky import extract_relevant_chunks_file
 from vectoring import get_bedrock_embeddings_with_category
 
-pathext = "out/"
+tempext = "temp/"
 
 
 def cleanup():
-    if os.path.exists(pathext):
-        for file in os.listdir(pathext):
-            os.remove(os.path.join(pathext, file))
+    if os.path.exists(tempext):
+        for file in os.listdir(tempext):
+            os.remove(os.path.join(tempext, file))
     else:
-        os.mkdir(pathext)
+        os.mkdir(tempext)
 
 
 if __name__ == "__main__":
@@ -23,8 +23,8 @@ if __name__ == "__main__":
     cleanup()
     file = sys.argv[1]
 
-    chunks = extract_relevant_chunks(file)
-    with open(pathext + "chunks.json", "w") as f:
+    chunks = extract_relevant_chunks_file(file)
+    with open(tempext + "chunks.json", "w") as f:
         json.dump(chunks, f)
 
     # choose between hl7 and ecr (makedata golden template) schemas in vectoring.py
