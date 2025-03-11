@@ -4,6 +4,7 @@ from aws_cdk import (
     Duration,
     CfnOutput,
     aws_s3 as s3,
+    aws_s3_notifications as s3_notifications,
     aws_lambda as lambda_,
     aws_iam as iam,
 )
@@ -46,10 +47,10 @@ class EcrLambdaStack(Stack):
             runtime=lambda_.Runtime.PYTHON_3_9,
             handler="app.lambda_handler",
             code=lambda_.Code.from_asset("lambda-code"),
-            timeout=Duration.seconds(300),
+            timeout=Duration.minutes(14)
             memory_size=1024,
             environment={
-                "OUTPUT_BUCKET": output_bucket.bucket_name
+                "OUTPUT_BUCKET": "dxhub-ecrcdk-output"
             },
             layers=[lambda_layer]
         )
@@ -74,7 +75,7 @@ class EcrLambdaStack(Stack):
         notification_filter = s3.NotificationKeyFilter(suffix=".xml")
         input_bucket.add_event_notification(
             s3.EventType.OBJECT_CREATED,
-            s3.LambdaDestination(lambda_function),
+            s3_notifications.LambdaDestination(lambda_function),
             notification_filter
         )
         
