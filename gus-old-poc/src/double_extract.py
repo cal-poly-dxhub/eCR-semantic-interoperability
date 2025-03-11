@@ -1,12 +1,11 @@
 import ast
 import json
 import sys
-import xml.etree.ElementTree as ET
+import xml.etree.ElementTree as ET  # type: ignore
 from typing import Any
 
-import boto3
+import boto3  # type: ignore
 from botocore.exceptions import ClientError
-
 from shared import save_to_file
 
 get_keys_prompt: str = """<prompt>
@@ -46,6 +45,7 @@ You will split your response into "thought" and "relevant_pairs". There should b
 <pair>
 <key>key1</key>
 <value>value containing relevant information</value>
+<reason>reason for relevance</reason>
 </pair>
 (If no relevant pairs are found leave the <relevant_pairs> block empty)
 </relevant_pairs>
@@ -79,17 +79,21 @@ def create_key_value_xml(keys: list[str], values: list[Any]) -> str:
 
 
 def get_bedrock_response(prompt: str) -> str:
+    print("getting response")
     client = boto3.client("bedrock-runtime", region_name="us-east-1")  # type: ignore
     model_id = "anthropic.claude-3-sonnet-20240229-v1:0"
-    conversation = [{"role": "user", "content": [{"text": prompt}]}]
+    conversation: Any = [{"role": "user", "content": [{"text": prompt}]}]
 
     try:
         response = client.converse(  # type: ignore
             modelId=model_id,
             messages=conversation,
-            inferenceConfig={"maxTokens": 1024, "temperature": 1.0, "topP": 0.9},
+            inferenceConfig={"maxTokens": 2048, "temperature": 1.0, "topP": 0.9},
         )
         response_text: Any = response["output"]["message"]["content"][0]["text"]
+        print("got response")
+        with open("response.txt", "w") as f:
+            f.write(response_text)
         return response_text
 
     except (ClientError, Exception) as e:
@@ -122,14 +126,20 @@ def get_json_pairs_tags(res: str) -> dict[str, Any]:
 
         value_start = pair_data.find("<value>")
         value_end = pair_data.find("</value>")
+        reason_start = pair_data.find("<reason>")
+        reason_end = pair_data.find("</reason>")
         value = pair_data[value_start + 7 : value_end]
 
-        if "pregnant" in value.lower():
-            try:
-                value = ast.literal_eval(value)
-            except (ValueError, SyntaxError):
-                pass
-            relevant_pairs[key] = value
+        try:
+            value = ast.literal_eval(value)
+        except (ValueError, SyntaxError):
+            pass
+
+        new_val = {  # type: ignore
+            "value": value,
+            "reason": pair_data[reason_start + 8 : reason_end],
+        }
+        relevant_pairs[key] = new_val
 
         pair_start = res.find("<pair>", pair_end)
 
@@ -158,7 +168,7 @@ if __name__ == "__main__":
     else:
         file = sys.argv[1]
         query = sys.argv[2]
-        file_path = f"../assets/human_readable_messy/{file}"
+        file_path = f"../assets/makedata/{file}"
 
         xml = ""
         data = None

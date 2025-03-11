@@ -1,0 +1,35 @@
+{
+  "Current_Pregnancy_Information": {
+    "value": {
+      "Pregnancy Status": "Pregnant",
+      "Pregnancy Status Determination Method": "Urine hCG test",
+      "Pregnancy Status Recorded Date": "2024-06-20",
+      "Estimated Date of Delivery": "2025-01-15",
+      "Estimated Date of Delivery Method": "Last menstrual period",
+      "Estimated Gestational Age": "12 weeks 5 days",
+      "Estimated Gestational Age Determination Date": "2024-07-11",
+      "Estimated Gestational Age Determination Method": "Ultrasound measurement",
+      "Last Menstrual Period": "2024-04-18",
+      "Pregnancy Outcome": "n/a",
+      "Pregnancy Outcome Date": "n/a",
+      "Postpartum Status": "n/a"
+    },
+    "reason": "This value contains detailed information about the patient's current pregnancy, including pregnancy status, estimated due date, gestational age, and other pregnancy-related details."
+  },
+  "Pregnancy Status": {
+    "value": "Pregnant",
+    "reason": "This value directly states that the patient is pregnant."
+  },
+  "Estimated Date of Delivery": {
+    "value": "2025-01-15",
+    "reason": "This value provides the estimated due date, which is relevant for a pregnant patient."
+  },
+  "Estimated Gestational Age": {
+    "value": "12 weeks 5 days",
+    "reason": "This value specifies the patient's gestational age, which is relevant for a pregnant patient."
+  },
+  "History of Present Illness": {
+    "value": "Ms. Campbell is a 28-year-old G1P0 female at 12 weeks and 5 days gestation who presents to the ED with a 3-day history of progressively worsening diarrhea and abdominal pain. The diarrhea is described as watery, occurring 8-10 times per day, without blood or mucus. She reports severe, crampy abdominal pain, primarily in the lower abdomen. The patient has also experienced nausea and vomiting for the past 2 days, with difficulty keeping food or liquids down. She notes the onset of fever yesterday, measured at home as 38.3\u00b0C (101\u00b0F). The patient reports feeling increasingly fatigued and dizzy, especially when standing up quickly. She denies any urinary symptoms, vaginal bleeding, or contractions. Of note, the patient traveled to Jamaica 3 weeks ago for a family reunion, where she attended a large barbecue and ate at local restaurants. She also reports eating at a new local deli in Yonkers about 6 weeks ago. The patient is concerned about the impact of her symptoms on her pregnancy and has not experienced relief with over-the-counter antidiarrheal medications.",
+    "reason": "This value mentions that the patient is a pregnant female at 12 weeks gestation, which is relevant to the query."
+  }
+}
