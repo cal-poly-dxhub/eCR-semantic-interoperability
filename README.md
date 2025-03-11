@@ -1,33 +1,148 @@
-# DxHub eCR Freeform Information Extraction and Classification
+# eCR Freeform Information Extraction and Classification
 
-## Setup:
+# Collaboration
 
-1. Create a virtual environment:
+Thanks for your interest in our solution. Having specific examples of replication and cloning allows us to continue to grow and scale our work. If you clone or download this repository, kindly shoot us a quick email to let us know you are interested in this work!
+
+[wwps-cic@amazon.com]
+
+# Disclaimers
+
+**Customers are responsible for making their own independent assessment of the information in this document.**
+
+**This document:**
+
+(a) is for informational purposes only,
+
+(b) represents current AWS product offerings and practices, which are subject to change without notice, and
+
+(c) does not create any commitments or assurances from AWS and its affiliates, suppliers or licensors. AWS products or services are provided “as is” without warranties, representations, or conditions of any kind, whether express or implied. The responsibilities and liabilities of AWS to its customers are controlled by AWS agreements, and this document is not part of, nor does it modify, any agreement between AWS and its customers.
+
+(d) is not to be considered a recommendation or viewpoint of AWS
+
+**Additionally, all prototype code and associated assets should be considered:**
+
+(a) as-is and without warranties
+
+(b) not suitable for production environments
+
+(d) to include shortcuts in order to support rapid prototyping such as, but not limitted to, relaxed authentication and authorization and a lack of strict adherence to security best practices
+
+**All work produced is open source. More information can be found in the GitHub repo.**
+
+## Authors
+
+- Gus Flusser - gflusser@calpoly.edu
+- Ryan Gertz - rgertz@calpoly.edu
+- Swayam Chidrawar - schidraw@calpoly.edu
+
+## Table of Contents
+
+- [Overview](#overview)
+
+## Overview
+
+- The [DxHub](https://dxhub.calpoly.edu/challenges/) developed a Python script leveraging AWS Bedrock to semantically analyze and identify patterns within eCR documents, allowing for the accurate extraction and classification of patient information through the use of advanced embeddings and large language models.
+
+## Steps to Deploy and Configure the System
+
+### Before We Get Started
+
+- Request and ensure model access within AWS Bedrock, specifically:
+  - Claude 3.5 Sonnet V2
+  - Claude 3 Haiku
+  - Titan Embeddings V2
+
+The corresponding model IDs are:
+
+```
+anthropic.claude-3-5-sonnet-20241022-v2:0
+anthropic.claude-3-haiku-20240307-v1:0
+amazon.titan-embed-text-v2:0
+```
+
+### 1. Deploy an EC2 Instance
+
+- Deploy an EC2 instance in your desired region and configure it as required (i.e grant a role with required managed polices).
+
+- CDK will require Administrator Permissions
+
+- Normal operation will require AmazonBedrockFullAccess and AmazonS3FullAccess
+
+- Additional settings: t2.micro and security group to allow SSH traffic
+
+### 2. Pull the Git Repository onto the EC2 Instance
+
+- Install git using this command
+
+  ```
+  sudo yum install git
+  ```
+
+- Clone the necessary repository to the EC2 instance:
+  ```bash
+  git clone https://github.com/cal-poly-dxhub/eCR-semantic-interoperability.git
+  ```
+
+### 3. Create Bedrock Guardrail
+
+- Configure the Bedrock guardrail with the following settings:
+
+  - **Sensitive Information PII Behavior**: Set to `mask`.
+
+### 4. Create a virtual environment:
 
 ```bash
 python3.9 -m venv .venv
 ```
 
-2. Install the required packages:
+### 5. Activate the virtual environment:
+
+- **note: this step will need to be repeated each time you log in**
+
+```bash
+source .venv/bin/activate
+```
+
+### 6. Install the required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage:
+### 7. Run the embeddings pipeline on eCRs to create a dataset (required):
 
-1. Run the following command to submit an eCR for LLM classification:
-
-```bash
-python src/embed.py <path_to_ecr>
-```
-
-2. Run the following command to test another eCR against the dataset of embeddings:
+- This step generates a mathematical representation (embedding) of an eCR document, which can be used for future classification of similar documents.
+- Repeat this process for all eCR documents you want to include in the comparison dataset. You can add more documents at any time.
 
 ```bash
-python src/test.py <path_to_ecr>
+python src/embed.py <path_to_hl7_xml_ecr>
 ```
 
-- After runnung `src/embed.py` the output embedding will be saved in the `embeddings/` directory under the filepath of the embedded file.
-- Intermediate files that may be useful for debugging are saved in the `temp/` directory after running either `src/embed.py` or `src/test.py`
-- Final xml test output file `xml_source_inference.xml` will be saved in the `out/` directory.
+- After running this command, the generated embedding will be saved in the embeddings/ directory under the corresponding file path.
+
+### 8. Run the following command to classify and extract information from an eCR:
+
+- This step classifies an eCR document based on the existing embeddings dataset and extracts relevant information, including pregnancy status, recent travel history, and occupation history, from both text and table sections.
+- Ensure that the file used here is different from those processed in step 7.
+
+```bash
+python src/test.py <path_to_new_hl7_xml_ecr>
+```
+
+- The final classified XML output file, xml_source_inference.xml, will be saved in the out/ directory.
+
+## Known Bugs/Concerns
+
+- Comments in eCRs can cause issues with traversal
+- Currently only works on HL7v3 eCRs
+- Large language models and embeddings models can be incorrect
+
+## Support
+
+For any queries or issues, please contact:
+
+- Darren Kraker, Sr Solutions Architect - dkraker@amazon.com
+- Gus Flusser - Software Developer Intern - gflusser@calpoly.edu
+- Ryan Gertz - Software Developer Intern - rgertz@calpoly.edu
+- Swayam Chidrawar - Software Developer Intern - schidraw@calpoly.edu

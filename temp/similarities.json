@@ -2,20 +2,6 @@
   [
     {
       "existing_file": {
-        "file": "embeddings/t.json",
-        "chunk_id": 0,
-        "path": "root.component.structuredBody.0.section.text"
-      },
-      "test_file": {
-        "file": "assets/t.xml",
-        "chunk_id": 0,
-        "path": "root.component.structuredBody.0.section.text"
-      },
-      "similarity": 1.0,
-      "category": "eICR Composition"
-    },
-    {
-      "existing_file": {
         "file": "embeddings/synthea/Lael572_Schuppe920_3c7e37b0-c610-bc9a-d75a-f782e5dc7598.json",
         "chunk_id": 0,
         "path": "root.component.structuredBody.0.section.text"
@@ -111,20 +97,6 @@
       },
       "similarity": 0.14102618220739416,
       "category": "eICR Composition"
-    },
-    {
-      "existing_file": {
-        "file": "embeddings/t.json",
-        "chunk_id": 1,
-        "path": "root.component.structuredBody.1.section.text"
-      },
-      "test_file": {
-        "file": "assets/t.xml",
-        "chunk_id": 0,
-        "path": "root.component.structuredBody.0.section.text"
-      },
-      "similarity": 0.12965183019651813,
-      "category": "Pregnancy Status"
     },
     {
       "existing_file": {
@@ -858,20 +830,6 @@
   [
     {
       "existing_file": {
-        "file": "embeddings/t.json",
-        "chunk_id": 1,
-        "path": "root.component.structuredBody.1.section.text"
-      },
-      "test_file": {
-        "file": "assets/t.xml",
-        "chunk_id": 1,
-        "path": "root.component.structuredBody.1.section.text"
-      },
-      "similarity": 1.0000000000000002,
-      "category": "Pregnancy Status"
-    },
-    {
-      "existing_file": {
         "file": "embeddings/hl7_schema.json",
         "chunk_id": 6,
         "path": "root.component.structuredBody.6.section.text"
@@ -1037,20 +995,6 @@
       },
       "similarity": 0.14507080781271248,
       "category": "eICR Lab Orders"
-    },
-    {
-      "existing_file": {
-        "file": "embeddings/t.json",
-        "chunk_id": 0,
-        "path": "root.component.structuredBody.0.section.text"
-      },
-      "test_file": {
-        "file": "assets/t.xml",
-        "chunk_id": 1,
-        "path": "root.component.structuredBody.1.section.text"
-      },
-      "similarity": 0.12965183019651813,
-      "category": "eICR Composition"
     },
     {
       "existing_file": {
