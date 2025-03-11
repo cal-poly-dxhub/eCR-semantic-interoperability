@@ -129,9 +129,11 @@ if __name__ == "__main__":
 
         inference = llm_inference(text)
         xml = (
-            f"<{s['category'].replace(' ', '_')}><source>"
+            f"<{s['category'].replace(' ', '_')} similarity=\"{s['similarity']}\"><testSource filePath=\"{s['test_file']['file']}\" elementPath=\"{test_section_path}\">"
+            + text
+            + f'</testSource><embeddedSource filePath="{embed_xml}" elementPath="{embed_section_path}">'
             + tree_to_string(embed_el)
-            + "</source><inference>"
+            + "</embeddedSource><inference>"
             + inference
             + f"</inference></{s['category'].replace(' ', '_')}>"
         )
