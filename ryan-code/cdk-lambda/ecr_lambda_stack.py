@@ -18,14 +18,16 @@ class EcrLambdaStack(Stack):
             self, 
             "InputBucket",
             removal_policy=RemovalPolicy.DESTROY,
-            auto_delete_objects=True
+            auto_delete_objects=True,
+            bucket_name="dxhub-ecrcdk-input"
         )
         
         output_bucket = s3.Bucket(
             self, 
             "OutputBucket",
             removal_policy=RemovalPolicy.DESTROY,
-            auto_delete_objects=True
+            auto_delete_objects=True,
+            bucket_name="dxhub-ecrcdk-output"
         )
 
         # Create Lambda layer with dependencies
