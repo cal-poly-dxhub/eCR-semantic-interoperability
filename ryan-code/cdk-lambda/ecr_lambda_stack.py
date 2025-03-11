@@ -47,7 +47,7 @@ class EcrLambdaStack(Stack):
             runtime=lambda_.Runtime.PYTHON_3_9,
             handler="app.lambda_handler",
             code=lambda_.Code.from_asset("lambda-code"),
-            timeout=Duration.minutes(14)
+            timeout=Duration.minutes(14),
             memory_size=1024,
             environment={
                 "OUTPUT_BUCKET": "dxhub-ecrcdk-output"
