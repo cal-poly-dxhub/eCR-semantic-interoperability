@@ -101,7 +101,7 @@ python src/test.py <path_to_new_hl7_xml_ecr>
 - **Output Generation:** Produces a structured XML file with the findings.
 
 
-**Terminal Output Example**
+### Terminal Output Example
 When running the script, the terminal output may resemble the following:
 ```bash
 chunk 9 / 12:
@@ -117,9 +117,9 @@ The output indicates that:
   - The file `file2.xml` is located in `assets/file2.xml`
   - The final category for chunk 9 is Travel_History_Narrative.
 
-- Note that `file2.xml` is not the file you are running `test.py` on, but rather the file that has the closest match via embeddings to the current file you are testing.
+- **Note** that `file2.xml` is not the file you are running `test.py` on, but rather the file that has the closest match via embeddings to the current file you are testing.
 
-- Note that for `<table>` attributes, LLM's are not being used to infer soft attributes about hte patient like pregnancy, etc.
+- **Note** that for `<table>` attributes, LLM's are not being used to infer soft attributes about hte patient like pregnancy, etc.
 
 ### Final Output Details
 
