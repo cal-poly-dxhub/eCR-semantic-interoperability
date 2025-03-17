@@ -100,7 +100,9 @@ python src/test.py <path_to_new_hl7_xml_ecr>
 - **Information Extraction:** Uses Claude AI to extract key clinical details from each section.
 - **Output Generation:** Produces a structured XML file with the findings.
 
-- In the terminal of this step you will see something like:
+
+**Terminal Output Example**
+When running the script, the terminal output may resemble the following:
 ```bash
 chunk 9 / 12:
 ------------------------------------------------------------
@@ -109,11 +111,15 @@ to assets/file2.xml
 category Travel_History_Narrative
 ------------------------------------------------------------
 ```
-- This is showing that chunk 9 in `<path_to_new_hl7_xml_ecr>` matched to `file2.xml`. 
-  - `file2.xml`'s embeddings are stored in embeddings/file2.json
-  - `file2.xml` is stored in assets/file2.xml
+The output indicates that:
+-Chunk 9 in `<path_to_new_hl7_xml_ecr>` matched file2.xml.
+  - The embeddings for `file2.xml` are stored in `embeddings/file2.json`.
+  - The file `file2.xml` is located in `assets/file2.xml`
   - The final category for chunk 9 is Travel_History_Narrative.
-- Note that `file2.xml` is not the file you are running `test.py` on, but rather the file that has the cloest match via embeddings to the current file you are testing.
+
+- Note that `file2.xml` is not the file you are running `test.py` on, but rather the file that has the closest match via embeddings to the current file you are testing.
+
+- Note that for `<table>` attributes, LLM's are not being used to infer soft attributes about hte patient like pregnancy, etc.
 
 ### Final Output Details
 
