@@ -5,7 +5,8 @@ from typing import Any
 import boto3
 
 embedding_model_id = "amazon.titan-embed-text-v2:0"
-llm_model_id = "anthropic.claude-3-5-sonnet-20241022-v2:0"
+# llm_model_id = "anthropic.claude-3-5-sonnet-20241022-v2:0"
+llm_model_id = "anthropic.claude-3-5-haiku-20241022-v1:0"
 client = boto3.client(  # type: ignore
     "bedrock-runtime",
     region_name="us-west-2",
@@ -58,6 +59,7 @@ def invoke_embedding(body: Any, retries: int = 0) -> Any:
                 retries + 1,
             )
         print(e)
+        print(os.getenv("AWS_ACCESS_KEY_ID"))
         exit(1)
 
 

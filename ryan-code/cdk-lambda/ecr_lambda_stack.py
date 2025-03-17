@@ -58,6 +58,7 @@ class EcrLambdaStack(Stack):
         # Grant permissions to Lambda function
         input_bucket.grant_read(lambda_function)
         output_bucket.grant_write(lambda_function)
+        output_bucket.grant_put_acl(lambda_function)
         
         # Grant Bedrock permissions
         lambda_function.add_to_role_policy(
