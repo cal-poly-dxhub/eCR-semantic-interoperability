@@ -44,6 +44,71 @@ Thanks for your interest in our solution. Having specific examples of replicatio
 
 - The [DxHub](https://dxhub.calpoly.edu/challenges/) developed a Python script leveraging AWS Bedrock to semantically analyze and identify patterns within eCR documents, allowing for the accurate extraction and classification of patient information through the use of advanced embeddings and large language models.
 
+## High Level Description of Workflow
+
+> *Feel free to skip this section if you just want to get started.*
+
+### Step 1: Generate Reference Embeddings
+
+Run the following command to process an HL7 XML eCR document:
+
+```bash
+python src/embed.py <path_to_hl7_xml_ecr>
+```
+
+**This process performs the following actions:**
+
+- **Chunking:** Splits XML healthcare documents into logical sections.
+- **Embedding:** Creates vector embeddings for each chunk using AWS Bedrock's Titan embedding model.
+- **Categorization:** Classifies each chunk (e.g., "Diagnoses", "Patient_Demographics").
+- **Storage:** Saves the generated embeddings in the `embeddings/` directory.
+
+### Step 2: Classify and Extract Information
+
+Run the command below to analyze a new HL7 XML eCR document:
+
+```bash
+python src/test.py <path_to_new_hl7_xml_ecr>
+```
+
+**This process includes:**
+
+- **Document Chunking:** Splits the new document and creates embeddings.
+- **Similarity Matching:** For each chunk, finds the most similar reference chunk.
+- **Information Extraction:** Uses Claude AI to extract key clinical details from each section.
+- **Output Generation:** Produces a structured XML file with the findings.
+
+### Final Output Details
+
+The final output is saved as `out/xml_source_inference.xml` and contains the following for each document section:
+
+- The matched reference document and similarity score.
+- The original text from your input document.
+- The corresponding matching text from the reference document.
+- Claude's inference of key clinical information, including:
+  - **Pregnancy status** with reasoning.
+  - **Travel history** with locations, dates, and reasoning.
+  - **Occupation information** with job details and reasoning.
+
+#### Example Output Structure
+
+```xml
+<Diagnoses similarity="0.94">
+  <testSource filePath="..." elementPath="...">
+    <!-- Your input text -->
+  </testSource>
+  <embeddedSource filePath="..." elementPath="...">
+    <!-- Matching reference text -->
+  </embeddedSource>
+  <inference>
+    <pregnancy pregnant="false">
+      <reasoning>No indication of pregnancy in this section</reasoning>
+    </pregnancy>
+    <!-- Additional inferences -->
+  </inference>
+</Diagnoses>
+```
+
 ## Steps to Deploy and Configure the System
 
 ### Before We Get Started
