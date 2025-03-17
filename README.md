@@ -38,7 +38,27 @@ Thanks for your interest in our solution. Having specific examples of replicatio
 
 ## Table of Contents
 
+- [Collaboration](#collaboration)
+- [Disclaimers](#disclaimers)
+- [Authors](#authors)
 - [Overview](#overview)
+- [High Level Description of Workflow](#high-level-description-of-workflow)
+  - [Step 1: Generate Reference Embeddings](#step-1-generate-reference-embeddings)
+  - [Step 2: Classify and Extract Information](#step-2-classify-and-extract-information)
+  - [Final Output Details](#final-output-details)
+- [Steps to Deploy and Configure the System](#steps-to-deploy-and-configure-the-system)
+  - [Before We Get Started](#before-we-get-started)
+  - [1. Deploy an EC2 Instance](#1-deploy-an-ec2-instance)
+  - [2. Pull the Git Repository onto the EC2 Instance](#2-pull-the-git-repository-onto-the-ec2-instance)
+  - [3. Create Bedrock Guardrail](#3-create-bedrock-guardrail)
+  - [4. Create a Virtual Environment](#4-create-a-virtual-environment)
+  - [5. Activate the Virtual Environment](#5-activate-the-virtual-environment)
+  - [6. Install the Required Packages](#6-install-the-required-packages)
+  - [7. Run the Embeddings Pipeline](#7-run-the-embeddings-pipeline)
+  - [8. Classify and Extract Information from an eCR](#8-classify-and-extract-information-from-an-ecr)
+- [Known Bugs/Concerns](#known-bugsconcerns)
+- [Support](#support)
+
 
 ## Overview
 
@@ -46,7 +66,8 @@ Thanks for your interest in our solution. Having specific examples of replicatio
 
 ## High Level Description of Workflow
 
-> *Feel free to skip this section if you just want to get started.*
+[Feel free to skip to the deployment section](#steps-to-deploy-and-configure-the-system) if you just want to get started.
+
 
 ### Step 1: Generate Reference Embeddings
 
