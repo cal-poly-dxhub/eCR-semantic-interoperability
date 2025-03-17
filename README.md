@@ -112,7 +112,7 @@ category Travel_History_Narrative
 ------------------------------------------------------------
 ```
 The output indicates that:
--Chunk 9 in `<path_to_new_hl7_xml_ecr>` matched file2.xml.
+- Chunk 9 in `<path_to_new_hl7_xml_ecr>` matched file2.xml.
   - The embeddings for `file2.xml` are stored in `embeddings/file2.json`.
   - The file `file2.xml` is located in `assets/file2.xml`
   - The final category for chunk 9 is Travel_History_Narrative.
