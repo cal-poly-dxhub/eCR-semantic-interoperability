@@ -121,6 +121,8 @@ The output indicates that:
 
 - **Note** that for `<table>` attributes, LLM's are not being used to infer soft attributes about hte patient like pregnancy, etc.
 
+- **Note** this script will remove duplicate chunks from the input file. So if multiple chunks have the same `<text>` attribute, all but one will be skipped.
+
 ### Final Output Details
 
 The final output is saved as `out/xml_source_inference.xml` and contains the following for each document section:
