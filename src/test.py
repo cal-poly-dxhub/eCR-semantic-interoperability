@@ -1,12 +1,13 @@
 import json
 import os
 import sys
-import xml.etree.ElementTree as ET  # type: ignore
+import xml.etree.ElementTree as ET
 from typing import Any
+import re
 
-import lxml  # type: ignore
-import numpy as np  # type: ignore
-from lxml import etree  # type: ignore
+import lxml
+import numpy as np
+from lxml import etree
 
 from bedrock import llm_inference
 from chunky import extract_relevant_chunks_file
@@ -17,6 +18,8 @@ from vectoring import get_bedrock_embeddings
 tempext = "temp/"
 outext = "out/"
 
+# TODO: Make prompt easier to edit for customer
+# TODO: Human input pipeline for categories
 
 def cleanup():
     for p in [tempext, outext]:
@@ -26,6 +29,15 @@ def cleanup():
         else:
             os.mkdir(p)
 
+def normalize_text(text : str) -> str:
+    """Normalize text by converting to lowercase and removing special characters."""
+    # Convert to lowercase
+    text = text.lower()
+    # Remove special characters
+    text = re.sub(r'[^\w\s]', '', text)
+    # Remove extra whitespace
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
 
 def load_all_embeddings() -> list[Any]:
     embeddings: list[dict[str, Any]] = []
@@ -53,10 +65,15 @@ def load_all_embeddings() -> list[Any]:
 
     return embeddings
 
-
 def cos_similarity(a: np.array, b: np.array) -> float:  # type: ignore
     return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))  # type: ignore
 
+def first_occurrence_of_text(normalized_text: str, chunk_map: dict, current_index: int) -> bool:
+    """Return True if this is the first occurrence of this text in the document."""
+    for i in range(current_index):
+        if chunk_map[i] == normalized_text:
+            return False
+    return True
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
@@ -109,25 +126,81 @@ if __name__ == "__main__":
         # intermediately saving document with similarities
         json.dump(document_with_similarities, f, indent=2)
 
+    # Deduplication step: group similar chunks to avoid redundant LLM calls
+    processed_inferences = {}  # Will store normalized_text -> inference results
+    chunk_to_normalized_map = {}  # Maps chunk index to its normalized text
+    
+    # identify duplicates
+    for i, s in enumerate(document_with_similarities):
+        test_el = get_xml_element(s["test_file"]["file"], s["test_file"]["path"])
+        text = tree_to_string(test_el)
+        normalized_text = normalize_text(text)
+        chunk_to_normalized_map[i] = normalized_text
+    
+
+    unique_chunks = len(set(chunk_to_normalized_map.values()))
+    print(f"Found {len(document_with_similarities)} total chunks, {unique_chunks} unique after deduplication")
+    
+    # Process unique chunks
     inferences: list[str] = []
     for i, s in enumerate(document_with_similarities):
-        print(f"chunk {i + 1} / {len(document_with_similarities)}:")
-        embed_section_path = s["existing_file"]["path"].split(".section.")[0]
-        test_section_path = s["test_file"]["path"].split(".section.")[0]
-        embed_xml = embedding_to_source_xml(s["existing_file"]["file"])
-        print("------------------------------------------------------------")
-        print(
-            f"matched {s['existing_file']['file']}\nto {embed_xml}\ncategory {s['category']}"
-        )
-        print("------------------------------------------------------------\n")
-        embed_el: Any = get_xml_element(embed_xml, embed_section_path)
-        test_el: Any = get_xml_element(s["test_file"]["file"], test_section_path)
-        text = tree_to_string(test_el)
-        # for debugging: save text to file
-        # with open(f"out/text{i}.txt", "w") as f:
-        #     f.write(text)
-
-        inference = llm_inference(text)
+        normalized_text = chunk_to_normalized_map[i]
+        
+        # Skip processing if we've already done this chunk
+        if normalized_text in processed_inferences and not first_occurrence_of_text(normalized_text, chunk_to_normalized_map, i):
+            print(f"Chunk {i + 1} / {len(document_with_similarities)}: Skipping duplicate chunk")
+            inference = processed_inferences[normalized_text]
+            continue
+        else:
+            print(f"Chunk {i + 1} / {len(document_with_similarities)}:")
+            embed_section_path = s["existing_file"]["path"].split(".section.")[0]
+            test_section_path = s["test_file"]["path"].split(".section.")[0]
+            embed_xml = embedding_to_source_xml(s["existing_file"]["file"])
+            print("------------------------------------------------------------")
+            print(
+                f"matched {s['existing_file']['file']}\nto {embed_xml}\ncategory {s['category']}"
+            )
+            print("------------------------------------------------------------\n")
+            embed_el: Any = get_xml_element(embed_xml, embed_section_path)
+            test_el: Any = get_xml_element(s["test_file"]["file"], test_section_path)
+            
+            test_el_string = etree.tostring(test_el, encoding='unicode')
+            
+            contains_table = False
+            
+            # 3 different methods to check if the chunk is a table
+            if "<table" in test_el_string:
+                contains_table = True
+            
+            if not contains_table:
+                for elem in test_el.iter():
+                    tag = elem.tag
+                    # Remove namespace if present
+                    if '}' in tag:
+                        tag = tag.split('}', 1)[1]
+                    if tag.lower() == 'table':
+                        contains_table = True
+                        break
+            
+            if not contains_table:
+                try:
+                    tables = test_el.xpath(".//*[local-name()='table']")
+                    if tables:
+                        contains_table = True
+                except (AttributeError, TypeError):
+                    pass
+            
+            text = tree_to_string(test_el)
+            
+            if not contains_table:
+                inference = llm_inference(text)
+            else:
+                inference = "<pregnancy pregnant=\"false\"><reasoning>Table data - no inference performed</reasoning></pregnancy><travel status=\"false\"><reasoning>Table data - no inference performed</reasoning></travel><occupation employed=\"false\"><reasoning>Table data - no inference performed</reasoning></occupation>"
+            
+            # Store inference for future duplicate chunks
+            processed_inferences[normalized_text] = inference
+        
+        # Build XML output
         xml = (
             f"<{s['category'].replace(' ', '_')} similarity=\"{s['similarity']}\"><testSource filePath=\"{s['test_file']['file']}\" elementPath=\"{test_section_path}\">"
             + text
@@ -144,3 +217,6 @@ if __name__ == "__main__":
         for i in inferences:
             f.write(i)
         f.write("</root>")
+    
+    print("Final output created in: out/xml_source_inference.xml")
+    print(f"Processed {unique_chunks} unique chunks out of {len(document_with_similarities)} total chunks")
