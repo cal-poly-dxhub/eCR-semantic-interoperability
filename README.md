@@ -102,7 +102,7 @@ python src/test.py <path_to_new_hl7_xml_ecr>
 
 
 ### Terminal Output Example
-When running the script, the terminal output may resemble the following:
+When running the script, the terminal output for each chunk in `<path_to_new_hl7_xml_ecr>` may resemble the following:
 ```bash
 chunk 9 / 12:
 ------------------------------------------------------------
