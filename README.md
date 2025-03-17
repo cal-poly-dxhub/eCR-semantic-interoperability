@@ -84,6 +84,7 @@ python src/embed.py <path_to_hl7_xml_ecr>
 - **Categorization:** Classifies each chunk (e.g., "Diagnoses", "Patient_Demographics").
 - **Storage:** Saves the generated embeddings in the `embeddings/` directory.
 
+
 ### Step 2: Classify and Extract Information
 
 Run the command below to analyze a new HL7 XML eCR document:
@@ -98,6 +99,21 @@ python src/test.py <path_to_new_hl7_xml_ecr>
 - **Similarity Matching:** For each chunk, finds the most similar reference chunk.
 - **Information Extraction:** Uses Claude AI to extract key clinical details from each section.
 - **Output Generation:** Produces a structured XML file with the findings.
+
+- In the terminal of this step you will see something like:
+```bash
+chunk 9 / 12:
+------------------------------------------------------------
+matched embeddings/file2.json
+to assets/file2.xml
+category Travel_History_Narrative
+------------------------------------------------------------
+```
+- This is showing that chunk 9 in `<path_to_new_hl7_xml_ecr>` matched to `file2.xml`. 
+  - `file2.xml`'s embeddings are stored in embeddings/file2.json
+  - `file2.xml` is stored in assets/file2.xml
+  - The final category for chunk 9 is Travel_History_Narrative.
+- Note that `file2.xml` is not the file you are running `test.py` on, but rather the file that has the cloest match via embeddings to the current file you are testing.
 
 ### Final Output Details
 
