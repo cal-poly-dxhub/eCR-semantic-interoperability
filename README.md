@@ -66,7 +66,7 @@ Thanks for your interest in our solution. Having specific examples of replicatio
 
 ## High Level Description of Workflow
 
-[Feel free to skip to the deployment section](#steps-to-deploy-and-configure-the-system) if you just want to get started.
+[Feel free to skip to the deployment section](#steps-to-deploy-and-configure-the-system) if you just want to get started. This is just a look on what this process is doing and the "theory" behind it.
 
 
 ### Step 1: Generate Reference Embeddings
