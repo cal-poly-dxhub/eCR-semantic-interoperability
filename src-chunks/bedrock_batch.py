@@ -68,7 +68,7 @@ class BedrockBatch:
         # Get AWS account ID from the session
         self.account_id = self._get_account_id(session)
         
-        # Use the model ID from your bedrock module
+        # Use the model ID from  bedrock module
         self.llm_model_id = llm_model_id
         
         logger.info("BedrockBatch initialized successfully")
@@ -492,7 +492,7 @@ class BedrockBatch:
                     ]
                 })
                 
-                # Call the LLM directly using your existing function
+                # Call the LLM directly using existing function
                 logger.info(f"Processing text {i+1}/{len(texts)} using direct API call")
                 response = invoke_llm(request_body)
                 
