@@ -182,23 +182,23 @@ A **minimal** example looks like:
   "type": "object",
   "properties": {
     "eICR Composition": { 
-      "type": "object",
+      "additionalProperties": false,
       "description": "Description of eICR Composition"
     },
     "eICR Patient": {
-      "type": "object",
+      "additionalProperties": false,
       "description": "Description of eICR Patient"
     },
     "Pregnancy Status": {
-      "type": "object",
+      "additionalProperties": false,
       "description": "Description of Pregnancy Status"
     },
     "eICR Travel History": {
-      "type": "object",
+      "additionalProperties": false,
       "description": "Description of eICR Travel History"
     },
     "eICR Occupation History": {
-      "type": "object",
+      "additionalProperties": false,
       "description": "Description of eICR Occupation History"
     }
   },
