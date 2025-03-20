@@ -171,6 +171,43 @@ anthropic.claude-3-haiku-20240307-v1:0
 amazon.titan-embed-text-v2:0
 ```
 
+### Schema Configuration (Required)
+
+Before running any of the scripts you **must** have a file named `<SCHEMA_TYPE>_schema.json` located in the `assets` directory within the `src` directory. Replace `<SCHEMA_TYPE>` with your schema type identifier (e.g. `hl7`, `ecr`). This schema defines the categories (e.g., "eICR Composition," "eICR Patient," "Pregnancy Status," etc.) used by the embedding pipeline to classify document chunks. As it stands right now, if your schema is not named `hl7_schema.json`, within `vectoring.py`, you will have to edit `SCHEMA_TYPE` to reflect your schema name.
+
+A **minimal** example looks like:
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "eICR Composition": { 
+      "type": "object",
+      "description": "Description of eICR Composition"
+    },
+    "eICR Patient": {
+      "type": "object",
+      "description": "Description of eICR Patient"
+    },
+    "Pregnancy Status": {
+      "type": "object",
+      "description": "Description of Pregnancy Status"
+    },
+    "eICR Travel History": {
+      "type": "object",
+      "description": "Description of eICR Travel History"
+    },
+    "eICR Occupation History": {
+      "type": "object",
+      "description": "Description of eICR Occupation History"
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}
+```
+- A starter file named `hl7_schema.json`, used in our initial testing, is provided in the repository. You may extend or replace this schema at any time; however, note that **changing the schema requires re-embedding all documents** to ensure embeddings align with your updated categories.
+
 ### 1. Deploy an EC2 Instance
 
 - Deploy an EC2 instance in your desired region and configure it as required (i.e grant a role with required managed polices).
