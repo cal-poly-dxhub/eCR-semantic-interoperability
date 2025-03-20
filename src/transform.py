@@ -1,6 +1,8 @@
 import json
+import re
 import sys
 from typing import Any
+from xml.etree import ElementTree as ET
 
 from bedrock import invoke_llm
 from lxml import etree  # type: ignore
@@ -134,6 +136,9 @@ def etree_transform_data_to_json(element: etree.Element) -> dict[str, Any]:  # t
         if child.tag.endswith("text"):  # type: ignore
             json_data[child.tag[16:]] = etree_text_helper(child)  # type: ignore
 
+        # if child.tag.endswith("table"):  # type: ignore
+        #     json_data[child.tag[16:]] = etree_table_helper(child)  # type: ignore
+
         elif len(child) > 0:  # type: ignore
             json_data[child.tag[16:]] = etree_transform_data_to_json(child)  # type: ignore
 
@@ -147,6 +152,26 @@ def etree_transform_data_to_json(element: etree.Element) -> dict[str, Any]:  # t
                 json_data[child.tag[16:]] = attrib_nesting_helper(child)  # type: ignore
 
     return json_data  # type: ignore
+
+
+def remove_xml_comments(tree: ET.ElementTree) -> ET.ElementTree:  # type: ignore
+    """
+    removes comments from an xml tree
+    """
+    # for elem in tree.iter():  # type: ignore
+    #     print(str(elem.tag) + "\t\t" + str(type(elem)))
+    #     if elem.tag.startswith("<!--"):  # type: ignore
+    #         elem.clear()  # type: ignore
+
+    return tree
+
+
+def tree_to_string(tree: etree._Element) -> str:  # type: ignore
+    """
+    converts an xml tree to a string
+    """
+    s = etree.tostring(tree, pretty_print=True).decode("utf-8")  # type: ignore
+    return re.sub("ns0:", "", s)  # type: ignore
 
 
 if __name__ == "__main__":
