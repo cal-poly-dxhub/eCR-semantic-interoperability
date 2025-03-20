@@ -184,34 +184,29 @@ A minimal example looks like:
     "eICR Composition": { 
       "type": "object",
       "description": "Description of eICR Composition"
-      ...
     },
     "eICR Patient": {
       "type": "object",
       "description": "Description of eICR Patient"
-      ...
     },
     "Pregnancy Status": {
       "type": "object",
       "description": "Description of Pregnancy Status"
-      ...
     },
     "eICR Travel History": {
       "type": "object",
       "description": "Description of eICR Travel History"
-      ...
     },
     "eICR Occupation History": {
       "type": "object",
       "description": "Description of eICR Occupation History"
-      ...
     }
   },
   "required": [],
   "additionalProperties": false
 }
 ```
-- A starter file named `hl7_schema.json`, used in our initial testing, is provided in the repository. You may extend or replace this schema at any time; however, note that changing the schema requires re-embedding all documents to ensure embeddings align with your updated categories.
+- A starter file named `hl7_schema.json`, used in our initial testing, is provided in the repository. You may extend or replace this schema at any time; however, note that **changing the schema requires re-embedding all documents** to ensure embeddings align with your updated categories.
 
 ### 1. Deploy an EC2 Instance
 
