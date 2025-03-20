@@ -171,11 +171,11 @@ anthropic.claude-3-haiku-20240307-v1:0
 amazon.titan-embed-text-v2:0
 ```
 
-### HL7 Schema Configuration (Required)
+### Schema Configuration (Required)
 
-Before running any of the scripts you **must** have a file named `<SCHEMA_TYPE>_schema.json` located in the `assets` directory within the `src` directory. Replace `<SCHEMA_TYPE>` with your schema type identifier (e.g. `hl7`, `ecr`). This schema defines the categories (e.g., "eICR Composition," "eICR Patient," "Pregnancy Status," etc.) used by the embedding pipeline to classify document chunks.
+Before running any of the scripts you **must** have a file named `<SCHEMA_TYPE>_schema.json` located in the `assets` directory within the `src` directory. Replace `<SCHEMA_TYPE>` with your schema type identifier (e.g. `hl7`, `ecr`). This schema defines the categories (e.g., "eICR Composition," "eICR Patient," "Pregnancy Status," etc.) used by the embedding pipeline to classify document chunks. As it stands right now, within `vectoring.py`, if your schema is not named `hl7_schema.json`, you will have to edit `SCHEMA_TYPE` in the python file to reflect your schema name.
 
-A minimal example looks like:
+A **minimal** example looks like:
 
 ```json
 {
