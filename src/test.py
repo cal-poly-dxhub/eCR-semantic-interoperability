@@ -92,7 +92,7 @@ if __name__ == "__main__":
         if normalize_text(chunk.get("text","")) not in seen:
             seen.add(normalize_text(chunk.get("text","")))
             unique_chunks.append(chunk)
-    print(f"{len(chunks)} total chunks, after deduping, {len(unique_chunks)} total chunks")
+    print(f"{len(chunks)} total chunks, after deduplication, {len(unique_chunks)} total chunks")
 
     # choose between hl7 and ecr (makedata golden template) schemas in vectoring.py
     test_file_embeddings = [get_bedrock_embeddings(c) for c in unique_chunks]
