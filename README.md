@@ -81,7 +81,7 @@ python src/embed.py <path_to_hl7_xml_ecr>
 
 - **Chunking:** Splits XML healthcare documents into logical sections.
 - **Embedding:** Creates vector embeddings for each chunk using AWS Bedrock's Titan embedding model.
-- **Categorization:** Classifies each chunk (e.g., "Diagnoses", "Patient_Demographics").
+- **Categorization:** Classifies each chunk (e.g., "Diagnoses", "Patient_Demographics") using the categories defined in `<SCHEMA_TYPE>_schema.json`.
 - **Storage:** Saves the generated embeddings in the `embeddings/` directory.
 
 
