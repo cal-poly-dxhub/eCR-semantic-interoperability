@@ -5,7 +5,6 @@ from typing import Any
 
 import boto3
 from botocore.exceptions import ClientError
-
 from shared import save_to_file
 
 get_info_prompt: str = """<prompt>
@@ -27,6 +26,7 @@ You will split your response into "thought" and "relevant_pairs". There should b
 <pair>
 <key>key1</key>
 <value>value containing relevant information</value>
+<reason>reason for relevance</reason>
 </pair>
 (If no relevant pairs are found leave the <relevant_pairs> block empty)
 </relevant_pairs>
@@ -62,15 +62,17 @@ def create_key_value_xml(keys: list[str], values: list[Any]) -> str:
 def get_bedrock_response(prompt: str) -> str:
     client = boto3.client("bedrock-runtime", region_name="us-east-1")  # type: ignore
     model_id = "anthropic.claude-3-sonnet-20240229-v1:0"
-    conversation = [{"role": "user", "content": [{"text": prompt}]}]
+    conversation: Any = [{"role": "user", "content": [{"text": prompt}]}]
 
     try:
         response = client.converse(  # type: ignore
             modelId=model_id,
             messages=conversation,
-            inferenceConfig={"maxTokens": 1024, "temperature": 1.0, "topP": 0.9},
+            inferenceConfig={"maxTokens": 2048, "temperature": 1.0, "topP": 0.9},
         )
         response_text: Any = response["output"]["message"]["content"][0]["text"]
+        with open("response.txt", "w") as f:
+            f.write(response_text)
         return response_text
 
     except (ClientError, Exception) as e:
@@ -139,7 +141,7 @@ if __name__ == "__main__":
     else:
         file = sys.argv[1]
         query = sys.argv[2]
-        file_path = f"../assets/human_readable_messy/{file}"
+        file_path = f"../assets/makedata/{file}"
 
         keys = []
         data = None

@@ -3,6 +3,7 @@ assets/
 out/
 embeddings/
 demo/
+*.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
