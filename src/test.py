@@ -18,8 +18,9 @@ from vectoring import get_bedrock_embeddings
 tempext = "temp/"
 outext = "out/"
 
-# TODO: Make prompt easier to edit for customer
-# TODO: Human input pipeline for categories
+# TODO: Additive score matching instead of top match
+# TODO: Include xml chunk in embeddings file so they can manually classify
+# TODO: Edit readme to include testing guide
 
 def cleanup():
     for p in [tempext, outext]:
