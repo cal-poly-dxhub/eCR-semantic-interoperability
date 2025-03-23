@@ -16,7 +16,7 @@ Thanks for your interest in our solution. Having specific examples of replicatio
 
 (b) represents current AWS product offerings and practices, which are subject to change without notice, and
 
-(c) does not create any commitments or assurances from AWS and its affiliates, suppliers or licensors. AWS products or services are provided “as is” without warranties, representations, or conditions of any kind, whether express or implied. The responsibilities and liabilities of AWS to its customers are controlled by AWS agreements, and this document is not part of, nor does it modify, any agreement between AWS and its customers.
+(c) does not create any commitments or assurances from AWS and its affiliates, suppliers or licensors. AWS products or services are provided "as is" without warranties, representations, or conditions of any kind, whether express or implied. The responsibilities and liabilities of AWS to its customers are controlled by AWS agreements, and this document is not part of, nor does it modify, any agreement between AWS and its customers.
 
 (d) is not to be considered a recommendation or viewpoint of AWS
 
@@ -56,6 +56,9 @@ Thanks for your interest in our solution. Having specific examples of replicatio
   - [6. Install the Required Packages](#6-install-the-required-packages)
   - [7. Run the Embeddings Pipeline](#7-run-the-embeddings-pipeline)
   - [8. Classify and Extract Information from an eCR](#8-classify-and-extract-information-from-an-ecr)
+- [Recommended Customer Workflow](#recommended-customer-workflow)
+  - [Concept Classification Workflow](#concept-classification-workflow)
+  - [Soft Attribute Inference Workflow](#soft-attribute-inference-workflow)
 - [Known Bugs/Concerns](#known-bugsconcerns)
 - [Support](#support)
 
@@ -279,6 +282,64 @@ python src/test.py <path_to_new_hl7_xml_ecr>
 
 - The final classified XML output file, xml_source_inference.xml, will be saved in the out/ directory.
 
+## Recommended Customer Workflow
+
+For optimal results, we recommend following a structured approach to implementing and fine-tuning the system. The workflow consists of two primary phases: Concept Classification and Soft Attribute Inference.
+
+### Concept Classification Workflow
+
+This phase focuses on setting up and validating the system's ability to correctly classify different sections of eCR documents.
+
+#### Steps:
+
+1. **Create a Golden Template**
+   
+   a. **Manually Label Data Elements Using Known, High-Quality Examples**
+      - Use 5+ example data elements from different 5 different ECR's (e.g., patient encounter, lab results, pregnancy information, etc.)
+      - Run them through the embeddings script (`python src/embed.py`) to populate the classification database
+   
+   b. **Use 1 High-Quality ECR and Manually Pre-Label/Annotate Each Relevant Data Element**
+      - Run the ECR through the classification script (`python src/test.py`)
+      - Manually verify the classification results against the pre-labeled/annotated ECR
+      - Markup where classifications are correct/incorrect
+      - Add new labeled data element examples from 5 new ECR's to improve accuracy
+   
+   c. **Test with 5 New/Unseen ECR's**
+      - Run them through the classification script
+      - Markup where classifications are correct/incorrect
+   
+   d. **Create an Aggregated Report of Classification Performance**
+      - Define acceptance criteria (e.g., what error rate per data element is acceptable?)
+      - Identify which data elements are being confused and at what rates
+
+### Soft Attribute Inference Workflow
+
+This phase focuses on fine-tuning the system's ability to infer soft attributes (pregnancy status, occupation, travel history) from free-form text.
+
+#### Steps:
+
+1. **Create a Golden Template**
+   
+   a. **Draft Business Rules for Interpreting Soft Attributes**
+      - Define when a person is considered currently pregnant
+      - Specify when to use 'Null' or other default values
+      - Establish criteria for valid occupation and travel history entries
+   
+   b. **Test Known/Annotated ECR's**
+      - Use 5+ example data elements containing free-form text describing soft attributes
+      - Run them through the inference script as it currently stands
+      - Markup where inferences are correct/incorrect per business rules
+   
+   c. **Adjust LLM Prompts and Hard-Coded Outputs**
+      - Modify prompts in the script based on defined business rules
+      - Adjust any hard-coded outputs to align with business requirements
+   
+   d. **Validate with Real, Unseen ECR's**
+      - Use 10+ real, unseen ECR's and run through the inference script
+      - Manually verify the inference results against the business rules
+      - Markup where inferences are correct/incorrect
+      - Make additional adjustments as needed
+
 ## Known Bugs/Concerns
 
 - Comments in eCRs can cause issues with traversal
@@ -289,7 +350,8 @@ python src/test.py <path_to_new_hl7_xml_ecr>
 
 For any queries or issues, please contact:
 
-- Darren Kraker, Sr Solutions Architect - dkraker@amazon.com
-- Gus Flusser - Software Developer Intern - gflusser@calpoly.edu
-- Ryan Gertz - Software Developer Intern - rgertz@calpoly.edu
-- Swayam Chidrawar - Software Developer Intern - schidraw@calpoly.edu
+- Darren Kraker    - Sr Solutions Architect     - dkraker@amazon.com
+- Nick Osterbur    - Digital Innovation Lead    - nosterb@amazon.com
+- Gus Flusser      - Software Developer Intern  - gflusser@calpoly.edu
+- Ryan Gertz       - Software Developer Intern  - rgertz@calpoly.edu
+- Swayam Chidrawar - Software Developer Intern  - schidraw@calpoly.edu
