@@ -100,28 +100,35 @@ python src/test.py <path_to_new_hl7_xml_ecr>
 
 - **Document Chunking:** Splits the new document and creates embeddings.
 - **Similarity Matching:** For each chunk, finds the most similar reference chunk.
-- **Additive Scoring:** Calculates additional similarity scores across multiple categories.
+- **Additive Scoring:** Calculates additional similarity scores across multiple categories to provide a more comprehensive view of the document's content classification.
 - **Information Extraction:** Uses Claude AI to extract key clinical details from each section.
-- **Output Generation:** Produces a structured XML file with the findings and additive scores.
+- **Output Generation:** Produces a structured XML file with the findings, primary and additive similarity scores.
 
 
 ### Terminal Output Example
 When running the script, the terminal output for each chunk in `<path_to_new_hl7_xml_ecr>` may resemble the following:
 ```bash
-chunk 9 / 12:
 ------------------------------------------------------------
-matched embeddings/file2.json
-to assets/file2.xml
-category Travel_History_Narrative
+Top match: embeddings/file1.json
+to assets/file1.xml
+category: eICR Composition (similarity: 0.1190)
+Highest additive category: eICR Encounter (score: 0.2016)
+  Top matches:
+    - embeddings/file1.json (similarity: 0.0701)
+      Path: root.component.structuredBody.3.section.text
+    - embeddings/file1.json (similarity: 0.0585)
+      Path: root.component.structuredBody.6.section.text
+    - embeddings/file1.json (similarity: 0.0380)
+      Path: root.component.structuredBody.8.section.text.table
 ------------------------------------------------------------
 ```
 The output indicates that:
-- **Chunk 9** in `<path_to_new_hl7_xml_ecr>` matched `file2.xml`.
-  - The embeddings for `file2.xml` are stored in `embeddings/file2.json`.
-  - The file `file2.xml` is located in `assets/file2.xml`
-  - The final category for chunk 9 is Travel_History_Narrative.
+- The current chunk's **top category match** is **eICR Composition** with a similarity score of **0.1190**.
+- The **highest additive category** is **eICR Encounter** with a score of **0.2016**.
+- It also shows the **top matching paths** from reference documents that contributed to this additive score.
+- The matches come from `file1.xml` which is located in `assets/file1.xml` with embeddings in `embeddings/file1.json`.
 
-- **Note** that `file2.xml` is not the file you are running `test.py` on, but rather the file that has the closest match via embeddings to the current file you are testing.
+- **Note** that the files shown in the matches are not the file you are running `test.py` on, but rather the files that have close matches via embeddings to the current file you are testing.
 
 - **Note** that for `<table>` attributes, LLM's are not being used to infer soft attributes about the patient like pregnancy, etc.
 
@@ -132,9 +139,10 @@ The output indicates that:
 The final output is saved as `out/xml_source_inference.xml` and contains the following for each document section:
 
 - The matched reference document and primary similarity score.
+- Additive category and score attributes showing secondary matches.
 - The original text from your input document.
 - The corresponding matching text from the reference document.
-- Additive similarity scores showing additional category matches and their relevance.
+- Detailed additive similarity scores showing additional category matches and their relevance.
 - Claude's inference of key clinical information, including:
   - **Pregnancy status** with reasoning.
   - **Travel history** with locations, dates, and reasoning.
@@ -321,7 +329,7 @@ This phase focuses on setting up and validating the system's ability to correctl
    d. **Create an Aggregated Report of Classification Performance**
       - Define acceptance criteria (e.g., what error rate per data element is acceptable?)
       - Identify which data elements are being confused and at what rates
-      - Review additive scores to understand secondary category matches
+      - Review primary and additive category matches to understand full classification context
 
 ### Soft Attribute Inference Workflow
 
@@ -351,29 +359,10 @@ This phase focuses on fine-tuning the system's ability to infer soft attributes 
       - Markup where inferences are correct/incorrect
       - Make additional adjustments as needed
    
-   e. **Analyze Additive Scores for Multi-Category Content**
-      - Review sections with high additive scores across multiple categories
-      - Determine if content with strong secondary matches requires special handling
+   e. **Consider Multi-Category Content**
+      - Pay special attention to sections with strong additive scores
+      - Determine if content with significant secondary matches requires special processing
       - Adjust inference rules for content that spans multiple categories
-
-## Using Additive Scores for Enhanced Classification
-
-The system now includes additive scoring to provide a more nuanced understanding of document sections:
-
-- **Primary Category Match**: The highest similarity score and category match
-- **Additive Top Category**: Second-highest matching category
-- **Additive Top Score**: Similarity score for the second-highest category
-- **Multiple Category Matches**: Each section's XML includes an `<additiveScores>` element with additional category matches
-
-Additive scores are particularly useful when:
-- Content spans multiple categories (e.g., a section discussing both travel history and symptoms)
-- Primary categorization might miss important secondary information
-- You need to identify sections that contain mixed content types
-
-Use these scores to:
-1. Refine your schema categories
-2. Identify content that should be split into multiple chunks
-3. Improve extraction accuracy for multi-topic sections
 
 ## Known Bugs/Concerns
 
