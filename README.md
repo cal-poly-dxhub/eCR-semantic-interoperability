@@ -100,8 +100,9 @@ python src/test.py <path_to_new_hl7_xml_ecr>
 
 - **Document Chunking:** Splits the new document and creates embeddings.
 - **Similarity Matching:** For each chunk, finds the most similar reference chunk.
+- **Additive Scoring:** Calculates additional similarity scores across multiple categories.
 - **Information Extraction:** Uses Claude AI to extract key clinical details from each section.
-- **Output Generation:** Produces a structured XML file with the findings.
+- **Output Generation:** Produces a structured XML file with the findings and additive scores.
 
 
 ### Terminal Output Example
@@ -122,7 +123,7 @@ The output indicates that:
 
 - **Note** that `file2.xml` is not the file you are running `test.py` on, but rather the file that has the closest match via embeddings to the current file you are testing.
 
-- **Note** that for `<table>` attributes, LLM's are not being used to infer soft attributes about hte patient like pregnancy, etc.
+- **Note** that for `<table>` attributes, LLM's are not being used to infer soft attributes about the patient like pregnancy, etc.
 
 - **Note** this script will remove duplicate chunks from the input file. So if multiple chunks have the same `<text>` attribute, all but one will be skipped.
 
@@ -130,9 +131,10 @@ The output indicates that:
 
 The final output is saved as `out/xml_source_inference.xml` and contains the following for each document section:
 
-- The matched reference document and similarity score.
+- The matched reference document and primary similarity score.
 - The original text from your input document.
 - The corresponding matching text from the reference document.
+- Additive similarity scores showing additional category matches and their relevance.
 - Claude's inference of key clinical information, including:
   - **Pregnancy status** with reasoning.
   - **Travel history** with locations, dates, and reasoning.
@@ -141,13 +143,21 @@ The final output is saved as `out/xml_source_inference.xml` and contains the fol
 #### Example Output Structure
 
 ```xml
-<Diagnoses similarity="0.94">
+<Diagnoses similarity="0.94" additive_top_category="Patient_History" additive_top_score="0.91">
   <testSource filePath="..." elementPath="...">
     <!-- Your input text -->
   </testSource>
   <embeddedSource filePath="..." elementPath="...">
     <!-- Matching reference text -->
   </embeddedSource>
+  <additiveScores>
+    <category name="Travel_History" score="0.85">
+      <match file="file3.xml" path="/eCR/section[3]" similarity="0.85">
+        <preview>Patient traveled to Mexico...</preview>
+      </match>
+    </category>
+    <!-- Additional category matches -->
+  </additiveScores>
   <inference>
     <pregnancy pregnant="false">
       <reasoning>No indication of pregnancy in this section</reasoning>
@@ -311,6 +321,7 @@ This phase focuses on setting up and validating the system's ability to correctl
    d. **Create an Aggregated Report of Classification Performance**
       - Define acceptance criteria (e.g., what error rate per data element is acceptable?)
       - Identify which data elements are being confused and at what rates
+      - Review additive scores to understand secondary category matches
 
 ### Soft Attribute Inference Workflow
 
@@ -339,12 +350,37 @@ This phase focuses on fine-tuning the system's ability to infer soft attributes 
       - Manually verify the inference results against the business rules
       - Markup where inferences are correct/incorrect
       - Make additional adjustments as needed
+   
+   e. **Analyze Additive Scores for Multi-Category Content**
+      - Review sections with high additive scores across multiple categories
+      - Determine if content with strong secondary matches requires special handling
+      - Adjust inference rules for content that spans multiple categories
+
+## Using Additive Scores for Enhanced Classification
+
+The system now includes additive scoring to provide a more nuanced understanding of document sections:
+
+- **Primary Category Match**: The highest similarity score and category match
+- **Additive Top Category**: Second-highest matching category
+- **Additive Top Score**: Similarity score for the second-highest category
+- **Multiple Category Matches**: Each section's XML includes an `<additiveScores>` element with additional category matches
+
+Additive scores are particularly useful when:
+- Content spans multiple categories (e.g., a section discussing both travel history and symptoms)
+- Primary categorization might miss important secondary information
+- You need to identify sections that contain mixed content types
+
+Use these scores to:
+1. Refine your schema categories
+2. Identify content that should be split into multiple chunks
+3. Improve extraction accuracy for multi-topic sections
 
 ## Known Bugs/Concerns
 
 - Comments in eCRs can cause issues with traversal
 - Currently only works on HL7v3 eCRs
 - Large language models and embeddings models can be incorrect
+- Sections with high scores across multiple categories may require special handling
 
 ## Support
 
