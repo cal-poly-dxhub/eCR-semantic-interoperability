@@ -65,5 +65,6 @@ def get_bedrock_embeddings(data: dict[str, Any]) -> dict[str, Any]:
 def get_bedrock_embeddings_with_category(data: dict[str, Any]) -> dict[str, Any]:
     e = get_bedrock_embeddings(data)
     category = get_category(data["text"])
+    e["xml"] = data['xml']
     e["category"] = category
     return e

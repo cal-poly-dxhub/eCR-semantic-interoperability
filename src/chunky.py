@@ -4,11 +4,25 @@ from typing import Any
 
 from bs4 import BeautifulSoup
 
-
 def clean_text(text: str) -> str:
     text = re.sub(r"\s+", " ", text)
     # text = re.sub(r"[^a-zA-Z0-9\s]", "", text)
     return text.lower().strip()
+
+def clean_xml_string(xml_string: str) -> str:
+    """
+    Clean an XML string by removing namespaces and formatting it nicely.
+    """
+   
+    xml_string = re.sub(r'<(/?)(ns\d+:)', r'<\1', xml_string)
+    xml_string = re.sub(r' xmlns(?::\w+)?="[^"]*"', '', xml_string)
+    
+    try:
+        soup = BeautifulSoup(xml_string, 'xml')
+        return soup.prettify()
+    except Exception as e:
+        xml_string = re.sub(r'>\s*<', '><', xml_string)
+        return xml_string
 
 
 def manipulate_tag(tag: str) -> str:
@@ -76,12 +90,14 @@ def chunkify_by_hierarchy_text_tables(
             chunk = chunkify_table_list(t, max_chunk_size)
             if chunk:
                 combined_text = " ".join(chunk)
+                xml_string = ET.tostring(el, encoding='unicode')
                 chunks.append(
                     {
                         "chunk_id": chunk_id,
                         "text": combined_text,
                         "path": parent_path,
                         "chunk_size": len(combined_text),
+                        "xml" : clean_xml_string(xml_string)
                     }
                 )
                 chunk_id += 1
@@ -90,6 +106,7 @@ def chunkify_by_hierarchy_text_tables(
             if el.text and el.text.strip():
                 clean_el_text = clean_text(el.text)
                 clean_el_text_length = len(clean_el_text)
+                xml_string = ET.tostring(el, encoding='unicode')
                 if clean_el_text_length > 0:
                     if clean_el_text_length <= max_chunk_size:
                         chunks.append(
@@ -98,6 +115,7 @@ def chunkify_by_hierarchy_text_tables(
                                 "text": clean_el_text,
                                 "path": parent_path,
                                 "chunk_size": clean_el_text_length,
+                                "xml" : clean_xml_string(xml_string)
                             }
                         )
                         chunk_id += 1
@@ -113,6 +131,7 @@ def chunkify_by_hierarchy_text_tables(
                                     "text": chunk_text,
                                     "path": parent_path,
                                     "chunk_size": len(chunk_text),
+                                    "xml" : clean_xml_string(xml_string)
                                 }
                             )
                             chunk_id += 1
