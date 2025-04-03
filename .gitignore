@@ -1,6 +1,7 @@
 # assets
 assets/**/
 out/
+outputs-old/
 embeddings/
 demo/
 
