@@ -4,9 +4,9 @@ import sys
 
 from chunky import extract_relevant_chunks_file
 from vectoring import get_bedrock_embeddings_with_category
+from test import normalize_text
 
 tempext = "temp/"
-
 
 def cleanup():
     if os.path.exists(tempext):
@@ -24,6 +24,15 @@ if __name__ == "__main__":
     file = sys.argv[1]
 
     chunks = extract_relevant_chunks_file(file)
+    seen = set()
+    unique_chunks = []
+    for chunk in chunks:
+        if normalize_text(chunk.get("text","")) not in seen:
+            seen.add(normalize_text(chunk.get("text","")))
+            unique_chunks.append(chunk)
+    print(f"{len(chunks)} total chunks, after deduplication, {len(unique_chunks)} total chunks")
+    chunks = unique_chunks
+
     with open(tempext + "chunks.json", "w") as f:
         json.dump(chunks, f)
 
