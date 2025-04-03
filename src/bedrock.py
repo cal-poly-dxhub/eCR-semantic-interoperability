@@ -137,9 +137,9 @@ def llm_inference(text: str) -> str:
     }
 
     response = invoke_llm(json.dumps(request_body), llm_model_id)
-    response_text = json.loads(response["body"].read())["content"][0]["text"]
+    response_vals = json.loads(response["body"].read())["content"][0]["text"], json.loads(response['ResponseMetadata']['HTTPHeaders']['x-amzn-bedrock-input-token-count']),json.loads(response['ResponseMetadata']['HTTPHeaders']['x-amzn-bedrock-output-token-count'])
     try:
-        return response_text
+        return response_vals
     except Exception:
         return None  # type: ignore
 
