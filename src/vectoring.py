@@ -9,7 +9,7 @@ SCHEMA_TYPE = "hl7"
 
 
 def get_categories_from_file(type: str) -> list[str]:
-    with open(f"assets/{type}_schema.json", "r") as f:
+    with open(f"src/assets/{type}_schema.json", "r") as f:
         schema = json.load(f)
     categories = schema["properties"]
     return list(categories.keys())
