@@ -4,6 +4,7 @@ out/
 outputs-old/
 embeddings/
 demo/
+temp/
 
 notes.md
 
