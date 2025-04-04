@@ -2,6 +2,10 @@ import json
 import os
 import time
 from typing import Any
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 import boto3
 
@@ -12,6 +16,7 @@ client = boto3.client(  # type: ignore
     region_name="us-west-2",
     aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
     aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+    aws_session_token=os.getenv("AWS_SESSION_TOKEN"),
     # config=boto3.config.Config(retries={"max_attempts": 10}),  # type: ignore
 )
 bedrock = boto3.client(  # type: ignore
@@ -19,11 +24,18 @@ bedrock = boto3.client(  # type: ignore
     region_name="us-west-2",
     aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
     aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+    aws_session_token=os.getenv("AWS_SESSION_TOKEN"),
     # config=boto3.config.Config(retries={"max_attempts": 10}),  # type: ignore
 )
 
 
 def test_bedrock():
+    aws_access_key_id = os.getenv("AWS_ACCESS_KEY_ID")
+    aws_secret_access_key = os.getenv("AWS_SECRET_ACCESS_KEY")
+    aws_session_token = (os.getenv("AWS_SESSION_TOKEN"),)
+    print("aws_access_key_id:", aws_access_key_id)
+    print("aws_secret_access_key:", aws_secret_access_key)
+    print("aws_session_token:", aws_session_token)
     response = bedrock.list_foundation_models()  # type: ignore
     summarries = response["modelSummaries"]  # type: ignore
     for model in summarries:  # type: ignore
@@ -137,7 +149,19 @@ def llm_inference(text: str) -> str:
     }
 
     response = invoke_llm(json.dumps(request_body), llm_model_id)
-    response_vals = json.loads(response["body"].read())["content"][0]["text"], json.loads(response['ResponseMetadata']['HTTPHeaders']['x-amzn-bedrock-input-token-count']),json.loads(response['ResponseMetadata']['HTTPHeaders']['x-amzn-bedrock-output-token-count'])
+    response_vals = (
+        json.loads(response["body"].read())["content"][0]["text"],
+        json.loads(
+            response["ResponseMetadata"]["HTTPHeaders"][
+                "x-amzn-bedrock-input-token-count"
+            ]
+        ),
+        json.loads(
+            response["ResponseMetadata"]["HTTPHeaders"][
+                "x-amzn-bedrock-output-token-count"
+            ]
+        ),
+    )
     try:
         return response_vals
     except Exception:
