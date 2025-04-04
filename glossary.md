@@ -17,8 +17,6 @@ Here's an improved version of the markdown glossary with better formatting, full
 **similarity score**
 : A floating-point number that quantifies how closely two chunks resemble each other.
 
-<!-- TODO -->
-
 **additive score**
 : A cumulative score calculated by summing the similarity scores of each category across all chunks. This helps identify the category that is most similar overall to the current chunk by comparing each additive score for each category.
 
@@ -31,10 +29,8 @@ Here's an improved version of the markdown glossary with better formatting, full
 **schema**
 : A JSON schema file adhering to https://json-schema.org/draft-07/schema that defines a set of properties, each with its own description. For example: `assets/hl7_schema.json`.
 
-<!-- TODO -->
-
 **guardrail**
-: MAYBE(A set of rules or constraints implemented to ensure the proper functioning and safety of the system, particularly when using AI models.)
+: A set of rules or constraints implemented to ensure the proper functionality, safety, and security of the system and data when using AI models.
 
 **pipeline**
 : The end-to-end process by which an embeddings file is added to the dataset or a new file is tested against the existing dataset.
