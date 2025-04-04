@@ -11,4 +11,4 @@ lxml
 pydantic
 uuid
 numpy
-re
+dotenv
