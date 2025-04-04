@@ -20,7 +20,7 @@ Here's an improved version of the markdown glossary with better formatting, full
 <!-- TODO -->
 
 **additive score**
-: MAYBE(A cumulative score calculated by combining similarity scores across multiple categories to provide a more comprehensive assessment of document content classification.)
+: A cumulative score calculated by summing the similarity scores of each category across all chunks. This helps identify the category that is most similar overall to the current chunk by comparing each additive score for each category.
 
 **best match**
 : A chunk that achieved the highest similarity score when compared against all other existing chunks in the database.
@@ -38,6 +38,9 @@ Here's an improved version of the markdown glossary with better formatting, full
 
 **pipeline**
 : The end-to-end process by which an embeddings file is added to the dataset or a new file is tested against the existing dataset.
+
+**prompt**
+: The input text given to the model to guide its response. It can include questions, commands, or context (data) that shapes how the model generates its output.
 
 **dataset**
 : The collection of chunks, labeled with their respective files and containing their embeddings, original text, and predefined category.
