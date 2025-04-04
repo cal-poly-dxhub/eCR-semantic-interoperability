@@ -289,7 +289,7 @@ cp .env.example .env
 
 - Add your AWS credentials to the .env file under the appropriate variable names
 
-### 7. Run the embeddings pipeline on eCRs to create a dataset (required):
+### 8. Run the embeddings pipeline on eCRs to create a dataset (required):
 
 - This step generates a mathematical representation (embedding) of an eCR document, which can be used for future classification of similar documents.
 - Repeat this process for all eCR documents you want to include in the comparison dataset. You can add more documents at any time.
@@ -300,7 +300,7 @@ python src/embed.py <path_to_hl7_xml_ecr>
 
 - After running this command, the generated embedding will be saved in the embeddings/ directory under the corresponding file path.
 
-### 8. Run the following command to classify and extract information from an eCR:
+### 9. Run the following command to classify and extract information from an eCR:
 
 - This step classifies an eCR document based on the existing embeddings dataset and extracts relevant information, including pregnancy status, recent travel history, and occupation history, from both text and table sections.
 - Ensure that the file used here is different from those processed in step 7.
