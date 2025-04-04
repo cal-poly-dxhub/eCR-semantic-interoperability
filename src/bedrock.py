@@ -72,47 +72,6 @@ def invoke_embedding(body: Any, retries: int = 0) -> Any:
         print(e)
         exit(1)
 
-
-def ask_llm_additional_questions(text: str) -> dict[str, Any]:
-    """
-    Calls the LLM to answer the three questions about pregnancy, travel history, and occupation.
-    Returns a dict in JSON format.
-    """
-    prompt = (
-        "You are analyzing the following text from a patient's record:\n\n"
-        f"{text}\n\n"
-        "Answer these questions in JSON format with exactly the following keys and structure:\n\n"
-        "{\n"
-        '  "patient_pregnant": "true" or "false",\n'
-        '  "patient_pregnant_cot": "string explanation of your chain of thought of how arrived at your conclusion",\n'
-        '  "recent_travel_history": {\n'
-        '    "true_false": "true" or "false",\n'
-        '    "where": "string",\n'
-        '    "when": "string",\n'
-        '    "cot": "string explanation of your chain of thought of how arrived at your conclusion"\n'
-        "  },\n"
-        '  "occupation": {\n'
-        '    "true_false": "true" or "false",\n'
-        '    "job": "string",\n'
-        '    "cot": "string explanation of your chain of thought of how arrived at your conclusion"\n'
-        "  }\n"
-        "}\n\n"
-        'For each field, if the text does not indicate any specific information, return "false" for the boolean value '
-        "and an empty string for the text fields. Do not add any extra keys."
-    )
-    request_body: dict[str, Any] = {
-        "anthropic_version": "bedrock-2023-05-31",
-        "messages": [{"role": "user", "content": prompt}],
-        "max_tokens": 500,
-    }
-    response = invoke_llm(json.dumps(request_body), llm_model_id)
-    response_text = json.loads(response["body"].read())["content"][0]["text"]
-    try:
-        return json.loads(response_text)
-    except Exception:
-        return {}
-
-
 def llm_inference(text: str) -> str:
     """
     llm inference on 3 questions:
