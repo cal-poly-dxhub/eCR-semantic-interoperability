@@ -17,7 +17,15 @@ def get_categories_from_file(type: str) -> list[str]:
 
 def get_category(text: str) -> str:
     categories = get_categories_from_file(SCHEMA_TYPE)
-    prompt = "You are going to be given a block of text and a list of categories. You need to select the category that best describes the text. The Category MUST NOT be blank, you must just a category. The categories are: "
+    prompt = """ You will be given a block of text and a list of categories. Your task is to choose the single most appropriate category that best describes the text.
+
+        Important rules:
+        You must choose one category from the provided list.
+        You cannot leave the category blank.
+        You cannot answer "None", "N/A", or make up your own category.
+        Even if the text does not perfectly match any category, select the one that is closest in meaning or context.
+        The available categories are:"""
+    
     for i, c in enumerate(categories):
         prompt += f"{i+1}. {c}, "
     prompt = prompt[:-2] + ".\n\n"
@@ -63,10 +71,8 @@ def get_bedrock_embeddings(data: dict[str, Any]) -> dict[str, Any]:
 
 
 def get_bedrock_embeddings_with_category(data: dict[str, Any]) -> dict[str, Any]:
-    #print(f"getting embeddings for chunk: {data['chunk_id']}")
     e = get_bedrock_embeddings(data)
     category = get_category(data["text"])
     e["xml"] = data['xml']
     e["category"] = category
-    #print(f"category: {category}")
     return e
