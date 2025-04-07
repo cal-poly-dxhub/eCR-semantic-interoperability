@@ -343,6 +343,40 @@ This phase focuses on setting up and validating the system's ability to correctl
 
 This phase focuses on fine-tuning the system's ability to infer soft attributes (pregnancy status, occupation, travel history) from free-form text.
 
+#### Steps:
+
+1. **Create a Golden Template**
+
+   a. **Draft Business Rules for Interpreting Soft Attributes**
+
+   - Define when a person is considered currently pregnant
+   - Specify when to use 'Null' or other default values
+   - Establish criteria for valid occupation and travel history entries
+
+   b. **Test Known/Annotated ECR's**
+
+   - Use 5+ example data elements containing free-form text describing soft attributes
+   - Run them through the inference script as it currently stands
+   - Markup where inferences are correct/incorrect per business rules
+
+   c. **Adjust LLM Prompts and Hard-Coded Outputs**
+
+   - Modify prompts in the script based on defined business rules
+   - Adjust any hard-coded outputs to align with business requirements
+
+   d. **Validate with Real, Unseen ECR's**
+
+   - Use 10+ real, unseen ECR's and run through the inference script
+   - Manually verify the inference results against the business rules
+   - Markup where inferences are correct/incorrect
+   - Make additional adjustments as needed
+
+   e. **Consider Multi-Category Content**
+
+   - Pay special attention to sections with strong additive scores
+   - Determine if content with significant secondary matches requires special processing
+   - Adjust inference rules for content that spans multiple categories
+
 #### Customizing LLM Soft Attribute Prompt
 
 
@@ -395,40 +429,6 @@ If you modify the prompt's structure:
 
 - **Review and update any Python XML parsing logic if necessary** (e.g., in `test.py`) — If your downstream code relies on a specific XML structure, ensure it is compatible with your updated prompt. In many cases, minor additions to the prompt won't break parsing logic, but significant structural changes might require updates.
 - **Communicate the updated fields to your validation team** so they can adjust the golden template and business rules
-
-#### Steps:
-
-1. **Create a Golden Template**
-
-   a. **Draft Business Rules for Interpreting Soft Attributes**
-
-   - Define when a person is considered currently pregnant
-   - Specify when to use 'Null' or other default values
-   - Establish criteria for valid occupation and travel history entries
-
-   b. **Test Known/Annotated ECR's**
-
-   - Use 5+ example data elements containing free-form text describing soft attributes
-   - Run them through the inference script as it currently stands
-   - Markup where inferences are correct/incorrect per business rules
-
-   c. **Adjust LLM Prompts and Hard-Coded Outputs**
-
-   - Modify prompts in the script based on defined business rules
-   - Adjust any hard-coded outputs to align with business requirements
-
-   d. **Validate with Real, Unseen ECR's**
-
-   - Use 10+ real, unseen ECR's and run through the inference script
-   - Manually verify the inference results against the business rules
-   - Markup where inferences are correct/incorrect
-   - Make additional adjustments as needed
-
-   e. **Consider Multi-Category Content**
-
-   - Pay special attention to sections with strong additive scores
-   - Determine if content with significant secondary matches requires special processing
-   - Adjust inference rules for content that spans multiple categories
 
 ## Known Bugs/Concerns
 
