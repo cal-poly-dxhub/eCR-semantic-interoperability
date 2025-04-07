@@ -4,7 +4,7 @@ from typing import Any
 
 from bedrock import invoke_embedding, invoke_llm
 
-# choose schema type between "hl7" and "ecr" (makedata golden template)
+# choose schema type here
 SCHEMA_TYPE = "hl7"
 
 
@@ -25,7 +25,7 @@ def get_category(text: str) -> str:
         You cannot answer "None", "N/A", or make up your own category.
         Even if the text does not perfectly match any category, select the one that is closest in meaning or context.
         The available categories are:"""
-    
+
     for i, c in enumerate(categories):
         prompt += f"{i+1}. {c}, "
     prompt = prompt[:-2] + ".\n\n"
@@ -73,6 +73,6 @@ def get_bedrock_embeddings(data: dict[str, Any]) -> dict[str, Any]:
 def get_bedrock_embeddings_with_category(data: dict[str, Any]) -> dict[str, Any]:
     e = get_bedrock_embeddings(data)
     category = get_category(data["text"])
-    e["xml"] = data['xml']
+    e["xml"] = data["xml"]
     e["category"] = category
     return e
