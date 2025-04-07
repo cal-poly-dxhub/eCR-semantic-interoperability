@@ -377,12 +377,11 @@ This phase focuses on fine-tuning the system's ability to infer soft attributes 
    - Determine if content with significant secondary matches requires special processing
    - Adjust inference rules for content that spans multiple categories
 
-#### Customizing LLM Soft Attribute Prompt
-
+### Customizing LLM Soft Attribute Prompt
 
 The logic used to infer soft attributes (e.g., pregnancy status, travel history, occupation) from free-form clinical text is defined within the `llm_inference()` function in `bedrock.py`.
 
-This function sends a prompt to the selected LLM (e.g., Claude 3.5 Sonnet) that looks like:
+This function sends a prompt to the selected LLM that looks like:
 
 ```python
 "You are analyzing the following text from a patient's record:\n\n"
@@ -395,15 +394,15 @@ f"{text}\n\n"
 
 You may want to tailor the prompt if:
 
+- You are interested in **other soft attributes** that are not defined already
 - Your organization has **different inference fields or business logic**
 - You want to **reword reasoning instructions** for insight on how the LLM came to its conclusion
-- You are working with **international or localized records** and need to reflect different contexts
 
-##### Where to Modify
+#### Where to Modify
 
 Open `src/bedrock.py` and locate the `llm_inference` function. You can modify the string assigned to the `prompt` variable.
 
-##### Example: Adding a Field for Symptoms
+#### Example: Adding a Field for Symptoms
 
 If you'd like to extract a new category such as symptoms, you'll need to update the `prompt` string in the `llm_inference` function to include the new XML block. Here's an example of what you might add:
 
@@ -416,7 +415,7 @@ If you'd like to extract a new category such as symptoms, you'll need to update 
 
 You would append this snippet inside the prompt string in `bedrock.py` alongside the other sections.
 
-##### Prompt Design Best Practices
+#### Prompt Design Best Practices
 
 - **Use explicit structure**: Use consistent XML tags and attributes as the LLM output is parsed downstream.
 - **Provide chain-of-thought reasoning** prompts to improve interpretability and accuracy.
