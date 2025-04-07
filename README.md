@@ -34,6 +34,7 @@ Thanks for your interest in our solution. Having specific examples of replicatio
 
 - Gus Flusser - gflusser@calpoly.edu
 - Ryan Gertz - rgertz@calpoly.edu
+- Nick Osterbur - nosterb@amazon.com
 - Swayam Chidrawar - schidraw@calpoly.edu
 
 ## Table of Contents
@@ -230,7 +231,9 @@ A **minimal** example looks like:
 
 - A starter file named `hl7_schema.json`, used in our initial testing, is provided in the repository. You may extend or replace this schema at any time; however, note that **changing the schema requires re-embedding all documents** to ensure embeddings align with your updated categories.
 
-### 1. Deploy an EC2 Instance
+### 1. Deploy an EC2 Instance (Optional)
+
+- If you prefer local development on your own device feel free to do so. An EC2 is **not required.**
 
 - Deploy an EC2 instance in your desired region and configure it as required (i.e grant a role with required managed polices).
 
@@ -238,34 +241,24 @@ A **minimal** example looks like:
 
 - Normal operation will require AmazonBedrockFullAccess and AmazonS3FullAccess
 
-- Additional settings: t2.micro and security group to allow SSH traffic
+- Additional settings: **t2.medium** (or larger) and security group to allow SSH traffic. We also reccomend having **at least 15 GB** of storage to account for large files.
 
-### 2. Pull the Git Repository onto the EC2 Instance
+### 2. Pull the Git Repository
 
-- Install git using this command
-
-  ```
-  sudo yum install git
-  ```
+- Ensure you have git [installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 - Clone the necessary repository to the EC2 instance:
   ```bash
   git clone https://github.com/cal-poly-dxhub/eCR-semantic-interoperability.git
   ```
 
-### 3. Create Bedrock Guardrail
-
-- Configure the Bedrock guardrail with the following settings:
-
-  - **Sensitive Information PII Behavior**: Set to `mask`.
-
-### 4. Create a virtual environment:
+### 3. Create a virtual environment:
 
 ```bash
 python3.9 -m venv .venv
 ```
 
-### 5. Activate the virtual environment:
+### 4. Activate the virtual environment:
 
 - **note: this step will need to be repeated each time you log in**
 
@@ -273,13 +266,13 @@ python3.9 -m venv .venv
 source .venv/bin/activate
 ```
 
-### 6. Install the required packages:
+### 5. Install the required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 7. Set environment variables:
+### 6. Set environment variables:
 
 - Create a .env file to store your environment variables
 
@@ -289,7 +282,7 @@ cp .env.example .env
 
 - Add your AWS credentials to the .env file under the appropriate variable names
 
-### 8. Run the embeddings pipeline on eCRs to create a dataset (required):
+### 7. Run the embeddings pipeline on eCRs to create a dataset (required):
 
 - This step generates a mathematical representation (embedding) of an eCR document, which can be used for future classification of similar documents.
 - Repeat this process for all eCR documents you want to include in the comparison dataset. You can add more documents at any time.
@@ -300,7 +293,7 @@ python src/embed.py <path_to_hl7_xml_ecr>
 
 - After running this command, the generated embedding will be saved in the embeddings/ directory under the corresponding file path.
 
-### 9. Run the following command to classify and extract information from an eCR:
+### 8. Run the following command to classify and extract information from an eCR:
 
 - This step classifies an eCR document based on the existing embeddings dataset and extracts relevant information, including pregnancy status, recent travel history, and occupation history, from both text and table sections.
 - Ensure that the file used here is different from those processed in step 7.
@@ -325,7 +318,7 @@ This phase focuses on setting up and validating the system's ability to correctl
 
    a. **Manually Label Data Elements Using Known, High-Quality Examples**
 
-   - Use 5+ example data elements from different 5 different ECR's (e.g., patient encounter, lab results, pregnancy information, etc.)
+   - Use 5+ example data elements from 5 different ECR's (e.g., patient encounter, lab results, pregnancy information, etc.)
    - Run them through the embeddings script (`python src/embed.py`) to populate the classification database
 
    b. **Use 1 High-Quality ECR and Manually Pre-Label/Annotate Each Relevant Data Element**
@@ -349,6 +342,59 @@ This phase focuses on setting up and validating the system's ability to correctl
 ### Soft Attribute Inference Workflow
 
 This phase focuses on fine-tuning the system's ability to infer soft attributes (pregnancy status, occupation, travel history) from free-form text.
+
+#### Customizing LLM Soft Attribute Prompt
+
+
+The logic used to infer soft attributes (e.g., pregnancy status, travel history, occupation) from free-form clinical text is defined within the `llm_inference()` function in `bedrock.py`.
+
+This function sends a prompt to the selected LLM (e.g., Claude 3.5 Sonnet) that looks like:
+
+```python
+"You are analyzing the following text from a patient's record:\n\n"
+f"{text}\n\n"
+"Answer these questions in XML format with the following keys and structure:\n\n"
+...
+```
+
+#### How to Customize the Prompt
+
+You may want to tailor the prompt if:
+
+- Your organization has **different inference fields or business logic**
+- You want to **reword reasoning instructions** for insight on how the LLM came to its conclusion
+- You are working with **international or localized records** and need to reflect different contexts
+
+##### Where to Modify
+
+Open `src/bedrock.py` and locate the `llm_inference` function. You can modify the string assigned to the `prompt` variable.
+
+##### Example: Adding a Field for Symptoms
+
+If you'd like to extract a new category such as symptoms, you'll need to update the `prompt` string in the `llm_inference` function to include the new XML block. Here's an example of what you might add:
+
+```python
+"<symptoms present=\"true\" or \"false\">\n"
+"  <reasoning>explanation of your chain of thought</reasoning>\n"
+"  <description>string</description>\n"
+"</symptoms>\n"
+```
+
+You would append this snippet inside the prompt string in `bedrock.py` alongside the other sections.
+
+##### Prompt Design Best Practices
+
+- **Use explicit structure**: Use consistent XML tags and attributes as the LLM output is parsed downstream.
+- **Provide chain-of-thought reasoning** prompts to improve interpretability and accuracy.
+- **Be strict about `"false"` / `""` default values** to avoid noise in the output when no evidence is found.
+- **Avoid vague questions**—be clear and specific about what you want the model to look for.
+
+#### Required Updates When Changing Prompts
+
+If you modify the prompt's structure:
+
+- **Review and update any Python XML parsing logic if necessary** (e.g., in `test.py`) — If your downstream code relies on a specific XML structure, ensure it is compatible with your updated prompt. In many cases, minor additions to the prompt won't break parsing logic, but significant structural changes might require updates.
+- **Communicate the updated fields to your validation team** so they can adjust the golden template and business rules
 
 #### Steps:
 
