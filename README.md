@@ -426,7 +426,7 @@ You would append this snippet inside the prompt string in `bedrock.py` alongside
 
 If you modify the prompt's structure:
 
-- **Review and update any Python XML parsing logic if necessary** (e.g., in `test.py`) — If your downstream code relies on a specific XML structure, ensure it is compatible with your updated prompt. In many cases, minor additions to the prompt won't break parsing logic, but significant structural changes might require updates.
+- **(Possibly Optional) Review and update any Python XML parsing logic if necessary** (e.g., in `test.py`) — If your downstream code relies on a specific XML structure, ensure it is compatible with your updated prompt. In many cases, minor additions to the prompt won't break parsing logic, but significant structural changes might require updates.
 - **Communicate the updated fields to your validation team** so they can adjust the golden template and business rules
 
 ## Known Bugs/Concerns
