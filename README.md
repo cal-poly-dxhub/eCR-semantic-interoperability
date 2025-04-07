@@ -340,6 +340,60 @@ This phase focuses on setting up and validating the system's ability to correctl
    - Identify which data elements are being confused and at what rates
    - Review primary and additive category matches to understand full classification context
 
+### Customizing Classification Schema
+
+The default schema used to determine the classification categories (e.g., eICR Encounter, eICR Lab Orders) is defined in the `src/assets/hl7_schema.json`.
+
+This file lists the possible categories such as:
+
+```json
+"eICR Encounter": {
+  "required": [],
+  "additionalProperties": false,
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "The Electronic Case Reporting Encounter profile is based on the Encounter resource and establishes the core elements, extensions, vocabularies and value sets for representing the following encounters for electronic case reporting: Initial Case Report encounter related to the reported event."
+}
+```
+
+#### How to Customize the Schema
+
+You may want to modify the schema if:
+
+- You wish to add **other categories** that are not defined already
+- You want to **remove existing categories**
+- You want to **modify existing categories/descriptions**
+
+#### Where to Modify
+
+Open `src/assets/hl7_schema.json`. You can everything in the **properties** attribute. Note: the schema must follow the guidelines defined here: [json-schema.org](http://json-schema.org/draft-07/schema#).
+
+#### Example: Adding a Field for Education
+
+If you'd like to add a new category such as education, you'll need to update the **properties** attribute in `src/assets/hl7_schema.json`. Here's an example of what you might add:
+
+```json
+"Education History": {
+  "required": [],
+  "additionalProperties": false,
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "The Education History profile is based on various resources and establishes the core elements, extensions, vocabularies and value sets for representing the patient's education history."
+}
+```
+
+You would append this block inside the **properties** attribute in `src/assets/hl7_schema.json` alongside the other categories.
+
+#### Optional: Create another schema
+
+You also have the ability to create another schema file. This could be useful for quickly switching between category schemas. Please note: **Only one schema can be used at a time** and if the schema is changed **any data in the dataset will not change and files should be recategorized**.
+
+1. **Create a new schema file**
+
+- First create another schema file in `src/assets/` ending in `_schema.json`. This file should follow the same schema guidelines as defined here: [json-schema.org](http://json-schema.org/draft-07/schema#). All categores should be inside the highest-level **properties** attribute.
+
+2. **Modify the variable pointing to the current schema**
+
+- Modify the variable SCHEMA_TYPE in `src/vectoring.py`. This string represents the prefix (the substring before `_schema.json`) of the schema file you are using (by default it is set to `hl7`).
+
 ### Soft Attribute Inference Workflow
 
 This phase focuses on fine-tuning the system's ability to infer soft attributes (pregnancy status, occupation, travel history) from free-form text.
