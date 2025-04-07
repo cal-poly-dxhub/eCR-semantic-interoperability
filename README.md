@@ -60,6 +60,7 @@ Thanks for your interest in our solution. Having specific examples of replicatio
 - [Recommended Customer Workflow](#recommended-customer-workflow)
   - [Concept Classification Workflow](#concept-classification-workflow)
   - [Soft Attribute Inference Workflow](#soft-attribute-inference-workflow)
+- [Customizing LLM Soft Attribute Prompt](#customizing-llm-soft-attribute-prompt)
 - [Known Bugs/Concerns](#known-bugsconcerns)
 - [Support](#support)
 
