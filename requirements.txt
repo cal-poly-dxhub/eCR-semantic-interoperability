@@ -10,5 +10,6 @@ fhir_core
 lxml
 pydantic
 uuid
+re
 numpy
 dotenv
