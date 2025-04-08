@@ -1,5 +1,3 @@
-Here's an improved version of the markdown glossary with better formatting, full sentence explanations, and a completed category explanation:
-
 # Glossary of Terms
 
 ## Table of Contents
