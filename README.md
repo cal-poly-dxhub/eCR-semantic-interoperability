@@ -32,10 +32,10 @@ Thanks for your interest in our solution. Having specific examples of replicatio
 
 ## Authors
 
-- Gus Flusser - gflusser@calpoly.edu
+- Gus Flusser - gflusser@amazon.com
 - Ryan Gertz - rgertz@calpoly.edu
 - Nick Osterbur - nosterb@amazon.com
-- Swayam Chidrawar - schidraw@calpoly.edu
+- Swayam Chidrawar - schidra@amazon.com
 
 ## Table of Contents
 
@@ -285,6 +285,16 @@ cp .env.example .env
 
 ### 7. Run the embeddings pipeline on eCRs to create a dataset (required):
 
+<!-- #### Pipeline walkthrough video: -->
+
+<!-- TODO: video here -->
+
+#### Figure 1: embed.py Pipeline Description
+
+![image](/assets/ecr_embed_flow.jpg)
+
+**<p style="text-align: center;">Figure 1 depicts adding eCRs to the dataset by running embed.py<p/>**
+
 - This step generates a mathematical representation (embedding) of an eCR document, which can be used for future classification of similar documents.
 - Repeat this process for all eCR documents you want to include in the comparison dataset. You can add more documents at any time.
 
@@ -295,6 +305,16 @@ python src/embed.py <path_to_hl7_xml_ecr>
 - After running this command, the generated embedding will be saved in the embeddings/ directory under the corresponding file path.
 
 ### 8. Run the following command to classify and extract information from an eCR:
+
+<!-- #### Pipeline walkthrough video: -->
+
+<!-- TODO: video here -->
+
+#### Figure 2: test.py Pipeline Description
+
+![image](/assets/ecr_test_flow.jpg)
+
+**<p style="text-align: center;">Figure 2 depicts classifying new eCRs using existing data in the dataset by running test.py<p/>**
 
 - This step classifies an eCR document based on the existing embeddings dataset and extracts relevant information, including pregnancy status, recent travel history, and occupation history, from both text and table sections.
 - Ensure that the file used here is different from those processed in step 7.
@@ -497,6 +517,6 @@ For any queries or issues, please contact:
 
 - Darren Kraker - Sr Solutions Architect - dkraker@amazon.com
 - Nick Osterbur - Digital Innovation Lead - nosterb@amazon.com
-- Gus Flusser - Software Developer Intern - gflusser@calpoly.edu
+- Gus Flusser - Software Developer Intern - gflusser@amazon.com
 - Ryan Gertz - Software Developer Intern - rgertz@calpoly.edu
-- Swayam Chidrawar - Software Developer Intern - schidraw@calpoly.edu
+- Swayam Chidrawar - Software Developer Intern - schidra@amazon.com
