@@ -54,7 +54,7 @@ Thanks for your interest in our solution. Having specific examples of replicatio
   - [3. Create a Virtual Environment](#3-create-a-virtual-environment)
   - [4. Activate the Virtual Environment](#4-activate-the-virtual-environment)
   - [5. Install the Required Packages](#5-install-the-required-packages)
-  - [6. Set Environment Variables] (#6-set-environment-variables)
+  - [6. Set Environment Variables](#6-set-environment-variables)
   - [7. Run the Embeddings Pipeline](#7-run-the-embeddings-pipeline)
   - [8. Classify and Extract Information from an eCR](#8-classify-and-extract-information-from-an-ecr)
 - [Recommended Customer Workflow](#recommended-customer-workflow)
