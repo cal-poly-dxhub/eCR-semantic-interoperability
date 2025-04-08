@@ -482,7 +482,7 @@ Open `src/bedrock.py` and locate the `llm_inference` function. You can modify th
 If you'd like to extract a new category such as symptoms, you'll need to update the `prompt` string in the `llm_inference` function to include the new XML block. Here's an example of what you might add:
 
 ```python
-"<symptoms present=\"true\" or \"false\">\n"
+"<symptoms present=\"true\" or \"false\ or \"null\">\n"
 "  <reasoning>explanation of your chain of thought</reasoning>\n"
 "  <description>string</description>\n"
 "</symptoms>\n"
@@ -494,7 +494,7 @@ You would append this snippet inside the prompt string in `bedrock.py` alongside
 
 - **Use explicit structure**: Use consistent XML tags and attributes as the LLM output is parsed downstream.
 - **Provide chain-of-thought reasoning** prompts to improve interpretability and accuracy.
-- **Be strict about `"false"` / `""` default values** to avoid noise in the output when no evidence is found.
+- **Be strict about `"null"` default values** to avoid noise in the output when no evidence is found.
 - **Avoid vague questions**—be clear and specific about what you want the model to look for.
 
 #### Required Updates When Changing Prompts
