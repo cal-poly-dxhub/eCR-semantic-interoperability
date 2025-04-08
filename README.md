@@ -74,7 +74,7 @@ Thanks for your interest in our solution. Having specific examples of replicatio
 
 ### Step 1: Generate Reference Embeddings
 
-Run the following command to process an HL7 XML eCR document:
+After setting up the [virtual environment](#3-create-a-virtual-environment) and [installing](#5-install-the-required-packages) the required python packages from `requirements.txt` run the following command to process an HL7 XML eCR document:
 
 ```bash
 python src/embed.py <path_to_hl7_xml_ecr>
