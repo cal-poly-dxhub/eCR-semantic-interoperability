@@ -51,10 +51,10 @@ Thanks for your interest in our solution. Having specific examples of replicatio
   - [Before We Get Started](#before-we-get-started)
   - [1. Deploy an EC2 Instance](#1-deploy-an-ec2-instance)
   - [2. Pull the Git Repository onto the EC2 Instance](#2-pull-the-git-repository-onto-the-ec2-instance)
-  - [3. Create Bedrock Guardrail](#3-create-bedrock-guardrail)
-  - [4. Create a Virtual Environment](#4-create-a-virtual-environment)
-  - [5. Activate the Virtual Environment](#5-activate-the-virtual-environment)
-  - [6. Install the Required Packages](#6-install-the-required-packages)
+  - [3. Create a Virtual Environment](#3-create-a-virtual-environment)
+  - [4. Activate the Virtual Environment](#4-activate-the-virtual-environment)
+  - [5. Install the Required Packages](#5-install-the-required-packages)
+  - [6. Set Environment Variables] (#6-set-environment-variables)
   - [7. Run the Embeddings Pipeline](#7-run-the-embeddings-pipeline)
   - [8. Classify and Extract Information from an eCR](#8-classify-and-extract-information-from-an-ecr)
 - [Recommended Customer Workflow](#recommended-customer-workflow)
@@ -319,17 +319,17 @@ This phase focuses on setting up and validating the system's ability to correctl
 
    a. **Manually Label Data Elements Using Known, High-Quality Examples**
 
-   - Use 5+ example data elements from 5 different ECR's (e.g., patient encounter, lab results, pregnancy information, etc.)
+   - Use 5+ example data elements from 5 different eCR's (e.g., patient encounter, lab results, pregnancy information, etc.)
    - Run them through the embeddings script (`python src/embed.py`) to populate the classification database
 
-   b. **Use 1 High-Quality ECR and Manually Pre-Label/Annotate Each Relevant Data Element**
+   b. **Use 1 High-Quality eCR and Manually Pre-Label/Annotate Each Relevant Data Element**
 
-   - Run the ECR through the classification script (`python src/test.py`)
-   - Manually verify the classification results against the pre-labeled/annotated ECR
+   - Run the eCR through the classification script (`python src/test.py`)
+   - Manually verify the classification results against the pre-labeled/annotated eCR
    - Markup where classifications are correct/incorrect
-   - Add new labeled data element examples from 5 new ECR's to improve accuracy
+   - Add new labeled data element examples from 5 new eCR's to improve accuracy
 
-   c. **Test with 5 New/Unseen ECR's**
+   c. **Test with 5 New/Unseen eCR's**
 
    - Run them through the classification script
    - Markup where classifications are correct/incorrect
@@ -408,7 +408,7 @@ This phase focuses on fine-tuning the system's ability to infer soft attributes 
    - Specify when to use 'Null' or other default values
    - Establish criteria for valid occupation and travel history entries
 
-   b. **Test Known/Annotated ECR's**
+   b. **Test Known/Annotated eCR's**
 
    - Use 5+ example data elements containing free-form text describing soft attributes
    - Run them through the inference script as it currently stands
@@ -419,9 +419,9 @@ This phase focuses on fine-tuning the system's ability to infer soft attributes 
    - Modify prompts in the script based on defined business rules
    - Adjust any hard-coded outputs to align with business requirements
 
-   d. **Validate with Real, Unseen ECR's**
+   d. **Validate with Real, Unseen eCR's**
 
-   - Use 10+ real, unseen ECR's and run through the inference script
+   - Use 10+ real, unseen eCR's and run through the inference script
    - Manually verify the inference results against the business rules
    - Markup where inferences are correct/incorrect
    - Make additional adjustments as needed
