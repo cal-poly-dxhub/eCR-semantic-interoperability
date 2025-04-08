@@ -83,22 +83,22 @@ def llm_inference(text: str) -> str:
         "You are analyzing the following text from a patient's record:\n\n"
         f"{text}\n\n"
         "Answer these questions in XML format with the following keys and structure:\n\n"
-        '<pregnancy pregnant="true" or "false">\n'
+        '<pregnancy pregnant="true" or "false" or "null">\n'
         "<reasoning>explaination of your chain of thought for this record</reasoning>\n"
         "</pregnancy>\n"
-        '<travel status="true" or "false">\n'
+        '<travel status="true" or "false" or "null">\n'
         "<recent_travel>\n"
         "<reasoning>explaination of your chain of thought for this record</reasoning>\n"
-        "<location>string</location>\n"
-        "<date>string</date>\n"
+        "<location>string (in City,ST format)</location>\n"
+        "<date>string (in MM/DD/YYYY format)</date>\n"
         "</recent_travel>\n"
         "... more recent travels if any\n"
         "</travel>\n"
-        '<occupation employed="true" or "false">\n'
+        '<occupation employed="true" or "false" or "null">\n'
         "<reasoning>explaination of your chain of thought for this record</reasoning>\n"
         "<job>string</job>\n"
         "</occupation>\n"
-        'For each field, if the text does not indicate any specific information, return "false" for the boolean value '
+        'For each field, if the text does not indicate any specific information, return "null" for the boolean value '
         "and an empty string for the text fields. Do not add any extra keys."
     )
     request_body: dict[str, Any] = {
