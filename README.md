@@ -69,7 +69,7 @@ Thanks for your interest in our solution. Having specific examples of replicatio
 
 - The [DxHub](https://dxhub.calpoly.edu/challenges/) developed a Python script leveraging AWS Bedrock to semantically analyze and identify patterns within eCR documents, allowing for the accurate extraction and classification of patient information through the use of advanced embeddings and large language models.
 
-## Video Overviews
+## Video Overview
 
 The following videos provide a comprehensive overview of how setup, configure, and use this repository. They are designed to give you a good general understanding of the repository so you can get started quickly.
 
