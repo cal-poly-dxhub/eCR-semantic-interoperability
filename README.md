@@ -43,6 +43,7 @@ Thanks for your interest in our solution. Having specific examples of replicatio
 - [Disclaimers](#disclaimers)
 - [Authors](#authors)
 - [Overview](#overview)
+- [Video Overview](#video-overview)
 - [High Level Description of Workflow](#high-level-description-of-workflow)
   - [Step 1: Generate Reference Embeddings](#step-1-generate-reference-embeddings)
   - [Step 2: Classify and Extract Information](#step-2-classify-and-extract-information)
@@ -67,6 +68,34 @@ Thanks for your interest in our solution. Having specific examples of replicatio
 ## Overview
 
 - The [DxHub](https://dxhub.calpoly.edu/challenges/) developed a Python script leveraging AWS Bedrock to semantically analyze and identify patterns within eCR documents, allowing for the accurate extraction and classification of patient information through the use of advanced embeddings and large language models.
+
+## Video Overviews
+
+The following videos provide a comprehensive overview of how setup, configure, and use this repository. They are designed to give you a good general understanding of the repository so you can get started quickly.
+
+### Setup and Running both Pipelines
+
+- The following video provides information on how to setup your environment and run both pipelines. It also gives a high level overview of the pipelines and what goes on behind the scenes.
+
+  - [high_level_overview.mp4](https://dxhub.calpoly.edu/wp-content/uploads/media/eCR-high-level-overview_gus.mp4)
+
+### In-Depth Overview of Each Process
+
+- The following video provides a more in-depth overview of each pipeline and how they work together. It also provides some insight into how to modify the schema.
+
+  - [in-depth_overview.mp4](https://dxhub.calpoly.edu/wp-content/uploads/media/eCR-in-depth-overview-of-each-process_gus.mp4)
+
+### Testing and Validation
+
+- The following video provides an overview of how to test and validate the system. It also walks through the output file of `src/test.py` and how to interpret the results.
+
+  - [testing_and_validation.mp4](https://dxhub.calpoly.edu/wp-content/uploads/media/eCR-Categorization_ryan.mp4)
+
+### LLM Modification and Tailoring
+
+- The following video provides an overview of how to modify the LLM prompts and how to tailor the system to your needs. It also provides more insight into how to modify the schema.
+
+  - [llm_modification_and_tailoring.mp4](https://dxhub.calpoly.edu/wp-content/uploads/media/eCR-LLM-Process_ryan.mp4)
 
 ## High Level Description of Workflow
 
@@ -285,10 +314,6 @@ cp .env.example .env
 
 ### 7. Run the embeddings pipeline on eCRs to create a dataset (required):
 
-<!-- #### Pipeline walkthrough video: -->
-
-<!-- TODO: video here -->
-
 #### Figure 1: embed.py Pipeline Description
 
 ![image](/assets/ecr_embed_flow.jpg)
@@ -305,10 +330,6 @@ python src/embed.py <path_to_hl7_xml_ecr>
 - After running this command, the generated embedding will be saved in the embeddings/ directory under the corresponding file path.
 
 ### 8. Run the following command to classify and extract information from an eCR:
-
-<!-- #### Pipeline walkthrough video: -->
-
-<!-- TODO: video here -->
 
 #### Figure 2: test.py Pipeline Description
 

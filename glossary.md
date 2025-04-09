@@ -31,7 +31,7 @@
 : A set of rules or constraints implemented to ensure the proper functionality, safety, and security of the system and data when using AI models.
 
 **pipeline**
-: The end-to-end process by which an embeddings file is added to the dataset or a new file is tested against the existing dataset.
+: The end-to-end process by which an embeddings file is added to the dataset or a new file is tested against the existing dataset. The two main pipelines are `src/embed.py` and `src/test.py`.
 
 **prompt**
 : The input text given to the model to guide its response. It can include questions, commands, or context (data) that shapes how the model generates its output.
