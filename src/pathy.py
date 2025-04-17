@@ -34,9 +34,16 @@ def parse_xml_path(filepath: str, path: str) -> str:
 
 def embedding_to_source_xml(filepath: str) -> str:
     """
-    for given json embedding, return xml source docu path
+    for given json embedding, return xml source document path
     """
-    return "assets/" + filepath[11:].replace(".json", ".xml")
+    # return "assets/" + filepath[11:].replace(".json", ".xml")
+    # print("embedding_to_source_xml:", filepath)
+    # if filepath.startswith("assets/"):
+    #     filepath = filepath[7:]
+    # return "assets/" + filepath.replace(".json", ".xml")
+    if filepath.startswith("embeddings/"):
+        filepath = filepath[11:]
+    return filepath.replace(".json", ".xml")
 
 
 def get_clickable_chunk(filepath: str, chunk_id: int) -> str:
