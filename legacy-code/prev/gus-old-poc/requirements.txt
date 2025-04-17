@@ -1,7 +1,0 @@
-boto3
-mypy
-types-botocore
-gensim
-difflib
-bs4
-fhir.resources

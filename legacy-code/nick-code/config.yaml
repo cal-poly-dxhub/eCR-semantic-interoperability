@@ -1,5 +1,0 @@
-# config.yaml
-bedrock_region: "us-east-1"
-aws_access_key_id: "your access id here"
-aws_secret_access_key: "your secret access key here"
-embedding_model: "amazon.titan-embed-text-v2:0" # optional, will use default if not specified

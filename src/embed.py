@@ -8,6 +8,7 @@ from test import normalize_text
 
 tempext = "temp/"
 
+
 def cleanup():
     if os.path.exists(tempext):
         for file in os.listdir(tempext):
@@ -27,10 +28,12 @@ if __name__ == "__main__":
     seen = set()
     unique_chunks = []
     for chunk in chunks:
-        if normalize_text(chunk.get("text","")) not in seen:
-            seen.add(normalize_text(chunk.get("text","")))
+        if normalize_text(chunk.get("text", "")) not in seen:
+            seen.add(normalize_text(chunk.get("text", "")))
             unique_chunks.append(chunk)
-    print(f"{len(chunks)} total chunks, after deduplication, {len(unique_chunks)} total chunks")
+    print(
+        f"{len(chunks)} total chunks, after deduplication, {len(unique_chunks)} total chunks"
+    )
     chunks = unique_chunks
 
     with open(tempext + "chunks.json", "w") as f:
@@ -38,7 +41,8 @@ if __name__ == "__main__":
 
     # choose between hl7 and ecr (makedata golden template) schemas in vectoring.py
     embeddings = [get_bedrock_embeddings_with_category(chunk) for chunk in chunks]
-    output_path = "embeddings/" + file[7:].replace(".xml", ".json")
+    # output_path = "embeddings/" + file[7:].replace(".xml", ".json")
+    output_path = "embeddings/" + file.replace(".xml", ".json")
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, "w") as f:
         json.dump(embeddings, f, indent=4)

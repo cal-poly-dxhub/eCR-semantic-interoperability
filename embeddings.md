@@ -46,35 +46,35 @@ Tables present a special case where we expect this approach to be particularly e
 
 #### Figure 1
 
-![image](/assets/Laboratory%20Test%20Results.png)
+![image](/public/Laboratory%20Test%20Results.png)
 
 **<p style="text-align: center;">Figure 1: A generated lab test table.</p>**
 <br>
 
 #### Figure 2
 
-![image](</assets/Laboratory%20Test%20Results%20(1).png>)
+![image](</public/Laboratory%20Test%20Results%20(1).png>)
 
 **<p style="text-align: center;">Figure 2: The same formatted lab test table with different values and consistent subheadings.</p>**
 <br>
 
 #### Figure 3
 
-![image](</assets/Laboratory%20Test%20Results%20(2).png>)
+![image](</public/Laboratory%20Test%20Results%20(2).png>)
 
 **<p style="text-align: center;">Figure 3: A lab test table with the same general format (headings) but different test types (subheadings)</p>**
 <br>
 
 #### Figure 4
 
-![image](/assets/patient_lab_investigation_report.png)
+![image](/public/patient_lab_investigation_report.png)
 
 **<p style="text-align: center;">Figure 4: A lab test table with different headings and different data.</p>**
 <br>
 
 #### Figure 5
 
-![image](/assets/text_similarity_results.png)
+![image](/public/text_similarity_results.png)
 
 **<p style="text-align: center;">Figure 5: Multiple chunks being compared using Amazon Titan V2 embeddings model and cosine similarity. The chunks are figures 1-4 as well as chunks from previous data samples provided. A 100% Similarity score represents a 1.0 cosine similarity score. A 1.0 represents an exact match between 2 chunk embeddings. Not shown here are other data types (not lab tests) with thresholds lower than 0.40.</p>**
 
