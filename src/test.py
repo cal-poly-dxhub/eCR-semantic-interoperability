@@ -23,9 +23,6 @@ outext = "out/"
 input_tokens = 0
 output_tokens = 0
 
-# TODO: Additive score matching instead of top match
-# TODO: Edit readme to include testing guide
-
 
 def get_content_preview(element, max_length=50):
     """Extract a meaningful text preview from an XML element."""

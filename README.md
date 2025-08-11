@@ -32,7 +32,7 @@ Thanks for your interest in our solution. Having specific examples of replicatio
 
 ## Authors
 
-- Gus Flusser - gflusser@amazon.com
+- Gus Flusser - gflusser@calpoly.com
 - Ryan Gertz - rgertz@calpoly.edu
 - Nick Osterbur - nosterb@amazon.com
 - Swayam Chidrawar - schidra@amazon.com
@@ -538,6 +538,6 @@ For any queries or issues, please contact:
 
 - Darren Kraker - Sr Solutions Architect - dkraker@amazon.com
 - Nick Osterbur - Digital Innovation Lead - nosterb@amazon.com
-- Gus Flusser - Software Developer Intern - gflusser@amazon.com
+- Gus Flusser - Software Developer Intern - gflusser@calpoly.com
 - Ryan Gertz - Software Developer Intern - rgertz@calpoly.edu
 - Swayam Chidrawar - Software Developer Intern - schidra@amazon.com

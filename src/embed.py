@@ -41,7 +41,6 @@ if __name__ == "__main__":
 
     # choose between hl7 and ecr (makedata golden template) schemas in vectoring.py
     embeddings = [get_bedrock_embeddings_with_category(chunk) for chunk in chunks]
-    # output_path = "embeddings/" + file[7:].replace(".xml", ".json")
     output_path = "embeddings/" + file.replace(".xml", ".json")
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, "w") as f:

@@ -7,6 +7,8 @@ embeddings/
 demo/
 temp/
 
+*.drawio
+
 notes.md
 
 # Byte-compiled / optimized / DLL files
