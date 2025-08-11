@@ -32,7 +32,7 @@ Thanks for your interest in our solution. Having specific examples of replicatio
 
 ## Authors
 
-- Gus Flusser - gflusser@amazon.com
+- Gus Flusser - gflusser@calpoly.com
 - Ryan Gertz - rgertz@calpoly.edu
 - Nick Osterbur - nosterb@amazon.com
 - Swayam Chidrawar - schidra@amazon.com
@@ -316,7 +316,7 @@ cp .env.example .env
 
 #### Figure 1: embed.py Pipeline Description
 
-![image](/assets/ecr_embed_flow.jpg)
+![image](/public/ecr_embed_flow.jpg)
 
 **<p style="text-align: center;">Figure 1 depicts adding eCRs to the dataset by running embed.py<p/>**
 
@@ -333,7 +333,7 @@ python src/embed.py <path_to_hl7_xml_ecr>
 
 #### Figure 2: test.py Pipeline Description
 
-![image](/assets/ecr_test_flow.jpg)
+![image](/public/ecr_test_flow.jpg)
 
 **<p style="text-align: center;">Figure 2 depicts classifying new eCRs using existing data in the dataset by running test.py<p/>**
 
@@ -383,7 +383,7 @@ This phase focuses on setting up and validating the system's ability to correctl
 
 ### Customizing Classification Schema
 
-The default schema used to determine the classification categories (e.g., eICR Encounter, eICR Lab Orders) is defined in the `src/assets/hl7_schema.json`.
+The default schema used to determine the classification categories (e.g., eICR Encounter, eICR Lab Orders) is defined in the `src/public/hl7_schema.json`.
 
 This file lists the possible categories such as:
 
@@ -406,11 +406,11 @@ You may want to modify the schema if:
 
 #### Where to Modify
 
-Open `src/assets/hl7_schema.json`. You can everything in the **properties** attribute. Note: the schema must follow the guidelines defined here: [json-schema.org](http://json-schema.org/draft-07/schema#).
+Open `src/public/hl7_schema.json`. You can everything in the **properties** attribute. Note: the schema must follow the guidelines defined here: [json-schema.org](http://json-schema.org/draft-07/schema#).
 
 #### Example: Adding a Field for Education
 
-If you'd like to add a new category such as education, you'll need to update the **properties** attribute in `src/assets/hl7_schema.json`. Here's an example of what you might add:
+If you'd like to add a new category such as education, you'll need to update the **properties** attribute in `src/public/hl7_schema.json`. Here's an example of what you might add:
 
 ```json
 "Education History": {
@@ -421,7 +421,7 @@ If you'd like to add a new category such as education, you'll need to update the
 }
 ```
 
-You would append this block inside the **properties** attribute in `src/assets/hl7_schema.json` alongside the other categories.
+You would append this block inside the **properties** attribute in `src/public/hl7_schema.json` alongside the other categories.
 
 #### Optional: Create another schema
 
@@ -429,7 +429,7 @@ You also have the ability to create another schema file. This could be useful fo
 
 1. **Create a new schema file**
 
-- First create another schema file in `src/assets/` ending in `_schema.json`. This file should follow the same schema guidelines as defined here: [json-schema.org](http://json-schema.org/draft-07/schema#). All categores should be inside the highest-level **properties** attribute.
+- First create another schema file in `src/public/` ending in `_schema.json`. This file should follow the same schema guidelines as defined here: [json-schema.org](http://json-schema.org/draft-07/schema#). All categores should be inside the highest-level **properties** attribute.
 
 2. **Modify the variable pointing to the current schema**
 
@@ -538,6 +538,6 @@ For any queries or issues, please contact:
 
 - Darren Kraker - Sr Solutions Architect - dkraker@amazon.com
 - Nick Osterbur - Digital Innovation Lead - nosterb@amazon.com
-- Gus Flusser - Software Developer Intern - gflusser@amazon.com
+- Gus Flusser - Software Developer Intern - gflusser@calpoly.com
 - Ryan Gertz - Software Developer Intern - rgertz@calpoly.edu
 - Swayam Chidrawar - Software Developer Intern - schidra@amazon.com
