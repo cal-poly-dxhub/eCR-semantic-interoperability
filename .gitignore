@@ -1,10 +1,13 @@
 # assets
 assets/**/
+assets/*
 out/
 outputs-old/
 embeddings/
 demo/
 temp/
+
+*.drawio
 
 notes.md
 
