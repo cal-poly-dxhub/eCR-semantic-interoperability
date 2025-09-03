@@ -35,7 +35,7 @@ Thanks for your interest in our solution. Having specific examples of replicatio
 - Gus Flusser - gflusser@calpoly.com
 - Ryan Gertz - rgertz@calpoly.edu
 - Nick Osterbur - nosterb@amazon.com
-- Swayam Chidrawar - schidra@amazon.com
+- Swayam Chidrawar - schidraw@calpoly.edu
 
 ## Table of Contents
 
