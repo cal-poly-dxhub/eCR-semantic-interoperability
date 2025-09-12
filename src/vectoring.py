@@ -2,7 +2,7 @@ import json
 import re
 from typing import Any
 
-from bedrock import invoke_embedding, invoke_llm
+from bedrock import invoke_embedding, invoke_llm, lite_model_id
 
 # choose schema type here
 SCHEMA_TYPE = "hl7"
@@ -34,16 +34,19 @@ def get_category(text: str) -> str:
     prompt += "\n\nWhich category best describes the text? Please respond with the name of the category in XML format, e.g. <category>category_name</category>."
 
     request_body = {  # type: ignore
-        "anthropic_version": "bedrock-2023-05-31",
-        "messages": [{"role": "user", "content": prompt}],
-        "max_tokens": 1000,
+        "messages": [{"role": "user", "content": [{"text": prompt}]}],
+        # "max_tokens": 1000,
     }
 
     response = invoke_llm(
-        json.dumps(request_body), "anthropic.claude-3-haiku-20240307-v1:0"
+        json.dumps(request_body), lite_model_id
     )
     response_body = json.loads(response["body"].read())  # type: ignore
-    response_text = response_body["content"][0]["text"]
+    # Handle Nova model response format
+    if "output" in response_body:
+        response_text = response_body["output"]["message"]["content"][0]["text"]
+    else:
+        response_text = response_body["content"][0]["text"]
     match = re.search(r"<category>(.*?)</category>", response_text)
     if match:
         return match.group(1)

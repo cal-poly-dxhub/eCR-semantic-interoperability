@@ -353,8 +353,8 @@ if __name__ == "__main__":
     elapsed = end_time - start_time
 
     # https://aws.amazon.com/bedrock/pricing/ as of 04/01/2025
-    total_inference_cost = (input_tokens * 0.003 / 1000) + (
-        output_tokens * 0.015 / 1000
+    total_inference_cost = (input_tokens * 0.0008 / 1000) + (
+        output_tokens * 0.0032 / 1000
     )
 
     print("------------------------------------------------------------")

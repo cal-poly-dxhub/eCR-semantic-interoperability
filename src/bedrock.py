@@ -10,7 +10,11 @@ load_dotenv()
 import boto3
 
 embedding_model_id = "amazon.titan-embed-text-v2:0"
-llm_model_id = "anthropic.claude-3-5-sonnet-20241022-v2:0"
+llm_model_id = os.getenv("NOVA_PRO_INFERENCE_PROFILE_ARN")
+lite_model_id = os.getenv("NOVA_LITE_INFERENCE_PROFILE_ARN")
+
+print(f"Using LLM model ID: {llm_model_id}")
+print(f"Using Lite model ID: {lite_model_id}")
 client = boto3.client(  # type: ignore
     "bedrock-runtime",
     region_name="us-west-2",
@@ -42,8 +46,9 @@ def test_bedrock():
         print(model["modelName"], "| model id:", model["modelId"])  # type: ignore
 
 
-def invoke_llm(body: Any, modelId: str = llm_model_id, retries: int = 0) -> Any:
+def invoke_llm(body: Any, modelId: str, retries: int = 0) -> Any:
     # print("invoking llm, retries:", retries)
+    print(f"Invoking model: {modelId}")
     try:
         return client.invoke_model(modelId=modelId, body=body)  # type: ignore
     except Exception as e:
@@ -54,6 +59,7 @@ def invoke_llm(body: Any, modelId: str = llm_model_id, retries: int = 0) -> Any:
                 modelId,
                 retries + 1,
             )
+        
         print(e)
         exit(1)
 
@@ -102,14 +108,20 @@ def llm_inference(text: str) -> str:
         "and an empty string for the text fields. Do not add any extra keys."
     )
     request_body: dict[str, Any] = {
-        "anthropic_version": "bedrock-2023-05-31",
-        "messages": [{"role": "user", "content": prompt}],
-        "max_tokens": 500,
+        "messages": [{"role": "user", "content": [{"text": prompt}]}],
+        # "max_tokens": 500,
     }
 
     response = invoke_llm(json.dumps(request_body), llm_model_id)
+    response_body = json.loads(response["body"].read())
+    # Handle Nova model response format
+    if "output" in response_body:
+        response_text = response_body["output"]["message"]["content"][0]["text"]
+    else:
+        response_text = response_body["content"][0]["text"]
+    
     response_vals = (
-        json.loads(response["body"].read())["content"][0]["text"],
+        response_text,
         json.loads(
             response["ResponseMetadata"]["HTTPHeaders"][
                 "x-amzn-bedrock-input-token-count"
