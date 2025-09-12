@@ -4,7 +4,7 @@ import sys
 from typing import Any
 from xml.etree import ElementTree as ET
 
-from bedrock import invoke_llm
+from bedrock import invoke_llm, lite_model_id
 from lxml import etree  # type: ignore
 from vectoring import SCHEMA_TYPE
 
@@ -50,16 +50,19 @@ def llm_transform_data_to_json(data: str, schema: dict[str, Any]) -> dict[str, A
     prompt += "\n\nTransform the data into a JSON object that follows the schema above. Return the JSON table inside th XML tags <table>...</table>."
 
     request_body = {  # type: ignore
-        "anthropic_version": "bedrock-2023-05-31",
-        "messages": [{"role": "user", "content": prompt}],
-        "max_tokens": 1000,
+        "messages": [{"role": "user", "content": [{"text": prompt}]}],
+        # "max_tokens": 1000,
     }
 
     response = invoke_llm(
-        json.dumps(request_body), "anthropic.claude-3-haiku-20240307-v1:0"
+        json.dumps(request_body), lite_model_id
     )
     response_body = json.loads(response["body"].read())  # type: ignore
-    response_text = response_body["content"][0]["text"]
+    # Handle Nova model response format
+    if "output" in response_body:
+        response_text = response_body["output"]["message"]["content"][0]["text"]
+    else:
+        response_text = response_body["content"][0]["text"]
 
     response_table = response_text.split("<table>")[1].split("</table>")[0]
     try:

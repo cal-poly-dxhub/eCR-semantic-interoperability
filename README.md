@@ -129,7 +129,7 @@ python src/test.py <path_to_new_hl7_xml_ecr>
 - **Document Chunking:** Splits the new document and creates embeddings.
 - **Similarity Matching:** For each chunk, finds the most similar reference chunk.
 - **Additive Scoring:** Calculates additional similarity scores across multiple categories to provide a more comprehensive view of the document's content classification.
-- **Information Extraction:** Uses Claude AI to extract key clinical details from each section.
+- **Information Extraction:** Uses Amazon Nova AI to extract key clinical details from each section.
 - **Output Generation:** Produces a structured XML file with the findings, primary and additive similarity scores.
 
 ### Terminal Output Example
@@ -174,7 +174,7 @@ The final output is saved as `out/xml_source_inference.xml` and contains the fol
 - The original text from your input document.
 - The corresponding matching text from the reference document.
 - Detailed additive similarity scores showing additional category matches and their relevance.
-- Claude's inference of key clinical information, including:
+- Amazon Nova's inference of key clinical information, including:
   - **Pregnancy status** with reasoning.
   - **Travel history** with locations, dates, and reasoning.
   - **Occupation information** with job details and reasoning.
@@ -211,17 +211,35 @@ The final output is saved as `out/xml_source_inference.xml` and contains the fol
 ### Before We Get Started
 
 - Request and ensure model access within AWS Bedrock, specifically:
-  - Claude 3.5 Sonnet V2
-  - Claude 3 Haiku
+  - Amazon Nova Pro
+  - Amazon Nova Lite
   - Titan Embeddings V2
 
 The corresponding model IDs are:
 
 ```
-anthropic.claude-3-5-sonnet-20241022-v2:0
-anthropic.claude-3-haiku-20240307-v1:0
+amazon.nova-lite-v1:0
+amazon.nova-pro-v1:0
 amazon.titan-embed-text-v2:0
 ```
+
+### Setting Up Nova Inference Profiles (Recommended)
+
+For better performance and cost optimization, we recommend setting up inference profiles for Nova models:
+
+1. **Create Inference Profiles in AWS Bedrock Console:**
+
+   - Navigate to AWS Bedrock Console
+   - Go to "Inference profiles" section
+   - Create profiles for Nova Pro and Nova Lite models
+   - Note the ARNs of your created inference profiles
+
+2. **Add Inference Profile ARNs to Environment Variables:**
+   - Add the following variables to your `.env` file:
+   ```
+   NOVA_PRO_INFERENCE_PROFILE_ARN=arn:aws:bedrock:us-west-2:YOUR_ACCOUNT:inference-profile/YOUR_NOVA_PRO_PROFILE
+   NOVA_LITE_INFERENCE_PROFILE_ARN=arn:aws:bedrock:us-west-2:YOUR_ACCOUNT:inference-profile/YOUR_NOVA_LITE_PROFILE
+   ```
 
 ### Schema Configuration (Required)
 
@@ -310,7 +328,10 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
-- Add your AWS credentials to the .env file under the appropriate variable names
+- Add your AWS credentials and Nova inference profile ARNs to the .env file:
+  - AWS credentials (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_SESSION_TOKEN)
+  - Nova inference profile ARNs (NOVA_PRO_INFERENCE_PROFILE_ARN, NOVA_LITE_INFERENCE_PROFILE_ARN)
+  - If inference profile ARNs are not provided, the system will use base model IDs
 
 ### 7. Run the embeddings pipeline on eCRs to create a dataset (required):
 
