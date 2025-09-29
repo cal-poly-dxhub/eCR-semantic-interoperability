@@ -1,9 +1,10 @@
 import json
 import os
+import re
 import sys
 import xml.etree.ElementTree as ET
+from datetime import datetime
 from typing import Any
-import re
 
 import lxml
 import numpy as np
@@ -14,8 +15,6 @@ from chunky import extract_relevant_chunks_file
 from pathy import embedding_to_source_xml, get_xml_element
 from transform import tree_to_string
 from vectoring import get_bedrock_embeddings
-
-from datetime import datetime
 
 tempext = "temp/"
 outext = "out/"
@@ -238,8 +237,8 @@ if __name__ == "__main__":
 
     """below is the additive code"""
     inferences: list[str] = []
+    print(document_with_similarities)
     for i, s in enumerate(document_with_similarities):
-        print(f"chunk {i + 1} / {len(document_with_similarities)}:")
         embed_section_path = s["existing_file"]["path"].split(".section.")[0]
         test_section_path = s["test_file"]["path"].split(".section.")[0]
         embed_xml = embedding_to_source_xml(s["existing_file"]["file"])
@@ -264,7 +263,7 @@ if __name__ == "__main__":
 
         print("------------------------------------------------------------\n")
 
-        # Get the elements for the XML output
+        # Get the elements for the XML output]
         embed_el: Any = get_xml_element(embed_xml, embed_section_path)
         test_el: Any = get_xml_element(s["test_file"]["file"], test_section_path)
         text = tree_to_string(test_el)
