@@ -310,7 +310,19 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
-- Add your AWS credentials to the .env file under the appropriate variable names
+- Edit your .env file to include the following variables:
+
+```bash
+AWS_ACCESS_KEY_ID = ""
+AWS_SECRET_ACCESS_KEY = ""
+```
+
+- These variables are required to authenticate with AWS services. You can obtain them from your AWS account.
+
+  - AWS Console > IAM > Users > YourUser > Security credentials > Access keys
+  - If you don't have an access key, create a new one and download the credentials.
+    - Create access key > CLI > add a description > download the .csv credentials
+    - Paste the values into the .env file
 
 ### 7. Run the embeddings pipeline on eCRs to create a dataset (required):
 
