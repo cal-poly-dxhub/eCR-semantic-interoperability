@@ -111,6 +111,7 @@ python src/embed.py <path_to_hl7_xml_ecr>
 
 **This process performs the following actions:**
 
+- **Preprocessing:** Automatically resolves XML reference elements (e.g., `<reference value="#immunization13"/>`) by replacing them with the actual referenced content. The preprocessed file is saved in `out/<filename>_preprocessed.xml`.
 - **Chunking:** Splits XML healthcare documents into logical sections.
 - **Embedding:** Creates vector embeddings for each chunk using AWS Bedrock's Titan embedding model.
 - **Categorization:** Classifies each chunk (e.g., "eICR Composition", "eICR Encounter") using the categories defined in `<SCHEMA_TYPE>_schema.json`.
@@ -126,6 +127,7 @@ python src/test.py <path_to_new_hl7_xml_ecr>
 
 **This process includes:**
 
+- **Preprocessing:** Automatically resolves XML reference elements by replacing them with actual referenced content. The preprocessed file is saved in `out/<filename>_preprocessed.xml`.
 - **Document Chunking:** Splits the new document and creates embeddings.
 - **Similarity Matching:** For each chunk, finds the most similar reference chunk.
 - **Additive Scoring:** Calculates additional similarity scores across multiple categories to provide a more comprehensive view of the document's content classification.
@@ -328,6 +330,7 @@ python src/embed.py <path_to_hl7_xml_ecr>
 ```
 
 - After running this command, the generated embedding will be saved in the embeddings/ directory under the corresponding file path.
+- A preprocessed version of the file (with references resolved) will be saved in `out/<filename>_preprocessed.xml`.
 
 ### 8. Run the following command to classify and extract information from an eCR:
 
@@ -345,6 +348,7 @@ python src/test.py <path_to_new_hl7_xml_ecr>
 ```
 
 - The final classified XML output file, xml_source_inference.xml, will be saved in the out/ directory.
+- A preprocessed version of the file (with references resolved) will be saved in `out/<filename>_preprocessed.xml`.
 
 ## Recommended Customer Workflow
 

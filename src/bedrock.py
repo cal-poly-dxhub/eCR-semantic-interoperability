@@ -1,41 +1,17 @@
 import json
-import os
 import time
 from typing import Any
-from dotenv import load_dotenv
-
-load_dotenv()
-
-
 import boto3
 
 embedding_model_id = "amazon.titan-embed-text-v2:0"
-llm_model_id = "anthropic.claude-3-5-sonnet-20241022-v2:0"
-client = boto3.client(  # type: ignore
-    "bedrock-runtime",
-    region_name="us-west-2",
-    aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
-    aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
-    aws_session_token=os.getenv("AWS_SESSION_TOKEN"),
-    # config=boto3.config.Config(retries={"max_attempts": 10}),  # type: ignore
-)
-bedrock = boto3.client(  # type: ignore
-    "bedrock",
-    region_name="us-west-2",
-    aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
-    aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
-    aws_session_token=os.getenv("AWS_SESSION_TOKEN"),
-    # config=boto3.config.Config(retries={"max_attempts": 10}),  # type: ignore
-)
+llm_model_id = "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+lite_model_id = "amazon.nova-2-lite-v1:0"
+
+client = boto3.client("bedrock-runtime", region_name="us-west-2")  # type: ignore
+bedrock = boto3.client("bedrock", region_name="us-west-2")  # type: ignore
 
 
 def test_bedrock():
-    aws_access_key_id = os.getenv("AWS_ACCESS_KEY_ID")
-    aws_secret_access_key = os.getenv("AWS_SECRET_ACCESS_KEY")
-    aws_session_token = (os.getenv("AWS_SESSION_TOKEN"),)
-    print("aws_access_key_id:", aws_access_key_id)
-    print("aws_secret_access_key:", aws_secret_access_key)
-    print("aws_session_token:", aws_session_token)
     response = bedrock.list_foundation_models()  # type: ignore
     summarries = response["modelSummaries"]  # type: ignore
     for model in summarries:  # type: ignore
@@ -71,6 +47,7 @@ def invoke_embedding(body: Any, retries: int = 0) -> Any:
             )
         print(e)
         exit(1)
+
 
 def llm_inference(text: str) -> str:
     """
