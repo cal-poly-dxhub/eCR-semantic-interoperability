@@ -306,13 +306,45 @@ pip install -r requirements.txt
 
 ### 6. Set environment variables:
 
-- Create a .env file to store your environment variables
+**AWS Credentials Configuration**
+
+The system uses boto3 to access AWS Bedrock services. You need to configure AWS credentials using one of these methods:
+
+**Option 1: AWS Identity Center (Recommended)**
+
+1. Log in to AWS Identity Center in your browser
+2. Select your account and role
+3. Click "Command line or programmatic access"
+4. Copy the environment variables shown
+5. Paste them into your terminal:
+
+```bash
+export AWS_ACCESS_KEY_ID="..."
+export AWS_SECRET_ACCESS_KEY="..."
+export AWS_SESSION_TOKEN="..."
+```
+
+**Option 2: AWS CLI Profile**
+
+If you have an AWS CLI profile configured:
+
+```bash
+aws configure export-credentials --profile MY_PROFILE --format env 2>&1
+```
+
+Copy the output and paste into your terminal.
+
+**Option 3: Environment File (Not Recommended for Production)**
+
+- Create a .env file to store your environment variables:
 
 ```bash
 cp .env.example .env
 ```
 
 - Add your AWS credentials to the .env file under the appropriate variable names
+
+**Note:** Credentials from Identity Center or CLI profiles are temporary and will expire. You'll need to refresh them periodically.
 
 ### 7. Run the embeddings pipeline on eCRs to create a dataset (required):
 
