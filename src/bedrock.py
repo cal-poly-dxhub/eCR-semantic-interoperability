@@ -1,14 +1,39 @@
 import json
+import os
 import time
 from typing import Any
 import boto3
+from dotenv import load_dotenv
+
+load_dotenv()
 
 embedding_model_id = "amazon.titan-embed-text-v2:0"
 llm_model_id = "us.anthropic.claude-haiku-4-5-20251001-v1:0"
 lite_model_id = "amazon.nova-2-lite-v1:0"
 
-client = boto3.client("bedrock-runtime", region_name="us-west-2")  # type: ignore
-bedrock = boto3.client("bedrock", region_name="us-west-2")  # type: ignore
+# Support both .env file and default boto3 credential chain
+aws_access_key_id = os.getenv("AWS_ACCESS_KEY_ID")
+aws_secret_access_key = os.getenv("AWS_SECRET_ACCESS_KEY")
+aws_session_token = os.getenv("AWS_SESSION_TOKEN")
+
+if aws_access_key_id and aws_secret_access_key:
+    client = boto3.client(
+        "bedrock-runtime",
+        region_name="us-west-2",
+        aws_access_key_id=aws_access_key_id,
+        aws_secret_access_key=aws_secret_access_key,
+        aws_session_token=aws_session_token,
+    )  # type: ignore
+    bedrock = boto3.client(
+        "bedrock",
+        region_name="us-west-2",
+        aws_access_key_id=aws_access_key_id,
+        aws_secret_access_key=aws_secret_access_key,
+        aws_session_token=aws_session_token,
+    )  # type: ignore
+else:
+    client = boto3.client("bedrock-runtime", region_name="us-west-2")  # type: ignore
+    bedrock = boto3.client("bedrock", region_name="us-west-2")  # type: ignore
 
 
 def test_bedrock():
