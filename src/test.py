@@ -10,8 +10,9 @@ import numpy as np
 from lxml import etree
 
 from bedrock import llm_inference
-from chunky import extract_relevant_chunks_file
+from chunky import extract_relevant_chunks_file, extract_relevant_chunks
 from pathy import embedding_to_source_xml, get_xml_element
+from preprocess import resolve_references
 from transform import tree_to_string
 from vectoring import get_bedrock_embeddings
 
@@ -131,7 +132,18 @@ if __name__ == "__main__":
     cleanup()
     file = sys.argv[1]
 
-    chunks = extract_relevant_chunks_file(file)
+    # Preprocess: resolve references
+    print("Preprocessing: resolving references...")
+    resolved_tree = resolve_references(file)
+    
+    # Save preprocessed file
+    import os
+    preprocessed_path = os.path.join("out", os.path.basename(file).replace(".xml", "_preprocessed.xml"))
+    resolved_tree.write(preprocessed_path, encoding="utf-8", xml_declaration=True)
+    print(f"Saved preprocessed file: {preprocessed_path}")
+    
+    # Extract chunks from resolved tree
+    chunks = extract_relevant_chunks(resolved_tree)
     with open("temp/chunks.json", "w") as f:
         json.dump(chunks, f)
 
