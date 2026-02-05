@@ -49,7 +49,7 @@ def invoke_embedding(body: Any, retries: int = 0) -> Any:
         exit(1)
 
 
-def llm_inference(text: str) -> str:
+def llm_inference(text: str) -> tuple[str, int, int]:
     """
     llm inference on 3 questions:
     1. is the patient pregnant?
