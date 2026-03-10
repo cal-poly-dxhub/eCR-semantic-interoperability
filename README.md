@@ -48,6 +48,8 @@ All work produced is open source. More information can be found in the GitHub re
   - [Step 1: Generate Reference Embeddings](#step-1-generate-reference-embeddings)
   - [Step 2: Classify and Extract Information](#step-2-classify-and-extract-information)
   - [Final Output Details](#final-output-details)
+- [Preprocessing Only](#preprocessing-only)
+- [Tagging Only (No Categorization)](#tagging-only-no-categorization)
 - [Steps to Deploy and Configure the System](#steps-to-deploy-and-configure-the-system)
   - [Before We Get Started](#before-we-get-started)
   - [1. Deploy an EC2 Instance](#1-deploy-an-ec2-instance)
@@ -62,6 +64,7 @@ All work produced is open source. More information can be found in the GitHub re
   - [Concept Classification Workflow](#concept-classification-workflow)
   - [Soft Attribute Inference Workflow](#soft-attribute-inference-workflow)
 - [Customizing LLM Soft Attribute Prompt](#customizing-llm-soft-attribute-prompt)
+- [Changing Models](#changing-models)
 - [Known Bugs/Concerns](#known-bugsconcerns)
 - [Support](#support)
 
@@ -208,22 +211,66 @@ The final output is saved as `out/xml_source_inference.xml` and contains the fol
 </eICR_Encounter>
 ```
 
+## Preprocessing Only
+
+If you only need to resolve XML references without running embeddings, categorization, or LLM inference, you can run the preprocessing script directly:
+
+```bash
+python src/preprocess.py <path_to_hl7_xml_ecr>
+```
+
+**This process performs the following actions:**
+
+- **Reference Resolution:** Replaces `<reference value="#someId"/>` elements with the actual referenced content from elsewhere in the document.
+- **Namespace Cleanup:** Removes `ns0:` namespace prefixes from element tags for cleaner output.
+- **Format Preservation:** Maintains the original file's XML declaration, `xmlns` attributes, indentation, and self-closing tag style so the output can be meaningfully diffed against the original.
+
+The preprocessed file is saved to `out/<filename>_preprocessed.xml`. You can then diff the original and preprocessed files to see exactly which references were resolved:
+
+```bash
+diff out/<filename>_preprocessed.xml <path_to_original_file>
+```
+
+## Tagging Only (No Categorization)
+
+If you want to run LLM inference (extracting pregnancy status, travel history, and occupation) without needing the embedding/categorization pipeline, use the tagging script:
+
+```bash
+python src/tag.py <path_to_hl7_xml_ecr>
+```
+
+This script does **not** require any embedding data in the `embeddings/` directory. It skips the similarity matching and categorization steps entirely.
+
+**This process includes:**
+
+- **Preprocessing:** Resolves XML references and saves the preprocessed file to `out/<filename>_preprocessed.xml`.
+- **Chunking:** Splits the document into logical sections (text and table elements).
+- **Deduplication:** Removes duplicate chunks.
+- **LLM Inference:** Uses Claude to extract pregnancy status, travel history, and occupation from each non-table chunk.
+- **Output Generation:** Saves results to `out/xml_tagging_inference.xml`.
+
+This is useful when you primarily need the soft attribute extraction and don't need to classify sections against a reference dataset.
+
 ## Steps to Deploy and Configure the System
 
 ### Before We Get Started
 
-- Request and ensure model access within AWS Bedrock, specifically:
-  - Claude 3.5 Sonnet V2
-  - Claude 3 Haiku
-  - Titan Embeddings V2
+- Request and ensure model access within AWS Bedrock. The following models are used by the system:
+  - **Claude Haiku 4.5** — used for soft attribute inference and chunk categorization
+  - **Amazon Nova Lite** — available as an alternative LLM
+  - **Titan Embeddings V2** — used for generating vector embeddings
 
-The corresponding model IDs are:
+The corresponding model IDs (defined in `src/bedrock.py`) are:
 
 ```
-anthropic.claude-3-5-sonnet-20241022-v2:0
-anthropic.claude-3-haiku-20240307-v1:0
+us.anthropic.claude-haiku-4-5-20251001-v1:0
+amazon.nova-2-lite-v1:0
 amazon.titan-embed-text-v2:0
 ```
+
+**Enabling Anthropic models:** Anthropic models on Bedrock require a one-time End User License Agreement (EULA) acceptance. In the AWS Console, go to **Amazon Bedrock > Model access**, find the Anthropic models listed above, and click **Request model access**. You will be prompted to review and accept the EULA. This only needs to be done once per account/region. Amazon models (Titan, Nova) do not require this step.
+
+To change which models are used, see [Changing Models](#changing-models).
 
 ### Schema Configuration (Required)
 
@@ -271,7 +318,7 @@ A **minimal** example looks like:
 
 - CDK will require Administrator Permissions
 
-- Normal operation will require AmazonBedrockFullAccess and AmazonS3FullAccess
+- Normal operation will require AmazonBedrockFullAccess
 
 - Additional settings: **t2.medium** (or larger) and security group to allow SSH traffic. We also reccomend having **at least 15 GB** of storage to account for large files.
 
@@ -287,8 +334,10 @@ A **minimal** example looks like:
 ### 3. Create a virtual environment:
 
 ```bash
-python3.9 -m venv .venv
+python3 -m venv .venv
 ```
+
+Requires Python 3.9 or later.
 
 ### 4. Activate the virtual environment:
 
@@ -382,6 +431,8 @@ python src/test.py <path_to_new_hl7_xml_ecr>
 - The final classified XML output file, xml_source_inference.xml, will be saved in the out/ directory.
 - A preprocessed version of the file (with references resolved) will be saved in `out/<filename>_preprocessed.xml`.
 
+**Alternative:** If you only need LLM inference (tagging) without categorization, you can skip step 7 and run `python src/tag.py <path_to_hl7_xml_ecr>` instead. See [Tagging Only](#tagging-only-no-categorization) for details.
+
 ## Recommended Customer Workflow
 
 For optimal results, we recommend following a structured approach to implementing and fine-tuning the system. The workflow consists of two primary phases: Concept Classification and Soft Attribute Inference.
@@ -419,7 +470,7 @@ This phase focuses on setting up and validating the system's ability to correctl
 
 ### Customizing Classification Schema
 
-The default schema used to determine the classification categories (e.g., eICR Encounter, eICR Lab Orders) is defined in the `src/public/hl7_schema.json`.
+The default schema used to determine the classification categories (e.g., eICR Encounter, eICR Lab Orders) is defined in the `src/assets/hl7_schema.json`.
 
 This file lists the possible categories such as:
 
@@ -442,11 +493,11 @@ You may want to modify the schema if:
 
 #### Where to Modify
 
-Open `src/public/hl7_schema.json`. You can everything in the **properties** attribute. Note: the schema must follow the guidelines defined here: [json-schema.org](http://json-schema.org/draft-07/schema#).
+Open `src/assets/hl7_schema.json`. You can everything in the **properties** attribute. Note: the schema must follow the guidelines defined here: [json-schema.org](http://json-schema.org/draft-07/schema#).
 
 #### Example: Adding a Field for Education
 
-If you'd like to add a new category such as education, you'll need to update the **properties** attribute in `src/public/hl7_schema.json`. Here's an example of what you might add:
+If you'd like to add a new category such as education, you'll need to update the **properties** attribute in `src/assets/hl7_schema.json`. Here's an example of what you might add:
 
 ```json
 "Education History": {
@@ -457,7 +508,7 @@ If you'd like to add a new category such as education, you'll need to update the
 }
 ```
 
-You would append this block inside the **properties** attribute in `src/public/hl7_schema.json` alongside the other categories.
+You would append this block inside the **properties** attribute in `src/assets/hl7_schema.json` alongside the other categories.
 
 #### Optional: Create another schema
 
@@ -465,7 +516,7 @@ You also have the ability to create another schema file. This could be useful fo
 
 1. **Create a new schema file**
 
-- First create another schema file in `src/public/` ending in `_schema.json`. This file should follow the same schema guidelines as defined here: [json-schema.org](http://json-schema.org/draft-07/schema#). All categores should be inside the highest-level **properties** attribute.
+- First create another schema file in `src/assets/` ending in `_schema.json`. This file should follow the same schema guidelines as defined here: [json-schema.org](http://json-schema.org/draft-07/schema#). All categores should be inside the highest-level **properties** attribute.
 
 2. **Modify the variable pointing to the current schema**
 
@@ -560,6 +611,35 @@ If you modify the prompt's structure:
 
 - **(Possibly Optional) Review and update any Python XML parsing logic if necessary** (e.g., in `test.py`) — If your downstream code relies on a specific XML structure, ensure it is compatible with your updated prompt. In many cases, minor additions to the prompt won't break parsing logic, but significant structural changes might require updates.
 - **Communicate the updated fields to your validation team** so they can adjust the golden template and business rules
+
+## Changing Models
+
+If you cannot access certain models or want to try different ones, the model IDs are configured in two files:
+
+### `src/bedrock.py`
+
+At the top of the file you'll find three model ID variables:
+
+```python
+embedding_model_id = "amazon.titan-embed-text-v2:0"
+llm_model_id = "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+lite_model_id = "amazon.nova-2-lite-v1:0"
+```
+
+- **`embedding_model_id`** — Used by `embed.py` and `test.py` to generate vector embeddings. Replace with any Bedrock embedding model ID.
+- **`llm_model_id`** — Used by `test.py` and `tag.py` for soft attribute inference (pregnancy, travel, occupation). Replace with any Bedrock-hosted Anthropic model ID.
+- **`lite_model_id`** — Available as a lighter/cheaper alternative LLM.
+
+### `src/vectoring.py`
+
+The `get_category()` function (used during embedding for chunk categorization) imports and uses `llm_model_id` from `bedrock.py`, so changing the model in `bedrock.py` will also change the categorization model.
+
+### Notes
+
+- Anthropic models on Bedrock require a one-time EULA acceptance in the AWS Console (see [Before We Get Started](#before-we-get-started)).
+- If switching embedding models, you **must re-embed all documents** since different models produce incompatible vector spaces.
+- Switching LLM models does not require re-embedding.
+- Make sure the model you choose is available in your configured AWS region (`us-west-2` by default, set in `bedrock.py`).
 
 ## Known Bugs/Concerns
 

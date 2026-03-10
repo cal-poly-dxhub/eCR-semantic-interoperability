@@ -12,7 +12,7 @@ from lxml import etree
 from bedrock import llm_inference
 from chunky import extract_relevant_chunks_file, extract_relevant_chunks
 from pathy import embedding_to_source_xml, get_xml_element
-from preprocess import resolve_references
+from preprocess import resolve_references, strip_namespaces, write_preprocessed_file
 from transform import tree_to_string
 from vectoring import get_bedrock_embeddings
 
@@ -135,11 +135,11 @@ if __name__ == "__main__":
     # Preprocess: resolve references
     print("Preprocessing: resolving references...")
     resolved_tree = resolve_references(file)
-    
-    # Save preprocessed file
-    import os
+    strip_namespaces(resolved_tree)
+
+    # Save preprocessed file (no XML declaration, no namespace prefixes)
     preprocessed_path = os.path.join("out", os.path.basename(file).replace(".xml", "_preprocessed.xml"))
-    resolved_tree.write(preprocessed_path, encoding="utf-8", xml_declaration=True)
+    write_preprocessed_file(resolved_tree, preprocessed_path, file)
     print(f"Saved preprocessed file: {preprocessed_path}")
     
     # Extract chunks from resolved tree
@@ -276,9 +276,9 @@ if __name__ == "__main__":
 
         print("------------------------------------------------------------\n")
 
-        # Get the elements for the XML output
+        # Get the elements for the XML output (use preprocessed file so resolved references are included)
         embed_el: Any = get_xml_element(embed_xml, embed_section_path)
-        test_el: Any = get_xml_element(s["test_file"]["file"], test_section_path)
+        test_el: Any = get_xml_element(preprocessed_path, test_section_path)
         text = tree_to_string(test_el)
         test_el_string = etree.tostring(test_el, encoding="unicode")
 
@@ -343,7 +343,7 @@ if __name__ == "__main__":
 
         xml = (
             f"<{s['category'].replace(' ', '_')} similarity=\"{s['similarity']}\" additive_top_category=\"{s['additive_top_category']}\" additive_top_score=\"{s['additive_top_score']}\">\n"
-            f"  <testSource filePath=\"{s['test_file']['file']}\" elementPath=\"{test_section_path}\">\n"
+            f"  <testSource filePath=\"{preprocessed_path}\" elementPath=\"{test_section_path}\">\n"
             + text
             + f"\n  </testSource>\n"
             f'  <embeddedSource filePath="{embed_xml}" elementPath="{embed_section_path}">\n'
