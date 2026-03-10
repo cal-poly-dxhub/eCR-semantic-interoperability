@@ -4,6 +4,13 @@ from typing import Any
 from lxml import etree  # type: ignore
 
 
+def get_local_tag(tag: Any) -> str:
+    """Get the local name of a tag, stripping any namespace URI."""
+    if isinstance(tag, str) and '}' in tag:
+        return tag.split('}', 1)[1]
+    return tag if isinstance(tag, str) else ""
+
+
 def get_xml_element(filepath: str, path: str) -> Any:  # etree.Element
     """
     parses an xml file and returns the element at the given path
@@ -14,7 +21,7 @@ def get_xml_element(filepath: str, path: str) -> Any:  # etree.Element
     path_parts = path.split(".")
     for part in path_parts:
         # skip processing comments
-        tags = [child.tag[16:] if isinstance(child.tag, str) else "" for child in element]  # type: ignore
+        tags = [get_local_tag(child.tag) for child in element]  # type: ignore
         if part in tags:
             element = element[tags.index(part)]  # type: ignore
 

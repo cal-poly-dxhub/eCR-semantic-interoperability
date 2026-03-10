@@ -2,7 +2,7 @@ import json
 import re
 from typing import Any
 
-from bedrock import invoke_embedding, invoke_llm
+from bedrock import invoke_embedding, invoke_llm, llm_model_id
 
 # choose schema type here
 SCHEMA_TYPE = "hl7"
@@ -40,7 +40,7 @@ def get_category(text: str) -> str:
     }
 
     response = invoke_llm(
-        json.dumps(request_body), "anthropic.claude-3-haiku-20240307-v1:0"
+        json.dumps(request_body), llm_model_id
     )
     response_body = json.loads(response["body"].read())  # type: ignore
     response_text = response_body["content"][0]["text"]
