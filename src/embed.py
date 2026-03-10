@@ -3,7 +3,7 @@ import os
 import sys
 
 from chunky import extract_relevant_chunks_file, extract_relevant_chunks
-from preprocess import resolve_references
+from preprocess import resolve_references, strip_namespaces, write_preprocessed_file
 from vectoring import get_bedrock_embeddings_with_category
 from test import normalize_text
 
@@ -28,12 +28,12 @@ if __name__ == "__main__":
     # Preprocess: resolve references
     print("Preprocessing: resolving references...")
     resolved_tree = resolve_references(file)
-    
-    # Save preprocessed file
-    import os
+    strip_namespaces(resolved_tree)
+
+    # Save preprocessed file (no XML declaration, no namespace prefixes)
     preprocessed_path = os.path.join("out", os.path.basename(file).replace(".xml", "_preprocessed.xml"))
     os.makedirs("out", exist_ok=True)
-    resolved_tree.write(preprocessed_path, encoding="utf-8", xml_declaration=True)
+    write_preprocessed_file(resolved_tree, preprocessed_path, file)
     print(f"Saved preprocessed file: {preprocessed_path}")
     
     # Extract chunks from resolved tree
