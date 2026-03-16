@@ -8,8 +8,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 embedding_model_id = "amazon.titan-embed-text-v2:0"
-llm_model_id = "us.anthropic.claude-haiku-4-5-20251001-v1:0"
-lite_model_id = "amazon.nova-2-lite-v1:0"
+llm_model_id = os.getenv("LLM_MODEL_ID", "us.anthropic.claude-haiku-4-5-20251001-v1:0")
+lite_model_id = os.getenv("LITE_MODEL_ID", "amazon.nova-2-lite-v1:0")
 
 # Support both .env file and default boto3 credential chain
 aws_access_key_id = os.getenv("AWS_ACCESS_KEY_ID")

@@ -614,7 +614,18 @@ If you modify the prompt's structure:
 
 ## Changing Models
 
-If you cannot access certain models or want to try different ones, the model IDs are configured in two files:
+If you cannot access certain models or want to try different ones, the model IDs can be configured via environment variables or directly in `src/bedrock.py`.
+
+### Environment Variables (Recommended)
+
+Add the following to your `.env` file to override the default models:
+
+```bash
+LLM_MODEL_ID="us.anthropic.claude-haiku-4-5-20251001-v1:0"
+LITE_MODEL_ID="amazon.nova-2-lite-v1:0"
+```
+
+If not set, the system falls back to the defaults defined in `src/bedrock.py`.
 
 ### `src/bedrock.py`
 
@@ -622,13 +633,13 @@ At the top of the file you'll find three model ID variables:
 
 ```python
 embedding_model_id = "amazon.titan-embed-text-v2:0"
-llm_model_id = "us.anthropic.claude-haiku-4-5-20251001-v1:0"
-lite_model_id = "amazon.nova-2-lite-v1:0"
+llm_model_id = os.getenv("LLM_MODEL_ID", "us.anthropic.claude-haiku-4-5-20251001-v1:0")
+lite_model_id = os.getenv("LITE_MODEL_ID", "amazon.nova-2-lite-v1:0")
 ```
 
 - **`embedding_model_id`** — Used by `embed.py` and `test.py` to generate vector embeddings. Replace with any Bedrock embedding model ID.
-- **`llm_model_id`** — Used by `test.py` and `tag.py` for soft attribute inference (pregnancy, travel, occupation). Replace with any Bedrock-hosted Anthropic model ID.
-- **`lite_model_id`** — Available as a lighter/cheaper alternative LLM.
+- **`llm_model_id`** — Used by `test.py` and `tag.py` for soft attribute inference (pregnancy, travel, occupation). Configurable via `LLM_MODEL_ID` env var.
+- **`lite_model_id`** — Available as a lighter/cheaper alternative LLM. Configurable via `LITE_MODEL_ID` env var.
 
 ### `src/vectoring.py`
 
